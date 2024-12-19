@@ -1,0 +1,718 @@
+{
+   "nmat2272_fig1.jpg": {
+      "title": "The donor\u2013acceptor approach allows a\u00a0black-to-transmissive switching polymeric electrochrome | Nature Materials",
+      "article_name": "nmat2272",
+      "image_url": "https://www.nature.com/articles/nmat2272",
+      "figure_name": "nmat2272_fig1.jpg",
+      "full_caption": "a, Molecular structure of M1, M2, M3, M4, P1, P2, P3 and control polymer P4. b, Solution optical absorbance spectra of polymers P1, P2, P3 and control polymer P4 in toluene (spectrum of each system is normalized at the longer wavelength absorption maximum). The legend specifies the values of the respective absorption maxima for both high- and low-energy transitions. c, The colours obtained on polymerization of each system.",
+      "figure_path": "output\\figures\\nmat2272_fig1.jpg",
+      "master_images": [
+         {
+            "classification": "graph",
+            "confidence": 0.1469,
+            "height": 312.32916630231415,
+            "width": 387.9276596497152,
+            "geometry": [
+               {
+                  "x": 12,
+                  "y": 259
+               },
+               {
+                  "x": 12,
+                  "y": 571
+               },
+               {
+                  "x": 400,
+                  "y": 259
+               },
+               {
+                  "x": 400,
+                  "y": 571
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 265
+                  },
+                  {
+                     "x": 0,
+                     "y": 290
+                  },
+                  {
+                     "x": 16,
+                     "y": 265
+                  },
+                  {
+                     "x": 16,
+                     "y": 290
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Solution optical absorbance spectra of polymers P1, P2, P3 and control polymer P4 in toluene (spectrum of each system is normalized at the longer wavelength absorption maximum). The legend specifies the values of the respective absorption maxima for both high- and low-energy transitions",
+            "keywords": [
+               "Polymers",
+               "Absorbance Spectra",
+               "Toluene"
+            ]
+         },
+         {
+            "classification": "unclear",
+            "confidence": 0.1154,
+            "height": 191.03591955625097,
+            "width": 371.3086850175233,
+            "geometry": [
+               {
+                  "x": 23,
+                  "y": 585
+               },
+               {
+                  "x": 23,
+                  "y": 777
+               },
+               {
+                  "x": 394,
+                  "y": 585
+               },
+               {
+                  "x": 394,
+                  "y": 777
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 586
+                  },
+                  {
+                     "x": 0,
+                     "y": 604
+                  },
+                  {
+                     "x": 16,
+                     "y": 586
+                  },
+                  {
+                     "x": 16,
+                     "y": 604
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "The colours obtained on polymerization of each system",
+            "keywords": [
+               "Polymerization",
+               "Color",
+               "Materials"
+            ]
+         },
+         {
+            "classification": "parent",
+            "confidence": 0.1576,
+            "height": 242.57674642709583,
+            "width": 385.1979335891866,
+            "geometry": [
+               {
+                  "x": 14,
+                  "y": 13
+               },
+               {
+                  "x": 14,
+                  "y": 256
+               },
+               {
+                  "x": 400,
+                  "y": 13
+               },
+               {
+                  "x": 400,
+                  "y": 256
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 2
+                  },
+                  {
+                     "x": 0,
+                     "y": 18
+                  },
+                  {
+                     "x": 17,
+                     "y": 2
+                  },
+                  {
+                     "x": 17,
+                     "y": 18
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Molecular structure of M1, M2, M3, M4, P1, P2, P3 and control polymer P4",
+            "keywords": [
+               "Molecular structure",
+               "Polymers",
+               "Characterization"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "nmat2272_fig2.jpg": {
+      "title": "The donor\u2013acceptor approach allows a\u00a0black-to-transmissive switching polymeric electrochrome | Nature Materials",
+      "article_name": "nmat2272",
+      "image_url": "https://www.nature.com/articles/nmat2272",
+      "figure_name": "nmat2272_fig2.jpg",
+      "full_caption": "a, Molecular structure of M5, M6, M7, M8, P5, P6, P7 and control polymer P8. b, Solution optical absorbance spectra of polymers P5, P6, P7 and control polymer P8 in toluene (spectrum of each system is normalized at the longer wavelength absorption maximum). The legend specifies the values of the respective absorption maxima for both high- and low-energy transitions. c, The colours obtained on polymerization of each system.",
+      "figure_path": "output\\figures\\nmat2272_fig2.jpg",
+      "master_images": [
+         {
+            "classification": "microscopy",
+            "confidence": 0.0929,
+            "height": 183.2177628003634,
+            "width": 355.52955789768953,
+            "geometry": [
+               {
+                  "x": 32,
+                  "y": 698
+               },
+               {
+                  "x": 32,
+                  "y": 882
+               },
+               {
+                  "x": 387,
+                  "y": 698
+               },
+               {
+                  "x": 387,
+                  "y": 882
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 698
+                  },
+                  {
+                     "x": 0,
+                     "y": 720
+                  },
+                  {
+                     "x": 16,
+                     "y": 698
+                  },
+                  {
+                     "x": 16,
+                     "y": 720
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "The colours obtained on polymerization of each system",
+            "keywords": [
+               "Polymerization",
+               "Color",
+               "Materials"
+            ]
+         },
+         {
+            "classification": "graph",
+            "confidence": 0.1626,
+            "height": 306.8917544438289,
+            "width": 395.8246433988531,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 371
+               },
+               {
+                  "x": 0,
+                  "y": 678
+               },
+               {
+                  "x": 395,
+                  "y": 371
+               },
+               {
+                  "x": 395,
+                  "y": 678
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 372
+                  },
+                  {
+                     "x": 0,
+                     "y": 400
+                  },
+                  {
+                     "x": 18,
+                     "y": 372
+                  },
+                  {
+                     "x": 18,
+                     "y": 400
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Solution optical absorbance spectra of polymers P5, P6, P7 and control polymer P8 in toluene (spectrum of each system is normalized at the longer wavelength absorption maximum). The legend specifies the values of the respective absorption maxima for both high- and low-energy transitions",
+            "keywords": [
+               "Polymers",
+               "Absorbance Spectra",
+               "Toluene"
+            ]
+         },
+         {
+            "classification": "parent",
+            "confidence": 0.1571,
+            "height": 340.7519399202787,
+            "width": 377.7043768700133,
+            "geometry": [
+               {
+                  "x": 22,
+                  "y": 10
+               },
+               {
+                  "x": 22,
+                  "y": 351
+               },
+               {
+                  "x": 400,
+                  "y": 10
+               },
+               {
+                  "x": 400,
+                  "y": 351
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 1
+                  },
+                  {
+                     "x": 1,
+                     "y": 20
+                  },
+                  {
+                     "x": 20,
+                     "y": 1
+                  },
+                  {
+                     "x": 20,
+                     "y": 20
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Molecular structure of M5, M6, M7, M8, P5, P6, P7 and control polymer P8",
+            "keywords": [
+               "Molecular structure",
+               "Polymers",
+               "Characterization"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "nmat2272_fig3.jpg": {
+      "title": "The donor\u2013acceptor approach allows a\u00a0black-to-transmissive switching polymeric electrochrome | Nature Materials",
+      "article_name": "nmat2272",
+      "image_url": "https://www.nature.com/articles/nmat2272",
+      "figure_name": "nmat2272_fig3.jpg",
+      "full_caption": "a, Molecular structure of copolymer P9. b, Spectroelectrochemistry of polymer P9 with its respective bandgap as estimated from the onset of absorption. The film was spray-cast onto ITO-coated glass from solution (4\u2009mg\u2009ml\u22121) in toluene (absorption maximum=1.13\u2009a.u.). The applied potential was increased in 25\u2009mV steps: +0.04\u2009V\u21d2+0.74\u2009V. c, The colours of P9 obtained on electrochemical switching both in the neutral state (left) and on full oxidation (right).",
+      "figure_path": "output\\figures\\nmat2272_fig3.jpg",
+      "master_images": [
+         {
+            "classification": "graph",
+            "confidence": 0.1626,
+            "height": 310.95367831450244,
+            "width": 376.2928029432654,
+            "geometry": [
+               {
+                  "x": 16,
+                  "y": 244
+               },
+               {
+                  "x": 16,
+                  "y": 555
+               },
+               {
+                  "x": 393,
+                  "y": 244
+               },
+               {
+                  "x": 393,
+                  "y": 555
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 244
+                  },
+                  {
+                     "x": 1,
+                     "y": 267
+                  },
+                  {
+                     "x": 19,
+                     "y": 244
+                  },
+                  {
+                     "x": 19,
+                     "y": 267
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Spectroelectrochemistry of polymer P9 with its respective bandgap as estimated from the onset of absorption. The film was spray-cast onto ITO-coated glass from solution (4 mg ml-1) in toluene (absorption maximum=1.13 a.u.). The applied potential was increased in 25 mV steps: +0.04 V\u21d2+0.74 V",
+            "keywords": [
+               "Spectroelectrochemistry",
+               "Polymer P9",
+               "Bandgap"
+            ]
+         },
+         {
+            "classification": "illustration",
+            "confidence": 0.1036,
+            "height": 231.8375406723756,
+            "width": 363.7069294159425,
+            "geometry": [
+               {
+                  "x": 23,
+                  "y": 0
+               },
+               {
+                  "x": 23,
+                  "y": 231
+               },
+               {
+                  "x": 387,
+                  "y": 0
+               },
+               {
+                  "x": 387,
+                  "y": 231
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 2
+                  },
+                  {
+                     "x": 0,
+                     "y": 22
+                  },
+                  {
+                     "x": 18,
+                     "y": 2
+                  },
+                  {
+                     "x": 18,
+                     "y": 22
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Molecular structure of copolymer P9",
+            "keywords": [
+               "Copolymer",
+               "Molecular Structure",
+               "Characterization"
+            ]
+         },
+         {
+            "classification": "microscopy",
+            "confidence": 0.162,
+            "height": 315.81372099656323,
+            "width": 307.726920224766,
+            "geometry": [
+               {
+                  "x": 50,
+                  "y": 573
+               },
+               {
+                  "x": 50,
+                  "y": 889
+               },
+               {
+                  "x": 357,
+                  "y": 573
+               },
+               {
+                  "x": 357,
+                  "y": 889
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 576
+                  },
+                  {
+                     "x": 0,
+                     "y": 597
+                  },
+                  {
+                     "x": 15,
+                     "y": 576
+                  },
+                  {
+                     "x": 15,
+                     "y": 597
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "The colours of P9 obtained on electrochemical switching both in the neutral state (left) and on full oxidation (right)",
+            "keywords": [
+               "electrochromic materials",
+               "color switching",
+               "P9"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "nmat2272_fig4.jpg": {
+      "title": "The donor\u2013acceptor approach allows a\u00a0black-to-transmissive switching polymeric electrochrome | Nature Materials",
+      "article_name": "nmat2272",
+      "image_url": "https://www.nature.com/articles/nmat2272",
+      "figure_name": "nmat2272_fig4.jpg",
+      "full_caption": "a,\u00a0Relative luminance as a function of applied potential and film thickness for spray-coated P9. The legend indicates the absorbance of the deposited films (estimated at the absorption maximum) and gives an indication of the thickness obtained on spraying. For colour matching, L*a*b* values (in the sense of the Commission Internationale de l\u2019Eclairage 1976 L*a*b* colour model) of fully neutral and oxidized states are reported for the films. b,\u00a0Square-wave potential step absorptometry of P9 spray-coated on ITO and monitored at 636\u2009nm (left) and 428\u2009nm (right) in 0.1\u2009M LiBF4/PC solution, \u22120.6\u2009V to +0.7\u2009V versus Fc/Fc+. Switch times (\u03bd): 10\u2009s step for 40\u2009s (two cycles), 5\u2009s step for 30\u2009s (three cycles), 2\u2009s step for 20\u2009s (five cycles), then 1.75\u2009s step for 20\u2009s and 1.5\u2009s step for 20\u2009s from left to right.",
+      "figure_path": "output\\figures\\nmat2272_fig4.jpg",
+      "master_images": [
+         {
+            "classification": "graph",
+            "confidence": 0.1623,
+            "height": 291.32249285624573,
+            "width": 368.1975789152818,
+            "geometry": [
+               {
+                  "x": 23,
+                  "y": 646
+               },
+               {
+                  "x": 23,
+                  "y": 938
+               },
+               {
+                  "x": 391,
+                  "y": 646
+               },
+               {
+                  "x": 391,
+                  "y": 938
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 645
+                  },
+                  {
+                     "x": 1,
+                     "y": 669
+                  },
+                  {
+                     "x": 20,
+                     "y": 645
+                  },
+                  {
+                     "x": 20,
+                     "y": 669
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "graph",
+            "confidence": 0.1616,
+            "height": 312.23525872597327,
+            "width": 388.73961343930637,
+            "geometry": [
+               {
+                  "x": 11,
+                  "y": 320
+               },
+               {
+                  "x": 11,
+                  "y": 632
+               },
+               {
+                  "x": 400,
+                  "y": 320
+               },
+               {
+                  "x": 400,
+                  "y": 632
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 318
+                  },
+                  {
+                     "x": 0,
+                     "y": 344
+                  },
+                  {
+                     "x": 18,
+                     "y": 318
+                  },
+                  {
+                     "x": 18,
+                     "y": 344
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Square-wave potential step absorptometry of P9 spray-coated on ITO and monitored at 636 nm (left) and 428 nm (right) in 0.1 M LiBF4/PC solution, -0.6 V to +0.7 V versus Fc/Fc+. Switch times (\u03bd): 10 s step for 40 s (two cycles), 5 s step for 30 s (three cycles), 2 s step for 20 s (five cycles), then 1.75 s step for 20 s and 1.5 s step for 20 s from left to right.",
+            "keywords": [
+               "Square-wave potential step absorptometry",
+               "P9 spray-coated",
+               "LiBF4/PC solution"
+            ]
+         },
+         {
+            "classification": "graph",
+            "confidence": 0.1626,
+            "height": 315.39496218241175,
+            "width": 393.30775972046604,
+            "geometry": [
+               {
+                  "x": 6,
+                  "y": 0
+               },
+               {
+                  "x": 6,
+                  "y": 315
+               },
+               {
+                  "x": 400,
+                  "y": 0
+               },
+               {
+                  "x": 400,
+                  "y": 315
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 3,
+                     "y": 2
+                  },
+                  {
+                     "x": 3,
+                     "y": 18
+                  },
+                  {
+                     "x": 18,
+                     "y": 2
+                  },
+                  {
+                     "x": 18,
+                     "y": 18
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Relative luminance as a function of applied potential and film thickness for spray-coated P9. The legend indicates the absorbance of the deposited films (estimated at the absorption maximum) and gives an indication of the thickness obtained on spraying. For colour matching, L*a*b* values (in the sense of the Commission Internationale de l\u2019Eclairage 1976 L*a*b* colour model) of fully neutral and oxidized states are reported for the films.",
+            "keywords": [
+               "spray-coating",
+               "thin films",
+               "color matching"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   }
+}
