@@ -16,6 +16,7 @@ import bs4
 import numpy as np
 import requests
 from dateutil.relativedelta import relativedelta
+from matagen.scraping import paths_drop
 
 try:
     from selenium_stealth import stealth
@@ -32,7 +33,7 @@ except ImportError:
 
 from bs4 import BeautifulSoup
 
-from .utilities import paths_drop
+
 
 
 class JournalFamily(ABC):

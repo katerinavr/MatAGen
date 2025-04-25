@@ -1,4 +1,4 @@
-from matagen.exsclaim.pipeline import Pipeline
+from .pipeline import Pipeline
 
 def pdf_scraper_tool(pdf_file_path: str, output_dir:str, paper_name:str, api_key):
     """
