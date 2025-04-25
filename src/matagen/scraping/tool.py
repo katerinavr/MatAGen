@@ -1477,7 +1477,7 @@ class CaptionDistributor(ExsclaimTool):
         
 
     def _update_exsclaim(self,search_query,  exsclaim_dict, figure_name, delimiter, caption_dict):
-        from matagen.exsclaim import caption
+        from matagen.scraping import caption
         llm = search_query["llm"]
         api = search_query["openai_API"]
         exsclaim_dict[figure_name]["caption_delimiter"] = delimiter
