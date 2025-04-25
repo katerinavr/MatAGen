@@ -6,6 +6,8 @@ backup
 checkpoints
 src/matagen/exsclaim
 src/matagen/custom_tools_drop
+outputs
+data
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
