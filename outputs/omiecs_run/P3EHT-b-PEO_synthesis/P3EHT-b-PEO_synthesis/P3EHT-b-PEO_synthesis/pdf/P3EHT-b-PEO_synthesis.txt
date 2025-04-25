@@ -1,0 +1,541 @@
+Morphology and Thermodynamic Properties of a Copolymer with an
+Electronically Conducting Block: Poly(3-ethylhexylthiophene)-block-
+poly(ethylene oxide)
+Shrayesh N. Patel,†,‡,⊥Anna E. Javier,†,§,⊥Keith M. Beers,†,‡ John A. Pople,∥Victor Ho,†,‡
+Rachel A. Segalman,†,‡ and Nitash P. Balsara*,†,‡,§
+†Department of Chemical and Biomolecular Engineering, University of California, Berkeley, Berkeley, California 94720, United States
+‡Materials Sciences Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, United States
+§Environmental Energy Technologies Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, United States
+∥Stanford Synchrotron Radiation Laboratory, SLAC National Accelerator Laboratory, Stanford, California 94309, United States
+*
+S Supporting Information
+ABSTRACT: We report on the synthesis and morphology of
+a block copolymer, poly(3-(2′-ethylhexyl)thiophene)-b-poly-
+(ethylene oxide) (P3EHT-b-PEO), that conducts both
+electrons and ions. We show that in the melt state the
+P3EHT-b-PEO chains self-assemble to produce traditional
+nanoscale morphologies such as lamellae and gyroid. This is in
+contrast to a majority of previous studies on copolymers with
+electronically conducting blocks wherein a nanoﬁbrillar
+morphology is obtained. Our approach enables estimation of
+the Flory−Huggins interaction parameter, χ. The segregation
+strength between the two blocks is controlled through the
+addition of lithium bis(triﬂuoromethanesulfonyl)imide (LiTF-
+SI). For the salt-free sample, the gyroid morphology, obtained in the melt state, is transformed into lamellae below the melting
+temperature of the P3EHT block. This is due to the “breaking out” of the crystalline phase. For the salt-containing sample,
+P3EHT-b-PEO has a lamellar morphology in both melt and crystalline states (conﬁned crystallization).
+KEYWORDS: Conducting polymers, semicrystalline block copolymer, order-to-disorder transition, conﬁned crystallization,
+breakout crystallization
+N
+anostructuring of electronically conducting domains is
+important for a wide range of applications related to
+clean energy. Organic solar cells require nanoscale electron-
+and hole-conducting domains to promote charge separation
+and extraction.1 Battery and fuel cell electrodes based on active
+materials that are either electronic or ionic insulators (e.g.,
+lithium iron phosphate or platinum) require nanoscale
+electron- and ion-conducting domains.2,3 Copolymers with
+electronically conducting block such as poly(3-alkylthiophenes)
+(P3AT) appear to be perfectly suited for such applications.4 It
+is thus not surprising that many research groups have focused
+on the synthesis and characterization of block copolymers
+containing P3AT.5−8 The formation of nanoscale domains such
+as alternating lamellae and the cubic gyroid phase in block
+copolymers9 is well established, and such morphologies are
+ideally suited for the applications listed above. Unfortunately,
+the crystallization of most electronically conducting polymers
+disrupts these morphologies; a vast majority of publications on
+P3AT report the formation of crystalline nanoﬁbrils with no
+evidence of conventional domain morphologies seen in block
+copolymers.5−8 Notable exceptions are the reports from Ho et
+al.10 and Moon et al.,11 who report the formation of
+conventional morphologies in a P3AT-containing block
+copolymers that have reduced melting temperatures. The
+common feature in these studies is that the nonconducting
+blocks have a high glass transition temperature, and the inability
+of glassy polymers to conduct either electrons or ions is well
+established.
+This paper demonstrates the formation of lamellae and
+gyroid morphologies in a poly(3-(2′-ethylhexyl)thiophene)-b-
+poly(ethylene oxide) (P3EHT-b-PEO) copolymer. The
+P3EHT block has a molecular weight of 5 kg/mol, and the
+PEO block has a molecular weight of 2 kg/mol (we see no
+evidence of PEO crystals in our experimental window). We also
+show that the morphology is aﬀected by the addition of lithium
+bis(triﬂuoromethanesulfonyl)imide (LiTFSI), a salt that is
+commonly used in the ﬁeld of polymer electrolytes. We provide
+thermodynamic data that represent the starting point for
+predicting the morphologies of these systems. The distinguish-
+Received:
+July 2, 2012
+Revised:
+July 25, 2012
+Published: July 27, 2012
+Letter
+pubs.acs.org/NanoLett
+© 2012 American Chemical Society
+4901
+dx.doi.org/10.1021/nl302454c | Nano Lett. 2012, 12, 4901−4906
+Downloaded via UNIV ILLINOIS URBANA-CHAMPAIGN on January 11, 2022 at 23:16:25 (UTC).
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+ing feature of our study is the rubbery nature of PEO-rich
+microphases which enables ion transport, thus allowing for
+simultaneous conduction of electronic and ionic charges.
+A framework has been established to predict the self-
+assembly of copolymers with one nonconducting crystallizable
+block and one amorphous block.12−21 The morphology
+obtained in these systems is dictated by the chemical
+incompatibility of the two blocks (χ, Flory−Huggins interaction
+parameter), the free energy of crystallization, and the glass
+transition temperature of the amorphous block.12−21 When the
+amorphous block is glassy, the morphology of the melt state is
+retained and the crystallization of the second block is conﬁned
+within the nanoscale domains.14,16,19,22 When the amorphous
+block is rubbery, the morphology in the crystalline state
+depends on both segregation strength (χN, where N is the
+number of monomers per chain) between the blocks and the
+free energy of crystallization.12,14,16,18 The melt-state morphol-
+ogy is retained only in strongly segregated systems.16−18 In
+weakly segregated systems, the crystalline phase “breaks out” of
+the conﬁning block copolymer domain.12−14,18,20,21 The
+breakout morphology of the crystalline phase is often lamellar
+as this geometry is commensurate with that of chain folded
+crystals.12,14,21,23,24 This was ﬁrst anticipated by theorists23,24
+and subsequently observed experimentally.12−14,21 The ther-
+modynamic properties of our P3EHT-b-PEO block copolymer
+are consistent with this general framework.
+Poly(3-hexylthiophene) (P3HT) is a highly studied semi-
+crystalline polymer system due to its high electronic charge
+carrier mobility.25,26 P3HT has a high melting temperature
+(<230 °C) and is dominated by crystallization through strong
+π−π interactions. As a result, the morphology of P3HT-
+containing block copolymers have nanoﬁbrillar superstruc-
+ture.5−8 Variations in the alkyl side chain of the thiophene
+block can have a large eﬀect on the crystalline and liquid
+crystalline properties of P3ATs. For example, poly(3-
+dodecylthiophene) (P3DDT) has a lower melting point (160
+°C) and reduced rod−rod interactions relative to P3HT.27
+Moon et al. show that one can obtain traditional block
+copolymer morphologies with P3DDT-b-poly(methyl meth-
+acrylate) (P3DDT-b-PMMA) by varying the molecular weight
+of P3DDT and PMMA, thus controlling the segregation
+strength.11 The nanoﬁbril morphology is only obtained when
+the total molecular weight is reduced and P3DDT is the
+majority block. Importantly, the crystalline nature of P3DDT is
+retained in the nanoscale domains for the whole composition
+window.
+In addition to P3HT and P3DDT, the introduction of a
+branched alkyl side chain, such as in poly(3-(2′-ethylhexyl)-
+thiophene) (P3EHT), causes the polymer to have an even
+lower melting temperature (80 °C) and reduced rod−rod
+interactions.27 The P3EHT homopolymers and P3EHT-
+containing block copolymers10 have been shown to crystallize
+similarly to P3HT by forming the π−π stacked polymer
+chains27 and also has comparable optical and charge transport
+properties to those of P3HT.10,27,28 The use of a P3AT
+derivative with a lowered crystallization temperature can aﬀect
+the self-assembly of P3EHT rod−coil block copolymers. Ho et
+al. have observed traditional block copolymer morphologies
+with a P3EHT-b-polylactide (P3EHT-b-PLA) system.10 This
+result is consistent with the framework described above;
+conﬁned crystallization can be attributed to the low
+crystallization temperature of P3EHT, the glassy nature of
+the noncrystalline block, and the strong segregation strength
+between the two blocks.
+We present a facile approach for synthesizing P3EHT-b-PEO
+copolymers that combines Grignard metathesis (GRIM)
+polymerization and click chemistry (Figure 1a).29 An ethynyl-
+terminated P3EHT homopolymer was ﬁrst synthesized
+Figure 1. (a) Synthetic scheme of P3EHT-b-PEO block copolymer. (b) SEC traces of homopolymers and P3EHT-b-PEO (see Supporting
+Information for more details).
+Nano Letters
+Letter
+dx.doi.org/10.1021/nl302454c | Nano Lett. 2012, 12, 4901−4906
+4902
+
+followed by coupling with an azide-terminated PEO homopol-
+ymer. Matrix-assisted laser desorption ionization time-of-ﬂight
+mass spectrometry (MALDI-TOF MS) was employed to
+determine the end-group composition of the end-capped
+P3EHT, and a representative spectrum is shown in the
+Supporting Information. To our knowledge, this is the ﬁrst
+time that the end-capping methodology with the GRIM
+mechanism has been used for P3EHT block copolymer
+synthesis. Figure 1b shows the size exclusion chromatography
+(SEC) traces of the two homopolymers and the block
+copolymer. The formation of the block copolymer is evidenced
+by the diﬀerence in elution volume between the P3EHT
+homopolymer and the P3EHT-b-PEO copolymer traces (see
+Supporting Information for more details). This is further
+conﬁrmed by
+1H nuclear magnetic resonance (1H NMR)
+spectroscopy, which shows the disappearance of the ethynyl
+proton peak (see Supporting Information).
+Figure 2a shows diﬀerential scanning calorimetry (DSC) data
+for neat P3EHT-b-PEO (r = 0, where r is the molar ratio of Li+
+to ethylene oxide monomer). The neat sample was held at 30
+°C for 90 min prior to heating to allow for the complete
+crystallization of the P3EHT block. Melting peaks at 64 and 77
+°C are observed, consistent with previous reports.28 PEO
+chains in the P3EHT-b-PEO do not crystallize in the
+temperature window of interest, 25−160 °C. Consequently,
+no melting peak for PEO is observed in Figure 2a (refer to
+Supporting Information for additional DSC data related to
+PEO crystallization). Figure 2b shows the wide-angle X-ray
+scattering (WAXS) for neat P3EHT-b-PEO, which was held at
+28 °C for 90 min. The resulting scattering peaks are consistent
+with previously published WAXS data on P3EHT, where the
+sharp peak at 0.44 nm−1 corresponds to the (100) plane (side-
+chain packing). The scattering peaks for crystalline PEO are not
+observed, conﬁrming that the P3EHT block is the only
+crystallized component. The introduction of the LiTFSI salt at
+a concentration of r = 0.125 leads to much weaker melting
+peaks in the DSC data (Figure 2c) at 65 and 81 °C. Increasing
+the isothermal crystallization time from 3 to 8 h results in an
+increase in intensity of the melting peaks and a small decrease
+in the melting temperatures to 62 and 76 °C. The longer
+crystallization time required for the salt-containing sample was
+further conﬁrmed through WAXS, where the scattering peaks
+could only be seen after annealing at 28 °C for 12 h (Figure
+2d). Both the DSC and WAXS data suggest that the
+crystallization kinetics of the P3EHT block is aﬀected by the
+addition of salt. Previous studies on P3HT containing block
+copolymers indicate some LiTFSI partitions into the P3HT
+domain.30 Therefore, it is possible some LiTFSI is partitioning
+into the P3EHT domain, which could explain diﬀerent
+crystallization properties, particularly the slightly lower melting
+temperature.
+Figure 3a shows the small-angle X-ray scattering (SAXS)
+intensity, I, vs the magnitude of the scattering vector, q, of
+P3EHT-b-PEO for r = 0. At 28 and 50 °C, the scattering
+proﬁles indicate two broad shoulders that index to q* and 2q*,
+where q* is the magnitude of the scattering vector associated
+with {100} family of reﬂection planes of a given morphology.
+The characteristic domain spacing, d = 2π/qmax, is 15.9 nm,
+where qmax is the magnitude of q at the most intense peak (or
+the peak that occurs at the lowest value of q). The TEM image
+(Figure 3c) of the neat sample indicates a lamellar morphology
+with a domain spacing of 15.5 nm. Surprisingly, well-deﬁned
+lamellae are observed in the TEM image, which is in contrast
+with the broad peaks seen in the SAXS data. At temperatures
+above the melting point of P3EHT (90 and 120 °C), the SAXS
+scattering proﬁles show two distinct Bragg peaks at √6q* and
+√8q*, consistent with the gyroid morphology. The character-
+istic domain spacing, d, is 12.3 nm. Further increase of the
+temperature to 125 °C leads to a disordered structure at a qmax
+of 0.51 nm−1. In the inset of Figure 3a, a plot of the full width at
+half-maximum of qmax (fwhm) vs temperature shows a clear
+jump in fwhm, which is typical for an order-to-disorder phase
+transition (ODT). The ODT is reversible, as evidenced by the
+return of the gyroid morphology after the sample was cooled
+back down to 90 °C (Figure 3b). This is the ﬁrst evidence of
+the existence of an ODT for a P3EHT-containing block
+copolymer.
+We use the ODT to estimate the value of χ between P3EHT
+and PEO. There are currently no literature reports of statistical
+segment length of P3EHT chains in the melt state, lEHT. We
+apply the random phase approximation to the SAXS data in the
+disordered state to obtain lEHT as outlined by Lin et al. (refer to
+Supporting Infornmation).31 In the mean-ﬁeld theory the value
+of qmax depends on statistical segment lengths only and not on
+χ. Thus, knowing the literature value for the statistical segment
+length of PEO chains, lEO, 0.72 nm,32 and the value of qmax in
+the disordered state, 0.51 nm−1, we obtain lEHT = 1.1 nm. The
+statistical segment lengths and χ parameters in this work are
+Figure 2. (a) DSC heating scan of P3EHT-b-PEO (r = 0) at 10 °C/
+min after an isothermal wait step of 1.5 h at 30 °C; (b) WAXS curve of
+P3EHT-b-PEO (r = 0) where the inset compares WAXS curves of
+PEO homopolymer (dotted curve) and P3EHT-b-PEO (r = 0) (solid
+curve); (c) DSC heating scans of P3EHT-b-PEO (r = 0.125) at 10 °C/
+min after an isothermal wait step of 1.5, 3, and 8 h at 30 °C; (d)
+WAXS curves of P3EHT-b-PEO (r = 0.125) after going above the
+melting temperature, cooling to 30 °C and waiting for 3 and 12 h. The
+P3EHT block for both r = 0 and r = 0.125 remain semicrystalline as
+indicated by the melting peaks in the DSC scans and the (100)
+reﬂection in the WAXS proﬁles. PEO block does not crystallize within
+our experimental window as indicated by the lack of WAXS peaks
+corresponding to PEO crystallites (inset of part b). The P3EHT block
+for the r = 0 sample crystallized in 1.5 h, while the r = 0.125 showed a
+very weak melting peak in 1.5 h. However, a more pronounced
+P3EHT melting peak was observed after 8 h.
+Nano Letters
+Letter
+dx.doi.org/10.1021/nl302454c | Nano Lett. 2012, 12, 4901−4906
+4903
+
+based on reference volume of 0.1 nm3. Thus, the conforma-
+tional asymmetry factor for our system is lEHT/lEO = 1.5. The
+mean-ﬁeld phase diagram for block copolymer with lEHT/lEO =
+1.5 and ϕEHT = 0.71 contains a transition from gyroid to
+cylinder at χN = 20, a transition to cylinders to spheres at χN =
+14.5, and a transition from spheres to disordered at χN = 14.33
+However, only a gyroid to disorder transition was observed in
+our P3EHT-b-PEO (r = 0) at 125 °C. We thus conclude the
+value of χN for our system at 125 °C is between 14 and 20.
+Since N = 108, we conclude that 0.13 < χ < 0.19 at 125 °C. To
+our knowledge, this is the ﬁrst quantitative measurement of χ
+between conventional polymers such as PEO and poly(3-
+alkylthiophene) chains. This is the ﬁrst step toward prediction
+of the morphology of block copolymers containing poly(3-
+alkylthiophene) chains.
+The above method for determining χ only applies to
+conventional block copolymers with Gaussian chains. P3EHT
+is, however, a semiﬂexible polymer.10,34 Theoretical work on
+the phase behavior of semiﬂexible block copolymers shows that
+the value of χN at the ODT for these systems depends on
+magnitude of the Maier−Saupé parameter, μ, relative to χ.35−38
+The Maier−Saupé parameter quantiﬁes interactions between
+rodlike molecules in the mean-ﬁeld limit. The μ value for
+P3EHT is 0.01 at 125 °C;34 thus, μ/χ is estimated to be
+between 0.052 and 0.076 for our system. The predictions in ref
+35 indicate that such a small value of μ/χ has a negligible eﬀect
+on the value of χN at the ODT. We note in passing that our
+estimate is based entirely on the mean-ﬁeld theory of block
+copolymers; i.e., ﬂuctuation corrections39 are ignored.
+In Figure 3b, we show the SAXS data for r = 0 during the
+cooling run after heating the P3EHT-b-PEO to 150 °C. Unlike
+the heating step to 50 °C where lamellar morphology was
+observed (Figure 3a), the cooling step to 50 °C shows
+retention of the gyroid morphology (Figure 3b). DSC data and
+WAXS experiments during cooling runs indicate that P3EHT
+does not recrystallize at 50 °C (data not shown). It is not clear
+if this observed suppression of crystallization at 50 °C is due to
+kinetic factors. Further cooling to 28 °C shows the gyroid
+morphology at early times and a lamellar morphology at long
+times (Figure 3b). This observation indicates that the
+crystallization of P3EHT block destroys the melt-state
+morphology. In other words, the P3EHT crystals “break out”
+of the conﬁned domains dictated by thermodynamic
+segregation of the blocks (χN and ϕEHT). This is due to the
+nonglassy nature of the PEO block and the fact that χN is
+between 14 and 20; i.e., the system is weakly segregated. The
+fact that the breakout structure is lamellar is not completely
+unexpected as previous theories23,24 and experiments12−14,21 on
+weakly segregated semicrystalline block copolymers show the
+crystalline-state morphology is often lamellar regardless of the
+melt-state morphology.
+Segregation between the blocks can be increased by the
+addition of LiTFSI salt to P3EHT-b-PEO. In Figure 4a, the
+SAXS proﬁle of the P3EHT-b-PEO/LiTFSI mixture with r =
+0.125 in the melt state (150 °C) shows the presence of the
+lamellar morphology indicated by the Bragg peaks at q*, 2q*,
+3q*, and 4q* corresponding to a d of 15.4 nm. The sample was
+quenched to 28 °C to allow for the crystallization of P3EHT
+block. We see that the lamellar morphology is retained even
+after 12 h. However, the Bragg peaks broaden slightly and the
+lamellar spacing increases; d increases from 15.4 to 18.3 nm
+during the 12 h annealing step. The DSC and WAXS data
+shown in Figure 2 indicate that the P3EHT block in the
+P3EHT-b-PEO/LiTFSI mixture with r = 0.125 crystallizes on
+this time scale. We thus attribute the broadening the Bragg
+peaks to P3EHT crystallization. A lamellar morphology is also
+observed in the TEM image of the P3EHT-b-PEO/LiTFSI
+mixture with r = 0.125 shown in Figure 4b, where the
+characteristic domain spacing is 17.5 nm. It is evident that the
+P3EHT-b-PEO/LiTFSI mixture with r = 0.125 exhibits
+conﬁned crystallization at room temperature. This is attributed
+to an increase in segregation, χN, and the fact that the melt-
+state morphology is lamellar. Extrapolation of the data for
+polystyrene-b-poly(ethylene oxide) (PS-b-PEO)/LiTFSI mix-
+tures41 shows that χ increases by a factor of about 7 when r is
+increased from 0 to 0.125. Assuming that the thermodynamics
+of PS-b-PEO/LiTFSI and P3EHT-b-PEO/LiTFSI systems are
+similar, we anticipate that χN is about 100 for P3EHT-b-PEO/
+LiTFSI mixture with r = 0.125. The DSC data in Figure 2
+indicate that the P3EHT crystals melt in both r = 0 and r =
+0.125 samples around 80 °C. In spite of this, the r = 0 sample
+crystallizes in 90 min while there is virtually no evidence of
+crystallization in the r = 0.125 sample after 90 min of annealing.
+The diﬀerence in crystallization kinetics can be attributed to
+conﬁnement. The r = 0 sample exhibits breakout crystallization,
+Figure 3. (a) Heating scan and (b) cooling scan SAXS curves of
+P3EHT-b-PEO (r = 0). The inset in (a) is the full width half-maximum
+(fwhm) of the primary scattering peak vs T (temperature) curve,
+indicating an order-to-disorder phase (ODT) transition. The melt-
+state gyroid morphology (90 °C) is destroyed (“breakout”) upon
+crystallization of the P3EHT block at 28 °C. The ﬁlled triangles
+denote peaks corresponding to the gyroid morphology, and the
+unﬁlled triangles denote peaks corresponding to the lamellar
+morphology. (c) Bright-ﬁeld transmission electron microscopy
+(TEM) image of P3EHT-b-PEO (r = 0) shows that the “breakout”
+morphology is lamellar at room temperature. Contrast arises from the
+higher electron density in the semicrystalline P3EHT (dark phase).
+Nano Letters
+Letter
+dx.doi.org/10.1021/nl302454c | Nano Lett. 2012, 12, 4901−4906
+4904
+
+while r = 0.125 sample exhibits conﬁned crystallization.
+Previous studies on semicrystalline block copolymers have
+shown that breakout crystallization follows sigmoidal kinetics,
+while conﬁned crystallization follows ﬁrst-order kinetics.16,42,43
+In particular, the crystallization half-time is more highly
+dependent on crystallization temperature during conﬁned
+crystallization. As a result, varying the temperature for
+isothermal crystallization of the r = 0.125 sample could greatly
+aﬀect the time needed to fully crystallize the P3EHT block. The
+magnitude in time diﬀerence for crystallization (hours)
+between r = 0 and r = 0.125 is far greater than previously
+reported conﬁned/breakout crystallization behavior in block
+copolymers. This could be attributed to the inherent slower
+crystallization kinetics of P3EHT. Further work is needed to
+fully understand the crystallization kinetics in P3EHT-b-PEO
+during conﬁnement and breakout.
+In summary, a P3EHT-b-PEO copolymer was synthesized by
+producing ethynyl-terminated P3EHT in one step using GRIM
+polymerization followed by coupling to an azide-terminated
+PEO block through click chemistry. This facile approach may
+be used for synthesizing a variety of poly(3-alkylthiophene)-
+containing block copolymers. We have demonstrated that the
+morphology of this copolymer can be controlled by
+thermodynamic parameters such as temperature and segrega-
+tion strength (χN). The segregation strength was adjusted by
+the addition of LiTFSI salt. In the melt state, the salt-free
+sample (r = 0) exhibits a gyroid morphology while the salt-
+containing sample (r = 0.125) exhibits a lamellar morphology.
+Quenching the salt-free sample to room temperature results in
+a lamellar morphology due to the breakout of the P3EHT
+crystals. In contrast, there is little change in the morphology of
+the salt-containing sample upon quenching to room temper-
+ature; i.e., we observed conﬁned crystallization. This qualitative
+change is attributed to increase in χN from about 17 to 100.
+Finally, this work provides the ﬁrst estimate for the value of χ
+between P3AT chains and conventional polymers such as PEO.
+■ASSOCIATED CONTENT
+*
+S
+Supporting Information
+Detailed synthetic procedures, salt sample preparation,
+scattering procedures, TEM procedure, and calculation of
+statistical segment length. This material is available free of
+charge via the Internet at http://pubs.acs.org.
+■AUTHOR INFORMATION
+Corresponding Author
+*E-mail nbalsara@berkeley.edu, Ph 510.642.8937, Fax
+510.642.4778.
+Author Contributions
+⊥These authors contributed equally.
+Notes
+The authors declare no competing ﬁnancial interest.
+■ACKNOWLEDGMENTS
+The polymer synthesis was supported the BATT program at
+Lawrence Berkeley National Laboratory (LBNL), U.S. DOE
+Contract DE-AC02-05CH11231. The polymer characterization
+portion was supported by a grant from the National Science
+Foundation (CBET 0966632). SAXS experiments were
+performed at the LBNL Advanced Light Source, under the
+same contract, while WAXS experiments were performed at the
+Stanford Synchrotron Radiation Laboratory. Electron micros-
+copy work was supported by the Electron Microscopy of Soft
+Matter Program at LBNL supported by the Director, Oﬃce of
+Science, Oﬃce of Basic Energy Sciences, Materials Sciences and
+Engineering Division, of the U.S. Department of Energy under
+Contract No.DE-AC02-05CH11231. We thank B. McCulloch
+for helpful discussions.
+■REFERENCES
+(1) Segalman, R. A.; McCulloch, B.; Kirmayer, S.; Urban, J. J.
+Macromolecules 2009, 42 (23), 9205−9216.
+(2) Steele, B. C. H.; Heinzel, A. Nature 2001, 414 (6861), 345−352.
+(3) Tarascon, J. M.; Armand, M. Nature 2001, 414 (6861), 359−367.
+(4) Darling, S. B. Energy Environ. Sci. 2009, 2 (12), 1266−1273.
+(5) Sauve, G.; McCullough, R. D. Adv. Mater. 2007, 19 (14), 1822−
+1825.
+(6) Iovu, M. C.; Zhang, R.; Cooper, J. R.; Smilgies, D. M.; Javier, A.
+E.; Sheina, E. E.; Kowalewski, T.; McCullough, R. D. Macromol. Rapid
+Commun. 2007, 28 (17), 1816−1824.
+(7) Iovu, M. C.; Jeffries-El, M.; Zhang, R.; Kowalewski, T.;
+Mccullough, R. D. J. Macromol. Sci. A 2006, 43 (12), 1991−2000.
+(8) Craley, C. R.; Zhang, R.; Kowalewski, T.; McCullough, R. D.;
+Stefan, M. C. Macromol. Rapid Commun. 2009, 30 (1), 11−16.
+(9) Matsen, M. W.; Bates, F. S. Macromolecules 1996, 29 (4), 1091−
+1098.
+(10) Ho, V.; Boudouris, B. W.; McCulloch, B. L.; Shuttle, C. G.;
+Burkhardt, M.; Chabinyc, M. L.; Segalman, R. A. J. Am. Chem. Soc.
+2011, 133 (24), 9270−9273.
+(11) Moon, H. C.; Bae, D.; Kim, J. K. Macromolecules 2012, 45 (12),
+5201−5207.
+Figure 4. (a) Cooling run SAXS curves of P3EHT-b-PEO (r = 0.125).
+The lamellar morphology is retained after 12 h at 28 °C where P3EHT
+block fully crystallizes (conﬁned crystallization). (c) Bright-ﬁeld TEM
+image of P3EHT-b-PEO (r = 0.125) at room temperature indicating a
+lamellar morphology. Contrast arises from the higher electron density
+in the semicrystalline P3EHT (dark phase).
+Nano Letters
+Letter
+dx.doi.org/10.1021/nl302454c | Nano Lett. 2012, 12, 4901−4906
+4905
+
+(12) Rangarajan, P.; Register, R. A.; Fetters, L. J.; Bras, W.; Naylor,
+S.; Ryan, A. J. Macromolecules 1995, 28 (14), 4932−4938.
+(13) Ryan, A. J.; Hamley, I. W.; Bras, W.; Bates, F. S. Macromolecules
+1995, 28 (11), 3860−3868.
+(14) Quiram, D. J.; Register, R. A.; Marchand, G. R. Macromolecules
+1997, 30 (16), 4551−4558.
+(15) Hamley, I. W. Adv. Polym. Sci. 1999, 148, 113−137.
+(16) Loo, Y. L.; Register, R. A.; Ryan, A. J. Phys. Rev. Lett. 2000, 84
+(18), 4120−4123.
+(17) Loo, Y. L.; Register, R. A.; Ryan, A. J.; Dee, G. T. Macromolecules
+2001, 34 (26), 8968−8977.
+(18) Loo, Y. L.; Register, R. A.; Ryan, A. J. Macromolecules 2002, 35
+(6), 2365−2374.
+(19) Zhu, L.; Cheng, S. Z. D.; Calhoun, B. H.; Ge, Q.; Quirk, R. P.;
+Thomas, E. L.; Hsiao, B. S.; Yeh, F.; Lotz, B. Polymer 2001, 42 (13),
+5829−5839.
+(20) Xu, J. T.; Fairclough, J. P. A.; Mai, S. M.; Chaibundit, C.;
+Mingvanish, M.; Booth, C.; Ryan, A. J. Polymer 2003, 44 (22), 6843−
+6850.
+(21) Mai, S. M.; Fairclough, J. P. A.; Viras, K.; Gorry, P. A.; Hamley,
+I. W.; Ryan, A. J.; Booth, C. Macromolecules 1997, 30 (26), 8392−
+8400.
+(22) Hamley, I. W.; Fairclough, J. P. A.; Bates, F. S.; Ryan, A. J.
+Polymer 1998, 39 (6−7), 1429−1437.
+(23) Dimarzio, E. A.; Guttman, C. M.; Hoffman, J. D. Macromolecules
+1980, 13 (5), 1194−1198.
+(24) Whitmore, M. D.; Noolandi, J. Macromolecules 1988, 21 (5),
+1482−1496.
+(25) Chang, J.-F.; Sun, B.; Breiby, D. W.; Nielsen, M. M.; Sölling, T.
+I.; Giles, M.; McCulloch, I.; Sirringhaus, H. Chem. Mater. 2004, 16
+(23), 4772−4776.
+(26) Sirringhaus, H.; Brown, P. J.; Friend, R. H.; Nielsen, M. M.;
+Bechgaard, K.; Langeveld-Voss, B. M. W.; Spiering, A. J. H.; Janssen, R.
+A. J.; Meijer, E. W.; Herwig, P.; de Leeuw, D. M. Nature 1999, 401
+(6754), 685−688.
+(27) Ho, V.; Boudouris, B. W.; Segalman, R. A. Macromolecules 2010,
+43 (19), 7895−7899.
+(28) Boudouris, B. W.; Ho, V.; Jimison, L. H.; Toney, M. F.; Salleo,
+A.; Segalman, R. A. Macromolecules 2011, 44 (17), 6653−6658.
+(29) Javier, A. E.; Patel, S. N.; Hallinan, D. T.; Srinivasan, V.; Balsara,
+N. P. Angew. Chem., Int. Ed. 2011, 50 (42), 9848−9851.
+(30) Patel, S. N.; Javier, A. E.; Stone, G. M.; Mullin, S. A.; Balsara, N.
+P. ACS Nano 2012, 6 (2), 1589−1600.
+(31) Lin, C. C.; Jonnalagadda, S. V.; Kesani, P. K.; Dai, H. J.; Balsara,
+N. P. Macromolecules 1994, 27 (26), 7769−7780.
+(32) Eitouni, H. B.; Balsara, N. P. Thermodynamics of Polymer
+Blends. In Physical Properties of Polymers Handbook; Mark, J. E., Ed.;
+Springer: New York, 2007; pp 339−356.
+(33) Matsen, M. W.; Bates, F. S. J. Polym. Sci., Polym. Phys. 1997, 35
+(6), 945−952.
+(34) Ho, V.; McCulloch, B.; Segalman, R., personal correspondence.
+(35) Singh, C.; Goulian, M.; Liu, A. J.; Fredrickson, G. H.
+Macromolecules 1994, 27 (11), 2974−2986.
+(36) Hammouda, B. J. Chem. Phys. 1993, 98 (4), 3439−3444.
+(37) Holyst, R.; Schick, M. J. Chem. Phys. 1992, 96 (1), 730−740.
+(38) Pryamitsyn, V.; Ganesan, V. J. Chem. Phys. 2004, 120 (12),
+5824−5838.
+(39) Fredrickson, G. H.; Helfand, E. J. Chem. Phys. 1987, 87 (1),
+697−705.
+(40) Nojima, S.; Ono, M.; Ashida, T. Polym. J. 1992, 24 (11), 1271−
+1280.
+(41) Wanakule, N. S.; Virgili, J. M.; Teran, A. A.; Wang, Z. G.;
+Balsara, N. P. Macromolecules 2010, 43 (19), 8282−8289.
+(42) Xu, J. T.; Fairclough, J. P. A.; Mai, S. M.; Ryan, A. J.; Chaibundit,
+C. Macromolecules 2002, 35 (18), 6937−6945.
+(43) Xu, J. T.; Turner, S. C.; Fairclough, J. P. A.; Mai, S. M.; Ryan, A.
+J.; Chaibundit, C.; Booth, C. Macromolecules 2002, 35 (9), 3614−
+3621.
+Nano Letters
+Letter
+dx.doi.org/10.1021/nl302454c | Nano Lett. 2012, 12, 4901−4906
+4906
+

@@ -1,0 +1,1003 @@
+3090 |  Mater. Horiz., 2023, 10, 3090–3100
+This journal is © The Royal Society of Chemistry 2023
+Cite this: Mater. Horiz., 2023,
+10, 3090
+Tunable control of the performance of
+aqueous-based electrochemical devices
+by post-polymerization functionalization†
+Shengyu Cong,‡a Junxin Chen,‡a Bowen Ding,b Liuyuan Lan,a Yazhou Wang,a
+Chaoyue Chen,a Zhengke Li,a Martin Heeney*bc and Wan Yue
+*a
+Functionalized polymeric mixed ionic–electronic conductors (PMIECs)
+are highly desired for the development of electrochemical applica-
+tions, yet are hindered by the limited conventional synthesis techni-
+ques. Here, we propose a ‘‘graft-onto-polymer’’ synthesis strategy by
+post-polymerization functionalization (GOP-PPF) to prepare a family
+of PMIECs sharing the same backbone while functionalized with
+varying ethylene glycol (EG) compositions (two, four, and six EG
+repeating units). Unlike the typical procedure, GOP-PPF uses a nucleo-
+philic aromatic substitution reaction for the facile and versatile attach-
+ment of functional units to a pre-synthesized conjugated-polymer
+precursor. Importantly, these redox-active PMIECs are investigated as
+a platform for energy storage devices and organic electrochemical
+transistors (OECTs) in aqueous media. The ion diffusivity, charge
+mobility and charge-storage capacity can be significantly improved
+by optimizing the EG composition. Specifically, g2T2-gBT6 containing
+the highest EG density gives the highest charge-storage capacity
+exceeding 180 F g1 among the polymer series, resulting from the
+improved ion diffusivity. Moreover, g2T2-gBT4 with four EG repeating
+units exhibits a superior performance compared to its two analogues in
+OECTs, associated with a high lC* up to 359 F V1 cm1 s1, owing to
+the optimal balance between ionic–electronic coupling and charge
+mobility. Through the GOP-PPF, PMIECs can be tailored to access
+desirable performance metrics at the molecular level.
+1. Introduction
+Polymeric mixed ionic–electronic conductors (PMIECs), which
+can simultaneously transport and couple ionic and electronic
+charges, are crucial for a host of technological develop-
+ments for bioelectronics,1 optoelectronics2 and energy storage
+devices.3 PMIECs are often functionalized conjugated polymers
+(CPs),4,5 composed of a delocalised backbone, which supports
+the electronic charge transport, while appropriate side chains
+allow the ionic transport.6,7 Additionally, the ready variability of
+the backbone structure of CPs allows fine tuning of their
+properties to maximize performance in various electrochemical
+devices, such as the organic electrochemical transistor (OECT)8
+and energy storage devices.9 For all of these applications, the
+interaction of the polymer with aqueous electrolytes is a critical
+parameter.10 Ions must enter and exit the film to balance
+a Guangzhou Key Laboratory of Flexible Electronic Materials and Wearable Devices,
+School of Materials Science and Engineering, Sun Yat-sen University, Guangzhou
+510275, People’s Republic of China. E-mail: yuew5@mail.sysu.edu.cn
+b Department of Chemistry and Centre for Processable Electronics, Imperial College
+London, Molecular Sciences Research Hub (White City Campus), 80 Wood Lane
+Shepherd’s Bush, London W12 0BZ, UK. E-mail: martin.heeney@kaust.edu.sa
+c KAUST Solar Center (KSC), Physical Science and Engineering Division (PSE), King
+Abdullah University of Science and Technology (KAUST), Thuwal, 23955–6900,
+Saudi Arabia
+† Electronic supplementary information (ESI) available. See DOI: https://doi.org/
+10.1039/d3mh00418j
+‡ S. Cong and J. Chen contributed equally to this work.
+Received 19th March 2023,
+Accepted 12th May 2023
+DOI: 10.1039/d3mh00418j
+rsc.li/materials-horizons
+New concepts
+Functionalized polymeric mixed ionic–electronic conductors (PMIECs)
+are crucial for a host of applications underpinning societal needs from
+energy storage to health technologies. However, functional properties
+required for these application domains face synthetic challenges to being
+conveyed onto p-backbones and thus combined with efficient mixed
+conduction. Here, we present the very first bottom-up approach to
+synthesize
+a
+series
+of
+functionalized
+PMIECs
+with
+comparable
+molecular weights based on a ‘‘graft-onto-polymer’’ synthesis strategy
+by post-polymerization functionalization (GOP-PPF). Notably, GOP-PPF
+uses
+a
+nucleophilic
+aromatic
+substitution
+reaction
+for the
+facile
+attachment of functional units to a pre-synthesized conjugated-polymer
+precursor. Unlike the typical procedure, such GOP-PPF can largely
+simplify time-consuming multiple steps involving diverse side chain
+synthesis. In particular, the ion diffusivity, charge mobility and charge-
+storage
+capacity
+can
+be
+significantly
+improved
+by
+a
+rational
+functionalization
+design.
+Moreover,
+GOP-PPF
+provides
+only
+one
+variation to establish accurate structure–property relationships. Overall,
+this work provides design guidelines to approach the functionalized
+synthesis of PMIECs and offer new opportunities to explore their
+untapped potential.
+Materials
+Horizons
+COMMUNICATION
+Published on 13 May 2023. Downloaded by University of Chicago on 5/10/2024 2:25:27 AM. 
+View Article Online
+View Journal | View Issue
+
+This journal is © The Royal Society of Chemistry 2023
+Mater. Horiz., 2023, 10, 3090–3100 |  3091
+charges introduced by the redox chemistry of the conjugated
+backbone.11
+However, classical CPs are often hydrophobic as a result of
+their alkyl side chains and aromatic building blocks.12 In order
+to promote the ionic conductivity in aqueous electrolytes, the
+polarity of the CPs can be modulated to increase their hydro-
+philic feature.13 One common approach is to introduce highly
+hydrophilic ethylene glycol (EG) or its derivates as side chains,
+which facilitates ionic species transport.14,15 Nonetheless,
+several studies presented that excessive EG density will disrupt
+the favorable molecular packing and bring a loss of structural
+integrity, which results in low charge mobility.16,17 Besides, the
+overlong EG side chain will lead to a decrease in the electro-
+active fraction of the polymers, and thus may cause a decrease
+in charging capability.18 Consequently, EG composition opti-
+mization is crucial for the design of CPs as PMIECs operating in
+aqueous electrolyte.
+At present, the synthetic routes towards EG functionalized
+PMIECs involve synthesizing monomers with the EG side chain
+first, followed by subsequent polymerization with a variety of
+building blocks to form the glycolated target copolymers.19,20
+However, such synthetic routes have some drawbacks and
+processing challenges (see Scheme 1A): (1) challenging mono-
+mer purification and low yield have been reported for long EG
+lengths, restricting the hydrophilicity tunability;21 (2) to inves-
+tigate the impact of EG composition, time-consuming multiple
+steps are usually involved in the synthesis of monomers with
+variable EG length;20,22,23 (3) when preparing a series of
+co-polymers from monomers with diﬀerent EG compositions,
+it is often diﬃcult to ensure polymers of comparable molecular
+weights due to diﬀering monomer purities and solubilities, and
+the variability of the step-growth polymerization.24,25 Therefore,
+the EG functionalized CPs from diﬀerent batches likely diﬀer in
+the molecular weights and EG composition, which makes it
+diﬃcult to decouple the two eﬀects.25 Although the chain-
+growth Kumada catalyst transfer polymerization was success-
+fully applied to synthesize EG-containing polythiophenes where
+the molecular weights are comparable,4,26,27 this is harder
+for typical step growth polymerizations like Stille or Suzuki.
+Therefore, hindered by the limited functionalization methods
+oﬀered by conventional synthesis techniques, the absence of
+an eﬀective synthesis strategy poses a major obstacle to taking
+Scheme 1
+(A) Conventional approach of pre-polymerization side-chain functionalization on conjugated polymers, and the associated limitations.
+(B) ‘‘Graft-onto-polymer’’ synthesis strategy by post-polymerization functionalization (GOP-PPF) using nucleophilic aromatic substitution (SNAr) reaction to
+functionalize the side chains of the conjugated polymers. (C) EG functionalized PMIECs synthesized by post-polymerization functionalization. Reaction
+conditions: (i) toluene, p-TsOH, 2-(2-methoxyethoxy)ethanol, 110 1C; (ii) NBS, anhydrous DCM, 0 1C, 2 h; (iii) Ni(COD)2, COD, BPy, THF; (iv) n-BuLi, Me3SnCl,
+THF, 78 1C; (v) Pd2(dba)3, P(o-tol)3, toluene, 110 1C, 24 h. Post-polymerization condition: NaOH, chlorobenzene:DMF (3:1), 120 1C, 48 h.
+Communication
+Materials Horizons
+Published on 13 May 2023. Downloaded by University of Chicago on 5/10/2024 2:25:27 AM. 
+View Article Online
+
+3092 |  Mater. Horiz., 2023, 10, 3090–3100
+This journal is © The Royal Society of Chemistry 2023
+advantage of the unique properties of PMIECs to benefit the
+development of electrochemical devices.
+Post-polymerization functionalization via nucleophilic aro-
+matic substitution (SNAr) reaction can overcome the diﬃculties
+mentioned above. In this approach, functional groups are
+added to a preformed polymer by chemical reaction.28,29 High
+yield reactions are required, otherwise the post-polymerization
+approach can aﬀord complex mixtures, but it can also allow the
+introduction of groups which would otherwise not survive
+the polymerization conditions.30–32 More importantly, as post-
+polymerization functionalization originates from the same
+batch of precursor polymer, the resulting functionalized poly-
+mers should have identical chain length, minimizing the
+impact of molecular weight variation on the properties and
+providing only one variable to access accurate comparisons of
+device performances based on the target copolymers.33,34
+Here, to unlock a broad range of desired functionalities for
+conjugated polymers, we propose a ‘‘graft-onto-polymer’’ syn-
+thesis strategy by post-polymerization functionalization for
+conjugated polymers, which uses a nucleophilic aromatic sub-
+stitution reaction for the facile and versatile attachment of
+functional units to a pre-synthesized conjugated-polymer pre-
+cursor (Scheme 1B). In particular, we employ this approach to
+modify the EG composition on the p-conjugated backbones and
+investigate the resulting doping on the coupling between ionic
+and electronic species along the polymer backbone in aqueous
+media. Such an approach can directly functionalize the back-
+bone of a CP by nucleophilic aromatic substitution (SNAr)
+reaction.34 Our polymeric framework is based on an alternating
+bithiophene and 5-fluoro-2,1,3-benzothiadiazole (BTf) back-
+bone, which as previously reported has a coplanar backbone
+conformation benefitting charge transport.35 In addition, we
+have previously demonstrated that the fluorine substituent of
+BTf can be substituted by various nucleophiles in the presence
+of base, leading to a facile route for the introduction of EG of
+varying length, specifically 2, 4 and 6 repeating units34,36
+(Scheme 1C). The varying EG composition enables tuning of
+the PMIECs’ hydrophilicity, charge–discharge kinetics, ionic–
+electronic coupling and charge mobility.37,38
+Overall, by systemically comparing a family of PMIECs’ redox
+behavior and electrochemical properties in energy-storage and
+OECTs, we elucidated the role of the EG composition in electro-
+chemical performance in aqueous media. In energy storage,
+g2T2-gBT6 containing the highest EG density gave the highest
+charge-storage capacity exceeding 180 F g1 among the polymer
+series, resulting from the improved ion diﬀusivity. For OECTs,
+g2T2-gBT4 with four EG repeating units exhibited a superior
+performance than its two analogues, associated with a high mC*
+up to 359 F V1 cm1 s1 and an OECT charge mobility of
+0.99 cm2 V1 s1, owing to its optimal balance between ionic
+and electronic transport. Additionally, inferior charge-storage
+capacity and OECT performance were both found in g2T2-gBT2,
+which is due to the combined eﬀects of low degree of swelling and
+mixed ionic–electronic conduction as it has the lowest EG density.
+Moreover, the ‘‘graft-onto-polymer’’ synthesis strategy by post-
+polymerization functionalization (GOP-PPF) proposed in this
+work shows great potential in functionalized PMIEC synthesis,
+bringing reliable establishment of structure–property relationships,
+and largely enriching the protocols to optimize the performance
+of aqueous-based electrochemical devices.
+2. Results and discussion
+2.1
+The EG functionalized PMIEC synthesis
+The family of PMIECs synthesized by post-polymerization func-
+tionalization are illustrated in Scheme 1C and the synthetic
+procedures are presented in Scheme S1 and S2 (ESI†). First,
+3-methoxythiophene was treated in turn with 2-(2-methoxyethoxy)-
+ethanol and n-bromosuccinimide to give 2-bromo-3-[2-(2-
+methoxyethoxy)ethoxy]thiophene in a moderate yield. This
+was dimerised by the action of bis(1,5-cyclooctadiene)nickel
+(0) to aﬀord glycolated bithiophene. This was then stannylated
+by dilithiation with n-BuLi, followed by trapping with trimethyl-
+tin chloride. Commercially available BTf was polymerized with
+the resulting stannylated bithiophene under typical Stille con-
+ditions to give g2T2-BTf. Under nucleophilic aromatic substitu-
+tion conditions,34 g2T2-BTf was amenable to direct displacement
+of the fluorine atom by grafting a series of EG (x = 2, 4, 6) to give
+g2T2-gBT2, g2T2-gBT4 and g2T2-gBT6. The successful synthesis of
+polymeric materials by post-polymerization functionalization was
+confirmed by 1H-NMR and 19F-NMR. It is worth noting that these
+PMIECs are insoluble in water-based electrolytes, which allows the
+characterization of their redox activity in aqueous electrolytes.
+Importantly,
+the
+three
+PMIECs
+synthesized
+by
+post-poly-
+merization functionalization all originate from the same batch
+of g2T2-BTf, which indicates that they share similar molecular
+weights. The comparable molecular weights were confirmed by
+gel permeation chromatography (GPC) using DMF as the eluent
+(Fig. S13 and Table S1, ESI†). The number average molecular
+weight (Mn) and dispersity of g2T2-BTf were 9.9 kg mol1 and
+1.17, respectively. As expected, the EG functionalized PMIECs
+present comparable molecular weights (10.1 to 10.5 kg mol1)
+and dispersity (1.18–1.20), which enables the resulting PMIECs to
+only differ in the length of their attached functional side chains.
+2.2
+Optical and electronic properties
+The optical properties of the PMIECs were measured by UV-vis-
+NIR absorption in solution (chloroform) (Fig. S14, ESI†) and
+films (Fig. 1a). Both in films and solution, all the absorption
+spectra exhibited similar absorption profiles with a dual-band
+absorption. A high energy band from 360–510 nm is attributed
+to the p–p* transition and a low-energy band from 510–1000 nm
+originates from an intramolecular charge transfer (ICT).39
+In solution, an absorption maximum (lmax) at 640 (395) nm,
+725 (422), 727 (423) and 728 (424) nm was observed for
+g2T2-BTf, g2T2-gBT2, g2T2-gBT4 and g2T2-gBT6, respectively.
+When the electron-withdrawing fluoride atom was substituted
+by an electron-donating ether group, a red-shift for both bands
+was found in all examples. Additionally, the intensity of the
+ICT band of EG functionalized PMIECs slightly decreased with
+respect to the high energy band, which results from the
+Materials Horizons
+Communication
+Published on 13 May 2023. Downloaded by University of Chicago on 5/10/2024 2:25:27 AM. 
+View Article Online
+
+This journal is © The Royal Society of Chemistry 2023
+Mater. Horiz., 2023, 10, 3090–3100 |  3093
+weakening of the electron-accepting ability of the benzothia-
+diazole.36,40
+For the EG functionalized PMIECs, little change in the lmax
+or spectrum shape was observed when increasing the EG
+length, which is consistent with previous reports.36 Interest-
+ingly, a shoulder found around 800 in chloroform for all
+polymers was attributed to the aggregation of the conjugated
+chains in solution.41 By monitoring the film spectra, the lmax of
+the PMIECs all exhibited an apparent red-shift compared with
+their solution absorption, indicating enhanced molecular pack-
+ing and stronger aggregation in the film state.42 Based on the
+film absorption onsets, the optical bandgaps (Eopt
+g ) are esti-
+mated to be 1.27  0.2 eV for EG functionalized PMIECs,
+smaller than 1.33 eV for g2T2-BTf. The larger bandgap of
+g2T2-BTf
+is
+attributed
+to
+the
+relatively
+stronger
+ICT
+character.43 Noticeably, variations in EG composition present
+little change on PMIECs’ electronic properties.
+The electrochemical properties of PMIECs were measured by
+cyclic voltammetry (CV) in 0.1 M n-Bu4NPF6 in dry acetonitrile
+using Ag/AgCl as a reference electrode. As displayed in Fig. 1b,
+the highest occupied molecular orbital (HOMO) energy levels
+were estimated based on the oxidative onset potentials relative
+to the ferrocene/ferrocenium (Fc/Fc+) redox couple as an exter-
+nal standard. Although the EG density on benzothiadiazole is
+variable, the EG functionalized PMIECs exhibited almost the
+same energy levels. The lowest unoccupied molecular orbital
+(LUMO) energy levels/HOMO energy levels (ELUMO/EHOMO) were
+found to be 3.13/4.46 eV, 3.04/4.31 eV, 3.04/4.30 eV
+and 3.02/4.31 eV for g2T2-BTf, g2T2-gBT2, g2T2-gBT4 and
+g2T2-gBT6, respectively. The g2T2-BTf presented deeper lying
+ELUMO/EHOMO with respect to the EG functionalized PMIECs,
+resulting from the strong electron-withdrawing character of
+the fluorine atom.43 The EG functionalized PMIECs gave
+EHOMO around 4.31 eV, indicating that they are prone to be
+electrochemically doped in an aqueous electrolyte.17 From the
+data in Table 1, the energetics of PMIECs remained constant
+even when grafting diﬀerent lengths of EG side chains, demon-
+strating that the side chain composition has little impact on the
+PMIECs’ electronic properties, which is in accordance with
+the optical measurement. Furthermore, the hydrophilicity was
+gradually raised by grafting longer EG side chains, which was
+supported by the contact angle measurement in Fig. 1c. The
+contact angle was 95.21 (1.8), 71.31 (1.4), 65.91 (1.4)
+and 60.31 (1.3) for g2T2-BTf, g2T2-gBT2, g2T2-gBT4 and
+g2T2-gBT6, respectively.
+2.3
+Electrochemical charging properties in aqueous media
+To investigate the relationship between the varying EG compo-
+sition and electrochemical redox behavior in aqueous media,
+CV measurements were conducted in a 0.1 M aqueous NaCl
+solution between 0.3 V and 0.7 V vs Ag/AgCl. As illustrated in
+Fig. 2, the potential for the oxidation onset in the aqueous
+electrolyte is 0.11  0.01 V for three PMIECs. It is notable
+that the overall CV current increases in the following order:
+g2T2-gBT2 o g2T2-gBT4 o g2T2-gBT6. This is in contrast to
+the electroactive mass of the PMIECs, i.e. the mass percentages
+Fig. 1
+(a) Normalized UV-vis-NIR absorption spectra in films and (b) cyclic voltammograms of the polymer films in 0.1 M tetrabutylammonium
+hexafluorophosphate (n-Bu4NPF6) acetonitrile solution at a scan rate of 50 mV s1, using Ag/AgCl as a reference electrode. (c) Contact angle
+measurements.
+Table 1
+Optical and electronic properties
+Polymers
+lSolution
+a
+[nm]
+lFilm
+b [nm] EHOMO
+c [eV] ELUMO
+d [eV] Eopt
+g
+e [eV]
+g2T2-BTf
+395, 640 410, 743
+4.46
+3.13
+1.33
+g2T2-gBT2 422,725
+428,748
+4.31
+3.04
+1.27
+g2T2-gBT4 423,727
+434,788
+4.30
+3.04
+1.26
+g2T2-gBT6 424,728
+436,802
+4.31
+3.02
+1.29
+a Chloroform. b Films. c EHOMO
+was
+determined
+by
+the
+equation
+EHOMO = [4.8 + Eox(onset)  EFC] eV, the EFC is 0.38 eV when Fc/Fc+ as
+an external standard. d ELUMO = EHOMO + Eopt
+g . e Derived from the
+absorption onset of polymer film (Eopt
+g
+= 1240/lonset).
+Communication
+Materials Horizons
+Published on 13 May 2023. Downloaded by University of Chicago on 5/10/2024 2:25:27 AM. 
+View Article Online
+
+3094 |  Mater. Horiz., 2023, 10, 3090–3100
+This journal is © The Royal Society of Chemistry 2023
+of the conjugated backbone relative to the whole polymer,
+which were 46%, 40%, and 36% for g2T2-gBT2, g2T2-gBT4
+and g2T2-gBT6, respectively. With the greatest relative electro-
+active mass, g2T2-gBT2 might be expected to provide the high-
+est capacity, but this is not the case. The increasing energy-
+storage capacity with EG density thus indicates a positive
+impact of the EG side chains on the p-backbone doping.
+As illustrated in Fig. 2a, varied diﬀerences in current density
+between the 1st and 1000th CV scan were observed. Upon
+continuous charging of the polymer films up to 1000 cycles,
+the three PMIECs exhibited similar electrochemical stability,
+retaining 55%  3% of the initial capacity. The gravimetric
+capacitance (Cg) is an important parameter for quantifying
+charge capacity of polymer electrodes, which can be obtained
+from CV recorded at 50 mV s1 by integrating the current from
+0.3 V to 0.7 V and normalizing for polymer mass. According to
+eqn (1):44
+Cg ¼
+A
+DV 
+@V
+@t
+
+
+ m
+(1)
+where A is the area under the CV curve, DV illustrates the
+voltage window (1.0 V in this case). @V
+@t is the scan rate and m
+represents the mass of the polymer. The Cg in 0.1 M aqueous
+NaCl solution was calculated as 113 F g1 for g2T2-gBT2,
+134 F g1 for g2T2-gBT4, and 169 F g1 for g2T2-gBT6. Note
+that the Cg calculation came from the first CV cycle. Apparently,
+gravimetric capacitance benefits from increasing the EG length.
+Furthermore,
+the
+galvanostatic
+charge–discharge
+(GCD)
+measurement for PMIECs recorded at 1 A g1 was displayed
+in Fig. 2b. Follow eqn 2:45
+Cs ¼ 2im
+Ð Vdt
+V2j Vf
+Vi
+(2)
+where Cs represents the specific capacitance, im
+Ð Vdt depicts
+the current integral area and the current density (im) is
+1.0 A g1. Vi is the initial voltage (0.3 V) and the finished
+voltage is Vf (0.7 V), and then the voltage window square
+(absolute value) is 1.00 V2. Substituting these values into
+eqn (2) gives a specific capacitance of 183 F g1 for g2T2-
+gBT6, which is the highest value among the three PMIECs.
+Besides, the specific capacitance is 152 F g1 for g2T2-gBT4 and
+140 F g1 for g2T2-gBT2, which is consistent with the results
+from CV measurements. Similarly, GCD measurements support
+that higher specific capacitance was achieved by higher EG
+density. In addition, after 1000 cycles, the GCD measurement
+was carried out again. A specific capacitance of 74 F g1,
+77 F g1 and 97 F g1 was obtained for g2T2-gBT2, g2T2-gBT4
+and g2T2-gBT6, respectively, which was in accordance with
+stability measurement around 55% after the 1000th cycle by
+CV. Both the CV and GCD measurements support that the
+storage capacity of the polymer electrode can be facilely tailored
+via EG composition modification by such post-polymerization
+functionalization.
+The ability for these PMIECs to function as polymer-based
+electrodes in aqueous NaCl solution is attributed to doping of
+the p-backbone by chloride ions. As the g2T2-gBT6 presented
+the superior storage capacity than its two analogues, we
+hypothesized that increasing EG content likely contributes to
+enhancing the doping of the conjugated backbone, enabling
+Fig. 2
+(a) CV measurements of PMIECs in 0.1 M aqueous NaCl solution from 0.3 V to 0.7 V at a scan rate of 50 mV s1 with low O2 concentration
+(1000 cycles). The red circle represents the 1st cycle. (b) Galvanostatic charge–discharge plots recorded at 1.0 A g1.
+Materials Horizons
+Communication
+Published on 13 May 2023. Downloaded by University of Chicago on 5/10/2024 2:25:27 AM. 
+View Article Online
+
+This journal is © The Royal Society of Chemistry 2023
+Mater. Horiz., 2023, 10, 3090–3100 |  3095
+faster redox kinetics and better performance for the polymer
+electrodes.9 To support this speculation, CV measurements of
+copolymers in deoxygenated 0.1 M aqueous NaCl solution
+were performed from 0.3 V to 0.7 V at a series of scan rates
+(Fig. 3a–c). A linear trend of relationship between current
+intensity and square root of scan rate was found in all three
+PMIECs, which suggests a diffusion-controlled mechanism of
+oxidation/reduction reactions (Fig. 3d).46 According to the
+Randles–Sevcik equation for a reversible electrochemical pro-
+cess, the Ip(v1/2) relationship can be described as eqn (3):47
+IP ¼ 0:4463 n3F3
+RT vD
+
+1=2
+AC
+(3)
+in which A is the polymer electrode’s electrochemically active
+surface area (2.85 cm2 in this case), n is the scan rate (V s1), n is
+the number of electrons involved during the electrochemical
+process, F is Faraday’s constant (C mol1), R is the gas constant
+(J (mol K)1), T is the absolute temperature (298.15 K), C is
+the molar concentration of chloride ions in NaCl solution
+(0.1 mol cm3) and D is the diffusion coefficient of chloride
+ions. Based on eqn (3), the DCl
+ is calculated with a value of
+3.43  1010 cm2 s1, 4.62  1010 cm2 s1 and 6.12 
+1010 cm2 s1 for g2T2-gBT2, g2T2-gBT4 and g2T2-gBT6,
+respectively. Apparently, the higher EG density contributes to
+the electrochemical doping of the p-backbone, resulting from
+the improvement in ion diffusivity. In particular, the GOP-PPF
+provided in this work opens up a synthetic avenue for enhan-
+cing the doping of conjugated polymer-based electrodes oper-
+ating in aqueous electrolytes.
+To further investigate the redox behavior in aqueous media,
+the PMIECs’ doping mechanism was studied by in situ UV-vis-
+NIR spectroelectrochemistry. We observed similar absorption
+spectra changes for all three PMIECs (Fig. S15, ESI†). First, a
+loss of intensity of the low energy absorption band (350–
+510 nm) and high energy band (510–1000 nm) was observed
+at potentials between 0.3 V and 0.7 V vs. Ag/AgCl. Specifically,
+upon gradually raising the applied bias up to 0.7 V, a new
+absorption feature around 1050 nm concomitantly increased,
+which was attributed to the formation of polarons.17 Inversion
+of the potential to 0.3 V was employed to test the reversibility
+of the doping process. The optical signature of the polymers
+was fully restored in aqueous media, suggesting that these
+PMIECs have potential for electrochromic display applications.
+2.4
+OECT performance
+An important application of mixed conduction materials is in
+OECT devices. OECTs operate as amplifying transducers, con-
+verting small changes in the gate voltage into large changes in
+the channel current, with an eﬃciency given by the trans-
+conductance, gm, which is expressed as eqn (4):46
+gm ¼ Wd
+L mCðVth  VGÞ
+(4)
+The transconductance depends on the volumetric capacitance
+(C*) and the charge mobility (m) of the channel materials, as
+well as the channel thickness (d), length (L) and width (W), the
+gate voltage (VG), and the threshold voltage (Vth). Typically,
+the mC* value is the key parameter for evaluating the mixed
+conduction properties of the channel material in OECTs.48
+To investigate the role of EG composition in the mixed
+Fig. 3
+(a–c) CV measurements of g2T2-gBT2, g2T2-gBT4 and g2T2-gBT6 in 0.1 M aqueous NaCl solution from 0.3 V to 0.7 V at a series of scan rates
+with low O2 concentration; (d) peak currents against the square roots of the scan rates.
+Communication
+Materials Horizons
+Published on 13 May 2023. Downloaded by University of Chicago on 5/10/2024 2:25:27 AM. 
+View Article Online
+
+3096 |  Mater. Horiz., 2023, 10, 3090–3100
+This journal is © The Royal Society of Chemistry 2023
+ionic–electronic transport, the three PMIECs were studied as
+channel materials by fabricating OECTs. The output and trans-
+fer characteristics of the OECTs are shown in Fig. 4 and the
+corresponding data are summarized in Table 2.
+OECTs fabricated using g2T2-gBT4 reached a maximum
+drain current of 2.50 mA, much higher than 1.7 mA for g2T2-
+gBT6 and nearly 14 times higher than 0.18 mA for g2T2-gBT2 at
+the same VD = 0.6 V (VG set at 0.7 V) (see Fig. 4a–c). Similar
+trends in the normalized transconductance gm,norm were
+observed in the polymer series (Fig. 4d–f). g2T2-gBT2 displayed
+the lowest gm,norm due to the combined effects of a low mC*
+(40 F cm1 V1 s1, Fig. S16, ESI†) and a large threshold voltage
+(Vth = 0.17 V, Fig. S17, ESI†). As reported, the poor mixed
+conduction of g2T2-gBT2 is likely due to low degree of swelling
+and ionic conduction, which increases the voltage required to
+oxidize the polymer.49 Next, the gm,norm increased as the EG
+side chain length was increased, and g2T2-gBT4 gave the
+highest gm,norm value (161.2 S cm1) among the three PMIECs,
+resulting from the significant improvement in the mC* product
+(359 F cm1 V1 s1) as well as a decrease in Vth (0.10 V).
+Further grafting longer EG side chains in g2T2-gBT6, however,
+resulted in a lower mC* (203 F cm1 V1 s1) and decreased
+transconductance (95.9 S cm1).
+To understand the volumetric doping process of the three
+copolymers, the electrochemical impedance spectroscopy (EIS)
+technique was used (Fig. S18, ESI†). The DCl
+ can be calculated
+from Nyquist and Bode plots (see Fig. S18 a, b and e, ESI†)
+at low frequency, which corresponds to diﬀusion behavior of
+Cl.50,51 In particular, the DCl
+ is calculated with a value of 3.89 
+1011 cm2 s1, 1.68  1010 cm2 s1 and 6.06  1010 cm2 s1 for
+g2T2-gBT2, g2T2-gBT4 and g2T2-gBT6, respectively, which is
+consistent with the values obtained from CV measurement
+(see Fig. 3). The volumetric capacitance (C*) systemically
+increased as the side chain length was increased (check
+Fig. S18 c and d, ESI†), in agreement with the charge-storage
+capacity measurements. Furthermore, based on the mC* and C*
+values, the charge mobility (m) can be obtained. Note that the
+calculated m value (0.99 cm2 V1 s1) of g2T2-gBT4 is the
+highest among the three copolymers. As reported, the introduc-
+tion of EG side chains can facilitate ion transport in aqueous
+media, while some studies also pointed out that too much EG
+content would likely result in excessive water uptake during the
+electrochemical doping, disrupting the molecular crystallinity
+and reducing charge transport in some cases.6,18 In this case,
+the highest mC* was obtained for g2T2-gBT4 as it maintained a
+balance between electronic charges and hydrated ion transport
+to maximize the mixed conduction in aqueous media.
+From the transient behavior in Fig. S19 (ESI†), the turn on
+time (tON) systematically decreased as the EG length increased,
+whereas the turn-oﬀ(tOFF) was unaﬀected. Note that the OECT
+Fig. 4
+(a, d), (b, e) and (c, f) Output curves, and transfer and transconductance characteristics for g2T2-gBT2, g2T2-gBT4 and g2T2-gBT6-based
+OECTs, respectively.
+Table 2
+Characteristics of OECTs
+Polymers
+d [nm]
+gm,norm
+a [S cm1]
+Ion/oﬀ
+Vth
+b [V]
+mc [cm2 V1 s1]
+C* d [F cm3]
+mC* e [F V1 cm1 s1]
+ton [ms]
+toﬀ[ms]
+g2T2-gBT2
+35  3
+16.3  0.7
+B103
+0.17
+0.18
+224
+40
+93
+9
+g2T2-gBT4
+42  3
+154.9  6.3
+B103
+0.10
+0.99
+364
+359
+50
+9
+g2T2-gBT6
+46  4
+92.4  3.5
+B103
+0.10
+0.47
+435
+203
+37
+9
+a The normalized average transconductance values. b Values determined by extrapolating the corresponding IDS
+1/2–VGS plots. c Data obtained from
+the mC* and the volumetric capacitance C*. d Data deduced from EIS plots fit to an Rs (Rp8C) circuit. e Data calculated from the equation: gm =
+WdL1mC*(Vth  VG).
+Materials Horizons
+Communication
+Published on 13 May 2023. Downloaded by University of Chicago on 5/10/2024 2:25:27 AM. 
+View Article Online
+
+This journal is © The Royal Society of Chemistry 2023
+Mater. Horiz., 2023, 10, 3090–3100 |  3097
+transient kinetics agree well with ion diﬀusion measurement
+results as the fastest doping speed was found for g2T2-gBT6.
+Additionally, the asymmetry in the switching characteristics
+between the tON and tOFF was observed, which indicates the
+presence of a dissipation process, such as a viscoelastic com-
+ponent in the conducting pathway through the channel.52 The
+on-to-oﬀcurrent ratios measured are on the same order of 103,
+comparable to the state-of-the-art OECTs.20,48 Long term on–off
+switching performances were also carried out to test the
+stability of the OECTs operating in aqueous electrolytes. Note
+that three PMIECs presented similar operation stability of
+around 46% for 30 min (Fig. S20, ESI†).
+2.5
+Microstructure study
+To analyze the microstructural features of the polymer films
+upon electrochemical doping, we collected ex situ grazing
+incidence wide-angle X-ray scattering (GIWAXS) of the films
+in their oxidized condition (doped at +0.7 V vs. Ag/AgCl in 0.1 M
+NaCl solution) (see Fig. 5 and Table S2, ESI†). Evidenced by the
+pronounced p–p scattering (010) from the in-plane direction, a
+predominant edge-on orientation was observed for all EG
+functionalized PMIECs. The three PMIECs exhibited a signifi-
+cant in-plane (010) peak at qxy = 1.631, 1.648 and 1.620 Å1
+corresponding to a p–p spacing of 3.85 Å, 3.81 Å and 3.88 Å for
+g2T2-gBT2, g2T2-gBT4 and g2T2-gBT6, respectively. Similarly, a
+shorter p–p stacking spacing was also found in g2T2-gBT4 than
+its two analogues in the out-of-plane (010) direction. In parti-
+cular, the shortest p–p stacking spacing for g2T2-gBT4 could
+contribute towards the charge transport,53 which agrees well
+with the highest mobility observed in the OECT device. Scatter-
+ing profiles exhibited a lamellar diffraction peak (100) along the
+in-plane/out-of-plane direction corresponding to a lamellar
+d-spacing of 16.06/16.02, 19.87/19.87 and 21.51/21.73 Å for
+g2T2-gBT2, g2T2-gBT4 and g2T2-gBT6, respectively. As we
+know, the lamellar stacking refers to the separation of the
+conjugated and aliphatic moieties.54 With gradually raising
+the EG length, as expected, g2T2-gBT6 exhibited the largest
+lamellar spacing due its longer linear side chain length.
+Furthermore, ex situ atomic force microscopy (AFM) was
+applied to study the correlation between the EG composition
+and the morphology of the polymer films, and how the film
+morphology was aﬀected by the injection of ions and water
+(Fig. S21, ESI†). In the pristine state, the three PMIECs exhib-
+ited similar root-mean square roughness (RMS) of 21.6 
+0.1 nm. When the films were immersed in 0.1 M NaCl solution,
+the surface topographies of all polymer films appeared
+smoother with a reduced RMS value. The more even morphol-
+ogy in the hydrated state is indicative of a film swollen by ions
+and water.16 Besides, after five CV cycles (0.3 V to 0.7 V)
+in 0.1 M NaCl solution, a much rougher morphology was
+observed, with an increase in RMS value for all three PMIECs.
+Importantly, the rougher morphology was ascribed to ions and
+water penetration and exit cycles upon electrochemical doping
+and de-doping.55 Notably, the most distinctive morphology
+change was found for g2T2-gBT6, which was consistent with
+electrochemical quartz crystal microbalance dissipation mon-
+itoring (EQCM-D) (vide infra).
+2.6
+EQCM-D measurement
+To investigate the eﬀects of EG composition on the swelling
+behavior upon electrochemical doping, we conducted EQCM-D
+measurement (Fig. S22, ESI†). In Fig. 6a, when the three
+PMIECs were immersed in 0.1 M NaCl solution, they displayed
+a similar passive swelling around 19.6%. However, a remark-
+able swelling change upon electrochemical doping at 0.7 V vs.
+Ag/AgCl was observed as the EG length progressively increases.
+Fig. 5
+GIWAXS patterns of the oxidized polymer films for (a and d) g2T2-gBT2, (b and e) g2T2-gBT4 and (c and f) g2T2-gBT6, and corresponding line-
+cut profiles along the in-plane (qxy) and out-of-plane (qz) directions.
+Communication
+Materials Horizons
+Published on 13 May 2023. Downloaded by University of Chicago on 5/10/2024 2:25:27 AM. 
+View Article Online
+
+3098 |  Mater. Horiz., 2023, 10, 3090–3100
+This journal is © The Royal Society of Chemistry 2023
+In particular, an active swelling of 16.7% was found in g2T2-
+gBT2, followed by a significant increase to 83.6% for g2T2-gBT4
+and 115.7% for g2T2-gBT6. Notably, raising the EG content
+would contribute to the polymers swelling upon electrochemi-
+cal doping in aqueous electrolyte, which was in agreement with
+previous studies.56 As the active swelling of the polymers
+originated from the injection of ions and water, the specific
+amount of Cl ions and water molecules was calculated. As
+illustrated in Fig. 6b, all EG functionalized polymer films took
+more water than Cl ions during the doping process, with the
+ratios of H2O/Cl uptake being 19.4, 21.6, and 62.1 for g2T2-
+gBT2, g2T2-gBT4, and g2T2-gBT6, respectively. This increasing
+Cl ion uptake with higher EG density trend is reflected in
+volumetric capacitance and energy storage measurements. In
+particular, the drop in charge mobility of g2T2-gBT6 fabricated
+as an OECT was likely due to the molecular packing disruption
+as a result of excessive water uptake.4,57,58 Furthermore, our
+results present that polymer swelling upon electrochemical
+biasing must be carefully balanced to avoid significant structural
+changes, which may reduce the electronic charge mobilities.
+3. Conclusion
+In this work, we established a new synthesis strategy, the GOP-
+PPF method, for largely expanding the synthesizable molecular
+design of PMIECs, toward incorporating a wide range of emer-
+ging functions. In particular, a series of PMIECs were prepared
+with varying EG composition by the GOP-PPF approach, which
+otherwise are highly time-consuming by conventional methods.
+We found that the EG length has little eﬀect on the polymers’
+optical properties, while the hydrophilicity, redox behavior, ion
+diﬀusivity, charge storage and charge mobility in aqueous
+electrolytes were significantly influenced by EG length, as well
+as the performance in electrochemical devices. g2T2-gBT6
+exhibits the highest energy storage capacity exceeding 180 F g1
+among the three copolymers, which originates from the improved
+p-backbone doping, resulting in an ion-diﬀusivity increase. On the
+other hand, g2T2-gBT4 gives the optimum balance of charge
+mobility and ionic–electronic coupling upon doping, exhibiting
+an impressive mC* up to 359 F V1 cm1 s1. Importantly,
+optimizing the doping via tunable EG composition is crucial to
+maximize the performance of polymeric mixed conductors oper-
+ating in aqueous media. Through innovative incorporation of a
+nucleophilic aromatic substitution reaction into the design and
+synthesis paradigm of high-performance PMIECs, we anticipate
+that this synthesis strategy will greatly enlarge the molecular
+design space and thus enrich the functional properties of PMIECs.
+Moreover, we believe that the GOP-PPF method proposed in this
+work will accelerate the development where ionic–electronic con-
+duction is of paramount importance, including organic thermo-
+electrics, energy storage and electrochromics.
+Author contributions
+S. Cong synthesized the polymers and wrote the original manu-
+script; J. Chen carried out OECT measurements; B. Ding,
+Y. Wang, L. Lan and Z. Li provided helpful discussion; C. Chen
+coordinated the work; M. Heeney and W. Yue supervised the
+work; S. Cong prepared the manuscript with support from all
+co-authors; all authors discussed the results and contributed to
+this work.
+Conflicts of interest
+There are no conflicts of interest to declare.
+Acknowledgements
+S. Cong and J. Chen contributed equally to this work. The
+authors thank the National Natural Science Foundation of
+China (Grant No. 22275212), the Guangdong Basic and Applied
+Basic Research Foundation (Grant No. 2021A1515110261) and
+the Royal Society and Wolfson Foundation (Royal Society
+Wolfson Fellowship) for the financial support.
+References
+1 N. A. Kukhta, A. Marks and C. K. Luscombe, Chem. Rev.,
+2021, 122, 4325.
+Fig. 6
+(a) Polymer film swelling extent corresponding to the wet state with no potential bias (passive swelling) and electrochemical doping at +0.7 V
+versus Ag/AgCl (active swelling). (b) Concentration of Cl ions and H2O molecule density in the polymer films oxidized at +0.7 V in aqueous solution.
+Materials Horizons
+Communication
+Published on 13 May 2023. Downloaded by University of Chicago on 5/10/2024 2:25:27 AM. 
+View Article Online
+
+This journal is © The Royal Society of Chemistry 2023
+Mater. Horiz., 2023, 10, 3090–3100 |  3099
+2 S. T. M. Tan, A. Gumyusenge, T. J. Quill, G. S. LeCroy,
+G. E. Bonacchini, I. Denti and A. Salleo, Adv. Mater., 2022,
+34, 2110406.
+3 S. Cong, J. Chen, L. Wang, L. Lan, Y. Wang, H. Dai, H. Liao,
+Y. Zhou, Y. Yu and J. Duan, Adv. Funct. Mater., 2022,
+32, 2201821.
+4 Y. He, N. A. Kukhta, A. Marks and C. K. Luscombe, J. Mater.
+Chem. C, 2022, 10, 2314.
+5 J. Chen, S. Cong, L. Wang, Y. Wang, L. Lan, C. Chen, Y. Zhou,
+Z. Li, I. McCulloch and W. Yue, Mater. Horiz., 2023, 10, 607.
+6 N. A. Kukhta, A. Marks and C. K. Luscombe, Chem. Rev.,
+2021, 122, 4325.
+7 B. D. Paulsen, K. Tybrandt, E. Stavrinidou and J. Rivnay, Nat.
+Mater., 2020, 19, 13.
+8 Y. Wang, G. Zhu, E. Zeglio, T. C. H. Castillo, S. Haseena,
+M. K. Ravva, S. Cong, J. Chen, L. Lan and Z. Li, Chem. Mater.,
+2023, 35, 405.
+9 X. Li, Y. Li, K. Sarang, J. Lutkenhaus and R. Verduzco, Adv.
+Funct. Mater., 2021, 31, 2009263.
+10 P. R. Paudel, J. Tropp, V. Kaphle, J. D. Azoulay and B. Lu¨ssem,
+J. Mater. Chem. C, 2021, 9, 9761.
+11 D. Ohayon, V. Druet and S. Inal, Chem. Soc. Rev., 2023,
+52, 1001.
+12 X.-X. Gao, D.-J. Xue, D. Gao, Q. Han, Q.-Q. Ge, J.-Y. Ma,
+J. Ding, W. Zhang, B. Zhang, Y. Feng, G. Yu and J.-S. Hu, Sol.
+RRL, 2019, 3, 1800232.
+13 M. Moser, L. R. Savagian, A. Savva, M. Matta, J. F. Ponder Jr,
+T. C. Hidalgo, D. Ohayon, R. Hallani, M. Reisjalali and
+A. Troisi, Chem. Mater., 2020, 32, 6618.
+14 M. Moser, Y. Wang, T. C. Hidalgo, H. Liao, Y. Yu, J. Chen,
+J. Duan, F. Moruzzi, S. Griggs and A. Marks, Mater. Horiz.,
+2022, 9, 973.
+15 P. Schmode, A. Savva, R. Kahl, D. Ohayon, F. Meichsner,
+O. Dolynchuk, T. Thurn-Albrecht, S. Inal and M. Thelakkat,
+ACS Appl. Mater. Interfaces, 2020, 12, 13029.
+16 A. Savva, R. Hallani, C. Cendra, J. Surgailis, T. C. Hidalgo,
+S. Wustoni, R. Sheelamanthula, X. Chen, M. Kirkus and
+A. Giovannitti, Adv. Funct. Mater., 2020, 30, 1907657.
+17 L. Lan, J. Chen, Y. Wang, P. Li, Y. Yu, G. Zhu, Z. Li, T. Lei,
+W. Yue and I. McCulloch, Chem. Mater., 2022, 34, 1666.
+18 M. Moser, L. R. Savagian, A. Savva, M. Matta, J. F. Ponder,
+T. C. Hidalgo, D. Ohayon, R. Hallani, M. Reisjalali, A. Troisi,
+A. Wadsworth, J. R. Reynolds, S. Inal and I. McCulloch,
+Chem. Mater., 2020, 32, 6618.
+19 Y. Z. Wang, E. Zeglio, H. L. Liao, J. Q. Xu, F. Liu, Z. K. Li,
+I. P. Maria, D. Mawad, A. Herland, I. McCulloch and W. Yue,
+Chem. Mater., 2019, 31, 9797.
+20 M. Moser, T. C. Hidalgo, J. Surgailis, J. Gladisch, S. Ghosh,
+R. Sheelamanthula, Q. Thiburce, A. Giovannitti, A. Salleo,
+N. Gasparini, A. Wadsworth, I. Zozoulenko, M. Berggren,
+E. Stavrinidou, S. Inal and I. McCulloch, Adv. Mater., 2020,
+32, e2002748.
+21 A. Giovannitti, C. B. Nielsen, D. T. Sbircea, S. Inal, M.
+Donahue, M. R. Niazi, D. A. Hanifi, A. Amassian, G. G.
+Malliaras, J. Rivnay and I. McCulloch, Nat. Commun., 2016,
+7, 13066.
+22 D. Ohayon, A. Savva, W. Du, B. D. Paulsen, I. Uguz,
+R. S. Ashraf, J. Rivnay, I. McCulloch and S. Inal, ACS Appl.
+Mater. Interfaces, 2021, 13, 4253.
+23 S. E. Chen, L. Q. Flagg, J. W. Onorato, L. J. Richter, J. Guo, C. K.
+Luscombe and D. S. Ginger, J. Mater. Chem. A, 2022, 10, 10738.
+24 H. Y. Wu, C. Y. Yang, Q. Li, N. B. Kolhe, X. Strakosas,
+M. A. Stoeckel, Z. Wu, W. Jin, M. Savvakis, R. Kroon, D. Tu,
+H. Y. Woo, M. Berggren, S. A. Jenekhe and S. Fabiano, Adv.
+Mater., 2022, 34, e2106235.
+25 M. Rimmele, F. Glocklhofer and M. Heeney, Mater. Horiz.,
+2022, 9, 2678.
+26 P. Li and T. Lei, J. Polym. Sci., 2021, 60, 377.
+27 P. Schmode, A. Savva, R. Kahl, D. Ohayon, F. Meichsner,
+O. Dolynchuk, T. Thurn-Albrecht, S. Inal and M. Thelakkat,
+ACS Appl. Mater. Interfaces, 2020, 12, 13029.
+28 K. A. Gu¨nay, P. Theato and H.-A. Klok, J. Polym. Sci., Part A:
+Polym. Chem., 2013, 51, 1.
+29 N. F. Konig, A. Al Ouahabi, S. Poyer, L. Charles and
+J. F. Lutz, Angew. Chem., Int. Ed., 2017, 56, 7297.
+30 M. A. Gauthier, M. I. Gibson and H.-A. Klok, Angew. Chem.,
+Int. Ed., 2009, 48, 48.
+31 M. Raicopol, C. Andronescu, R. Atasiei, A. Hanganu and
+L. Pilan, J. Electrochem. Soc., 2014, 161, G103.
+32 R. Garcı´a-Loma and A. C. Albe´niz, RSC Adv., 2015, 5, 70244.
+33 E. Reichsollner, A. Creamer, S. Y. Cong, A. Casey, S. Eder,
+M. Heeney and F. Glocklhofer, Front. Chem, 2019, 7, 123.
+34 A. Creamer, C. S. Wood, P. D. Howes, A. Casey, S. Y. Cong,
+A. V. Marsh, R. Godin, J. Panidi, T. D. Anthopoulos, C. H.
+Burgess, T. M. Wu, Z. P. Fei, I. Hamilton, M. A. McLachlan,
+M. M. Stevens and M. Heeney, Nat. Commun., 2018, 9, 1.
+35 J. Chen, Z. Yan, L. Tang, M. A. Uddin, J. Yu, X. Zhou,
+K. Yang, Y. Tang, T. J. Shin, H. Y. Woo and X. Guo,
+Macromolecules, 2018, 51, 5352.
+36 S. Cong, A. Creamer, Z. Fei, S. A. J. Hillman, C. Rapley, J. Nelson
+and M. Heeney, Macromol. Biosci., 2020, 20, 2000087.
+37 Y. D. Park, D. H. Kim, Y. Jang, J. H. Cho, M. Hwang,
+H. S. Lee, J. A. Lim and K. Cho, Org. Electron., 2006, 7, 514.
+38 J. K. Harris and E. L. Ratcliﬀ, J. Mater. Chem. C, 2020, 8, 13319.
+39 Y. Wang, E. Zeglio, L. Wang, S. Cong, G. Zhu, H. Liao,
+J. Duan, Y. Zhou, Z. Li and D. Mawad, Adv. Funct. Mater.,
+2022, 32, 2111439.
+40 A. Creamer, A. Casey, A. V. Marsh, M. Shahid, M. Gao and
+M. Heeney, Macromolecules, 2017, 50, 2736.
+41 C. Zhou, Y. Liang, F. Liu, C. Sun, X. Huang, Z. Xie, F. Huang,
+J. Roncali, T. P. Russell and Y. Cao, Adv. Funct. Mater., 2014,
+24, 7538.
+42 P. Li, J. Shi, Y. Lei, Z. Huang and T. Lei, Nat. Commun., 2022,
+13, 5970.
+43 K. Feng, W. Shan, S. Ma, Z. Wu, J. Chen, H. Guo, B. Liu,
+J. Wang, B. Li, H. Y. Woo, S. Fabiano, W. Huang and X. Guo,
+Angew. Chem., Int. Ed., 2021, 60, 24198.
+44 S. Bhoyate, C. K. Ranaweera, C. Zhang, T. Morey, M. Hyatt,
+P. K. Kahol, M. Ghimire, S. R. Mishra and R. K. Gupta, Glob.
+Chall., 2017, 1, 1700063.
+45 L. Q. Mai, A. Minhas-Khan, X. Tian, K. M. Hercule, Y. L.
+Zhao, X. Lin and X. Xu, Nat. Commun., 2013, 4, 2923.
+Communication
+Materials Horizons
+Published on 13 May 2023. Downloaded by University of Chicago on 5/10/2024 2:25:27 AM. 
+View Article Online
+
+3100 |  Mater. Horiz., 2023, 10, 3090–3100
+This journal is © The Royal Society of Chemistry 2023
+46 B. Ding, G. Kim, Y. Kim, F. D. Eisner, E. Gutierrez-
+Fernandez, J. Martin, M. H. Yoon and M. Heeney, Angew.
+Chem., Int. Ed., 2021, 60, 19679.
+47 M. Krajewski, B. Hamankiewicz, M. Michalska, M. Andrzejczuk,
+L. Lipinska and A. Czerwinski, RSC Adv., 2017, 7, 52151.
+48 R. K. Hallani, B. D. Paulsen, A. J. Petty, R. Sheelamanthula,
+M. Moser, K. J. Thorley, W. Sohn, R. B. Rashid, A. Savva and
+S. Moro, J. Am. Chem. Soc., 2021, 143, 11007.
+49 A. Giovannitti, D.-T.
+Sbircea, S.
+Inal, C. B. Nielsen,
+E. Bandiello, D. A. Hanifi, M. Sessolo, G. G. Malliaras,
+I. McCulloch and J. Rivnay, Proc. Natl. Acad. Sci. U. S. A.,
+2016, 113, 12017.
+50 C. Gong, F. Deng, C.-P. Tsui, Z. Xue, Y. S. Ye, C.-Y. Tang,
+X. Zhou and X. Xie, J. Mater. Chem. A, 2014, 2, 19315.
+51 S. Zhang, J. Zhang, S. Xu, X. Yuan and B. He, Electrochim.
+Acta, 2013, 88, 287.
+52 J. T. Friedlein, M. J. Donahue, S. E. Shaheen, G. G. Malliaras
+and R. R. McLeod, Adv. Mater., 2016, 28, 8398.
+53 Y. Wang, T. Hasegawa, H. Matsumoto and T. Michinobu,
+J. Am. Chem. Soc., 2019, 141, 3566.
+54 Z.-F. Yao, J.-Y. Wang and J. Pei, Cryst. Growth Des., 2017,
+18, 7.
+55 Y. Wang, A. Hamidi-Sakr, J. Surgailis, Y. Zhou, H. Liao,
+J. Chen, G. Zhu, Z. Li, S. Inal and W. Yue, J. Mater. Chem. C,
+2021, 9, 13338.
+56 A. Savva, R. Hallani, C. Cendra, J. Surgailis, T. C. Hidalgo,
+S. Wustoni, R. Sheelamanthula, X. X. Chen, M. Kirkus,
+A. Giovannitti, A. Salleo, I. McCulloch and S. Inal, Adv.
+Funct. Mater., 2020, 30, 1907657.
+57 M. Moser, Y. Wang, T. C. Hidalgo, H. Liao, Y. Yu, J. Chen,
+J. Duan, F. Moruzzi, S. Griggs, A. Marks, N. Gasparini,
+A. Wadsworth, S. Inal, I. McCulloch and W. Yue, Mater.
+Horiz., 2021, 9, 973.
+58 A. Savva, C. Cendra, A. Giugni, B. Torre, J. Surgailis,
+D. Ohayon, A. Giovannitti, I. McCulloch, E. Di Fabrizio,
+A. Salleo, J. Rivnay and S. Inal, Chem. Mater., 2019, 31, 927.
+Materials Horizons
+Communication
+Published on 13 May 2023. Downloaded by University of Chicago on 5/10/2024 2:25:27 AM. 
+View Article Online
+

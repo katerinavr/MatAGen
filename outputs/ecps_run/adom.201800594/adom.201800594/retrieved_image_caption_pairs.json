@@ -1,0 +1,60 @@
+{
+  "records": [
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\adom.201800594\\adom.201800594\\images_folder\\page_1_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_adom.201800594\\adom.201800594"
+    },
+    {
+      "full_caption": "Figure 1. Repeat unit structures of ProDOT-based conjugated electrochromic copolymers used for blending and schematic of subtractive mixing strategies for accessing black. R = 2-ethylhexyl.",
+      "caption": "Figure 1. Repeat unit structures of ProDOT-based conjugated electrochromic copolymers used for blending and schematic of subtractive mixing strategies for accessing black. R = 2-ethylhexyl.",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\adom.201800594\\adom.201800594\\images_folder\\page_3_img_1_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_adom.201800594\\adom.201800594"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "N/A",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\adom.201800594\\adom.201800594\\images_folder\\page_4_img_1_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_adom.201800594\\adom.201800594"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "N/A",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\adom.201800594\\adom.201800594\\images_folder\\page_5_img_1_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_adom.201800594\\adom.201800594"
+    },
+    {
+      "full_caption": "Figure 4. Photographs of A) ECP-black, B) the CMY blend, C) the CMO blend, and the D) GMO blend taken under potentiostatic control. Each photograph is taken at 0.1 V increments, increasing from 0 V to +0.8 V versus Ag/Ag+ in 0.5 M TBAPF6. E) The corresponding color coordinates for ECP-black and the various blends at 0.1 V increments.",
+      "caption": "the CMY blend",
+      "caption_summary": [
+        "Color mixing",
+        "CMY model"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\adom.201800594\\adom.201800594\\images_folder\\page_6_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_adom.201800594\\adom.201800594"
+    },
+    {
+      "full_caption": "Figure 4. Photographs of A) ECP-black, B) the CMY blend, C) the CMO blend, and the D) GMO blend taken under potentiostatic control. Each photograph is taken at 0.1 V increments, increasing from 0 V to +0.8 V versus Ag/Ag+ in 0.5 M TBAPF6. E) The corresponding color coordinates for ECP-black and the various blends at 0.1 V increments.",
+      "caption": "ECP-black",
+      "caption_summary": [
+        "ECP",
+        "black",
+        "material"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\adom.201800594\\adom.201800594\\images_folder\\page_6_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_adom.201800594\\adom.201800594"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "N/A",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\adom.201800594\\adom.201800594\\images_folder\\page_8_img_1_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_adom.201800594\\adom.201800594"
+    }
+  ]
+}

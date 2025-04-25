@@ -1,0 +1,538 @@
+Thermal Stability of π‑Conjugated n‑Ethylene-Glycol-Terminated
+Quaterthiophene Oligomers: A Computational and Experimental
+Study
+Mayank Misra, Ziwei Liu, Ban Xuan Dong, Shrayesh N. Patel, Paul F. Nealey, Christopher K. Ober,
+and Fernando A. Escobedo*
+Cite This: ACS Macro Lett. 2020, 9, 295−300
+Read Online
+ACCESS
+Metrics & More
+Article Recommendations
+*
+sı
+Supporting Information
+ABSTRACT: This work represents a joint computational and
+experimental study on a series of n-ethylene glycol (PEOn)-
+terminated quaterthiophene (4T) oligomers for 1 < n < 10 to
+elucidate their self-assembly behavior into a smectic-like lamellar
+phase. This study builds on an earlier study for n = 4 that showed
+that our model predictions were consistent with experimental data
+on the melting behavior and structure of the lamellar phase, with
+the latter consisting of crystal-like 4T domains and liquid-like
+PEO4 domains. The present study aims to understand how the
+length of the terminal PEOn chains modulates the disordering
+temperature of the lamellar phase and hence the relative stability of
+the ordered structure. A simpliﬁed bilayer model, where the 4T
+domains are not explicitly described, is put forward to eﬃciently
+estimate the disordering eﬀect of the PEO domains with increasing n; this method is ﬁrst validated by correctly predicting that layers
+of alkyl (PE)-capped 4T oligomers (for 1 < n < 10) stay ordered at room temperature. Both 4T-domain implicit and explicit model
+simulations reveal that the order−disorder temperature decreases with the length of the PEO capping chains, as the associated
+increase in conformational entropy drives a tendency toward disorder that overtakes the cohesive energy, keeping the ordered
+packing of the 4T domains.
+M
+ixed ionic/electronic conducting (MIEC) organic
+materials have garnered signiﬁcant interest as ingre-
+dients for next-generation energy storage and separation
+devices. Their application ranges from membranes for pure
+oxygen production to thin wearable electronics.1−5 Oligothio-
+phene moieties, capable of electronic conduction, combined
+with poly(ethylene oxide)s (PEOs), capable of ionic
+conduction, have been identiﬁed as promising building blocks
+for mixed ionic/electronic conducting materials. Both
+components have been well studied individually and
+recognized as state-of-the-art materials for their respective
+conducting properties; however, the characterization of the
+structure and properties of materials where both of these
+components are chemically linked and co-assembled has only
+been explored in the case of polymers but not oligomers.6−8 In
+our recent work, we explored this question by extensively
+analyzing linear 4T/PEO4 oligomers using experiments and
+molecular simulations.9 These molecules have a central core of
+quarterthiophene rings (4T) connected on each side to
+butylene-ethylene oxide (PEO4) groups. We observed that
+these 4T/PEO4 molecules self-assemble into a smectic
+morphology where the 4T cores packed in a crystalline order
+similar to pure 4T, while the PEO4 tails formed intercalating
+layers with minimal interdigitation across layers. These results
+suggest that in this class of block oligomers the core thiophene
+rings determine molecular packing, while the capping linear
+oligomers have thermally mobile, relaxed conformations.
+Ashizawa et al.10 observed an analogous layered morphology
+when studying similar linear block molecules consisting of a 4T
+core capped by alkyl chain (PE) chains (4T/PEn) (Figure
+1(b)). While all the 4T/PEn materials studied were found to
+be well ordered at room conditions, it is conjectured that PEO
+units (replacing PE) would have a more disruptive eﬀect on
+the ordered packing of 4T due to the lower melting points and
+less congruent packing of PEO chains relative to alkyl chains
+(for comparable molecular weights).11,12 Here, we use
+molecular simulations to examine the eﬀect of varying the
+number of units of PE and PEO on 4T to understand whether
+and how the capping chains may enhance or disrupt the
+smectic order. Since experimental studies of the phase behavior
+Received:
+November 26, 2019
+Accepted:
+February 3, 2020
+Published: February 11, 2020
+Letter
+pubs.acs.org/macroletters
+© 2020 American Chemical Society
+295
+https://dx.doi.org/10.1021/acsmacrolett.9b00935
+ACS Macro Lett. 2020, 9, 295−300
+Downloaded via UNIV OF CHICAGO on October 29, 2020 at 15:29:01 (UTC).
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+of the 4T/PEOn (Figure 1(a)) oligomer series are lacking,
+selected experiments for two of the 4T/PEOn oligomers are
+also described to validate the simulation ﬁndings.
+To support our conjecture that the formation of
+intercalating layers for 4T/PEOn is primarily due to the
+packing of 4T crystals and not to a microphase separation
+driven by energetic (chemical) incompatibility between blocks
+as seen in amorphous block copolymers, we estimate the
+Flory−Huggins parameter (χ) based on the solubility
+parameter δ of individual components13,14 for 4T/PEO4
+using molecular dynamics (MD) simulations. All simulations
+were performed using LAMMPS,15 with the modiﬁed force
+ﬁeld used in our previous simulation for 4T/PEO4.9 The
+calculated δ values for 4T and PEO4 are 20.84 MPa1/2 and
+21.0 MPa1/2, respectively, which gives χ4T‑PEO4 ∼0.007, i.e., a 0
+< χN ≪1 for the 4T/PEO4 oligomer, indicative of very weak
+incompatibility. A diblock oligomer with this value of χN
+would be predicted to form a mixed disordered phase16 at
+room temperature if both blocks were in an amorphous state.
+However, this is inconsistent with both experiments and
+simulations where a lamellar phase is observed. It is then clear
+that the ordering in 4T/PEO4 must be driven by the tendency
+of the 4T cores to crystallize, a process aided by both the π−π
+interactions between thiophene rings9,17,18 and the intrinsic
+backbone rigidity of the 4T units.
+To probe how the structure of the PE and PEO tails may
+aﬀect the stability of the lamellar phase, we ﬁrst study their
+conformational behavior when grafted on a ﬂat surface in the
+absence of 4T. The ﬂat grafting surface is used as a
+minimalistic, simpliﬁed representation of the lamellar interface
+adjacent to the 4T domain. A key quantity aﬀecting the
+conformational entropy of the grafted chain on a ﬂat surface is
+chain-grafting density,9 GD, deﬁned as the number of chains
+per unit area. When GD is larger than the inverse square of the
+area projected by the radius of gyration of the oligomer chains
+on the xy-plane, (
+)
+R
+1
+2
+xy
+, individual chains start overlapping
+with adjacent chains, inducing strong steric hindrance and
+excluded-volume interactions, leading to more extended and
+stretched conformations of the brushes in the direction normal
+to the substrate. Hence, the chain stretching (as captured by
+the thickness of the PEO layer in 4T/PEOn) of the grafted
+chain is strongly aﬀected by GD. Here, we mimic the chain
+lateral density of 4T/PEn by grafting CH3−(CH2−CH2)n
+(PEn) or CH3−(CH2−CH2−O)n (PEOn), where n = 1 to 10,
+to the α carbon of 4T, which gives a signiﬁcantly high grafting
+density of 7.1 nm−2. Thus, by keeping constant this GD, the
+ﬂat surface (xy-plane) represents an idealization of the
+interface between 4T and PEOn in the 4T/PEOn system.
+We ﬁrst create a single layer of 400 grafting sites at z = 0 in a
+simulation box with 7.5 × 7.5 × 12 nm. Note that the box is
+signiﬁcantly larger along the z-axis to avoid periodic
+interactions in that direction and thus initially creates a large
+interlayer vacuum. Subsequently, the PEOn chains are grown
+along the positive z-axis direction from the grafting points. The
+nonbonded, bond, and angle potential parameters between
+grafting points and grafted carbon PEOn are the same as those
+of the α carbon in 4T and the α carbon in PEO. To prevent
+chains from going below the grafting points (negative z), we
+add a reﬂective wall19 at z = 0. The single layer of grafted
+PEOn is allowed to relax at constant volume and T = 300 K
+(NVT ensemble) for 5 ns. Since the goal is to mimic smectic
+order, as seen in 4T/PEO4,9 after stabilizing the single grafted
+layer, we create a bilayer by replicating and inverting the single
+layer in the z-axis, thus making it nonperiodic in that direction
+and periodic in the x- and y-axis directions. This also results in
+an initial empty region between the two layers in the z-
+direction. On simulating the bilayer at 300 K for 500 ps under
+NVT conditions, we observe the value of the z-component of
+the pressure tensor, pzz, to be negative due to the presence of
+interlayer vacuum. Since pzz should be minimal when internal
+stresses are eliminated and approach zero (or 1 bar) when the
+layer thickness attains a mechanically stable thickness, we ﬁnd
+the minimum value of pzz
+2 using the gradient descent method
+for varying interlayer separation. The distance between the
+layers (thickness) is changed by moving the grafting points and
+the reﬂective wall closer to each other in the z-axis, resulting in
+reduced volume due to the removal of the excess vacuum
+Figure 1. Chemical structure of (a) 4T/PEn and (b) 4T/PEOn. (c) Projected end-to-end distance metric for PEn and PEOn as a function of
+number of repeat units (n) at T = 300 K. The black line represents the nearest distance of 0.53 nm between two α carbons in the packed 4T layer
+shown in (d). The red circle denotes the critical projected end-to-end distance of oligomers in the xy-plane.
+ACS Macro Letters
+pubs.acs.org/macroletters
+Letter
+https://dx.doi.org/10.1021/acsmacrolett.9b00935
+ACS Macro Lett. 2020, 9, 295−300
+296
+
+(Figure 2). Note that the grafting points are not allowed to
+move in the xy-plane to maintain the “crystal order” (of the
+implicit 4T layer). The equilibrated bilayer thickness is seen to
+increase linearly with n for the two systems (Figure S2 in the
+SI). This linear correlation is characteristic of a strongly
+stretched regime for linear chains grafted on a ﬂat surface, as
+reﬂected by the end-to-end distance values of the grafted
+chains in the z-direction (Figure S3 in the SI). In this regime,
+conformational changes (and the entropy generation) are more
+limited along the z-axis than along lateral (x−y) directions,
+resulting in increased lateral ﬂuctuations of the chains around
+the mean position with an increase in n.20−22
+To indirectly probe the increase in conﬁgurational entropy
+with chain length, we calculate the statistical average of the
+projected end-to-end distance of each oligomer on the xy-plane
+(Rxy) (Figure S4a in the SI). Rxy increases with n for both
+oligomers; however, PEOn increases more rapidly than PEn.
+To check if this disparity is related to the larger size of the PEO
+unit, we scaled n by the maximum possible length of the units
+in the all-trans state. Even after accounting for this size eﬀect,
+we found that the trend persists (Figure S4b in the SI),
+indicative of higher conﬁgurational entropy in PEOn than in
+PEn chains for n > 2. Note that Rxy would be expected to scale
+as n2 for self-avoiding chains grafted at a high GD on a ﬂat
+surface;23 however, since the n is small and we are operating in
+the highly stretched “rod-like” regime, we observe a linear
+scaling between Rxy and n. Figure 1(d) shows the P21/a
+packing (primitive lattice with a 2-fold screw axis along a) of
+the thiophene rings with a nearest intermolecular distance
+between two α carbons of p = 0.53 nm. Note that the distance
+p is larger than the π−π interaction distances of 0.39 and 0.44
+nm as seen in our previous work.9,18 Since p could be seen as a
+distance characterizing the ideal packing of 4T, the diﬀerence
+(2Rxy −p)/p can be seen as a dimensionless metric of packing
+looseness “PL” at the given temperature. A positive and larger
+PL would be indicative of looser packing and hence larger
+lateral freedom and entropy. We hence hypothesize that for PL
+> 0 or 2Rxy > p the 4T packing may become destabilized. Note
+that PL > 0 need not guarantee instability of the smectic layer;
+rather, it would be a minimum threshold for it to happen. As
+seen in Figure 1(c), PL < 0 (2Rxy < p) for PE even with n = 10.
+However, a PL > 0 for PEO with n = 5 implies a tendency for
+instability of 4T/PEOn for n ≥5 at the simulated temperature
+of 300 K (Figure 1a).
+To test the hypothesis that the stability of the end-capped
+4T systems can be estimated by calculating PL of grafted
+chains, we performed an all-atom simulation for 4T/PEOn at n
+= 3, 4, 5, and 6. Initial conﬁgurations are created using the ﬁnal
+equilibrated PEO chains and reconstructing the 4T crystal
+structure from the grafted positions (Figure S1 in the SI). To
+map the thermal stability and morphological changes of 4T/
+PEOn systems, we heated sequentially the system from 300 to
+Figure 2. (a) Representative snapshot of 4T crystal from top view (xy-plane). (b) The red beads over the 4T crystal are the representative grafting
+sites for the PE or PEO chains. (c)−(e) Snapshots of the grafted PEO chains from the side view (zx-plane) as the vacuum in between is gradually
+reduced (at ﬁxed x−y area); case (e) shows thermodynamically stable thickness when vacuum between the layers is removed and Pzz = 0.
+Figure 3. (a) Eﬀect of temperature on the Lindemann Parameter for 4T/PEOn systems. Snapshot of conﬁguration of 4T/PEO4 at T = 350 K (b),
+390 K (c), and 440 K (d). The thiophene rings are shown in cyan, and the PEO units are shown in red; hydrogens are not shown.
+ACS Macro Letters
+pubs.acs.org/macroletters
+Letter
+https://dx.doi.org/10.1021/acsmacrolett.9b00935
+ACS Macro Lett. 2020, 9, 295−300
+297
+
+460 K in 10 K increments. At each temperature, the system
+was annealed for 10 ns to try to achieve equilibrium before
+taking the next step and calculating densities and other
+material properties. On comparing the change of density with
+temperature (Figure S5 in the SI), we observed no abrupt
+changes that could be indicative of a ﬁrst-order phase
+transition. However, visually we could observe an increase in
+the ﬂuctuations of the molecular average positions, suggestive
+of melting. Hence, to try to detect when melting occurs, we
+calculated the Lindemann Parameter24 (δL) for the thiophene
+rings, where δL is deﬁned as the ratio of the root-mean-square
+ﬂuctuation in atomic positions about the equilibrium lattice
+positions and the nearest-neighbor distance (p). Since in 4T/
+PEOn we want to capture the disordering of the smectic layer
+of thiophene rings, we measure δL for the center of mass of
+thiophene rings only. The threshold value for melting is
+generally considered as 15%, but it may vary between 5% and
+20% depending on such factors as crystal structure, nature of
+interparticle interactions, and magnitude of nonclassical
+eﬀects.25 As shown in Figure 3(a), the critical value of δL for
+4T/PEOn materials is around 5−10%, resulting in a melting
+point of 400, 380, 350, and 310 K for n = 3, 4, 5, and 6,
+respectively. Thus, the smectic order of 4T/PEO6 is found to
+be unstable near room-temperature conditions, consistent with
+the prediction of our earlier hypothesis based on the behavior
+of Rxy (PL) of the model-grafted bilayer system. These
+calculations are only intended to detect the onset of
+disordering (when δL increases rapidly) as the behavior of
+the curves for δL > 5−10% is largely uninformative. We also
+performed the same analysis for 4T/PEn for n = 3, 4, 5, and 6
+and found the melting points to be higher than 380 K in each
+case (Figure S6 in the SI), consistent with available
+experimental data.10 We further explored the eﬀect of n on
+the potential energy between the components, and found
+results consistent with those obtained using the δL (Figures
+S7−9 in the SI).
+To experimentally verify that the simulation results are
+capturing the correct trend in melting behavior with n, we also
+conducted the synthesis and characterization of 4T/PEO4 and
+4T/PEO5 systems. We choose 4T/PEO5 for experimental
+characterization in addition to 4T/PEO4 since simulation
+predicted at 300 K 4T/PEOn undergoes order−disorder
+transition from n = 4 to n = 5 (Figure 1). The synthetic
+procedures of both compounds are shown in Figure S11 in the
+SI. At room temperature (near 300 K), 4T/PEO4 appears as a
+solid powder, whereas 4T/PEO5 appears as a sticky substance.
+The TGA curves (Figure S12a) suggest that both compounds
+remain thermally stable below 473 K, which is within the DSC
+temperature range (183−473 K) as shown in the heating cycle
+in Figure 4a. For 4T/PEO4, only a singular phase transition
+between smectic and isotropic melt shows up at around 367
+K,9 whereas for 4T/PEO5 a broader transition peak centered
+near 340 K is observed (indicated by the shaded areas). Such
+observations are consistent with the simulation trends of
+Figure 3 in that longer PEO chains result in lower melting
+point. The phases of both 4T/PEO4 and 4T/PEO5 were also
+characterized by POM. As can be seen in Figure 4b and 4c,
+fan-shaped textures, typical for smectic phases, are observed for
+both 4T/PEO4 and 4T/PEO5 at below the melting temper-
+ature, while black, featureless POM images are observed above
+the melting point for both compounds. This observation
+further supports that the transition temperature detected by
+DSC and simulation is indeed an LC order−disorder
+transition. To further verify that 4T crystallization controls
+the self-assembly behavior of 4T/PEOn systems, we employed
+T-dependent WAXS experiments to investigate both the π−π
+interaction and smectic ordering of 4T/PEO4 and 4T/PEO5.
+Consistent with simulation results and DSC scans, we observe
+an order−disorder transition for 4T/PEO4 at 393 K and a
+broad transition for 4T/PEO5 centered around 350 K (Figure
+S14 in SI).
+It has been a long-standing assumption that in this class of
+oligothiophenes, with terminal thiophene rings containing
+functionalized end-capping chains at their α-positions, the
+molecules would behave either like liquid crystals or like block
+copolymers depending on molecular weight.26−29 However,
+our simulations paint a somewhat diﬀerent and more nuanced
+picture. The smectic morphology observed here is primarily
+driven by the crystal structure of thiophene packing, while the
+functionalized groups at the end serve largely as space ﬁllers
+between the ordered thiophene cores. This results in a
+nanosegregated two-domain structure where one domain is
+highly ordered and (nearly) crystalline (thiophene), while the
+other is less ordered and liquid-like (PEO capping groups). As
+the length of the capping chains increases, their associated
+increase in conﬁgurational entropy drives a tendency toward
+“liquidity” or disorder that eventually becomes comparable to
+the energetic attractive forces, keeping the ordered packing of
+the thiophene rings. This increased mobility of the capping
+chains “jiggles” the thiophene rings toward states of higher
+translational entropy and thus to the destabilization of their
+ordered packing. Because the ordered morphology is primarily
+governed by thiophene packing, to a ﬁrst approximation the
+conformational behavior of the capping chains can be
+Figure 4. (a) Heating scans of DSC traces of 4T/PEO4 and 4T/PEO5 as a function of temperature. (b) and (c): POM images of 4T/PEO4 and
+4T/PEO5 below (top row) and above (bottom row) order−disorder transition temperature. The scale bar is 100 μm.
+ACS Macro Letters
+pubs.acs.org/macroletters
+Letter
+https://dx.doi.org/10.1021/acsmacrolett.9b00935
+ACS Macro Lett. 2020, 9, 295−300
+298
+
+computationally studied independently (as grafted chains in a
+bilayer) to eﬃciently identify trends with chain length,
+temperature, or other parameters. In the future, a similar
+approach could be used to eﬃciently test diﬀerent chemical
+compositions of capping groups, calculating readily accessible
+properties as surrogates for the entropic forces driving the
+destabilization of the ordered domains (formed by thiophene
+or other units30). A rigorous approach to such tests would
+involve very expensive free-energy calculations to determine
+the melting behavior of each system of interest. The
+approximate approaches advocated here could be further
+extended to describe phases with diﬀerent noncrystalline
+domain geometries27 (besides a slab) and are hence expected
+to be a valuable addition to the toolbox used by simulators for
+a faster discovery of useful mixed ionic−electronic conducting
+materials.
+■ASSOCIATED CONTENT
+*
+sı Supporting Information
+The Supporting Information is available free of charge at
+https://pubs.acs.org/doi/10.1021/acsmacrolett.9b00935.
+Methodology for simulation details, Flory−Huggins
+parameter estimation, synthesis of 4T/PEOn, polarized
+optical microscopy (POM), and temperature-dependent
+wide-angle X-ray scattering (WAXS) data for 4T/PEO5.
+It also presents plots for the conformational properties
+of the grafted-chain system and the temperature
+dependence of the potential energy and structure factor
+of the full system (PDF)
+■AUTHOR INFORMATION
+Corresponding Author
+Fernando A. Escobedo −School of Chemical and Biomolecular
+Engineering, Cornell University, Ithaca, New York 14853,
+United States;
+orcid.org/0000-0002-4722-9836;
+Email: fe13@cornell.edu
+Authors
+Mayank Misra −School of Chemical and Biomolecular
+Engineering, Cornell University, Ithaca, New York 14853,
+United States;
+orcid.org/0000-0002-2700-1228
+Ziwei Liu −Materials Science and Engineering, Cornell
+University, Ithaca, New York 14853, United States
+Ban Xuan Dong −Priztker School of Molecular Engineering,
+University of Chicago, Chicago, Illinois 60637, United States;
+orcid.org/0000-0002-2873-5207
+Shrayesh N. Patel −Priztker School of Molecular Engineering,
+University of Chicago, Chicago, Illinois 60637, United States;
+Chemical Science and Engineering Division, Argonne National
+Laboratory, Lemont, Illinois 60439, United States;
+orcid.org/0000-0003-3657-827X
+Paul F. Nealey −Priztker School of Molecular Engineering,
+University of Chicago, Chicago, Illinois 60637, United States;
+Materials Science Division, Argonne National Laboratory,
+Lemont, Illinois 60439, United States;
+orcid.org/0000-
+0003-3889-142X
+Christopher K. Ober −Materials Science and Engineering,
+Cornell University, Ithaca, New York 14853, United States;
+orcid.org/0000-0002-3805-3314
+Complete contact information is available at:
+https://pubs.acs.org/10.1021/acsmacrolett.9b00935
+Notes
+The authors declare no competing ﬁnancial interest.
+■ACKNOWLEDGMENTS
+The authors acknowledge ﬁnancial support from the National
+Science Foundation under Contract No. DMREF-1922259.
+The simulations were performed on Comet-GPU on XSEDE
+using the grant TG-CTS180023. This work made use of the
+Cornell Center for Materials Research Shared Facilities, which
+are supported through the NSF MRSEC program.
+■REFERENCES
+(1) Gkoupidenis, P.; Schaefer, N.; Garlan, B.; Malliaras, G. G.
+Neuromorphic Functions in PEDOT:PSS Organic Electrochemical
+Transistors. Adv. Mater. 2015, 27 (44), 7176−7180.
+(2) Kaihovirta, N.; Mäkelä, T.; He, X.; Wikman, C.-J.; Wilén, C.-E.;
+Österbacka, R. Printed All-Polymer Electrochemical Transistors on
+Patterned Ion Conducting Membranes. Org. Electron. 2010, 11 (7),
+1207−1211.
+(3) Tarabella, G.; D’Angelo, P.; Cifarelli, A.; Dimonte, A.; Romeo,
+A.; Berzina, T.; Erokhin, V.; Iannotta, S. A Hybrid Living/Organic
+Electrochemical Transistor Based on the Physarum Polycephalum
+Cell Endowed with Both Sensing and Memristive Properties. Chem.
+Sci. 2015, 6 (5), 2859−2868.
+(4) Malti, A.; Edberg, J.; Granberg, H.; Khan, Z. U.; Andreasen, J.
+W.; Liu, X.; Zhao, D.; Zhang, H.; Yao, Y.; Brill, J. W.; Engquist, I.;
+Fahlman, M.; Wågberg, L.; Crispin, X.; Berggren, M. An Organic
+Mixed Ion-Electron Conductor for Power Electronics. Adv. Sci. 2016,
+3 (2), 1500305.
+(5) Kim, S. H.; Hong, K.; Xie, W.; Lee, K. H.; Zhang, S.; Lodge, T.
+P.; Frisbie, C. D. Electrolyte-Gated Transistors for Organic and
+Printed Electronics. Adv. Mater. 2013, 25 (13), 1822−1846.
+(6) Bhatt, M. P.; Thelen, J. L.; Balsara, N. P. Effect of Copolymer
+Composition on Electronic Conductivity of Electrochemically
+Oxidized Poly(3-Hexylthiophene)- b -Poly(Ethylene Oxide) Block
+Copolymers. Chem. Mater. 2015, 27 (14), 5141−5148.
+(7) He, L.; Pan, S.; Peng, J. Morphology Control of Poly(3-
+Hexylthiophene)- b -Poly(Ethylene Oxide) Block Copolymer by
+Solvent Blending. J. Polym. Sci., Part B: Polym. Phys. 2016, 54 (5),
+544−551.
+(8) Dong, B. X.; Nowak, C.; Onorato, J. W.; Strzalka, J.; Escobedo,
+F. A.; Luscombe, C. K.; Nealey, P. F.; Patel, S. N. Influence of Side-
+Chain Chemistry on Structure and Ionic Conduction Characteristics
+of Polythiophene Derivatives: A Computational and Experimental
+Study. Chem. Mater. 2019, 31 (4), 1418−1429.
+(9) Liu, Z.; Dong, B. X.; Misra, M.; Sun, Y.; Strzalka, J.; Patel, S. N.;
+Escobedo, F. A.; Nealey, P. F.; Ober, C. K. Self-Assembly Behavior of
+An Oligothiophene-Based Conjugated Liquid Crystal and Its
+Implication for Ionic Conductivity Characteristics. Adv. Funct.
+Mater. 2019, 29, 1805220.
+(10) Ashizawa, M.; Niimura, T.; Yu, Y.; Tsuboi, K.; Matsumoto, H.;
+Yamada, R.; Kawauchi, S.; Tanioka, A.; Mori, T. Improved Stability of
+Organic Field-Effect Transistor Performance in Oligothiophenes
+Including β-Isomers. Tetrahedron 2012, 68 (13), 2790−2798.
+(11) Damman, P.; Paternostre, L.; Moulin, J.-F.; Dosiere, M. Crystal
+Structure of Poly (Ethy1ene-Oxide) Supramolecular Assemblies.
+Macromol. Symp. 1999, 138, 57−71.
+(12) Liu, G.; Baker, G. L. Structure-Directed Self-Assembly of Alkyl-
+Aryl-Ethylene Oxide Amphiphiles. Soft Matter 2008, 4 (5), 1094−
+1101.
+(13) Sperling, L. H. Introduction to Physical Polymer Science; John
+Wiley & Sons, Inc.: Hoboken, NJ, USA, 2005.
+(14) Caddeo, C.; Mattoni, A. Atomistic Investigation of the
+Solubility of 3-Alkylthiophene Polymers in Tetrahydrofuran Solvent.
+Macromolecules 2013, 46 (19), 8003−8008.
+(15) Plimpton, S. Fast Parallel Algorithms for Short-Range
+Molecular Dynamics. J. Comput. Phys. 1995, 117 (1), 1−19.
+ACS Macro Letters
+pubs.acs.org/macroletters
+Letter
+https://dx.doi.org/10.1021/acsmacrolett.9b00935
+ACS Macro Lett. 2020, 9, 295−300
+299
+
+(16) Min, C. Electroactive Thermoplastic Dielectric Elastomers as a
+New Generation Polymer Actuators. In Thermoplastic Elastomers;
+InTech, 2012.
+(17) Yao, Z. F.; Wang, J. Y.; Pei, J. Control of π-π Stacking via
+Crystal Engineering in Organic Conjugated Small Molecule Crystals.
+Cryst. Growth Des. 2018, 18 (1), 7−15.
+(18) Dong, B. X.; Liu, Z.; Misra, M.; Strzalka, J.; Niklas, J.;
+Poluektov, O. G.; Escobedo, F. A.; Ober, C. K.; Nealey, P. F.; Patel, S.
+N. Structure Control of a π-Conjugated Oligothiophene-Based Liquid
+Crystal for Enhanced Mixed Ion/Electron Transport Characteristics.
+ACS Nano 2019, 13, 7665−7675.
+(19) Bond, S.; Leimkuhler, B. Stabilized Integration of Hamiltonian
+Systems with Hard-Sphere Inequality Constraints. SIAM J. Sci.
+Comput. 2008, 30 (1), 134−147.
+(20) Dimitrov, D.; Milchev, A.; Binder, K. Polymer Brushes on Flat
+and Curved Substrates: Scaling Concepts and Computer Simulations.
+Macromol. Symp. 2007, 252 (1), 47−57.
+(21) Nair, N.; Wentzel, N.; Jayaraman, A. Effect of Bidispersity in
+Grafted Chain Length on Grafted Chain Conformations and Potential
+of Mean Force between Polymer Grafted Nanoparticles in a
+Homopolymer Matrix. J. Chem. Phys. 2011, 134 (19), 194906.
+(22) Dukes, D.; Li, Y.; Lewis, S.; Benicewicz, B.; Schadler, L.;
+Kumar, S. K. Conformational Transitions of Spherical Polymer
+Brushes: Synthesis, Characterization, and Theory. Macromolecules
+2010, 43 (3), 1564−1570.
+(23) Kirk, J.; Ilg, P. Chain Dynamics in Polymer Melts at Flat
+Surfaces. Macromolecules 2017, 50 (9), 3703−3718.
+(24) Lindemann, F. A. The Calculation of Molecular Vibration
+Frequencies. Phys. Z. 1910, 11 (11), 609−612.
+(25) Chakravarty, C.; Debenedetti, P. G.; Stillinger, F. H.
+Lindemann Measures for the Solid-Liquid Phase Transition. J.
+Chem. Phys. 2007, 126 (20), 204508.
+(26) Sasaki, K.; Shibata, Y.; Lu, M.; Yoshida, Y.; Azumi, R.; Ueda, Y.
+Effect of Side Chain of Oligothiophene Derivatives on Bulk
+Heterojunction Structure in Organic Photovoltaic Devices. Adv.
+Mater. Phys. Chem. 2013, 03 (02), 185−190.
+(27) Sun, Y.; Padmanabhan, P.; Misra, M.; Escobedo, F. A.
+Molecular Dynamics Simulation of Thermotropic Bolaamphiphiles
+with a Swallow-Tail Lateral Chain: Formation of Cubic Network
+Phases. Soft Matter 2017, 13 (45), 8542.
+(28) Zhang, L.; Colella, N. S.; Cherniawski, B. P.; Mannsfeld, S. C.
+B.; Briseno, A. L. Oligothiophene Semiconductors: Synthesis,
+Characterization, and Applications for Organic Devices. ACS Appl.
+Mater. Interfaces 2014, 6 (8), 5327−5343.
+(29) Kaloni, T. P.; Giesbrecht, P. K.; Schreckenbach, G.; Freund, M.
+S. Polythiophene: From Fundamental Perspectives to Applications.
+Chem. Mater. 2017, 29 (24), 10248−10283.
+(30) Escobedo, F. A.; Chen, Z. Liquid Crystalline Behavior of a
+Semifluorinated Oligomer. J. Chem. Phys. 2004, 121 (22), 11463−
+11473.
+ACS Macro Letters
+pubs.acs.org/macroletters
+Letter
+https://dx.doi.org/10.1021/acsmacrolett.9b00935
+ACS Macro Lett. 2020, 9, 295−300
+300
+

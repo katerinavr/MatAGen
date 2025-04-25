@@ -1,0 +1,89 @@
+{
+  "records": [
+    {
+      "full_caption": "Fig. 1 Full list of possible oligoethylene glycol permutations with a 9 atom-length side chains, as investigated using molecular dynamics.",
+      "caption": "Fig. 1 Full list of possible oligoethylene glycol permutations with a 9 atom-length side chains, as investigated using molecular dynamics.",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\MIEC_sidechain\\MIEC_sidechain\\images_folder\\page_2_img_1_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_MIEC_sidechain\\MIEC_sidechain"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "N/A",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\MIEC_sidechain\\MIEC_sidechain\\images_folder\\page_4_img_1_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_MIEC_sidechain\\MIEC_sidechain"
+    },
+    {
+      "full_caption": "Fig. 3 Solubilizing domains of parallel polymer backbones within a crystallite for (A) P3AAPT, (B) P3PAPT, (C) P3PAAPT, (D) P3PPPAT. Atoms are identified by color (see inset), with blue atoms representing side chain carbons, and black backbone carbons.",
+      "caption": "Fig. 3 Solubilizing domains of parallel polymer backbones within a crystallite for (A) P3AAPT, (B) P3PAPT, (C) P3PAAPT, (D) P3PPPAT. Atoms are identified by color (see inset), with blue atoms representing side chain carbons, and black backbone carbons.",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\MIEC_sidechain\\MIEC_sidechain\\images_folder\\page_5_img_1_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_MIEC_sidechain\\MIEC_sidechain"
+    },
+    {
+      "full_caption": "Fig. 4 Calculated ionic conductivity values for (A) crystalline and (B) amorphous polymer samples, normalized with the respective polymer dissociation energies, and further normalized against the P3MEEMT performance (P3MEEMT = 1). Chemical structures of P3MEEMT derivatives are inserted into the bar chart for readers’ convenience.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\MIEC_sidechain\\MIEC_sidechain\\images_folder\\page_5_img_2_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_MIEC_sidechain\\MIEC_sidechain"
+    },
+    {
+      "full_caption": "Fig. 4 Calculated ionic conductivity values for (A) crystalline and (B) amorphous polymer samples, normalized with the respective polymer dissociation energies, and further normalized against the P3MEEMT performance (P3MEEMT = 1). Chemical structures of P3MEEMT derivatives are inserted into the bar chart for readers’ convenience.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\MIEC_sidechain\\MIEC_sidechain\\images_folder\\page_5_img_2_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_MIEC_sidechain\\MIEC_sidechain"
+    },
+    {
+      "full_caption": "Fig. 5 UV-vis absorption spectra for all polymers with LiTFSI doping. For P3AAPT (A) and P3APPT (B) the 0−0 and 0−1 transitions are marked with vertical lines to aid the eye.",
+      "caption": "Fig. 5 UV-vis absorption spectra for all polymers with LiTFSI doping. For P3AAPT (A) and P3APPT (B) the 0−0 and 0−1 transitions are marked with vertical lines to aid the eye.",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\MIEC_sidechain\\MIEC_sidechain\\images_folder\\page_7_img_1_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_MIEC_sidechain\\MIEC_sidechain"
+    },
+    {
+      "full_caption": "Fig. 6 (A) In plane and (B) out of plane diffraction cuts of neat polymer samples. (C) In plane and (D) out of plane diffraction cuts at r = 0.15 for all polymers. Note that traces are offset vertically for visual clarity. Different crystallographic direction peak locations are bounded with boxes and labeled for clarity. To enable visibility of weaker features in P3PPAT, the out of plane, neat diffraction (B) was multiplied by a 3× multiplication.",
+      "caption": "Fig. 6 (A) In plane and (B) out of plane diffraction cuts of neat polymer samples. (C) In plane and (D) out of plane diffraction cuts at r = 0.15 for all polymers. Note that traces are offset vertically for visual clarity. Different crystallographic direction peak locations are bounded with boxes and labeled for clarity. To enable visibility of weaker features in P3PPAT, the out of plane, neat diffraction (B) was multiplied by a 3× multiplication.",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\MIEC_sidechain\\MIEC_sidechain\\images_folder\\page_8_img_1_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_MIEC_sidechain\\MIEC_sidechain"
+    },
+    {
+      "full_caption": "Figure 7. Swelling of the (A) (100) and (B) (010) directions upon introduction of LiTFSI.",
+      "caption": "(010) direction upon introduction of LiTFSI.",
+      "caption_summary": [
+        "LiTFSI",
+        "crystallography",
+        "direction"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\MIEC_sidechain\\MIEC_sidechain\\images_folder\\page_9_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_MIEC_sidechain\\MIEC_sidechain"
+    },
+    {
+      "full_caption": "Figure 7. Swelling of the (A) (100) and (B) (010) directions upon introduction of LiTFSI.",
+      "caption": "(100) direction upon introduction of LiTFSI.",
+      "caption_summary": [
+        "LiTFSI",
+        "crystallography",
+        "direction"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\MIEC_sidechain\\MIEC_sidechain\\images_folder\\page_9_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_MIEC_sidechain\\MIEC_sidechain"
+    },
+    {
+      "full_caption": "Fig. 9 Summarized extracted EIS data, showing electronic conductivity (A) and ionic conductivity (B) for all polymers and all LiTFSI concentrations (r). Note that the relative error is small, and the resultant error bars overlap the data point markers.",
+      "caption": "Fig. 9 Summarized extracted EIS data, showing electronic conductivity (A) and ionic conductivity (B) for all polymers and all LiTFSI concentrations (r). Note that the relative error is small, and the resultant error bars overlap the data point markers.",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\MIEC_sidechain\\MIEC_sidechain\\images_folder\\page_10_img_1_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_MIEC_sidechain\\MIEC_sidechain"
+    },
+    {
+      "full_caption": "Fig. 8 (A) Schematic top and side views of the interdigitated electrode arrays (IDEs). Exemplary Nyquist plots with insets showing equivalent circuits used for fitting the data and extracting relevant conductivity data for P3AAPT at r = 0.05 (B), P3AAPT at r = 0.1 (C), and P3AAPT at r = 0.05 (D). The solid markers correspond to the experimental data and the curves correspond to the fit using the equivalent circuit shown in the inset.",
+      "caption": "Fig. 8 (A) Schematic top and side views of the interdigitated electrode arrays (IDEs). Exemplary Nyquist plots with insets showing equivalent circuits used for fitting the data and extracting relevant conductivity data for P3AAPT at r = 0.05 (B), P3AAPT at r = 0.1 (C), and P3AAPT at r = 0.05 (D). The solid markers correspond to the experimental data and the curves correspond to the fit using the equivalent circuit shown in the inset.",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\MIEC_sidechain\\MIEC_sidechain\\images_folder\\page_10_img_2_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_MIEC_sidechain\\MIEC_sidechain"
+    }
+  ]
+}

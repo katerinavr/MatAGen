@@ -1,0 +1,405 @@
+DOI: 10.1002/adma.200800280
+Spray Processable Green to Highly Transmissive
+Electrochromics via Chemically Polymerizable
+Donor–Acceptor Heterocyclic Pentamers**
+By Pierre M. Beaujuge, Stefan Ellinger, and John R. Reynolds*
+The concept of valence and conduction band broadening
+based on alternating electron rich and poor moieties in con-
+jugated polymers was introduced in 1993 by Havinga et al.[1]
+With the ability to obtain energy gaps as narrow as 0.5 eV, a
+new dimension was added to the notion of band gap engi-
+neering and the ‘‘donor-acceptor’’ theory on a macromolecular
+level was born. In spite of the considerable impact of this
+discovery for device applications such as ﬁeld-effect transis-
+tors,[2–4] light emitting diodes[5] and photovoltaics,[6–9] only
+recently has the use of donor-acceptor based conducting
+polymers attracted the attention of research groups with an
+interest in electrochromic polymers (ECPs).[10–14] On the other
+hand, the last two decades have seen a particular stress placed
+on incorporating ECPs as fast and reversible color changing
+materials in devices such as windows, mirrors and displays.[15]
+While a number of neutral state red and blue conjugated
+polymers were synthesized and their properties investi-
+gated,[16–18] attempts in making saturated green polymers,
+chemically or electrochemically synthesized, have met limited
+success[15] due to the complex nature of the required
+absorption spectrum that must contain at least two bands in
+the neutral state of the material.
+In 2004, Wudl et al. reported on completing the additive
+primary color space: red, green and blue (RGB), with the ﬁrst
+promising neutral green conjugated ECP, a donor-acceptor
+based material which exhibited a high degree of stability upon
+electrochemical switching.[19] Even though a soluble version of
+the neutral green polymer was achieved,[20] the persistent
+brown hue of its oxidized state remained an obstacle that could
+not be overcome.[15,20]
+In recent work[13] from Toppare et al. published during the
+preparation of this manuscript, the donor-acceptor 4,7-di(2,3-
+dihydro-thieno[3,4-b][1,4]dioxin-5-yl)benzo[1,2,5]thiadiazole
+(BEDOT-BTD), the synthesis and electrochemical properties
+having previously been reported,[21–23] was electropolymerized
+and its subsequent polymer (PBEDOT-BTD) was re-investigated
+as a possible candidate for electrochromic applications. The
+insoluble polymer ﬁlm was revealed to be a neutral state green
+material switching rapidly and reversibly to a transmissive light
+blue oxidized state,[13] an experimental result strongly support-
+ing the utility of the donor-acceptor theory in the design of
+neutral green ECPs.
+Herein, we report our approach for engineering soluble and
+processable neutral state green conjugated polymers of tunable
+hues which possess highly transmissive oxidized states, fast
+switching times, redox switching stability and excellent optical
+contrasts both in the visible and in the near infra-red (NIR)
+(Fig. 1). The synthesized green polyheterocyclics exhibit a
+repeat unit designed for two-band absorption in the visible
+whose molecular structure can be synthetically adjusted in
+order to tailor the energy gap and control the green hue of the
+polymer, a desirable property for applications in displays.
+Complete characterization in terms of structural and physical
+properties, as well as practical integration of ECPs into devices,
+requires solution-processability, which is not attained with the
+commonly insoluble electropolymerized materials. Here, the
+reported materials can easily be processed into electrochromic
+devices using convenient deposition methods such as spin
+coating and spray casting.
+To achieve a neutral state green polymer, it is necessary to
+have a material that absorbs both red and blue light. Fine
+tuning of the energy gap, along with introduction of an adequate
+set of absorption bands in the visible spectrum, can be obtained
+by controlling the structure of the repeat unit that composes the
+conjugated material. Based on the theoretical work of Salzner et
+al. in addressing the relevance of the Donor–Acceptor approach
+for designing organic metals,[24,25] systems involving two distinct
+energy transitions are rationalized by considering the presence of
+low-lying unoccupied and localized energy levels within the band
+gap of the conjugated system in its ground-state. These locali-
+zed energy levels are easily accessed from the valence band and
+should have little electron density on the donor substituents thus
+forming a discrete energy ‘‘band’’ (whose contribution would
+stem from the most electron poor heterocycle) lying beneath the
+conduction band in the orbital correlation diagram of the
+conjugated polymer.[25] The consequences of these assump-
+tions on the optical spectrum of the undoped material
+described are two-fold: 1) low energy transitions from the
+valence band to the low lying unoccupied and localized energy
+levels result in a long wavelength absorption band 2) higher
+COMMUNICATION
+[*] Prof. J. R. Reynolds, P. M. Beaujuge, Dr. S. Ellinger
+The George and Josephine Butler Polymer Research Laboratory,
+Department of Chemistry
+Center for Macromolecular Science and Engineering
+University of Florida
+Gainesville, FL, 32611 (USA)
+E-mail: reynolds@chem.ufl.edu
+[**] The authors thank the AFOSR (FA9550-06-1-0192) for ﬁnancial
+support. Supporting Information is available online from Wiley
+InterScience or from the authors.
+2772
+ 2008 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+Adv. Mater. 2008, 20, 2772–2776
+
+COMMUNICATION
+energy transitions from the valence band to the ‘‘true’’ con-
+duction band are responsible for the presence of a distinct
+blue-shifted absorption band in the visible spectrum. In addi-
+tion, for a polymeric material transmitting/reﬂecting green
+light, obtaining a highly transmissive state upon oxidation is an
+additional major difﬁculty due to the requirement for simul-
+taneous and efﬁcient bleaching of the two absorption bands
+that occurs in the blue and red portions of the visible region.
+Figure 1 illustrates our approach for designing conjugated
+polymers with a two-band absorption in the visible so as to
+reﬂect and transmit the color green in the neutral state. At the
+same time, these polymers attain high transmissivity upon
+complete oxidation along with being solution-processable.
+Here, the acceptor 2,1,3-benzothiadiazole is symmetrically
+functionalized with different thiophenic donor substituents
+using repeated Stille couplings.[26–29] While the ﬁrst substitu-
+tion is expected to have the largest impact on the energy gap of
+the donor-acceptor system, a second substitution with a
+3,4-propylenedioxythiophene (ProDOT) allows ﬁne energy
+tuning and substantial control over the two-band absorption
+spectrum of the resulting oligomer (see Supporting Informa-
+tion). Polymerization of the heterocyclic pentamers gives a
+distinct optical (red) shift conveniently anticipated by results
+from various research groups.[30–33] In addition, as demon-
+strated earlier in our group,[34,35] alkoxy-derivatized ProDOT
+based polymers exhibit sub-second switching times, high EC
+contrast ratios, redox switching stability, transmissivity of the
+oxidized state, and a particular ease in synthesis that raises the
+synthon as a logical building unit in the design of heterocyclic
+precursors
+for
+colored
+to
+transparent
+switching
+ECPs.
+Regiosymmetric alkoxy-substituted ProDOTs also possess a
+low oxidation potential so that mild oxidizing agents can be
+used for polymerizing the designed oligomers which limits the
+risks of cross-linking occuring during the polymerization and
+induces solution-processability to the subsequent polymers.
+Polymers A and B (Fig. 1) were respectively achieved via
+chemical polymerization of the donor-acceptor based hetero-
+cyclic pentamers A and B making up the repeat unit of their
+subsequent polymeric analogues. Experimentally, it was found
+that symmetric addition of ProDOT on the donor-acceptor
+trimeric precursors (highlighted orange in Fig. 1) induces a
+bathochromic shift in the range 55–62 nm for the lower
+wavelength absorption band and 75–78 nm for the longer
+wavelength band (see Supporting Information). Polymeriza-
+tion adds a more signiﬁcant red shift of about 80 nm for the
+lower wavelength transition, while ranging from 120 to 150 nm
+for the higher one (Fig. 2a). In solution, both polymers are
+green and show minor optical changes upon increase of the
+temperature between room temperature and 100 8C indicating
+neither signiﬁcant disruption of effective conjugation[36,37] nor
+major aggregation of the backbones once solvated.[38,39] The
+key incorporation of regiosymmetric ProDOTs bearing two
+octyloxy solubilizing chains induces sufﬁcient solubility (up to
+about 8 mg mL1 in the case of polymer A) for solid thin ﬁlm
+processing using common organic solvents. While polymer A
+shows good to excellent solubility at room temperature in
+toluene, chloroform and ortho-dichlorobenzene (ODCB),
+polymer B requires hot mixtures of toluene and chloroform
+(60 8C) or hot ODCB (80–100 8C) to be efﬁciently dissolved in
+solution.
+Films of polymer A and B were spray-cast onto ITO-coated
+glass slides from room temperature solvents, and subsequently
+redox cycled until they reached a stable and reproducible
+switch prior to spectroelectrochemical analysis. As the poten-
+tial applied to the ﬁlm is increased from 0.3 V (versus Fc/Fcþ)
+for polymer A, 0.6 V for polymer B, simultaneous bleaching
+of both the low and high energy transitions is initiated (Fig. 2b
+and c). These values are consistent with the low onsets of
+oxidation of polymers A and B respectively estimated at 0.3 V
+and 0.55 V via differential-pulse voltammetry (see the
+Supporting Information). As the short and long wavelength
+absorption bands are depleted, new transitions progressively
+arise in the NIR indicating the formation of the charge carriers.
+Determined from the onset of their lowest energy p–p*
+transitions, polymer A exhibits a band gap at 1.47 eV and
+polymer B shows a more narrow value of 1.42 eV as expected
+considering that 3,4-ethylenedioxythiophene (EDOT) brings a
+higher energy HOMO than thiophene to the conjugated
+donor-acceptor system. When fully oxidized, both polymers
+show a high level of transparency to the human eye. Upon full
+oxidation the bipolaronic transition of polymer B, clearly more
+red-shifted in the NIR, tails less into the visible hence inducing
+a higher electrochromic contrast. From this data and taking the
+longer wavelength absorption maximum as a reference as it
+interacts with the near infrared tail of the fully doped polymer,
+a transmittance change up of about 32% for polymer A versus
+53% for polymer B is calculated, indicative of the higher
+contrast observed for the latter polymer.
+Figure 1. Engineering donor-acceptor heterocyclic polymers via polymer-
+izable pentamers to yield conjugated and processable tunable hue neutral
+state green polymers which exhibit fast switching properties and highly
+transmissive oxidized states (full synthetic details relative to pentamer A,
+pentamer B, polymer A and polymer B are provided in the Supporting
+Information).
+Adv. Mater. 2008, 20, 2772–2776
+ 2008 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+www.advmat.de
+2773
+ 15214095, 2008, 14, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.200800280 by Argonne National Laboratory, Wiley Online Library on [26/09/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+COMMUNICATION
+The relative luminance change, estimating the brightness of
+the transmitted light as a percentage of the brightness of the
+light source, was measured as the doping level induced by
+electrochemical oxidation was progressively increased (Fig. 3).
+From their neutral green to fully oxidized transmissive state,
+the spray-cast polymers exhibit a relative luminance change of
+approximately 30%, a promising value considering that the
+light-adapted human eye is most sensitive to forest-green, a
+tone that almost equally stimulates two of the three kinds of
+cone cells in the eye and that is consequently likely to be
+perceived regardless of its intensity. It is worth noting that
+relative luminance can also be modulated and optimized as a
+function of deposited ﬁlm thickness. The materials in their
+neutral state exhibit a saturated green, a fact supported by the
+very negative a* values obtained, but they show different hues
+as characterized by the signiﬁcantly different b* values.[40] For
+instance, the large positive b* value for polymer B translates
+the yellow tone of its green. L* values (ranging from 0 to 100)
+such as those exhibited by Polymer A (L* ¼ 91) and B
+(L* ¼ 89) upon oxidation demonstrate their aptitude to nearly
+reach the ‘‘white point’’ (W) of color space. In the oxidized
+state, a* and b* drop down to orders as low as 3 (polymer A)
+and 5 (polymer B) yielding corresponding tints that can
+hardly be perceived by the human eye. The polymers complete
+their full switches in a potential window of less than 1.5 V, a
+parameter of signiﬁcant interest for low-voltage device
+applications. The window necessary to achieve more than
+90% of the optical change is considerably narrower: as low as
+1.05 V for Polymer A and 1.15 V for Polymer B.
+The contrast ratios (%DT) were monitored as a function of
+time at the longer wavelength absorption maximum of each
+Figure 2. a) Solution optical absorbance of Pentamer A, Pentamer B,
+Polymer A and Polymer B in chloroform (Spectrum of each system is normal-
+ized at the longer wavelength absorption maximum). Legend speciﬁes the
+values of the respective absorption maxima for both high (blue) and low
+energy (red) absorption bands. b) Spectroelectrochemistry of polymer A and
+c) Polymer B The ﬁlms were spray-cast onto ITO-coated glass from solution
+(2mg mL1) in toluene (Polymer A) or a hot mixture of toluene and chloro-
+form (Polymer B). Electrochemical oxidation of the ﬁlms was carried out in
+0.1 M LiBF4/ACN supporting electrolyte using a silver wire as a qua-
+si-reference electrode (calibrated against Fc/Fcþ) and a platinum wire as
+the counter electrode. In both cases, the applied potential was increased in
+25 mV steps: 0.4 V
+þ0.95 V, Polymer A; 0.65 V
+þ 0.65 V, Polymer B.
+Figure 3. Relative Luminance (%) as a function of applied potential for
+both spray-coated Polymers A and B. Pictures show the hues of green
+perceived and give an indication of the degree of transmissivity obtained
+upon complete oxidation. For color matching, L*a*b* values (in the sense
+of the CIE 1976 L*a*b* color model) of fully neutral and oxidized states are
+reported for the ﬁlms.
+2774
+www.advmat.de
+ 2008 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+Adv. Mater. 2008, 20, 2772–2776
+ 15214095, 2008, 14, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.200800280 by Argonne National Laboratory, Wiley Online Library on [26/09/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+COMMUNICATION
+material applying square-wave potential steps of 10 s, 2 s, and
+1 s in order to characterize their respective response time
+(Fig. 4a and b). As predicted by the spectroelectrochemical
+study, the ﬁlm of polymer B exhibits higher contrasts (44–40%)
+than polymer A (39–36%), although in either case a variation
+in electrochromic contrast of only 3 to 4% is observed as the
+switch time is increased from 10 to 1 second. Measured at the
+shorter wavelength absorption maximum of polymer A and B,
+%DT was estimated at 27% and 45%, respectively.
+A new ﬁlm of polymer A was spray-coated onto ITO and its
+stability upon square-wave potential stepping electrochromic
+switching was investigated in 0.1 M LiBF4/propylene carbo-
+nate solution using a switch time of 2 s (see the Supporting
+Information). At the longer wavelength absorption maximum,
+a loss of eletrochromic contrast of only 5.5% is estimated after
+1000 cycles along with no signiﬁcant change in coloration
+efﬁciency (CE) which indicates the proper relationship
+between charge stored (calculated from integration of the
+current) and contrast observed. This result is signiﬁcant
+considering the nature of the substrate used, and the redox
+induced solubility of the polymer in the electrolyte, as there is
+little to prevent the chains from slowly migrating away from the
+working electrode to the platinum counter electrode during
+the experiment. In order to highlight the inﬂuence of the sub-
+strate on stability studies, long term switching was also inves-
+tigated on a Pt button electrode (Fig. 4c). While the decay in
+charge stored per unit area of spray-coated ﬁlm of polymer A is in
+the order of 5.5% onto ITO, a ﬁlm drop-cast on Pt shows about
+2% loss after 1000 cycles, about 3% after 2000 cycles and less
+than 5% after 10 000 cycles (nearly 24 hours) which reinforces
+the potential of this ECP for commercial applications.
+In conclusion, two new symmetrical donor-acceptor hetero-
+cyclic pentamers were designed, synthesized and chemically
+polymerized affording organic soluble neutral state green
+conjugated polymers of different hues adequate for RGB
+realization. Optical and electrochemical investigation of the
+green conjugated polymers revealed highly transmissive
+oxidized states, excellent optical contrasts both in the visible
+and in the NIR, small potential windows of operation, fast
+switching times and long-term stability. Such remarkable
+properties combined with the convenient ability to process the
+ﬁnely engineered hybrids into solid thin ﬁlms upon spin coating
+and spray casting leave the doors for dual ECP, photovoltaic
+and NIR device applications wide open.
+Received: January 28, 2008
+Revised: February 28, 2008
+Published online: June 12, 2008
+[1] E. E. Havinga, W. Hoeve, H. Wynberg, Synth. Met. 1993, 55, 299.
+[2] J. J. M. Halls, C. A. Walsh, N. C. Greenham, E. A. Marseglia, R. H.
+Friend, S. C. Moratti, A. B. Holmes, Nature 1995, 376, 498.
+[3] A. Facchetti, Mater. Today 2007, 10, 28.
+[4] T. Kono, D. Kumaki, J. I. Nishida, T. Sakanoue, M. Kakita, H. Tada, S.
+Tokito, Y. Yamashita, Chem. Mater. 2007, 19, 1218.
+Figure 4. a) Square-wave potential step absorptometry of spray-coated
+Polymer A (monitored at 672 nm, 0.5 V
+þ 1.05 V versus Fc/Fcþ) and
+b) Polymer B (Bottom, monitored at 710 nm, 0.7 V
+þ 1 V versus
+Fc/Fcþ) onto ITO in 0.1 M LiBF4/ACN solution. Switch times: 10 s step for
+40 s (2 cycles), then 2 s step for 20 s (5 cycles) and 1 s step for 20 s.
+(10 cycles). c) Square-wave potential stepping electrochromic switching of
+drop-cast Polymer A onto Pt in 0.1 M LiBF4/propylene carbonate solution
+switching between 0.4 V and þ0.85 V (versus Fc/Fcþ) with a switch time
+of 4 s.
+Adv. Mater. 2008, 20, 2772–2776
+ 2008 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+www.advmat.de
+2775
+ 15214095, 2008, 14, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.200800280 by Argonne National Laboratory, Wiley Online Library on [26/09/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+COMMUNICATION
+[5] A. P. Kulkarni, C. J. Tonzola, A. Babel, S. A. Jenekhe, Chem. Mater.
+2004, 16, 4556.
+[6] S. Gunes, H. Neugebauer, N. S. Sariciftci, Chem. Rev. 2007, 107, 1324.
+[7] C. Soci, I.-W. Hwang, D. Moses, Z. Zhu, D. Waller, R. Gaudiana, C. J.
+Brabec, A. J. Heeger, Adv. Funct. Mater. 2007, 17, 632.
+[8] N. Blouin, A. Michaud, M. Leclerc, Adv. Mater. 2007, 19, 2295.
+[9] J. Y. Kim, K. Lee, N. E. Coates, D. Moses, T.-Q. Nguyen, M. Dante, A.
+J. Heeger, Science 2007, 317, 222.
+[10] G. Sonmez, H. Meng, F. Wudl, Chem. Mater. 2003, 15, 4923.
+[11] C. J. DuBois, K. A. Abboud, J. R. Reynolds, J. Phys. Chem. B 2004,
+108, 8550.
+[12] E. M. Galand, Y. G. Kim, J. K. Mwaura, A. G. Jones, T. D. McCarley,
+V. Shrotriya, Y. Yang, J. R. Reynolds, Macromolecules 2006, 39, 9132.
+[13] A. Durmus, G. E. Gunbas, P. Camurlu, L. Toppare, Chem. Commun.
+2007, 3246.
+[14] J. Natera, L. Otero, L. Sereno, F. Fungo, N. S. Wang, Y. M. Tsai, T. Y.
+Hwu, K. T. Wong, Macromolecules 2007, 40, 4456.
+[15] G. Sonmez, Chem. Commun. 2005, 5251.
+[16] A. Kumar, D. M. Welsh, M. C. Morvant, F. Piroux, K. A. Abboud, J.
+R. Reynolds, Chem. Mater. 1998, 10, 896.
+[17] J.-P. Le`re-Porte, J. J. E. Moreau, C. Torreilles, Eur. J. Org. Chem.
+2001, 1249.
+[18] D. M. Welsh, L. J. Kloeppner, L. Madrigal, M. R. Pinto, B. C.
+Thompson, K. S. Schanze, K. A. Abboud, D. Powell, J. R. Reynolds,
+Macromolecules 2002, 35, 6517.
+[19] G. Sonmez, C. K. F. Shen, Y. Rubin, F. Wudl, Angew. Chem. Int. Ed.
+2004, 43, 1498.
+[20] G. Sonmez, H. B. Sonmez, C. K. F. Shen, R. W. Jost, Y. Rubin, F.
+Wudl, Macromolecules 2005, 38, 669.
+[21] J.-M. Raimundo, P. Blanchard, H. Brisset, S. Akoudad, J. Roncali,
+Chem. Commun. 2000, 939.
+[22] P. Blanchard, J. M. Raimundo, J. Roncali, Synth. Met. 2001, 119, 527.
+[23] D. Aldakov, M. A. Palacios, P. Anzenbacher, Chem. Mater. 2005, 17,
+5238.
+[24] U. Salzner, J. Phys. Chem. B 2002, 106, 9214.
+[25] U. Salzner, M. E. Kose, J. Phys. Chem. B 2002, 106, 9221.
+[26] J. K. Stille, Angew. Chem. Int. Ed. Engl. 1986, 25, 508.
+[27] M. Karikomi, C. Kitamura, S. Tanaka, Y. Yamashita, J. Am. Chem.
+Soc. 1995, 117, 6791.
+[28] C. Kitamura, S. Tanaka, Y. Yamashita, Chem. Mater. 1996, 8, 570.
+[29] P. Espinet, A. M. Echavarren, Angew. Chem. Int. Ed. 2004, 43,
+4704.
+[30] H. A. M. v. Mullekom, J. A. J. M. Vekemans, E. W. Meijer, Chem. Eur.
+J. 1998, 4, 1235.
+[31] M. Jayakannan, P. A. V. Hal, R. A. J. Janssen, J. Polym. Sci. Part A
+2002, 40, 2360.
+[32] Q. Hou, Y. Xu, W. Yang, M. Yuan, J. Peng, Y. Cao, J. Mater. Chem.
+2002, 12, 2887.
+[33] E. Bundgaard, F. C. Krebs, Macromolecules 2006, 39, 2823.
+[34] A. Cirpan, A. A. Argun, C. R. G. Grenier, B. D. Reeves, J. R.
+Reynolds, J. Mater. Chem. 2003, 13, 2422.
+[35] B. D. Reeves, C. R. G. Grenier, A. A. Argun, A. Cirpan, T. D.
+McCarley, J. R. Reynolds, Macromolecules 2004, 37, 7559.
+[36] S. D. D. V. Rughooputh, S. Hotta, A. J. Heeger, F. Wudl, J. Polym. Sci.
+Part B 1987, 25, 1071.
+[37] K. Faied, M. Frechette, M. Ranger, L. Mazerolle, I. Levesque, M.
+Leclerc, T.-A. Chen, R. D. Rieke, Chem. Mater. 1995, 7, 1390.
+[38] S. Yue, G. C. Berry, R. D. McCullough, Macromolecules 1996, 29, 933.
+[39] J. J. Apperloo, R. A. J. Janssen, P. R. L. Malenfant, J. M. J. Frechet,
+Macromolecules 2000, 33, 7038.
+[40] CIE Technical Report No. 15.2004, Colorimetry, 3rd ed., CIE Central
+Bureau, Vienna, Austria 2004.
+2776
+www.advmat.de
+ 2008 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+Adv. Mater. 2008, 20, 2772–2776
+ 15214095, 2008, 14, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.200800280 by Argonne National Laboratory, Wiley Online Library on [26/09/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+

@@ -1,0 +1,879 @@
+{
+  "records": [
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_1_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_1_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_1_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "N/A",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_1_img_2_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "N/A",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_1_img_3_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 1. (a)-(b)The structural differences between inorganic semiconductor materials and organic mixed conductors for bioelectronics: (a) scheme and structure of the rigid lattice of boron (p-type) doped single crystal silicon with silicon dioxide layer; (b) scheme and structure of a disordered PEDOT:PSS film in a biological environment allowing ionic conduction within the material [1]. (c) An energy-level diagram of a microelectrode operation in the electrolyte with five phases: (1) a hole is injected from the metal electrode into the HOMO level of the polymer (HOMO and LUMO refer to highest occupied and lowest unoccupied molecular orbitals, respectively); (2) the hole is transported in the delocalized HOMO level in the polymer; (3) the anion is driven into the polymer by the potential; (4) anion travel within the free volume between the polymer chains and crystals; (5) electrostatic compensation of holes and anions at the combination site in the bulk [28].(d) Scheme of organic microelectrode three-electrode measurement set up with equivalent circuit (Re is electrolyte resistance, and Cp is the OMIEC capacitance).",
+      "caption": "An energy-level diagram of a microelectrode operation in the electrolyte with five phases: (1) a hole is injected from the metal electrode into the HOMO level of the polymer (HOMO and LUMO refer to highest occupied and lowest unoccupied molecular orbitals, respectively); (2) the hole is transported in the delocalized HOMO level in the polymer; (3) the anion is driven into the polymer by the potential; (4) anion travel within the free volume between the polymer chains and crystals; (5) electrostatic compensation of holes and anions at the combination site in the bulk [28].",
+      "caption_summary": [
+        "Energy-level diagram",
+        "Polymer",
+        "Electrolyte"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_2_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 1. (a)-(b)The structural differences between inorganic semiconductor materials and organic mixed conductors for bioelectronics: (a) scheme and structure of the rigid lattice of boron (p-type) doped single crystal silicon with silicon dioxide layer; (b) scheme and structure of a disordered PEDOT:PSS film in a biological environment allowing ionic conduction within the material [1]. (c) An energy-level diagram of a microelectrode operation in the electrolyte with five phases: (1) a hole is injected from the metal electrode into the HOMO level of the polymer (HOMO and LUMO refer to highest occupied and lowest unoccupied molecular orbitals, respectively); (2) the hole is transported in the delocalized HOMO level in the polymer; (3) the anion is driven into the polymer by the potential; (4) anion travel within the free volume between the polymer chains and crystals; (5) electrostatic compensation of holes and anions at the combination site in the bulk [28].(d) Scheme of organic microelectrode three-electrode measurement set up with equivalent circuit (Re is electrolyte resistance, and Cp is the OMIEC capacitance).",
+      "caption": "Scheme of organic microelectrode three-electrode measurement set up with equivalent circuit (Re is electrolyte resistance, and Cp is the OMIEC capacitance).",
+      "caption_summary": [
+        "Microelectrode",
+        "Measurement",
+        "Circuit"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_2_img_1_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 1. (a)-(b)The structural differences between inorganic semiconductor materials and organic mixed conductors for bioelectronics: (a) scheme and structure of the rigid lattice of boron (p-type) doped single crystal silicon with silicon dioxide layer; (b) scheme and structure of a disordered PEDOT:PSS film in a biological environment allowing ionic conduction within the material [1]. (c) An energy-level diagram of a microelectrode operation in the electrolyte with five phases: (1) a hole is injected from the metal electrode into the HOMO level of the polymer (HOMO and LUMO refer to highest occupied and lowest unoccupied molecular orbitals, respectively); (2) the hole is transported in the delocalized HOMO level in the polymer; (3) the anion is driven into the polymer by the potential; (4) anion travel within the free volume between the polymer chains and crystals; (5) electrostatic compensation of holes and anions at the combination site in the bulk [28].(d) Scheme of organic microelectrode three-electrode measurement set up with equivalent circuit (Re is electrolyte resistance, and Cp is the OMIEC capacitance).",
+      "caption": "Scheme and structure of a disordered PEDOT:PSS film in a biological environment allowing ionic conduction within the material [1].",
+      "caption_summary": [
+        "PEDOT:PSS",
+        "ionic conduction",
+        "biological environment"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_2_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 1. (a)-(b)The structural differences between inorganic semiconductor materials and organic mixed conductors for bioelectronics: (a) scheme and structure of the rigid lattice of boron (p-type) doped single crystal silicon with silicon dioxide layer; (b) scheme and structure of a disordered PEDOT:PSS film in a biological environment allowing ionic conduction within the material [1]. (c) An energy-level diagram of a microelectrode operation in the electrolyte with five phases: (1) a hole is injected from the metal electrode into the HOMO level of the polymer (HOMO and LUMO refer to highest occupied and lowest unoccupied molecular orbitals, respectively); (2) the hole is transported in the delocalized HOMO level in the polymer; (3) the anion is driven into the polymer by the potential; (4) anion travel within the free volume between the polymer chains and crystals; (5) electrostatic compensation of holes and anions at the combination site in the bulk [28].(d) Scheme of organic microelectrode three-electrode measurement set up with equivalent circuit (Re is electrolyte resistance, and Cp is the OMIEC capacitance).",
+      "caption": "The structural differences between inorganic semiconductor materials and organic mixed conductors for bioelectronics: scheme and structure of the rigid lattice of boron (p-type) doped single crystal silicon with silicon dioxide layer.",
+      "caption_summary": [
+        "Inorganic Semiconductors",
+        "Bioelectronics",
+        "Silicon Dioxide"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_2_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_3_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_3_img_1_e.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_3_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_3_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_3_img_1_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_6_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_6_img_2_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_6_img_2_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "N/A",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_6_img_3_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_6_img_4_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_6_img_4_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_6_img_5_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_6_img_6_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "N/A",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_7_img_1_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "N/A",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_7_img_2_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "N/A",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_8_img_1_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "N/A",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_8_img_2_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_10_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_10_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_10_img_2_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_10_img_2_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_11_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_11_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_11_img_2_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_11_img_2_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_12_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_12_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_12_img_2_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_12_img_2_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 3. Summary of OMIEC layer patterning approaches.",
+      "caption": "Fig. 3. Summary of OMIEC layer patterning approaches.",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_13_img_1_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 4. OMEA applications are categorized based on their configurations: (a) in vivo applications: deep-insertion OMEA probe and surface conformable OMEAs; (b) in vitro applications based on rigid/flexible coplanar OMEAs.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_14_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 4. OMEA applications are categorized based on their configurations: (a) in vivo applications: deep-insertion OMEA probe and surface conformable OMEAs; (b) in vitro applications based on rigid/flexible coplanar OMEAs.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_14_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 4. OMEA applications are categorized based on their configurations: (a) in vivo applications: deep-insertion OMEA probe and surface conformable OMEAs; (b) in vitro applications based on rigid/flexible coplanar OMEAs.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_14_img_1_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 5. Cellular immunoreactivity between brain tissue and microelectrode: (a) astrocytes populating between neuron and electrode after probe insertion with an equivalent circuit model of between brain tissue the recording systems (Ve: biological voltage; Rspread: spreading resistance; Zscar: scar impedance; Re: electrode resistance; Ce: electrode capacitance; Rm: metal resistance) parallel to the physical structure [127]. (b) Inflammatory scar tissue was labelled by cell-specific markers: inflammatory cells (ED1), astrocytes (GFAP), and neurons (NeuN) [118]. (c) 16-site and 4-shank Michigan-style probes with PEDOT film coated electrodes (darken) and iridium (shiny) electrodes [120]. (d) An (e) thermal-drawn fabric probe: (b) The diameter changed during the thermal draw process; (e) the cross-sectional area of the multifunctional fabric probe with conductive polyethylene (CPE) electrodes and hollow core for chemical delivery (COC: cycloolefin copolymer; PC: polycarbonate) [124]. (f) - (h) The layout and insertion process of substrate-delamination probe: (f) The layout of microelectrodes and OECTs; (g) The insertion step; (h) delamination and removal of the shuttle part. [123]. Reproduced with permission from [118,120,123,124,127](For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.).",
+      "caption": "Inflammatory scar tissue was labelled by cell-specific markers: inflammatory cells (ED1), astrocytes (GFAP), and neurons (NeuN) [118].",
+      "caption_summary": [
+        "Inflammatory markers",
+        "Astrocytes",
+        "Neurons"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_15_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 5. Cellular immunoreactivity between brain tissue and microelectrode: (a) astrocytes populating between neuron and electrode after probe insertion with an equivalent circuit model of between brain tissue the recording systems (Ve: biological voltage; Rspread: spreading resistance; Zscar: scar impedance; Re: electrode resistance; Ce: electrode capacitance; Rm: metal resistance) parallel to the physical structure [127]. (b) Inflammatory scar tissue was labelled by cell-specific markers: inflammatory cells (ED1), astrocytes (GFAP), and neurons (NeuN) [118]. (c) 16-site and 4-shank Michigan-style probes with PEDOT film coated electrodes (darken) and iridium (shiny) electrodes [120]. (d) An (e) thermal-drawn fabric probe: (b) The diameter changed during the thermal draw process; (e) the cross-sectional area of the multifunctional fabric probe with conductive polyethylene (CPE) electrodes and hollow core for chemical delivery (COC: cycloolefin copolymer; PC: polycarbonate) [124]. (f) - (h) The layout and insertion process of substrate-delamination probe: (f) The layout of microelectrodes and OECTs; (g) The insertion step; (h) delamination and removal of the shuttle part. [123]. Reproduced with permission from [118,120,123,124,127](For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.).",
+      "caption": "astrocytes populating between neuron and electrode after probe insertion with an equivalent circuit model of between brain tissue the recording systems (Ve: biological voltage; Rspread: spreading resistance; Zscar: scar impedance; Re: electrode resistance; Ce: electrode capacitance; Rm: metal resistance) parallel to the physical structure [127].",
+      "caption_summary": [
+        "Astrocytes",
+        "Equivalent Circuit",
+        "Electrode"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_15_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 5. Cellular immunoreactivity between brain tissue and microelectrode: (a) astrocytes populating between neuron and electrode after probe insertion with an equivalent circuit model of between brain tissue the recording systems (Ve: biological voltage; Rspread: spreading resistance; Zscar: scar impedance; Re: electrode resistance; Ce: electrode capacitance; Rm: metal resistance) parallel to the physical structure [127]. (b) Inflammatory scar tissue was labelled by cell-specific markers: inflammatory cells (ED1), astrocytes (GFAP), and neurons (NeuN) [118]. (c) 16-site and 4-shank Michigan-style probes with PEDOT film coated electrodes (darken) and iridium (shiny) electrodes [120]. (d) An (e) thermal-drawn fabric probe: (b) The diameter changed during the thermal draw process; (e) the cross-sectional area of the multifunctional fabric probe with conductive polyethylene (CPE) electrodes and hollow core for chemical delivery (COC: cycloolefin copolymer; PC: polycarbonate) [124]. (f) - (h) The layout and insertion process of substrate-delamination probe: (f) The layout of microelectrodes and OECTs; (g) The insertion step; (h) delamination and removal of the shuttle part. [123]. Reproduced with permission from [118,120,123,124,127](For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.).",
+      "caption": "An (e) thermal-drawn fabric probe: (b) The diameter changed during the thermal draw process; (e) the cross-sectional area of the multifunctional fabric probe with conductive polyethylene (CPE) electrodes and hollow core for chemical delivery (COC: cycloolefin copolymer; PC: polycarbonate) [124].",
+      "caption_summary": [
+        "Thermal-drawing",
+        "Conductive-polyethylene",
+        "Cycloolefin-copolymer"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_15_img_1_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 5. Cellular immunoreactivity between brain tissue and microelectrode: (a) astrocytes populating between neuron and electrode after probe insertion with an equivalent circuit model of between brain tissue the recording systems (Ve: biological voltage; Rspread: spreading resistance; Zscar: scar impedance; Re: electrode resistance; Ce: electrode capacitance; Rm: metal resistance) parallel to the physical structure [127]. (b) Inflammatory scar tissue was labelled by cell-specific markers: inflammatory cells (ED1), astrocytes (GFAP), and neurons (NeuN) [118]. (c) 16-site and 4-shank Michigan-style probes with PEDOT film coated electrodes (darken) and iridium (shiny) electrodes [120]. (d) An (e) thermal-drawn fabric probe: (b) The diameter changed during the thermal draw process; (e) the cross-sectional area of the multifunctional fabric probe with conductive polyethylene (CPE) electrodes and hollow core for chemical delivery (COC: cycloolefin copolymer; PC: polycarbonate) [124]. (f) - (h) The layout and insertion process of substrate-delamination probe: (f) The layout of microelectrodes and OECTs; (g) The insertion step; (h) delamination and removal of the shuttle part. [123]. Reproduced with permission from [118,120,123,124,127](For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.).",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_15_img_1_e.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 5. Cellular immunoreactivity between brain tissue and microelectrode: (a) astrocytes populating between neuron and electrode after probe insertion with an equivalent circuit model of between brain tissue the recording systems (Ve: biological voltage; Rspread: spreading resistance; Zscar: scar impedance; Re: electrode resistance; Ce: electrode capacitance; Rm: metal resistance) parallel to the physical structure [127]. (b) Inflammatory scar tissue was labelled by cell-specific markers: inflammatory cells (ED1), astrocytes (GFAP), and neurons (NeuN) [118]. (c) 16-site and 4-shank Michigan-style probes with PEDOT film coated electrodes (darken) and iridium (shiny) electrodes [120]. (d) An (e) thermal-drawn fabric probe: (b) The diameter changed during the thermal draw process; (e) the cross-sectional area of the multifunctional fabric probe with conductive polyethylene (CPE) electrodes and hollow core for chemical delivery (COC: cycloolefin copolymer; PC: polycarbonate) [124]. (f) - (h) The layout and insertion process of substrate-delamination probe: (f) The layout of microelectrodes and OECTs; (g) The insertion step; (h) delamination and removal of the shuttle part. [123]. Reproduced with permission from [118,120,123,124,127](For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.).",
+      "caption": "16-site and 4-shank Michigan-style probes with PEDOT film coated electrodes (darken) and iridium (shiny) electrodes [120].",
+      "caption_summary": [
+        "Probes",
+        "Electrodes",
+        "Coating"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_15_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 5. Cellular immunoreactivity between brain tissue and microelectrode: (a) astrocytes populating between neuron and electrode after probe insertion with an equivalent circuit model of between brain tissue the recording systems (Ve: biological voltage; Rspread: spreading resistance; Zscar: scar impedance; Re: electrode resistance; Ce: electrode capacitance; Rm: metal resistance) parallel to the physical structure [127]. (b) Inflammatory scar tissue was labelled by cell-specific markers: inflammatory cells (ED1), astrocytes (GFAP), and neurons (NeuN) [118]. (c) 16-site and 4-shank Michigan-style probes with PEDOT film coated electrodes (darken) and iridium (shiny) electrodes [120]. (d) An (e) thermal-drawn fabric probe: (b) The diameter changed during the thermal draw process; (e) the cross-sectional area of the multifunctional fabric probe with conductive polyethylene (CPE) electrodes and hollow core for chemical delivery (COC: cycloolefin copolymer; PC: polycarbonate) [124]. (f) - (h) The layout and insertion process of substrate-delamination probe: (f) The layout of microelectrodes and OECTs; (g) The insertion step; (h) delamination and removal of the shuttle part. [123]. Reproduced with permission from [118,120,123,124,127](For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.).",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_15_img_1_g.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 6. The conformable OMEA applications: (a)-(b) NeuroGrid: structure of NeuroGrid conform on an orchid petal surface (scale bar, 100 mm); the insert shows the electrode array (scale bar, 100 μm); (b) NeuroGrid conforms on the surface of a rat somatosensory cortex (scale bar, 1 mm) [132]. (c)-(e) Anisotropic PEDOT composite coated soft electrodes; (c) image of two arrays bonded by PEDOT composite material (scale bar, 500 μm); (d) high-density array adhered on a human wrist for recording (scale bar, 10 mm); (e) The electromyography (EMG) and electrocardiography (ECG) signal recorded from wrist and biceps [133]. (f)-(h) Conformable brain probe printed by 3D printing techniques: (f) the schematic of printable PEDOT:PSS ink produced by lyophilization and re-dispersion in water-dimethyl sulfoxide (DMSO); (g) the whole structure of printed PEDOT:PSS array with PDMS printed as insulation layer (scale bar, 1 mm); (h) 3D printed neuron probe for rat brain recordings (scale bar 2 mm) [111]. Reproduced with permission from: [111,132,133] (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.).",
+      "caption": "Conformable brain probe printed by 3D printing techniques: the schematic of printable PEDOT:PSS ink produced by lyophilization and re-dispersion in water-dimethyl sulfoxide (DMSO).",
+      "caption_summary": [
+        "3D printing",
+        "PEDOT:PSS",
+        "lyophilization"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_16_img_1_f.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 6. The conformable OMEA applications: (a)-(b) NeuroGrid: structure of NeuroGrid conform on an orchid petal surface (scale bar, 100 mm); the insert shows the electrode array (scale bar, 100 μm); (b) NeuroGrid conforms on the surface of a rat somatosensory cortex (scale bar, 1 mm) [132]. (c)-(e) Anisotropic PEDOT composite coated soft electrodes; (c) image of two arrays bonded by PEDOT composite material (scale bar, 500 μm); (d) high-density array adhered on a human wrist for recording (scale bar, 10 mm); (e) The electromyography (EMG) and electrocardiography (ECG) signal recorded from wrist and biceps [133]. (f)-(h) Conformable brain probe printed by 3D printing techniques: (f) the schematic of printable PEDOT:PSS ink produced by lyophilization and re-dispersion in water-dimethyl sulfoxide (DMSO); (g) the whole structure of printed PEDOT:PSS array with PDMS printed as insulation layer (scale bar, 1 mm); (h) 3D printed neuron probe for rat brain recordings (scale bar 2 mm) [111]. Reproduced with permission from: [111,132,133] (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.).",
+      "caption": "The whole structure of printed PEDOT:PSS array with PDMS printed as insulation layer (scale bar, 1 mm).",
+      "caption_summary": [
+        "PEDOT:PSS",
+        "PDMS",
+        "insulation"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_16_img_1_g.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 6. The conformable OMEA applications: (a)-(b) NeuroGrid: structure of NeuroGrid conform on an orchid petal surface (scale bar, 100 mm); the insert shows the electrode array (scale bar, 100 μm); (b) NeuroGrid conforms on the surface of a rat somatosensory cortex (scale bar, 1 mm) [132]. (c)-(e) Anisotropic PEDOT composite coated soft electrodes; (c) image of two arrays bonded by PEDOT composite material (scale bar, 500 μm); (d) high-density array adhered on a human wrist for recording (scale bar, 10 mm); (e) The electromyography (EMG) and electrocardiography (ECG) signal recorded from wrist and biceps [133]. (f)-(h) Conformable brain probe printed by 3D printing techniques: (f) the schematic of printable PEDOT:PSS ink produced by lyophilization and re-dispersion in water-dimethyl sulfoxide (DMSO); (g) the whole structure of printed PEDOT:PSS array with PDMS printed as insulation layer (scale bar, 1 mm); (h) 3D printed neuron probe for rat brain recordings (scale bar 2 mm) [111]. Reproduced with permission from: [111,132,133] (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.).",
+      "caption": "NeuroGrid: structure of NeuroGrid conform on an orchid petal surface (scale bar, 100 mm); the insert shows the electrode array (scale bar, 100 μm).",
+      "caption_summary": [
+        "NeuroGrid",
+        "electrode array",
+        "structure"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_16_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 6. The conformable OMEA applications: (a)-(b) NeuroGrid: structure of NeuroGrid conform on an orchid petal surface (scale bar, 100 mm); the insert shows the electrode array (scale bar, 100 μm); (b) NeuroGrid conforms on the surface of a rat somatosensory cortex (scale bar, 1 mm) [132]. (c)-(e) Anisotropic PEDOT composite coated soft electrodes; (c) image of two arrays bonded by PEDOT composite material (scale bar, 500 μm); (d) high-density array adhered on a human wrist for recording (scale bar, 10 mm); (e) The electromyography (EMG) and electrocardiography (ECG) signal recorded from wrist and biceps [133]. (f)-(h) Conformable brain probe printed by 3D printing techniques: (f) the schematic of printable PEDOT:PSS ink produced by lyophilization and re-dispersion in water-dimethyl sulfoxide (DMSO); (g) the whole structure of printed PEDOT:PSS array with PDMS printed as insulation layer (scale bar, 1 mm); (h) 3D printed neuron probe for rat brain recordings (scale bar 2 mm) [111]. Reproduced with permission from: [111,132,133] (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.).",
+      "caption": "High-density array adhered on a human wrist for recording (scale bar, 10 mm).",
+      "caption_summary": [
+        "High-density array"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_16_img_1_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 6. The conformable OMEA applications: (a)-(b) NeuroGrid: structure of NeuroGrid conform on an orchid petal surface (scale bar, 100 mm); the insert shows the electrode array (scale bar, 100 μm); (b) NeuroGrid conforms on the surface of a rat somatosensory cortex (scale bar, 1 mm) [132]. (c)-(e) Anisotropic PEDOT composite coated soft electrodes; (c) image of two arrays bonded by PEDOT composite material (scale bar, 500 μm); (d) high-density array adhered on a human wrist for recording (scale bar, 10 mm); (e) The electromyography (EMG) and electrocardiography (ECG) signal recorded from wrist and biceps [133]. (f)-(h) Conformable brain probe printed by 3D printing techniques: (f) the schematic of printable PEDOT:PSS ink produced by lyophilization and re-dispersion in water-dimethyl sulfoxide (DMSO); (g) the whole structure of printed PEDOT:PSS array with PDMS printed as insulation layer (scale bar, 1 mm); (h) 3D printed neuron probe for rat brain recordings (scale bar 2 mm) [111]. Reproduced with permission from: [111,132,133] (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.).",
+      "caption": "3D printed neuron probe for rat brain recordings (scale bar 2 mm) [111].",
+      "caption_summary": [
+        "3D printing",
+        "neuron probe",
+        "brain recordings"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_16_img_1_h.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 6. The conformable OMEA applications: (a)-(b) NeuroGrid: structure of NeuroGrid conform on an orchid petal surface (scale bar, 100 mm); the insert shows the electrode array (scale bar, 100 μm); (b) NeuroGrid conforms on the surface of a rat somatosensory cortex (scale bar, 1 mm) [132]. (c)-(e) Anisotropic PEDOT composite coated soft electrodes; (c) image of two arrays bonded by PEDOT composite material (scale bar, 500 μm); (d) high-density array adhered on a human wrist for recording (scale bar, 10 mm); (e) The electromyography (EMG) and electrocardiography (ECG) signal recorded from wrist and biceps [133]. (f)-(h) Conformable brain probe printed by 3D printing techniques: (f) the schematic of printable PEDOT:PSS ink produced by lyophilization and re-dispersion in water-dimethyl sulfoxide (DMSO); (g) the whole structure of printed PEDOT:PSS array with PDMS printed as insulation layer (scale bar, 1 mm); (h) 3D printed neuron probe for rat brain recordings (scale bar 2 mm) [111]. Reproduced with permission from: [111,132,133] (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.).",
+      "caption": "Anisotropic PEDOT composite coated soft electrodes; image of two arrays bonded by PEDOT composite material (scale bar, 500 μm).",
+      "caption_summary": [
+        "PEDOT",
+        "composite",
+        "electrodes"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_16_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 6. The conformable OMEA applications: (a)-(b) NeuroGrid: structure of NeuroGrid conform on an orchid petal surface (scale bar, 100 mm); the insert shows the electrode array (scale bar, 100 μm); (b) NeuroGrid conforms on the surface of a rat somatosensory cortex (scale bar, 1 mm) [132]. (c)-(e) Anisotropic PEDOT composite coated soft electrodes; (c) image of two arrays bonded by PEDOT composite material (scale bar, 500 μm); (d) high-density array adhered on a human wrist for recording (scale bar, 10 mm); (e) The electromyography (EMG) and electrocardiography (ECG) signal recorded from wrist and biceps [133]. (f)-(h) Conformable brain probe printed by 3D printing techniques: (f) the schematic of printable PEDOT:PSS ink produced by lyophilization and re-dispersion in water-dimethyl sulfoxide (DMSO); (g) the whole structure of printed PEDOT:PSS array with PDMS printed as insulation layer (scale bar, 1 mm); (h) 3D printed neuron probe for rat brain recordings (scale bar 2 mm) [111]. Reproduced with permission from: [111,132,133] (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.).",
+      "caption": "NeuroGrid conforms on the surface of a rat somatosensory cortex (scale bar, 1 mm) [132].",
+      "caption_summary": [
+        "NeuroGrid",
+        "somatosensory cortex",
+        "rat"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_16_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 7. Biosensing with OMEAs: (a) The redox reaction series of the sensing mechanism; (b) the structure of PEDOT:PSS-carbon electrode with a mixture of polyethylenimine nanoBead (BPEI-Fe) and GOX [138]; (c) glucose-sensing CV curves with inkjet-printed PEDOT:PSS electrode under different measurement conditions (black line: before PEDOT:PSS deposition; red line: PEDOT:PSS electrode measured in PBS; blue and yellow lines are measuring with 1 mM and 10 mM glucose present; the inset is the electrode structure). Reproduced with permission [139]. (d) Differential pulse voltammogram of ascorbic acid (AA), dopamine (Dop), and uric acid (UA) showing high selectivity at ~ 40, 150 and 280 mV with enzymatically regenerated PEDOT microelectrodes [141].",
+      "caption": "Glucose-sensing CV curves with inkjet-printed PEDOT:PSS electrode under different measurement conditions (black line: before PEDOT:PSS deposition; red line: PEDOT:PSS electrode measured in PBS; blue and yellow lines are measuring with 1 mM and 10 mM glucose present; the inset is the electrode structure). Reproduced with permission [139]",
+      "caption_summary": [
+        "Electrochemistry",
+        "Glucose-sensing",
+        "PEDOT:PSS"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_18_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 7. Biosensing with OMEAs: (a) The redox reaction series of the sensing mechanism; (b) the structure of PEDOT:PSS-carbon electrode with a mixture of polyethylenimine nanoBead (BPEI-Fe) and GOX [138]; (c) glucose-sensing CV curves with inkjet-printed PEDOT:PSS electrode under different measurement conditions (black line: before PEDOT:PSS deposition; red line: PEDOT:PSS electrode measured in PBS; blue and yellow lines are measuring with 1 mM and 10 mM glucose present; the inset is the electrode structure). Reproduced with permission [139]. (d) Differential pulse voltammogram of ascorbic acid (AA), dopamine (Dop), and uric acid (UA) showing high selectivity at ~ 40, 150 and 280 mV with enzymatically regenerated PEDOT microelectrodes [141].",
+      "caption": "The structure of PEDOT:PSS-carbon electrode with a mixture of polyethylenimine nanoBead (BPEI-Fe) and GOX [138]",
+      "caption_summary": [
+        "PEDOT:PSS",
+        "BPEI-Fe",
+        "GOX"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_18_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 7. Biosensing with OMEAs: (a) The redox reaction series of the sensing mechanism; (b) the structure of PEDOT:PSS-carbon electrode with a mixture of polyethylenimine nanoBead (BPEI-Fe) and GOX [138]; (c) glucose-sensing CV curves with inkjet-printed PEDOT:PSS electrode under different measurement conditions (black line: before PEDOT:PSS deposition; red line: PEDOT:PSS electrode measured in PBS; blue and yellow lines are measuring with 1 mM and 10 mM glucose present; the inset is the electrode structure). Reproduced with permission [139]. (d) Differential pulse voltammogram of ascorbic acid (AA), dopamine (Dop), and uric acid (UA) showing high selectivity at ~ 40, 150 and 280 mV with enzymatically regenerated PEDOT microelectrodes [141].",
+      "caption": "Differential pulse voltammogram of ascorbic acid (AA), dopamine (Dop), and uric acid (UA) showing high selectivity at ~ 40, 150 and 280 mV with enzymatically regenerated PEDOT microelectrodes [141]",
+      "caption_summary": [
+        "Differential pulse voltammetry",
+        "selectivity",
+        "PEDOT microelectrodes"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_18_img_1_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 7. Biosensing with OMEAs: (a) The redox reaction series of the sensing mechanism; (b) the structure of PEDOT:PSS-carbon electrode with a mixture of polyethylenimine nanoBead (BPEI-Fe) and GOX [138]; (c) glucose-sensing CV curves with inkjet-printed PEDOT:PSS electrode under different measurement conditions (black line: before PEDOT:PSS deposition; red line: PEDOT:PSS electrode measured in PBS; blue and yellow lines are measuring with 1 mM and 10 mM glucose present; the inset is the electrode structure). Reproduced with permission [139]. (d) Differential pulse voltammogram of ascorbic acid (AA), dopamine (Dop), and uric acid (UA) showing high selectivity at ~ 40, 150 and 280 mV with enzymatically regenerated PEDOT microelectrodes [141].",
+      "caption": "The redox reaction series of the sensing mechanism",
+      "caption_summary": [
+        "Redox",
+        "sensing",
+        "mechanism"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_18_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 8. The EIS measurement for the membrane-on-OMEA system: (A) A scheme of forming native (HEK) and all-lipid (DOPC:DOTAP) membrane on PEDOT:PSS coated microelectrode with equivalent circuit model, and each circuit element representing the physical element in the system [145]; (b) Comparing native and all-lipid membrane impedance profile with Bode plot. (c) A scheme of opening and closing the TREK-1 ion channels HEK-TREK-1 membrane on with AA and spadin, respectively; (b) spadin (10 μM) addition suppressing the TREK1 activity inducing an increase of membrane resistance; (d) AA activating TREK1 causing a decrease of normalized membrane resistance [144]. (e) schematic of P2X2 ATP-gated ion channel; (g) Nyquist plot of a bare electrode (black), P2X2-rich membrane, and membrane treated with ATP (blue); (h) Membrane impedance of baby hamster kidney (BHK) membrane expressing P2X2 ion have more significant decrease when it is treated with ATP channel comparing with normal BHK membrane [143]. (i)-(k) Monitoring influenza virus fusion onto native membrane with the expression of sialic acid receptor. (i) schematic of virus fusion process; Bode plot for detection of virus fusion results: (j) on BHK SLB; (k) on Vero SLB [146]. Reproduced with permission from: [143–146](For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)",
+      "caption": "Spadin (10 μM) addition suppressing the TREK1 activity inducing an increase of membrane resistance.",
+      "caption_summary": [
+        "TREK1",
+        "Spadin",
+        "Membrane Resistance"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_19_img_1_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 8. The EIS measurement for the membrane-on-OMEA system: (A) A scheme of forming native (HEK) and all-lipid (DOPC:DOTAP) membrane on PEDOT:PSS coated microelectrode with equivalent circuit model, and each circuit element representing the physical element in the system [145]; (b) Comparing native and all-lipid membrane impedance profile with Bode plot. (c) A scheme of opening and closing the TREK-1 ion channels HEK-TREK-1 membrane on with AA and spadin, respectively; (b) spadin (10 μM) addition suppressing the TREK1 activity inducing an increase of membrane resistance; (d) AA activating TREK1 causing a decrease of normalized membrane resistance [144]. (e) schematic of P2X2 ATP-gated ion channel; (g) Nyquist plot of a bare electrode (black), P2X2-rich membrane, and membrane treated with ATP (blue); (h) Membrane impedance of baby hamster kidney (BHK) membrane expressing P2X2 ion have more significant decrease when it is treated with ATP channel comparing with normal BHK membrane [143]. (i)-(k) Monitoring influenza virus fusion onto native membrane with the expression of sialic acid receptor. (i) schematic of virus fusion process; Bode plot for detection of virus fusion results: (j) on BHK SLB; (k) on Vero SLB [146]. Reproduced with permission from: [143–146](For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)",
+      "caption": "Schematic of P2X2 ATP-gated ion channel.",
+      "caption_summary": [
+        "Ion channels",
+        "ATP",
+        "Schematic"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_19_img_1_e.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 8. The EIS measurement for the membrane-on-OMEA system: (A) A scheme of forming native (HEK) and all-lipid (DOPC:DOTAP) membrane on PEDOT:PSS coated microelectrode with equivalent circuit model, and each circuit element representing the physical element in the system [145]; (b) Comparing native and all-lipid membrane impedance profile with Bode plot. (c) A scheme of opening and closing the TREK-1 ion channels HEK-TREK-1 membrane on with AA and spadin, respectively; (b) spadin (10 μM) addition suppressing the TREK1 activity inducing an increase of membrane resistance; (d) AA activating TREK1 causing a decrease of normalized membrane resistance [144]. (e) schematic of P2X2 ATP-gated ion channel; (g) Nyquist plot of a bare electrode (black), P2X2-rich membrane, and membrane treated with ATP (blue); (h) Membrane impedance of baby hamster kidney (BHK) membrane expressing P2X2 ion have more significant decrease when it is treated with ATP channel comparing with normal BHK membrane [143]. (i)-(k) Monitoring influenza virus fusion onto native membrane with the expression of sialic acid receptor. (i) schematic of virus fusion process; Bode plot for detection of virus fusion results: (j) on BHK SLB; (k) on Vero SLB [146]. Reproduced with permission from: [143–146](For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)",
+      "caption": "Nyquist plot of a bare electrode (black), P2X2-rich membrane, and membrane treated with ATP (blue).",
+      "caption_summary": [
+        "Electrochemistry",
+        "Membrane",
+        "ATP"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_19_img_1_g.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 8. The EIS measurement for the membrane-on-OMEA system: (A) A scheme of forming native (HEK) and all-lipid (DOPC:DOTAP) membrane on PEDOT:PSS coated microelectrode with equivalent circuit model, and each circuit element representing the physical element in the system [145]; (b) Comparing native and all-lipid membrane impedance profile with Bode plot. (c) A scheme of opening and closing the TREK-1 ion channels HEK-TREK-1 membrane on with AA and spadin, respectively; (b) spadin (10 μM) addition suppressing the TREK1 activity inducing an increase of membrane resistance; (d) AA activating TREK1 causing a decrease of normalized membrane resistance [144]. (e) schematic of P2X2 ATP-gated ion channel; (g) Nyquist plot of a bare electrode (black), P2X2-rich membrane, and membrane treated with ATP (blue); (h) Membrane impedance of baby hamster kidney (BHK) membrane expressing P2X2 ion have more significant decrease when it is treated with ATP channel comparing with normal BHK membrane [143]. (i)-(k) Monitoring influenza virus fusion onto native membrane with the expression of sialic acid receptor. (i) schematic of virus fusion process; Bode plot for detection of virus fusion results: (j) on BHK SLB; (k) on Vero SLB [146]. Reproduced with permission from: [143–146](For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)",
+      "caption": "Membrane impedance of baby hamster kidney (BHK) membrane expressing P2X2 ion have more significant decrease when it is treated with ATP channel comparing with normal BHK membrane [143].",
+      "caption_summary": [
+        "Membrane impedance",
+        "P2X2 ion",
+        "ATP channel"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_19_img_1_h.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 8. The EIS measurement for the membrane-on-OMEA system: (A) A scheme of forming native (HEK) and all-lipid (DOPC:DOTAP) membrane on PEDOT:PSS coated microelectrode with equivalent circuit model, and each circuit element representing the physical element in the system [145]; (b) Comparing native and all-lipid membrane impedance profile with Bode plot. (c) A scheme of opening and closing the TREK-1 ion channels HEK-TREK-1 membrane on with AA and spadin, respectively; (b) spadin (10 μM) addition suppressing the TREK1 activity inducing an increase of membrane resistance; (d) AA activating TREK1 causing a decrease of normalized membrane resistance [144]. (e) schematic of P2X2 ATP-gated ion channel; (g) Nyquist plot of a bare electrode (black), P2X2-rich membrane, and membrane treated with ATP (blue); (h) Membrane impedance of baby hamster kidney (BHK) membrane expressing P2X2 ion have more significant decrease when it is treated with ATP channel comparing with normal BHK membrane [143]. (i)-(k) Monitoring influenza virus fusion onto native membrane with the expression of sialic acid receptor. (i) schematic of virus fusion process; Bode plot for detection of virus fusion results: (j) on BHK SLB; (k) on Vero SLB [146]. Reproduced with permission from: [143–146](For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)",
+      "caption": "A scheme of opening and closing the TREK-1 ion channels HEK-TREK-1 membrane on with AA and spadin, respectively.",
+      "caption_summary": [
+        "Ion Channels",
+        "TREK-1",
+        "Modulation"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_19_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 8. The EIS measurement for the membrane-on-OMEA system: (A) A scheme of forming native (HEK) and all-lipid (DOPC:DOTAP) membrane on PEDOT:PSS coated microelectrode with equivalent circuit model, and each circuit element representing the physical element in the system [145]; (b) Comparing native and all-lipid membrane impedance profile with Bode plot. (c) A scheme of opening and closing the TREK-1 ion channels HEK-TREK-1 membrane on with AA and spadin, respectively; (b) spadin (10 μM) addition suppressing the TREK1 activity inducing an increase of membrane resistance; (d) AA activating TREK1 causing a decrease of normalized membrane resistance [144]. (e) schematic of P2X2 ATP-gated ion channel; (g) Nyquist plot of a bare electrode (black), P2X2-rich membrane, and membrane treated with ATP (blue); (h) Membrane impedance of baby hamster kidney (BHK) membrane expressing P2X2 ion have more significant decrease when it is treated with ATP channel comparing with normal BHK membrane [143]. (i)-(k) Monitoring influenza virus fusion onto native membrane with the expression of sialic acid receptor. (i) schematic of virus fusion process; Bode plot for detection of virus fusion results: (j) on BHK SLB; (k) on Vero SLB [146]. Reproduced with permission from: [143–146](For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)",
+      "caption": "Comparing native and all-lipid membrane impedance profile with Bode plot.",
+      "caption_summary": [
+        "Impedance",
+        "Bode plot",
+        "Membrane"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_19_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 8. The EIS measurement for the membrane-on-OMEA system: (A) A scheme of forming native (HEK) and all-lipid (DOPC:DOTAP) membrane on PEDOT:PSS coated microelectrode with equivalent circuit model, and each circuit element representing the physical element in the system [145]; (b) Comparing native and all-lipid membrane impedance profile with Bode plot. (c) A scheme of opening and closing the TREK-1 ion channels HEK-TREK-1 membrane on with AA and spadin, respectively; (b) spadin (10 μM) addition suppressing the TREK1 activity inducing an increase of membrane resistance; (d) AA activating TREK1 causing a decrease of normalized membrane resistance [144]. (e) schematic of P2X2 ATP-gated ion channel; (g) Nyquist plot of a bare electrode (black), P2X2-rich membrane, and membrane treated with ATP (blue); (h) Membrane impedance of baby hamster kidney (BHK) membrane expressing P2X2 ion have more significant decrease when it is treated with ATP channel comparing with normal BHK membrane [143]. (i)-(k) Monitoring influenza virus fusion onto native membrane with the expression of sialic acid receptor. (i) schematic of virus fusion process; Bode plot for detection of virus fusion results: (j) on BHK SLB; (k) on Vero SLB [146]. Reproduced with permission from: [143–146](For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_19_img_1_f.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 8. The EIS measurement for the membrane-on-OMEA system: (A) A scheme of forming native (HEK) and all-lipid (DOPC:DOTAP) membrane on PEDOT:PSS coated microelectrode with equivalent circuit model, and each circuit element representing the physical element in the system [145]; (b) Comparing native and all-lipid membrane impedance profile with Bode plot. (c) A scheme of opening and closing the TREK-1 ion channels HEK-TREK-1 membrane on with AA and spadin, respectively; (b) spadin (10 μM) addition suppressing the TREK1 activity inducing an increase of membrane resistance; (d) AA activating TREK1 causing a decrease of normalized membrane resistance [144]. (e) schematic of P2X2 ATP-gated ion channel; (g) Nyquist plot of a bare electrode (black), P2X2-rich membrane, and membrane treated with ATP (blue); (h) Membrane impedance of baby hamster kidney (BHK) membrane expressing P2X2 ion have more significant decrease when it is treated with ATP channel comparing with normal BHK membrane [143]. (i)-(k) Monitoring influenza virus fusion onto native membrane with the expression of sialic acid receptor. (i) schematic of virus fusion process; Bode plot for detection of virus fusion results: (j) on BHK SLB; (k) on Vero SLB [146]. Reproduced with permission from: [143–146](For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)",
+      "caption": "A scheme of forming native (HEK) and all-lipid (DOPC:DOTAP) membrane on PEDOT:PSS coated microelectrode with equivalent circuit model, and each circuit element representing the physical element in the system [145].",
+      "caption_summary": [
+        "Membrane",
+        "Microelectrode",
+        "Circuit"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_19_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 9. Comparison of direct culture and Transwell® culture configuration of OMEAs: (a) Scheme of electroactive cells directly cultured on the rigid coplanar device for recording and stimulation; (b) scheme of seeding barrier cell layer onto Transwell® MEAs for impedance characterisation; (c)-(h) various type of electroactive cell or tissue system on chip; (c) neurosphere recording (PEGDA (blue dashed band) patterns with showing neuron (MAP2, green), astrocytes (GFAP, orange), cell nuclei (bisbenzimide, blue)) [147]. (d) cortico-hippocampal network recording (scale bar: 100 μm) [66]. (e) PEDOT encapsulation SH-SY5Y neuroblastoma [148]. (f) glioblastoma stimulation [40]. (g) neural stem cell 3D stimulation with pillar electrode array [149]. (h) brain slice recording coplanar MEA with 400 μm2 electrode of specific electrode area [9]. (i)-(k) the barrier effect of cell monolayer with EIS measurements: (i) the equivalent circuit model of cell monolayer on Transwell® membrane of MEAs; (j) the impedance regimes of each equivalent circuit element represented in the bode plot; (k) sensing regime and non-sensing regime separated with impedance spectra fitted with permission from: [9,40,66,148-150] (for interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article).",
+      "caption": "Scheme of seeding barrier cell layer onto Transwell® MEAs for impedance characterisation",
+      "caption_summary": [
+        "Seeding",
+        "Barrier",
+        "Impedance"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_20_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 9. Comparison of direct culture and Transwell® culture configuration of OMEAs: (a) Scheme of electroactive cells directly cultured on the rigid coplanar device for recording and stimulation; (b) scheme of seeding barrier cell layer onto Transwell® MEAs for impedance characterisation; (c)-(h) various type of electroactive cell or tissue system on chip; (c) neurosphere recording (PEGDA (blue dashed band) patterns with showing neuron (MAP2, green), astrocytes (GFAP, orange), cell nuclei (bisbenzimide, blue)) [147]. (d) cortico-hippocampal network recording (scale bar: 100 μm) [66]. (e) PEDOT encapsulation SH-SY5Y neuroblastoma [148]. (f) glioblastoma stimulation [40]. (g) neural stem cell 3D stimulation with pillar electrode array [149]. (h) brain slice recording coplanar MEA with 400 μm2 electrode of specific electrode area [9]. (i)-(k) the barrier effect of cell monolayer with EIS measurements: (i) the equivalent circuit model of cell monolayer on Transwell® membrane of MEAs; (j) the impedance regimes of each equivalent circuit element represented in the bode plot; (k) sensing regime and non-sensing regime separated with impedance spectra fitted with permission from: [9,40,66,148-150] (for interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article).",
+      "caption": "Glioblastoma stimulation [40]",
+      "caption_summary": [
+        "Glioblastoma",
+        "stimulation"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_20_img_1_f.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 9. Comparison of direct culture and Transwell® culture configuration of OMEAs: (a) Scheme of electroactive cells directly cultured on the rigid coplanar device for recording and stimulation; (b) scheme of seeding barrier cell layer onto Transwell® MEAs for impedance characterisation; (c)-(h) various type of electroactive cell or tissue system on chip; (c) neurosphere recording (PEGDA (blue dashed band) patterns with showing neuron (MAP2, green), astrocytes (GFAP, orange), cell nuclei (bisbenzimide, blue)) [147]. (d) cortico-hippocampal network recording (scale bar: 100 μm) [66]. (e) PEDOT encapsulation SH-SY5Y neuroblastoma [148]. (f) glioblastoma stimulation [40]. (g) neural stem cell 3D stimulation with pillar electrode array [149]. (h) brain slice recording coplanar MEA with 400 μm2 electrode of specific electrode area [9]. (i)-(k) the barrier effect of cell monolayer with EIS measurements: (i) the equivalent circuit model of cell monolayer on Transwell® membrane of MEAs; (j) the impedance regimes of each equivalent circuit element represented in the bode plot; (k) sensing regime and non-sensing regime separated with impedance spectra fitted with permission from: [9,40,66,148-150] (for interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article).",
+      "caption": "Neurosphere recording (PEGDA (blue dashed band) patterns with showing neuron (MAP2, green), astrocytes (GFAP, orange), cell nuclei (bisbenzimide, blue)) [147]",
+      "caption_summary": [
+        "Neurosphere",
+        "PEGDA",
+        "Immunostaining"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_20_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 9. Comparison of direct culture and Transwell® culture configuration of OMEAs: (a) Scheme of electroactive cells directly cultured on the rigid coplanar device for recording and stimulation; (b) scheme of seeding barrier cell layer onto Transwell® MEAs for impedance characterisation; (c)-(h) various type of electroactive cell or tissue system on chip; (c) neurosphere recording (PEGDA (blue dashed band) patterns with showing neuron (MAP2, green), astrocytes (GFAP, orange), cell nuclei (bisbenzimide, blue)) [147]. (d) cortico-hippocampal network recording (scale bar: 100 μm) [66]. (e) PEDOT encapsulation SH-SY5Y neuroblastoma [148]. (f) glioblastoma stimulation [40]. (g) neural stem cell 3D stimulation with pillar electrode array [149]. (h) brain slice recording coplanar MEA with 400 μm2 electrode of specific electrode area [9]. (i)-(k) the barrier effect of cell monolayer with EIS measurements: (i) the equivalent circuit model of cell monolayer on Transwell® membrane of MEAs; (j) the impedance regimes of each equivalent circuit element represented in the bode plot; (k) sensing regime and non-sensing regime separated with impedance spectra fitted with permission from: [9,40,66,148-150] (for interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article).",
+      "caption": "Brain slice recording coplanar MEA with 400 μm2 electrode of specific electrode area [9]",
+      "caption_summary": [
+        "Brain slice recording",
+        "coplanar MEA",
+        "electrode area"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_20_img_1_h.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 9. Comparison of direct culture and Transwell® culture configuration of OMEAs: (a) Scheme of electroactive cells directly cultured on the rigid coplanar device for recording and stimulation; (b) scheme of seeding barrier cell layer onto Transwell® MEAs for impedance characterisation; (c)-(h) various type of electroactive cell or tissue system on chip; (c) neurosphere recording (PEGDA (blue dashed band) patterns with showing neuron (MAP2, green), astrocytes (GFAP, orange), cell nuclei (bisbenzimide, blue)) [147]. (d) cortico-hippocampal network recording (scale bar: 100 μm) [66]. (e) PEDOT encapsulation SH-SY5Y neuroblastoma [148]. (f) glioblastoma stimulation [40]. (g) neural stem cell 3D stimulation with pillar electrode array [149]. (h) brain slice recording coplanar MEA with 400 μm2 electrode of specific electrode area [9]. (i)-(k) the barrier effect of cell monolayer with EIS measurements: (i) the equivalent circuit model of cell monolayer on Transwell® membrane of MEAs; (j) the impedance regimes of each equivalent circuit element represented in the bode plot; (k) sensing regime and non-sensing regime separated with impedance spectra fitted with permission from: [9,40,66,148-150] (for interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article).",
+      "caption": "Scheme of electroactive cells directly cultured on the rigid coplanar device for recording and stimulation",
+      "caption_summary": [
+        "Electroactive cells",
+        "coplanar device",
+        "recording."
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_20_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 9. Comparison of direct culture and Transwell® culture configuration of OMEAs: (a) Scheme of electroactive cells directly cultured on the rigid coplanar device for recording and stimulation; (b) scheme of seeding barrier cell layer onto Transwell® MEAs for impedance characterisation; (c)-(h) various type of electroactive cell or tissue system on chip; (c) neurosphere recording (PEGDA (blue dashed band) patterns with showing neuron (MAP2, green), astrocytes (GFAP, orange), cell nuclei (bisbenzimide, blue)) [147]. (d) cortico-hippocampal network recording (scale bar: 100 μm) [66]. (e) PEDOT encapsulation SH-SY5Y neuroblastoma [148]. (f) glioblastoma stimulation [40]. (g) neural stem cell 3D stimulation with pillar electrode array [149]. (h) brain slice recording coplanar MEA with 400 μm2 electrode of specific electrode area [9]. (i)-(k) the barrier effect of cell monolayer with EIS measurements: (i) the equivalent circuit model of cell monolayer on Transwell® membrane of MEAs; (j) the impedance regimes of each equivalent circuit element represented in the bode plot; (k) sensing regime and non-sensing regime separated with impedance spectra fitted with permission from: [9,40,66,148-150] (for interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article).",
+      "caption": "Cortico-hippocampal network recording (scale bar: 100 μm) [66]",
+      "caption_summary": [
+        "Cortico-hippocampal",
+        "network",
+        "recording"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_20_img_1_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 9. Comparison of direct culture and Transwell® culture configuration of OMEAs: (a) Scheme of electroactive cells directly cultured on the rigid coplanar device for recording and stimulation; (b) scheme of seeding barrier cell layer onto Transwell® MEAs for impedance characterisation; (c)-(h) various type of electroactive cell or tissue system on chip; (c) neurosphere recording (PEGDA (blue dashed band) patterns with showing neuron (MAP2, green), astrocytes (GFAP, orange), cell nuclei (bisbenzimide, blue)) [147]. (d) cortico-hippocampal network recording (scale bar: 100 μm) [66]. (e) PEDOT encapsulation SH-SY5Y neuroblastoma [148]. (f) glioblastoma stimulation [40]. (g) neural stem cell 3D stimulation with pillar electrode array [149]. (h) brain slice recording coplanar MEA with 400 μm2 electrode of specific electrode area [9]. (i)-(k) the barrier effect of cell monolayer with EIS measurements: (i) the equivalent circuit model of cell monolayer on Transwell® membrane of MEAs; (j) the impedance regimes of each equivalent circuit element represented in the bode plot; (k) sensing regime and non-sensing regime separated with impedance spectra fitted with permission from: [9,40,66,148-150] (for interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article).",
+      "caption": "Neural stem cell 3D stimulation with pillar electrode array [149]",
+      "caption_summary": [
+        "Neural stimulation",
+        "3D electrode",
+        "Stem cells"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_20_img_1_g.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 9. Comparison of direct culture and Transwell® culture configuration of OMEAs: (a) Scheme of electroactive cells directly cultured on the rigid coplanar device for recording and stimulation; (b) scheme of seeding barrier cell layer onto Transwell® MEAs for impedance characterisation; (c)-(h) various type of electroactive cell or tissue system on chip; (c) neurosphere recording (PEGDA (blue dashed band) patterns with showing neuron (MAP2, green), astrocytes (GFAP, orange), cell nuclei (bisbenzimide, blue)) [147]. (d) cortico-hippocampal network recording (scale bar: 100 μm) [66]. (e) PEDOT encapsulation SH-SY5Y neuroblastoma [148]. (f) glioblastoma stimulation [40]. (g) neural stem cell 3D stimulation with pillar electrode array [149]. (h) brain slice recording coplanar MEA with 400 μm2 electrode of specific electrode area [9]. (i)-(k) the barrier effect of cell monolayer with EIS measurements: (i) the equivalent circuit model of cell monolayer on Transwell® membrane of MEAs; (j) the impedance regimes of each equivalent circuit element represented in the bode plot; (k) sensing regime and non-sensing regime separated with impedance spectra fitted with permission from: [9,40,66,148-150] (for interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article).",
+      "caption": "PEDOT encapsulation SH-SY5Y neuroblastoma [148]",
+      "caption_summary": [
+        "PEDOT",
+        "encapsulation",
+        "neuroblastoma"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_20_img_1_e.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_21_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_21_img_1_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_21_img_1_f.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_21_img_1_g.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_21_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_21_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_21_img_1_e.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_22_img_1_e.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_22_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_22_img_1_g.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_22_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_22_img_1_f.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_22_img_1_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_22_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 12. The structure and applications of organic electrolytic photocapacitor (OEPC): (a) the model circuit of OEPC; (b) A schematic of the structure of OEPC; (c) The molecular structure of type-II hybrid (HPC) as a primary light-absorbing layer and electron donor; (d) PCDI as n-type electron-acceptor; (d) Energy band diagram showing metal (n-p) junction and carrier transport during light stimulation (black arrow: electron transport; red arrow: Faradic current; blue arrow: capacitive current) [160,162]; (e-g) Stimulation of a piece of retina from micro-size OEPC array (showing the peeled nerve); (e) schematic of cytoplasm direct contact with a single OEPC; (f) optical image of retina placed on OEPC with focus on the nerve fiber layer; (g) electrical recording under 5 ms light pulse with a variation of light intensity [163]; (h) zip-tie OEPC is implanted for active sciatic nerve stimulation. The top insert is showing the unwrapped architecture of the device. The bottom insert is a 1 mm diameter OEPC wrap around the sciatic nerve (scale bar: 1 mm). (i-j) OEPCs for mouse somatosensory cortex stimulation: (i) schematic of the concept of light stimulation with OEPC implant location on the mouse brain. Top inset: the layout of the OEPCs with and without extra PEDOT:PSS coating. Bottom inset: planar OEPC implantation on mouse cortex. (j) Stimulation artifact amplitudes are decreased by adding an extra coating of PEDOT:PSS coating when the devices are illuminated directly on the cortex, skull, and skin [166]. Reproduced with permission from: [162,163,165,166] (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)",
+      "caption": "Energy band diagram showing metal (n-p) junction and carrier transport during light stimulation (black arrow: electron transport; red arrow: Faradic current; blue arrow: capacitive current) [160,162]",
+      "caption_summary": [
+        "Energy band diagram"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_23_img_1_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 12. The structure and applications of organic electrolytic photocapacitor (OEPC): (a) the model circuit of OEPC; (b) A schematic of the structure of OEPC; (c) The molecular structure of type-II hybrid (HPC) as a primary light-absorbing layer and electron donor; (d) PCDI as n-type electron-acceptor; (d) Energy band diagram showing metal (n-p) junction and carrier transport during light stimulation (black arrow: electron transport; red arrow: Faradic current; blue arrow: capacitive current) [160,162]; (e-g) Stimulation of a piece of retina from micro-size OEPC array (showing the peeled nerve); (e) schematic of cytoplasm direct contact with a single OEPC; (f) optical image of retina placed on OEPC with focus on the nerve fiber layer; (g) electrical recording under 5 ms light pulse with a variation of light intensity [163]; (h) zip-tie OEPC is implanted for active sciatic nerve stimulation. The top insert is showing the unwrapped architecture of the device. The bottom insert is a 1 mm diameter OEPC wrap around the sciatic nerve (scale bar: 1 mm). (i-j) OEPCs for mouse somatosensory cortex stimulation: (i) schematic of the concept of light stimulation with OEPC implant location on the mouse brain. Top inset: the layout of the OEPCs with and without extra PEDOT:PSS coating. Bottom inset: planar OEPC implantation on mouse cortex. (j) Stimulation artifact amplitudes are decreased by adding an extra coating of PEDOT:PSS coating when the devices are illuminated directly on the cortex, skull, and skin [166]. Reproduced with permission from: [162,163,165,166] (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)",
+      "caption": "Electrical recording under 5 ms light pulse with a variation of light intensity [163]",
+      "caption_summary": [
+        "Electrical recording",
+        "Light pulse",
+        "Intensity variation"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_23_img_1_g.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 12. The structure and applications of organic electrolytic photocapacitor (OEPC): (a) the model circuit of OEPC; (b) A schematic of the structure of OEPC; (c) The molecular structure of type-II hybrid (HPC) as a primary light-absorbing layer and electron donor; (d) PCDI as n-type electron-acceptor; (d) Energy band diagram showing metal (n-p) junction and carrier transport during light stimulation (black arrow: electron transport; red arrow: Faradic current; blue arrow: capacitive current) [160,162]; (e-g) Stimulation of a piece of retina from micro-size OEPC array (showing the peeled nerve); (e) schematic of cytoplasm direct contact with a single OEPC; (f) optical image of retina placed on OEPC with focus on the nerve fiber layer; (g) electrical recording under 5 ms light pulse with a variation of light intensity [163]; (h) zip-tie OEPC is implanted for active sciatic nerve stimulation. The top insert is showing the unwrapped architecture of the device. The bottom insert is a 1 mm diameter OEPC wrap around the sciatic nerve (scale bar: 1 mm). (i-j) OEPCs for mouse somatosensory cortex stimulation: (i) schematic of the concept of light stimulation with OEPC implant location on the mouse brain. Top inset: the layout of the OEPCs with and without extra PEDOT:PSS coating. Bottom inset: planar OEPC implantation on mouse cortex. (j) Stimulation artifact amplitudes are decreased by adding an extra coating of PEDOT:PSS coating when the devices are illuminated directly on the cortex, skull, and skin [166]. Reproduced with permission from: [162,163,165,166] (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)",
+      "caption": "The molecular structure of type-II hybrid (HPC) as a primary light-absorbing layer and electron donor",
+      "caption_summary": [
+        "Hybrid Perovskite",
+        "Light-absorbing",
+        "Electron Donor"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_23_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 12. The structure and applications of organic electrolytic photocapacitor (OEPC): (a) the model circuit of OEPC; (b) A schematic of the structure of OEPC; (c) The molecular structure of type-II hybrid (HPC) as a primary light-absorbing layer and electron donor; (d) PCDI as n-type electron-acceptor; (d) Energy band diagram showing metal (n-p) junction and carrier transport during light stimulation (black arrow: electron transport; red arrow: Faradic current; blue arrow: capacitive current) [160,162]; (e-g) Stimulation of a piece of retina from micro-size OEPC array (showing the peeled nerve); (e) schematic of cytoplasm direct contact with a single OEPC; (f) optical image of retina placed on OEPC with focus on the nerve fiber layer; (g) electrical recording under 5 ms light pulse with a variation of light intensity [163]; (h) zip-tie OEPC is implanted for active sciatic nerve stimulation. The top insert is showing the unwrapped architecture of the device. The bottom insert is a 1 mm diameter OEPC wrap around the sciatic nerve (scale bar: 1 mm). (i-j) OEPCs for mouse somatosensory cortex stimulation: (i) schematic of the concept of light stimulation with OEPC implant location on the mouse brain. Top inset: the layout of the OEPCs with and without extra PEDOT:PSS coating. Bottom inset: planar OEPC implantation on mouse cortex. (j) Stimulation artifact amplitudes are decreased by adding an extra coating of PEDOT:PSS coating when the devices are illuminated directly on the cortex, skull, and skin [166]. Reproduced with permission from: [162,163,165,166] (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)",
+      "caption": "Zip-tie OEPC is implanted for active sciatic nerve stimulation. The top insert is showing the unwrapped architecture of the device. The bottom insert is a 1 mm diameter OEPC wrap around the sciatic nerve (scale bar: 1 mm).",
+      "caption_summary": [
+        "Sciatic nerve",
+        "Stimulation",
+        "Implantation"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_23_img_1_h.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 12. The structure and applications of organic electrolytic photocapacitor (OEPC): (a) the model circuit of OEPC; (b) A schematic of the structure of OEPC; (c) The molecular structure of type-II hybrid (HPC) as a primary light-absorbing layer and electron donor; (d) PCDI as n-type electron-acceptor; (d) Energy band diagram showing metal (n-p) junction and carrier transport during light stimulation (black arrow: electron transport; red arrow: Faradic current; blue arrow: capacitive current) [160,162]; (e-g) Stimulation of a piece of retina from micro-size OEPC array (showing the peeled nerve); (e) schematic of cytoplasm direct contact with a single OEPC; (f) optical image of retina placed on OEPC with focus on the nerve fiber layer; (g) electrical recording under 5 ms light pulse with a variation of light intensity [163]; (h) zip-tie OEPC is implanted for active sciatic nerve stimulation. The top insert is showing the unwrapped architecture of the device. The bottom insert is a 1 mm diameter OEPC wrap around the sciatic nerve (scale bar: 1 mm). (i-j) OEPCs for mouse somatosensory cortex stimulation: (i) schematic of the concept of light stimulation with OEPC implant location on the mouse brain. Top inset: the layout of the OEPCs with and without extra PEDOT:PSS coating. Bottom inset: planar OEPC implantation on mouse cortex. (j) Stimulation artifact amplitudes are decreased by adding an extra coating of PEDOT:PSS coating when the devices are illuminated directly on the cortex, skull, and skin [166]. Reproduced with permission from: [162,163,165,166] (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)",
+      "caption": "A schematic of the structure of OEPC",
+      "caption_summary": [
+        "Structure",
+        "OEPC"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_23_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 12. The structure and applications of organic electrolytic photocapacitor (OEPC): (a) the model circuit of OEPC; (b) A schematic of the structure of OEPC; (c) The molecular structure of type-II hybrid (HPC) as a primary light-absorbing layer and electron donor; (d) PCDI as n-type electron-acceptor; (d) Energy band diagram showing metal (n-p) junction and carrier transport during light stimulation (black arrow: electron transport; red arrow: Faradic current; blue arrow: capacitive current) [160,162]; (e-g) Stimulation of a piece of retina from micro-size OEPC array (showing the peeled nerve); (e) schematic of cytoplasm direct contact with a single OEPC; (f) optical image of retina placed on OEPC with focus on the nerve fiber layer; (g) electrical recording under 5 ms light pulse with a variation of light intensity [163]; (h) zip-tie OEPC is implanted for active sciatic nerve stimulation. The top insert is showing the unwrapped architecture of the device. The bottom insert is a 1 mm diameter OEPC wrap around the sciatic nerve (scale bar: 1 mm). (i-j) OEPCs for mouse somatosensory cortex stimulation: (i) schematic of the concept of light stimulation with OEPC implant location on the mouse brain. Top inset: the layout of the OEPCs with and without extra PEDOT:PSS coating. Bottom inset: planar OEPC implantation on mouse cortex. (j) Stimulation artifact amplitudes are decreased by adding an extra coating of PEDOT:PSS coating when the devices are illuminated directly on the cortex, skull, and skin [166]. Reproduced with permission from: [162,163,165,166] (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)",
+      "caption": "The model circuit of OEPC",
+      "caption_summary": [
+        "Model circuit",
+        "OEPC"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_23_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 12. The structure and applications of organic electrolytic photocapacitor (OEPC): (a) the model circuit of OEPC; (b) A schematic of the structure of OEPC; (c) The molecular structure of type-II hybrid (HPC) as a primary light-absorbing layer and electron donor; (d) PCDI as n-type electron-acceptor; (d) Energy band diagram showing metal (n-p) junction and carrier transport during light stimulation (black arrow: electron transport; red arrow: Faradic current; blue arrow: capacitive current) [160,162]; (e-g) Stimulation of a piece of retina from micro-size OEPC array (showing the peeled nerve); (e) schematic of cytoplasm direct contact with a single OEPC; (f) optical image of retina placed on OEPC with focus on the nerve fiber layer; (g) electrical recording under 5 ms light pulse with a variation of light intensity [163]; (h) zip-tie OEPC is implanted for active sciatic nerve stimulation. The top insert is showing the unwrapped architecture of the device. The bottom insert is a 1 mm diameter OEPC wrap around the sciatic nerve (scale bar: 1 mm). (i-j) OEPCs for mouse somatosensory cortex stimulation: (i) schematic of the concept of light stimulation with OEPC implant location on the mouse brain. Top inset: the layout of the OEPCs with and without extra PEDOT:PSS coating. Bottom inset: planar OEPC implantation on mouse cortex. (j) Stimulation artifact amplitudes are decreased by adding an extra coating of PEDOT:PSS coating when the devices are illuminated directly on the cortex, skull, and skin [166]. Reproduced with permission from: [162,163,165,166] (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)",
+      "caption": "Schematic of cytoplasm direct contact with a single OEPC",
+      "caption_summary": [
+        "Cytoplasm",
+        "Contact",
+        "OEPC"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_23_img_1_f.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "Fig. 12. The structure and applications of organic electrolytic photocapacitor (OEPC): (a) the model circuit of OEPC; (b) A schematic of the structure of OEPC; (c) The molecular structure of type-II hybrid (HPC) as a primary light-absorbing layer and electron donor; (d) PCDI as n-type electron-acceptor; (d) Energy band diagram showing metal (n-p) junction and carrier transport during light stimulation (black arrow: electron transport; red arrow: Faradic current; blue arrow: capacitive current) [160,162]; (e-g) Stimulation of a piece of retina from micro-size OEPC array (showing the peeled nerve); (e) schematic of cytoplasm direct contact with a single OEPC; (f) optical image of retina placed on OEPC with focus on the nerve fiber layer; (g) electrical recording under 5 ms light pulse with a variation of light intensity [163]; (h) zip-tie OEPC is implanted for active sciatic nerve stimulation. The top insert is showing the unwrapped architecture of the device. The bottom insert is a 1 mm diameter OEPC wrap around the sciatic nerve (scale bar: 1 mm). (i-j) OEPCs for mouse somatosensory cortex stimulation: (i) schematic of the concept of light stimulation with OEPC implant location on the mouse brain. Top inset: the layout of the OEPCs with and without extra PEDOT:PSS coating. Bottom inset: planar OEPC implantation on mouse cortex. (j) Stimulation artifact amplitudes are decreased by adding an extra coating of PEDOT:PSS coating when the devices are illuminated directly on the cortex, skull, and skin [166]. Reproduced with permission from: [162,163,165,166] (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)",
+      "caption": "Stimulation of a piece of retina from micro-size OEPC array (showing the peeled nerve)",
+      "caption_summary": [
+        "Retina",
+        "Stimulation",
+        "Microarray"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_23_img_1_e.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "N/A",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_28_img_1_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "N/A",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_28_img_2_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_28_img_3_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_28_img_4_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "N/A",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\organic_microelectrode_arrays\\images_folder\\page_28_img_5_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_organic_microelectrode_arrays\\organic_microelectrode_arrays"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "records": [
+    {
+      "full_caption": "N/A",
+      "caption": "N/A",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\MIEC_transport\\MIEC_transport\\images_folder\\page_4_img_1_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_MIEC_transport\\MIEC_transport"
+    },
+    {
+      "full_caption": "Figure 2. (a) Cation and (b) anion solvation by water in aqueous electrolytes, cation coordination by ether oxygens in (c) nonconjugated and (d) conjugated polymer electrolytes, and ion-pairing and aggregation in (e) nonconjugated and (f) conjugated polyelectrolytes. The cations, anions, and oxygens are displayed in yellow, purple, and red, respectively.",
+      "caption": "Figure 2. (a) Cation and (b) anion solvation by water in aqueous electrolytes, cation coordination by ether oxygens in (c) nonconjugated and (d) conjugated polymer electrolytes, and ion-pairing and aggregation in (e) nonconjugated and (f) conjugated polyelectrolytes. The cations, anions, and oxygens are displayed in yellow, purple, and red, respectively.",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\MIEC_transport\\MIEC_transport\\images_folder\\page_4_img_2_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_MIEC_transport\\MIEC_transport"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\MIEC_transport\\MIEC_transport\\images_folder\\page_7_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_MIEC_transport\\MIEC_transport"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\MIEC_transport\\MIEC_transport\\images_folder\\page_7_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_MIEC_transport\\MIEC_transport"
+    },
+    {
+      "full_caption": "Figure 8. (a) Similar to charge transport, heat transport in PEDOT:PSS is fast along the in-plane direction and slow in the out-of-plane direction. (b) In-plane (black) and out-of-plane (red) thermal conductivity versus PSS load (value of κ for PSS taken from Reference 149). Abbreviations: PEDOT, poly(3,4-ethylenedioxythiophene); PSS, poly(styrene sulfonate). Figure adapted with permission from Reference 150; copyright 2019 Wiley-VCH Verlag.",
+      "caption": "Similar to charge transport, heat transport in PEDOT:PSS is fast along the in-plane direction and slow in the out-of-plane direction.",
+      "caption_summary": [
+        "Anisotropic",
+        "Heat Transport",
+        "PEDOT:PSS"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\MIEC_transport\\MIEC_transport\\images_folder\\page_19_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_MIEC_transport\\MIEC_transport"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\MIEC_transport\\MIEC_transport\\images_folder\\page_19_img_36_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_MIEC_transport\\MIEC_transport"
+    }
+  ]
+}

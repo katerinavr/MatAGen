@@ -1,0 +1,1124 @@
+Structure Control of a π‑Conjugated
+Oligothiophene-Based Liquid Crystal for
+Enhanced Mixed Ion/Electron Transport
+Characteristics
+Ban Xuan Dong,†
+Ziwei Liu,‡ Mayank Misra,§
+Joseph Strzalka,∥
+Jens Niklas,⊥
+Oleg G. Poluektov,⊥
+Fernando A. Escobedo,*,§
+Christopher K. Ober,*,‡
+Paul F. Nealey,*,†,#
+and Shrayesh N. Patel*,†,⊥
+†Pritzker School of Molecular Engineering, University of Chicago, Chicago, Illinois 60637, United States
+‡Department of Materials Science and Engineering and §School of Chemical and Biomolecular Engineering, Cornell University,
+Ithaca, New York 14853, United States
+∥X-ray Science Division, ⊥Chemical Sciences and Engineering Division, and #Materials Science Division, Argonne National
+Laboratory, Lemont, Illinois 60439, United States
+*
+S Supporting Information
+ABSTRACT: Developing soft materials with both ion and
+electron transport functionalities is of broad interest for
+energy-storage and bioelectronics applications. Rational
+design of these materials requires a fundamental under-
+standing of interactions between ion and electron
+conducting blocks along with the correlation between the
+microstructure and the conduction characteristics. Here,
+we investigate the structure and mixed ionic/electronic
+conduction in thin ﬁlms of a liquid crystal (LC) 4T/PEO4,
+which consists of an electronically conducting quarter-
+thiophene (4T) block terminated at both ends by ionically
+conducting oligoethylenoxide (PEO4) blocks. Using a combined experimental and simulation approach, 4T/PEO4 is
+shown to self-assemble into smectic, ordered, or disordered phases upon blending the materials with the ionic dopant
+bis(triﬂuoromethane)sulfonimide lithium (LiTFSI) under diﬀerent LiTFSI concentrations. Interestingly, at intermediate
+LiTFSI concentration, ordered 4T/PEO4 exhibits an electronic conductivity as high as 3.1 × 10−3 S/cm upon being
+inﬁltrated with vapor of the 2,3,5,6-tetraﬂuoro-7,7,8,8-tetracyanoquinodimethane (F4TCNQ) molecular dopant while still
+maintaining its ionic conducting functionality. This electronic conductivity is superior by an order of magnitude to the
+previously reported electronic conductivity of vapor co-deposited 4T/F4TCNQ blends. Our ﬁndings demonstrate that
+structure and electronic transport in mixed conduction materials could be modulated by the presence of the ion
+transporting component and will have important implications for other more complex mixed ionic/electronic conductors.
+KEYWORDS: π-conjugated liquid crystals, mixed ion/electron conduction, molecular dopant, molecular dynamics simulation,
+X-ray diﬀraction, spectroscopic ellipsometry
+T
+he molecular design of materials with the ability to
+simultaneously transport electronic and ionic charge
+carriers is of broad interest spanning energy storage
+and conversion, bioelectronics, sensors, and electrochromic
+applications. Such examples include electrochemical transis-
+tors,1 lithium-ion battery electrodes,2−4 and dye-sensitized
+solar cells.5 Previously, the simultaneous electronic and ionic
+conduction properties as well as the methods outlined for
+measuring dual conduction have been extensively investigated
+in various inorganic materials.6 More recently, the ﬁeld of
+organic electronics which utilizes π-conjugated small molecules
+and polymers as electronic conductors has experienced
+tremendous growth. Compared to traditional silicon-based
+electronics, organic electronics oﬀer advantages of low cost
+processability, mechanical ﬂexibility, biocompatibility, and
+nearly limitless capacity to tailor the physical properties via
+Received:
+February 6, 2019
+Accepted:
+June 13, 2019
+Published: June 13, 2019
+Article
+www.acsnano.org
+Cite This: ACS Nano 2019, 13, 7665−7675
+© 2019 American Chemical Society
+7665
+DOI: 10.1021/acsnano.9b01055
+ACS Nano 2019, 13, 7665−7675
+Downloaded via WASHINGTON UNIV on August 22, 2019 at 03:11:04 (UTC).
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+facile chemical design.7−11 Together with the expansion of the
+organic electronics ﬁeld, there have been growing interests in
+developing organic materials such as polymeric12−19 or liquid
+crystal (LC) systems20,21 with mixed electronic/ionic con-
+ducting properties that couple the electronic conduction of the
+π-conjugated moieties with other ionic conduction moieties.
+Given their enormous potential, understanding the struc-
+ture−processing−transport relationships in organic mixed
+conductors are of keen scientiﬁc and technological interests.
+Until now, only a few structure−mixed conduction studies
+have been performed on organic mixed conductors, and most
+of them only focus on polymeric systems.12−19 Understanding
+fundamental mixed conduction in conjugated polymers,
+however, is not straightforward due to the complex semi-
+crystalline structures that make both structure characterization
+and simulation challenging.19 Compared to polymeric systems,
+LCs hold advantages of simple assembly and structural
+reorganization because of their intrinsic ﬂuidity. The
+nanostructure of LCs such as nematic, smectic, columnar, or
+bicontinuous cubic can be achieved spontaneously via
+nanoscale segregation of immiscible parts of the mole-
+cules.22−25 Their small size also makes detailed simulations
+of their structure and properties less computationally intensive
+than simulation of polymeric systems. Moreover, their
+synthesis is more precise, which makes them ideal material
+testbeds for new chemical strategies without the major eﬀort
+that developing new monomers would entail. While either
+ionic or electronic transport behaviors in LCs have been widely
+observed,26−30 so far, there have been only a few reports on
+mixed ion/electron conduction behavior of LCs. Kato et al.
+reported electrochromic behaviors of LCs as a result of the
+materials’ ability to conduct ions and electrons, but no detailed
+investigation of structure and ionic/electronic conduction
+behaviors was shown.20,21
+Toward studying mixed conduction in LCs, recently, we
+synthesized a coil−rod−coil π-conjugated LC compound 4T/
+PEO4 consisting of a quarterthiophene (4T) rigid mesogen
+and ﬂexible tetra(ethylene oxide) (PEO4) segments on both
+ends of the mesogen (Figure 1a).31 The π-conjugated 4T
+mesogen serves as the electronically conducting unit, and the
+PEO4 segments provide ion conducting properties when
+blended with salt. The volume ratio of thiophene and the PEO
+block is chosen in order to enable an ion transport function of
+PEO4 while permitting π−π interaction between 4T units to
+achieve smectic ordering. As seen in the polarized optical
+image (POM) of neat 4T/PEO4 (Figure 1b), the material
+exhibits birefringent characteristics typically observed in LC
+materials. We have shown that 4T/PEO4 self-assembles to
+form a highly ordered smectic phase, resulting in high ionic
+conductivity of 5.2 × 10−4 S cm−1 at 70 °C upon blending with
+lithium bis(triﬂuoromethanesulfonyl)imide (LiTFSI) at a
+concentration of r = [Li+]/[EO] up to 0.05. Additionally,
+the observation of π−π interaction between 4T units makes
+4T/PEO4 a promising candidate to achieve the desired mixed
+ionic and electronic conduction.
+In this work, we combine experimental and computational
+approaches to investigate the inﬂuence of the underlying 4T/
+PEO4 self-assembled structure on its mixed conduction
+characteristics. We show that blending 4T/PEO4 with LiTFSI
+is a versatile route in generating LCs with diﬀerent structures,
+which aﬀects both ionic and electronic conduction. At a
+LiTFSI concentration r of 0.05 and below, 4T/PEO4 adopts
+ordered smectic morphology, whereas at the intermediate
+concentration r = 0.10, the 4T units start to penetrate into the
+PEO phase and connect the smectic layer together, resulting in
+a more ordered structure. At a high LiTFSI concentration of r
+= 0.20, the 2D arrangement starts to break apart and the
+system becomes disordered. While 4T/PEO4-LiTFSI samples
+exhibit ionic conducting behavior, their electronic transport is
+realized by exposing the samples to vapor of the 2,3,5,6-
+tetraﬂuoro-7,7,8,8-tetracyanoquinodimethane (F4TCNQ),
+which is a method known to introduce electronic dopants
+into organic semiconductors without disrupting the morphol-
+ogy of the host material.32 The optimum ion transport is
+observed at low LiTFSI concentration, where 4T/PEO4
+adopts smectic morphology, and the highest electronic
+conductivity is seen at r = 0.10, where favorable electronic
+percolation pathways exist. Our results demonstrate the strong
+connection between processing, morphology, and mixed
+conduction properties of LCs.
+RESULTS AND DISCUSSION
+Structure Control of 4T/PEO4 by the Addition of
+LiTFSI. To study the evolution of 4T/PEO4 morphology upon
+addition of the ionic dopant LiTFSI (chemical structure shown
+in Figure 1a), we employ grazing incidence wide-angle X-ray
+scattering (GIWAXS), UV−vis−NIR absorption spectroscopy,
+and variable-angle spectroscopic ellipsometry (VASE), in
+combination with molecular dynamics (MD) simulations.
+The representative GIWAXS detector images of ca. 80 nm 4T/
+PEO4-LiTFSI thin ﬁlm at diﬀerent r are shown in Figure 2a.
+The GIWAXS pattern of the r = 0 sample shows narrow
+diﬀraction peaks (00h) in the out-of-plane direction up to the
+fourth order, indicative of an ordered smectic phase in which
+the layers are oriented parallel to the substrate. This is further
+supported by our MD results showing that the top view of 4T
+Figure 1. (a) Chemical structures of 4T/PEO4 and LiTFSI
+together with their corresponding representations used for MD
+simulation described later. The radius of Li+ ion is enhanced, and
+hydrogen atoms are hidden for clarity. (b) Exemplary polarized
+optical microscope image of a neat 4T/PEO4 sample.
+ACS Nano
+Article
+DOI: 10.1021/acsnano.9b01055
+ACS Nano 2019, 13, 7665−7675
+7666
+
+units self-assemble into a typical herringbone packing
+comparable to that in the P21/c crystal structure reported
+for pure 4T.33 In our previous publication, we showed that the
+herringbone packing of 4T drives the self-assembly of the 4T/
+PEO4 smectic structure and results in the two distinctive π−π
+interaction reﬂections marked A and B in our experimental and
+simulated GIWAXS diﬀraction patterns.31 The elongation of
+these reﬂections suggests strong in-plane and weak out-of-
+plane ordering of the π−π interacting units. This is likely due
+to the 2D π−π interaction of the 4T units within each smectic
+plane. For r ≤0.05, the diﬀraction patterns of 4T/PEO4-
+LiTFSI are qualitatively similar to those of the neat samples,
+indicating that the smectic morphology of 4T/PEO4 is
+maintained. This is conﬁrmed by the MD simulation snapshot
+and calculated GIWAXS patterns of r = 0.05, as shown in
+Figure 2b,c.
+For r = 0.1, we observe a signiﬁcant change in the structure
+of the sample compared to the neat and lower salt
+concentration samples. The GIWAXS image of the r = 0.1
+sample reveals a diﬀerent diﬀraction pattern indicative of a
+more ordered 4T/PEO4-LiTFSI structure. The appearance of
+extra diﬀraction peaks in this sample might indicate either a
+more periodic arrangement between 4T and PEO domains
+and/or an increase in crystallinity upon interacting with
+LiTFSI. Moreover, we do not observe the peak elongation of
+the oﬀ-axis reﬂections along the vertical direction, as seen in
+the r = 0 or 0.05 samples, suggesting a better 3D registration
+between 4T units along the π−π interaction direction across
+the whole ﬁlm thickness. In the MD-generated structure at r =
+0.1, we observe 4T/PEO4 fragments acquiring enough
+translational entropy to break apart from the herringbone
+arrangement of 4T, penetrate the PEO phase, and thus connect
+the smectic layers. To quantify the smectic order disruption
+from MD simulation, we performed a cluster analysis using
+hierarchical clustering for thiophene rings. Two thiophene
+rings are considered part for the same cluster if they are 0.6 nm
+or less apart. We merge all the clusters given the same criteria
+until we are left with smallest number of clusters, Nc, which are
+at least 0.6 nm apart. We found that Nc = 2 for r = 0.01, 0.02,
+and 0.05, and Nc = 1 for r = 0.10 and 0.2, indicative of a layer
+merging at high LiTFSI concentrations. As demonstrated in
+Figure 2c, the calculated GIWAXS pattern of the r = 0.1
+sample shows key similarities to the experimental GIWAXS
+patterns with the appearance of diﬀraction reﬂections near |qr|
+= 0.6, 0.9, 1.3, 1.5, and 2 Å−1. The appearance of these
+diﬀraction reﬂections in the r = 0.1 sample thus most likely
+Figure 2. (a) Representative GIWAXS patterns of 4T/PEO4-LiTFSI thin ﬁlms at diﬀerent blending concentration of r = [Li+]/[EO]. (b)
+Snapshots of 4T/PEO4-LiTFSI structures at three representative LiTFSI concentrations of r = 0.05, 0.10, and 0.20 from MD simulation
+together with the top-view and side-view 4T unit arrangements (color code is the same as that in Figure 1a). (c) Simulated GIWAXS patterns
+from the MD snapshots.
+ACS Nano
+Article
+DOI: 10.1021/acsnano.9b01055
+ACS Nano 2019, 13, 7665−7675
+7667
+
+originated from the additional periodicities between 4T and
+PEO domains introduced by the interlayer bridge rather than
+the increase in the crystallinity of the samples. Finally, at very
+high salt concentration of r = 0.2, the smectic peaks in the out-
+of-plane direction signiﬁcantly broaden and the signature π−π
+interacting peaks at higher q disappears, indicating that the LC
+structure of 4T/PEO4 is lost by the excess amount of LiTFSI,
+which is observed in the corresponding MD simulation
+snapshots and the calculated GIWAXS patterns.
+To corroborate the structure insights acquired from
+GIWAXS and MD simulations, we perform UV−vis−NIR
+absorption spectroscopy and VASE experiments. We partic-
+ularly focus on the r = 0.1 sample where the most dramatic
+4T/PEO4 structural change occurs. As seen in Figure 3a, for
+both r = 0 and r = 0.1 samples, we observe the appearance of
+the vibronic (or “aggregate”) shoulders as indicated by the
+arrows. These vibronic shoulders suggest the formation of π−π
+aggregates within the thin ﬁlm sample. Interestingly, in the r =
+0.1 sample, the intensity of these aggregate shoulders greatly
+enhances, suggesting better π−π interaction of 4T/PEO4 upon
+the addition of LiTFSI. VASE measurement was performed to
+further determine the average orientation of the conjugated
+backbone 4T with regard to the underlying substrates. For
+both r = 0 and r = 0.1 samples, the best ﬁts were achieved by
+employing the uniaxial anisotropic model which assumes
+diﬀerent dielectric functions for the in- and out-of-plane
+direction, but no preferred orientation within the x−y plane
+(ε″x = ε″y ≠ε″z).34 The imaginary part of the complex
+permittivity ε″ of the r = 0 and r = 0.1 samples is shown in
+Figure 3b,c. The r = 0 sample exhibits pronounced anisotropic
+behavior which has an out-of-plane imaginary permittivity that
+is stronger than that of the in-plane component. This is
+indicative of the average tendency of the conjugated backbone
+4T to lie perpendicular to the substrate, which is consistent
+with the observation from GIWAXS data. The preferred out-
+of-plane orientation of the conjugated backbone of 4T/PEO4
+is probably due to the favorable interaction of the PEO side
+chain with the SiO2 substrate. On the other hand, the in-plane
+and out-of-plane imaginary permittivities of the r = 0.1 sample
+are more comparable, suggesting that, unlike the neat sample,
+Figure 3. (a) UV−vis−NIR absorption spectroscopy of 4T/PEO4 at r = 0 and r = 0.1 (b) (c) In-plane and out-of-plane imaginary
+permittivity of 4T/PEO4 at r = 0 and r = 0.1 measured by spectroscopic ellipsometry.
+Figure 4. (a) Schematic representation for F4TCNQ vapor doping procedure of 4T/PEO4-LiTFSI thin ﬁlm. (b,c) Evolution of UV−vis−
+NIR absorption spectra of r = 0 and r = 0.1 samples during the F4TCNQ vapor doping process.
+ACS Nano
+Article
+DOI: 10.1021/acsnano.9b01055
+ACS Nano 2019, 13, 7665−7675
+7668
+
+quarterthiophene units in this sample are no longer preferably
+oriented in the out-of-plane direction. It is likely the smectic
+phases destabilize at r= 0.1, and thus creates a mesophase with
+stronger π−π interaction and percolation between 4T units as
+indicated by GIWAXS and MD simulations above. Overall, we
+have shown that blending 4T/PEO4 with LiTFSI is an
+eﬀective method to control its structure, which will directly
+inﬂuence ionic and electronic transport properties as described
+in the next sections.
+Introducing Electronic Conduction Functionality via
+F4TCNQ Vapor Doping. 4T is formally a semiconducting
+material and insulating in its pristine state. To enable and
+modulate electronic conduction in 4T/PEO4 and 4T/PEO4-
+LiTFSI requires the incorporation of molecular dopants.
+Speciﬁcally, the small molecule electron acceptor F4TCNQ
+has been shown to be a suitable dopant molecule for 4T.35
+Note that diﬀerent strategies of solution mixing and sequential
+doping have been employed to introduce molecular dopants
+into conjugated organic semiconductors.32,36,37 Motivated to
+understand how controlling the underlying self-assembled
+structure with LiTFSI inﬂuences the charge transport proper-
+ties, we choose to follow the sequential doping method where
+one ﬁrst casts a thin ﬁlm and then inﬁltrates F4TCNQ from
+the vapor phase using diﬀerent exposure times, as illustrated in
+Figure 4a. Critically, previous reports have shown that vapor
+doping of polymeric semiconductors with F4TCNQ leads to
+homogeneous doping through the thickness of the thin ﬁlm
+and with minimal disruption of the underlying self-assembled
+structure.32,37,38 For our 4T/PEO4 r = 0 and r = 0.1 thin ﬁlms,
+GIWAXS experiments reveal that vapor doping does not lead
+to signiﬁcant disruption to the underlying self-assembled
+structure as indicated by similar GIWAXS patterns before and
+after vapor doping with F4TCNQ (see Supporting Informa-
+tion Figure S4).
+To reveal the extent of molecular doping as a function of
+F4TCNQ vapor exposure time, we performed UV−vis−NIR
+absorption measurements as shown for 4T/PEO4 r = 0 and r =
+0.1 thin ﬁlms in Figure 4b,c. Overall, the evolution of the UV−
+vis−NIR spectra is consistent with formation of hole charge
+carriers from the molecular doping process. For both thin
+ﬁlms, vapor doping leads to a decrease in the primary
+absorption peaks between 2.5 eV and 3.5 eV and the
+appearance of subgap absorption peaks in the 0.5−1 eV
+range, whose intensity increases with doping time. The
+saturation doping exposure time is around 25 min for both r
+= 0 and r = 0.1 samples for the experimental conditions of this
+work. Additionally, for both samples, the intensity of the two
+subgap peaks is relatively strong compared to the main
+absorption peaks, suggesting that F4TCNQ is homogeneously
+distributed through the thickness of the ﬁlm beyond 25 min of
+deposition. This conclusion is further supported by GIWAXS
+depth proﬁle measurements in Figure S7, where nearly
+homogeneous diﬀraction proﬁles are observed at diﬀerent
+depths of the sample doped with F4TCNQ vapor for 25 min.
+With respect to the doping mechanism, the appearance of
+the characteristic subgap peaks between 0.5 eV and 1.0 eV in
+UV−vis−NIR spectra is indicative of the ground-state charge
+transfer complex (CPX) doping mechanism, which has been
+similarly observed in 4T vapor co-deposited with F4TCNQ.35
+CPX is described to occur through frontier orbital hybrid-
+ization of 4T and F4TCNQ, which leads to the formation of a
+hole transporting 4T/PEO4-F4TCNQ mixed phase. The
+formation of 4T/PEO4-F4TCNQ mixed phase is further
+supported by the small increase in 4T/PEO4 π−π interaction
+distance from 0.47 nm to 0.52 nm upon introducing F4TCNQ
+for the r = 0 sample (Figure S6). Interestingly, for the r = 0
+sample, we observe absportion peaks from F4TCNQ anions
+near 1.5 eV for short vapor exposure times. The appearance of
+a F4TCNQ anion absorption peak is indicative of the integer
+Figure 5. (a) Optical images of an IDE devices used for conductivity measurement. (b) Nyquist plots of the r = 0.1 sample at diﬀerent
+F4TCNQ doping time. The inset of each Nyquist plot represents the simpliﬁed equivalent circuit used to ﬁt the impedance data. (c)
+Electronic conductivity of r = 0 and r = 0.10 samples as a function of F4TCNQ doping time. The dashed line represents the maximum 4T/
+F4TCNQ electronic conductivity reported by Méndez and Heimel et al.35 (d) Evolution of ionic/electronic conductivity of r = 0.1 samples
+during F4TCNQ vapor doping process.
+ACS Nano
+Article
+DOI: 10.1021/acsnano.9b01055
+ACS Nano 2019, 13, 7665−7675
+7669
+
+charge transfer (ICT) doping mechanism where electron
+transfers occur from the highest occupied molecular orbital
+(HOMO) of the host organic semiconductor to the lowest
+unoccupied molecular orbital (LUMO) of the acceptor
+dopant. A similar coexistence of CPX and ICT observed in
+our 4T/PEO4 r = 0 sample was recently shown in P3HT
+doped with F4TCNQ.39
+Mixed Ion/Electron Conduction in 4T/PEO4 Meas-
+ured by Electrochemical Impedance Spectroscopy. To
+determine the inﬂuence of F4TCNQ molecular doping on the
+charge transport properties of 4T/PEO4-LiTFSI thin ﬁlms, we
+performed electrochemical impedance spectroscopy (EIS)
+measurement at room temperature. All of our electronic and
+ionic conductivity measurements were performed on samples
+fabricated atop gold interdigitated electrode (IDE) devices
+(Figure 5a) to increase the eﬀective surface areas and enhance
+the signal-to-noise ratio of electrical measurements in thin
+ﬁlms.40 We note that, at room temperature, the intrinsic
+electronic conductivity of 4T/PEO4 without F4TCNQ was
+(4.9 ± 1.5) × 10−7 S/cm, as determined by the DC method.
+The intrinsic electronic conductivity without F4TCNQ of 4T/
+PEO4-LiTFSI samples was below 2 × 10−8 S/cm for all values
+of r. These values of intrinsic electronic conductivity are
+suﬃciently low to enable the measurement of ionic
+conductivity using the EIS method.13
+Figure 5b depicts Nyquist impedance plots of the r = 0.1
+sample at diﬀerent F4TCNQ doping times. As frequently
+observed for ion conducting materials, the Nyquist plot of the
+sample without F4TCNQ shows a semicircle at high
+frequencies and a capacitive tail at low frequencies, indicative
+of dominating ion conducting behavior. Upon introducing
+vapor F4TCNQ to the sample for 3 min, the Nyquist
+impedance data drastically change. The observation of two
+semicircles in the Nyquist plot together with the absence of the
+capacitive tail at low frequency indicates the presence of both
+ionic and electronic transport.13 At 30 min of F4TCNQ
+Figure 6. (a) Ionic conductivity and maximum electronic conductivity upon introducing F4TCNQ and (b) predicted percolation factor and
+electronic mobility from MD simulation as functions of LiTFSI concentration. (c,d) Electron paramagnetic resonance spectra of r = 0 and
+0.1 samples as a function of F4TCNQ doping time. The saturated spin concentration was calculated to be ca. 1020 cm−3 for both samples
+(see Supporting Information Figure S3). (e) Snapshots of structure and electron transfer rate ki of r = 0 and 0.1 samples. In structure
+snapshots, all atoms except for the 4T units are omitted for clarity.
+ACS Nano
+Article
+DOI: 10.1021/acsnano.9b01055
+ACS Nano 2019, 13, 7665−7675
+7670
+
+doping, the Nyquist impedance data become a single
+semicircle with a signiﬁcantly reduced radius, indicating that
+the electronic conductivity has increased considerably
+compared to ionic conductivity. The ionic and electronic
+resistance values were calculated for F4TCNQ-doped 4T/
+PEO4-LiTFSI samples by ﬁtting the EIS data to the
+appropriate equivalent circuits shown in the inset of each
+Nyquist plot in Figure 5b. The rationale for the equivalent
+circuit selection and conductivity calculation is reported
+elsewhere13 and is also detailed in the Supporting Information.
+We note for all samples that the electronic conductivity can be
+measured using either the EIS or the DC method, both
+yielding good agreement, suggesting the accuracy of the model
+ﬁt in our EIS data.
+Shown in Figure 5c is the room temperature electronic
+conductivity of the two samples as a function of F4TCNQ
+doping time. As expected, vapor doping F4TCNQ leads to an
+increase in lateral thin ﬁlm electronic conductivity for both
+samples. The neat r = 0 sample shows more than an order of
+magnitude increase in electronic conductivity from (1.3 ±
+0.89) × 10−5 S/cm to (3.2 ± 0.54) × 10−4 S/cm after 25 min
+of doping. The r = 0.1 sample initially has a conductivity lower
+than that of the 4T/PEO4 neat sample but exhibits a larger
+increase in conductivity from (1.3 ± 0.16) × 10−7 S/cm to (3.1
+± 0.45) × 10−3 S/cm after 25 min of doping. We believe the
+higher electronic conductivity of the r = 0 sample at lower
+vapor doping times relates to the presence of ICT states in
+coexistence with CPX states. It has been proposed that ICT
+states lead to more mobile charge carriers relative to CPX.41 In
+turn, the formation of either CPX or ICT states is intimately
+linked to the nature of mobile charge carriers, indicating the
+magnitude of electronic conductivity.
+Interestingly, near the optimal doping time, the maximum
+electronic conductivity of (3.1 ± 0.45) × 10−3 S/cm in the r =
+0.1 sample is nearly an order of magnitude higher than the
+maximum electronic conductivity of the r = 0 sample.
+Moreover, electronic conductivity of the r = 0.1 sample is
+superior to the maximum conductivity of 4T co-deposited with
+F4TCNQ reported by Méndez and Heimel et al.35 as marked
+by the dashed line in Figure 5c. Considering that both samples
+yield only CPX states at the optimal doping time and a
+comparable doping level, the improvement in electronic
+conductivity most likely arises from the diﬀerence in the
+underlying self-assembled structure as suggested by the
+structural changes observed in GIWAXS and MD simulation
+results discussed earlier.
+Figure 5d summarizes the evolution of ionic and electronic
+conductivity of the r = 0.1 sample as a function of F4TCNQ
+vapor doping time. The charge transport processes can be
+divided into three stages: the early stage where ionic transport
+dominates (gray-shaded area), the intermediate stage where
+ionic and electronic transports are comparable (orange-shaded
+area), and the late stage where the electronic transport
+dominates (blue-shade area). Here, we would like to note that,
+at the late stage, we believe that ionic conduction still remains.
+However, the EIS response only captures the lower resistance
+electronic transport contribution as we are using electronically
+reversible and ion-blocking Au metal electrodes.13 Our results
+indicate that 4T/PEO4-LiTFSI samples still maintain their ion
+conducting functionality upon doping with F4TCNQ.
+Inﬂuence of 4T/PEO4-LiTFSI Morphology on Mixed
+Conduction. It is evident that the underlying self-assembled
+structure with the addition of LiTFSI plays a vital role in
+dictating charge transport properties. Thus, we expand and
+characterize the electronic and ionic conduction characteristics
+of all LiTFSI concentrations from r = 0 to r = 0.20 after vapor
+doping with F4TCNQ. As shown in Supporting Information
+Figure S2, all samples show similar trends for both ionic and
+electronic conductivity as a function of F4TCNQ doping time.
+In Figure 6a, we summarize the ionic conductivity of 4T/
+PEO4-LiTFSI samples before F4TCNQ inﬁltration as well as
+the maximum electronic conductivity of 4T/PEO4-LiTFSI
+samples upon introducing F4TCNQ vapor. Similar to our
+previous results,31 the room temperature ionic conductivity of
+4T/PEO4-LiTFSI is relatively high for r = 0.01 [(2.3 ± 0.2) ×
+10−5 S/cm)] and r = 0.05 [(4.2 ± 0.3) × 10−5 S/cm] samples
+due to the ordered smectic morphology of 4T/PEO4. The
+stable smectic morphology and high ionic conductivity up to r
+= 0.05 in 4T/PEO4 are similar to those in other reports by
+Ohtake et al., where the authors found that lithium salt-
+complexed rod−coil−rod LCs exhibited a stabilized meso-
+phase with high ionic conductivity.42,43 However, at r = 0.10
+and r = 0.20, where the smectic layer ordering is disrupted, we
+found a signiﬁcant decrease in ionic conductivity for both
+concentrations. Although the decrease in ionic conductivity at
+high concentrations could originate from ion-pair formation
+and the reduction in segmental mobility that arises from
+transient cross-linking between Li+ and EO units,44 we partially
+attribute the decrease in ionic conductivity to the disruption of
+the smectic ordering that hinders the ionic conduction
+pathways within the samples. On the other hand, the electronic
+conductivity remains relatively constant for r ≤0.05, where
+4T/PEO4 adopts a smectic morphology but increases by an
+order of magnitude at r = 0.1, as was shown earlier. At r = 0.2,
+the electronic conductivity signiﬁcantly decreases, which is also
+consistent with the poorly ordered structure suggested by both
+GIWAXS and MD simulations.
+To provide further insights into the origin of the maximum
+electronic conductivity at r = 0.1, we calculate the electronic
+mobility
+eμ for the MD structures of 4T/PEO4-LiTFSI
+(without F4TCNQ) shown in Figure 2d by using constrained
+density functional theory on pairs of dimers to estimate the
+electron hopping rate from the following equation:
+e
+k T
+d k
+k
+k
+6
+i
+i i
+i
+i
+i
+ed
+B ∑
+μ
+=
+∑
+(1)
+Here, di is the distance between the molecules in the ith
+dimer; ki is the rate constant for electron hopping, which is
+calculated using Marcus theory;45 kB is the Boltzmann
+constant, and T is the temperature. Subsequently, we calculate
+electron mobility
+eμ using the following equation:46
+e
+p ed
+μ
+θ μ
+=
+(2)
+where θp is the percolation factor that serves to scale the
+electron hopping rates between pairs of dimers to bulk
+electronic conductivity. We estimated θp by using a numerical
+method to ﬁnd the fraction of open connections in each MD-
+generated structure. Additional details of electron mobility
+estimation are shown in the Supporting Information. Note that
+the reorganization energy in Marcus theory has both inner and
+outer contributions, with the former coming from the nuclear
+reorganization of the reactants and products and the latter
+from the reorganization of the environment around the
+reactants and products.47 However, as we are primarily
+interested in capturing the qualitative eﬀect of varying LiTFSI
+ACS Nano
+Article
+DOI: 10.1021/acsnano.9b01055
+ACS Nano 2019, 13, 7665−7675
+7671
+
+concentration, we only calculate the inner contribution and
+assume that the outer contribution, although signiﬁcant in
+absolute value, is relatively constant (i.e., less sensitive to salt
+concentration). As shown in Figure 6b, the predicted
+percolation factor θp and electron mobility μed follow similar
+quantitative trends as a function of LiTFSI concentration r.
+Both θp and μe are relatively constant from r = 0 to r = 0.05,
+where 4T/PEO4 adopts a smectic morphology. However, both
+θp and μe increase and reach a maximum at r = 0.1. These
+simulation results reveal that the change in the self-assembled
+structure, indicative of 3D interconnectivity between smectic
+layers, accounts for the enhanced electronic conductivity at r =
+0.1. As the structure of 4T/PEO4 becomes disordered at r =
+0.2, both θp and μe decrease signiﬁcantly, which is consistent
+with the poor electronic conductivity measured experimentally.
+To further emphasize the role of electronic charge
+percolation on electronic conductivity, we perform electron
+paramagnetic resonance (EPR) spectroscopy measurements on
+r = 0 and r = 0.1 samples as a function of F4TCNQ vapor
+doping time, the results of which are shown in Figure 6c,d.
+Before doping, no EPR signals are observed, which is indicative
+of negligible intrinsic charge carriers in 4T/PEO4. Upon
+introducing F4TCNQ, the EPR signal increases as a function
+of doping time and saturates around 25 min for both samples,
+which is consistent with UV−vis−NIR results. This evolution
+is indicative of increase in spin concentration arising from the
+electronic charge carriers formed from molecular doping.
+Importantly, for the same F4TCNQ doping time, the EPR
+signal of the r = 0.1 sample is much sharper compared to that
+of the r = 0 sample. For EPR measurement of organic
+semiconductors, the narrowing of EPR signals typically
+originates from delocalization of spin (shallow trapped electron
+spins). This is due to the averaging of the anisotropic part of
+magnetic interactions and/or decrease of hyperﬁne interaction.
+The increased delocalization of electronic charge could be due
+either to (i) increasing crystallinity and/or (ii) increasing
+percolation of charge transporting pathways. Based on our
+observation from MD simulation in Figure 2, we postulate that
+the bridging of the smectic layers enhances the percolation
+pathways for charge carrier, which gives rise to the sharpening
+of the EPR signal in r = 0.1 samples. We emphasize that the
+ﬁnal spin concentration at the optimal doping time is
+determined to be around 1020 cm−3 for both r = 0 and r =
+0.1 samples (see Supporting Information Figure S3 for more
+details). As conductivity is the product of charge carrier
+mobility and carrier concentration, the similar carrier
+concentration suggests that the improvement in electronic
+conductivity of the r = 0.1 sample originates from a higher
+“apparent” electronic carrier mobility (assuming all carriers
+possess equal mobility). The change in carrier mobility is
+supported by the MD snapshots of structure and electron
+transfer rate ki for r = 0 and r = 0.1 samples, which indicates
+better percolation pathways for electronic carrier transport in
+the r = 0.1 sample (Figure 6e,f). Our combined experimental
+and computational results thus provide complementary pieces
+of the connection between processing, morphology, and ion/
+electron transport behaviors in LC systems.
+CONCLUSIONS
+In conclusion, we have investigated the ionic and electronic
+conduction characteristics in connection to the self-assembled
+structure of a π-conjugated oligothiophene-based liquid crystal
+4T/PEO4 upon doping with the LiTFSI salt and the F4TCNQ
+molecular dopant. Using GIWAXS, spectroscopic ellipsometry
+measurement in combination with molecular dynamics
+simulation, we showed that 4T/PEO4-LiTFSI samples under-
+went a transition from a smectic morphology at LiTFSI
+concentration of r = 0.05 to a more ordered structure with
+better percolation between 4T units at r = 0.1 before losing its
+ordered structure at r = 0.20. The highest ionic conductivity
+was observed for r = 0.05 and below whereas the ionic
+conductivity decreased at r = 0.10 and 0.20 partially due to the
+disruption of ion conduction pathways. The electronic
+conductivity upon doping with vapor F4TCNQ was shown
+to increase from r = 0 to r = 0.10 due to the improvement of
+percolation pathways for electronic transports, whereas the r =
+0.20 sample exhibited the lowest electronic conductivity
+because of the disordered structure. UV−vis−NIR absorption
+spectroscopy measurement indicated that CPX was the major
+F4TCNQ doping mechanism for both r = 0 and r = 0.1
+samples, suggesting the formation of a cocrystal between
+F4TCNQ and 4T/PEO4. Importantly, for the r = 0 sample, in
+addition to the expected CPX process, we also observe the
+weak ICT process at the early state of F4TCNQ doping,
+indicating the presence of both electronic doping mechanisms
+in one single material.
+The results presented in this work provide several important
+contributions to the rational design of electronic and ionic
+transporting LC materials. First, we introduce the design
+strategy of using LC multiblock oligomers that provide both
+electroactive and ion-active properties. Second, we describe a
+detailed connection between processing, self-assembly, and
+ion/electron transport behavior in LC systems. In addition, we
+show how the use of LC materials introduces opportunities in
+elucidating molecular doping mechanisms, which could
+signiﬁcantly help in advancing the ﬁeld of organic semi-
+conductors. Our results thus enable additional, more detailed
+studies of the interconnection among LC self-assembly,
+electronic properties of 4T/PEO4 (and related molecules),
+and molecular doping; work along these lines is currently
+under way. By utilizing the ease of synthesis, straightforward
+self-assembly, and less intensive computational calculation, we
+showed that LCs could be use as material testbeds to
+understand mixed conduction behavior of soft materials in
+general.
+EXPERIMENTAL SECTION
+Materials and Sample Preparation. The synthesis of 4T/PEO4
+was accomplished via two-fold Kumada cross-coupling of 5,5′-
+dibromo-2,2′-bithiophene with 3 equiv of the corresponding
+brominated thiophene-PEO4 precursors in the presence of Ni(dppp)-
+Cl2 as catalyst. More details of the synthesis procedure are provided in
+our previous publication.31
+All substrates used in this study were cleaned by ultrasonication in
+acetone and 2-propanol for 15 min each followed by ozone plasma
+treatment for 5 min. Grazing incidence wide-angle X-ray scattering
+measurements were performed on ﬁlms deposited on Si substrates
+with 1.5 nm of native SiO2. UV−vis−NIR absorption measurement
+was performed on ﬁlms deposited on top of glass substrates.
+Spectroscopic ellipsometry measurements were performed on ﬁlms
+supported by Si substrates possessing diﬀerent thermal oxide layer
+thicknesses. Conductivity measurements were performed on ﬁlms
+deposited atop custom-fabricated interdigitated gold electrodes on Si
+substrates with 1000 nm of thermally grown SiO2. Electro-
+paramagnetic resonance measurement was performed on ﬁlms
+supported by quartz substrates.
+Solutions of 4T/PEO4 and lithium bis(triﬂuoromethane)-
+sulfonimide (LiTFSI) salt (Sigma-Aldrich, battery grade) were
+ACS Nano
+Article
+DOI: 10.1021/acsnano.9b01055
+ACS Nano 2019, 13, 7665−7675
+7672
+
+prepared separately by dissolving the materials in anhydrous
+tetrahydrofuran (Sigma-Aldrich) with a concentration 10 mg/mL
+each and shaken on a vortexer for at least several hours before mixing.
+4T/PEO4 and LiTFSI solutions were then mixed at the appropriate
+ratios to achieve the desired concentrations. The mixed solutions were
+then shaken overnight before being spun onto the prepared substrates
+at 1000 rpm for 2 min to make both pristine 4T/PEO4 and 4T/
+PEO4-LiTFSI thin ﬁlms. Film thicknesses of all samples in this study
+were kept at ca. 80 nm, as conﬁrmed by spectroscopic ellipsometry
+measurement. All sample preparation was performed in an argon-ﬁlled
+glovebox.
+Vapor Doping Procedure of F4TCNQ. Vapor doping of
+F4TCNQ was performed using the previously described procedure.32
+In brief, 4T/PEO4-LiTFSI thin ﬁlms were vapor-doped with
+F4TCNQ in an argon-ﬁlled glovebox. Approximately 5 mg of dopant
+was placed in a glass jar (diameter ≈5 cm; height ≈4.5 cm), and then
+the glass jar was inserted into a stainless-steel container preheated at
+∼200 °C for at least 30 min on top of a hot plate. The sample was
+placed underneath the cap using double-sided tape. The samples were
+taken out of the doping chamber at diﬀerent times to achieve samples
+at diﬀerent doping times (doping levels).
+Electrochemical Impedance Spectroscopy. Conductivity
+measurements were performed on a sample fabricated on top of the
+gold IDE using a Gamry 600+ potentiostat inside an oxygen- and
+moisture-free argon-ﬁlled glovebox. An optical image of the IDE
+device is exempliﬁed in Figure 5a. Prior to conductivity measurement,
+the excess amount of materials on the electrode pads was removed.
+The electrical connection from the IDE to the potentiostat was made
+using two custom-built microprobes. The EIS characterization was
+performed from 1 MHz to 0.1 Hz with an oscillatory peak potential of
+50 mV. The collected impedance data were then ﬁt to the appropriate
+equivalent circuits in order to extract the sample ionic resistance, Rion,
+and electronic resistance, Re. Details of selecting equivalent circuits
+are shown in the Results and Discussion. The conductivity σ of the
+sample was then calculated according to the following equation:48
+R
+d
+l N
+h
+1
+(
+1)
+ion/e
+ion/e
+σ
+=
+−
+(3)
+Here, d = 8 μm is the separation distance between electrodes; l =
+1000 μm is the electrode length; N = 160 is the number of electrodes,
+and h = 80 nm is the thickness of the ﬁlm.
+Grazing Incidence Wide-Angle X-ray Scattering. GIWAXS
+measurements were performed at beamline 8-ID-E of the Advanced
+Photon Source, Argonne National Laboratory, with 10.86 keV (λ =
+0.11416 nm) synchrotron radiation. Samples were enclosed and
+measured inside a low-vacuum chamber (10−3 mbar) to minimize
+concerns about radiation damage as well as to prevent extraneous
+scattering from ambient air. The measurement time was chosen to be
+4 s per frame. For each sample, three data sets were taken from three
+adjacent spots on the sample and then averaged in order to enhance
+the signal-to-noise ratio. In our work, the samples were tilted at an
+angle of incidence of 1° with respect to the incoming beam. This
+angle was chosen to be above the estimated critical angle of the
+sample (ca. 0.13°) but also above the critical angle of the Si substrates
+(ca. 0.17°) in order to probe the whole ﬁlm thickness and minimize
+signal from reﬂected beam at the same time.49,50 The scattering signal
+was recorded with a Pilatus 1MF pixel array detector (pixel size = 172
+μm) positioned 228 mm from the sample. Each data set was stored as
+a 981 × 1043 32-bit tiﬀimage with a 20-bit dynamic range. The
+Pilatus detector has rows of inactive pixels at the border between
+detector modules. In order to ﬁll these gaps, after each measurement,
+the detector was moved to a new vertical direction and the
+measurement on each spot was repeated, then the gaps were ﬁlled
+by combining the data from two detector positions. The signals were
+reshaped and output as intensity maps in qz versus qr (=
+q
+q
+x
+y
+2
+2
++
+)
+space. We also performed detector nonuniformity, detection
+eﬃciency, the polarization eﬀect, and a solid-angle variation for
+each image. Vertical line cuts were performed as a function of
+intensity along the qz direction. All of the GIWAXS data processing
+and extraction were executed using the GIXSGUI package for
+MATLAB.51
+UV−Vis−NIR Absorption Spectroscopy. The UV−vis−NIR
+absorption spectroscopy measurements were performed using a
+Shimadzu UV-3600 Plus UV−vis−NIR dual beam spectrophotometer
+at the Soft Matter Characterization Facility (SMCF) at the University
+of Chicago.
+Molecular Dynamics Simulation. We simulate all of the systems
+using LAMMPS with optimized parameters for liquid simulations all-
+atom as the force ﬁeld. The force ﬁeld parameters for 4T/PEO4 are
+the same as the ones used in our previous works,31 and for LiTFSI, we
+use the parameters used by Park et al.52 The initial structures are
+prepared using the methodology shown in our previous work, where
+200 units of PEO4 along with the varying concentrations of LiTFSI
+are equilibrated as a bilayer system and then attached to the 4T crystal
+to create a smectic structure with LiTFSI in the PEO regime. To
+equilibrate the 4T/PEO4 systems containing LiTFSI, we thermal
+cycled all of the systems between 300 and 380 K for 10 times at a rate
+of 10 K/ns followed by 20 ns simulation at 300 K. Details of
+electronic mobility calculation are shown in Supporting Information
+Figure S7.
+To simulate GIWAXS patterns, we calculate the structure factor for
+the thiophene rings, S q
+iq r
+( )
+exp(
+)
+n
+n
+2
+= ∑
+·
+, where rn is the center of
+mass of each non-hydrogen atom in the thiophene ring as done in our
+previous study.31 The two-dimensional S q
+( ) shown in Figure 2c
+results from averaging the qx and qy components along circles of
+constant q
+q
+q
+r
+x
+y
+2
+2
+=
++
+.
+Variable-Angle Spectroscopic Ellipsometry. The optical
+anisotropy of 4T/PEO4-LiTFSI samples was measured using the α-
+SE variable angle spectroscopic ellipsometer (J.A. Woollam Co.).
+Measurements were performed on three identical ﬁlms spun on Si
+substrates; one possessed ca. 1.5 nm of native SiO2 thickness, and two
+possessed a thermally grown oxide layer of thicknesses ca. 100 and
+1000 nm. The thermally grown SiO2 layers were used for interference
+enhancement to increase the out-of-plane signal. VASE measurements
+were performed in the reﬂection mode at three angles: 65, 70, and
+75°. A multisample analysis of three samples was used to increase the
+goodness of the results because of the strong correlations between the
+ﬁtting parameters.34 All of the data analyses were performed using the
+CompleteEASE software, provided by J.A. Woollam Co. The optical
+constants of Si, native oxide, and thermal oxide were also taken from
+CompleteEASE software’s library database.
+Polarized Optical Microscopy. An Olympus BX51 polarizing
+optical microscope was used for visual observation of optical textures
+of 4T/PEO4.
+Electron Paramagnetic Resonance Spectroscopy. Continu-
+ous wave X-band (9−10 GHz) EPR experiments were carried out
+with a Bruker ELEXSYS II E500 EPR spectrometer (Bruker Biospin,
+Rheinstetten, Germany), equipped with a TE102 rectangular EPR
+resonator (Bruker ER 4102ST). Measurements were performed at
+room temperature (T = 295 K). Thin ﬁlms on the substrate with
+dimensions of 2 mm × 15 mm were placed in the EPR quartz tubes
+with 4 mm in diameter. For spin quantiﬁcation, a single crystal of
+CuSO4·5H2O with known spin concentration was used as a reference
+sample. Spin quantiﬁcation was done by comparing double integrals
+of the experimental and reference EPR signals.
+ASSOCIATED CONTENT
+*
+S
+Supporting Information
+The Supporting Information is available free of charge on the
+ACS Publications website at DOI: 10.1021/acsnano.9b01055.
+Details of equivalent circuit selections, mixed con-
+duction at diﬀerent LiTFSI concentrations, spin
+concentration of r = 0 and r = 0.1 samples at diﬀerent
+F4TCNQ doping times, GIWAXS of r = 0 and r = 0.1
+ACS Nano
+Article
+DOI: 10.1021/acsnano.9b01055
+ACS Nano 2019, 13, 7665−7675
+7673
+
+samples before and after F4TCNQ inﬁltration, line-cuts
+from GIWAXS patterns, F4TCNQ penetration depth
+and detailed calculation of electronic mobility by MD
+simulation (PDF)
+AUTHOR INFORMATION
+Corresponding Authors
+*E-mail: fe13@cornell.edu.
+*E-mail: cko3@cornell.edu.
+*E-mail: nealey@uchicago.edu.
+*E-mail: shrayesh@uchicago.edu.
+ORCID
+Ban Xuan Dong: 0000-0002-2873-5207
+Mayank Misra: 0000-0002-2700-1228
+Joseph Strzalka: 0000-0003-4619-8932
+Jens Niklas: 0000-0002-6462-2680
+Oleg G. Poluektov: 0000-0003-3067-9272
+Fernando A. Escobedo: 0000-0002-4722-9836
+Christopher K. Ober: 0000-0002-3805-3314
+Paul F. Nealey: 0000-0003-3889-142X
+Shrayesh N. Patel: 0000-0003-3657-827X
+Author Contributions
+C.K.O., F.A.E., P.F.N., and S.N.P. conceived the project.
+B.X.D. completed all sample preparations, device fabrication,
+performed GIWAXS, UV−vis−NIR, spectroscopic ellipsom-
+etry, F4TCNQ vapor doping, EIS, analyzed all experimental
+data and oversaw experiments. Z.L. and C.K.O. synthesized
+4T/PEO4 and performed optical microscope experiments.
+M.M. and F.A.E. performed MD simulation. S.N.P. designed
+vapor doping experiments. O.G.P. and J.N. performed EPR
+experiments. J.S. helped with GIWAXS measurements. All
+authors participated in manuscript preparation and editing.
+Notes
+The authors declare no competing ﬁnancial interest.
+ACKNOWLEDGMENTS
+This work was supported by NSF DMREF Award Number
+1629369. B.X.D. thanks Dr. Patrice Rannou for useful
+discussions. This research used resources of the Advanced
+Photon Source, an Oﬃce of Science User Facility operated for
+the U.S. Department of Energy (DOE) by Argonne National
+Laboratory under Contract No. DE-AC02-06CH11357. The
+EPR study was supported by the U.S. Department of Energy,
+Oﬃce of Science, Oﬃce of Basic Energy Sciences, Division of
+Chemical Sciences, Geosciences, and Biosciences, under
+Contract No. DE-AC02-06CH11357 at Argonne National
+Laboratory (J.N. and O.G.P.). Parts of this work were carried
+out at the Soft Matter Characterization Facility of the
+University of Chicago.
+REFERENCES
+(1) Khodagholy, D.; Rivnay, J.; Sessolo, M.; Gurfinkel, M.; Leleux,
+P.; Jimison, L. H.; Stavrinidou, E.; Herve, T.; Sanaur, S.; Owens, R.
+M.; Malliaras, G. G. High Transconductance Organic Electrochemical
+Transistors. Nat. Commun. 2013, 4, 2133.
+(2) Delacourt, C.; Laffont, L.; Bouchet, R.; Wurm, C.; Leriche, J.-B.;
+Morcrette, M.; Tarascon, J.-M.; Masquelier, C. Toward Under-
+standing of Electrical Limitations (Electronic, Ionic) in LiMPO4 (M =
+Fe, Mn) Electrode Materials. J. Electrochem. Soc. 2005, 152, A913−
+A921.
+(3) Kwon, Y. H.; Minnici, K.; Huie, M. M.; Takeuchi, K. J.;
+Takeuchi, E. S.; Marschilok, A. C.; Reichmanis, E. Electron/Ion
+Transport Enhancer in High Capacity Li-Ion Battery Anodes. Chem.
+Mater. 2016, 28, 6689−6697.
+(4) An, H.; Mike, J.; Smith, K. A.; Swank, L.; Lin, Y. H.; Pesek, S. L.;
+Verduzco, R.; Lutkenhaus, J. L. Highly Flexible Self-Assembled V2O5
+Cathodes Enabled by Conducting Diblock Copolymers. Sci. Rep.
+2015, 5, 1−10.
+(5) O’Regan, B.; Gratzel, M. A Low-Cost, High-Efficiency Solar-Cell
+Based on Dye-Sensitized Colloidal TiO2 Films. Nature 1991, 353,
+737−740.
+(6) Riess, I. Mixed Ionic−Electronic ConductorsMaterial Proper-
+ties and Applications. Solid State Ionics 2003, 157, 1−17.
+(7) Owens, R. M.; Malliaras, G. G. Organic Electronics at the
+Interface with Biology. MRS Bull. 2010, 35, 449−456.
+(8) Forrest, S. R. Electronic Appliances on Plastic. Nature 2004, 428,
+911−918.
+(9) Bilby, D.; Kim, J. Self-Assembly of Conjugated Polymers and
+Their Application to Biosensors. In Supramolecular Soft Matter:
+Applications in Materials and Organic Electronics; Nakanishi, T., Ed.;
+John Wiley & Son, Inc.: Hoboken, NJ, 2011; pp 255−280.
+(10) Lin, P.; Yan, F.; Yu, J.; Chan, H. L. W.; Yang, M. The
+Application of Organic Electrochemical Transistors in Cell-Based
+Biosensors. Adv. Mater. 2010, 22, 3655−3660.
+(11) Khodagholy, D.; Doublet, T.; Quilichini, P.; Gurfinkel, M.;
+Leleux, P.; Ghestem, A.; Ismailova, E.; Hervé, T.; Sanaur, S.; Bernard,
+C.; Malliaras, G. G. In Vivo Recordings of Brain Activity Using
+Organic Transistors. Nat. Commun. 2013, 4, 1575.
+(12) Javier, A. E.; Patel, S. N.; Hallinan, D. T.; Srinivasan, V.;
+Balsara, N. P. Simultaneous Electronic and Ionic Conduction in a
+Block Copolymer: Application in Lithium Battery Electrodes. Angew.
+Chem., Int. Ed. 2011, 50, 9848−9851.
+(13) Patel, S. N.; Javier, A. E.; Stone, G. M.; Mullin, S. A.; Balsara, N.
+P. Simultaneous Conduction of Electronic Charge and Lithium Ions
+in Block Copolymers. ACS Nano 2012, 6, 1589−1600.
+(14) Ren, X.; Pickup, P. G. Coupling of Ion and Electron Transport
+during Impedance Measurements on a Conducting Polymer with
+Similar Ionic and Electronic Conductivities. J. Chem. Soc., Faraday
+Trans. 1993, 89, 321.
+(15) Rivnay, J.; Inal, S.; Collins, B. A.; Sessolo, M.; Stavrinidou, E.;
+Strakosas, X.; Tassone, C.; Delongchamp, D. M.; Malliaras, G. G.
+Structural Control of Mixed Ionic and Electronic Transport in
+Conducting Polymers. Nat. Commun. 2016, 7, 11287.
+(16) Renna, L. A.; Lenef, J. D.; Bag, M.; Venkataraman, D. Mixed
+Ionic−Electronic Conduction in Binary Polymer Nanoparticle
+Assemblies. Adv. Mater. Interfaces 2017, 4, 1700397.
+(17) Wang, S.; Li, F.; Easley, A. D.; Lutkenhaus, J. L. Real-Time
+Insight into the Doping Mechanism of Redox-Active Organic Radical
+Polymers. Nat. Mater. 2019, 18, 69−76.
+(18) Dong, B. X.; Nowak, C.; Onorato, J. W.; Strzalka, J.; Escobedo,
+F. A.; Luscombe, C. K.; Nealey, P. F.; Patel, S. N. Influence of Side-
+Chain Chemistry on Structure and Ionic Conduction Characteristics
+of Polythiophene Derivatives: A Computational and Experimental
+Study. Chem. Mater. 2019, 31, 1418−1429.
+(19) Onorato, J. W.; Luscombe, C. K. Morphological Effects on
+Polymeric Mixed Ionic/Electronic Conductors. Mol. Syst. Des. Eng.
+2019, 4, 310−324.
+(20) Yazaki, S.; Funahashi, M.; Kato, T. An Electrochromic
+Nanostructured Liquid Crystal Consisting of π-Conjugated and
+Ionic Moieties. J. Am. Chem. Soc. 2008, 130, 13206−13207.
+(21) Yazaki, S.; Funahashi, M.; Kagimoto, J.; Ohno, H.; Kato, T.
+Nanostructured Liquid Crystals Combining Ionic and Electronic
+Functions. J. Am. Chem. Soc. 2010, 132, 7702−7708.
+(22) Handbook of Liquid Crystals; Goodby, J. W., Tschierske, C.,
+Raynes, P., Gleeson, H., Kato, T., Collings, P. J., Eds.; Wiley-VCH
+Verlag GmbH & Co. KGaA: Weinheim, Germany, 2014.
+(23) Kato, T.; Mizoshita, N.; Kishimoto, K. Functional Liquid-
+Crystalline Assemblies: Self-Organized Soft Materials. Angew. Chem.,
+Int. Ed. 2006, 45, 38−68.
+ACS Nano
+Article
+DOI: 10.1021/acsnano.9b01055
+ACS Nano 2019, 13, 7665−7675
+7674
+
+(24) Kato, T.; Yoshio, M.; Ichikawa, T.; Soberats, B.; Ohno, H.;
+Funahashi, M. Transport of Ions and Electrons in Nanostructured
+Liquid Crystals. Nat. Rev. Mater. 2017, 2, 17001.
+(25) Li, X.; Armas-Perez, J. C.; Martinez-Gonzalez, J. A.; Liu, X.; Xie,
+H.; Bishop, C.; Hernandez-Ortiz, J. P.; Zhang, R.; de Pablo, J. J.;
+Nealey, P. F. Directed Self-Assembly of Nematic Liquid Crystals on
+Chemically Patterned Surfaces: Morphological States and Transitions.
+Soft Matter 2016, 12, 8595−8605.
+(26) Yoshio, M.; Mukai, T.; Ohno, H.; Kato, T. One-Dimensional
+Ion Transport in Self-Organized Columnar Ionic Liquids. J. Am.
+Chem. Soc. 2004, 126, 994−995.
+(27) Kato, T. From Nanostructured Liquid Crystals to Polymer-
+Based Electrolytes. Angew. Chem., Int. Ed. 2010, 49, 7847−7848.
+(28) van de Craats, A. M.; Warman, J. M.; Müllen, K.; Geerts, Y.;
+Brand, J. D. Rapid Charge Transport Along Self-Assembling Graphitic
+Nanowires. Adv. Mater. 1998, 10, 36−38.
+(29) Funahashi, M.; Hanna, J. I. High Carrier Mobility up to 0.1
+cm2V−1s−1 at Ambient Temperatures in Thiophene-Based Smectic
+Liquid Crystals. Adv. Mater. 2005, 17, 594−598.
+(30) Pipertzis, A.; Zardalidis, G.; Wunderlich, K.; Klapper, M.;
+Müllen, K.; Floudas, G. Ionic Conduction in Poly(Ethylene Glycol)-
+Functionalized Hexa-Peri-Hexabenzocoronene Amphiphiles. Macro-
+molecules 2017, 50, 1981−1990.
+(31) Liu, Z.; Dong, B. X.; Misra, M.; Sun, Y.; Strzalka, J.; Patel, S. N.;
+Escobedo, F. A.; Nealey, P. F.; Ober, C. K. Self-Assembly Behavior of
+An Oligothiophene-Based Conjugated Liquid Crystal and Its
+Implication for Ionic Conductivity Characteristics. Adv. Funct.
+Mater. 2019, 29, 1805220.
+(32) Patel, S. N.; Glaudell, A. M.; Peterson, K. A.; Thomas, E. M.;
+O’Hara, K. A.; Lim, E.; Chabinyc, M. L. Morphology Controls the
+Thermoelectric Power Factor of a Doped Semiconducting Polymer.
+Sci. Adv. 2017, 3, e1700434.
+(33) Campione, M.; Tavazzi, S.; Moret, M.; Porzio, W. Crystal-to-
+Crystal Phase Transition in α-Quaterthiophene: An Optical and
+Structural Study. J. Appl. Phys. 2007, 101, 083512.
+(34) Dong, B. X.; Huang, B.; Tan, A.; Green, P. F. Nanoscale
+Orientation Effects on Carrier Transport in a Low-Band- Gap
+Polymer. J. Phys. Chem. C 2014, 118, 17490−17498.
+(35) Méndez, H.; Heimel, G.; Winkler, S.; Frisch, J.; Opitz, A.;
+Sauer, K.; Wegner, B.; Oehzelt, M.; Röthel, C.; Duhm, S.; Többens,
+D.; Koch, N.; Salzmann, I. Charge-Transfer Crystallites as Molecular
+Electrical Dopants. Nat. Commun. 2015, 6, 8560.
+(36) Scholes, D. T.; Yee, P. Y.; Lindemuth, J. R.; Kang, H.; Onorato,
+J.; Ghosh, R.; Luscombe, C. K.; Spano, F. C.; Tolbert, S. H.; Schwartz,
+B. J. The Effects of Crystallinity on Charge Transport and the
+Structure of Sequentially Processed F4TCNQ-Doped Conjugated
+Polymer Films. Adv. Funct. Mater. 2017, 27, 1702654.
+(37) Hynynen, J.; Kiefer, D.; Yu, L.; Kroon, R.; Munir, R.; Amassian,
+A.; Kemerink, M.; Müller, C. Enhanced Electrical Conductivity of
+Molecularly p-Doped Poly(3-Hexylthiophene) through Understand-
+ing the Correlation with Solid-State Order. Macromolecules 2017, 50,
+8140−8148.
+(38) Kang, K.; Watanabe, S.; Broch, K.; Sepe, A.; Brown, A.;
+Nasrallah, I.; Nikolka, M.; Fei, Z.; Heeney, M.; Matsumoto, D.;
+Marumoto, K.; Tanaka, H.; Kuroda, S.; Sirringhaus, H. 2D Coherent
+Charge Transport in Highly Ordered Conducting Polymers Doped by
+Solid State Diffusion. Nat. Mater. 2016, 15, 896−902.
+(39) Neelamraju, B.; Watts, K. E.; Pemberton, J. E.; Ratcliff, E. L.
+Correlation of Coexistent Charge Transfer States in F4TCNQ-Doped
+P3HT with Microstructure. J. Phys. Chem. Lett. 2018, 9, 6871−6877.
+(40) Sharon, D.; Bennington, P.; Liu, C.; Kambe, Y.; Dong, B. X.;
+Burnett, V. F.; Dolejsi, M.; Grocke, G.; Patel, S. N.; Nealey, P. F.
+Interrogation of Electrochemical Properties of Polymer Electrolyte
+Thin Films with Interdigitated Electrodes. J. Electrochem. Soc. 2018,
+165, H1028−H1039.
+(41) Salzmann, I.; Heimel, G.; Oehzelt, M.; Winkler, S.; Koch, N.
+Molecular Electrical Doping of Organic Semiconductors: Fundamen-
+tal Mechanisms and Emerging Dopant Design Rules. Acc. Chem. Res.
+2016, 49, 370−378.
+(42) Ohtake, T.; Ogasawara, M.; Ito-Akita, K.; Nishina, N.; Ujiie, S.;
+Ohno, H.; Kato, T. Liquid-Crystalline Complexes of Mesogenic
+Dimers Containing Oxyethylene Moieties with LiCF3SO3: Self-
+Organized Ion Conductive Materials. Chem. Mater. 2000, 12, 782−
+789.
+(43) Ohtake, T.; Ito, K.; Nishina, N.; Kihara, H.; Ohno, H.; Kato, T.
+Liquid-Crystalline Complexes of a Lithium Salt with Twin Oligomers
+Containing Oxyethylene Spacers. An Approach to Anisotropic Ion
+Conduction. Polym. J. 1999, 31, 1155.
+(44) Lascaud, S.; Perrier, M.; Vallee, A.; Besner, S.; Prud’homme, J.;
+Armand, M. Phase Diagrams and Conductivity Behavior of Poly-
+(Ethylene Oxide)-Molten Salt Rubbery Electrolytes. Macromolecules
+1994, 27, 7469−7477.
+(45) Marcus, R. A. Electron Transfer Reactions in Chemistry.
+Theory and Experiment. Rev. Mod. Phys. 1993, 65, 599−609.
+(46) Evans, D. R.; Kwak, H. S.; Giesen, D. J.; Goldberg, A.; Halls, M.
+D.; Oh-E, M. Estimation of Charge Carrier Mobility in Amorphous
+Organic Materials Using Percolation Corrected Random-Walk Model.
+Org. Electron. 2016, 29, 50−56.
+(47) Brédas, J. L.; Beljonne, D.; Coropceanu, V.; Cornil, J. Charge-
+Transfer and Energy-Transfer Processes in π-Conjugated Oligomers
+and Polymers: A Molecular Picture. Chem. Rev. 2004, 104, 4971−
+5003.
+(48) Paul, D. K.; Mccreery, R.; Karan, K. Proton Transport Property
+in Supported Nafion Nanothin Films by Electrochemical Impedance
+Spectroscopy. J. Electrochem. Soc. 2014, 161, F1395−F1402.
+(49) Dong, B. X.; Strzalka, J.; Jiang, Z.; Li, H.; Stein, G. E.; Green, P.
+F. Crystallization Mechanism and Charge Carrier Transport in
+MAPLE-Deposited Conjugated Polymer Thin Films. ACS Appl.
+Mater. Interfaces 2017, 9, 44799−44810.
+(50) Stein, G. E.; Kramer, E. J.; Li, X.; Wang, J. Layering Transitions
+in Thin Films of Spherical-Domain Block Copolymers. Macro-
+molecules 2007, 40, 2453−2460.
+(51) Jiang, Z. GIXSGUI : A MATLAB Toolbox for Grazing-
+Incidence X-Ray Scattering Data Visualization and Reduction, and
+Indexing of Buried Three-Dimensional Periodic Nanostructured
+Films. J. Appl. Crystallogr. 2015, 48, 917−926.
+(52) Park, C.; Kanduč, M.; Chudoba, R.; Ronneburg, A.; Risse, S.;
+Ballauff, M.; Dzubiella, J. Molecular Simulations of Electrolyte
+Structure and Dynamics in Lithium−Sulfur Battery Solvents. J.
+Power Sources 2018, 373, 70−78.
+ACS Nano
+Article
+DOI: 10.1021/acsnano.9b01055
+ACS Nano 2019, 13, 7665−7675
+7675
+

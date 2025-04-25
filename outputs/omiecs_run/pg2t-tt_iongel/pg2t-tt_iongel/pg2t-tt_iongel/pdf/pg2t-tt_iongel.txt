@@ -1,0 +1,864 @@
+www.afm-journal.de
+© 2021 Wiley-VCH GmbH
+2104301  (1 of 10)
+Research Article
+Ion Pair Uptake in Ion Gel Devices Based on Organic 
+Mixed Ionic–Electronic Conductors
+Tyler J. Quill, Garrett LeCroy, Armantas Melianas, Dakota Rawlings, Quentin Thiburce, 
+Rajendar Sheelamanthula, Christina Cheng, Yaakov Tuchman, Scott T. Keene, 
+Iain McCulloch, Rachel A. Segalman, Michael L. Chabinyc, and Alberto Salleo*
+In organic mixed ionic–electronic conductors (OMIECs), it is critical to 
+understand the motion of ions in the electrolyte and OMIEC. Generally, the 
+focus is on the movement of net charge during gating, and the motion of 
+neutral anion–cation pairs is seldom considered. Uptake of mobile ion pairs 
+by the semiconductor before electrochemical gating (passive uptake) can be 
+advantageous as this can improve device speed, and both ions can participate 
+in charge compensation during gating. Here, such passive ion pair uptake in 
+high-speed solid-state devices is demonstrated using an ion gel electrolyte. 
+This is compared to a polymerized ionic liquid (PIL) electrolyte to understand 
+how ion pair uptake affects device characteristics. Using X-ray photoelectron 
+spectroscopy, the passive uptake of ion pairs from the ion gel into the OMIEC 
+is detected, whereas no uptake is observed with a PIL electrolyte. This is cor-
+roborated by X-ray scattering, which reveals morphological changes to the 
+OMIEC from the uptake of ion pairs. With in situ Raman, a reorganization of 
+both anions and cations is then observed during gating. Finally,  the speed and 
+retention of OMIEC-based neuromorphic devices are tuned by controlling the 
+freedom of charge motion in the electrolyte.
+DOI: 10.1002/adfm.202104301
+ions from an electrolyte into the OMIEC 
+film. In organic electrochemical transistors 
+(OECTs), ions from the electrolyte com-
+pensate electronic charges on the polymer 
+backbone to transduce biological signals, in 
+energy storage devices injected ions drive 
+the motion of electrons through an external 
+circuit, and in organic electrochemical 
+random-access memories (ECRAMs) the 
+change in conductance induced by ion 
+injection is used to write/erase memory 
+states. Often, the speed of OMIEC-based 
+electrochemical devices is an important 
+figure of merit: OECTs must transduce 
+biological signals at physiologically relevant 
+time scales,[13,14] high charging rates are 
+desired for energy storage devices,[8] and 
+ECRAMs must attain sub-µs operation to 
+be viable for neuromorphic computing.[11] 
+Thus, understanding the doping processes 
+that govern device operation and speed is 
+essential for the design of next generation 
+OMIECs, electrolytes, and devices.
+Solid-state electrochemical devices are generally regarded 
+as inherently slow since their switching time is limited by 
+ionic transport through a solid-state electrolyte and semicon-
+ductor film.[15,16] To improve response times, the polarity of 
+polyelectrolyte dielectrics has been used to control the mode 
+of operation of organic transistors, namely by limiting elec-
+trochemical charging in favor of electric double-layer (EDL) 
+The ORCID identification number(s) for the author(s) of this article 
+can be found under https://doi.org/10.1002/adfm.202104301.
+1. Introduction
+Organic mixed ionic–electronic conductors (OMIECs) can 
+transport both ionic and electronic charges and have shown 
+promise in a variety of electrochemical devices for electronics,[1,2] 
+bioelectronics,[3–7] energy storage,[8,9] and neuromorphic com-
+puting.[10–12] Each of these applications relies on the injection of 
+T. J. Quill, G. LeCroy, A. Melianas, Q. Thiburce, C. Cheng,  
+Y. Tuchman, S. T. Keene,[+] A. Salleo
+Department of Materials Science and Engineering
+Stanford University
+Stanford, CA 94305, USA
+E-mail: asalleo@stanford.edu
+D. Rawlings, R. A. Segalman
+Department of Chemical Engineering
+University of California Santa Barbara
+Santa Barbara, CA 93106, USA
+R. Sheelamanthula, I. McCulloch
+Physical Science and Engineering Division
+King Abdullah University of Science and Technology (KAUST)
+Thuwal 23955-6900, Saudi Arabia
+R. Sheelamanthula, I. McCulloch
+Department of Chemistry
+University of Oxford
+Oxford, OX1 3TA, UK
+M. L. Chabinyc
+Materials Department
+University of California Santa Barbara
+Santa Barbara, CA 93106, USA
+[+]Present address: Department of Engineering, University of Cambridge, 
+Cambridge CB2 1PZ, UK
+Adv. Funct. Mater. 2021, 31, 2104301
+
+www.afm-journal.de
+www.advancedsciencenews.com
+2104301  (2 of 10)
+© 2021 Wiley-VCH GmbH
+charging.[17,18] Pairing polyelectrolytes and semiconductors 
+of opposite polarity (e.g., a p-type channel with a polyanion 
+dielectric) limits charging to the EDL formed at the channel–
+dielectric interface, enhancing device speed since mobile ions 
+need not permeate the bulk of the organic semiconductor, 
+albeit at the expense of current density.[19] However, recent 
+reports showing 20  ns switching in ion-gel-based neuromor-
+phic devices,[6] as well as the high speed of internal ion-gated 
+transistors[12,18] stand out as notable exceptions and suggest 
+an incomplete understanding of the factors governing solid-
+state OMIEC device speed. Current consensus suggests that 
+in p-type OMIECS positively charged holes on the conjugated 
+chains are compensated by injection of negatively charged 
+anions. Consequently, studies varying the anion of aqueous 
+electrolytes have highlighted the complex role of anions 
+in both glycolated OECT materials[21] and poly(3-hexylthio-
+phene).[22] However, Flagg et al. recently challenged this notion 
+by showing that charge compensation can also occur via cation 
+expulsion in certain aqueous electrolytes,[23] confirming ear-
+lier speculation that OMIEC swelling may introduce ion pairs 
+in the material.[9] In solid-state OMIEC devices, similar ion 
+uptake, namely that of bulky ionic liquid molecules prior to 
+gating, was also recently reported,[6] but the role of such ion 
+uptake on the device operation was not investigated in detail. 
+Indeed, a study elucidating the role of passive ion uptake in 
+OMIECs, particularly solid-state devices, and its effect on 
+device speed, performance, polymer structure, and doping has 
+not been reported.
+Here, we explore how passive ion uptake affects the struc-
+ture, dynamics, and operation of the OMIEC poly(2-(3,3′-bis(2-
+(2-(2-methoxyethoxy)ethoxy)ethoxy)-[2,2′-bithiophen]-5-yl)
+thieno [3,2-b]thiophene), [p(g2T-TT)].[24] To gain insight into 
+passive uptake of anion–cation pairs, we compare devices 
+based on gels permeated with ionic liquids, where both the 
+cation and anion are mobile, to devices made with the cor-
+responding polymerized ionic liquid (PIL), where the cation 
+is purposefully tethered to a polymeric backbone and thus 
+rendered immobile. Using X-ray photoelectron spectroscopy 
+(XPS), we confirm passive ionic liquid uptake in the OMIEC 
+film, whereas no ion pair uptake is observed in the case of 
+PIL. We also observe that the passive uptake of ions by the 
+OMIEC leads to irreversible structural changes, most notably 
+in the lamellar ordering of the semiconductor. Another con-
+sequence of the observed ion pair uptake is the possibility of 
+both anionic and cationic hole compensation in the p-type 
+OMIEC, where holes can be electrostatically compensated by 
+injection of anions as well as by expulsion of cations from 
+the film. We provide evidence for this mechanism via in situ 
+Raman spectroscopy where we observe reorganization of 
+both anions and cations in a swollen film under bias. Last, 
+we demonstrate how these processes affect the performance 
+of solid-state neuromorphic devices, demonstrating a tradeoff 
+between speed and synaptic state retention. This work demon-
+strates the importance of considering cationic hole compen-
+sation in ion gel-based organic electrochemical devices. This 
+helps strengthen the mechanistic understanding of speed and 
+doping in OMIECs and suggests that cation engineering could 
+be an effective tuning strategy to realizing high-performance 
+devices.
+2. Results and Discussion
+2.1. Ion Uptake in Organic Mixed Ionic–Electronic Conductors
+To directly investigate the role of ion uptake, we compare 
+devices which exhibit ion uptake by the OMIEC to those which 
+do not. We control ion uptake through the use of a PIL, where 
+the imidazolium-based cation of the ionic liquid is chemically 
+tethered to a polymer backbone, rendering the cation immo-
+bile while the counterion (TFSI− in this case) is mobile.[19,25] 
+The resulting electrolyte inhibits ion pair uptake in the OMIEC 
+film since the polyelectrolyte cannot enter the semicon-
+ducting polymer film. In contrast, the ion gel, which consists 
+of 1-ethyl-3-methylimidazolium bis(trifluoromethylsulfonyl)
+imide (EMIM:TFSI) mixed with PVDF-HFP, contains both 
+mobile anions and cations (Figure 1a), and these electrostati-
+cally neutral ion pairs can permeate the OMIEC channel. For 
+direct comparison, the mobile anion of the ion gel and that of 
+the PIL are chemically identical (TFSI), as shown in Figure 1a. 
+Such passive ion uptake in the case of the ion gel and lack of 
+uptake in the case of the PIL is schematically illustrated in 
+Figure 1b.
+We confirm ion pair uptake by spin coating p(g2T-TT) films 
+on top of either 1) the ion gel film or 2) the PIL film and using 
+XPS to detect ions in the resulting p(g2T-TT) film (Figure 1b). 
+The high surface sensitivity of XPS allows for selective charac-
+terization of the OMIEC film, without collecting signal from 
+the underlying electrolyte film, illustrated in Figure  1b. The 
+ions used in this work contain unique atomic species, allowing 
+for independent detection of anions and cations within 
+p(g2T-TT).
+For OMIEC films on the PIL, we do not detect significant 
+signal attributed to the electrolyte ions because the polymerized 
+electrolyte inhibits ion pair uptake into the organic semicon-
+ductor since cations are tethered to the polymer electrolyte. The 
+weak F1s and S2p signal is believed to be a result of TFSI anion 
+diffusion into the film as a result of ambient oxidation of p(g2T-
+TT).[26] However, this cannot be confirmed due to the absence 
+of C1s and N1s peaks from to the mobile TFSI anion, likely due 
+to lower relative sensitivity.
+Unlike the spectrum of p(g2T-TT) on the PIL, which 
+resembles that of pristine p(g2T-TT), the spectrum of p(g2T-
+TT) on the ion gel shows unique binding energies (BE) 
+matching those of the EMIM cation, the TFSI anion, and 
+p(g2T-TT) (Figure S1, Supporting Information).[27] Evidence 
+of the TFSI anion (shaded in blue) can be seen in the high BE 
+C1s peak (BE = 293 eV) and F1s peak and from CF3 groups 
+(Figure  1c,d), the higher energy S2p doublet (BE  =  169, 
+170.1 eV) from the sulfonamide groups (Figure 1e), and the 
+lower energy N1s peak (BE = 399.5 eV) from the negatively 
+charged nitrogen of the TFSI anion (Figure  1f). The N1s 
+spectra also shows a second peak (BE = 402.2 eV, shaded in 
+red) with twice the intensity from the two positively charged 
+nitrogen atoms of the EMIM cation (Figure 1f). The presence 
+of both anions and cations in the p(g2T-TT) film suggests 
+that the electronically neutral ion pairs in the ionic liquid 
+solvate the polar side chains of the OMIEC,[28–30] which intro-
+duces anions and cations in the semiconducting polymer 
+film.
+Adv. Funct. Mater. 2021, 31, 2104301
+
+www.afm-journal.de
+www.advancedsciencenews.com
+2104301  (3 of 10)
+© 2021 Wiley-VCH GmbH
+2.2. Electrolyte-Induced Structural Changes
+After confirming ion uptake in p(g2T-TT) with the ion gel elec-
+trolyte and the ability to control this phenomenon by using a 
+PIL, grazing-incidence wide-angle X-ray scattering (GIWAXS) 
+was used to probe any structural changes induced by ion uptake. 
+To investigate the structure of p(g2T-TT) in the presence of PIL 
+and ion-gel electrolytes, electrolyte films (≈70  nm) were spun 
+on top of a p(g2T-TT) film, and the two-layer OMIEC/electrolyte 
+films were measured. Note that the layers in this geometry are 
+flipped compared to those used for XPS. While the scattering 
+from the underlying p(g2T-TT) film was attenuated by the over-
+layer of electrolyte, the scattering intensity was sufficient to 
+monitor changes in the OMIEC morphology.
+The pristine p(g2T-TT) film (Figure  2a) shows well-defined 
+scattering peaks characteristic of a semi-crystalline microstruc-
+ture. Scattering peaks present in the out-of-plane (Qz) direction 
+at 0.388 and 0.782 Å−1 are assigned to the lamellar (h00) planes, 
+and the scattering peak in the in-plane (Qxy) direction at 
+1.761 Å−1 is assigned to the (010) plane associated with features 
+in the π-stacking direction of the polymer. Pristine p(g2T-TT) is 
+predominantly edge-on in texture, evidenced by the presence of 
+strong lamellar (h00) intensity in the Qz direction and strong 
+π-stacking (010) intensity in the Qxy direction.[21,24] Films of 
+p(g2T-TT) with PIL and ion gel electrolytes present both show 
+scattering rings in the 2D spectra (Figure 2a), indicating highly 
+isotropic ordering in these electrolytes. The relatively strong 
+scattering of the ion-gel arises from the ordering of anions 
+and cations in the ionic liquid and suggests that ordering of 
+the ionic liquid is unaffected by its confinement within the 
+OMIEC, or the PVDF-HFP matrix (Figure S2, Supporting 
+Information).[31]
+Despite the electrolyte overlayer, the scattering signal from 
+p(g2T-TT) still provides details regarding the polymer structure. 
+p(g2T-TT) with the PIL electrolyte appears similar to the pris-
+tine polymer, and fitting of the spectra (Figure S2 and Table S1, 
+Supporting Information) reveals only a slight expansion of 
+1.2 Å (7.5%) in the lamellar stacking direction (Figure 2b). Elec-
+trolyte gating of p(g2T-TT) by Cendra et  al. resulted in sig-
+nificantly larger lamellar expansions (2–3× greater), thus it is 
+expected that the minor expansion presently observed is due to 
+the solvent from the PIL solution spun on the p(g2T-TT) film. 
+These results indicate that the presence of the PIL causes little 
+disruption to the ordering of p(g2T-TT).
+Conversely, we see notable changes in the scattering of 
+p(g2T-TT) with the ion gel electrolyte, specifically in the 
+scattering peak associated with the lamellar ordering of 
+the polymer. There is no prominent (100) lamellar stacking 
+peak present, but the shoulder at 0.44 Å−1 is attributed to be 
+the (200) lamellar peak, suggesting that the (100) peak has 
+Figure 1.  a) Chemical structures of the organic semiconductor and electrolytes used in this work. The EMIM:TFSI ion gel has both anions and cations 
+mobile whereas the PIL only has mobile TFSI anions. b) Schematic illustrating XPS samples and measurement geometry. c–f) XPS spectra of pristine 
+p(g2T-TT) (purple) and p(g2T-TT) films spun on ion gel (black) and PIL (red) electrolytes. The spectra show significant signal corresponding to the 
+ionic liquid ions that have entered the p(g2T-TT) film, whereas the PIL spectra resembles that of the pristine polymer. Peak fits corresponding to the 
+EMIM cation (red) and TFSI anion (blue) of the are shown for the p(g2T-TT) on ion gel spectra.
+Adv. Funct. Mater. 2021, 31, 2104301
+
+www.afm-journal.de
+www.advancedsciencenews.com
+2104301  (4 of 10)
+© 2021 Wiley-VCH GmbH
+expanded outside the accessible q-range of the measurement 
+(Figure 2b). This translates to a lamellar spacing distance of 
+28.2 Å, an expansion of 12 Å (a 75% increase) compared to 
+the pristine polymer (Table S1, Supporting Information). A 
+recent operando study of p(g2T-TT) in an aqueous environ-
+ment reported a similar lamellar expansion (10  Å), high-
+lighting the drastic structural changes which can occur in 
+ion-swollen OMIECs.[32] We further note that the lengths 
+of the EMIM cation and TFSI anion along their longest 
+dimension have been calculated to be 7.9 and 7.6  Å, respec-
+tively.[33,34] Thus, the expansion of the lamellar spacing of 
+the polymer is commensurate with sizes of the ionic liquid 
+molecules that were detected within the OMIEC film using 
+XPS (Figure 1b–f).
+Unlike the lamellar stacking direction, the π-stacking peak 
+remains within experimental error (≈0.01 Å−1)[35] of the pris-
+tine polymer for both PIL and ion gel samples (Figure  2c). 
+The combination of lamellar distortion, and simultaneous 
+preservation of the π-stacking distance leads us to con-
+clude that ionic liquid uptake in the crystalline portion of 
+the polymer film is primarily localized to the side-chain 
+rich lamellar regions. Despite the structural disorder intro-
+duced into the crystallites by the ionic liquid, OECTs fabri-
+cated with the ion gel electrolyte still show hole mobilities of 
+0.72 ± 0.16 cm2 V−1 s−1 (Figure S3, Supporting Information), 
+similar to values reported for various aqueous electrolytes.[22] 
+This indicates that the structural changes from the bulky 
+ionic liquid molecules do not adversely alter charge transport 
+in the conjugated polymer.
+2.3. Investigation of Ion Motion during Operation
+Electrochemical doping in OMIECs occurs by net movement of 
+ionic charges to compensate changes in electronic charge car-
+rier density in the film; in general, this means the introduction 
+of counterions into the organic semiconductor film. However, 
+as consequence of the passive ion uptake observed in p(g2T-
+TT), holes can be electrostatically compensated by either the 
+injection of an anion into the film from the electrolyte, or the 
+expulsion of a cation from the film into the electrolyte, as both 
+ions are mobile. Doping via cation expulsion has been reported 
+previously in redox-active organic radical polymers,[36] self-
+doped organic semiconductors,[37] and recently with an OMIEC 
+in an aqueous electrolyte.[23] To investigate this possibility in ion 
+gel-gated devices, in situ surface enhanced Raman spectroscopy 
+(SERS) was used to monitor spectral changes in p(g2T-TT) 
+electrodes during charging. A confocal Raman microscope 
+was used in conjunction with the surface sensitivity of SERS 
+to selectively probe the p(g2T-TT) film above a gold electrode 
+without collecting significant signal from the electrolyte over-
+layer (Figure 3a).
+To establish controls prior to in situ gating, spectra were col-
+lected on films of pristine p(g2T-TT), films of p(g2T-TT) with 
+PIL electrolyte, and films of p(g2T-TT) with ion gel electrolyte 
+(Figure  3b). The spectra of pristine p(g2T-TT) and p(g2T-TT) 
+with the PIL electrolyte are remarkably similar, whereas the 
+p(g2T-TT) film with the ion gel electrolyte shows notable dif-
+ferences. The PIL does not intermix with the p(g2T-TT), and 
+consequently, when the OMIEC film is probed via Raman, the 
+Figure 2.  a) X-ray scattering of p(g2T-TT) films in (left to right) pristine state, with PIL electrolyte, and with ion gel electrolyte. b) Out-of-plane and  
+c) in-plane lineouts from 2D scattering.
+Adv. Funct. Mater. 2021, 31, 2104301
+
+www.afm-journal.de
+www.advancedsciencenews.com
+2104301  (5 of 10)
+© 2021 Wiley-VCH GmbH
+spectral signal is dominated by scattering from (pg2T-TT) and 
+no detectable signal from the PIL itself. This result confirms 
+the sensitivity of this technique to selectively probe OMIEC film 
+and agrees with XPS and GIWAXS results that the PIL elec-
+trolyte prevents ion uptake by the polymer, or in other words 
+passive ion uptake only occurs for charge neutral ion pairs. Con-
+versely, the ion uptake observed via XPS and GIWAXS suggests 
+that ionic liquid ions should be detected within the p(g2T-TT) 
+film with ion gel electrolyte. Indeed, the spectra shows char-
+acteristic peaks of both the EMIM cation (961 and 1024 cm−1) 
+and TFSI anion (741, 1138, and 1243 cm−1) as well as peaks from 
+p(g2T-TT) (Figure  3b). The Raman signal of p(g2T-TT) below 
+1350 cm−1 is primarily due to side chain contributions, whereas 
+the CC/CC stretching of the backbone between 1400 and 
+1500 cm−1 dominates the higher frequency region.
+The decrease in the backbone peak intensities with the ion 
+gel electrolyte indicates slight oxidation of the film in its native 
+state.[38,39] We suspect that this oxidation occurs due to trace 
+water and oxygen impurities in the electrolyte.[26,40] This effect 
+appears more pronounced in the ion gel than in the PIL, as the 
+PIL likely limits any oxidation to the surface of the polymer 
+whereas the ionic liquid penetrates the bulk of the film.
+To investigate the possibility of anionic and cationic hole 
+compensation in p(g2T-TT) upon electrochemical gating, we 
+performed in situ SERS measurement on p(g2T-TT) electrodes 
+gated with the ion gel electrolyte (Figure 3c). As in other in situ 
+Figure 3.  a) Measurement schematic of a p(g2T-TT) electrode measured via a confocal Raman microscope. The expanded portions show the inter-
+preted ion motion observed during gating. b) Spectra of p(g2T-TT) with the ion gel electrolyte show characteristic vibrations of EMIM cations and TFSI 
+anions, whereas films with the PIL electrolyte are almost identical to pristine p(g2T-TT). Spectra are offset for comparison and the dotted lines highlight 
+selected vibrational assignments of EMIM:TFSI, from refs. [41–46]. c) In situ gating of a p(g2T-TT) electrode with ion gel electrolyte, pristine p(g2T-TT) 
+(top) is included for reference. The potential corresponds to the potential of the p(g2T-TT) film being measured, and spectra were normalized to the 
+CO/CC stretch of the oligo-ethylene glycol side chains at 1175 cm−1.[47–49] d) Peak intensity of selected vibrational modes corresponding to p(g2T-TT) 
+(green), the EMIM cation (red), and the TFSI anion (blue) as a function of potential. The arrow indicates the direction of the scan.
+Adv. Funct. Mater. 2021, 31, 2104301
+
+www.afm-journal.de
+www.advancedsciencenews.com
+2104301  (6 of 10)
+© 2021 Wiley-VCH GmbH
+Raman studies of organic semiconductors, we observe a drop 
+in intensity upon oxidation of the polymer film attributed to 
+a loss of oscillator strength.[39] To examine relative changes in 
+different modes, all spectra were normalized to the side chain 
+peak at 1175 cm−1,[47–49] as this peak has no overlap with ionic 
+liquid peaks, and is expected to exhibit minimal changes upon 
+oxidation/reduction of the polymer. As the potential of the 
+electrode is modulated, we follow peak shifts and intensity 
+changes in both the backbone regions of the organic semicon-
+ductor (1400–1500 cm−1, Figure 3c, right), as well as in the ionic 
+liquid peaks (Figure 3c, left). As the p(g2T-TT) film potential is 
+varied from a reduced state (−1 V) to an oxidized state (1 V), the 
+intensity of the backbone peaks decreases due to the formation 
+of charge carriers (polarons and bipolarons) along the back-
+bone.[50] These changes to the backbone peaks during oxidation 
+and reduction appear to be reversible, as spectra in the oxidized 
+and reduced state are nearly identical regardless of biasing his-
+tory (Figure 3d and Figure S4, Supporting Information).
+Examining the ionic liquid peaks provides further insight 
+on ion motion within the organic semiconductor. The two 
+most pronounced anion peaks, at 741 and 1243 cm−1, have been 
+assigned to a symmetric TFSI breathing mode and symmetric 
+stretching of the CF3 group on the TFSI anion, respectively.[43] 
+As the potential of the film is increased and p(g2T-TT) is oxi-
+dized, the intensity of these TFSI modes increases (Figure 3d). 
+These intensity changes are consistent with changes in TFSI 
+anion concentration due to ion drift in response to the applied 
+electric field: there is an increase in anion concentration as 
+p(g2T-TT) is oxidized (to compensate holes), and that con-
+centration subsequently decreases as p(g2T-TT) is reduced 
+(Figure 3a).
+Insightful changes are also observed in peaks associated 
+with the EMIM cation, located at 961 and 1025 cm−1. The peak 
+at 961  cm−1 has contributions from in-plane ring stretching 
+and bending, and a contribution from the CC stretch of the 
+ethyl group, while the peak at 1025 cm−1 has been assigned to 
+in-plane stretches of the imidazolium ring.[41,43,44] These peaks 
+show a similar trend as the anion peaks: an increase in inten-
+sity at more positive potentials, and decrease in intensity as the 
+potential is decreased (Figure 3c,d). This result initially appears 
+surprising, as it is unlikely that cations would move against the 
+applied electric field. In fact, these results are in agreement 
+with studies of imidazolium ionic liquids at various electrodes 
+that showed increasing electrode potential causes a reorienta-
+tion of the imidazolium ring from parallel to perpendicular to 
+the electrode, as schematically illustrated in Figure 3a.[51–54]
+SERS selectively enhances the intensity of vibrations perpen-
+dicular to the surface, resulting in an increase in the intensity 
+of the cation peaks as the imidazolium ring reorients perpen-
+dicular to the surface.[55,56] As such, we are unable to confirm 
+and quantify cation motion in the film during gating, as the 
+intensity changes from cation reorientation masks any pos-
+sible concentration changes which may occur. Thus, while we 
+cannot confirm it experimentally, we hypothesize that the elec-
+trode potential will trigger anionic and cationic currents as both 
+species are mobile. It should be noted that the large charge 
+density in the ion permeated polymer semiconductor results 
+in little electric field in the bulk of the film, requiring net ion 
+motion to occur at the polymer/electrolyte interface. In this 
+context, cation reorientation at the electrode is noteworthy as it 
+shows that cations within the film respond to the applied field 
+resulting in ion movement and restructuring at the electrode.
+The Raman peaks indicative of oxidation/reduction of p(g2T-
+TT) are more reversible and exhibit less hysteresis compared to 
+the peaks corresponding to the ionic liquid anions and cations 
+(Figure 3d). We note that the hysteresis presently observed in 
+ionic liquid peak intensities is similar to the complex changes 
+in ion density and reorganization observed during gating of 
+electrode interfaces with ionic liquids[51] and even within lay-
+ered 2D materials.[57] This suggests that some of the existing 
+knowledge of ionic liquid structure and dynamics at charged 
+interfaces may still be valid when the ionic liquid is confined 
+within a semiconducting polymer.
+In summary, given the presence of both anions and cations 
+within the film and the spectral changes observed during 
+device operation, we speculate that both ions are likely involved 
+in the charge compensation of electronic charges. We expect 
+the relative contribution of anions and cations to be related to 
+their relative mobilities within the organic semiconductor. As 
+a result, switching speed may be improved by increasing the 
+mobility of either ion, not only that of the anion as one might 
+initially think.
+2.4. Application to Organic Electrochemical Devices:  
+Organic Electrochemical Transistors and Electrochemical 
+Random-Access Memories
+To investigate how the uptake of ion pairs affects the func-
+tionality of p(g2T-TT) electrochemical devices, we study a 
+neuromorphic device (ECRAM) fabricated with both electro-
+lytes, which we also operate as a conventional OECT by meas-
+uring its transfer characteristics via a continuous gate sweep. 
+ECRAMs have a similar architecture to OECTs, using a high-
+capacitance polarizable gate electrode in order to impart non-
+volatility to the device.[12] When operated as artificial synapses, 
+ECRAMs are biased by sending identical voltage pulses to 
+the gate electrode (“write” pulses) and recording the changes 
+in channel conductance with a subsequent “read” pulse 
+(Figure S5, Supporting Information). Similar to OECTs, facile 
+ion motion within the OMIEC is an important design consid-
+eration for ECRAMs, since electrolytes must have sufficiently 
+mobile ions to respond to the fast (20 ns) write pulses used to 
+program synaptic weights.[6] On the other hand, state retention 
+is also an important device parameter in ECRAMs, which is 
+related to preventing ion motion back to the electrolyte. As a 
+result, ECRAMs are ideal devices to observe how controlling 
+ion motion affects device characteristics and understand mate-
+rials trade-offs.
+When operated as conventional OECTs, devices with the 
+PIL electrolyte show considerable hysteresis compared to ion 
+gel devices, despite the significantly slower scan rates used to 
+compensate for the lower ionic conductivity of the PIL[19,1,58] 
+(Figure  4a and Figure S6 and Table S2, Supporting Informa-
+tion). The presence of hysteresis indicates slow device speed 
+as ion motion cannot keep up with the gate voltage sweep. 
+Importantly, the modulation of the PIL-based device is com-
+parable to that of the ion gel-gated device, proving that ion 
+Adv. Funct. Mater. 2021, 31, 2104301
+
+www.afm-journal.de
+www.advancedsciencenews.com
+2104301  (7 of 10)
+© 2021 Wiley-VCH GmbH
+penetration does occur in the PIL-based device to modulate the 
+whole volume of the semiconductor, albeit at a much slower 
+rate. We also observe a thickness dependence of the hysteresis, 
+suggesting that ion transport through the OMIEC film (and 
+not the electrolyte) limits device speed (Figure S7, Supporting 
+Information). In addition to the high conductivity of ion gels, it 
+is therefore expected that the uptake of ion pairs by p(g2T-TT) 
+contributes to the enhanced device speed of ion gel-gated 
+OECTs compared to their polymerized analog where only uni-
+polar ion motion occurs and the ions don't passively permeate 
+the semiconductor. In fact, this electrolyte comparison directly 
+illustrates the speed enhancement from incorporation of 
+mobile ions, and confirms that this strategy is indeed effective 
+in OMIECs beyond PEDOT:PSS, as first shown by Spyropoulos 
+et al.[20]
+This speed difference is further highlighted when devices 
+are operated as ECRAMs under high-speed pulsing. In this 
+measurement, charges are injected into the channel during 
+ultrashort write pulses, modulating the conductance of 
+the device, which is subsequently read using a read pulse 
+(Figure S5, Supporting Information). With mere 100 ns write 
+pulses, the conductance of the ion gel device can be tuned 
+over the entire linear portion of the transfer curve, leading to 
+an exceptional dynamic range (>8×) of programmable states 
+(Figure 4b). Such high-speed, linear switching is highly advan-
+tageous for neuromorphic computing applications.[10] The 
+increased electrolyte resistance of the PIL and sluggish diffu-
+sion of TFSI anions into p(g2T-TT) limits the charge which 
+can be injected into the ECRAM channel during such short 
+pulses. Even under 1000× longer (100 µs) write pulses, suffi-
+cient charge cannot be injected to modulate the conductance 
+state of the PIL device.
+Although the relatively sluggish kinetics of PIL-gated 
+ECRAMs limit their applicability in hardware-based artifi-
+cial neural network (ANN) accelerators, it was hypothesized 
+that the unperturbed morphology of p(g2T-TT), as observed 
+in GIWAXS, may lead to improved state retention.[59] 
+Indeed, we find that the state retention of PIL devices far 
+exceeds that of ion gel devices (Figure 4c). The programmed 
+synaptic weight of the ion gel ECRAM decays by >12% of the 
+dynamic range in 5 min, whereas the PIL ECRAM is far less 
+volatile, decreasing by 3.7% of the dynamic range (1.88  µS) 
+after 20 min. Achieving state-retention times exceeding sev-
+eral minutes in lithographically patterned ECRAMs is chal-
+lenging, because smaller devices hold less charge and are 
+thus more sensitive to back-diffusion of ions or parasitic 
+side reactions resulting in discharge.[26,60] The barrier for 
+discharge is increased with the PIL electrolyte compared to 
+the ion gel because the OMIEC has less free volume for ion 
+motion, and the lack of screening by ion pairs results in elec-
+tronic and ionic charges being more tightly bound. Due to 
+their short retention times, ion gel ECRAMs are targeted for 
+ANN learning accelerators, where the synaptic weights are 
+either continuously updated or offloaded to external memory 
+for storage. The improved non-volatility of PIL devices on the 
+other hand suggests that they are more amenable to write-
+once, read-many applications.
+We hypothesize that a trade-off exists between the state 
+retention of the device and the write speed, and this relation-
+ship is tied to the morphology of the organic semiconductor. 
+Ion gel devices are significantly faster but have shorter reten-
+tion, while PIL devices are slower but have longer retention 
+(Figure 4). GIWAXS revealed that the PIL electrolyte retained 
+the highly ordered morphology of p(g2T-TT), while the ion gel 
+significantly altered the lamellar ordering (Figure 2b). Lamellar 
+expansion from ionic liquid uptake improves ionic mobility 
+within the material, as greater lamellar spacing allows ions 
+to move throughout the crystallites more easily (especially in 
+response to ns write pulses). Furthermore, the introduction 
+of anion–cation pairs from the ion gel facilitates anionic and 
+cationic hole compensation, where both mobile ions can com-
+pensate electronic charges in the semiconductor. These fac-
+tors increase device speed in ion gel devices, but decrease state 
+retention, since the energetic barrier for back diffusion of ions 
+is lowered. Importantly, devices made with two mobile ions 
+(ion gel) and unipolar (PIL) electrolytes have complementary 
+properties which could be leveraged in organic neuromorphic 
+systems.
+Figure 4.  a) Transfer curves of ECRAM devices (120 × 40 µm2) operated as OECTs measured with VD = −0.1 V. The gate voltage sweep rate is shown 
+in parenthesis. b) Pulsing characteristics of devices operated as ECRAMs where channel conductance is modulated via successive applications of 
++/−1V pulses of 100 ns for ion gel and 100 µs for PIL. c) State retention of ECRAMs programmed to different synaptic weights (conductance states).
+Adv. Funct. Mater. 2021, 31, 2104301
+
+www.afm-journal.de
+www.advancedsciencenews.com
+2104301  (8 of 10)
+© 2021 Wiley-VCH GmbH
+3. Conclusion
+We demonstrate how ion gel electrolytes, with mobile anions 
+and cations, introduce ionic liquid molecules within the bulk of 
+OMIEC films. This ion uptake produces significant structural 
+changes within the crystalline portion of the polymer, but the 
+charge transport pathways of the semiconductor are unaffected, 
+as the interaction of the ionic liquid and OMIEC is largely local-
+ized to the side chain lamella. Using in situ SERS, we detect 
+evidence of anion and cation movement within the p(g2T-TT) 
+film during gating, suggesting that when both ions are present 
+within the semiconductor, both ions participate in electronic 
+charge compensation during doping. We therefore propose 
+that the cation provides another degree of freedom which can 
+be used to engineer future OMIEC devices. This passive ion 
+uptake can be controlled by deliberately rendering one of the 
+counter ions immobile, limiting electrolyte induced structural 
+changes, but at the detriment of decreasing device speed. Nev-
+ertheless, such unipolar electrolytes offer improved synaptic 
+state retention in ECRAM devices, suggesting that electrolyte 
+tuning could allow for a single OMIEC to be used in both ANN 
+accelerators, as well as write-once read-many applications. We 
+further note that the concepts presented in this work are not 
+limited to ion gel-gated OMIECs, and we expect these princi-
+ples to exist in aqueous OECTs, as well as in other electrolyte-
+gated devices such as TFTs and layered 2D materials.
+4. Experimental Section
+Materials: p(g2T-TT) was synthesized as reported previously.[24] 
+EMIM:TFSI was purchased from Iolitec (99.5% grade), dried in a 
+vacuum oven, and subsequently stored in a N2 glovebox. The polymer 
+matrix, PVDF-HFP, was purchased from Sigma-Aldrich (Mw  [weight-
+average molecular weight] of ≈400 000, Mn [number-average molecular 
+weight] of ≈130  000) and used as received. Ion gels were prepared in 
+a N2-glovebox by dissolving PVDF-HFP and the ionic liquid EMIM:TFSI 
+(1:4, w/w) in acetone. The ion gel solutions were stirred at 50 °C for 1 h 
+until dissolved. The PIL was synthesized as previously reported,[19] and 
+stored in a N2-glovebox. PIL solutions were made by dissolving the PIL 
+in acetonitrile.
+Device Fabrication: ECRAM devices were lithographically patterned 
+using a dry peel-off method described previously,[6] and OECT devices 
+were lithographically patterned using a germanium masking process.[61] 
+ECRAM device preparation was as follows: substrates were cleaned in 
+a sonication bath of isopropanol for 10 min followed by a 10 min UV–
+ozone treatment. The semiconducting polymer p(g2T-TT) was then 
+spun at 1000 RPM for 90 s and annealed at 60 °C for 60 s. The ion gel or 
+PIL solutions were then drop-cast on the devices.
+Electrical Characterization: Transfer curves were performed using a 
+Keithley 2612 SourceMeter using custom LabVIEW software. ECRAM 
+cycling measurements were performed as previously reported and 
+analyzed via custom MATLAB software.[6] A 1 kΩ limit resistor was used 
+in series with the gate for the ion gel-gated ECRAM to improve linearity. 
+Electrochemical impedance spectroscopy was performed using a Bio-
+Logic SP-300 using a sinusoidal AC amplitude of 10 mV over a frequency 
+range of 1 Hz–3 MHz. Spectra were fit to the equivalent circuit shown 
+in Figure S5, Supporting Information, using custom MATLAB software.
+Raman Spectroscopy: Raman spectroscopy was performed using 
+a Horiba Labram HR Evolution confocal Raman microscope. A 
+532  nm excitation laser was used with a power of 880  µW through 
+a 100× objective with a nominal spot size of 564  nm. The dispersion 
+gratings used were 1800  gr  mm−1 and integration time was adjusted 
+to minimize local heating while maintaining sufficient signal-to-noise 
+ratios. A confocal pinhole of 100 μm was used to limit scattering signal 
+from layers of electrolyte above the OMIEC material.
+X-Ray Photoelectron Spectroscopy: XPS was performed using PHI 
+VersaProbe 3 XPS with a monochromatized Al source (1486 eV; 50 W; 
+200 µm spot size) and a pass energy of 55 eV. The elemental regions 
+collected were F1s, O1s, N1s, C1s, and S2p. An electron flood gun and 
+low energy Ar+ ions were used to neutralize the sample and prevent 
+substrate charging. BEs were corrected to the adventitious carbon peak 
+at 284.8 eV. For all collections, the angle between the sample surface 
+and the detector was 45°. The spectra were background-subtracted 
+using a Shirley-type background and smoothed using the five-point 
+linear Savitzky–Golay method using CasaXPS software. Gaussian–
+Lorentzian lineshapes were used for peak fitting. XPS samples were 
+prepared by spin-coating a PIL or ion gel solution (25 and 22.5 mg mL−1, 
+respectively) on clean ITO substrates. The semiconducting polymer 
+p(g2T-TT) was then spun on top of the electrolyte and samples were 
+measured.
+Grazing-Incidence Wide Angle X-Ray Scattering: GIWAXS was 
+performed at the Stanford Synchrotron Radiation Lightsource (SSRL) 
+on beam line 11-3 using an area detector and incident energy 12.73 keV. 
+The sample to detector distance was 317.06  mm and was calibrating 
+using a polycrystalline LaB6 standard. The incidence angle used in 
+all measurements was 0.1° slightly larger than the critical angle and 
+measurements were performed in a helium chamber to minimize 
+scattering from air. All data was corrected for the geometric distortion of 
+the flat detector used, normalized by exposure time and monitor counts, 
+and analyzed using Nika 1D SAXS[62] and WAXstools[63] software in Igor 
+Pro. The terms Qxy and Qz referred to the in-plane and out-of-plane 
+scattering vector, with respect to the substrate. The Qz lineouts were 
+taken from χ-slices from −10° to 10° with respect to the Qz direction, 
+whereas the Qxy lineouts were taken from χ-slices from 0° to 20° with 
+respect to the Qxy direction. Peak fitting of the scattering data was 
+performed in Igor Pro. Films for WAXS were prepared by spin coating 
+p(g2T-TT) at 1000 RPM (5 mg mL−1) for 90 s followed by a 60 s anneal at 
+60 °C. The PIL films were spun at 2000 RPM (10 mg mL−1). The ion gel 
+was spun at 3000 RPM (10 mg mL−1).
+Supporting Information
+Supporting Information is available from the Wiley Online Library or 
+from the author.
+Acknowledgements
+The authors would like to kindly thank Ilaria Denti for helpful discussions 
+regarding Raman spectroscopy. T.J.Q. and G.L. acknowledge support 
+from the National Science Foundation Graduate Research Fellowship 
+Program under grant DGE-1656518. A.S. gratefully acknowledges 
+financial support from the National Science Foundation Award # DMR 
+1808401. A.M. gratefully acknowledges support from the Knut and Alice 
+Wallenberg Foundation (KAW 2016.0494) for postdoctoral research at 
+Stanford University. This work was in part performed at the Stanford 
+Nano Shared Facilities (SNSF) and the nano@Stanford (SNF) labs, 
+which are supported by the National Science Foundation as part of the 
+National Nanotechnology Coordinated Infrastructure under award ECCS-
+1542152. Use of the Stanford Synchrotron Radiation Lightsource, SLAC 
+National Accelerator Laboratory, is supported by the U.S. Department of 
+Energy, Office of Science, Office of Basic Energy Sciences under Contract 
+No. DE-AC02-76SF00515. A.S. and S.T.K. acknowledge financial support 
+from the National Science Foundation and the Semiconductor Research 
+Corporation, E2CDA Award #1739795. S.T.K. acknowledges the Stanford 
+Graduate Fellowship fund for support. M.L.C., R.A.S., and D.R. gratefully 
+acknowledge support from the U.S. Department of Energy Office of 
+Basic Energy Sciences (DE-SC0016390) for PIL synthesis.
+Adv. Funct. Mater. 2021, 31, 2104301
+
+www.afm-journal.de
+www.advancedsciencenews.com
+2104301  (9 of 10)
+© 2021 Wiley-VCH GmbH
+Conflict of Interest
+The authors declare no conflict of interest.
+Data Availability Statement
+Research data are not shared.
+Keywords
+artificial synapses, ionic liquid intercalation, mixed conductors, organic 
+semiconductors
+Received: May 6, 2021
+Revised: July 7, 2021
+Published online: August 21, 2021
+[1]	 J. H.  Cho, J.  Lee, Y.  Xia, B.  Kim, Y.  He, M. J.  Renn, T. P.  Lodge, 
+C. D. Frisbie, Nat. Mater. 2008, 7, 900.
+[2]	 S. H.  Kim, K.  Hong, W.  Xie, K. H.  Lee, S.  Zhang, T. P.  Lodge, 
+C. D. Frisbie, Adv. Mater. 2013, 25, 1822.
+[3]	 G. C. Faria, D. T. Duong, A. Salleo, C. A. Polyzoidis, S. Logothetidis, 
+J. Rivnay, R. Owens, G. G. Malliaras, MRS Commun. 2014, 4, 189.
+[4]	 A.  Yang, Y.  Li, C.  Yang, Y.  Fu, N.  Wang, L.  Li, F.  Yan, Adv. Mater. 
+2018, 30, 1800051.
+[5]	 O.  Parlak, S. T.  Keene, A.  Marais, V. F.  Curto, A.  Salleo, Sci. Adv. 
+2018, 4, eaar2904.
+[6]	 A.  Melianas, T. J.  Quill, G.  LeCroy, Y.  Tuchman, H. V.  Loo, 
+S. T.  Keene, A.  Giovannitti, H. R.  Lee, I. P.  Maria, I.  McCulloch, 
+A. Salleo, Sci. Adv. 2020, 6, eabb2958.
+[7]	 D.  Ohayon, G.  Nikiforidis, A.  Savva, A.  Giugni, S.  Wustoni, 
+T. Palanisamy, X. Chen, I. P. Maria, E. Di Fabrizio, P. M. F. J. Costa, 
+I. McCulloch, S. Inal, Nat. Mater. 2020, 19, 456.
+[8]	 D. Moia, A. Giovannitti, A. A. Szumska, I. P. Maria, E. Rezasoltani, 
+M.  Sachs, M.  Schnurr, P. R. F.  Barnes, I.  Mcculloch, J.  Nelson, 
+Energy Environ. Sci. 2019, 12, 1349.
+[9]	 B. D.  Paulsen, K.  Tybrandt, E.  Stavrinidou, J.  Rivnay, Nat. Mater. 
+2020, 19, 13.
+[10]	 E. J.  Fuller, S. T.  Keene, A.  Melianas, Z.  Wang, S.  Agarwal, Y.  Li, 
+Y.  Tuchman, C. D.  James, M. J.  Marinella, J. J.  Yang, A.  Salleo, 
+A. A. Talin, Science 2019, 364, 570.
+[11]	 Y. van de Burgt, A. Melianas, S. T. Keene, G. Malliaras, A. Salleo, 
+Nat. Electron. 2018, 1, 386.
+[12]	 Y. van de Burgt, E. Lubberman, E. J. Fuller, S. T. Keene, G. C. Faria, 
+S. Agarwal, M. J. Marinella, A. A. Talin, A. Salleo, Nat. Mater. 2017, 
+16, 414.
+[13]	 P.  Leleux, J.  Rivnay, T.  Lonjaret, J. M.  Badier, C.  Bénar, T.  Hervé, 
+P. Chauvel, G. G. Malliaras, Adv. Healthcare Mater. 2015, 4, 142.
+[14]	 C.  Cea, G. D.  Spyropoulos, P.  Jastrzebska-Perfect, J. J.  Ferrero, 
+J. N. Gelinas, D. Khodagholy, Nat. Mater. 2020, 19, 679.
+[15]	 J.  Rivnay, S.  Inal, A.  Salleo, R. M.  Owens, M.  Berggren, 
+G. G. Malliaras, Nat. Rev. Mater. 2018, 3, 17086.
+[16]	 D. A. Bernards, G. G. Malliaras, Adv. Funct. Mater. 2007, 17, 3538.
+[17]	 L. Herlogsson, X. Crispin, S. Tierney, M. Berggren, Adv. Mater. 2011, 
+23, 4684.
+[18]	 L.  Herlogsson, X.  Crispin, N. D.  Robinson, M.  Sandberg, 
+O. J. Hagel, G. Gustafsson, M. Berggren, Adv. Mater. 2007, 19, 97.
+[19]	 D. Rawlings, E. M. Thomas, R. A. Segalman, M. L. Chabinyc, Chem. 
+Mater. 2019, 31, 8820.
+[20]	 G. D. Spyropoulos, J. N. Gelinas, D. Khodagholy, Sci. Adv. 2020, 5, 
+eaau7378.
+[21]	 C. Cendra, A. Giovannitti, A. Savva, V. Venkatraman, I. McCulloch, 
+A. Salleo, S. Inal, J. Rivnay, Adv. Funct. Mater. 2019, 29, 1807034.
+[22]	 L. Q. Flagg, R. Giridharagopal, J. Guo, D. S. Ginger, Chem. Mater. 
+2018, 30, 5380.
+[23]	 L. Q.  Flagg, C. G.  Bischak, R. J.  Quezada, J. W.  Onorato, 
+C. K. Luscombe, D. S. Ginger, ACS Mater. Lett. 2020, 2, 254.
+[24]	 A.  Giovannitti, D. T.  Sbircea, S.  Inal, C. B.  Nielsen, E.  Bandiello, 
+D. A. Hanifi, M. Sessolo, G. G. Malliaras, I. McCulloch, J. Rivnay, 
+Proc. Natl. Acad. Sci. USA 2016, 113, 12017.
+[25]	 E. M.  Thomas, M. A.  Brady, H.  Nakayama, B. C.  Popere, 
+R. A.  Segalman, M. L.  Chabinyc, Adv. Funct. Mater. 2018, 28, 
+1803687.
+[26]	 A. Giovannitti, R. B. Rashid, Q. Thiburce, B. D. Paulsen, C. Cendra, 
+K. Thorley, D. Moia, J. T. Mefford, D. Hanifi, D. Weiyuan, M. Moser, 
+A. Salleo, J. Nelson, I. McCulloch, J. Rivnay, Adv. Mater. 2020, 32, 
+1908047.
+[27]	 O.  Höfft, S.  Bahr, M.  Himmerlich, S.  Krischok, J. A.  Schaefer, 
+V. Kempter, Langmuir 2006, 22, 7120.
+[28]	 S.  Thawarkar, N. D.  Khupse, A.  Kumar, ChemPhysChem 2016, 17, 
+1006.
+[29]	 T. L. Greaves, C. J. Drummond, Chem. Rev. 2008, 108, 206.
+[30]	 D. R.  MacFarlane, M.  Forsyth, E. I.  Izgorodina, A. P.  Abbott, 
+G. Annat, K. Fraser, Phys. Chem. Chem. Phys. 2009, 11, 4962.
+[31]	 M. A. A.  Rocha, C. M. S. S.  Neves, M. G.  Freire, O.  Russina, 
+A. Triolo, J. A. P. Coutinho, L. M. N. B. F. Santos, J. Phys. Chem. B 
+2013, 117, 10889.
+[32]	 B. D. Paulsen, A. Giovannitti, R. Wu, J. Strzalka, Q. Zhang, J. Rivnay, 
+C. J. Takacs, arXiv:2104:05009 2021.
+[33]	 C. Largeot, C. Portet, J. Chmiola, P. L. Taberna, Y. Gogotsi, P. Simon, 
+J. Am. Chem. Soc. 2008, 130, 2730.
+[34]	 S. Zhang, J. Zhang, Y. Zhang, Y. Deng, Chem. Rev. 2017, 117, 6755.
+[35]	 M. F. Toney, D. G. Weisler, Acta Crystallogr., Sect. A: Found. Crystal-
+logr. 1993, 49, 624.
+[36]	 S. Wang, F. Li, A. D. Easley, J. L. Lutkenhaus, Nat. Mater. 2019, 18, 
+69.
+[37]	 Y. Ikenoue, J. Chiang, A. O. Patil, F. Wudl, A. J. Heeger, J. Am. Chem. 
+Soc. 1988, 110, 2983.
+[38]	 A.  Savva, C.  Cendra, A.  Giugni, B.  Torre, J.  Surgailis, D.  Ohayon, 
+A.  Giovannitti, I.  McCulloch, E.  Di Fabrizio, A.  Salleo, J.  Rivnay, 
+S. Inal, Chem. Mater. 2019, 31, 927.
+[39]	 C. Francis, D. Fazzi, S. B. Grimm, F. Paulus, S. Beck, S. Hillebrandt, 
+A. Pucci, J. Zaumseil, J. Mater. Chem. C 2017, 5, 6176.
+[40]	 M. C.  Buzzeo, O. V.  Klymenko, J. D.  Wadhawan, C.  Hardacre, 
+K. R. Seddon, R. G. Compton, J. Phys. Chem. A 2003, 107, 8872.
+[41]	 J. Grondin, J. C. Lassègues, D. Cavagnat, T. Buffeteau, P. Johansson, 
+R. Holomb, J. Raman Spectrosc. 2011, 42, 733.
+[42]	 E. R. Talaty, S. Raja, V. J. Storhaug, A. Dölle, W. R. Carper, J. Phys. 
+Chem. B 2004, 108, 13177.
+[43]	 V. H. Paschoal, L. F. O. Faria, M. C. C. Ribeiro, Chem. Rev. 2017, 117, 
+7053.
+[44]	 K.  Noack, P. S.  Schulz, N.  Paape, J.  Kiefer, P.  Wasserscheid, 
+A. Leipertz, Phys. Chem. Chem. Phys. 2010, 12, 14153.
+[45]	 A.  Martinelli, A.  Matic, P.  Johansson, P.  Jacobsson, L.  Börjesson, 
+A. Fernicola, S. Panero, B. Scrosati, H. Ohno, J. Raman Spectrosc. 
+2011, 42, 522.
+[46]	 J. Kiefer, J. Fries, A. Leipertz, Appl. Spectrosc. 2007, 61, 1306.
+[47]	 H. Matsuura, T. Miyazawa, J. Polym. Sci., Part A-2 1969, 7, 1735.
+[48]	 B.  Sandner, J.  Tübke, S.  Wartewig, S.  Shashkov, Solid State Ionics 
+1996, 83, 87.
+[49]	 A. Z. Samuel, S. Umapathy, Polym. J. 2014, 46, 330.
+[50]	 Y.  Yamashita, J.  Tsurumi, M.  Ohno, R.  Fujimoto, S.  Kumagai, 
+T. Kurosawa, T. Okamoto, J. Takeya, S. Watanabe, Nature 2019, 572, 
+634.
+[51]	 K. Motobayashi, K. Minami, N. Nishi, T. Sakka, M. Osawa, J. Phys. 
+Chem. Lett. 2013, 4, 3110.
+Adv. Funct. Mater. 2021, 31, 2104301
+
+www.afm-journal.de
+www.advancedsciencenews.com
+2104301  (10 of 10)
+© 2021 Wiley-VCH GmbH
+[52]	 Y.-X. Yuan, T.-C. Niu, M.-M. Xu, J.-L. Yao, R.-A. Gu, J. Raman Spec-
+trosc. 2009, 41, 516.
+[53]	 V. O.  Santos, M. B.  Alves, M. S.  Carvalho, P. A. Z.  Suarez, 
+J. C. Rubim, J. Phys. Chem. B 2006, 110, 20379.
+[54]	 Y.  Liu, Y. X.  Yuan, X. R.  Wang, N.  Zhang, M. M.  Xu, J. L.  Yao, 
+R. A. Gu, J. Electroanal. Chem. 2014, 728, 10.
+[55]	 M. Moskovits, J. S. Suh, J. Phys. Chem. 1984, 88, 5526.
+[56]	 E. C. L.  Le Ru, S. A.  Meyer, C.  Artur, P. G.  Etchegoin, J.  Grand, 
+P. Lang, F. Maurel, Chem. Commun. 2011, 47, 3903.
+[57]	 K. Xu, C. Merlet, Z. Lin, H. Shao, P. L. Taberna, L. Miao, J. Jiang, 
+J. Zhu, P. Simon, Energy Storage Mater. 2020, 33, 460.
+[58]	 K. H. Lee, M. S. Kang, S. Zhang, Y. Gu, T. P. Lodge, C. D. Frisbie, 
+Adv. Mater. 2012, 24, 4457.
+[59]	 G.-T. Go, Y. Lee, D.-G. Seo, M. Pei, W. Lee, H. Yang, T.-W. Lee, Adv. 
+Intell. Syst. 2020, 2, 2000012.
+[60]	 S. T. Keene, A. Melianas, Y. van de Burgt, A. Salleo, Adv. Electron. 
+Mater. 2019, 5, 1800686.
+[61]	 M. Hanna, Ph.D. Thesis, Stanford University,  2018.
+[62]	 J. Ilavsky, J. Appl. Crystallogr. 2012, 45, 324.
+[63]	 S. D. Oosterhout, V. Savikhin, J. Zhang, Y. Zhang, M. A. Burgers, 
+S. R.  Marder, G. C.  Bazan, M. F.  Toney, Chem. Mater. 2017, 29, 
+3062.
+Adv. Funct. Mater. 2021, 31, 2104301
+

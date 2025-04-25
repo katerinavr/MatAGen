@@ -1,0 +1,1399 @@
+{
+   "page_3_img_1.png": {
+      "title": "Backbone coplanarity manipulation via hydrogen bonding to boost the n-type performance of polymeric mixed conductors operating in aqueous electrolyte",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Backbone_coplanarity_manipulation\\Backbone_coplanarity_manipulation",
+      "image_url": [],
+      "figure_name": "page_3_img_1.png",
+      "full_caption": "Scheme 1. NDI-based copolymers synthesized in this work (the color represents the resulting polymer film color). Reaction conditions: (a) trans-1, 2-bis(tri-n-butylstannyl)ethene, Pd2(dba)3, P(o-tol)3, toluene, 110 \u00b0C, 24 h; (b) 2,5-bis(trimethylstannyl)thiophene, Pd2(dba)3, P(o-tol)3, toluene, 110 \u00b0C, 24 h.",
+      "figure_path": "output\\figures\\page_3_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 470,
+            "width": 1858,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1858,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 470
+               },
+               {
+                  "x": 1858,
+                  "y": 470
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1858,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 470
+                  },
+                  {
+                     "x": 1858,
+                     "y": 470
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_4_img_1.png": {
+      "title": "Backbone coplanarity manipulation via hydrogen bonding to boost the n-type performance of polymeric mixed conductors operating in aqueous electrolyte",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Backbone_coplanarity_manipulation\\Backbone_coplanarity_manipulation",
+      "image_url": [],
+      "figure_name": "page_4_img_1.png",
+      "full_caption": "Fig. 2. (a) The optimized molecular geometries and dihedral angles of NDI-based trimers. The red and blue circles present the distance between the O atom from NDI and the H atom from the vinylene or thiophene unit. (b) Torsion energy profiles of the gNDI-V and gNDI-T trimers. (c) Energy levels and visualization of LUMOs and HOMOs of NDI-based trimers.",
+      "figure_path": "output\\figures\\page_4_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9571273922920227,
+            "height": 689,
+            "width": 719,
+            "geometry": [
+               {
+                  "x": 782,
+                  "y": 0
+               },
+               {
+                  "x": 1501,
+                  "y": 0
+               },
+               {
+                  "x": 782,
+                  "y": 689
+               },
+               {
+                  "x": 1501,
+                  "y": 689
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 782,
+                     "y": 0
+                  },
+                  {
+                     "x": 1501,
+                     "y": 0
+                  },
+                  {
+                     "x": 782,
+                     "y": 689
+                  },
+                  {
+                     "x": 1501,
+                     "y": 689
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Torsion energy profiles of the gNDI-V and gNDI-T trimers.",
+            "keywords": [
+               "Torsion energy",
+               "gNDI trimers"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9523341655731201,
+            "height": 689,
+            "width": 756,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 756,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 689
+               },
+               {
+                  "x": 756,
+                  "y": 689
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 756,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 689
+                  },
+                  {
+                     "x": 756,
+                     "y": 689
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "The optimized molecular geometries and dihedral angles of NDI-based trimers. The red and blue circles present the distance between the O atom from NDI and the H atom from the vinylene or thiophene unit.",
+            "keywords": [
+               "Molecular geometry",
+               "Dihedral angles",
+               "NDI-based trimers"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "c",
+               "description": "Energy levels and visualization of LUMOs and HOMOs of NDI-based trimers.",
+               "keywords": [
+                  "Energy levels",
+                  "LUMO",
+                  "HOMO"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_4_img_2.png": {
+      "title": "Backbone coplanarity manipulation via hydrogen bonding to boost the n-type performance of polymeric mixed conductors operating in aqueous electrolyte",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Backbone_coplanarity_manipulation\\Backbone_coplanarity_manipulation",
+      "image_url": [],
+      "figure_name": "page_4_img_2.png",
+      "full_caption": "Fig. 1. (a) UV-vis-NIR absorption spectra of NDI-based copolymers. (b) Cyclic voltammetry of the polymer films in 0.1 M tetrabutylammonium hexafluorophosphate (n-Bu4NPF6) acetonitrile solution at a scan rate of 100 mV s\u22121.",
+      "figure_path": "output\\figures\\page_4_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.513959527015686,
+            "height": 490,
+            "width": 482,
+            "geometry": [
+               {
+                  "x": 1269,
+                  "y": 0
+               },
+               {
+                  "x": 1751,
+                  "y": 0
+               },
+               {
+                  "x": 1269,
+                  "y": 490
+               },
+               {
+                  "x": 1751,
+                  "y": 490
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 1269,
+                     "y": 0
+                  },
+                  {
+                     "x": 1751,
+                     "y": 0
+                  },
+                  {
+                     "x": 1269,
+                     "y": 490
+                  },
+                  {
+                     "x": 1751,
+                     "y": 490
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Cyclic voltammetry of the polymer films in 0.1 M tetrabutylammonium hexafluorophosphate (n-Bu4NPF6) acetonitrile solution at a scan rate of 100 mV s\u22121.",
+            "keywords": [
+               "Cyclic voltammetry",
+               "polymer films",
+               "acetonitrile solution"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.2838805317878723,
+            "height": 1036,
+            "width": 605,
+            "geometry": [
+               {
+                  "x": 649,
+                  "y": 0
+               },
+               {
+                  "x": 1254,
+                  "y": 0
+               },
+               {
+                  "x": 649,
+                  "y": 1036
+               },
+               {
+                  "x": 1254,
+                  "y": 1036
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 649,
+                     "y": 0
+                  },
+                  {
+                     "x": 1254,
+                     "y": 0
+                  },
+                  {
+                     "x": 649,
+                     "y": 1036
+                  },
+                  {
+                     "x": 1254,
+                     "y": 1036
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "UV-vis-NIR absorption spectra of NDI-based copolymers.",
+            "keywords": [
+               "UV-vis-NIR",
+               "absorption",
+               "copolymers"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.19035835564136505,
+            "height": 591,
+            "width": 619,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 441
+               },
+               {
+                  "x": 619,
+                  "y": 441
+               },
+               {
+                  "x": 0,
+                  "y": 1032
+               },
+               {
+                  "x": 619,
+                  "y": 1032
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 441
+                  },
+                  {
+                     "x": 619,
+                     "y": 441
+                  },
+                  {
+                     "x": 0,
+                     "y": 1032
+                  },
+                  {
+                     "x": 619,
+                     "y": 1032
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_5_img_1.png": {
+      "title": "Backbone coplanarity manipulation via hydrogen bonding to boost the n-type performance of polymeric mixed conductors operating in aqueous electrolyte",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Backbone_coplanarity_manipulation\\Backbone_coplanarity_manipulation",
+      "image_url": [],
+      "figure_name": "page_5_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_5_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9306058883666992,
+            "height": 594,
+            "width": 654,
+            "geometry": [
+               {
+                  "x": 1083,
+                  "y": 572
+               },
+               {
+                  "x": 1737,
+                  "y": 572
+               },
+               {
+                  "x": 1083,
+                  "y": 1166
+               },
+               {
+                  "x": 1737,
+                  "y": 1166
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1083,
+                     "y": 572
+                  },
+                  {
+                     "x": 1737,
+                     "y": 572
+                  },
+                  {
+                     "x": 1083,
+                     "y": 1166
+                  },
+                  {
+                     "x": 1737,
+                     "y": 1166
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9128049612045288,
+            "height": 591,
+            "width": 554,
+            "geometry": [
+               {
+                  "x": 1,
+                  "y": 575
+               },
+               {
+                  "x": 555,
+                  "y": 575
+               },
+               {
+                  "x": 1,
+                  "y": 1166
+               },
+               {
+                  "x": 555,
+                  "y": 1166
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 575
+                  },
+                  {
+                     "x": 555,
+                     "y": 575
+                  },
+                  {
+                     "x": 1,
+                     "y": 1166
+                  },
+                  {
+                     "x": 555,
+                     "y": 1166
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9121443033218384,
+            "height": 578,
+            "width": 877,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 877,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 578
+               },
+               {
+                  "x": 877,
+                  "y": 578
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 877,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 578
+                  },
+                  {
+                     "x": 877,
+                     "y": 578
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.324199378490448,
+            "height": 581,
+            "width": 511,
+            "geometry": [
+               {
+                  "x": 573,
+                  "y": 584
+               },
+               {
+                  "x": 1084,
+                  "y": 584
+               },
+               {
+                  "x": 573,
+                  "y": 1165
+               },
+               {
+                  "x": 1084,
+                  "y": 1165
+               }
+            ],
+            "subfigure_label": {
+               "text": "e",
+               "geometry": [
+                  {
+                     "x": 573,
+                     "y": 584
+                  },
+                  {
+                     "x": 1084,
+                     "y": 584
+                  },
+                  {
+                     "x": 573,
+                     "y": 1165
+                  },
+                  {
+                     "x": 1084,
+                     "y": 1165
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_6_img_1.png": {
+      "title": "Backbone coplanarity manipulation via hydrogen bonding to boost the n-type performance of polymeric mixed conductors operating in aqueous electrolyte",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Backbone_coplanarity_manipulation\\Backbone_coplanarity_manipulation",
+      "image_url": [],
+      "figure_name": "page_6_img_1.png",
+      "full_caption": "Fig. 4 Reversible charging of (a) gNDI-V (\u22120.65 V to 0.65 V) and (b) gNDI-T (\u22120.50 V to 0.50 V) with 0.1 M KClaq electrolyte over 150 cycles at a scan rate of 100 mV s\u22121. The arrows indicate scan directions. (c) gNDI-V and (d) gNDI-T were measured by CV measurements at different scan rates from 10 to 1000 mV s\u22121, and the extracted peak current density in CVs is shown as a function of the square roots of scan rates.",
+      "figure_path": "output\\figures\\page_6_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9679468870162964,
+            "height": 688,
+            "width": 724,
+            "geometry": [
+               {
+                  "x": 779,
+                  "y": 656
+               },
+               {
+                  "x": 1503,
+                  "y": 656
+               },
+               {
+                  "x": 779,
+                  "y": 1344
+               },
+               {
+                  "x": 1503,
+                  "y": 1344
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 779,
+                     "y": 656
+                  },
+                  {
+                     "x": 1503,
+                     "y": 656
+                  },
+                  {
+                     "x": 779,
+                     "y": 1344
+                  },
+                  {
+                     "x": 1503,
+                     "y": 1344
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "gNDI-T were measured by CV measurements at different scan rates from 10 to 1000 mV s\u22121, and the extracted peak current density in CVs is shown as a function of the square roots of scan rates.",
+            "keywords": [
+               "CV measurements",
+               "scan rates",
+               "peak current density"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9642063975334167,
+            "height": 689,
+            "width": 751,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 654
+               },
+               {
+                  "x": 751,
+                  "y": 654
+               },
+               {
+                  "x": 0,
+                  "y": 1343
+               },
+               {
+                  "x": 751,
+                  "y": 1343
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 654
+                  },
+                  {
+                     "x": 751,
+                     "y": 654
+                  },
+                  {
+                     "x": 0,
+                     "y": 1343
+                  },
+                  {
+                     "x": 751,
+                     "y": 1343
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "gNDI-T (\u22120.50 V to 0.50 V) with 0.1 M KClaq electrolyte over 150 cycles at a scan rate of 100 mV s\u22121. The arrows indicate scan directions.",
+            "keywords": [
+               "Cyclic Voltammetry",
+               "Electrolyte",
+               "Scan Rate"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9579638838768005,
+            "height": 671,
+            "width": 728,
+            "geometry": [
+               {
+                  "x": 775,
+                  "y": 0
+               },
+               {
+                  "x": 1503,
+                  "y": 0
+               },
+               {
+                  "x": 775,
+                  "y": 671
+               },
+               {
+                  "x": 1503,
+                  "y": 671
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 775,
+                     "y": 0
+                  },
+                  {
+                     "x": 1503,
+                     "y": 0
+                  },
+                  {
+                     "x": 775,
+                     "y": 671
+                  },
+                  {
+                     "x": 1503,
+                     "y": 671
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "gNDI-V were measured by CV measurements at different scan rates from 10 to 1000 mV s\u22121, and the extracted peak current density in CVs is shown as a function of the square roots of scan rates.",
+            "keywords": [
+               "CV measurements",
+               "scan rates",
+               "peak current density"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.955156147480011,
+            "height": 661,
+            "width": 751,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 751,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 661
+               },
+               {
+                  "x": 751,
+                  "y": 661
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 751,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 661
+                  },
+                  {
+                     "x": 751,
+                     "y": 661
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "gNDI-V (\u22120.65 V to 0.65 V) with 0.1 M KClaq electrolyte over 150 cycles at a scan rate of 100 mV s\u22121. The arrows indicate scan directions.",
+            "keywords": [
+               "Cyclic Voltammetry",
+               "Electrolyte",
+               "Scan Rate"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_7_img_1.png": {
+      "title": "Backbone coplanarity manipulation via hydrogen bonding to boost the n-type performance of polymeric mixed conductors operating in aqueous electrolyte",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Backbone_coplanarity_manipulation\\Backbone_coplanarity_manipulation",
+      "image_url": [],
+      "figure_name": "page_7_img_1.png",
+      "full_caption": "Fig. 5 (a) Spectroelectrochemical measurements of NDI copolymers, monitoring the evolution of the absorption spectra of polymer thin films between +0.1 V and \u22120.7 V vs. Ag/AgCl at a scan rate of 100 mV s\u22121, voltage step of 0.1 V. (b) Integrals of the polaron absorption and the ICT absorption with the charging period from 0.1 V to \u22120.7 V vs. Ag/AgCl in 0.1 M KCl aqueous solution. (c) Time-dependent transmittance changes during bleaching (\u22120.7 V) and coloration (0.1 V) of electrochromic properties based on gNDI-V and gNDI-T, recorded at 532 nm and 623 nm, respectively.",
+      "figure_path": "output\\figures\\page_7_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.858132541179657,
+            "height": 441,
+            "width": 585,
+            "geometry": [
+               {
+                  "x": 618,
+                  "y": 0
+               },
+               {
+                  "x": 1203,
+                  "y": 0
+               },
+               {
+                  "x": 618,
+                  "y": 441
+               },
+               {
+                  "x": 1203,
+                  "y": 441
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 618,
+                     "y": 0
+                  },
+                  {
+                     "x": 1203,
+                     "y": 0
+                  },
+                  {
+                     "x": 618,
+                     "y": 441
+                  },
+                  {
+                     "x": 1203,
+                     "y": 441
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Integrals of the polaron absorption and the ICT absorption with the charging period from 0.1 V to \u22120.7 V vs. Ag/AgCl in 0.1 M KCl aqueous solution.",
+            "keywords": [
+               "Polaron absorption",
+               "ICT absorption",
+               "Electrochemistry"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.7864755392074585,
+            "height": 447,
+            "width": 639,
+            "geometry": [
+               {
+                  "x": 1215,
+                  "y": 0
+               },
+               {
+                  "x": 1854,
+                  "y": 0
+               },
+               {
+                  "x": 1215,
+                  "y": 447
+               },
+               {
+                  "x": 1854,
+                  "y": 447
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1215,
+                     "y": 0
+                  },
+                  {
+                     "x": 1854,
+                     "y": 0
+                  },
+                  {
+                     "x": 1215,
+                     "y": 447
+                  },
+                  {
+                     "x": 1854,
+                     "y": 447
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Time-dependent transmittance changes during bleaching (\u22120.7 V) and coloration (0.1 V) of electrochromic properties based on gNDI-V and gNDI-T, recorded at 532 nm and 623 nm, respectively.",
+            "keywords": [
+               "Electrochromic properties",
+               "Transmittance changes",
+               "Wavelengths"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.603593647480011,
+            "height": 512,
+            "width": 1825,
+            "geometry": [
+               {
+                  "x": 46,
+                  "y": 452
+               },
+               {
+                  "x": 1871,
+                  "y": 452
+               },
+               {
+                  "x": 46,
+                  "y": 964
+               },
+               {
+                  "x": 1871,
+                  "y": 964
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 46,
+                     "y": 452
+                  },
+                  {
+                     "x": 1871,
+                     "y": 452
+                  },
+                  {
+                     "x": 46,
+                     "y": 964
+                  },
+                  {
+                     "x": 1871,
+                     "y": 964
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.39660483598709106,
+            "height": 958,
+            "width": 600,
+            "geometry": [
+               {
+                  "x": 3,
+                  "y": 0
+               },
+               {
+                  "x": 603,
+                  "y": 0
+               },
+               {
+                  "x": 3,
+                  "y": 958
+               },
+               {
+                  "x": 603,
+                  "y": 958
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 3,
+                     "y": 0
+                  },
+                  {
+                     "x": 603,
+                     "y": 0
+                  },
+                  {
+                     "x": 3,
+                     "y": 958
+                  },
+                  {
+                     "x": 603,
+                     "y": 958
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Spectroelectrochemical measurements of NDI copolymers, monitoring the evolution of the absorption spectra of polymer thin films between +0.1 V and \u22120.7 V vs. Ag/AgCl at a scan rate of 100 mV s\u22121, voltage step of 0.1 V.",
+            "keywords": [
+               "Spectroelectrochemistry",
+               "NDI copolymers",
+               "Absorption spectra"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_9_img_1.png": {
+      "title": "Backbone coplanarity manipulation via hydrogen bonding to boost the n-type performance of polymeric mixed conductors operating in aqueous electrolyte",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Backbone_coplanarity_manipulation\\Backbone_coplanarity_manipulation",
+      "image_url": [],
+      "figure_name": "page_9_img_1.png",
+      "full_caption": "Fig. 6 (a and b) Output characteristics of OECTs based on gNDI-V and gNDI-T; (c and d) Transfer curve and transconductance gm of the OECTs based on gNDI-V and gNDI-T. Devices were performed at a drain bias of VDS = 0.4 V with a 0.1 M KCl aqueous electrolyte. (e) Plots of the transconductance against channel geometry and operation parameters to extract the associated \u03bcC*. (f) The figure of merit \u03bcC* for n-type NDI-based copolymers as a function of electron mobility (\u03bce).",
+      "figure_path": "output\\figures\\page_9_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9746973514556885,
+            "height": 538,
+            "width": 630,
+            "geometry": [
+               {
+                  "x": 618,
+                  "y": 537
+               },
+               {
+                  "x": 1248,
+                  "y": 537
+               },
+               {
+                  "x": 618,
+                  "y": 1075
+               },
+               {
+                  "x": 1248,
+                  "y": 1075
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 618,
+                     "y": 537
+                  },
+                  {
+                     "x": 1248,
+                     "y": 537
+                  },
+                  {
+                     "x": 618,
+                     "y": 1075
+                  },
+                  {
+                     "x": 1248,
+                     "y": 1075
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Transfer curve and transconductance gm of the OECTs based on gNDI-T. Devices were performed at a drain bias of VDS = 0.4 V with a 0.1 M KCl aqueous electrolyte.",
+            "keywords": [
+               "OECTs",
+               "gNDI-T",
+               "KCl electrolyte"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9711109399795532,
+            "height": 539,
+            "width": 644,
+            "geometry": [
+               {
+                  "x": 618,
+                  "y": 0
+               },
+               {
+                  "x": 1262,
+                  "y": 0
+               },
+               {
+                  "x": 618,
+                  "y": 539
+               },
+               {
+                  "x": 1262,
+                  "y": 539
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 618,
+                     "y": 0
+                  },
+                  {
+                     "x": 1262,
+                     "y": 0
+                  },
+                  {
+                     "x": 618,
+                     "y": 539
+                  },
+                  {
+                     "x": 1262,
+                     "y": 539
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Transfer curve and transconductance gm of the OECTs based on gNDI-V",
+            "keywords": [
+               "OECTs",
+               "transfer curve",
+               "transconductance"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.971010684967041,
+            "height": 537,
+            "width": 591,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 536
+               },
+               {
+                  "x": 591,
+                  "y": 536
+               },
+               {
+                  "x": 0,
+                  "y": 1073
+               },
+               {
+                  "x": 591,
+                  "y": 1073
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 536
+                  },
+                  {
+                     "x": 591,
+                     "y": 536
+                  },
+                  {
+                     "x": 0,
+                     "y": 1073
+                  },
+                  {
+                     "x": 591,
+                     "y": 1073
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Output characteristics of OECTs based on gNDI-T",
+            "keywords": [
+               "OECTs",
+               "gNDI-T",
+               "output characteristics"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9683713912963867,
+            "height": 538,
+            "width": 589,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 589,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 538
+               },
+               {
+                  "x": 589,
+                  "y": 538
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 589,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 538
+                  },
+                  {
+                     "x": 589,
+                     "y": 538
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Output characteristics of OECTs based on gNDI-V",
+            "keywords": [
+               "OECTs",
+               "gNDI-V",
+               "output characteristics"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.960627019405365,
+            "height": 543,
+            "width": 583,
+            "geometry": [
+               {
+                  "x": 1271,
+                  "y": 534
+               },
+               {
+                  "x": 1854,
+                  "y": 534
+               },
+               {
+                  "x": 1271,
+                  "y": 1077
+               },
+               {
+                  "x": 1854,
+                  "y": 1077
+               }
+            ],
+            "subfigure_label": {
+               "text": "f",
+               "geometry": [
+                  {
+                     "x": 1271,
+                     "y": 534
+                  },
+                  {
+                     "x": 1854,
+                     "y": 534
+                  },
+                  {
+                     "x": 1271,
+                     "y": 1077
+                  },
+                  {
+                     "x": 1854,
+                     "y": 1077
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "The figure of merit \u03bcC* for n-type NDI-based copolymers as a function of electron mobility (\u03bce).",
+            "keywords": [
+               "NDI-copolymers",
+               "electron mobility",
+               "figure of merit"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9582197070121765,
+            "height": 535,
+            "width": 576,
+            "geometry": [
+               {
+                  "x": 1277,
+                  "y": 1
+               },
+               {
+                  "x": 1853,
+                  "y": 1
+               },
+               {
+                  "x": 1277,
+                  "y": 536
+               },
+               {
+                  "x": 1853,
+                  "y": 536
+               }
+            ],
+            "subfigure_label": {
+               "text": "e",
+               "geometry": [
+                  {
+                     "x": 1277,
+                     "y": 1
+                  },
+                  {
+                     "x": 1853,
+                     "y": 1
+                  },
+                  {
+                     "x": 1277,
+                     "y": 536
+                  },
+                  {
+                     "x": 1853,
+                     "y": 536
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Plots of the transconductance against channel geometry and operation parameters to extract the associated \u03bcC*.",
+            "keywords": [
+               "Transconductance",
+               "Channel Geometry",
+               "Operation Parameters"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   }
+}

@@ -1,0 +1,369 @@
+{
+   "page_2_img_1.png": {
+      "title": "Self\u2010Assembly Behavior of an Oligothiophene\u2010Based Conjugated Liquid Crystal and Its Implication for Ionic Conductivity Characteristics",
+      "article_name": "C:/Users/kvriz/Desktop/DataMiningAgents/data/pdf_examples\\4T-PEO4",
+      "image_url": [],
+      "figure_name": "page_2_img_1.png",
+      "full_caption": "Scheme 1. Synthetic procedure of 4T/PEO4.",
+      "figure_path": "output\\figures\\page_2_img_1.png",
+      "master_images": [],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_3_img_1.png": {
+      "title": "Self\u2010Assembly Behavior of an Oligothiophene\u2010Based Conjugated Liquid Crystal and Its Implication for Ionic Conductivity Characteristics",
+      "article_name": "C:/Users/kvriz/Desktop/DataMiningAgents/data/pdf_examples\\4T-PEO4",
+      "image_url": [],
+      "figure_name": "page_3_img_1.png",
+      "full_caption": "Figure 1. DSC traces (10 \u00b0C min\u22121) and POM images of 4T/PEO4-LiTFSI complexes: a) first cooling scans (indicated by black arrows) and second subsequent heating scans (indicated by red arrows) of 4T/PEO-LiTFSI complexes (r = 0, r = 0.01, r = 0.05). b,c) POM image of pristine 4T/PEO4 (r = 0) on cooling from isotropic melt at 95 and 60 \u00b0C. d,e) POM image of 4T/PEO4-LiTFSI complex (r = 0.01) on cooling from isotropic melt at 75 and 40 \u00b0C, and f,g) POM image of 4T/PEO4-LiTFSI complex (r = 0.05) on cooling from isotropic melt at 97 and 50 \u00b0C (scale bar: 100 \u03bcm).",
+      "figure_path": "output\\figures\\page_3_img_1.png",
+      "master_images": [],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "a",
+               "description": "first cooling scans (indicated by black arrows) and second subsequent heating scans (indicated by red arrows) of 4T/PEO-LiTFSI complexes (r = 0, r = 0.01, r = 0.05).",
+               "keywords": [
+                  "Differential Scanning Calorimetry (DSC)"
+               ]
+            },
+            {
+               "label": "b",
+               "description": "POM image of pristine 4T/PEO4 (r = 0) on cooling from isotropic melt at 95 and 60 \u00b0C.",
+               "keywords": [
+                  "POM",
+                  "4T/PEO4",
+                  "cooling"
+               ]
+            },
+            {
+               "label": "c",
+               "description": "POM image of pristine 4T/PEO4 (r = 0) on cooling from isotropic melt at 95 and 60 \u00b0C.",
+               "keywords": [
+                  "POM",
+                  "4T/PEO4",
+                  "cooling"
+               ]
+            },
+            {
+               "label": "d",
+               "description": "POM image of 4T/PEO4-LiTFSI complex (r = 0.01) on cooling from isotropic melt at 75 and 40 \u00b0C.",
+               "keywords": [
+                  "POM",
+                  "4T/PEO4-LiTFSI",
+                  "cooling"
+               ]
+            },
+            {
+               "label": "e",
+               "description": "POM image of 4T/PEO4-LiTFSI complex (r = 0.01) on cooling from isotropic melt at 75 and 40 \u00b0C.",
+               "keywords": [
+                  "POM",
+                  "4T/PEO4-LiTFSI",
+                  "cooling"
+               ]
+            },
+            {
+               "label": "f",
+               "description": "POM image of 4T/PEO4-LiTFSI complex (r = 0.05) on cooling from isotropic melt at 97 and 50 \u00b0C (scale bar: 100 \u03bcm).",
+               "keywords": [
+                  "POM",
+                  "complex",
+                  "cooling"
+               ]
+            },
+            {
+               "label": "g",
+               "description": "POM image of 4T/PEO4-LiTFSI complex (r = 0.05) on cooling from isotropic melt at 97 and 50 \u00b0C (scale bar: 100 \u03bcm).",
+               "keywords": [
+                  "POM",
+                  "complex",
+                  "cooling"
+               ]
+            }
+         ]
+      },
+      "caption_delimiter": 0
+   },
+   "page_4_img_1.png": {
+      "title": "Self\u2010Assembly Behavior of an Oligothiophene\u2010Based Conjugated Liquid Crystal and Its Implication for Ionic Conductivity Characteristics",
+      "article_name": "C:/Users/kvriz/Desktop/DataMiningAgents/data/pdf_examples\\4T-PEO4",
+      "image_url": [],
+      "figure_name": "page_4_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_4_img_1.png",
+      "master_images": [],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_5_img_1.png": {
+      "title": "Self\u2010Assembly Behavior of an Oligothiophene\u2010Based Conjugated Liquid Crystal and Its Implication for Ionic Conductivity Characteristics",
+      "article_name": "C:/Users/kvriz/Desktop/DataMiningAgents/data/pdf_examples\\4T-PEO4",
+      "image_url": [],
+      "figure_name": "page_5_img_1.png",
+      "full_caption": "Figure 3. Representative geometrically corrected GIWAXS patterns of 4T/PEO4-LiTFSI complex thin film at selected temperatures during heating and cooling processes: a) r = 0 and b) r = 0.05. Thin film of pristine 4T/PEO4 compound (r = 0) at (a) 25 \u00b0C (as-cast), (b) 123 \u00b0C (during heating), and (c) 25 \u00b0C (after annealed). Thin film of 4T/PEO4-LiTFSI complex (r = 0.01) at (d) 25 \u00b0C (as-cast), (e) 123 \u00b0C (during heating), and (f) 25 \u00b0C (after annealed). Thin film of 4T/PEO4-LiTFSI complex (r = 0.05) at (g) 25 \u00b0C (as-cast), (h) 123 \u00b0C (during heating), and (i) 25 \u00b0C (after annealed). All samples were annealed at each temperature for 20 min to reach equilibrium. The arrows in (c), (f), and (i) indicate the peak broadening along the azimuthal direction.",
+      "figure_path": "output\\figures\\page_5_img_1.png",
+      "master_images": [],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "a",
+               "description": "r = 0",
+               "keywords": [
+                  "Polymer",
+                  "Morphology",
+                  "Microscopy"
+               ]
+            },
+            {
+               "label": "b",
+               "description": "r = 0.05",
+               "keywords": [
+                  "Material",
+                  "Characterization",
+                  "Technique"
+               ]
+            }
+         ]
+      },
+      "caption_delimiter": 0
+   },
+   "page_6_img_1.png": {
+      "title": "Self\u2010Assembly Behavior of an Oligothiophene\u2010Based Conjugated Liquid Crystal and Its Implication for Ionic Conductivity Characteristics",
+      "article_name": "C:/Users/kvriz/Desktop/DataMiningAgents/data/pdf_examples\\4T-PEO4",
+      "image_url": [],
+      "figure_name": "page_6_img_1.png",
+      "full_caption": "Figure 4. Vertical linecuts of (00h) spot sequence for 4T/PEO4-LiTFSI complexes at different temperatures for a,d) r = 0, b,e) r = 0.01, and c,f) r = 0.05 during each heating and cooling processes. The curves are vertically translated for better comparison.",
+      "figure_path": "output\\figures\\page_6_img_1.png",
+      "master_images": [],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "a",
+               "description": "Vertical linecuts of (00h) spot sequence for 4T/PEO4-LiTFSI complexes at different temperatures for r = 0 during each heating and cooling processes.",
+               "keywords": [
+                  "X-ray diffraction",
+                  "temperature dependence",
+                  "polymer electrolyte"
+               ]
+            },
+            {
+               "label": "b",
+               "description": "Vertical linecuts of (00h) spot sequence for 4T/PEO4-LiTFSI complexes at different temperatures for r = 0.01 during each heating and cooling processes.",
+               "keywords": [
+                  "X-ray diffraction",
+                  "temperature dependence",
+                  "polymer electrolyte"
+               ]
+            },
+            {
+               "label": "c",
+               "description": "Vertical linecuts of (00h) spot sequence for 4T/PEO4-LiTFSI complexes at different temperatures for r = 0.05 during each heating and cooling processes.",
+               "keywords": [
+                  "X-ray diffraction",
+                  "temperature",
+                  "polymer electrolyte"
+               ]
+            },
+            {
+               "label": "d",
+               "description": "Vertical linecuts of (00h) spot sequence for 4T/PEO4-LiTFSI complexes at different temperatures for r = 0 during each heating and cooling processes.",
+               "keywords": [
+                  "X-ray diffraction",
+                  "temperature",
+                  "polymer electrolytes"
+               ]
+            },
+            {
+               "label": "e",
+               "description": "Vertical linecuts of (00h) spot sequence for 4T/PEO4-LiTFSI complexes at different temperatures for r = 0.01 during each heating and cooling processes.",
+               "keywords": [
+                  "X-ray diffraction",
+                  "temperature",
+                  "polymer electrolyte"
+               ]
+            },
+            {
+               "label": "f",
+               "description": "Vertical linecuts of (00h) spot sequence for 4T/PEO4-LiTFSI complexes at different temperatures for r = 0.05 during each heating and cooling processes.",
+               "keywords": [
+                  "X-ray diffraction",
+                  "temperature",
+                  "polymer electrolytes"
+               ]
+            }
+         ]
+      },
+      "caption_delimiter": 0
+   },
+   "page_7_img_1.png": {
+      "title": "Self\u2010Assembly Behavior of an Oligothiophene\u2010Based Conjugated Liquid Crystal and Its Implication for Ionic Conductivity Characteristics",
+      "article_name": "C:/Users/kvriz/Desktop/DataMiningAgents/data/pdf_examples\\4T-PEO4",
+      "image_url": [],
+      "figure_name": "page_7_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_7_img_1.png",
+      "master_images": [],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_8_img_1.png": {
+      "title": "Self\u2010Assembly Behavior of an Oligothiophene\u2010Based Conjugated Liquid Crystal and Its Implication for Ionic Conductivity Characteristics",
+      "article_name": "C:/Users/kvriz/Desktop/DataMiningAgents/data/pdf_examples\\4T-PEO4",
+      "image_url": [],
+      "figure_name": "page_8_img_1.png",
+      "full_caption": "Figure 6. a) Temperature dependence of lamella stacking distance, b) sphericity of PEO4 chains from simulation, c) \u03c0\u2013\u03c0 stacking distance, and d) FWHM of the (002) peaks extracted from experimental GIWAXS data of 4T/PEO4-LiTFSI complexes of r = 0, 0.01, and 0.05. The corresponding simulation results for r = 0 sample are also shown in (a) and (c). The simulated sphericity of PEO4 chains as a function of temperature is shown in (b). The gray-shaded areas represent order\u2013disorder transition region.",
+      "figure_path": "output\\figures\\page_8_img_1.png",
+      "master_images": [],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "a",
+               "description": "Temperature dependence of lamella stacking distance",
+               "keywords": [
+                  "Temperature",
+                  "Lamella",
+                  "Stacking"
+               ]
+            },
+            {
+               "label": "b",
+               "description": "Sphericity of PEO4 chains from simulation",
+               "keywords": [
+                  "Sphericity",
+                  "PEO4",
+                  "Simulation"
+               ]
+            },
+            {
+               "label": "c",
+               "description": "\u03c0\u2013\u03c0 stacking distance",
+               "keywords": [
+                  "\u03c0\u2013\u03c0 stacking",
+                  "distance"
+               ]
+            },
+            {
+               "label": "d",
+               "description": "FWHM of the (002) peaks extracted from experimental GIWAXS data of 4T/PEO4-LiTFSI complexes of r = 0, 0.01, and 0.05",
+               "keywords": [
+                  "GIWAXS",
+                  "4T/PEO4-LiTFSI",
+                  "FWHM"
+               ]
+            }
+         ]
+      },
+      "caption_delimiter": 0
+   },
+   "page_9_img_1.png": {
+      "title": "Self\u2010Assembly Behavior of an Oligothiophene\u2010Based Conjugated Liquid Crystal and Its Implication for Ionic Conductivity Characteristics",
+      "article_name": "C:/Users/kvriz/Desktop/DataMiningAgents/data/pdf_examples\\4T-PEO4",
+      "image_url": [],
+      "figure_name": "page_9_img_1.png",
+      "full_caption": "Figure 7. a) Optical microscope image of an interdigitated gold electrode device (IDE) used for ionic conductivity measurement, and b) ionic conductivities of LiTFSI-blended 4T/PEO4 thin film at r = 0.01 and r = 0.05 as a function of temperature during heating and cooling processes. The gray-shaded area indicates the order\u2013disorder transition regime.",
+      "figure_path": "output\\figures\\page_9_img_1.png",
+      "master_images": [],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "a",
+               "description": "Optical microscope image of an interdigitated gold electrode device (IDE) used for ionic conductivity measurement",
+               "keywords": [
+                  "Gold electrodes",
+                  "Ionic conductivity",
+                  "Microscopy"
+               ]
+            },
+            {
+               "label": "b",
+               "description": "Ionic conductivities of LiTFSI-blended 4T/PEO4 thin film at r = 0.01 and r = 0.05 as a function of temperature during heating and cooling processes. The gray-shaded area indicates the order\u2013disorder transition regime.",
+               "keywords": [
+                  "Ionic conductivity",
+                  "Temperature",
+                  "Transition"
+               ]
+            }
+         ]
+      },
+      "caption_delimiter": 0
+   }
+}

@@ -1,0 +1,1246 @@
+This document is confidential and is proprietary to the American Chemical Society and its authors. Do not 
+copy or disclose without written permission. If you have received this item in error, notify the sender and 
+delete all copies.
+PyOpticon: An Open-Source Python Package for Laboratory 
+Control, Automation, and Visualization
+Journal:
+Chemistry of Materials
+Manuscript ID
+cm-2025-00644g
+Manuscript Type:
+Methods/Protocols
+Date Submitted by the 
+Author:
+14-Mar-2025
+Complete List of Authors:
+Randall, Richard; Stanford University, Mechanical Engineering
+Majumdar, Arun; Stanford University, Department of Mechanical 
+Engineering
+ 
+ACS Paragon Plus Environment
+Chemistry of Materials
+
+---
+PyOpticon: An Open-Source Python Package for Laboratory Control, 
+Automation, and Visualization 
+ 
+R. Randall1, A. Majumdar1,2 
+ 
+1 Department of Mechanical Engineering 
+2 Precourt Institute for Energy, Woods Institute for the Environment, and Doerr School of Sustainability 
+Stanford University, Stanford, CA, 94305, USA 
+ 
+Emails: rrandall@stanford.edu, amajumdar@stanford.edu  
+ 
+Abstract 
+In modern materials science and chemistry laboratories, there are many opportunities for control, data 
+acquisition, and automation software to enhance the quality and throughput of research. Desirable traits 
+for such software include low cost, easy and speedy implementation, compatibility with existing 
+instruments, and the flexibility to build and modify one’s own control software. In this article, we present 
+PyOpticon, a free and open-source Python package for controlling and acquiring data from benchtop 
+experimental setups. 
+ 
+PyOpticon desktop applications, termed ‘dashboards’, provide graphical interfaces to control different 
+combinations of physical devices, each represented onscreen by a ‘widget’. We describe PyOpticon’s 
+features with respect to graphical interfaces, remote control of experimental setups, data logging, safety 
+interlocks, and automation capabilities. We highlight the ability to script complex or repetitive 
+experiments using Python code. While existing commercial software tools offer such features, PyOpticon 
+makes them available for free to researchers with only a basic knowledge of Python, who can then adjust 
+and reconfigure their control software without outside help. Detailed nline documentation and tutorials 
+are available to support new users. We discuss the package’s structure, offer examples of its 
+implementation, and demonstrate its use in experiments on the photocatalytic total oxidation of dilute 
+methane. 
+ 
+Page 1 of 12
+ACS Paragon Plus Environment
+Chemistry of Materials
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+
+---
+Introduction 
+Well-designed systems for laboratory data acquisition, controls, and automation can greatly improve the 
+pace and quality of research in physical  sciences and engineering.1 Such systems’ main goal is to 
+economize researchers’ time and to free them from repetitive tasks. They share many traits with 
+‘supervisory control, automation, and data acquisition’ (SCADA) software that is ubiquitous in industrial 
+settings, whose purpose is to visualize, log, and command the state of a physical system.2 Integrated 
+control and data acquisition systems are also prerequisites for ‘high-throughput’ experimentation, with 
+many samples synthesized and/or tested in parallel, and with the iteration and improvement of samples 
+also partially automated as ‘self-driving labs’.3–5  
+ 
+Though such tools can apply to many workflows in physical science and engineering, and thereby quite 
+general, we mainly provide examples related to our research on heterogeneous photocatalysis. 
+Experimental workflows in this context often involve launching and configuring many desktop programs, 
+manually flipping valves or cycling lights at frequent intervals for several hours during its course, and 
+then painstakingly combining several differently-formatted log files in order to fully understand the 
+outcome. A unified data acquisition, automation, and control system can offer many benefits in that 
+context, including: 
+ 
+●​ Saving researchers time on experimental setup, shutdown, and data analysis by reducing the 
+number or programs to launch and log files to postprocess. 
+●​ Allowing researchers to do other tasks while an automated experiment runs. 
+●​ Increasing repeatability by avoiding human errors and variations in experimental setup and 
+execution. 
+●​ Making it easier and faster to retroactively diagnose equipment failures that led to unexpected 
+results. 
+●​ Enabling longer experiments and higher utilization rates of experimental setups, unlimited by 
+how long a researcher can stay awake or present in the lab. 
+●​ Responding to errors in real time, e.g. pausing an experiment and notifying an operator if an 
+instrument goes offline, minimizing failed experiments and wasted system time. 
+●​ Enhancing safety by automatically detecting dangerous conditions based on one or multiple 
+sensor readings, warning operators of them, and returning the system to a predefined “safe mode” 
+to avert risk until the operator can respond. 
+ 
+Various commercial and open-source tools for these purposes already exist; indeed, industrial SCADA is 
+mostly a solved problem.1,2,6 Such systems provide graphical control panels, referred to as 
+‘human-machine interfaces’ (HMIs), to visualize and control many instruments at once, allow the 
+execution of experimental ‘recipes,’ and log the entire setup state to a central log file. National 
+Instruments’ LabVIEW, with a large ecosystem of programmers and instrument drivers, is very widely 
+used in commercial settings and in large research projects.7 Other similar software includes Siemens’ 
+WinCC and Inductive Automation’s Ignition.8,9 However, the prevalence of manual workflows in 
+academic settings suggests that these solutions are either ill-suited to academic research or that their 
+benefits are not widely understood. Barriers to adoption may include some of the following: 
+ 
+●​ Few researchers have exposure to or formal training in industrial SCADA software. 
+Page 2 of 12
+ACS Paragon Plus Environment
+Chemistry of Materials
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+
+---
+●​ Licenses for commercial SCADA solutions may be costly. 
+●​ Resources may be too constrained to hire a professional SCADA developer at all. 
+●​ Experimental setups may be reconfigured too frequently to justify the upfront cost of a 
+professionally-installed system that will be difficult to modify. 
+●​ Researchers used to text-based programming languages (Python, MATLAB, C, etc.) may be 
+unfamiliar with the graphical programming environments that many commercial SCADA 
+platforms use. 
+ 
+As an alternative to commercial SCADA software, several open-source Python projects have been 
+developed to control laboratory instruments. Examples include Lantz, PyVISA, and PLACE.10–12 These 
+projects take advantage of the Python languages’s readability, conciseness, powerful libraries, and 
+presence in many science curricula.12–14 Researchers curious about automation’s benefits can experiment 
+with these tools at no cost besides their time, a key trait for many academic research labs.1 These 
+packages allow one to create Python objects that can query data from and send commands to a physical 
+device. While it is then easy to program a sequence of actions (e.g. actuating a valve according to a 
+schedule), a great deal of coding and debugging is still required to turn these objects into a streamlined 
+application with a graphical interface, automation, logging, and other capabilities comparable to 
+commercial SCADA software. That coding is unlikely to be worthwhile on an ad-hoc basis for an 
+individual project, but is suitable for inclusion in a general Python package that can apply to many 
+projects, like that presented here. 
+ 
+To meet these needs in our own lab, we have developed PyOpticon, an open-source laboratory control, 
+data acquisition, and automation package written in Python. PyOpticon allows one to create on-screen 
+control panels for physical setups (Figure 1). These control panels, termed ‘dashboards’, can also log data, 
+execute Python automation scripts, and be manipulated via remote desktop applications. Dashboards are 
+constructed in a modular fashion from interfaces for individual devices, termed ‘widgets’, which are 
+configured using simple object-oriented Python code. PyOpticon is available on the Python Package 
+Index, its source code is available on Github at https://github.com/richardsrandall/pyopticon, and its 
+documentation and tutorials are available on ReadTheDocs at https://pyopticon.readthedocs.io.15 
+Software Capabilities and Functionality 
+Each PyOpticon dashboard is a Python script that can be launched from a desktop shortcut like any other 
+application (Figure 1). A dashboard contains one or more ‘widgets,’ each usually providing a graphical 
+interface for one physical device (Figure S1). After launching the dashboard, the user clicks the ‘Start 
+Polling Devices’ button, causing the dashboard to begin regularly updating its component widgets 
+according to methods in the widgets’ class definitions. Updating a widget usually involves querying a 
+physical device via some type of serial connection, parsing the response, and displaying the resulting 
+values in a graphical field. Each widget updates with a period of some integer number of seconds, with 
+updating every second the default. Certain widgets also have text or dropdown input fields, like the ones 
+in Figure 2. Updating an input field and pressing the ‘Confirm’ usually prompts the widget to send a serial 
+command to update the relevant parameters in the physical device. 
+ 
+Page 3 of 12
+ACS Paragon Plus Environment
+Chemistry of Materials
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+
+---
+ 
+Figure 1: A simple PyOpticon dashboard in operation. The dashboard represents a simple flow 
+photoreactor (a) designed to measure photocatalytic conversion of methane to carbon dioxide. It contains  
+three mass flow controllers, one gas analyzer, a thermocouple, an ultraviolet light, and a light power 
+meter. The light power meter is not pictured in the schematic. The corresponding dashboard (b) is 
+organized into three columns and four rows of rectangular ‘widgets’. The four widgets in the leftmost 
+column control system-level functions and are present in all dashboards. The other widgets, aside from 
+the ‘PyOpticon Demo’ title, each represent a physical device. In this example, the system state is being 
+logged every ten seconds (leftmost column, bottom row), and an automation script is running (leftmost 
+column, second row from bottom). 
+ 
+Widgets are defined in Python classes, as will be described below. The script that launches a dashboard 
+contains the code to instantiate all of the dashboard’s widgets and add them to the dashboard in specified 
+positions. Each widget is instantiated by passing a constructor method certain values unique to that 
+physical device, such as a device nickname, a default serial address, or labels for different valve positions. 
+A minimal example is as follows, while a more complex example is in Supplementary Note A: 
+ 
+import pyopticon.majumdar_lab_widgets as mlw 
+import pyopticon.built_in_widgets as biw 
+from pyopticon.dashboard import PyOpticonDashboard 
+# Create a dashboard object 
+dashboard = PyOpticonDashboard(dashboard_name = "PyOpticon Demo", 
+                            use_serial_emulators=True, 
+Page 4 of 12
+ACS Paragon Plus Environment
+Chemistry of Materials
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+
+---
+                            polling_interval_ms=1000, 
+                            window_resizeable=False) 
+# Add a title block 
+dashboard.add_widget(biw.TitleWidget(dashboard,"PyOpticon Demo",20),row=0,column=1) 
+# Add a thermocouple widget 
+tc1 = mlw.OmegaUSBUTCWidget(parent_dashboard=dashboard, 
+                            name='My Thermocouple', 
+                            nickname='My TC', 
+                            default_serial_port='COM14') 
+dashboard.add_widget(tc1,row=3,column=3) 
+# Start the dashboard 
+dashboard.start() 
+ 
+The PyOpticon package contains widgets for several instruments in our own lab (Supplementary Table 1) 
+and contains tools to allow users to create widgets for their own instruments. Numerous commercial 
+instruments have serial communication protocols that can be used to create widgets to interface with 
+them, and widgets are also well-suited to controlling homemade electromechanical devices run by 
+microcontrollers like Arduinos. Early PyOpticon users will likely need to write a widget for every type of 
+instrument they wish to control, using a process outlined below, unless they happen to be using a device 
+for which we provide a built-in widget. However, we hope that users will share the widgets they develop, 
+creating a crowdsourced ecosystem of ready-made widgets for a variety of devices that other users can 
+easily download and use. We intend to post links to any packages of widgets that are shared with us at 
+https://pyopticon.readthedocs.io/en/latest/available_widgets.html.  
+ 
+A dashboard can log data and perform safety checks based on values read from physical devices. When 
+data logging is active, the value of every input and output field of every widget is saved to a 
+comma-separated value file at a regular interval, with ten seconds the default. This single log file can 
+streamline data processing compared to workflows that require combining several different programs’ log 
+files with varying formats and sampling times. Safety checks (termed ‘interlocks’) are Python functions, 
+defined in the same file in which the dashboard is configured, that are called every second by the 
+dashboard to examine the values of certain widget fields and respond if undesirable conditions are 
+detected. For example, if the reading of a reactor thermocouple ever exceeds a certain value, an interlock 
+can switch from flowing reaction gasses to flowing inert glasses. The package also includes a tool to 
+facilitate sending emails and text messages, so it is possible to configure an interlock to notify the 
+researcher if a certain instrument goes offline or deviates from its desired parameters for a certain number 
+of update cycles. 
+ 
+PyOpticon provides two ways to run automated experiments. For the first, termed ‘automation scripts,’ 
+the user writes a Python script containing certain functions [e.g., schedule_action(...), schedule_delay(...)] 
+and control structures, then ‘loads’ that script via an onscreen button. Once the script is loaded, the 
+sequence of actions can be started, paused, unpaused, and aborted via on-screen buttons, while its 
+progress and remaining time can be monitored with on-screen readouts. The script can contain certain 
+structures like for-loops and function definitions to make automation scripts more concise. An example 
+script is included in the Demonstration section below. The following brief snippet, which adjusts an MFC 
+setpoint and then flickers a light on and off, gives a sense of the syntax and basic functions: 
+ 
+schedule_action('Methane MFC','Setpoint Entry','30',False) 
+schedule_action('Methane MFC','Mode Selection','Setpoint',True)# Command the MFC to flow 30 sccm of CH4 
+Page 5 of 12
+ACS Paragon Plus Environment
+Chemistry of Materials
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+
+---
+for i in range(4): # Flicker the light 
+    schedule_delay('0:01:00') 
+    schedule_action('UV Light','Status Selection','On') 
+    schedule_delay('0:01:00') 
+    schedule_action('UV Light','Status Selection','Off') 
+schedule_action('Methane MFC','Mode Selection','Closed',True) # Command the MFC to close 
+ 
+Since these automation scripts are poorly suited for implementing conditional logic (e.g., if-then and 
+while structures), we also provide an interface to query and set dashboard fields from an entirely separate 
+Python program via a socket connection. This interface would be useful if using a dashboard as part of a 
+more complex lab automation setup where automated adjustments or feedback control based on measured 
+values are part of the workflow. An example of the socket interface is included in Supplementary Note B 
+and a minimal example is as follows: 
+ 
+from pyopticon.socket_client import PyOpticonSocketClient 
+import time 
+s = PyOpticonSocketClient(handle_errors='exception') # Initialize the socket client 
+s.set_field("UV Light","Status Selection","On") # Prepare to turn the light on 
+s.do_confirm("UV Light") # Turn the light on 
+time.sleep(10) 
+s.set_field("UV Light","Status Selection","Off") # Prepare to turn the light off 
+s.do_confirm("UV Light") # Turn the light off 
+s.close() # Close the connection 
+ 
+ 
+Software Architecture 
+ 
+Here, we briefly describe the workings of PyOpticon dashboards, especially as they affect the workflow 
+of building new dashboards and widget classes. These workings are described in detail in the project’s 
+documentation. The same site also contains thorough tutorials for using dashboards, writing automation 
+scripts, writing interlocks, assembling dashboards from existing widgets, and defining new widgets to 
+interface with specific devices. 
+ 
+A dashboard’s tasks are split between several threads to minimize latency. A main thread manages the 
+graphical interface, data logging, and automation. By default, each widget also runs in its own thread, 
+allowing widgets to make blocking queries to their serial devices without causing the dashboard to lag or 
+become unresponsive. This setup is useful when using OEM drivers or serial packages that do not offer 
+non-blocking ways to query information from devices. It also allows the use of time.sleep(...) to create 
+delays between successive queries or between queries and responses in widget serial protocols, making 
+them more legible and simpler to write. One can also override this behavior to force multiple widgets to 
+share a thread and operate synchronously, e.g., to prevent them from attempting to access a shared serial 
+resource simultaneously.  Threading is implemented in internal classes and, in normal usage, the user 
+need not be familiar with Python multithreading in order to implement new widgets. 
+ 
+Page 6 of 12
+ACS Paragon Plus Environment
+Chemistry of Materials
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+
+---
+ 
+Figure 2: A graphical representation of the concurrent processes and information flows in an active 
+PyOpticon dashboard. Each widget runs in its own thread, as does the main dashboard. The dashboard 
+regularly prompts each widget to poll its physical device for new measurements, parse the response, and 
+update its graphics with the new data (dark green arrows/boxes). The dashboard also regularly asks each 
+widget for new data to log, aggregates the results, and logs them to a central file (magenta arrows/boxes). 
+The user can change a widget’s input field, e.g. a setpoint entry text box, and then press ‘Confirm,’ which 
+prompts the widget to send the device a command with the desired state (light green arrows/boxes). 
+Automation scripts, whose steps are stored in a queue once loaded, emulate user inputs by automatically 
+changing an input field’s value and then emulating a ‘Confirm’ button press (yellow arrows/boxes). The 
+socket interface can update widget fields and emulate ‘Confirm’ presses in a similar way (light purple 
+arrows/boxes). The interlock checker continuously runs any interlock functions and responds as needed 
+(turquoise arrows). 
+ 
+While writing a class for a new type of widget is somewhat more involved than creating an automation 
+script or configuring a dashboard, we have attempted to streamline the process as much as possible. New 
+widget classes are created as subclasses of a superclass called GenericWidget. This superclass contains 
+code to auto-generate graphical elements, log data, execute automated actions, and manage serial 
+connections. One need only define the different input and output fields’ names and types, specify how to 
+update the fields, and specify what actions to take when the ‘confirm’ button is pressed. Python’s built-in 
+text processing functions, as well as powerful free packages like NumPy, make it easy to implement these 
+functions given knowledge of a device’s serial protocol.13 Little to no knowledge of graphical and serial 
+libraries is required, and the tutorials discuss the process in greater detail. Supplementary Note C and 
+Figure S2 contain an example of a widget’s class definition. 
+ 
+Widgets can update themselves in a variety of ways to support a wide variety of instruments, with the 
+choice usually dictated by what protocol a given device supports. In our experience, the most common 
+setup is communication with a physical device using a text-based serial protocol over a RS-232, RS-485, 
+or USB connection. PyOpticon can automatically initialize a PySerial object for this purpose. 
+Page 7 of 12
+ACS Paragon Plus Environment
+Chemistry of Materials
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+
+---
+Alternatively, the user can manually initialize a different type of serial connection, for instance by using a 
+Python driver written by an instrument’s manufacturer, or by using a free package that implements a 
+different serial protocol like MODBUS or VISA.11,16 In principle, any communications protocol for which 
+a Python package exists can be used so long as the device supports it, though to date we have exclusively 
+used wired serial protocols. 
+ 
+Other widget setups are useful in certain scenarios. A widget can  ‘watch’ the logfile of another program, 
+bringing the external logfile’s latest values into the dashboard’s graphical interface and the unified 
+PyOpticon logfile. This is useful for devices like gas analyzers that are best controlled by their 
+manufacturers’ standalone applications, but whose measured values (i.e., gas concentrations) one wishes 
+to include in the dashboard’s log files. Finally, one can also create widgets with purely software-related 
+functions that do not interface with a device at all; for instance, we use a ‘flow rate calculator’ widget that 
+quickly computes the MFC setpoints needed to achieve a desired gas mixture and total flow. The 
+package’s built-in widget classes contain examples of all of the above options, some of which are also 
+discussed in the online tutorials.  
+ 
+Safety and Pitfalls 
+ 
+We stress that, while we have debugged PyOpticon to the best of our ability, it cannot and should not be 
+wholly relied upon to ensure human safety or the safety of expensive equipment. Researchers using the 
+package must ensure that no combination of software commands could create a dangerous condition, for 
+instance, creating a combustible mixture in the presence of an ignition source or causing a piece of 
+equipment to severely overheat. The interlock feature is intended to respond to or warn the user of 
+mishaps that may affect data quality or waste researchers’ time, not to identify or correct conditions that 
+are unsafe to people or equipment. Where human safety is at stake or where expensive equipment damage 
+is possible, hardware should be designed such that no combination of PyOpticon commands would create 
+a dangerous condition, or else thoroughly-tested commercial software should be used instead. 
+ 
+PyOpticon is best-suited to open-loop control, i.e., communicating setpoint or mode commands to 
+external devices that implement the logic necessary to achieve those setpoints and modes. It is possible to 
+implement closed-loop control laws (e.g., PID) within PyOpticon in a widget’s update cycles or within an 
+interlock, which may be useful if one physical device needs to be controlled based on a reading from 
+another device. However, this should be done with great care, since undefined behavior may result if the 
+dashboard is unexpectedly closed or loses serial communications or if the computer running the 
+dashboard shuts down unexpectedly. Additionally, PyOpticon does not contain tools for tuning control 
+laws. Where possible, we therefore recommend using well-tested (and ideally commercially available) 
+external control devices that can receive serial commands. For instance, using a commercial temperature 
+controller that can receive RS-232 commands is much preferred to implementing a Python PID control 
+loop between a PyOpticon widget for a thermocouple and a widget for a relay connected to a heating 
+element. 
+ 
+Page 8 of 12
+ACS Paragon Plus Environment
+Chemistry of Materials
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+
+---
+ 
+Demonstrations 
+ 
+The example below uses PyOpticon to interface with a gas-phase flow reactor that aims to convert very 
+dilute methane (CH4 ) to carbon dioxide (CO2) for greenhouse gas mitigation purposes, a topic of some 
+recent interest.17,18 CH4 conversion is achieved using the semiconductor photocatalyst zinc oxide. The 
+devices that require controls are three Aalborg DFC mass flow controllers (dilute methane, dry nitrogen, 
+and humidified nitrogen), one MKS Mass-Flo controller for oxygen gas controlled by an MKS 946 
+Vacuum Controller, and a DigitalLoggers IoT Relay that controls an ultraviolet LED array. The devices 
+requiring data acquisition are an Omega USB-UTC thermocouple adapter, a Thorlabs PM100D light flux 
+meter, and an MKS Multi-Gas 2000 infrared gas analyzer. A schematic of the system is included in Figure 
+S3 and an image of the dashboard that controls it is included in Figure S4. They closely resemble the 
+system and dashboard shown in Figure 1, which were simplified slightly for illustrative purposes. 
+ 
+This experiment aimed to measure CH4 conversion on zinc oxide (ZnO) nanoparticles at inlet CH4 
+concentrations of 100, 200, and 500 ppm under dry (<500 ppm H2O) conditions. It is similar to a previous 
+experiment from Chen et al. that showed the successful conversion of 100 ppm CH4 on ZnO, though our 
+experiments had somewhat lower CH4 conversions due to a lower light flux and lower reactor residence 
+time.19 1.5 grams of ZnO nanoparticles with a nominal 30 nm diameter (MSE Supplies, USA, Product No. 
+PO0504, CAS No. 1314-13-2) were placed into the horizontal glass tube between two glass wool plugs, 
+with the powder tamped into a flat layer about 7 cm long and 1 cm wide before the second plug was 
+inserted. For each reaction condition, the CH4 concentration was allowed to stabilize, then the ultraviolet 
+light was cycled on and off several times to generate several transitions between ‘light’ and ‘dark’ 
+conditions, shown in Figure 3. To achieve this, the automation script below was used. For brevity, the 
+function flow_at_CH4_ppm, which commands the three mass flow controllers to flow a gas mixture with 
+a given concentration of CH4, has been omitted; its definition is included in Supplementary Note D. 
+ 
+# The cadence of the light on/off cycle can be adjusted here 
+UV_off_duration='0:10:00' 
+UV_on_duration='0:20:00' 
+ 
+# First purge with N2 for an hour 
+schedule_action('LF N2 MFC','Mode Selection','Setpoint',False) 
+schedule_action('LF N2 MFC','Setpoint Entry',80,True) 
+schedule_action('O2 MFC','Mode Selection','Setpoint',False) 
+schedule_action('O2 MFC','Setpoint Entry',20,True) 
+schedule_delay('1:00:00') 
+ 
+# Step through the desired concentrations 
+for CH4_ppm in (100,200,500): 
+    flow_at_CH4_ppm(CH4_ppm,ch4_tank_ppm=10,total_flowrate=30) 
+    schedule_delay(UV_off_duration) # Start with extra time to get CH4 stabilized 
+    for i in range(4): 
+        schedule_delay(UV_off_duration) 
+        schedule_action('UV Light','Status Selection','On') 
+        schedule_delay(UV_on_duration) 
+        schedule_action('UV Light','Status Selection','Off') 
+    schedule_delay(UV_off_duration) # Extra time at end to get CH4 stabilized again 
+ 
+# Shut down the flows 
+schedule_action('Methane MFC','Mode Selection','Closed',True) 
+Page 9 of 12
+ACS Paragon Plus Environment
+Chemistry of Materials
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+
+---
+schedule_action('O2 MFC','Mode Selection','Closed',True) 
+schedule_action('LF N2 MFC','Mode Selection','Closed',True) 
+# Experiment ends 
+ 
+ 
+Figure 3 shows several outputs from the same experiment including gas concentrations, light fluxes, and 
+device setpoints. All inputs were controlled automatically with the automation script above, requiring no 
+human intervention after the experiment’s start. All of the plots were made directly from the PyOpticon 
+log file using a simple script that is included in Supplementary Note E. The data indicate slow but clearly 
+visible photocatalytic oxidation of CH4 on ZnO at each of the three tested CH4 concentrations, as 
+explained in the caption. The PyOpticon log file contains many additional measured values at each time 
+step, such as other gasses’ concentrations and the mass flow controllers’ measured flows, that are not 
+plotted here. 
+ 
+ 
+Figure 3: Outputs from a photocatalytic CH4 conversion experiment with controls and data acquisition 
+handled by a PyOpticon dashboard. A script causes the mass flow controllers to step through nominal 
+CH4 concentrations of 100, 200, and 500 ppm. At each concentration, the ultraviolet light is 
+automatically cycled on and off. While the light is on, a small fraction of the CH4 is converted, causing 
+the CH4 concentration measured at the reactor outlet to decrease. The conversions were intentionally kept 
+low for the purposes of making rate measurements. Further data processing could extract the reaction 
+rates and quantum yields of photocatalytic CH4 oxidation under each condition. 
+Conclusion 
+We have developed the open-source Python package PyOpticon to supply academic labs in chemistry and 
+materials science with high-quality, ‘do it yourself’-friendly control software. The software can equip 
+many benchtop systems with on-screen control panels, unified data acquisition and logging, safety 
+interlocks, and powerful automation tools. These capabilities can streamline experiment setup and 
+shutdown, simplify data processing, increase repeatability, allow longer experiments, enable remote 
+operation, and boost apparatuses’ utilization rates. The software can quickly be adapted to interface with a 
+wide variety of instruments using a variety of modes of communication. It can also serve as a stepping 
+stone towards (or a layer in) more sophisticated software-driven laboratory workflows. 
+ 
+Page 10 of 12
+ACS Paragon Plus Environment
+Chemistry of Materials
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+
+---
+While a number of software tools exist for this purpose, PyOpticon’s novelty lies in its free and 
+open-source nature, as well as its accessibility to relatively inexperienced coders. We have tried to write 
+transparent and well-documented code that allows most users to ignore the details of how graphics, 
+multithreading, data logging, and automation are implemented, letting them focus only on defining 
+widgets’ fields and the protocols to update them. We have also written what we believe are detailed and 
+comprehensive online tutorials for those starting to use PyOpticon. We hope that these traits will make it a 
+very low-risk and ‘do it yourself’-friendly proposition for researchers to test PyOpticon’s applicability to 
+their own work, and that they will end up with powerful laboratory control systems that they can build, 
+maintain, and reconfigure as their needs change.  
+ 
+Data Availability 
+ 
+All PyOpticon source code is available at https://github.com/richardsrandall/pyopticon. Documentation 
+and tutorials are available at https://pyopticon.readthedocs.io/en/latest/. 
+ 
+Acknowledgements 
+ 
+The authors would like to thank the members of the Majumdar Lab who have used and offered feedback 
+on PyOpticon in its various iterations. They would like to thank Patrick Gibson for his assistance with 
+recent bug fixes. They would finally like to thank Ammobia Inc. and the Zhai Lab at the Ohio State 
+University for being early adopters and alpha testers of PyOpticon. R. R. acknowledges financial support 
+by National Science Foundation Graduate Research Fellowships under Grant No. DGE-165651. 
+Works Cited 
+1.​ Christopher, P. Automating Academic Laboratories: Promoting Reliability, Productivity, and Safety. 
+ACS Energy Lett. 5, 2737–2738 (2020). 
+2.​ Bailey, D. & Wright, E. 2 - SCADA systems, hardware and firmware. in Practical SCADA for 
+Industry (eds. Bailey, D. & Wright, E.) 11–63 (Newnes, Oxford, 2003). 
+doi:10.1016/B978-075065805-8/50002-7. 
+3.​ Selekman, J. A. et al. High-Throughput Automation in Chemical Process Development. Annual 
+Review of Chemical and Biomolecular Engineering 8, 525–547 (2017). 
+4.​ Shevlin, M. Practical High-Throughput Experimentation for Chemists. ACS Med. Chem. Lett. 8, 
+601–607 (2017). 
+5.​ Abolhasani, M. & Kumacheva, E. The rise of self-driving labs in chemical and materials sciences. 
+Nat. Synth 2, 483–492 (2023). 
+6.​ Industrial Process Automation Systems - 1st Edition. 
+https://shop.elsevier.com/books/industrial-process-automation-systems/mehta/978-0-12-800939-0?co
+untry=US&format=print&utm_source=google_ads&utm_medium=paid_search&utm_campaign=usa
+pmax&gad_source=1&gclid=Cj0KCQiA35urBhDCARIsAOU7Qwkt00eACofyXW4aj6JUcrueIq-hp
+a7GjzayZaBn1k19KKc1RKnUyYEaArsBEALw_wcB&gclsrc=aw.ds. 
+7.​ Elliott, C., Vijayakumar, V., Zink, W. & Hansen, R. National Instruments LabVIEW: A Programming 
+Page 11 of 12
+ACS Paragon Plus Environment
+Chemistry of Materials
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+
+---
+Environment for Laboratory Automation and Measurement. SLAS Technology 12, 17–24 (2007). 
+8.​ Inductive Automation. Innovative SCADA Software for Process Control and Data Management. 
+9.​ Siemens AG. SIMATIC WinCC V7 / V8. 
+10.​ Grecco, H. E., Masip, M., Jais, P., et al. Lantz: An Automation and Instrumentation Toolkit in 
+Python. 
+11.​ Bronger, T., Thalhammer, G. PyVISA: Control your instruments with Python. 
+12.​ Johnson, J. L., tom Wörden, H. & van Wijk, K. PLACE: An Open-Source Python Package for 
+Laboratory Automation, Control, and Experimentation. SLAS Technology 20, 10–16 (2015). 
+13.​ Oliphant, T. E. Python for Scientific Computing. Computing in Science & Engineering 9, 10–20 
+(2007). 
+14.​ Prechelt, L. Are Scripting Languages Any Good? A Validation of Perl, Python, Rexx, and Tcl against 
+C, C++, and Java. in Advances in Computers vol. 57 205–270 (Elsevier, 2003). 
+15.​ PyOpticon. Python Package Index https://pypi.org/project/pyopticon/. 
+16.​ Galen Collins et al. PyModbus - A Python Modbus Stack. 
+17.​ Abernethy, S., Kessler, M. I. & Jackson, R. B. Assessing the potential benefits of methane oxidation 
+technologies using a concentration-based framework. Environ. Res. Lett. 18, 094064 (2023). 
+18.​ Jackson, R. B. et al. Atmospheric methane removal: a research agenda. Phil. Trans. R. Soc. A. 379, 
+20200454 (2021). 
+19.​ Chen, X. et al. Photocatalytic oxidation of methane over silver decorated zinc oxide nanocatalysts. 
+Nat Commun 7, 12273 (2016). 
+Page 12 of 12
+ACS Paragon Plus Environment
+Chemistry of Materials
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+
+---

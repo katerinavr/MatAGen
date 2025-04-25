@@ -1,0 +1,1200 @@
+Inﬂuence of Side-Chain Chemistry on Structure and Ionic
+Conduction Characteristics of Polythiophene Derivatives: A
+Computational and Experimental Study
+Ban Xuan Dong,†,◆
+Christian Nowak,‡,◆Jonathan W. Onorato,§,◆Joseph Strzalka,#
+Fernando A. Escobedo,*,‡
+Christine K. Luscombe,*,§,∥,⊥
+Paul F. Nealey,*,†,∇
+and Shrayesh N. Patel*,†,○
+†Institute for Molecular Engineering, University of Chicago, Chicago, Illinois 60637, United States
+‡School of Chemical and Biomolecular Engineering, Cornell University, Ithaca, New York 14953, United States
+§Department of Materials Science and Engineering, ∥Department of Chemistry, and ⊥Molecular Engineering and Sciences Institute,
+University of Washington, Seattle, Washington 98195, United States
+#X-ray Science Division, ∇Materials Science Division, and ○Chemical Sciences and Engineering Division, Argonne National
+Laboratory, Lemont, Illinois 60439, United States
+*
+S Supporting Information
+ABSTRACT: Although extensive eﬀorts have been devoted
+to understanding electronic transport in conjugated polymers,
+little is known about their ionic conduction characteristics in
+relation to polymer chemistry, processing, and morphology.
+This work presents a combined computational and exper-
+imental study on morphology and ion transport in thin-ﬁlm
+blends of polythiophene derivatives bearing oligoethylene
+glycol side-chains and lithium bis(triﬂuoromethanesulfonyl)-
+imide (LiTFSI). Using molecular dynamics (MD) simulation,
+we show that in the amorphous phase, the polythiophene
+derivative P3MEET bearing oligoethylene glycol side-chains
+with oxygen directly attached to the thiophene rings possesses
+lower Li+ ionic conductivity compared to its analog
+P3MEEMT that has a methyl spacer between the oxygen and the thiophene rings. Structural characterization of P3MEET
+and P3MEEMT thin ﬁlm upon blending with LiTFSI indicates that adding LiTFSI expands the side-chain domains of the
+polymer crystallites and reduces the total degree of crystallinity at the same time. Moreover, LiTFSI is found to inﬁltrate both
+the amorphous and crystalline regimes at low concentrations but preferably resides in the amorphous domain at high LiTFSI
+concentrations. Ionic transport measured by electrochemical impedance spectroscopy in both P3MEET- and P3MEEMT-
+LiTFSI thin ﬁlms is found to occur predominately in the amorphous domain, and ionic conductivity in P3MEEMT-LiTFSI is
+always higher than in P3MEET-LiTFSI samples, consistent with predictions from MD simulations. Our work provides a
+platform to predict and study the inﬂuence of polymer chemistry on the ionic conductivity of conjugated polymers.
+I. INTRODUCTION
+Due to their solution processability, mechanical ﬂexibility, and
+the fact that facile molecular design/synthesis strategies can be
+readily employed to tailor their optical and electronic
+properties, conjugated polymers continue to be of interest in
+scientiﬁcally and commercially diverse applications.1−6 Tradi-
+tionally, the electronic transport functionalities of conjugated
+polymers have long played a vital role in the advancement of
+organic electronics applications such as xerography,7 organic
+light-emitting diodes,8,9 organic thin-ﬁlm transistors,3 and
+organic photovoltaics.10,11 More recently, conjugated polymers
+have also made their way into many novel electrochemical
+applications that require simultaneous electronic and ionic
+conducting capability raging from bioelectronics12−15 to
+energy applications including batteries,16,17 pseudo capaci-
+tors,18 electrochromic windows,19 dye-sensitized solar cells,20
+and mechanical actuators.21 In addition to the inherent
+advantages over their inorganic counterparts, the “soft” nature
+of conjugated polymers and other organic materials enables the
+high-quality interface between biological entities and elec-
+tronics, rendering them particularly useful for bioelectronics
+applications.13,22
+The key performance metrics of devices based on mixed
+ionic/electronic polymeric conductors such as mechanical,
+Received:
+December 20, 2018
+Revised:
+January 31, 2019
+Published: February 15, 2019
+Article
+pubs.acs.org/cm
+Cite This: Chem. Mater. 2019, 31, 1418−1429
+© 2019 American Chemical Society
+1418
+DOI: 10.1021/acs.chemmater.8b05257
+Chem. Mater. 2019, 31, 1418−1429
+Downloaded via WASHINGTON UNIV on August 22, 2019 at 03:14:45 (UTC).
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+electrical, or biological responses rely on electronic and ionic
+transport, which are strongly bound to the morphology of the
+polymers. Therefore, designing high-performance mixed
+conducting polymers requires an understanding of the
+interplay between polymer chemistry, processing, and
+morphology on the ionic and electronic conduction character-
+istics.23 In contrast to inorganic semiconductors where the
+atoms are covalently bonded, the weak intermolecular bonding
+between macromolecular chains in conjugated polymers results
+in numerous degrees of conformational freedom, giving rise to
+their complicated microstructures. The typical structure of
+conjugated polymers is semicrystalline, consisting of crystal-
+line/aggregate domains embedded in a disordered amorphous
+matrix. Past work has shown convincing evidence suggesting
+that electronic carriers traverse mainly through the crystalline
+domains and only occasionally transport through amorphous
+domains via bridging tie-chains.24−28 Ionic transport in
+conjugated polymers, however, has been explored only on a
+limited basis. Studying ion transport in the conjugated polymer
+has remained a challenging task due to the dominance of
+electronic transport over ionic transport which renders most of
+the common techniques used to measure ion transport
+ineﬀective. Additionally, most of the ion transport studies on
+conjugated polymers have been performed on poly(3,4-
+ethylenedioxythiophene) doped with poly(styrene sulfonate)
+(PEDOT:PSS) which has a rather complicated structure,
+preventing its use as a model system for structure−function
+relationship studies.29−31 Despite recent work focusing on
+developing “non-PEDOT” conjugated polymers have polar
+side-chains and ion-conducting functionality,32−34 detailed
+investigations on the inﬂuence of polymer chemistry on ion
+uptake, polymer morphology, and ionic transport are still
+lacking.
+To this end, in this work, we report a systematic
+investigation on the inﬂuence of ion uptake on structure and
+ion-conducting behavior of two polythiophene derivatives
+bearing diﬀerent oligoethylene glycol side-chains. Using
+molecular dynamics (MD) simulation, we show that
+P3MEET, a polythiophene derivative bearing oligoethylene
+glycol side-chains with an oxygen bonded directly to the
+thiophene rings, has lower segmental mobility compared to its
+analog P3MEEMT that have a methyl spacer between the
+oxygen and thiophene rings. Consequently, the Li+ ions
+conductivity in the amorphous P3MEEMT is predicted to be
+approximately a factor of 5 higher than in the amorphous
+P3MEET. Structural characterization of P3MEET and
+P3MEEMT thin ﬁlm upon blending with lithium bis-
+(triﬂuoromethanesulfonyl)imide (LiTFSI) indicates that LiTF-
+SI inﬁltrates into both crystalline and amorphous domains at
+low LiTFSI concentration but preferably resides in the
+amorphous domain at high LiTFSI concentration. The ionic
+conductivity is determined experimentally using electro-
+chemical impedance spectroscopy (EIS) due to the relatively
+high ionic conductivity over the electronic conductivity of both
+polymers. Using a combination of simulation and experiment
+results, we infer that ionic transport in both P3MEET and
+P3MEEMT occurs in the amorphous domain. Moreover, in
+excellent agreement with our MD simulation prediction, the
+experimental ionic conductivity in P3MEEMT is always higher
+than in P3MEET at all temperatures and concentrations
+studied. Our results highlight the importance of side-chain
+chemistry in dictating ionic transport of conjugated polymers.
+II. EXPERIMENTAL SECTION
+II.I. Materials and Sample Preparation. P3MEET and
+P3MEEMT were synthesized by ﬁrst synthesizing the monomers
+2,5-dibromo-3-(methoxyethoxyethoxy) thiophene [3MEET] and 2,5-
+dibromo-3-(methoxyethoxyethoxymethyl) thiophene [3MEEMT],
+then polymerizing using the Kumada catalyst transfer polymerization
+(KCTP). Additional synthetic details are provided in the Supporting
+Information and the Results and Discussion section.
+All substrates used in this study were cleaned by ultrasonication in
+acetone and 2-propanol for 15 min in each solvent, followed by
+ozone-plasma treatment for 3 min. Grazing incidence wide-angle X-
+ray scattering (GIWAXS) and spectroscopic ellipsometry measure-
+ments were performed on ﬁlms deposited on Si substrates with 1.5
+nm of native SiO2. UV−vis absorption measurements were performed
+on ﬁlms deposited on glass substrates. Conductivity measurements
+were performed on ﬁlms deposited atop custom-fabricated
+interdigitated gold electrodes on Si substrates supported by 1000
+nm thick SiO2.
+Solutions of P3MEET and P3MEEMT were prepared by dissolving
+the materials in anhydrous chloroform and anhydrous acetonitrile,
+respectively, at a concentration of 10 mg/mL and stirred overnight
+before being ﬁltered through a 0.45 μm ﬁlter. Bis(triﬂuoromethane)-
+sulfonimide lithium salt (LiTFSI) (Sigma-Aldrich, battery grade) was
+dissolved in an anhydrous acetonitrile, also with a concentration of 10
+mg/mL. P3MEET, P3MEEMT, and LiTFSI solutions were then
+mixed at the appropriate ratios to achieve diﬀerent LiTFSI blending
+concentrations: r = [Li+]/[EO] = 0 (neat sample), 0.01, 0.05, 0.10,
+and 0.15. The mixed solutions were then stirred for several hours
+before being spin-coated under an argon atmosphere onto the
+prepared substrates at 2000 rpm for 2 min. Film thicknesses of all
+samples in this study were kept at ca. 50 nm, as conﬁrmed by
+spectroscopic ellipsometry measurement.
+II.II. Electrochemical Impedance Spectroscopy (EIS). Electro-
+chemical impedance spectroscopy (EIS) measurements were
+performed on a sample fabricated on top of interdigitated gold
+electrode devices (IDE) using a Gamry 600+ Potentiostat inside an
+argon-ﬁlled glovebox. A schematic representation of the IDE is
+exempliﬁed in Figure 7a. Prior to conductivity measurements, the
+excess amount of materials on the electrode pads was scraped away.
+The electrical connection from the IDE to the Potentiostat was made
+using using two custom-built microprobes (Semiprobe Inc.). The EIS
+characterization was performed from 1 MHz to 0.1 Hz with an
+oscillatory peak potential of 100 mV. The collected impedance data
+were then ﬁt to the appropriate equivalent circuits to extract the
+sample ionic resistance, Rion, and electronic resistance, Re, from which
+the ionic conductivity can be calculated. More details of selecting
+equivalent circuits and conductivity calculations are presented in the
+Results and Discussion section.
+II.III. Grazing Incidence Wide-Angle X-ray Scattering
+(GIWAXS). GIWAXS measurements were performed at beamline 8-
+ID-E of the Advanced Photon Source, Argonne National Laboratory
+with 10.86 keV (λ = 0.1142 nm) synchrotron radiation. Samples were
+enclosed and measured inside a low vacuum chamber (10−3 mbar) to
+minimize concerns about radiation damage as well as to prevent
+extraneous scattering from ambient air. The measurement time was
+chosen to be 10 s per frame. For each sample, three datasets were
+taken from three adjacent spots on the sample and then summed to
+enhance the signal-to-noise ratio. In our work, the samples were tilted
+at an angle of incidence of 0.14° with respect to the incoming beam.
+This angle was chosen to be above the estimated critical angle of the
+sample (ca. 0.13°) but below the critical angle of the Si substrates (ca.
+0.17°). The scattering signal was recorded with a Pilatus 1MF pixel
+array detector (pixel size = 172 μm) positioned 228 mm from the
+sample. Each dataset was stored as a 981 × 1043 32-bit tiﬀimage with
+20-bit dynamic range. The Pilatus detector has rows of inactive pixels
+at the border between detector modules. To ﬁll these gaps, after each
+measurement, the detector was moved to a new vertical direction and
+the measurement on each spot was repeated, then the gaps were ﬁlled
+by combining the data from two detector positions.
+We also
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.8b05257
+Chem. Mater. 2019, 31, 1418−1429
+1419
+
+performed detector nonuniformity, detection eﬃciency, the polar-
+ization eﬀect, and solid-angle variation for each image. Vertical line-
+cuts were performed as a function of intensity along the qz direction.
+All of the GIWAXS data processing and extraction were executed
+using the GIXSGUI package for MATLAB.35
+To construct the pole ﬁgure of the (100) reﬂection in each sample,
+wedge cuts with an angular breadth of 1° were extracted from
+GIWAXS images, performed using the GIXSGUI. Each wedge cut was
+ﬁrst ﬁt to an empirical baseline function to enable the background
+intensity and amorphous scattering to be subtracted. The background-
+subtracted wedge cut was then ﬁt to a Voigt function to extract the
+integrated intensity as well as the position of the reﬂection of interest,
+q100. The integrated intensity of each peak was reported as a function
+of the polar angle χ between the scattering vector and pole vector
+(substrate normal). Additional details of the complete pole ﬁgure
+construction can be found elsewhere.36
+II.IV. UV−Vis Absorption Spectroscopy. The UV−vis absorp-
+tion spectroscopy measurements were performed using a Shimadzu
+UV-3600 Plus UV−vis−NIR Dual Beam Spectrophotometer at the
+Soft Matter Characterization Facility (SMCF) at the University of
+Chicago.
+II.V. Size Exclusion Chromatography (SEC). Size exclusion
+chromatography (SEC) was performed using a Malvern Viscotek
+TDA 305 with a coupled UV-Detector, with a detector temperature of
+30 °C. Chloroform with a 1.0 mL/min ﬂow rate was used as an
+eluent, with a sample concentration of 1 mg/mL. The molecular
+weight of the polymers was measured relative to polystyrene
+standards.
+II.VI. Nuclear Magnetic Resonance Spectroscopy. NMR
+spectroscopy was performed using a Bruker AV 300 instrument for
+small molecule studies and a Bruker AV 500 for polymer studies. All
+experiments were performed at 25 °C in CDCl3.
+III. RESULTS AND DISCUSSION
+III.I. Computational Simulation. In the ﬁrst phase of our
+investigation, we employ molecular dynamics (MD) simu-
+lations to search for relevant chemistries to guide comple-
+mentary synthesis and characterization eﬀorts. We chose to use
+polythiophene derivatives due to the vast literature available on
+their structure and charge transport models.27,37−41 Addition-
+ally, the morphological structure of polythiophene can be
+investigated with common techniques such as X-ray scattering
+or optical methods.37,42,43 To introduce ion-conducting
+functionality into polythiophene, we attach polar oligoethylene
+glycol side-chains to the polythiophene backbone. The
+originally proposed chemistry, P3MEET (left side of Figure
+1a), consists of a thiophene backbone and an oligoethylene
+glycol side-chain with an oxygen atom directly bonded to the
+thiophene ring. Although placing the electron donating oxygen
+atom right next to the thiophene core is known to reduce the
+ionization energy and improve electrochemical stability of the
+polymer,32,33,44 it could negatively impact the ionic con-
+ductivity due to the reduced segmental motion of the oxygen
+atom covalently bonded to the rigid polythiophene backbone.
+Thus, to improve ion transport, a second chemistry,
+P3MEEMT (right side of Figure 1a), is proposed.
+P3MEEMT is chemically very similar to P3MEET but
+possesses a methylene spacer between the backbone and the
+ﬁrst oxygen atom of the oligoethylene glycol chain.
+Due to the semicrystalline nature of conjugated polymers,
+we use MD simulations to predict ionic conductivity in the two
+limiting scenarios of purely crystalline and amorphous systems.
+To simulate the systems of interest, a hybrid all-atom (AA)/
+united-atom (UA) model is used where the ring is simulated
+with the all-atom optimized potentials for liquid simulations
+(OPLS-AA) forceﬁeld, whereas the side-chains are modeled
+using the OPLS-UA forceﬁeld, as shown in Figure 1a. The AA
+model is used for the thiophene rings as it is better suited to
+capture the ring−ring stacking. The side-chains are modeled
+with the UA model for computational eﬃciency. Parameters
+for the model are given in the Supporting Information (SI).
+Diﬀerent methods were used to obtain equilibrated
+structures of the phases of interest. For the crystalline phase,
+the initial conﬁguration was equivalent to the crystalline
+structure of poly(3-hexylthiophene) (P3HT) (Isomorph I)45
+Figure 1. (a) Chemical structures of P3MEET and P3MEEMT. (b, c) Snapshots of equilibrated crystalline and amorphous systems used in this
+study. (d) Long-time plateau mean square displacement (MSD) of 3 oxygen atoms in the side-chains of P3MEET and P3MEEMT. The oxygen # is
+noted in (a). (e) A typical plot of the MSD of a mobile Li+ ion within P3MEEMT crystalline system and the ﬁt used to calculate ion mobility.
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.8b05257
+Chem. Mater. 2019, 31, 1418−1429
+1420
+
+except that the crystals of both P3MEET and P3MEEMT were
+expanded to accommodate the longer side-chains. The system
+was thermalized at 300 K and 1 atm (using the Nosé−Hoover
+barostat46) until metrics such as Enon‑bonded, Ebonded, and the
+pressure tensor components become time-independent. For
+amorphous conﬁgurations, a CG model,47 which represents the
+ring as one bead and the hexyl side-chain as two beads, was
+adapted to model poly-(3-nonyl-thiophene) (P3NT) by
+adding another bead to the side. Once the CG systems were
+equilibrated, an in-house reverse coarse graining code was used
+to generate a conﬁguration of the UA/AA model. This
+conﬁguration was then allowed to also equilibrate at 300 K and
+1 atm. Snapshots of the equilibrated crystalline and amorphous
+morphology of P3MEEMT are given in Figure 1b,c. Crystalline
+and amorphous structures of P3MEET appear similar and are
+thus not shown.
+Former studies on the ionic conductivity in polymer
+electrolytes have correlated higher chain segment mobility
+with greater ionic conductivity.48,49 Thus, after equilibrating
+the crystalline and amorphous structures, we investigated the
+segmental mobility of P3MEET and P3MEEMT side-chains by
+calculating the mean square displacement (MSD) of the three
+oxygen atoms in their side-chains, as depicted in Figure 1a. We
+expectedly found that the MSD of each atom increases and
+then plateaus beyond a certain time period since the side-chain
+is covalently bound to the rigid polythiophene backbone (see
+the Supporting Information Figures S8−S11). Figure 1d shows
+the plateau MSD of the three oxygens in ion-free P3MEET and
+P3MEEMT crystalline systems. For both polymers, the MSD
+of the oxygen atom expectedly increases with greater distance
+(from the anchoring thiophene backbone) along the oligo-
+ethylene side-chain. Moreover, adding the carbon spacer in
+P3MEEMT increases the MSD and hence the segmental
+mobility of oxygen atoms at corresponding positions relative to
+P3MEET for both crystalline and amorphous systems.
+To calculate the ionic conductivity, free Li+ ions were added
+to the systems at a concentration r = [Li+]/[EO] = 0.02, and
+their mobility tracked upon the application of a large electric
+ﬁeld of 500 MV/m. The choice of r is such that ions are
+suﬃciently diluted to minimize ion−ion interactions but also
+abundant enough to allow for good statistical sampling. Free
+Li+ ions are used instead of entire salts to avoid the need to
+simulate the very long-time-scale associated with salt
+dissociation. This implicitly assumes a 100% dissociation
+ratio which is a sensible assumption for LiTFSI in PEO-like
+environments. The electric ﬁeld value chosen is large enough
+to allow for good sampling of the ionic motion (given the
+accessible simulation time-scale), but still suﬃciently moderate
+to yield a linear response behavior (Ohm’s law). When
+applying such a large electric ﬁeld, a tethering potential was
+used to keep the thiophene backbones near their original
+positions and avoid destroying the overall microstructure.
+Simulations were run for 30 ns in a constant volume ensemble
+with a set temperature of 400 K to allow for better sampling.
+For calculating the ionic conductivity ⟨μ⟩, three replicate
+simulations were run, and only “mobile” ions are considered,
+i.e., those showing a parabolic dependence of MSD on time as
+in the example plotted in Figure 1e. For such ions, the MSD
+dependence is ﬁtted to the following equation from which the
+ionic mobility ⟨μ⟩can be extracted
+vt
+E
+t
+MSD
+( )
+(
+)
+2
+2 2
+μ
+≈
+=
+(1)
+Where v, t, and E are drift velocity, time, and electric ﬁeld
+strength, respectively. The ionic conductivity, σ̂, is then
+calculated as
+Nmobile
+σ
+μ
+̂ = ⟨⟩⟨
+⟩
+(2)
+where ⟨Nmobile⟩is the average number of the “mobile” ions.
+More details of these conductivity calculations can be found in
+the Supporting Information. We then normalize the con-
+ductivity by the conductivity of amorphous P3MEET. The
+average mobility, fraction of mobile ions, and normalized ionic
+conductivities of P3MEET and P3MEEMT in both crystalline
+and amorphous systems are summarized in Table 1.
+Interestingly, although in the amorphous phase, the normalized
+conductivity is ca. 5 times higher in P3MEEMT than in
+P3MEET, the trend reverses in the crystal phase; i.e., the
+normalized conductivity is ca. 5 times higher in P3MEET than
+in P3MEEMT. To explain this behavior, we show in Figure
+2 snapshots of P3MEEMT and P3MEET side-chain
+conformations in the presence of Li+ ions within the crystalline
+domain. In pure PEO, two chains can form a “cage” around the
+ion, forming a deep kinetic trap for the ions.50 A condition of
+cage formation is that the ion is only coordinated by two side-
+chains, otherwise there are more chains coordinating the ion.
+To quantify cage formation, we determine the number of side-
+chains which have an atom within a 3.5 Å cutoﬀof each ion
+and ﬁnd the average number of atoms which are coordinating
+the ion. We ﬁnd that these values for P3MEET and
+P3MEEMT to be 2.47 ± 0.03 and 2.14 ± 0.003, respectively.
+This agrees with the idea that cage formation is higher in
+crystalline P3MEEMT, where the regular arrangement of side-
+chains and mobility of the oxygen near the backbone allow for
+cage formation. In contrast, in P3MEET, the lack of mobility
+for the oxygen near the thiophene backbone reduces the
+Table 1. Calculated Ion Mobility, Fraction of Mobile Ion, and Normalized Ionic Conductivity of P3MEG and P3MEET in
+Equilibrated Crystalline and Amorphous Systems from MD Simulations
+crystaline P3MEET
+crystaline P3MEEMT
+amorphous P3MEET
+amorphous P3MEEMT
+mobility (cm2 V−1 s−1)
+4.52 × 10−6
+4.00 × 10−6
+1.82 × 10−6
+2.25 × 10−6
+Nmobile/Ntotal
+0.133
+0.031
+0.025
+0.1
+relative conductivity
+13.33
+2.78
+1
+5
+Figure 2. Snapshot showing the ion caging that is frequently seen in
+crystalline P3MEEMT but almost never in crystalline P3MEET.
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.8b05257
+Chem. Mater. 2019, 31, 1418−1429
+1421
+
+chance of cage formation. In the amorphous systems, ion-
+trapping cages are more diﬃcult to form because of the
+irregular arrangement of the side-chains. Although our
+simulation results only predict Li+ ion transport behavior, we
+expect similar trends with the TFSI−anion since transport of
+both ions relies on the segmental motion of PEO side-chains.
+Overall, our simulation results indicate the strong inﬂuence of
+side-chain chemistry on ionic transport characteristics of
+semicrystalline conjugated polymers.
+III.II. Synthesis. Motivated by insights learned from
+computational simulation, we begin to synthesize two
+polythiophene derivatives, P3MEEMT and P3MEET, follow-
+ing the synthesis pathways described in Figure 3a. Following
+the successful synthesis of both monomers, P3MEET and
+P3MEEMT are synthesized using the Kumada catalyst transfer
+polymerization (KCTP), as detailed in Figure 3a and in the
+Supporting Information. Regioregularity of the P3MEET and
+P3MEEMT samples was determined to be approximately 95
+and 94% by comparing the signals of head−tail and head−head
+signal in 1H NMR spectra (see the Supporting Information
+Figure S1 for details). The number average molecular weight
+(Mn) of the polymers was determined through size exclusion
+chromatography (SEC) (see the Supporting Information
+Figure S2); the measured Mn was 12 kg/mol for P3MEET
+and 15 kg/mol for P3MEEMT. The similarity between these
+two polymers implies that any diﬀerence between the two
+samples will be due to diﬀerences in chemical structures, rather
+than the molecular weight or dispersity.
+To fabricate thin ﬁlms of P3MEET and P3MEEMT, we
+dissolve the polymers in chloroform and acetonitrile,
+respectively, which are not only good solvents for the polymers
+but also miscible with LiTFSI solution, allowing for the
+formation of homogeneous spin-casting solutions. Addition-
+ally, chloroform and acetonitrile have very similar boiling
+points, permitting reasonable comparison between P3MEET
+and P3MEEMT structure, as the boiling point and vapor
+pressure of casting solvents have strong eﬀects on the ﬁnal
+polymer morphology.51 Figure 3b depicts the optical images as
+well as the absorption spectra of P3MEET and P3MEEMT in
+solution and thin-ﬁlm states. Both P3MEET and P3MEEMT
+exhibit pronounced red-shifts going from solution to solid
+states, suggesting the aggregation and planarization of their
+conjugated backbone after spin-casting. Notably, the optical
+properties of P3MEET are signiﬁcantly diﬀerent from
+P3MEEMT despite only a small diﬀerence in the side-chain
+chemistry. In the case of P3MEET, placing the oxygen atom
+right next to the polythiophene backbone results in a marked
+red-shift in absorption spectra compared to P3MEEMT. This
+is due to the electron donating ability of the conjugated oxygen
+atom to the thiophene core that shifts the ionization energy
+and lowers the band-gap of P3MEET, similar to previous
+observations in the literature.32,44
+III.III. Inﬂuence of LiTFSI Doping on Semicrystalline
+Morphology of P3MEET and P3MEEMT. To study ionic
+transport in P3MEEMT and P3MEET, we introduce the ionic
+dopant LiTFSI by spin-casting the blended solutions of
+P3MEET-LiTFSI and P3MEEMT-LiTFSI onto the desired
+substrates. AFM images (see the Supporting Information
+Figure S5) and X-ray diﬀraction patterns (as will be discussed
+below) indicated no signal of LiTFSI aggregation, suggesting
+that LiTFSI is well mixed within the polymer matrix. To study
+the inﬂuence of ion addition on the morphological structure of
+Figure 3. (a) Synthesis scheme and (b) optical images and normalized UV−vis absorption spectra of P3MEET and P3MEEMT both in solution
+and thin-ﬁlm states.
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.8b05257
+Chem. Mater. 2019, 31, 1418−1429
+1422
+
+P3MEET and P3MEEMT, we employ grazing incidence wide-
+angle X-ray scattering (GIWAXS) to investigate the solid-state
+structure of P3MEET and P3MEEMT thin ﬁlms as a function
+of LiTFSI blending concentration r = [Li+]/[EO]. The
+GIWAXS patterns of P3MEET-LiTFSI thin ﬁlms are shown
+in the top row of Figure 4. For the neat P3MEET sample (r =
+0), we observe both the side-chain stacking peak (100) and
+π−π stacking peak (010) predominantly in the out-of-plane
+direction, indicating that P3MEET exhibits a mixed orientation
+of both “face-on” and “edge-on” orientation of polymer
+crystallites. Upon introducing LiTFSI, the structure of
+P3MEET progressively changes. Speciﬁcally, we observe the
+sharpening of the (100) peak together with the appearance of
+the (200) and (300) peaks for r equal to or large than 0.05,
+suggesting that P3MEET crystallites become more oriented by
+the addition of LiTFSI. Additionally, at very high LiTFSI
+concentration r = 0.10 and 0.15, the side-chain diﬀraction
+peaks (h00) are observed in the out-of-plane direction,
+whereas the (010) is observed mainly in the in-plane direction,
+indicating that the polymer crystallites mostly adopting the
+edge-on orientation at these concentrations. Finally, the
+intensity of the π−π stacking peak (010) also signiﬁcantly
+reduces which is indicative of the disruption of interchain π−π
+stacking upon introducing LiTFSI.
+The GIWAXS patterns of P3MEEMT-LiTFSI samples are
+shown in the bottom row of Figure 4. Despite some certain
+diﬀerences, P3MEEMT shows similar transitions to P3MEET
+upon introducing LiTFSI. In the diﬀraction pattern of the neat
+P3MEEMT ﬁlm, the (100) side-chain diﬀraction peak is
+predominantly in the in-plane direction, whereas the (010) π-
+stacking diﬀraction peak is predominantly in the out-of-plane
+direction, suggesting the bias toward face-on orientation of
+P3MEEMT. Upon introducing LiTFSI, the (100) peak shape
+of P3MEEMT becomes sharper together with the appearance
+of the (200) and (300) peaks, indicating the improvement in
+the molecular order of P3MEEMT which is similar to
+P3MEET. One noticeable diﬀerence with P3MEET is that
+the diﬀracting intensity of the (010) peak still remain relatively
+high even at the highest LiTFSI concentration r = 0.15. This
+observation suggests that the crystallite structure of
+P3MEEMT is more resilient to the addition of ions.
+To quantify the inﬂuence of LiTFSI on the molecular
+orientation as well as the relative degree of crystallinity (rDoC)
+of P3MEET and P3MEEMT, we construct partial pole ﬁgure
+of (100) reﬂection as a function of the polar angle χ between
+the scattering vector, q100, and the substrate normal.36,37,52 The
+integrated intensity at each polar angle was further scaled by
+the geometrical factor sin(χ) to correctly quantify the
+population of crystallites at a particular orientation.53 In our
+experiment, data for χ < 2° is not available since the reciprocal
+lattice vector does not intersect with the Ewald sphere in this
+regime, whereas data for χ > 83° is impacted by standing waves
+and excluded from our analysis.42,52 Shown in Figure 5a,b are
+the geometrically corrected partial pole ﬁgures of (100)
+reﬂection in P3MEET and P3MEEMT, respectively. The pole
+ﬁgure of P3MEET neat sample r = 0 shows peak intensity near
+χ = 30° and the peak shifts to lower value of χ with increasing
+r, indicating that P3MEET crystallites transition from face-on-
+dominated to edge-on-dominated orientation upon introduc-
+ing LiTFSI. Similarly, the pole ﬁgures of P3MEEMT samples
+show a peak near χ = 90° for r = 0, 0.01, 0.05, 0.10 but the
+peak shifts to χ ∼0° for r = 0.15 sample, suggesting that the
+crystallites of P3MEEMT also shift to edge-on orientation at
+high LiTFSI concentration. These outcomes agree with visual
+inspection using raw detector images in Figure 4.
+Following previously described procedures,52,53 the rDoC of
+each sample is calculated by integrating the partial pole ﬁgures
+and then normalized by the volume fraction of polymer in
+polymer−LiTFSI mixtures. To facilitate accurate rDoC
+comparison, all samples were made at approximately the
+same thickness (ca. 50 nm). In addition, X-ray beam footprint
+and exposure time were kept the same for all samples. For each
+polymer, we further normalize the rDoC by the rDoC of the
+neat sample (r = 0) to emphasize the eﬀect of LiTFSI addition
+on rDoC. Shown in Figure 5c is the normalized rDoC of
+P3MEET and P3MEEMT as a function of LiTFSI
+concentration r. For P3MEET, the rDoC is found to quickly
+diminish by the addition of LiTFSI (note the log scale of y
+Figure 4. GIWAXS patterns of P3MEET (top row) and P3MEEMT (bottom row) at diﬀerent LiTFSI blending concentration r = [Li+]/[EO].
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.8b05257
+Chem. Mater. 2019, 31, 1418−1429
+1423
+
+axis). Interestingly, the rDoC of P3MEEMT is found to
+initially increase, r = 0.01, before starting to decrease with
+further increasing LiTFSI concentration. This behavior is in
+fact similar to recent work by Guardado and Salleo where they
+reported a slight increase and then decrease in rDoC of P3HT
+upon injecting TFSI−ions.54 Here, it is worth noting that for
+the same LiTFSI concentration, the estimated rDoC of
+P3MEEMT sample is always higher than P3MEET. For
+example, at the highest LiTFSI concentration, r = 0.15, the
+rDoC of P3MEET is ca. 7% compared to the pristine sample,
+whereas rDoC of P3MEEMT is ca. 20%. In other words,
+adding LiTFSI into P3MEET has a stronger impact on the
+polymer crystallinity as compared to P3MEEMT.
+To further study the inﬂuence of LiTFSI addition on the
+polymer structure, we calculate the side-chain distance l = 2π/
+q100 and the corresponding lattice strain = (l −l0)/l0 × 100%,
+the results of which are plotted in Figure 5e,f. In this equation,
+l0 is the side-chain distance in the neat r = 0 sample. For both
+polymers, the side-chain distance and lattice strain do not
+linearly scale with LiTFSI concentration/volume fraction. For
+P3MEET, the side-chain distance increases initially from 1.48
+to 2.03 nm but plateaus for salt concentration r higher than
+0.05. The side-chain distance of neat P3MEEMT is 1.87 nm
+which is larger than P3MEET, as expected. Upon introducing
+LiTFSI, P3MEEMT side-chain distance increases and saturates
+at 2.07 nm for r higher than 0.01. A similar trend is observed
+for (100) lattice strain in Figure 5f, where the strain in the side-
+chain direction is found to saturate around ∼10 and ∼35% in
+P3MEEMT and P3MEET, respectively. Here, it is important
+to note that the strain induced by ion uptake in both
+P3MEEMT and P3MEET is much larger than polythiophene
+derivatives bearing aliphatic side-chains, which only strain by a
+maximum amount of ca. 10% upon introducing ions via
+electrochemical doping, a more intensely driven process than
+chemical mixing.54−56 The high level of ion uptake along the
+side-chain directions of P3MEET and P3MEEMT crystallites
+could be attributed to the high polarity of their PEO side-
+chains and the relative openness of the EG side-chain
+structure. Additionally, the higher lattice strain of P3MEET
+indicates that P3MEET crystals uptake more ions than
+P3MEEMT. This outcome is further supported by our
+previous observation of raw GIWAXS patterns and rDoC
+where P3MEEMT crystalline structure appears to be more
+“resilient” to the addition of LiTFSI than is P3MEET.
+Figure 5. (a, b) Partial pole ﬁgures of (100) reﬂection in P3MEET and P3MEEMT samples at diﬀerent LiTFSI concentrations. The shaded areas
+in ﬁgure (a) and (b) denote the nonmeasurable regime of our experiments. (c) The calculated relative degree of crystallinity (rDoC) of P3MEET
+and P3MEEMT as a function of LiTFSI concentration. (e) Side-chain stacking distances and (f) calculated lattice strain of P3MEET and
+P3MEEMT as a function of LiTFSI concentration and volume fraction. (g) Schematic representation of LiTFSI distribution within P3MEET/
+P3MEEMT semicrystalline structure. LiTFSI inﬁltrates both crystalline and amorphous domains at a low concentration but preferably resides in
+the amorphous domain at a high concentration.
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.8b05257
+Chem. Mater. 2019, 31, 1418−1429
+1424
+
+The inﬂuence of LiTFSI uptake on rDoC and lattice strain
+has a signiﬁcant implication on the distribution of LiTFSI
+within the semicrystalline morphology of both polymers. Since
+GIWAXS is only sensitive to crystalline domains, any changes
+in the structure of the amorphous regimes caused by the
+presence of LiTFSI are not detected by GIWAXS. At low
+LiTFSI concentration, because the crystalline lattice strain
+increases with r, we postulate that LiTFSI inﬁltrates both the
+crystalline and amorphous domains. However, at high salt
+concentration, we see saturation of the lattice strain and
+likewise the amount of LiTFSI in the crystalline domain in
+addition to the reduction in the overall rDoC of both
+polymers. We thus conclude that in the high concentration
+regimes, crystallites are “ﬁlled” with ions, and the majority of
+additional LiTFSI preferably resides in the lower density
+amorphous regime. As a result, GIWAXS data do not show an
+increase in side-chain distance. A proposed
+distribution of
+LiTFSI within the semicrystalline domains of P3MEET/
+P3MEEMT is illustrated in Figure 5g.
+Since electronic charge transport depends heavily on the
+ability of the carrier to hop along the π-stacking direction, it is
+important to study the inﬂuence of LiTFSI addition to the π−π
+interaction between polymer chains. Shown in Figure 6a,b are
+the horizontal line-cuts of P3MEET and vertical line-cuts of
+P3MEEMT at diﬀerent LiTFSI concentrations. We study the
+π−π interaction using the horizontal line-cuts for P3MEET but
+vertical line-cuts for P3MEEMT since P3MEET crystallite
+adopts mostly edge-on orientation but P3MEEMT crystallite
+Figure 6. (a) Horizontal line-cuts from GIWAXS patterns of P3MEET. (b) Vertical line-cuts from GIWAXS patterns of P3MEEMT at diﬀerent
+LiTFSI concentrations. The intensity of the line-cuts was shifted for clarity.
+Figure 7. (a) Design of IDE devices used for our EIS measurement. (b) Exemplary Nyquist plots of P3MEET-LiTFSI and P3MEEMT-LiTFSI
+samples at r = 0.10. The inset of each ﬁgure shows the simpliﬁed equivalent circuits used to ﬁt the impedance data. (c, d) LiTFSI concentration and
+temperature dependence ionic conductivities of P3MEET and P3MEEMT samples. (e) Comparison of P3MEET and P3MEEMT ionic
+conductivity at 90 °C.
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.8b05257
+Chem. Mater. 2019, 31, 1418−1429
+1425
+
+adopts mostly face-on orientation at all LiTFSI concentrations.
+As shown in Figure 6a, the horizontal line-cut of P3MEET
+shows a strong π−π stacking peak (010) near q = 1.60 Å−1,
+which corresponds to a π−π stacking distance of ca. 0.39 nm.
+Upon adding LiTFSI, we observe the appearance of two extra
+diﬀraction peaks, denoted A and B, as indicated by the dashed
+arrows in Figure 6a. Since the position of peak A doubles the
+position of B (qA ∼2 × qB), it is likely that peak A is a higher
+order peak of peak B. We hypothesize that a small amount of
+LiTFSI ions within the crystalline domain can intercalate
+between the π-stacks, increase the π-stacking distance from
+0.39 nm to ca. 0.88 nm. In stark contrast, the π-stacking
+distance of P3MEEMT only mildly increases from ca. 0.38 to
+0.39 nm from r = 0 to 0.15, suggesting that the crystallite
+structure of P3MEEMT is less sensitive to the addition of
+LiTFSI compared to P3MEET, consistent with the smaller
+uptake amount of LiTFSI in the side-chain direction presented
+above. The slight broadening and shifting of the P3MEEMT π-
+stacking peak at high salt concentrations most likely originates
+from the presence of LiTFSI in the side-chain and/or in the
+surrounding amorphous domain. The lack of the signature of
+the intercalation of Li+ ions into the π-stacks of P3MEEMT
+could be due to the farther distance from the nearest oxygen
+atom to the thiophene backbone. Thus, Li+ ions coordinating
+with oxygen have a lower probability of intercalating and
+disrupting the π-stacking eﬃciency in P3MEEMT. This ﬁnding
+again shows the strong inﬂuence of side-chain chemistry on the
+morphological structure and the ion uptake ability of
+conjugated polymers.
+III.IV. Ion Transport in LiTFSI-Blended P3MEET and
+P3MEEMT Thin Films. To preface our discussion on ion
+transport of P3MEET and P3MEEMT, we would like to note
+that up to date, measuring ion transport in conjugated
+polymers has remained a challenging task. This is due to the
+dominance of electronic transport over ionic transport, which
+obstructs the use of the common ionic conductivity measure-
+ment techniques such as electrochemical impedance spectros-
+copy (EIS). Most ionic transport studies were performed using
+the moving-front experiment developed by Malliaras,31 which
+only works on electrochromic polymers such as PEDOT:PSS.
+Here, by using high ionic conductivity polymers, carefully
+purifying our polymers to reduce the amount of unwanted
+electronic carrier doping and performing the experiment in
+oxygen and water-free environment, we are able to measure
+ionic conductivity of both P3MEET and P3MEEMT using
+EIS. We perform EIS measurements on ca. 50 nm P3MEET-
+LiTFSI and P3MEEMT-LiTFSI thin-ﬁlm samples fabricated
+on top of interdigitated electrode devices (IDEs) whose design
+is shown in Figure 7a. IDEs were employed to increase the
+eﬀective surface area and enhance the signal-to-noise ratio in
+thin-ﬁlm conductivity measurement.57−60 Shown in Figure 7b
+are exemplary Nyquist plots of both P3MEET-LiTFSI and
+P3MEEMT-LiTFSI samples at LiTFSI concentration r = 0.10
+at two diﬀerent temperatures. The Nyquist plots of P3MEET-
+LiTFSI samples consist of two semicircles without the
+capacitive tails and low frequency, indicating the presence of
+both ion and electron conducting behavior.5,6 The simpliﬁed
+equivalent circuit used to ﬁt the EIS data is shown in the inset
+of the ﬁgure. Since gold is a blocking electrode for ions, the
+ionic conduction is represented by a constant phase element
+CPEdl in series with an ion resistance Rion. Additionally,
+because ionic and electronic carriers are expected to transport
+simultaneously within the sample, the equivalent circuit also
+consists of an electronic resistance Re in parallel to the ionic
+resistance. With increasing temperature, the radii of both
+semicircles reduce due to the enhance in both ionic and
+electronic conductivities, as expected. Fitting the EIS data
+using this equivalent circuit demonstrates an excellent
+agreement to the raw data, suggesting that our model
+accurately represents ion and electron transport within the
+sample. The Nyquist plots of P3MEEMT-LiTFSI sample, on
+the other hand, consist of a semicircle whose radius also
+reduces with increasing temperature and a capacitive tail at low
+frequency. This behavior is widely observed in polymer
+electrolyte-LiTFSI blends,5,61 which is indicative of the
+domination of ionic transport in P3MEEMT-LiTFSI sample.
+The equivalent circuit used to ﬁt P3MEEMT-LiTFSI
+impedance data thus does not include the electronic resistance
+Re and also shows strong agreement to the raw EIS data.
+Here, it is interesting to note the diﬀerences in EIS data of
+P3MEET and P3MEEMT. The impedance data indicates that
+P3MEET processes some “intrinsic” electronic carrier
+conductivity, whereas P3MEEMT does not. This behavior is
+observed over several polymer batches that we made. Usually,
+the “intrinsic” electronic conductivity of conjugated polymers
+originates from chemical defects such as a fraction of oxidized
+segments along the polymer backbone, unexpected chemical
+species associated with the chain ends or leftover catalysts
+during the synthesis. In our work, P3MEET and P3MEEMT
+were synthesized, puriﬁed, and handled in an almost identical
+way, thus we do not expect signiﬁcant diﬀerences in the
+amount of defects/impurities presented in the materials. The
+diﬀerences between P3MEET and P3MEEMT, therefore, most
+likely originate from the diﬀerence in the chemistries of the
+two polymers. In P3MEET, the oxygen directly attached to the
+thiophene core can stabilize the electronic carriers (i.e., holes),
+which give rise to its electronic conducting states.22 Therefore,
+P3MEET-LiTFSI samples possessed dual conduction charac-
+teristics, whereas P3MEEMT-LiTFSI samples only showed
+ion-dominated transport behavior.
+By ﬁtting the EIS data to the equivalent circuit, we extract
+the ionic resistance Rion and calculate ionic conductivity
+according to the following equation57
+R
+d
+l N
+h
+1
+(
+1)
+ion
+σ =
+−
+(3)
+In eq 3, d = 8 μm is the separation distance between electrode
+teeth, l = 3000 μm is the tooth length, N = 480 is the number
+of electrodes, and h is the total thickness of the sample. The
+extracted ionic conductivity as a function of temperature and
+LiTFSI concentrations of P3MEET and P3MEEMT is shown
+in Figure 7c,d, respectively. The ionic conductivity of both
+polymers rapidly increases at low LiTFSI concentration, from r
+= 0.01 to 0.05, but decreases from concentration r = 0.05−
+0.15. This behavior is expected and aligns with the current ion
+transport theories for polymer electrolytes. The increase in
+ionic conductivity at low concentration is due to the increase
+in the ionic carrier concentration, whereas the decrease of the
+conductivity at higher salt concentration originates from (i)
+the reduction in the dissociation rate of LiTFSI and (ii)
+increasing the eﬀective glass transition temperature of the
+materials due to transient cross-linking between Li+ ion and
+oxygen molecules of PEO side-chains. This eﬀect is particularly
+more pronounced at low temperature where the temperature
+approaches the glass transition temperature, as illustrated in
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.8b05257
+Chem. Mater. 2019, 31, 1418−1429
+1426
+
+both the ionic conductivity data of P3MEET and P3MEEMT.
+To emphasize the eﬀect of side-chain chemistry on ionic
+transport, we plot in Figure 7e the representative concentration
+dependence ionic conductivity of both polymers at 90 °C. At
+all LiTFSI concentrations and temperatures studied, the ionic
+conductivity is always higher in P3MEEMT compared to
+P3MEET. Our ﬁnding highlights the signiﬁcant role of side-
+chain chemistry on ionic transport of polymer electrolytes.
+An important question to be addressed is whether ionic
+transport in conjugated polymers occurs in the crystalline or
+amorphous regions of the polymer. We postulate that in our
+samples, ionic transport happens mainly in the amorphous
+regimes based on several key observations. First, our
+simulation results indicated that in P3MEEMT ion transport
+is better than P3MEET in the amorphous region but poorer in
+the crystalline region (see Table 1). Since the ionic
+conductivity is higher in P3MEEMT at all conditions studied,
+it is highly likely that the majority of ion transport occurs in the
+amorphous regime. Moreover, our DSC results clearly
+indicated several crystallite melting transitions in P3MEEMT
+(see the Supporting Information Figure S3), yet no obvious
+transition was observed in the ionic conductivity data. This
+suggests that most of the contribution of ionic conductivity
+came from the highly disordered amorphous regime. Finally,
+our GIWAXS data shows that at high LiTFSI concentration,
+the amount of LiTFSI within the crystalline regimes stays
+almost the same for both P3MEET and P3MEEMT, yet the
+ionic conductivity for both polymers followed the trend one
+would expect for concentration dependence behavior. This
+further corroborates our conclusion that in our P3MEET and
+P3MEEMT samples, ions mainly traverse through the
+amorphous domain. Interestingly, our simulation predicted
+better ionic conductivity in crystalline P3MEET, yet ion
+transport is still showed to happen mostly in the amorphous.
+We suspect that our P3MEET and P3MEEMT samples have a
+low degree of crystallinity due to the low boiling point of the
+casting solvents. This argument is supported by the lack of the
+“aggregate shoulder” in the absorption spectra of both
+polymers (Figure 3b). Since most of the samples comprised
+of amorphous polymers, it is not surprising that the ion
+transport is dominated by the amorphous domain. Therefore,
+the dominance of the ion transport in the amorphous domain
+in our work may not be universal to all conjugated polymers.
+An accurate picture of ion transport mechanism thus requires a
+more rigorous study on polymer ﬁlms with systematically
+varying degrees of crystallinity and will be a subject of
+investigation in our future study.
+IV. CONCLUSIONS
+In conclusion, we have performed a systematic study on the
+connection between morphological structure and ionic
+conduction characteristics of two polythiophene derivatives
+P3MEET and P3MEEMT upon blending with LiTFSI. MD
+simulations showed that oxygen atoms in P3MEEMT side-
+chains possessed higher segmental mobility compared to those
+of P3MEET, resulting in better Li+ ionic conductivity in the
+amorphous phase. However, the ionic conductivity of
+crystalline P3MEEMT was found to be lower than P3MEET
+due to the formation of Li+ ion cages, a feature not observed in
+P3MEET. Using GIWAXS measurements, we showed that
+blending P3MEET and P3MEEMT with LiTFSI disrupted
+their crystalline structure, resulting in lattice strains along the
+side-chain stacking direction and signiﬁcant drops in rDoC,
+which have a stronger eﬀect in P3MEET compared to
+P3MEEMT. Introducing LiTFSI also exerted a stronger
+inﬂuence on π−π interaction in P3MEET than in
+P3MEEMT, which most likely originated from the proximity
+of oxygen atom in P3MEET to the thiophene rings.
+Additionally, LiTFSI was found to inﬁltrate both the
+amorphous and crystalline domains at low concentrations
+but preferably resided in the amorphous domain at high
+LiTFSI concentrations. Temperature dependence studies of
+ionic conductivity at diﬀerent concentration r in both
+P3MEET and P3MEEMT showed that ionic conductivity
+increased from r = 0.01 to 0.05 but reduced at higher
+concentration due to ion pairing and transient cross-linking of
+PEO side-chains to Li+ ions. Ionic transport was found to
+occur in the amorphous regime and always higher in
+P3MEEMT compared to P3MEET, consistent with our
+prediction using the MD simulation.
+Our results have demonstrated that side-chain modiﬁcation
+can be a fruitful method to control morphology, ion uptake,
+and ion transport in conjugated polymers. We also expect a
+nontrivial eﬀect of side-chain chemistry on electronic transport
+upon blending with ionic species, as LiTFSI has a diﬀerent
+inﬂuence on rDoC (Figure 5b) and π−π interactions (Figure
+6) for P3MEET and P3MEEMT. Side-chain engineering is,
+thus, expected to be critical in the molecular design of mixed
+conduction materials. Finally, our approach using computa-
+tional simulations to guide synthesis and characterization can
+be an elegant method toward studying the inﬂuence of
+chemistry on self-assembly, structure, and ionic/electronic
+conduction of soft materials.
+■ASSOCIATED CONTENT
+*
+S
+Supporting Information
+The Supporting Information is available free of charge on the
+ACS Publications website at DOI: 10.1021/acs.chemma-
+ter.8b05257.
+Details of polymer synthesis and puriﬁcation; 1H NMR
+spectra; SEC spectra; DSC scanning curves of P3MEET
+and P3MEEMT; UV−vis absorption spectra and AFM
+images of P3MEET-LiTFSI and P3MEEMT-LiTFSI
+thin ﬁlms; additional details of MD simulation; MSD
+plots for side-chain in amorphous and crystalline
+domains of P3MEET and P3MEEMT; Nyquist plot of
+P3MEEMT-LiTFSI, r = 0.10 showing straight-line
+behavior at low frequencies (PDF)
+■AUTHOR INFORMATION
+Corresponding Authors
+*E-mail: fe13@cornell.edu (F.A.E.).
+*E-mail: luscombe@uw.edu (C.K.L.).
+*E-mail: nealey@uchicago.edu (P.F.N.).
+*E-mail: shrayesh@uchicago.edu (S.N.P.).
+ORCID
+Ban Xuan Dong: 0000-0002-2873-5207
+Fernando A. Escobedo: 0000-0002-4722-9836
+Christine K. Luscombe: 0000-0001-7456-1343
+Paul F. Nealey: 0000-0003-3889-142X
+Shrayesh N. Patel: 0000-0003-3657-827X
+Author Contributions
+◆B.X.D., C.N., and J.W.O. contributed equally to the work.
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.8b05257
+Chem. Mater. 2019, 31, 1418−1429
+1427
+
+Notes
+The authors declare no competing ﬁnancial interest.
+■ACKNOWLEDGMENTS
+This work was supported by NSF DMREF Award Number
+1629369. B.X.D. thanks Dr. Hongbo Feng from Nealey Group
+for help in GPC measurement. C.N. thanks Dr. Mayank Misra
+for help with DFT calculations. This research used resources of
+the Advanced Photon Source, an Oﬃce of Science User
+Facility operated for the U.S. Department of Energy (DOE) by
+Argonne National Laboratory under Contract No. DE-AC02-
+06CH11357. Parts of this work were carried out at the Soft
+Matter Characterization Facility of the University of Chicago.
+■REFERENCES
+(1) Sekitani, T.; Zschieschang, U.; Klauk, H.; Someya, T. Flexible
+Organic Transistors and Circuits with Extreme Bending Stability. Nat.
+Mater. 2010, 9, 1015−1022.
+(2) Hoth, C. N.; Schilinsky, P.; Choulis, S. A.; Brabec, C. J. Printing
+Highly Efficient Organic Solar Cells. Nano Lett. 2008, 8, 2806−2813.
+(3) Sirringhaus, H. 25Th Anniversary Article: Organic Field-Effect
+Transistors: The Path Beyond Amorphous Silicon. Adv. Mater. 2014,
+26, 1319−1335.
+(4) Dong, H.; Fu, X.; Liu, J.; Wang, Z.; Hu, W. 25th Anniversary
+Article: Key Points for High-Mobility Organic Field-Effect Tran-
+sistors. Adv. Mater. 2013, 25, 6158−6183.
+(5) Patel, S. N.; Javier, A. E.; Stone, G. M.; Mullin, S. A.; Balsara, N.
+P. Simultaneous Conduction of Electronic Charge and Lithium Ions
+in Block Copolymers. ACS Nano 2012, 6, 1589−1600.
+(6) Javier, A. E.; Patel, S. N.; Hallinan, D. T.; Srinivasan, V.; Balsara,
+N. P. Simultaneous Electronic and Ionic Conduction in a Block
+Copolymer: Application in Lithium Battery Electrodes. Angew. Chem.,
+Int. Ed. 2011, 50, 9848−9851.
+(7) Borsenberger, P. M.; Weiss, D. S. Organic Photoreceptors for
+Xerography; CRC Press: New York, 1998.
+(8) Geffroy, B.; le Roy, P.; Prat, C. Organic Light-Emitting Diode
+(OLED) Technology: Materials, Devices and Display Technologies.
+Polym. Int. 2006, 55, 572−582.
+(9) Müllen, K.; Scherf, U. Organic Light Emitting Devices: Synthesis,
+Properties and Applications; Wiley: New York, 2006.
+(10) Günes, S.; Neugebauer, H.; Sariciftci, N. S. Conjugated
+Polymer-Based Organic Solar Cells. Chem. Rev. 2007, 107, 1324−
+1338.
+(11) Kroon, R.; Lenes, M.; Hummelen, J. C.; Blom, P. W. M.; de
+Boer, B. Small Bandgap Polymers for Organic Solar Cells (Polymer
+Material Development in the Last 5 Years). Polym. Rev. 2008, 48,
+531−582.
+(12) Khodagholy, D.; Doublet, T.; Quilichini, P.; Gurfinkel, M.;
+Leleux, P.; Ghestem, A.; Ismailova, E.; Hervé, T.; Sanaur, S.; Bernard,
+C.; et al. In Vivo Recordings of Brain Activity Using Organic
+Transistors. Nat. Commun. 2013, 4, No. 1575.
+(13) Rivnay, J.; Owens, R. M.; Malliaras, G. G. The Rise of Organic
+Bioelectronics. Chem. Mater. 2014, 26, 679−685.
+(14) Owens, R. M.; Malliaras, G. G. Organic Electronics at the
+Interface with Biology. MRS Bull. 2010, 35, 449−456.
+(15) Lee, K.; Povlich, L. K.; Kim, J. Recent Advances in Fluorescent
+and Colorimetric Conjugated Polymer-Based Biosensors. Analyst
+2010, 135, 2179−2189.
+(16) Scherson, D. A.; Palencsár, A. Batteries and Electrochemical
+Capacitors. Electrochem. Soc. Interface 2006, 15, 17−22.
+(17) Delacourt, C.; Laffont, L.; Bouchet, R.; Wurm, C.; Leriche, J.-
+B.; Morcrette, M.; Tarascon, J.-M.; Masquelier, C. Toward Under-
+standing of Electrical Limitations (Electronic, Ionic) in LiMPO[Sub
+4] (M=Fe, Mn) Electrode Materials. J. Electrochem. Soc. 2005, 152,
+A913.
+(18) Liu, T.; Finn, L.; Yu, M.; Wang, H.; Zhai, T.; Lu, X.; Tong, Y.;
+Li, Y. Polyaniline and Polypyrrole Pseudocapacitor Electrodes with
+Excellent Cycling Stability. Nano Lett. 2014, 14, 2522−2527.
+(19) Mortimer, R. J.; Dyer, A. L.; Reynolds, J. R. Electrochromic
+Organic and Polymeric Materials for Display Applications. Displays
+2006, 27, 2−18.
+(20) O’Regan, B.; Gratzel, M. A Low-Cost, High-Efficiency Solar-
+Cell Based on Dye-Sensitized Colloidal TiO2 Films. Nature 1991,
+353, 737−740.
+(21) Haines, C. S.; Lima, M. D.; Li, N.; Spinks, G. M.; Foroughi, J.;
+Madden, J. D. W.; Kim, S. H.; Fang, S.; De Andrade, M. J.; Göktepe,
+F.; et al. Artificial Muscles from Fishing Line and Sewing Thread.
+Science 2014, 343, 868−872.
+(22) Inal, S.; Rivnay, J.; Suiu, A. O.; Malliaras, G. G.; McCulloch, I.
+Conjugated Polymers in Bioelectronics. Acc. Chem. Res. 2018, 51,
+1368−1376.
+(23) Giridharagopal, R.; Flagg, L. Q.; Harrison, J. S.; Ziffer, M. E.;
+Onorato, J.; Luscombe, C. K.; Ginger, D. S. Electrochemical Strain
+Microscopy Probes Morphology-Induced Variations in Ion Uptake
+and Performance in Organic Electrochemical Transistors. Nat. Mater.
+2017, 16, 737−742.
+(24) Dong, B. X.; Huang, B.; Tan, A.; Green, P. F. Nanoscale
+Orientation Effects on Carrier Transport in a Low-Band-Gap
+Polymer. J. Phys. Chem. C 2014, 118, 17490−17498.
+(25) Mollinger, S. A.; Krajina, B. A.; Noriega, R.; Salleo, A.;
+Spakowitz, A. J. Percolation, Tie-Molecules, and the Microstructural
+Determinants of Charge Transport in Semicrystalline Conjugated
+Polymers. ACS Macro Lett. 2015, 4, 708−712.
+(26) Duong, D. T.; Ho, V.; Shang, Z.; Mollinger, S.; Mannsfeld, S. C.
+B.; Dacuña, J.; Toney, M. F.; Segalman, R.; Salleo, A. Mechanism of
+Crystallization and Implications for Charge Transport in Poly(3-
+Ethylhexylthiophene) Thin Films. Adv. Funct. Mater. 2014, 24, 4515−
+4521.
+(27) Kline, R. J.; Mcgehee, M. D.; Kadnikova, E. N.; Liu, J.; Fre, J.
+M. J.; Toney, M. F. Dependence of Regioregular Poly ( 3-
+Hexylthiophene ) Film Morphology and Field-Effect Mobility on
+Molecular Weight. Macromolecules 2005, 3312−3319.
+(28) Zhang, X.; Bronstein, H.; Kronemeijer, A. J.; Smith, J.; Kim, Y.;
+Kline, R. J.; Richter, L. J.; Anthopoulos, T. D.; Sirringhaus, H.; Song,
+K.; et al. Molecular Origin of High Field-Effect Mobility in an
+Indacenodithiophene-Benzothiadiazole Copolymer. Nat. Commun.
+2013, 4, No. 2238.
+(29) Inal, S.; Malliaras, G. G.; Rivnay, J. Optical Study of
+Electrochromic Moving Fronts for the Investigation of Ion Transport
+in Conducting Polymers. J. Mater. Chem. C 2016, 4, 3942−3947.
+(30) Rivnay, J.; Inal, S.; Collins, B. A.; Sessolo, M.; Stavrinidou, E.;
+Strakosas, X.; Tassone, C.; Delongchamp, D. M.; Malliaras, G. G.
+Structural Control of Mixed Ionic and Electronic Transport in
+Conducting Polymers. Nat. Commun. 2016, 7, No. 11287.
+(31) Stavrinidou, E.; Leleux, P.; Rajaona, H.; Khodagholy, D.;
+Rivnay, J.; Lindau, M.; Sanaur, S.; Malliaras, G. G. Direct
+Measurement of Ion Mobility in a Conducting Polymer. Adv.
+Mater. 2013, 25, 4488−4493.
+(32) Nielsen, C. B.; Giovannitti, A.; Sbircea, D. T.; Bandiello, E.;
+Niazi, M. R.; Hanifi, D. A.; Sessolo, M.; Amassian, A.; Malliaras, G.
+G.; Rivnay, J.; et al. Molecular Design of Semiconducting Polymers
+for High-Performance Organic Electrochemical Transistors. J. Am.
+Chem. Soc. 2016, 138, 10252−10259.
+(33) Giovannitti, A.; Sbircea, D.-T.; Inal, S.; Nielsen, C. B.;
+Bandiello, E.; Hanifi, D. A.; Sessolo, M.; Malliaras, G. G.; McCulloch,
+I.; Rivnay, J. Controlling the Mode of Operation of Organic
+Transistors through Side-Chain Engineering. Proc. Natl. Acad. Sci.
+USA 2016, 113, 12017−12022.
+(34) Pipertzis, A.; Mühlinghaus, M.; Mezger, M.; Scherf, U.;
+Floudas, G. Polymerized Ionic Liquids with Polythiophene Back-
+bones: Self-Assembly, Thermal Properties, and Ion Conduction.
+Macromolecules 2018, 51, 6440−6450.
+(35) Jiang, Z. GIXSGUI: A MATLAB Toolbox for Grazing-
+Incidence X-Ray Scattering Data Visualization and Reduction, and
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.8b05257
+Chem. Mater. 2019, 31, 1418−1429
+1428
+
+Indexing of Buried Three-Dimensional Periodic Nanostructured
+Films. J. Appl. Crystallogr. 2015, 48, 917−926.
+(36) Dong, B. X.; Strzalka, J.; Jiang, Z.; Li, H.; Stein, G. E.; Green, P.
+F. Crystallization Mechanism and Charge Carrier Transport in
+MAPLE-Deposited Conjugated Polymer Thin Films. ACS Appl.
+Mater. Interfaces 2017, 9, 44799−44810.
+(37) Jimison, L. H.; Himmelberger, S.; Duong, D. T.; Rivnay, J.;
+Toney, M. F.; Salleo, A. Vertical Confinement and Interface Effects on
+the Microstructure and Charge Transport of P3HT Thin Films. J.
+Polym. Sci., Part B: Polym. Phys. 2013, 51, 611−620.
+(38) Himmelberger, S.; Dacuña, J.; Rivnay, J.; Jimison, L. H.;
+McCarthy-Ward, T.; Heeney, M.; McCulloch, I.; Toney, M. F.; Salleo,
+A. Effects of Confinement on Microstructure and Charge Transport in
+High Performance Semicrystalline Polymer Semiconductors. Adv.
+Funct. Mater. 2013, 23, 2091−2098.
+(39) Dacuña, J.; Salleo, A. Modeling Space-Charge Limited Currents
+in Organic Semiconductors: Extracting Trap Density and Mobility I.
+Introduction. Phys. Rev. B 2011, 84, No. 195209.
+(40) Noriega, R.; Rivnay, J.; Vandewal, K.; Koch, F. P. V.; Stingelin,
+N.; Smith, P.; Toney, M. F.; Salleo, A. A General Relationship
+between Disorder, Aggregation and Charge Transport in Conjugated
+Polymers. Nat. Mater. 2013, 12, 1038−1044.
+(41) Bässler, H. Charge Transport in Disordered Organic Photo-
+conductors a Monte Carlo Simulation Study. Phys. Status Solidi 1993,
+175, 15−56.
+(42) Baker, J. L.; Jimison, L. H.; Mannsfeld, S.; Volkman, S.; Yin, S.;
+Subramanian, V.; Salleo, A.; Alivisatos, A. P.; Toney, M. F.
+Quantification of Thin Film Crystallographic Orientation Using X-
+Ray Diffraction with an Area Detector. Langmuir 2010, 26, 9146−
+9151.
+(43) DeLongchamp, D. M.; Kline, R. J.; Fischer, D. A.; Richter, L. J.;
+Toney, M. F. Molecular Characterization of Organic Electronic Films.
+Adv. Mater. 2011, 23, 319−337.
+(44) Kroon, R.; Kiefer, D.; Stegerer, D.; Yu, L.; Sommer, M.; Müller,
+C. Polar Side Chains Enhance Processability, Electrical Conductivity,
+and Thermal Stability of a Molecularly p-Doped Polythiophene. Adv.
+Mater. 2017, 29, No. 1700930.
+(45) Kayunkid, N.; Uttiya, S.; Brinkmann, M. Structural Model of
+Regioregular Poly(3-Hexylthiophene) Obtained by Electron Diffrac-
+tion Analysis. Macromolecules 2010, 43, 4961−4967.
+(46) Nosé, S. A Unified Formulation of the Constant Temperature
+Molecular Dynamics Methods. J. Chem. Phys. 1984, 81, 511−519.
+(47) To, T. T.; Adams, S. Modelling of P3HT:PCBM Interface
+Using Coarse-Grained Forcefield Derived from Accurate Atomistic
+Forcefield. Phys. Chem. Chem. Phys. 2014, 16, 4653−4663.
+(48) Berthier, C.; Gorecki, W.; Minier, M.; Armand, M. B.;
+Chabagno, J. M.; Rigaud, P. Microscopic Investigation of Ionic
+Conductivity in Alkali Metal Salts-Poly(Ethylene Oxide) Adducts.
+Solid Sate Ionics 1983, 11, 91−95.
+(49) Wintersgill, M. C.; Fontanella, J. J.; Pak, Y. S.; Greenbaum, S.
+G.; Al-Mudaris, A.; Chadwick, A. V. Electrical Conductivity,
+Differential Scanning Calorimetry and Nuclear Magnetic Resonance
+Studies of Amorphous Poly(Ethylene Oxide) Complexed with
+Sodium Salts. Polymer 1989, 30, 1123−1126.
+(50) Borodin, O.; Smith, G. D. Mechanism of Ion Transport in
+Amorphous Poly(Ethylene Oxide)/ LiTFSI from Molecular Dynam-
+ics Simulations. Macromolecules 2006, 39, 1620−1629.
+(51) Chang, J.-F.; Sun, B.; Breiby, D. W.; Nielsen, M. M.; Sölling, T.
+I.; Giles, M.; McCulloch, I.; Sirringhaus, H. Enhanced Mobility of
+Poly(3-Hexylthiophene) Transistors by Spin-Coating from High-
+Boiling-Point Solvents. Chem. Mater. 2004, 16, 4772−4776.
+(52) Dong, B. X.; Li, A.; Strzalka, J.; Stein, G. E.; Green, P. F.
+Molecular Organization in MAPLE-Deposited Conjugated Polymer
+Thin Films and the Implications for Carrier Transport Characteristics.
+J. Polym. Sci., Part B: Polym. Phys. 2017, 55, 39−48.
+(53) Hammond, M. R.; Kline, R. J.; Herzing, A. A.; Richter, L. J.;
+Germack, D. S.; Ro, H.-W.; Soles, C. L.; Fischer, D. A.; Xu, T.; Yu, L.;
+et al. Molecular Order in High-Efficiency Polymer/Fullerene Bulk
+Heterojunction Solar Cells. ACS Nano 2011, 5, 8248−8257.
+(54) Guardado, J. O.; Salleo, A. Structural Effects of Gating Poly(3-
+Hexylthiophene) through an Ionic Liquid. Adv. Funct. Mater. 2017,
+27, No. 1701791.
+(55) Thelen, J. L.; Wu, S. L.; Javier, A. E.; Srinivasan, V.; Balsara, N.
+P.; Patel, S. N. Relationship between Mobility and Lattice Strain in
+Electrochemically Doped Poly(3-Hexylthiophene). ACS Macro Lett.
+2015, 4, 1386−1391.
+(56) Thomas, E. M.; Brady, M. A.; Nakayama, H.; Popere, B. C.;
+Segalman, R. A.; Chabinyc, M. L. X-Ray Scattering Reveals Ion-
+Induced Microstructural Changes During Electrochemical Gating of
+Poly(3-Hexylthiophene). Adv. Funct. Mater. 2018, 28, No. 1803687.
+(57) Paul, D. K.; Mccreery, R.; Karan, K. Proton Transport Property
+in Supported Nafion Nanothin Films by Electrochemical Impedance
+Spectroscopy. J. Electrochem. Soc. 2014, 161, F1395−1402.
+(58) Arges, C. G.; Kambe, Y.; Suh, H. S.; Ocola, L. E.; Nealey, P. F.
+Perpendicularly Aligned, Anion Conducting Nanochannels in Block
+Copolymer Electrolyte Films. Chem. Mater. 2016, 28, 1377−1389.
+(59) Sharon, D.; Bennington, P.; Liu, C.; Kambe, Y.; Dong, B. X.;
+Burnett, V. F.; Dolejsi, M.; Grocke, G.; Patel, S. N.; Nealey, P. F.
+Interrogation of Electrochemical Properties of Polymer Electrolyte
+Thin Films with Interdigitated Electrodes. J. Electrochem. Soc. 2018,
+165, H1028−H1039.
+(60) Liu, Z.; Dong, B. X.; Misra, M.; Sun, Y.; Strzalka, J.; Patel, S. N.;
+Escobedo, F. A.; Nealey, P. F.; Ober, C. K. Self-Assembly Behavior of
+An Oligothiophene-Based Conjugated Liquid Crystal and Its
+Implication for Ionic Conductivity Characteristics. Adv. Funct.
+Mater. 2018, No. 1805220.
+(61) Lascaud, S.; Perrier, M.; Vallee, A.; Besner, S.; Prud’homme, J.;
+Armand, M. Phase Diagrams and Conductivity Behavior of Poly-
+(Ethylene Oxide)-Molten Salt Rubbery Electrolytes. Macromolecules
+1994, 27, 7469−7477.
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.8b05257
+Chem. Mater. 2019, 31, 1418−1429
+1429
+

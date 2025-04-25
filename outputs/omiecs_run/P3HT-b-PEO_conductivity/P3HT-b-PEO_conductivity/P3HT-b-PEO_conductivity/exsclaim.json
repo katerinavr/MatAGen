@@ -1,0 +1,745 @@
+{
+   "page_1_img_1.png": {
+      "title": "acs_nn_nn-2011-045664 1..12",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3HT-b-PEO_conductivity\\P3HT-b-PEO_conductivity",
+      "image_url": [],
+      "figure_name": "page_1_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_1_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9189517498016357,
+            "height": 384,
+            "width": 489,
+            "geometry": [
+               {
+                  "x": 467,
+                  "y": 0
+               },
+               {
+                  "x": 956,
+                  "y": 0
+               },
+               {
+                  "x": 467,
+                  "y": 384
+               },
+               {
+                  "x": 956,
+                  "y": 384
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 467,
+                     "y": 0
+                  },
+                  {
+                     "x": 956,
+                     "y": 0
+                  },
+                  {
+                     "x": 467,
+                     "y": 384
+                  },
+                  {
+                     "x": 956,
+                     "y": 384
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.7980231046676636,
+            "height": 378,
+            "width": 460,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 460,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 378
+               },
+               {
+                  "x": 460,
+                  "y": 378
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 460,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 378
+                  },
+                  {
+                     "x": 460,
+                     "y": 378
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_3_img_2.png": {
+      "title": "acs_nn_nn-2011-045664 1..12",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3HT-b-PEO_conductivity\\P3HT-b-PEO_conductivity",
+      "image_url": [],
+      "figure_name": "page_3_img_2.png",
+      "full_caption": "Figure 2. (a) SAXS of P3HT\u2212PEO(5\u22124) at r0 = 0. A lamellar microstructure is seen at 28 \u00b0C, while the microstructure is obliterated at 90 \u00b0C. The lamellar microstructure returns after cooling to 28 \u00b0C. (b) SAXS of P3HT\u2212PEO(5\u22124) at r0 = 0.085 indicating a lamellar microstructure. The inset shows the bright field transmission electron microscopy (TEM) image of a P3HT\u2212PEO(5\u22124) at r0 = 0.085. Contrast in the TEM arises from density differences between the P3HT-rich (dark) and PEO with LiTFSI (light) microphases.",
+      "figure_path": "output\\figures\\page_3_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9727727174758911,
+            "height": 1314,
+            "width": 1646,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 1361
+               },
+               {
+                  "x": 1646,
+                  "y": 1361
+               },
+               {
+                  "x": 0,
+                  "y": 2675
+               },
+               {
+                  "x": 1646,
+                  "y": 2675
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 1361
+                  },
+                  {
+                     "x": 1646,
+                     "y": 1361
+                  },
+                  {
+                     "x": 0,
+                     "y": 2675
+                  },
+                  {
+                     "x": 1646,
+                     "y": 2675
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 939,
+                           "y": 1784
+                        },
+                        {
+                           "x": 939,
+                           "y": 1833
+                        },
+                        {
+                           "x": 1099,
+                           "y": 1833
+                        },
+                        {
+                           "x": 1099,
+                           "y": 1784
+                        }
+                     ],
+                     "text": "100.0 nm",
+                     "label_confidence": 0.005483024753630161,
+                     "box_confidence": 0.9907721281051636,
+                     "nm": 100.0
+                  },
+                  "geometry": [
+                     {
+                        "x": 941,
+                        "y": 1840
+                     },
+                     {
+                        "x": 941,
+                        "y": 1855
+                     },
+                     {
+                        "x": 1091,
+                        "y": 1855
+                     },
+                     {
+                        "x": 1091,
+                        "y": 1840
+                     }
+                  ],
+                  "confidence": 0.981609046459198,
+                  "length": 150,
+                  "label_line_distance": 1530.0
+               }
+            ],
+            "nm_height": 876.0,
+            "nm_width": 1097.3,
+            "scale_label": "100.0 nm",
+            "caption": "SAXS of P3HT\u2212PEO(5\u22124) at r0 = 0.085 indicating a lamellar microstructure. The inset shows the bright field transmission electron microscopy (TEM) image of a P3HT\u2212PEO(5\u22124) at r0 = 0.085. Contrast in the TEM arises from density differences between the P3HT-rich (dark) and PEO with LiTFSI (light) microphases.",
+            "keywords": [
+               "SAXS",
+               "TEM",
+               "microstructure"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9727076292037964,
+            "height": 1336,
+            "width": 1646,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 3
+               },
+               {
+                  "x": 1646,
+                  "y": 3
+               },
+               {
+                  "x": 0,
+                  "y": 1339
+               },
+               {
+                  "x": 1646,
+                  "y": 1339
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 3
+                  },
+                  {
+                     "x": 1646,
+                     "y": 3
+                  },
+                  {
+                     "x": 0,
+                     "y": 1339
+                  },
+                  {
+                     "x": 1646,
+                     "y": 1339
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "SAXS of P3HT\u2212PEO(5\u22124) at r0 = 0. A lamellar microstructure is seen at 28 \u00b0C, while the microstructure is obliterated at 90 \u00b0C. The lamellar microstructure returns after cooling to 28 \u00b0C.",
+            "keywords": [
+               "SAXS",
+               "lamellar microstructure",
+               "temperature"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_4_img_2.png": {
+      "title": "acs_nn_nn-2011-045664 1..12",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3HT-b-PEO_conductivity\\P3HT-b-PEO_conductivity",
+      "image_url": [],
+      "figure_name": "page_4_img_2.png",
+      "full_caption": "Figure 3. WAXS at 90 \u00b0C for P3HT(5) at r0 = 0 (no LiTFSI) and P3HT\u2212PEO at r0 = 0 and r0 = 0.085. The (100), (200), and (300) peaks correspond to the side-chain packing, while the (010) peak corresponds to the \u03c0\u2212\u03c0 stacking. No diffraction peak is seen for PEO, as the samples are above the PEO melting point.",
+      "figure_path": "output\\figures\\page_4_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 894,
+            "width": 833,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 833,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 894
+               },
+               {
+                  "x": 833,
+                  "y": 894
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 833,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 894
+                  },
+                  {
+                     "x": 833,
+                     "y": 894
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_5_img_1.png": {
+      "title": "acs_nn_nn-2011-045664 1..12",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3HT-b-PEO_conductivity\\P3HT-b-PEO_conductivity",
+      "image_url": [],
+      "figure_name": "page_5_img_1.png",
+      "full_caption": "Figure 5. (a) Nyquist impedance plot (\u2212Z\u2032\u2032 vs Z\u2032) for P3HT\u2212PEO(6\u22122)/LiTFSI (open circles) and the corresponding fit (solid curve) using the proposed equivalent circuit shown in the inset. Fit parameters: Qbulk = 3.79 \u00d7 10\u221210 F\u00b7s^n\u22121, Qbulk = 1, Qint = 2.51 \u00d7 10\u22129 F\u00b7s^n\u22121, Qint = 0.658, Q2 = 2.17 \u00d7 10\u22127 F\u00b7s^n\u22121, Q2 = 0.853, and Rint = 0.719 k\u03a9\u00b7cm^2, Rbulk = 1.29 k\u03a9\u00b7cm^2, Rint = 4.90 k\u03a9\u00b7cm^2. (b) Current density (i) vs time curves at different applied dc potentials (E). (c) Corresponding Ohm\u2019s law plot of dc potential (V) vs steady-state current density (i_ss). Open circles are the experimental data, and solid line is the Ohm\u2019s law fit. The dc resistance, R_\u03a9, from Ohm\u2019s law fit is 1.30 k\u03a9\u00b7cm^2.",
+      "figure_path": "output\\figures\\page_5_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9749700427055359,
+            "height": 565,
+            "width": 848,
+            "geometry": [
+               {
+                  "x": 1,
+                  "y": 579
+               },
+               {
+                  "x": 849,
+                  "y": 579
+               },
+               {
+                  "x": 1,
+                  "y": 1144
+               },
+               {
+                  "x": 849,
+                  "y": 1144
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 579
+                  },
+                  {
+                     "x": 849,
+                     "y": 579
+                  },
+                  {
+                     "x": 1,
+                     "y": 1144
+                  },
+                  {
+                     "x": 849,
+                     "y": 1144
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Current density (i) vs time curves at different applied dc potentials (E).",
+            "keywords": [
+               "Electrochemistry",
+               "Current Density",
+               "DC Potentials"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9648277163505554,
+            "height": 573,
+            "width": 691,
+            "geometry": [
+               {
+                  "x": 872,
+                  "y": 568
+               },
+               {
+                  "x": 1563,
+                  "y": 568
+               },
+               {
+                  "x": 872,
+                  "y": 1141
+               },
+               {
+                  "x": 1563,
+                  "y": 1141
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 872,
+                     "y": 568
+                  },
+                  {
+                     "x": 1563,
+                     "y": 568
+                  },
+                  {
+                     "x": 872,
+                     "y": 1141
+                  },
+                  {
+                     "x": 1563,
+                     "y": 1141
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Corresponding Ohm\u2019s law plot of dc potential (V) vs steady-state current density (i_ss). Open circles are the experimental data, and solid line is the Ohm\u2019s law fit. The dc resistance, R_\u03a9, from Ohm\u2019s law fit is 1.30 k\u03a9\u00b7cm^2.",
+            "keywords": [
+               "Ohm\"s law",
+               "resistance",
+               "experimental data"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9646314978599548,
+            "height": 547,
+            "width": 966,
+            "geometry": [
+               {
+                  "x": 339,
+                  "y": 1
+               },
+               {
+                  "x": 1305,
+                  "y": 1
+               },
+               {
+                  "x": 339,
+                  "y": 548
+               },
+               {
+                  "x": 1305,
+                  "y": 548
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 339,
+                     "y": 1
+                  },
+                  {
+                     "x": 1305,
+                     "y": 1
+                  },
+                  {
+                     "x": 339,
+                     "y": 548
+                  },
+                  {
+                     "x": 1305,
+                     "y": 548
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Nyquist impedance plot (\u2212Z\u2032\u2032 vs Z\u2032) for P3HT\u2212PEO(6\u22122)/LiTFSI (open circles) and the corresponding fit (solid curve) using the proposed equivalent circuit shown in the inset. Fit parameters: Qbulk = 3.79 \u00d7 10\u221210 F\u00b7s^n\u22121, Qbulk = 1, Qint = 2.51 \u00d7 10\u22129 F\u00b7s^n\u22121, Qint = 0.658, Q2 = 2.17 \u00d7 10\u22127 F\u00b7s^n\u22121, Q2 = 0.853, and Rint = 0.719 k\u03a9\u00b7cm^2, Rbulk = 1.29 k\u03a9\u00b7cm^2, Rint = 4.90 k\u03a9\u00b7cm^2.",
+            "keywords": [
+               "Impedance",
+               "Nyquist plot",
+               "Equivalent circuit"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_7_img_1.png": {
+      "title": "acs_nn_nn-2011-045664 1..12",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3HT-b-PEO_conductivity\\P3HT-b-PEO_conductivity",
+      "image_url": [],
+      "figure_name": "page_7_img_1.png",
+      "full_caption": "Figure 9. Electronic conductivity of P3HT homopolymer and P3HT\u2212PEO block copolymers as a function of the P3HT volume fraction, \u03c6, at 90 \u00b0C. Measurements were made with (r0 = 0.085) and without (r0 = 0) added salt. The \u03c6 values for the three block copolymer samples are given in Table 1. The dHT = 1 data set corresponds to homopolymer P3HT(15), and the salt concentration of 0.085 is actually rHT. The ionic conductivities of the P3HT\u2212PEO block copolymers were measured only with added salt (r0 = 0.085). The dashed lines are guides for the eye.",
+      "figure_path": "output\\figures\\page_7_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 655,
+            "width": 825,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 825,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 655
+               },
+               {
+                  "x": 825,
+                  "y": 655
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 825,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 655
+                  },
+                  {
+                     "x": 825,
+                     "y": 655
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_7_img_2.png": {
+      "title": "acs_nn_nn-2011-045664 1..12",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3HT-b-PEO_conductivity\\P3HT-b-PEO_conductivity",
+      "image_url": [],
+      "figure_name": "page_7_img_2.png",
+      "full_caption": "Figure 10. Nyquist impedance plot (\u2212Z\u2033 vs Z\u2032) at 90 \u00b0C for P3HT\u2212PEO(6\u22122) at r0 = 0. The Z\u2032 intercept of the rightmost semicircle gives the electronic resistance.",
+      "figure_path": "output\\figures\\page_7_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9653928279876709,
+            "height": 568,
+            "width": 671,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 599
+               },
+               {
+                  "x": 671,
+                  "y": 599
+               },
+               {
+                  "x": 0,
+                  "y": 1167
+               },
+               {
+                  "x": 671,
+                  "y": 1167
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 599
+                  },
+                  {
+                     "x": 671,
+                     "y": 599
+                  },
+                  {
+                     "x": 0,
+                     "y": 1167
+                  },
+                  {
+                     "x": 671,
+                     "y": 1167
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9533792734146118,
+            "height": 568,
+            "width": 671,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 671,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 568
+               },
+               {
+                  "x": 671,
+                  "y": 568
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 671,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 568
+                  },
+                  {
+                     "x": 671,
+                     "y": 568
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   }
+}

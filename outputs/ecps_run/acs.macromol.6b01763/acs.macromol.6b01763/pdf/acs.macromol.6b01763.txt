@@ -1,0 +1,1007 @@
+Tuning Color, Contrast, and Redox Stability in High Gap Cathodically
+Coloring Electrochromic Polymers
+Kangli Cao,†,‡ D. Eric Shen,† Anna M. Österholm,† Justin A. Kerszulis,† and John R. Reynolds*,†
+†School of Chemistry and Biochemistry, School of Materials Science and Engineering, Center for Organic Photonics and Electronics
+(COPE), Georgia Tech Polymer Network (GTPN), Georgia Institute of Technology, Atlanta, Georgia 30332, United States
+‡Shanghai Institute of Satellite Equipment, Shanghai 200240, China
+*
+S Supporting Information
+ABSTRACT: The design of high bandgap electrochromic
+polymers (ECPs) that switch from a high energy absorbing colored
+state to a near-IR absorbing colorless state requires a challenging
+balance to be struck between achieving large changes in the
+absorption proﬁle while maintaining suﬃciently low oxidation
+potentials for use in full-color electrochromic devices. Previous
+studies on high bandgap ECPs have investigated structure−
+property relationships in dioxythiophenes copolymerized with
+various arylenes. Here, we expand this understanding by looking
+more closely at the eﬀect of the dioxythiophene moiety as well as
+by varying the substituents on the arylene moiety. Three ECPs
+have been synthesized to perform this study with repeat units
+composed of electron-rich dimethoxyphenylene in alternation with dimers of 3,4-dialkoxy- and 3,4-propylenedioxythiophenes,
+yielding high gap polymers that are vibrant yellow or orange in the charge neutral state. Comparing these newly synthesized
+polymers to a structurally similar set previously reported, we elucidate the subtle steric and electronic eﬀects that govern bandgap
+and redox properties in dioxythiophene copolymers.
+■INTRODUCTION
+Conjugated polymers have been widely explored for electro-
+chromic applications, owing to the ease with which the
+coloration and redox properties can be tuned through synthetic
+means.1−6 Cathodically coloring cyan, magenta, and yellow
+electrochromic polymers (ECPs), as well as numerous
+secondary colors, that all switch from a vibrantly colored
+state to a colorless (bleached) state upon electrochemical
+oxidation have been synthesized, allowing for a broad palette of
+vibrant colors, as well as browns and blacks, to be accessible
+through blending of ECP solutions.7−11 The use of
+dioxythiophene (DOT)-based polymers enables the design of
+ECPs that undergo this colored-to-clear transition at low
+oxidation potentials. Mechanistically, oxidation of a neutral
+polymer leads to the formation of cation radicals (polarons)
+and dications (bipolarons), which give rise to conformational
+changes of the polymer backbone and a change in the
+absorption proﬁle.12 Spectroscopically, this is seen as a decrease
+of the neutral π−π* absorption band in the visible range and
+the appearance of new charge carrier absorption bands at
+longer wavelengths. For the majority of DOT-based ECPs,
+these charge carrier absorbances are shifted into the NIR, with
+minimal tailing into the visible region resulting in ﬁlms that are
+highly transmissive and nearly colorless in their fully oxidized
+state. When considering high gap ECPs that are yellow or
+orange in their charge neutral states, and hence absorbing in the
+350−500 nm range (i.e., above 2.5 eV), the charge carrier
+transitions need to be transferred across the entire visible
+spectrum into the NIR, as illustrated in Figure 1, for these
+materials to become colorless upon oxidation. Attaining this
+spectral shift is challenging to accomplish, and as a result most
+cathodically coloring yellow EC materials absorb in the long
+wavelength range of the visible in their oxidized state, most
+often giving rise to a residual blue tint.13−21
+In 2010, the homopolymer of bis(ethylhexyloxy)thiophene
+(PAcDOT), an orange-to-clear ECP, was reported.22 The
+branched alkoxy groups attached directly onto the thiophene
+backbone not only aﬀorded high solubility but also induced
+enough steric distortion to reduce the extent of conjugation
+relative to a fully planar polymer, shifting the λmax to 480 nm
+while maintaining a low oxidation potential (ca. 0.5 V vs Ag/
+Ag+) as a result of the electron donating oxygens. While the
+color and redox properties are in line with the structure−
+property relationships we have developed for DOT-based
+ECPs,7 the main challenge with this particular high gap polymer
+is the relatively long switching time that exceeds 5 s to reach
+95% of full optical contrast.
+In the following year, the ﬁrst cathodically coloring yellow-to-
+colorless ECP, an alternating 3,4-propylenedioxythiophene-alt-
+phenylene copolymer (PProDOT-Ph), was reported, complet-
+Received:
+August 12, 2016
+Revised:
+October 24, 2016
+Published: November 11, 2016
+Article
+pubs.acs.org/Macromolecules
+© 2016 American Chemical Society
+8498
+DOI: 10.1021/acs.macromol.6b01763
+Macromolecules 2016, 49, 8498−8507
+Downloaded via ARGONNE NATL LABORATORY on September 26, 2024 at 20:31:44 (UTC).
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+ing the subtractive color palette.23 Compared to other PXDOT-
+based electrochromes, PProDOT-Ph is able to maintain a
+subsecond switching speed but requires a relatively high
+oxidation potential (ca. 1.1 V vs Ag/Ag+) to reach its fully
+bleached state, which is attributed to the aromaticity of the
+phenylene unit.23 As a result, while PProDOT-Ph could
+potentially be used in blends with other ECPs to obtain
+various hues,10 or a broadly absorbing black or brown color,9,11
+the relatively large potential required to bleach the PProDOT-
+Ph component can be beyond the stable limits of other more
+easily oxidizable ECPs, which decreases the redox switching
+stability of the blend ﬁlms.24,25
+In a quest to further tune the redox and color properties of
+high gap ECPs, a series of XDOT−arylene copolymers were
+designed and synthesized to extract structure−property
+relationships between color and oxidation potential with the
+goal of yielding a second generation of yellow-to-colorless
+switching polymer electrochrome.26 This study yielded seven
+new yellow and orange ProDOT-based ECPs and showed that
+increasing the electron richness of the arylene, by incorporating
+e.g. carbazole (Cbz) or pyrene, or by using dimers of DOTs in
+the repeat unit, led to a decrease of the oxidation potential
+while maintaining a high bandgap due to steric interactions
+between the DOT and the ortho C−H on the arylene. Utilizing
+this design logic, the ProDOT was then replaced with a dimer
+of the acyclic bis(ethylhexyloxy)thiophene (biAcDOT) to
+aﬀord the polymer PAcDOT2-Ph. This balance between sterics
+and electron richness gave rise to a polymer with an oxidation
+potential 0.3 V lower than PProDOT-Ph, but with an
+absorbance proﬁle that is blue-shifted relative to the PAcDOT
+homopolymer and with signiﬁcantly faster switching speeds (<2
+s).9 While the decreased oxidation potential makes it more
+suitable for use in blends with other ECPs, PAcDOT2-Ph
+exhibits a ca. 6% decrease in contrast (Δ%T) over a hundred
+switches as a result of a decrease in the vibrancy of the colored
+state (vide infra). This is a signiﬁcantly faster decrease
+compared with the soluble PAcDOT or PProDOT homo-
+polymers with the latter demonstrating stability over tens of
+thousands or more switches,22,27 but an improvement over the
+ﬁrst-generation yellow PProDOT-Ph. As we will show here,
+likely explanations for the loss of contrast of PProDOT-Ph and
+PAcDOT2-Ph (and other ECPs incorporating phenyl groups in
+their repeat unit structure) include the presence of the
+unsubstituted phenyl group, through which intermolecular
+cross-linking can occur during redox cycling.28−30 Similar
+unsubstituted positions have also been proposed to serve as
+sites for unwanted chemical reactivity in thiophene-based
+polymers during oxidation.31 In addition, we will show that the
+nature, as well as the number, of DOTs in the repeat unit
+structure also impacts the reactivity of the phenylene moiety
+through their eﬀects on steric and electronic properties.
+Here, we further build upon the structure−property
+relationships of XDOT−arylene copolymers by designing
+three new polymers with repeat units of 2,5-dimethoxy-1,4-
+phenylene in alternation with AcDOT dimers or ProDOT
+dimers. We show that these new yellow and orange ECPs can
+switch from a ca. 10% transmittance (at λmax) in the colored
+state to colorless oxidized states with a transmittance above
+65% throughout most of the visible region, while still
+possessing low oxidation potentials and redox stabilities
+which improve upon current high bandgap ECPs. These new
+polymers allow us to compare a family of high gap polymers to
+further understand the eﬀect of the nature of the DOT as well
+as the substituent eﬀect on the arylene unit on both the colored
+and colorless states.
+■EXPERIMENTAL SECTION
+Instrumentation. 1H NMR and 13C NMR spectra were collected
+on a Varian Mercury Vx 300 MHz instrument using CDCl3 as a
+solvent and the residual CHCl3 peak as references (1H: δ = 7.26 ppm;
+13C: δ = 77.23 ppm). Gel permeation chromatography (GPC) was
+performed using a Waters HPLC pump 1515, UV−vis detector 2487,
+with a refractive index detector 2414 at 35 °C in THF. A Waters
+column (4.6 mm × 300 mm; Styragel HR 5E) and polystyrene
+standards from Fluka were used. Polymer solutions (10 mg/mL in
+THF) were prepared and ﬁltered through a Mini-UniPrep PTFE vial
+with a 0.45 μm ﬁlter. 20 μL of each polymer solution was injected, and
+molecular weights were calculated using Waters Breeze II software. All
+absorption spectra and spectroelectrochemistry were acquired using a
+Varian Cary 5000 Scan dual-beam UV−vis−near-IR spectrophoto-
+meter. Colorimetry measurements were obtained using Star-Tek
+colorimetry software using a D50 illuminant, 2 deg observer, and the
+L*a*b* color space. For the solution spectra, all polymers were
+dissolved in toluene at room temperature. Electrochemical measure-
+ments were carried out using an EG&G Princeton Applied Research
+model 273A potentiostat/galvanostat under CorrWare control in a
+three-electrode cell conﬁguration, using ITO/glass (Delta Technolo-
+gies Inc., 7 × 50 × 0.7 mm, sheet resistance, Rs 8−12 Ω/sq) as the
+working electrode, a Ag/Ag+ reference electrode (10 mM AgNO3 in
+0.5 M TBAPF6−acetonitrile, E1/2 for ferrocene: 0.125 V), and a Pt ﬂag
+Figure 1. An L*a*b* color wheel with the high bandgap color space demarcated as well as representative UV−vis−NIR spectra of a high gap
+polymer in its charge neutral (ECP0, black line) and oxidized (ECP+, dashed blue line) states.
+Macromolecules
+Article
+DOI: 10.1021/acs.macromol.6b01763
+Macromolecules 2016, 49, 8498−8507
+8499
+
+as the counter electrode. For diﬀerential pulse voltammetry (DPV)
+measurements, the samples were prepared via drop-casting a 0.5 mg/
+mL solution onto Pt button electrodes with a surface area of 0.02 cm2.
+An electrolyte solution of 0.5 M tetrabutylammonium hexaﬂuoro-
+phosphate (TBAPF6, 98%, puriﬁed via recrystallization from hot
+ethanol) in propylene carbonate (PC) was used in all electrochemical
+and spectroelectrochemical measurements. PC was puriﬁed using a
+solvent puriﬁcation system from Vacuum Atmospheres. Films were
+spray-cast onto the ITO-coated glass slides using an Iwata airbrush at
+25 psi from 2 mg/mL toluene solutions. Films were cast to a uniform
+optical density of 1.0 ± 0.03 at λmax rather than uniform ﬁlm thickness.
+In previous work, we observed that ﬁlms cast to comparable optical
+densities could have very diﬀerent thicknesses and roughness,
+depending on the coating method used. In spite of these large
+diﬀerences, all ﬁlms exhibited comparable electrochromic contrast and
+switching speeds, suggesting that optical density, rather than ﬁlm
+thickness, correlates more strongly with a material’s electrochromic
+properties.32 Photography was performed in a light booth designed to
+exclude outside light with a D50 (5000K) lamp located in the back of
+the booth providing illumination, using a Nikon D90 SLR camera with
+a Nikon 18-105 mm VR lens.
+Materials. Most reagents and starting materials were purchased
+from commercial sources and used without further puriﬁcation, unless
+otherwise noted. THF, toluene, and propylene carbonate were all
+puriﬁed through a Bruker or Vacuum Atmospheres solvent puriﬁcation
+system. 3,4-Bis((2-ethylhexyl)oxy)thiophene (AcDOT), 3,3-bis(((2-
+ethylhexyl)oxy)methyl)-3,4-dihydro-2H-thieno[3,4-b][1,4]dioxepine
+(ProDOT), 3,3′,4,4′-tetrakis((2-ethylhexyl)oxy)-2,2′-bithiophene
+(AcDOT2), and PAcDOT2-Ph were synthesized using previous
+literature procedures.6,9,22 The synthetic procedure for AcDOT2-
+Ph(OMe)2, AcDOT2-Ph(OMe)2-Br2, PAcDOT2-Ph, ProDOT2-Ph-
+(OMe)2, and ProDOT2-Ph(OMe)2-Br2 as well as the corresponding
+NMR spectra can be found in the Supporting Information. The
+synthesis and characterization of PProDOT-Ph(OMe)2 (Mn = 16.6
+kDa, Mw = 24.4 kDa, Đ = 1.5) and PProDOT-Ph (Mn = 20.2 kDa, Mw
+= 34.4 kDa, Đ = 1.7) can be found in ref 26. All reactions were carried
+out under an argon atmosphere unless otherwise mentioned.
+PAcDOT2-Ph(OMe)2. To a 50 mL round-bottom ﬂask equipped
+with a stir bar, the dibromide monomer AcDOT2-Ph(OMe)2-Br2
+(0.623 g, 0.640 mmol), dihydro monomer AcDOT2-Ph(OMe)2
+(0.522 g, 0.640 mmol), 2 mol % palladium acetate (2.9 mg, 0.013
+mmol), pivalic acid (0.020 g, 0.192 mmol), and potassium carbonate
+(0.265 g, 1.920 mmol) were added, and a Claisen head was aﬃxed to
+the top of the ﬂask that was then vacuum purged for 45 min followed
+by three purge and argon backﬁll cycles. 26 mL of N,N-
+dimethylacetamide (DMAc) was degassed by bubbling with argon
+for 45 min and then injected into the ﬂask to dissolve the contents.
+The ﬂask was lowered into an oil bath held at 140 °C and allowed to
+stir vigorously for 12 h. After the ﬂask was removed from the oil bath
+and allowed to cool to room temperature, the polymer dispersion was
+dissolved with chloroform and precipitated into methanol:1 M HCl
+(350 mL:75 mL) and stirred for 45 min. The precipitate was ﬁltered
+into a Soxhlet extraction thimble and washed with methanol, acetone,
+hexanes, and chloroform. The washings were conducted until color
+was no longer observed during extraction. After dissolution from the
+thimble, the solvent was removed via a rotovap; then 50 mL of
+chlorobenzene was added followed by 200 mg of the palladium
+scavenger diethylammonium diethyldithiocarbamate and 300 mg of
+18-crown-6, and the solution was stirred for 6 h at 50 °C, followed by
+precipitation into 300 mL of methanol. The precipitate was ﬁltered
+over a 20 μm Nylon pad, washed with 300 mL of pure methanol, and
+allowed to dry. PAcDOT2-Ph(OMe)2 was obtained as a yellow solid in
+86% (0.90 g) yield.
+1H NMR (CDCl3, ppm): δ 7.50 (br, 2H),
+4.07−3.87 (br m, 14H), 1.95 (br s, 2H), 1.64−1.23 (br m, 32H),
+0.98−0.75 (br m, 24H). Anal. Calcd for C48H78O6S2: C 70.72, H 9.64,
+S 7.86. Found: C 70.96, H 9.53, S 7.81. GPC analysis: Mn = 24.1 kDa,
+Mw = 56.2 kDa, Đ = 2.3.
+PProDOT2-Ph(OMe)2. Following the procedure described for
+synthesizing PAcDOT2-Ph(OMe)2, and using the dibromide mono-
+mer ProDOT2-Ph(OMe)2-Br2 (0.587g, 0.500 mmol), dihydrin
+monomer ProDOT2-Ph(OMe)2 (0.508 g, 0.500 mmol), 2 mol %
+palladium acetate (2.2 mg, 0.01 mmol), pivalic acid (0.015 g, 0.150
+mmol), potassium carbonate (0.207 g, 1.50 mmol), and 33 mL of
+DMAc, PProDOT2-Ph(OMe)2 was obtained as a red solid in 73%
+(0.74 g) yield. 1H NMR (CDCl3, ppm): δ 7.46 (br, 2H), 4.18 (br s,
+4H), 3.90 (br s, 4H), 3.60 (br s, 6H), 3.34 (br s, 8H), 1.53 (br m, 4H),
+1.46−1.24 (br m, 32H), 0.95−0.86 (br m, 24H). Anal. Calcd for
+C58H94O10S2: C 68.60, H 9.33, S 6.31. Found: C 68.58, H 9.16, S 6.31.
+GPC analysis: Mn = 60.2 kDa, Mw = 126.2 kDa, Đ = 2.1.
+PAcDOT2/ProDOT2-Ph(OMe)2. Following the procedure de-
+scribed for synthesizing PAcDOT2-Ph(OMe)2, and using the
+dibromide monomer ProDOT2-Ph(OMe)2-Br2 (0.645 g, 0.550
+mmol), dihydrin monomer AcDOT2-Ph(OMe)2 (0.448 g, 0.550
+mmol), 2 mol % palladium acetate (2.5 mg, 0.011 mmol), pivalic acid
+Scheme 1. Repeat Unit Structures for the Polymers Investigated in This Study
+Macromolecules
+Article
+DOI: 10.1021/acs.macromol.6b01763
+Macromolecules 2016, 49, 8498−8507
+8500
+
+(0.017 g, 0.165 mmol), potassium carbonate (0.228 g, 1.650 mmol),
+and 22 mL of DMAc, PAcDOT2/ProDOT2-Ph(OMe)2 was obtained
+as an orange solid in 76% (0.77 g) yield. 1H NMR (CDCl3, ppm): δ
+7.67−7.34 (br m, 4H), 4.27−4.00 (br m, 16H), 3.89 (br m, 20H), 3.57
+(br m, 12H), 3.31 (br s, 12H), 2.01 (br, 2H), 1.67−1.16 (br m, 66H),
+1.03−0.77 (br m, 48H). Anal. Calcd for C106H170O16S4: C 69.62, H
+9.37, S 7.01. Found: C 69.45, H 9.22, S 7.11. GPC analysis: Mn = 44.3
+kDa, Mw = 76.6 kDa, Đ = 1.7.
+■RESULTS AND DISCUSSION
+Scheme 1 shows examples of previously studied yellow/orange
+polymers (top row) as well as the repeat unit structures of the
+new family of high gap copolymers of 2,5-methoxy-1,4-
+phenylene polymerized with a variety of DOTs (bottom
+row). We will show that the introduction of the bulky and
+electron-rich methoxy units in place of the smaller hydrogen
+atoms on the phenylene ring raises the HOMO level and
+lowers the oxidation potential regardless of the nature of the
+DOT unit. For the AcDOT-based polymers, the introduction
+of the methoxy units increases the steric hindrance in the
+backbone and pushes the bandgap to higher energy. In contrast,
+for the ProDOT-based polymers, we show that the
+incorporation of methoxy units led to a decrease in the
+bandgap and a subsequent red-shift in the neutral state ﬁlm
+spectra. Furthermore, we show that the nature of the DOT unit
+has a signiﬁcant impact on the position of the charge carriers
+bands, with the ProDOT-based polymers exhibiting more red-
+shifted bipolaron bands and, as a result, a higher electrochromic
+contrast. By combining the two DOTs into a copolymer
+(bottom-right structure in Scheme 1), we designed a material
+that exhibits the beneﬁcial properties of the orange PProDOT2-
+Ph(OMe)2 (low oxidation potential, high electrochromic
+contrast, fast switching speed) but with a higher bandgap
+similar to PAcDOT2-based polymers. In addition to the
+diﬀerences observed in the optical and electrochemical
+properties, we show that the high gap polymers that do not
+have methoxy-substituted phenyl rings are more susceptible to
+degradation over prolonged redox switching.
+Polymer Synthesis and Characterization. PAcDOT2-
+Ph(OMe)2, PProDOT2-Ph(OMe)2, and PAcDOT2/ProDOT2-
+Ph(OMe)2 were prepared by direct arylation (DA) polymer-
+ization as illustrated in Scheme 2.33 All the dimethoxypheny-
+lene-based copolymers were obtained in high yields (>70%),
+with number-average molecular weights (Mn) ranging from
+24.1 to 60.2 kDa and dispersities (Đ) ranging from 1.7 to 2.3
+after Soxhlet extraction. The monomer synthesis and character-
+ization are given in the Supporting Information (Scheme S1).
+All three polymers are highly soluble (>10 mg/mL) in common
+organic solvents including chloroform, THF, and toluene owing
+to the ethylhexyloxy chains on the DOT units. The thermal
+stability of the polymers was studied by TGA as shown in
+Figure S1, and all of the polymers are found to be stable up to
+320 °C.
+The polymerizations were initially attempted by a more
+intuitive DA polymerization approach than the one ultimately
+selected, utilizing biAcDOT or biProDOT with 1,4-dibromo-
+2,5-dimethoxybenzene, but these conditions were not success-
+ful in obtaining high molecular weight polymers (see Scheme
+S2 in the Supporting Information). We attribute this to sterics
+that could hinder oxidative addition of the Pd, leading to low
+molecular weights. The dibromides should be on the least
+sterically hindered site to stabilize oxidative addition and the
+proposed transitions states. Oxidative polymerization was also
+carried out using AcDOT2-Ph(OMe)2 with excess FeCl3 in
+ethyl acetate at room temperature and resulted in PAcDOT2-
+Ph(OMe)2 with a Mn of 11.7 kDa and a dispersity of 3.9, but
+led to low yields around 20%, likely due to a large fraction of
+low molecular weight oligomers, as detailed in the Supporting
+Information (Scheme S3).
+Scheme 2. Syntheses of PAcDOT2-Ph(OMe)2, PProDOT2-Ph(OMe)2, and PAcDOT2/ProDOT2-Ph(OMe)2 Using Direct
+Arylation Polymerizationa
+aReagents and conditions: (i) Pd(OAc)2 (2 mol %), PivOH (0.3 equiv), K2CO3 (3 equiv), DMAc, 140 °C, 12 h.
+Macromolecules
+Article
+DOI: 10.1021/acs.macromol.6b01763
+Macromolecules 2016, 49, 8498−8507
+8501
+
+Electrochemical and Optical Properties of High Gap
+ECPs. The polymers in Scheme 1 possess various structural
+motifs that readily allow for ﬁne-tuning of the optical and
+electronic properties. Through the variation of the arylene and
+DOT units, the onset of oxidation (Eox) can be readily
+controlled (as shown in Table 1 and in the diﬀerential pulse
+voltammetry (DPV) results in Figure S2) by tuning the
+electron-richness and/or the steric strain along the polymer
+backbone. By increasing the number of electron-rich DOTs in
+the repeat unit, the Eox is substantially lowered. For example,
+the addition of a second ProDOT unit in PProDOT2-Ph lowers
+the Eox by 260 mV compared to PProDOT-Ph. Similarly, by
+replacing the unsubstituted phenylene with the electron-rich
+dimethoxyphenylene in PAcDOT2-Ph(OMe)2, PProDOT-Ph-
+(OMe)2, and PProDOT2-Ph(OMe)2, the Eox is lowered by 75−
+250 mV compared to the unsubstituted analogues. Looking
+more closely at the DOT moiety, comparatively, ProDOT units
+have less steric hindrance than AcDOT units, leading
+homopolymers of the former to have a more relaxed backbone,6
+a longer eﬀective conjugation length, and a lower Eox. This
+trend is preserved here, as can be observed when comparing the
+oxidation potential and optical bandgaps in ﬁlms of
+PProDOT2-Ph(OMe)2 and PProDOT2-Ph with PAcDOT2-
+Ph(OMe)2 and PAcDOT2-Ph, respectively. By combining these
+trends, the lowest Eox of the series is found for PProDOT2-
+Ph(OMe)2. To better understand whether ﬁne control of redox
+properties and spectra could be obtained, an alternating
+copolymer (PAcDOT2/ProDOT2-Ph(OMe)2) was also synthe-
+sized. This copolymer has an Eox and absorption maximum in
+between PAcDOT2-Ph(OMe)2 and PProDOT2-Ph(OMe)2.
+Interestingly, the redox and absorbance proﬁles do not appear
+to be simply an overlap from those of the parent polymers,
+indicating that the ﬁlm properties are derived from the novel
+AcDOT2-Ph(OMe)2/ProDOT2-Ph(OMe)2 repeat unit. These
+results suggest that redox and optical properties can be readily
+modiﬁed by adjusting the ratio of AcDOT and ProDOT along
+the copolymer backbone.
+The optical properties of polymer solutions (shown in Figure
+S3) and spray-cast thin ﬁlms (shown in Figure 2 and Figure S4)
+were analyzed and compared for more insight into the
+structural diﬀerences between the AcDOT and ProDOT
+polymers. It is interesting to note that for PAcDOT2-
+Ph(OMe)2 and PAcDOT2-Ph the solution spectra and the
+ﬁlm spectra have nearly identical λmax values. For polymers
+containing ProDOT, however, a red-shifted absorbance
+shoulder is observed in ﬁlm spectra compared to the solution
+spectra, with the −Ph(OMe)2-substituted polymers exhibiting
+the largest shifts (ca. 40 nm). These new absorbance peaks are
+likely the result of aggregation-induced absorbance, which has
+been well documented in other thiophene-based polymers.34
+One possible explanation is that AcDOT-based polymers
+contain a larger degree of twisting because of their bulky side
+chains that are located closer to the conjugated backbone and
+extend along its plane. As a result, this twisting likely persists
+both in solution and in the solid state, leading to comparable
+eﬀective conjugation lengths and similar spectra in terms of λmax
+and broadness. In contrast, ProDOT analogues have bulky side
+chains located further from the conjugated backbone and, due
+to the tetrahedral geometry at the central carbon of the
+propylene bridge, extend out of the conjugated backbone plane.
+This allows the polymer to adopt a more planar geometry in
+the solid state, giving rise to the red-shifted absorbance seen in
+the ﬁlms. Turning to the PAcDOT2/ProDOT2-Ph(OMe)2
+copolymer, it is interesting to note that its solution spectrum
+nearly overlaps with that of PProDOT2-Ph(OMe)2; however, in
+thin ﬁlm it exhibits a more modest red-shift than PProDOT2-
+Ph(OMe)2. The PAcDOT2/ProDOT2-Ph(OMe)2 copolymer
+adopts some of the relaxation aﬀorded by the ProDOT groups;
+however, twisting along the backbone is still conferred by the
+AcDOT moieties.
+When comparing the optical properties of methoxy-
+substituted phenylene polymers with the unsubstituted
+analogues, the trend is more complicated: PAcDOT2-Ph-
+(OMe)2 has a higher bandgap than PAcDOT2-Ph, while
+PProDOT-Ph(OMe)2 and PProDOT2-Ph(OMe)2, on the
+other hand, have lower bandgaps than the unsubstituted
+analogues. With the AcDOT systems, the introduction of
+relatively bulky and electron-rich methoxy units in place of the
+smaller hydrogen atom on the phenylene ring has a signiﬁcant
+eﬀect on the backbone planarity/sterics because the side chains
+on the AcDOTs extend along the plane of the backbone,
+causing them to sterically interact with the methoxy groups.
+This leads to greater torsional strain along the backbone, and a
+decrease in conjugation, with an accompanying increase in the
+bandgap giving rise to a brighter yellow color. In the case of the
+ProDOT polymers, the addition of the methoxy groups plays a
+smaller role in steric interactions, since the side chains on the
+ProDOTs are located further from the methoxy groups and
+Table 1. Optical and Electrochemical Properties of the ECPs
+Studied
+polymer
+Eoxa
+(mV vs Fc/Fc+)
+λmaxb
+(nm)
+Egb,c
+(eV)
+PProDOT-Ph
+451
+448
+2.44
+PProDOT-Ph(OMe)2d
+206
+471
+2.26
+PProDOT2-Ph
+191
+488
+2.23
+PProDOT2-Ph(OMe)2
+126
+500
+2.18
+PAcDOT2-Ph
+438
+464
+2.30
+PAcDOT2-Ph(OMe)2
+330
+446
+2.38
+PAcDOT2/ProDOT2-
+Ph(OMe)2
+220
+476
+2.25
+aAs determined by DPV as the onset of the current for oxidation. bFor
+ﬁlms cast onto ITO-coated glass. cBandgap determined by onset of
+light absorption. dValues from ref 26.
+Figure 2. Neutral state spectra of PAcDOT2-Ph(OMe)2 (green),
+PAcDOT2-Ph (blue), PAcDOT2/ProDOT2-Ph(OMe)2 (cyan), Pro-
+DOT2-Ph (red), and ProDOT2-Ph(OMe)2 (magenta) on ITO-coated
+glass in 0.5 M TBAPF6/PC electrolyte solution. Films were sprayed to
+an absorbance of 1.00 ± 0.03.
+Macromolecules
+Article
+DOI: 10.1021/acs.macromol.6b01763
+Macromolecules 2016, 49, 8498−8507
+8502
+
+should not interact with them to a high degree. Instead, the
+electron richness of the methoxy groups has a stronger eﬀect on
+the HOMO as it lowers the bandgap for PProDOT-Ph(OMe)2
+and PProDOT2-Ph(OMe)2. This demonstrates that the steric
+and electronic eﬀects observed here are intertwined and depend
+upon the neighboring groups present and not just on the
+substituents themselves.
+Spectroelectrochemistry and Color Properties of
+High Gap ECPs. The spectroelectrochemical behavior of the
+polymers was evaluated by monitoring the absorption changes
+upon a simultaneous change of the applied external bias across
+the ﬁlms. The spectra of the Ph(OMe)2-based polymers are
+shown in Figure 3, whereas the phenyl-substituted analogues
+are shown in Figure S5. As the potential is increased, the π−π*
+absorption bands (350−550 nm) are depleted, while
+absorption bands originating from polaronic and bipolaronic
+charge carriers appear. The bipolaron absorption band for the
+PAcDOT-based polymers (Figure 3a and Figure S5c) is
+signiﬁcantly blue-shifted (λmax: 1400−1500 nm) compared to
+the more planar ProDOT analogues (λmax > 1700 nm; Figure
+3b,c and Figure S5a,b). The blue-shifted bipolaron band results
+in some tailing into the visible range, slightly compromising the
+long-wavelength transmissivityand by extension the color
+neutralityof the fully oxidized state. When comparing
+polymers containing phenyl groups with those containing
+−Ph(OMe)2 groups, the bipolaron band is further red-shifted
+as a result of the incorporation of the electron-rich substituent
+on the phenylenes. This is particularly evident when comparing
+the PAcDOT-based polymers (Figure 3a and Figure S5c) but
+also observable when comparing the bipolaron absorption
+onsets for the PProDOT analogues (Figure 3b,c and Figure
+S5a,b). Interestingly, the energy of the polaron band is not
+particularly aﬀected by the choice of DOT unit. Additionally,
+substitution of the phenylene ring with methoxy groups leads to
+a red-shifting of the polaron band for both the AcDOT and
+ProDOT copolymers, which is diﬀerent from the trend that
+phenyl substitution had on the neutral absorbance. This is likely
+because in the oxidized state quinoidalization acts as a greater
+driving force to planarization of the polymer backbone than the
+side chains have on twisting the polymer out of plane. With a
+more planar backbone in all the polymer systems, the electronic
+eﬀects of the electron-donating methoxy unit dominate
+energetics of the polymer by stabilizing the polaron better
+than the unsubstituted phenyl ring, leading to a red-shifting of
+the polaron band. The copolymer (Figure 3d) is interesting in
+that its neutral state more closely resembles PAcDOT2-
+Ph(OMe)2, whereas the oxidized state resembles PProDOT2-
+Ph(OMe)2, again demonstrating how a copolymerization
+approach can be used to readily ﬁne-tune the optical properties
+by adjusting the ratio of AcDOT and ProDOT along the
+backbone.
+The maximum transmittance in the oxidized state is found
+for the ProDOT-containing polymers. The two PAcDOT
+polymers (red and green trace in Figure 4) have a small drop in
+transmissivity at ca. 480 nm in their oxidized states, suggesting
+that the neutral state is not completely bleached. In addition,
+the spectra show some tailing from the NIR at higher
+wavelengths from the charge carrier bands. PProDOT-Ph
+(black trace) also exhibits a drop in the transmittance plot with
+a minimum around 620 nm. Unlike the two PAcDOT-based
+polymers, this residual absorbance appears to originate from
+residual polarons rather than an incomplete bleaching of the
+Figure 3. Spectroelectrochemistry and photographs of (a) PAcDOT2-Ph(OMe)2, (b) PProDOT-Ph(OMe)2, (c) PProDOT2-Ph(OMe)2, and (d)
+PAcDOT2/ProDOT2-Ph(OMe)2. The ﬁlms were spray-cast onto ITO-coated glass to an absorbance of 1.00 ± 0.03. The applied potential was
+increased in 10−50 mV steps between the fully colored and bleached states in 0.5 M TBAPF6/PC. The arrows show the progression of the peak
+evolution as a function of increasing potential.
+Macromolecules
+Article
+DOI: 10.1021/acs.macromol.6b01763
+Macromolecules 2016, 49, 8498−8507
+8503
+
+neutral state. These trends oﬀer a framework for deriving
+structure−property relationships related to the color neutrality
+of the fully oxidized state and by extension the optical contrast
+(as shown in Table 2) achievable. Of the evaluated polymers,
+the orange PProDOT2-Ph(OMe)2 exhibited the highest
+contrast (70 Δ%T at 500 nm) and the most transmissive
+oxidized state followed by the copolymer PAcDOT2/
+ProDOT2-Ph(OMe)2. PProDOT-Ph reaches a similar contrast
+as the copolymer if measured at λmax; however, the color
+neutrality is compromised by the residual polaron band. The
+polymers containing ProDOT units (Figure 3b,c and Figure
+S5a,b) exhibit higher optical contrast than their AcDOT
+analogues. This is in part the result of their red-shifted charge
+carrier bands as discussed above, where the bipolaron bands of
+the AcDOT polymers tail into the visible region. Additionally,
+the lower contrast of the AcDOT-based polymers can be
+ascribed to the high twist (lower degree of planarity) due to
+steric hindrance which could make it energetically more
+diﬃcult to fully planarize upon electrochemical oxidation.
+The contrast of the copolymer PAcDOT2/ProDOT2-Ph-
+(OMe)2 (66 Δ%T) is higher than PAcDOT2-Ph(OMe)2 (59
+Δ%T) and only slightly lower than PProDOT2-Ph(OMe)2 (70
+Δ%T). This is likely due to the position of its bipolaron band,
+which is red-shifted relative to the AcDOT polymer and blue-
+shifted relative to the ProDOT polymer, but also due to the
+more complete bleaching of the neutral state that is observed
+for the copolymer.
+To summarize, the contrast values at λmax increase with the
+incorporation of ProDOT units as the steric twist is reduced
+and the electron richness increased. Similarly, incorporating the
+electron-rich −Ph(OMe)2 moiety leads to an increase in the
+Δ%T compared to the unsubstituted phenylene polymers, due
+in part to the red-shifting these charge carrier bands exhibit as
+well as the presence of favorable S−O interactions26,35,36
+between neighboring XDOTs and the methoxy groups on
+phenylene, facilitating a higher degree of planarity when fully
+oxidized.
+The colors of the polymers can be quantiﬁed and more
+readily compared by converting the spectra into L*a*b* color
+coordinates where the L* represents the lightness−darkness
+(100−0, white−black) of a given color, a* the red/green
+balance, and the b* the yellow/blue balance. The L*a*b*
+coordinates for the neutral and oxidized states are summarized
+in Table 2. Figure S6 shows how the a*b* values of the
+respective polymers change upon electrochemical oxidation
+from their fully colored to their fully colorless states.
+PProDOT-Ph, PAcDOT2-Ph, and PAcDOT2-Ph(OMe)2 all
+have a vibrant yellow color as conﬁrmed by their low a* values
+and high b* values. Of the three, PAcDOT2-Ph(OMe)2 is the
+purest yellow of the family, having the highest b* and lowest
+a*. In addition to being the most vibrant yellow, it also has the
+lowest oxidation potential of the three, 250 mV lower than
+PProDOT-Ph, which is otherwise very similar in color. By
+replacing the AcDOTs with ProDOTs, the steric hindrance
+between chains is reduced, leading to a more relaxed backbone.
+This in turn causes the neutral state color of PProDOT2-
+Ph(OMe)2 and PProDOT2-Ph both to have a slightly red-
+shifted absorption proﬁle translating into the colors having a
+substantial a* component, placing them in the orange color
+space. These two polymers oﬀer a new strategy for obtaining
+orange-to-colorless ECPs that have higher electrochromic
+contrast, more colorless oxidized states, and (as will be
+shown) faster switching speeds than the orange PAcDOT
+homopolymer (albeit at a slightly higher potential).22 The color
+of the copolymer PAcDOT2/ProDOT2-Ph(OMe)2 falls right in
+between the parent compounds, giving it a warm golden-yellow
+hue. Upon oxidation, all polymers reach a color neutral
+transmissive state as demonstrated by the low a*b* values in
+Table 2.
+In comparing the eﬀects of the diﬀerent heterocycles, it was
+also observed that polymers containing ProDOT underwent a
+red-shifting of their spectra during repeated cycling to more
+red-orange hues. For example, the a*/b* values of PProDOT2-
+Ph(OMe)2 shift from an initial 26/55 as sprayed to 47/36 after
+10 switching cycles, and drifting further to 47/21 after 1000
+switches, as shown spectroscopically in Figure S7. In contrast,
+the PAcDOT2/ProDOT2-Ph(OMe)2 copolymer spectrum only
+undergoes a slight red-shift, while the spectra of PAcDOT2-
+Ph(OMe)2 before and after repeated cycling are nearly
+identical. This trend reﬂects the tendency of ProDOT-
+containing polymers to relax their torsional strain and achieve
+a more planar backbone after repeated redox switching, as
+discussed above, while AcDOT-containing polymers remain
+highly twisted due to the sterics aﬀorded by the branched alkyl
+Figure 4. Comparison of the transmittance spectra (%) of the oxidized
+forms of PProDOT-Ph (black trace), PAcDOT2-Ph (red trace),
+PProDOT2-Ph (blue trace), PAcDOT2-Ph(OMe)2 (green trace),
+PProDOT-Ph(OMe)2 (orange trace), PProDOT2-Ph(OMe)2 (ma-
+genta trace), and PAcDOT2/ProDOT2-Ph(OMe)2 (cyan trace).
+Table 2. L*a*b* Color Coordinates for All Polymers in the
+Neutral and Transmissive States and Total Change in
+Contrast upon Switching
+polymer
+Δ%Ta
+(at λmax)
+neutral state
+L*, a*, b* color
+coordinatesb
+oxidized state
+L*, a*, b* color
+coordinatesb
+PProDOT-Ph
+67
+96, −8, 78
+86, −1, −8
+ProDOT-
+Ph(OMe)2
+62
+86, 25, 74
+87, −2, −1
+PProDOT2-Ph
+62
+84, 35, 50
+89, 2, −3
+PProDOT2-
+Ph(OMe)2
+70
+80, 47, 36
+91, −1, −4
+PAcDOT2-Ph
+51
+87, 9, 76
+87, 2, 4
+PAcDOT2-
+Ph(OMe)2
+59
+89−4, 85
+81, −1, −1
+PAcDOT2/
+ProDOT2-
+Ph(OMe)2
+66
+87, 21, 73
+88, −1, −3
+aDiﬀerence between steady-state transmittance measured at fully
+oxidized and fully neutral states (all ﬁlms sprayed to 10%T at λmax).
+bFor a ﬁlm cast onto ITO-coated glass.
+Macromolecules
+Article
+DOI: 10.1021/acs.macromol.6b01763
+Macromolecules 2016, 49, 8498−8507
+8504
+
+chains. These results demonstrate how, through understanding
+the subtle relationship between sterics and electron-richness,
+redox potentials can be adjusted while the desired coloration
+can be retained across two structurally diﬀerent materials.
+Switching Kinetics of High Gap ECPs. To evaluate the
+rate at which the bleaching/coloration processes occur in spray-
+cast ﬁlms, the transmittance change at λmax was monitored as a
+function of time by applying square-wave potential steps for
+periods of 60, 30, 10, 5, 3, 1, and 0.5 s, as shown in Figure 5 for
+the new polymers (PAcDOT2-Ph(OMe)2, ProDOT2-Ph-
+(OMe)2, and PAcDOT2/ProDOT2-Ph(OMe)2) and in Figure
+S8 for the previously published polymers (PProDOT-Ph,
+PProDOT2-Ph, PProDOT-Ph(OMe)2, and PAcDOT2-Ph).
+The two AcDOT-containing polymers complete 95% of a full
+switch between 2 and 3 s, while the ProDOT-containing
+polymers exhibit faster switching kinetics, all undergoing a full
+switch in a second or less. The slower switching speeds of the
+AcDOT-based polymers compared with their ProDOT-based
+analogues are more clearly delineated in Figure 5d, which
+shows an overlap of the chronoabsorptometry curves during a
+10 s switch. This is in line with what was previously observed
+when comparing PAcDOT and PProDOT homopolymers.22,37
+Interestingly for the PAcDOT2/ProDOT2-Ph(OMe)2 copoly-
+mer, the switching speeds more closely resemble those of
+PProDOT2-Ph(OMe)2 than the AcDOT analogue. This is in
+contrast to its optical and redox properties, which were almost
+in the middle of its parent polymers’ properties. While the exact
+structure−property relationships aﬀecting redox switching
+speeds are not fully understood, evidently the presence of the
+ProDOT moieties is suﬃcient to induce a noticeable
+enhancement.
+To evaluate the eﬀect that DOTs, as well as substituents on
+the phenyl units, have on cross-linking and/or nucleophilic
+attack at the open positions of the phenyl ring,28−31 ﬁlms were
+monitored with repeated square-wave potential steps of 10 s,
+switching between the fully reduced and fully oxidized states for
+100 cycles under ambient laboratory conditions (i.e., in the
+prescence of light, O2, and humidity). From this, several trends
+are observed. First, as shown in Figure 6 and Figure S9b,f, when
+comparing PProDOT-Ph and PProDOT2-Ph, as well as
+PProDOT-Ph(OMe)2 and PProDOT2-Ph(OMe)2, increasing
+the number of DOTs in the repeat unit leads to an
+improvement in maintaining contrast over 100 switches. With
+a higher density of electron-rich units, the cation radical and
+dication states are better stabilized, leading to a decrease in
+reactivity of these species. Similarly, in examining the eﬀects of
+phenyl ring substitution, when comparing PAcDOT2-Ph-
+(OMe)2 with PAcDOT2-Ph, the absence of the methoxy
+units leads to a nearly 6% decrease in electrochromic contrast
+over the course of 100 cycles as a result of the colored state
+losing vibrancy, while the methoxy-substituted version loses
+4%. This trend is also evident for the ProDOT-containing
+polymers, where PProDOT2-Ph loses 3% contrast over the
+course of 100 cycles whereas PProDOT2-Ph(OMe)2 only loses
+0.3%. This improvement upon methoxy substitution can be
+attributed to unsubstituted phenylene rings being more
+susceptible to irreversible cross-linking or nucleophilic attack
+during repeated electrochemical switching.28−30 Finally,
+Figure 5. Chronoabsorptometry of polymers in 0.5 M TBAPF6/PC electrolyte solution. (a) PAcDOT2-Ph(OMe)2 measured from −0.5 to 0.8 V vs
+Ag/Ag+, (b) PProDOT2-Ph(OMe)2 measured from −0.5 to 0.7 V vs Ag/Ag+, and (c) PAcDOT2/ProDOT2-Ph(OMe)2 measured from −0.5 to 0.75
+V vs Ag/Ag+. (d) Percent transmittance and time to reach 95% of the full optical contrast for PAcDOT2-Ph(OMe)2, PProDOT2-Ph(OMe)2, and
+PAcDOT2/ProDOT2-Ph(OMe)2.
+Macromolecules
+Article
+DOI: 10.1021/acs.macromol.6b01763
+Macromolecules 2016, 49, 8498−8507
+8505
+
+ProDOT-based polymers appear to be more robust than the
+AcDOT analogues, which can be observed when comparing
+PAcDOT2-Ph with PProDOT2-Ph or PAcDOT2-Ph(OMe)2
+with PProDOT2-Ph(OMe)2. Computational studies on DOTs
+have previously shown that AcDOT moieties are twisted far out
+of plane from one another due to torsional strain arising from
+their side chains extending along the plane of the conjugated
+backbone.6 On the other hand, ProDOT moieties are less
+twisted as the side chains extend out of the plane of the
+conjugated backbone. This large twist between AcDOT and the
+phenyl moiety can leave the phenyl ring more exposed to
+attack, while the more coplanar ProDOT can sterically shield
+the phenyl ring from side reactions.
+Interestingly, in both PProDOT-Ph(OMe)2 and PProDOT2-
+Ph(OMe)2 the decrease in contrast over 100 switches occurs in
+a diﬀerent fashion from the AcDOT polymers. As was
+exempliﬁed in the discussion of the color coordinates in
+Table 2, the absorbance proﬁle of the orange PProDOT2-
+Ph(OMe)2 undergoes a red-shift during prolonged cycling
+(1000+ switches). In addition to this shift, we observed an
+unexpected decrease in switching speed, with the ﬁlm requiring
+approximately 1 min to switch to the fully colored state, as
+shown in Figure S10; nevertheless, when aﬀorded enough time
+to switch, the colored and colorless states could be fully
+recovered even after several thousand redox cycles. While this
+phenomenon is not yet fully understood, it seems to suggest
+that the ion and/or electron diﬀusion in the ﬁlms becomes
+slower over repeated cycling, rather than the polymer
+undergoing chemical side reactions which would not otherwise
+be reversible.
+■CONCLUSION
+Here, we have reported on the synthesis, characterization, and
+structure−property relationships of high bandgap polymers
+based on repeat units of electron-rich dimethoxyphenylene in
+alternation with AcDOT dimers or ProDOT dimers. We show
+that the introduction of electron-rich methoxy units in place of
+the smaller hydrogen atom on the phenylene raises the HOMO
+level, allowing the polymer to be fully oxidized at a lower
+potential, while also providing improved redox stability and
+higher electrochromic contrast, when copolymerized with
+DOTs. However, with the AcDOT systems, the presence of
+the methoxy units increases the steric hindrance in the
+backbone and pushes the optical bandgap toward higher
+energy, in contrast to the trend observed in the ProDOT
+analogues. This complexity ultimately allows for ﬁne-tuning
+with regards to the electronic, steric, and optical eﬀects of the
+resulting polymer ﬁlms. Incorporating the two DOTs into a
+PAcDOT2/ProDOT2-Ph(OMe)2 copolymer combines the low
+oxidation potential and high EC contrast of PProDOT2-
+Ph(OMe)2 with the higher bandgap of PAcDOT2-based
+polymers, thus giving rise to a yellow copolymer with fast
+switching kinetics, high contrast (>65%), and improved
+electrochemical stability. From this understanding, ECPs were
+obtained with yellow and orange neutral states that switch to
+colorless oxidized states. The incorporation of the protecting
+methoxy groups on the phenylene rings improves upon
+previous designs of high bandgap ECPs, bringing the ﬁeld
+closer to having a full color palette of stable, high-performance
+ECPs.
+■ASSOCIATED CONTENT
+*
+S
+Supporting Information
+The Supporting Information is available free of charge on the
+ACS Publications website at DOI: 10.1021/acs.macro-
+mol.6b01763.
+Experimental details; Schemes S1−S3 and Figures S1−
+S10 (PDF)
+■AUTHOR INFORMATION
+Corresponding Author
+*E-mail reynolds@chemistry.gatech.edu (J.R.R.).
+Author Contributions
+K.C. and D.E.S. contributed equally.
+Notes
+The authors declare no competing ﬁnancial interest.
+■ACKNOWLEDGMENTS
+Funding from the Air Force Oﬃce of Scientiﬁc Research
+(FA9550-14-1-0271) is greatly appreciated. The authors
+gratefully acknowledge Mr. James Ponder Jr. for his input
+during the synthesis as well as for gathering the GPC data of
+the new polymers.
+■REFERENCES
+(1) Beaujuge, P. M.; Reynolds, J. R. Color Control in π-Conjugated
+Organic Polymers for Use in Electrochromic Devices. Chem. Rev.
+2010, 110, 268−320.
+(2) İçli, M.; Pamuk, M.; Algi, F.; Ö nal, A. M.; Cihaner, A. Donor-
+Acceptor Polymer Electrochromes with Tunable Colors and Perform-
+ance. Chem. Mater. 2010, 22, 4034−4044.
+(3) Yen, H.-J.; Liou, G.-S. Solution-Processable Triarylamine-Based
+Electroactive High Performance Polymers for Anodically Electro-
+chromic Applications. Polym. Chem. 2012, 3, 255−264.
+(4) Sonmez, G.; Sonmez, H. B.; Shen, C. K. F.; Jost, R. W.; Rubin, Y.;
+Wudl, F. A Processable Green Polymeric Electrochromic. Macro-
+molecules 2005, 38, 669−675.
+(5) Beaujuge, P. M.; Ellinger, S.; Reynolds, J. R. The Donor-Acceptor
+Approach Allows a Black-to-Transmissive Switching Polymeric
+Electrochrome. Nat. Mater. 2008, 7, 795−799.
+Figure 6. Contrast loss measured at λmax versus number of switching
+cycles in 0.5 M TBAPF6/PC electrolyte solution with repeated square-
+wave potential steps of 10 s for PProDOT-Ph measured from −0.5 to
+1.1 V, PProDOT-Ph(OMe)2 measured from −0.5 to 1.0 V, PAcDOT2-
+Ph measured from −0.5 to 0.9 V, PAcDOT2-Ph(OMe)2 measured
+from −0.5 to 0.7 V, PProDOT2-Ph measured from −0.5 to 0.8 V,
+PProDOT2-Ph(OMe)2 measured from −0.5 to 0.8 V, and PAcDOT2/
+ProDOT2-Ph(OMe)2 measured from −0.5 to 0.75 V.
+Macromolecules
+Article
+DOI: 10.1021/acs.macromol.6b01763
+Macromolecules 2016, 49, 8498−8507
+8506
+
+(6) Kerszulis, J. A.; Johnson, K. E.; Kuepfert, M.; Khoshabo, D.; Dyer,
+A. L.; Reynolds, J. R. Tuning the Painter’s Palette: Subtle Steric Effects
+on Spectra and Colour in Conjugated Electrochromic Polymers. J.
+Mater. Chem. C 2015, 3, 3211−3218.
+(7) Dyer, A. L.; Thompson, E. J.; Reynolds, J. R. Completing the
+Color Palette with Spray-Processable Polymer Electrochromics. ACS
+Appl. Mater. Interfaces 2011, 3, 1787−1795.
+(8) Özkut, İ. M.; Algi, M. P.; Öztas, Z.; Algi, F.; Önal, A. M.; Cihaner,
+A. Members of CMY Color Space: Cyan and Magenta Colored
+Polymers Based on Oxadiazole Acceptor Unit. Macromolecules 2012,
+45, 729−734.
+(9) Österholm, A. M.; Shen, D. E.; Kerszulis, J. A.; Bulloch, R. H.;
+Kuepfert, M.; Dyer, A. L.; Reynolds, J. R. Four Shades of Brown:
+Tuning of Electrochromic Polymer Blends Toward High-Contrast
+Eyewear. ACS Appl. Mater. Interfaces 2015, 7, 1413−1421.
+(10) Bulloch, R. H.; Kerszulis, J. A.; Dyer, A. L.; Reynolds, J. R. An
+Electrochromic Painter’s Palette: Color Mixing via Solution Co-
+Processing. ACS Appl. Mater. Interfaces 2015, 7, 1406−1412.
+(11) Österholm, A. M.; Shen, D. E.; Gottfried, D. S.; Reynolds, J. R.
+Full Color Control and High-Resolution Patterning from Inkjet
+Printable Cyan/Magenta/Yellow Colored-to-Colorless Electrochromic
+Polymer Inks. Adv. Mater. Technol. 2016, 1, 1600063.
+(12) Bredas, J. L.; Street, G. B. Polarons, Bipolarons, and Solitons in
+Conducting Polymers. Acc. Chem. Res. 1985, 18, 309−315.
+(13) Oguzhan, E.; Bilgili, H.; Koyuncu, F. B.; Ozdemir, E.; Koyuncu,
+S. A New Processable Donor−Acceptor Polymer Displaying Neutral
+State Yellow Electrochromism. Polymer 2013, 54, 6283−6292.
+(14) Camurlu, P.; Cirpan, A.; Toppare, L. Conducting Polymers of
+Octanoic Acid 2-Thiophen-3-yl-ethylester and Their Electrochromic
+Properties. Mater. Chem. Phys. 2005, 92 (2), 413−418.
+(15) Mert, O.; Sahin, E.; Ertas, E.; Ozturk, T.; Aydin, E. A.; Toppare,
+L. Electrochromic Properties of Poly(diphenyldithieno [3,2-b; 2′, 3′-d]
+thiophene). J. Electroanal. Chem. 2006, 591, 53−58.
+(16) Xu, L.; Zhao, J.; Cui, C.; Liu, R.; Liu, J.; Wang, H.
+Electrosynthesis and Characterization of an Electrochromic Material
+from Poly(1,4-bis (2-thienyl)-benzene) and its Application in
+Electrochromic Devices. Electrochim. Acta 2011, 56, 2815−2822.
+(17) Cihaner, A.; Algı, F. An Electrochromic and Fluorescent
+Polymer Based on 1-(1-naphthyl)-2, 5-di-2-thienyl-1H-pyrrole. J.
+Electroanal. Chem. 2008, 614, 101−106.
+(18) Içli-Özkut, M.; Öztas, Z.; Algi, F.; Cihaner, A. A Neutral State
+Yellow to Navy Polymer Electrochrome with Pyrene Scaffold. Org.
+Electron. 2011, 12, 1505−1511.
+(19) Xu, C.; Zhao, J.; Yu, J.; Cui, C. Ethylenedioxythiophene
+Derivatized Polynapthalenes as Active Materials for Electrochromic
+Devices. Electrochim. Acta 2013, 96, 82−89.
+(20) Dey, T.; Invernale, M. A.; Ding, Y.; Buyukmumcu, Z.; Sotzing,
+G. A. Poly(3, 4-propylenedioxythiophene)s as a Single Platform for
+Full Color Realization. Macromolecules 2011, 44, 2415−2417.
+(21) Liou, G. S.; Lin, H. Y. Synthesis and Electrochemical Properties
+of Novel Aromatic Poly (amine−amide)s with Anodically Highly
+Stable Yellow and Blue Electrochromic Behaviors. Macromolecules
+2009, 42, 125−134.
+(22) Dyer, A. L.; Craig, M. R.; Babiarz, J. E.; Kiyak, K.; Reynolds, J. R.
+Orange and Red to Transmissive Electrochromic Polymers Based on
+Electron-Rich Dioxythiophenes. Macromolecules 2010, 43, 4460−4467.
+(23) Amb, C. M.; Kerszulis, J. A.; Thompson, E. J.; Dyer, A. L.;
+Reynolds, J. R. Propylenedioxythiophene (ProDOT)−Phenylene
+Copolymers Allow a Yellow-to-Transmissive Electrochrome. Polym.
+Chem. 2011, 2, 812−814.
+(24) Padilla, J.; Seshadri, V.; Otero, T. F.; Sotzing, G. A. High
+Contrast Solid-State Electrochromic Devices from Substituted 3,4-
+Propylenedioxythiophenes Using the Dual Conjugated Polymer
+Approach. J. Electroanal. Chem. 2007, 609, 75−84.
+(25) Guan, S.; Elmezayyen, A. S.; Zhang, F.; Zheng, J.; Xu, C.
+Deterioration Mechanism of Electrochromic Poly(3, 4-(2, 2-
+dimethylpropylenedioxy)thiophene) Thin Films. J. Mater. Chem. C
+2016, 4, 4584−4591.
+(26) Kerszulis, J. A.; Amb, C. M.; Dyer, A. L.; Reynolds, J. R. Follow
+the Yellow Brick Road: Structural Optimization of Vibrant Yellow-to-
+Transmissive Electrochromic Conjugated Polymers. Macromolecules
+2014, 47, 5462−5469.
+(27) Remmele, J.; Shen, D. E.; Mustonen, T.; Fruehauf, N. High
+Performance and Long-Term Stability in Ambiently Fabricated
+Segmented Solid-State Polymer Electrochromic Displays. ACS Appl.
+Mater. Interfaces 2015, 7, 12001−12008.
+(28) Meerholz, K.; Heinze, J. Solid State Electrochemical Experi-
+ments on Defined Oligomers of the Poly-p-phenylene Series as
+Models of Conducting Polymers. Synth. Met. 1991, 43, 2871−2876.
+(29) Meerholz, K.; Heinze, J. Electrochemical Solution and Solid-
+State Investigations on Conjugated Oligomers and Polymers of the α-
+Thiophene and the p-Phenylene Series. Electrochim. Acta 1996, 41,
+1839−1854.
+(30) Goldenberg, L. M.; Lacaze, P. C. Anodic Synthesis of Poly(p-
+phenylene). Synth. Met. 1993, 58, 271−293.
+(31) Tsai, E. W.; Basak, S.; Ruiz, J. P.; Reynolds, J. R.; Rajeshwar, K.
+Electrochemistry of Some β-Substituted Polythiophenes. J. Electro-
+chem. Soc. 1989, 136, 3683−3689.
+(32) Padilla, J.; Österholm, A. M.; Dyer, A. L.; Reynolds, J. R. Process
+Controlled Performance for Soluble Electrochromic Polymers. Sol.
+Energy Mater. Sol. Cells 2015, 140, 54−60.
+(33) Estrada, L. A.; Deininger, J. J.; Kamenov, G. D.; Reynolds, J. R.
+Direct(hetero)arylation Polymerization: An Effective Route to 3, 4-
+Propylenedioxythiophene-based Polymers with Low Residual Metal
+Content. ACS Macro Lett. 2013, 2, 869−873.
+(34) Scharsich, C.; Lohwasser, R. H.; Sommer, M.; Asawapirom, U.;
+Scherf, U.; Thelakkat, M.; Neher, D.; Köhler, A. Control of Aggregate
+Formation in Poly(3-hexylthiophene) by Solvent, Molecular Weight,
+and Synthetic Method. J. Polym. Sci., Part B: Polym. Phys. 2012, 50,
+442−453.
+(35) Lin, C.; Endo, T.; Takase, M.; Iyoda, M.; Nishinaga, T.
+Structural, Optical, and Electronic Properties of a Series of 3,4-
+Propylenedioxythiophene Oligomers in Neutral and Various Oxidation
+States. J. Am. Chem. Soc. 2011, 133, 11339−11350.
+(36) Spencer, H. J.; Skabara, P. J.; Giles, M.; McCulloch, I.; Coles, S.
+J.; Hursthouse, M. B. The First Direct Experimental Comparison
+Between the Hugely Contrasting Properties of PEDOT and the All-
+Sulfur Analogue PEDTT by Analogy with Well-Defined EDTT−
+EDOT Copolymers. J. Mater. Chem. 2005, 15, 4783−4792.
+(37) Reeves, B. D.; Grenier, C. R. G.; Argun, A. A.; Cirpan, A.;
+McCarley, T. D.; Reynolds, J. R. Spray Coatable Electrochromic
+Dioxythiophene Polymers with High Coloration Efficiencies. Macro-
+molecules 2004, 37, 7559−7569.
+Macromolecules
+Article
+DOI: 10.1021/acs.macromol.6b01763
+Macromolecules 2016, 49, 8498−8507
+8507
+

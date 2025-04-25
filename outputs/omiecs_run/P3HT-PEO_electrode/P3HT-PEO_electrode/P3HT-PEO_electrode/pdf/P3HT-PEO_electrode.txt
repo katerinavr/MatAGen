@@ -1,0 +1,336 @@
+Conducting Materials
+DOI: 10.1002/anie.201102953
+Simultaneous Electronic and Ionic Conduction in a Block Copolymer:
+Application in Lithium Battery Electrodes**
+Anna E. Javier, Shrayesh N. Patel, Daniel T. Hallinan Jr., Venkat Srinivasan, and
+Nitash P. Balsara*
+Conjugated polymers such as poly(3-hexylthiophene) (P3HT)
+have been used extensively as the active material in various
+electronic devices such as solar cells,[1] field-effect transis-
+tors,[2] and light-emitting diodes.[3] Coupling these conjugated
+polymers to ionic conductors allows use of the polymers in
+electrochemical energy storage devices, which require the
+transport of both ions and electronic charge. The need for
+developing new materials for electrochemical energy storage
+in the emerging energy landscape, which includes electric cars
+and renewable stationary energy, is now widely recognized.[4]
+We report herein the synthesis and characterization of poly(3-
+hexylthiophene)-b-poly(ethylene oxide) (P3HT-PEO). Lith-
+ium batteries composed of a cathode with LiFePO4 particles
+dispersed in a P3HT-PEO matrix, a solid polymer electrolyte,
+and lithium metal anodes were assembled. In contrast to
+current lithium battery electrodes, which require an inert
+polymer to bind the cathode particles, carbon additives for
+electronic conduction and a liquid electrolyte for lithium ion
+conduction, our system uses one material that serves as the
+binder and transporter of electronic charge and lithium ions.
+Scheme 1 shows the synthesis of P3HT-PEO. Grignard
+metathesis (GRIM) polymerization was used to produce an
+ethynyl-terminated, regioregular P3HT (P3HT-1).[5] Regiore-
+gular P3HT forms well-defined, nanostructured polymers,
+while the ethynyl functional group is required for the next
+step. The 1,3-dipolar cycloaddition “click” reaction[6] was used
+to couple P3HT-1 to a commercially available, azide-termi-
+nated PEO, and was performed in the presence of CuI and
+diisopropylethylamine (DIPEA) in THF for 72 h at 408C[7] to
+result in P3HT-PEO (detailed experimental procedures and
+polymer characterization (Figures S1 and S2) are shown in
+the Supporting Information).
+Tapping-mode AFM phase images of P3HT-1 homopoly-
+mer and the P3HT-PEO copolymer thin films are shown in
+Figure 1a and Figure 1b, respectively. Both images show the
+nanofibrillar morphology that is usually reported for P3HT
+and its derivatives, which results from the p–p stacking of the
+well-defined P3HT chains.[8] Both samples have nanofibril
+widths of approximately 20 nm, which are consistent with
+reported values.[9] The P3HT-1 nanofibrils appear to have a
+very compact arrangement with relatively little phase varia-
+Scheme 1. Synthesis of P3HT-PEO block copolymer. dppp=1,3-bis(di-
+phenylphosphino)propane.
+Figure 1. Tapping-mode AFM phase image of a) P3HT homopolymer
+and b) P3HT-PEO; c) SAXS profiles of neat P3HT-PEO and P3HT-
+PEO/LiTFSI mixture at 1008C. c with LiTFSI; a neat.
+[*] Dr. A. E. Javier, Dr. D. T. Hallinan Jr., Dr. V. Srinivasan,
+Prof. N. P. Balsara
+Environmental Energy Technologies Division
+Lawrence Berkeley National Laboratory (LBNL)
+Berkeley, CA 94720 (USA)
+E-mail: nbalsara@berkeley.edu
+Dr. A. E. Javier, S. N. Patel, Dr. D. T. Hallinan Jr., Prof. N. P. Balsara
+Department of Chemical Engineering
+University of California at Berkeley
+Berkeley, CA 94720 (USA)
+[**] This work was supported by U.S. DOE contract no. DE-AC02-
+05CH11231 BATT Program (A.E.J., D.T.H., V.S., N.P.B.), and
+through the LBNL LDRD Program (S.N.P., 2007–2010). S.N.P.
+thanks NSF (CBET 0966632). SAXS experiments were performed at
+the Advanced Light Source, LBNL, a DOE national user facility
+supported by the DOE under the same contract. We also wish to
+thank Profs. R.A. Segalman and M. Jeffries-EL, and Drs. H. Gao and
+T. Constantin for helpful discussions.
+Supporting information for this article is available on the WWW
+under http://dx.doi.org/10.1002/anie.201102953.
+Communications
+9848
+ 2011 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+Angew. Chem. Int. Ed. 2011, 50, 9848 –9851
+
+tion (Figure 1a). In contrast, the nanofibrils in the block
+copolymer AFM image are separated by distinct dark regions
+(Figure 1b), which could indicate the location of the PEO
+block. These observations are consistent with previously
+reported data on P3HT-containing block copolymer thin
+films.[10] Figure 1c shows small-angle X-ray scattering (SAXS)
+profiles obtained from bulk samples of both neat P3HT-PEO
+and a P3HT-PEO/lithium salt mixture. Lithium salts are
+typically added to PEO to enhance its ability to solvate and
+conduct lithium ions. Lithium bis(trifluoromethane sulfone)-
+imide (LiTFSI) was added to P3HT-PEO by using procedures
+outlined in the Supporting Information. The molar ratio r of
+lithium to ethylene oxide moieties was fixed at 0.085
+throughout
+this
+work.
+The
+P3HT-PEO/LiTFSI
+mixture
+shows a broad shoulder at a scattering vector q = 0.37 nm1,
+and an additional, weaker shoulder at q = 0.74 nm1, which
+indicate a periodic structure with a length scale of approx-
+imately 17 nm. In contrast, SAXS profiles from a bulk sample
+of neat P3HT-PEO contained no discernable features (Fig-
+ure 1c), as expected. Whilst the AFM images showed nano-
+structure formation on the surface of the thin films, it is more
+difficult to see ordering in bulk samples of P3HT when using
+SAXS. In previous studies on mixtures of LiTFSI and other
+PEO-containing block copolymers, it was shown that the
+addition of the salt enhances microphase separation because
+of the preferential segregation of salts in the PEO block.[11] A
+similar effect is observed in the P3HT-PEO/LiTFSI system
+and gives rise to periodic structures in the SAXS profile.
+The ionic and electronic conductivities of the block
+copolymer were determined by impedance spectroscopy and
+DC measurements on the P3HT-PEO/LiTFSI mixture sand-
+wiched between two nickel electrodes. The Z’’ (imaginary
+impedance) versus Z’ (real impedance) Nyquist plot contains
+three “semicircles” as shown in Figure 2. This result differs
+significantly from Nyquist plots reported for pure electronic
+and ionic conductors, which exhibit a single semicircle.[12]
+Steady-state current densities, obtained under small applied
+dc potentials, were measured and found to be consistent with
+Ohms law, and gave a resistance value of 3.78 kWcm2
+(Figure 2, right-hand inset). This value is approximately
+equal to the sum of the diameters of all three Nyquist
+semicircles (R3) shown in Figure 2. Since nickel is a blocking
+electrode for lithium ions, the dc experiments must reflect the
+electronic resistance, Re, of the sample. The equivalent circuit
+shown in the left-hand inset in Figure 2 is the simplest circuit
+that can be constructed based on the impedance data. A
+similar circuit with two semicircles was proposed for mixed
+conduction
+in amorphous
+poly(p-phenylene)
+homopoly-
+mers.[13] The elements shown in blue in Figure 2 are necessary
+for fitting our experimental data and include capacitance, Qg,
+and resistance, Rg, which were previously used to describe
+transport across grain boundaries in impedance data obtained
+from inorganic mixed conductors.[12a] It is not clear if this
+explanation is applicable to our system. The ionic resistance,
+Ri,
+can
+be
+determined
+from
+the
+relationship
+Ri =
+(R3R1)/(R3R1), where R1 is the high-frequency semi-circle
+resistance. The conductivity is given by s = L/R, where L is
+the polymer thickness and R is the resistance. We thus obtain
+the ionic conductivity, si, as (1.09  0.469)  104 Scm1 and
+the electronic conductivity, se, as (6.73  2.05)  106 Scm1,
+which are consistent with the reported values (note that se is
+the electronic conductivity of pristine, unoxidized P3HT).[14]
+A full fit of the data using the equivalent circuit in Figure 2
+gives Ri and Re values that are within experimental error (see
+the Supporting Information for details). Current models[15]
+indicate that the performance of battery electrodes are
+dependent only on Ri and Re values, and not on other
+parameters contained in the equivalent circuit.
+After showing that the polymer exhibits simultaneous
+ionic and electronic conductivity, the polymer was used as
+matrix material in a LiFePO4 battery cathode. The cathode
+film was prepared by dissolving P3HT-PEO and LiTFSI in
+THF, then adding LiFePO4 particles to the solution and
+homogenizing for approximately 5 min. The mixture was cast
+on aluminum foil, and doctor-bladed to obtain a smooth film.
+The film was dried overnight under vacuum at 708C. All
+processing steps were performed inside a glove box under an
+Ar atmosphere. All cathodes used in this study contained
+50 wt% LiFePO4. Figure 3a shows an SEM image of the film
+obtained from the LiFePO4/P3HT-PEO/LiTFSI mixture. The
+Figure 2. Conductivity measurements. Nyquist plot of the P3HT-PEO/
+LiTFSI mixture sandwiched between nickel electrodes (Z’’ (imagi-
+nary) vs Z’ (real) impedance). Red circles correspond to experimental
+data and the black curve corresponds to a fit using the proposed
+equivalent circuit comprising resistors and constant phase elements
+(CPE) shown in the left-hand inset. The right-hand inset shows the
+Ohm’s law fit of dc potentials (E, applied potential) vs steady-state
+current density (ISS). R1, R2, and R3 correspond to the resistance
+values of each semicircle relative to the origin. Qbulk=bulk capacitance,
+Qint=interfacial capacitance. See the Supporting Information for more
+details.
+Figure 3. a) SEM image of the cathode composed of P3HT-PEO/LiTFSI
+and LiFePO4; b) schematic of the battery construction.
+9849
+Angew. Chem. Int. Ed. 2011, 50, 9848 –9851
+ 2011 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+www.angewandte.org
+
+LiFePO4 particles appear as bright spots and the polymer/salt
+mixture appears as a dark matrix. This film is remarkably
+simple when compared to a traditional lithium ion cathode,
+which contains pores for ionic conduction, conductive carbon
+additives for electronic conduction, and an inert polymeric
+binder to hold the structure in place, in addition to the active
+material. In our system, the active material is dispersed in a
+single polymer that functions simultaneously as the conductor
+of lithium ions and electronic charge, as well as binder
+material in the cathode.
+A schematic of the battery cross-section is given in
+Figure 3b. To assemble a battery cell, a 1 cm2 circular cathode
+was punched out of the cast film and pressed onto a 30–50 mm
+thick film made from a mixture of polystyrene-b-poly(ethy-
+lene oxide)-b-polystyrene (SEOS)/LiTFSI (see the Support-
+ing Information for more details on the SEOS synthesis). The
+SEOS/LiTFSI film serves as a solid polymer electrolyte
+membrane (Figure 3b), and a piece of lithium pressed onto
+the other side of the membrane completes the cell. Several
+cells were then cycled from 3.8 V to 2.5 Vat a constant current
+density of 0.02 mAcm2. This current translates to a 4 h
+symmetric charge–discharge cycle with a 1 h rest step between
+each charge and discharge run. The average specific capacities
+of ten batteries obtained during the first ten cycles are shown
+in Figure 4a, and sample charge and discharge cycles are
+shown in Figure 4b. The batteries show a specific capacity
+that
+approaches
+the
+theoretical
+value
+for
+LiFePO4
+(170 mAhg1) with relatively little capacity fade. This result
+provides further evidence that the P3HT-PEO copolymer
+delivers both ions and electronic charge to the active centers,
+thus allowing the batteries to cycle efficiently.
+An important factor is that P3HT is a semiconductor, and
+its conductivity can be dramatically altered by oxidation or
+doping. It is known that the conductivity of poly(3-alkyl-
+thiophenes) increases by several orders of magnitude upon
+exposure to oxidizing chemicals such as iodine,[8] or when
+applying potentials of approximately 3.2 V relative to Li+/
+Li.[16] Results of cyclic voltammetry experiments (Figure 4c)
+confirm that this behavior is also valid for the P3HT-PEO
+copolymer, where the onset of oxidation occurs at around
+3.1 V. It is thus clear that electrochemical doping of the P3HT
+block arises from the applied potentials during the charge–
+discharge cycles and enhances electronic transport over and
+above that obtained in the undoped state (Figure 2). Two sets
+of impedance spectra of the entire battery taken during
+consecutive cycles are shown (Figure 4b, inset). One set of
+spectra was measured at the end of the charge cycle (a,b,c,d),
+the second set measured at the end of the discharge cycle
+(e,f,g). The overall resistance of the entire cell changes by an
+order of magnitude when going from a fully charged to fully
+discharged state, and the change is reversible from one cycle
+to the next. The possibility of changing the electronic
+resistance of the battery in situ offers unprecedented possi-
+bilities for control. For example, the bandgap of the electroni-
+cally conducting block can, in principle, be engineered to
+enable properties such as rapid charging and overcharge/
+overdischarge protection.
+To summarize, a P3HT-PEO block copolymer that
+exhibits simultaneous ionic and electronic conductivity was
+synthesized and characterized by a combination of ac
+impedance, dc polarization, AFM, and SAXS measurements.
+It was found that the addition of a lithium salt increases
+microphase separation and enhances the ordering in P3HT-
+PEO bulk samples. The polymer was used in a battery
+cathode, and cycling experiments demonstrated that P3HT-
+PEO delivers both ions and electronic charge to the active
+centers. All of the supporting functions required in a battery
+electrode are thus performed by a single material. The
+Figure 4. Battery cycling data. a) Average specific capacity (mAhg1)
+for 10 cells as a function of cycle number (* charge; & discharge;
+a theoretical specific capacity of LiFePO4); b) cycling plot (cell
+potential Ewe vs time) of a battery composed of a lithium anode, a
+solid electrolyte, and a P3HT-PEO/LiFePO4 cathode. Inset: Nyquist
+impedance plots taken at specified points after charging (a–d) and
+discharging (e–g) the battery; c) cyclic voltammogram of P3HT-PEO
+using SEOS/LiTFSI as solid electrolyte and Li foil as both counter- and
+reference electrodes (scanned from 2.5–4.0 V vs Li+/Li, scan rate of
+20 mVs1).
+Communications
+9850
+www.angewandte.org
+ 2011 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+Angew. Chem. Int. Ed. 2011, 50, 9848 –9851
+
+presence of a semiconductor in the electrode can enable the
+design of responsive electrodes.
+Received: April 29, 2011
+Revised: July 15, 2011
+Published online: September 7, 2011
+.
+Keywords: block copolymers · click chemistry ·
+conducting materials · electrochemistry · nanostructures
+[1] P. C. Ewbank, D. Laird, R. D. McCullough in Organic Photo-
+voltaics (Eds.: C. Brabec, V. Dyakonov, U. Scherf), Wiley-VCH,
+2009, pp. 1 – 55.
+[2] H. Sirringhaus in Organic Field-Effect Transistors (Eds.: Z. Bao,
+J. Locklin), CRC Press, 2007, pp. 103 – 137.
+[3] K. Mullen, U. Scherf, Organic Light Emitting Devices: Synthesis
+Properties, and Applications, Wiley-VCH, Weinheim, Germany,
+2006.
+[4] M. Armand, J. M. Tarascon, Nature 2008, 451, 652 – 657.
+[5] a) R. S. Loewe, S. M. Khersonsky, R. D. McCullough, Adv.
+Mater. 1999, 11, 250 – 253; b) M. Jeffries-El, G. Sauve, R. D.
+McCullough, Macromolecules 2005, 38, 10346 – 10352.
+[6] a) H. C. Kolb, M. G. Finn, K. B. Sharpless, Angew. Chem. 2001,
+113, 2056 – 2075; Angew. Chem. Int. Ed. 2001, 40, 2004 – 2021;
+b) J.-F. Lutz, Angew. Chem. 2007, 119, 1036 – 1043; Angew.
+Chem. Int. Ed. 2007, 46, 1018 – 1025.
+[7] T. L. Benanti, A. Kalaydjian, D. Venkataraman, Macromolecules
+2008, 41, 8312 – 8315.
+[8] R. D. Mccullough, S. Tristram-Nagle, S. P. Williams, R. D. Lowe,
+M. Jayaraman, J. Am. Chem. Soc. 1993, 115, 4910 – 4911.
+[9] R. Zhang, B. Li, M. C. Iovu, M. Jeffries-EL, G. Sauve, J. Cooper,
+S. J. Jia, S. Tristram-Nagle, D. M. Smilgies, D. N. Lambeth, R. D.
+McCullough, T. Kowalewski, J. Am. Chem. Soc. 2006, 128, 3480 –
+3481.
+[10] J. S. Liu, E. Sheina, T. Kowalewski, R. D. McCullough, Angew.
+Chem. 2002, 114, 339 – 342; Angew. Chem. Int. Ed. 2002, 41, 329 –
+332.
+[11] a) N. S. Wanakule, J. M. Virgili, A. A. Teran, Z.-G. Wang, N. P.
+Balsara, Macromolecules 2010, 43, 8282 – 8289; b) Z.-G. Wang, J.
+Phys. Chem. B 2008, 112, 16205 – 16213.
+[12] a) R. A. Huggins, Ionics 2002, 8, 300 – 313; b) J. R. Maccallum,
+C. A. Vincent, Polymer Electrolyte Reviews, Vol. 1, Elsevier
+Applied Science Publishers Ltd., New York, 1987; c) J. Jamnik, J.
+Maier, J. Electrochem. Soc. 1999, 146, 4183 – 4188.
+[13] J. Plocharski, H. Wycislik, Solid State Ionics 2000, 127, 337 – 344.
+[14] a) A. Panday, S. Mullin, E. D. Gomez, N. Wanakule, V. L. Chen,
+A. Hexemer, J. Pople, N. P. Balsara, Macromolecules 2009, 42,
+4632 – 4637; b) T.-A. Chen, X. Wu, R. D. Rieke, J. Am. Chem.
+Soc. 1995, 117, 233 – 244.
+[15] J. S. Newman, K. E. Thomas-Alyea, Electrochemical Systems,
+3rd ed., Prentice-Hall, Inc., Englewood Cliffs, N.J., 2004.
+[16] G. Chen, T. J. Richardson, Electrochem. Solid-State Lett. 2004, 7,
+A23 – A26.
+9851
+Angew. Chem. Int. Ed. 2011, 50, 9848 –9851
+ 2011 Wiley-VCH Verlag GmbH & Co. KGaA, Weinheim
+www.angewandte.org
+

@@ -1,0 +1,122 @@
+{
+  "records": [
+    {
+      "full_caption": "N/A",
+      "caption": "N/A",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\conjugated_oligomer_computation\\conjugated_oligomer_computation\\images_folder\\page_1_img_1_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_conjugated_oligomer_computation\\conjugated_oligomer_computation"
+    },
+    {
+      "full_caption": "Figure 1. Chemical structure of (a) 4T/PEIn and (b) 4T/PEOn. (c) Projected end-to-end distance metric for PEIn and PEOn as a function of number of repeat units (n) at T = 300 K. The black line represents the nearest distance of 0.53 nm between two α carbons in the packed 4T layer shown in (d). The red circle denotes the critical projected end-to-end distance of oligomers in the xy-plane.",
+      "caption": "Chemical structure of 4T/PEIn",
+      "caption_summary": [
+        "Chemical structure",
+        "4T/PEIn"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\conjugated_oligomer_computation\\conjugated_oligomer_computation\\images_folder\\page_2_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_conjugated_oligomer_computation\\conjugated_oligomer_computation"
+    },
+    {
+      "full_caption": "Figure 1. Chemical structure of (a) 4T/PEIn and (b) 4T/PEOn. (c) Projected end-to-end distance metric for PEIn and PEOn as a function of number of repeat units (n) at T = 300 K. The black line represents the nearest distance of 0.53 nm between two α carbons in the packed 4T layer shown in (d). The red circle denotes the critical projected end-to-end distance of oligomers in the xy-plane.",
+      "caption": "Chemical structure of 4T/PEOn",
+      "caption_summary": [
+        "Chemical structure",
+        "4T/PEOn"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\conjugated_oligomer_computation\\conjugated_oligomer_computation\\images_folder\\page_2_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_conjugated_oligomer_computation\\conjugated_oligomer_computation"
+    },
+    {
+      "full_caption": "Figure 1. Chemical structure of (a) 4T/PEIn and (b) 4T/PEOn. (c) Projected end-to-end distance metric for PEIn and PEOn as a function of number of repeat units (n) at T = 300 K. The black line represents the nearest distance of 0.53 nm between two α carbons in the packed 4T layer shown in (d). The red circle denotes the critical projected end-to-end distance of oligomers in the xy-plane.",
+      "caption": "Projected end-to-end distance metric for PEIn and PEOn as a function of number of repeat units (n) at T = 300 K. The black line represents the nearest distance of 0.53 nm between two α carbons in the packed 4T layer shown in (d). The red circle denotes the critical projected end-to-end distance of oligomers in the xy-plane.",
+      "caption_summary": [
+        "Polymer",
+        "Oligomers",
+        "Distance"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\conjugated_oligomer_computation\\conjugated_oligomer_computation\\images_folder\\page_2_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_conjugated_oligomer_computation\\conjugated_oligomer_computation"
+    },
+    {
+      "full_caption": "Figure 2. (a) Representative snapshot of 4T crystal from top view (xy-plane). (b) The red beads over the 4T crystal are the representative grafting sites for the PE or PEO chains. (c)–(e) Snapshots of the grafted PEO chains from the side view (xz-plane) as the vacuum in between is gradually reduced (at fixed x–y area); case (e) shows thermodynamically stable thickness when vacuum between the layers is removed and Pzz = 0.",
+      "caption": "Representative snapshot of 4T crystal from top view (xy-plane).",
+      "caption_summary": [
+        "4T crystal",
+        "top view",
+        "xy-plane"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\conjugated_oligomer_computation\\conjugated_oligomer_computation\\images_folder\\page_3_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_conjugated_oligomer_computation\\conjugated_oligomer_computation"
+    },
+    {
+      "full_caption": "Figure 2. (a) Representative snapshot of 4T crystal from top view (xy-plane). (b) The red beads over the 4T crystal are the representative grafting sites for the PE or PEO chains. (c)–(e) Snapshots of the grafted PEO chains from the side view (xz-plane) as the vacuum in between is gradually reduced (at fixed x–y area); case (e) shows thermodynamically stable thickness when vacuum between the layers is removed and Pzz = 0.",
+      "caption": "Snapshots of the grafted PEO chains from the side view (xz-plane) as the vacuum in between is gradually reduced (at fixed x–y area); case (e) shows thermodynamically stable thickness when vacuum between the layers is removed and Pzz = 0.",
+      "caption_summary": [
+        "PEO chains",
+        "vacuum reduction",
+        "thermodynamic stability"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\conjugated_oligomer_computation\\conjugated_oligomer_computation\\images_folder\\page_3_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_conjugated_oligomer_computation\\conjugated_oligomer_computation"
+    },
+    {
+      "full_caption": "Figure 2. (a) Representative snapshot of 4T crystal from top view (xy-plane). (b) The red beads over the 4T crystal are the representative grafting sites for the PE or PEO chains. (c)–(e) Snapshots of the grafted PEO chains from the side view (xz-plane) as the vacuum in between is gradually reduced (at fixed x–y area); case (e) shows thermodynamically stable thickness when vacuum between the layers is removed and Pzz = 0.",
+      "caption": "The red beads over the 4T crystal are the representative grafting sites for the PE or PEO chains.",
+      "caption_summary": [
+        "Grafting",
+        "Polymer",
+        "Crystals"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\conjugated_oligomer_computation\\conjugated_oligomer_computation\\images_folder\\page_3_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_conjugated_oligomer_computation\\conjugated_oligomer_computation"
+    },
+    {
+      "full_caption": "Figure 3. (a) Effect of temperature on the Lindemann Parameter for 4T/PEO systems. Snapshot of configuration of 4T/PEO4 at T = 350 K (b), 390 K (c), and 440 K (d). The thiophene rings are shown in cyan, and the PEO units are shown in red; hydrogens are not shown.",
+      "caption": "Snapshot of configuration of 4T/PEO4 at T = 350 K.",
+      "caption_summary": [
+        "Organic semiconductor",
+        "simulation",
+        "temperature"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\conjugated_oligomer_computation\\conjugated_oligomer_computation\\images_folder\\page_3_img_2_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_conjugated_oligomer_computation\\conjugated_oligomer_computation"
+    },
+    {
+      "full_caption": "Figure 3. (a) Effect of temperature on the Lindemann Parameter for 4T/PEO systems. Snapshot of configuration of 4T/PEO4 at T = 350 K (b), 390 K (c), and 440 K (d). The thiophene rings are shown in cyan, and the PEO units are shown in red; hydrogens are not shown.",
+      "caption": "Snapshot of configuration of 4T/PEO4 at T = 390 K.",
+      "caption_summary": [
+        "4T/PEO4",
+        "configuration",
+        "temperature"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\conjugated_oligomer_computation\\conjugated_oligomer_computation\\images_folder\\page_3_img_2_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_conjugated_oligomer_computation\\conjugated_oligomer_computation"
+    },
+    {
+      "full_caption": "Figure 3. (a) Effect of temperature on the Lindemann Parameter for 4T/PEO systems. Snapshot of configuration of 4T/PEO4 at T = 350 K (b), 390 K (c), and 440 K (d). The thiophene rings are shown in cyan, and the PEO units are shown in red; hydrogens are not shown.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\conjugated_oligomer_computation\\conjugated_oligomer_computation\\images_folder\\page_3_img_2_f.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_conjugated_oligomer_computation\\conjugated_oligomer_computation"
+    },
+    {
+      "full_caption": "Figure 3. (a) Effect of temperature on the Lindemann Parameter for 4T/PEO systems. Snapshot of configuration of 4T/PEO4 at T = 350 K (b), 390 K (c), and 440 K (d). The thiophene rings are shown in cyan, and the PEO units are shown in red; hydrogens are not shown.",
+      "caption": "Snapshot of configuration of 4T/PEO4 at T = 440 K. The thiophene rings are shown in cyan, and the PEO units are shown in red; hydrogens are not shown.",
+      "caption_summary": [
+        "Thiophene",
+        "PEO",
+        "Configuration"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\conjugated_oligomer_computation\\conjugated_oligomer_computation\\images_folder\\page_3_img_2_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_conjugated_oligomer_computation\\conjugated_oligomer_computation"
+    },
+    {
+      "full_caption": "Figure 4. (a) Heating scans of DSC traces of 4T′/PEO4 and 4T′/PEO5 as a function of temperature. (b) and (c): POM images of 4T′/PEO4 and 4T′/PEO5 below (top row) and above (bottom row) order−disorder transition temperature. The scale bar is 100 μm.",
+      "caption": "Figure 4. (a) Heating scans of DSC traces of 4T′/PEO4 and 4T′/PEO5 as a function of temperature. (b) and (c): POM images of 4T′/PEO4 and 4T′/PEO5 below (top row) and above (bottom row) order−disorder transition temperature. The scale bar is 100 μm.",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\conjugated_oligomer_computation\\conjugated_oligomer_computation\\images_folder\\page_4_img_1_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_conjugated_oligomer_computation\\conjugated_oligomer_computation"
+    }
+  ]
+}

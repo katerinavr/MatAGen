@@ -1,0 +1,1238 @@
+Mechanically Adaptive Mixed Ionic-Electronic Conductors Based on
+a Polar Polythiophene Reinforced with Cellulose Nanofibrils
+Mariza Mone,⊥Youngseok Kim,⊥Sozan Darabi, Sepideh Zokaei, Lovisa Karlsson,
+Mariavittoria Craighero, Simone Fabiano, Renee Kroon, and Christian Müller*
+Cite This: ACS Appl. Mater. Interfaces 2023, 15, 28300−28309
+Read Online
+ACCESS
+Metrics & More
+Article Recommendations
+*
+sı
+Supporting Information
+ABSTRACT: Conjugated polymers with oligoether side chains are promising mixed ionic-
+electronic conductors, but they tend to feature a low glass transition temperature and hence a low
+elastic modulus, which prevents their use if mechanical robust materials are required.
+Carboxymethylated cellulose nanofibrils (CNF) are found to be a suitable reinforcing agent for
+a soft polythiophene with tetraethylene glycol side chains. Dry nanocomposites feature a Young’s
+modulus of more than 400 MPa, which reversibly decreases to 10 MPa or less upon passive swelling
+through water uptake. The presence of CNF results in a slight decrease in electronic mobility but
+enhances the ionic mobility and volumetric capacitance, with the latter increasing from 164 to 197
+F cm−3 upon the addition of 20 vol % CNF. Overall, organic electrochemical transistors (OECTs)
+feature a higher switching speed and a transconductance that is independent of the CNF content
+up to at least 20 vol % CNF. Hence, CNF-reinforced conjugated polymers with oligoether side
+chains facilitate the design of mechanically adaptive mixed ionic-electronic conductors for wearable
+electronics and bioelectronics.
+KEYWORDS: cellulose nanofibrils (CNF), organic mixed ionic-electronic conductors, conjugated polymer,
+organic electrochemical transistor (OECT), chemical doping
+■INTRODUCTION
+Conjugated polymers are widely studied for optoelectronic
+applications ranging from organic photovoltaics and thermo-
+electrics to bioelectronics.1−3 The type and number of side
+chains strongly impact the solubility, solid-state order as well as
+the ability to transport ions and electronic charge.4,5 Alkyl and
+oligoether side chains are widely used, and both types facilitate
+solubility of conjugated polymers in organic solvents, with the
+latter ones enabling processing from solvents of higher
+polarity.6 Conjugated polymers with oligoether side chains
+can undergo significant passive swelling, i.e., the uptake of
+water when submerged in an aqueous electrolyte, as well as
+active swelling, i.e., the ingression of additional electrolyte
+upon the application of an electrochemical potential.7,8
+Conjugated polymer films display mixed ionic and electronic
+conduction, i.e., the ability to transport both ions and
+electronic charge carriers, which is of considerable interest
+for bioelectronics and exploited in devices such as organic
+electrochemical transistors (OECTs) and ion pumps.9−11
+Oligoether side chains also endow conjugated polymers with
+a sub-zero glass transition temperature Tg,12 in contrast to
+polymers with alkyl side chains, which can feature a Tg
+considerably above room temperature (Figure 1).13 It can be
+anticipated that a sub-zero Tg will result in fast backbone as
+well as side-chain relaxation kinetics at ambient conditions,
+which benefits ion mobility. On the other hand, a low Tg also
+tends to result in a soft material at room temperature,
+Received:
+March 19, 2023
+Accepted:
+May 16, 2023
+Published: June 1, 2023
+Figure 1. Tensile elastic modulus at room temperature vs the Tg of
+p(g42T-T) from ref 12 (blue open circle), of conjugated polymers
+with alkyl side chains from refs 22−27 (blue filled symbols) and refs
+28, 29 [blue half-filled symbols; tensile elastic modulus estimated
+using E = 2G(1 + υ), where G is the shear elastic modulus and
+assuming a Poisson ratio of υ = 0.5] as well as the value measured in
+this study for p(g42T-T) (pink open diamond), which increases by at
+least two orders of magnitude (red arrow) upon the addition of 11 or
+20 vol % CNF (pink filled diamonds).
+Research Article
+www.acsami.org
+© 2023 The Authors. Published by
+American Chemical Society
+28300
+https://doi.org/10.1021/acsami.3c03962
+ACS Appl. Mater. Interfaces 2023, 15, 28300−28309
+Downloaded via UNIV OF CHICAGO on May 10, 2024 at 01:24:51 (UTC).
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+especially if the crystallinity of the polymer is low. Accordingly,
+conjugated polymers with oligoether side chains display a
+much lower tensile elastic modulus at room temperature, e.g.,
+E < 10 MPa in the case of p(g42T-T) with tetraethylene glycol
+side chains,12 which is the subject of this study (see Figure 2a
+for the chemical structure), and E < 50 MPa in the case of a
+high-molecular-weight grade of a similar polythiophene with
+shorter triethylene glycol side chains.14 In contrast, polymers
+that bear alkyl side chains tend to feature values of E ≫100
+MPa, especially when paired with an above room temperature
+Tg (Figure 1). Water uptake by polymers with oligoether side
+chains can be expected to lead to a further reduction in elastic
+modulus. Such soft materials must be used with an adequate
+support such as a (flexible) substrate to facilitate their use
+where mechanical robustness is required, e.g., in the case of
+implantable electrodes,15 conducting fibers for e-textile
+devices16,17 such as fiber-based electrochemical transistors,18,19
+or the legs of a thermoelectric generator.1 For some
+applications, it would be desirable if the material or device
+was initially rigid to facilitate, e.g., insertion as a free-standing
+artifact into a biological tissue but then became soft once
+installed or implanted.20,21
+To modulate the mechanical properties of conjugated
+polymers, strategies such as the introduction of flexible
+spacers,30 copolymerization31,32 or blending with an insulating
+polymer,33 compounding with nanocellulose,34 and molecular
+doping12 have been explored. Nanocomposites are intriguing
+because they may allow increasing the stiffness of the material
+without unduly compromising ion mobility and chain
+relaxation dynamics within the conjugated polymer matrix.
+Nanocellulose continues to receive widespread attention as a
+reinforcing agent for polymers due to its high strength,
+stiffness, and aspect ratio.35,36 Nanocellulose has been used as
+an additive for a number of different conjugated polymer-based
+materials such as polypyrrole (PPy),37,38 polyaniline (PANI),34
+and poly(p-phenylene ethynylene) (PPE)34 as well as poly(3,4-
+ethylenedioxythiophene):poly(styrene sulfonate) (PE-
+DOT:PSS).39−41 For example, the addition of cellulose
+nanofibrils (CNFs) with a degree of carboxymethyl sub-
+stitution of up to 0.25 to PEDOT:PSS resulted in composite
+materials with an electrical conductivity of about 350 S cm−1.40
+Many conjugated polymers, in particular those with alkyl side
+chains, are soluble in apolar organic solvents, complicating
+compounding with nanocellulose, which is typically processed
+from polar solvents such as water or dimethylformamide
+(DMF).
+Here, we study the mechanical and electrochemical
+properties of nanocomposites composed of the polar
+polythiophene p(g42T-T) and CNF. The addition of CNF to
+p(g42T-T) allows us to reinforce the polymer without affecting
+the Tg (Figure 1) or the transconductance of nanocomposite-
+based OECTs. Swelling of p(g42T-T):CNF nanocomposites
+through water uptake results in a reversible decrease in elastic
+modulus from E > 100 MPa to about 10 MPa or less, which
+opens up the use of cellulose nanocomposites for the
+preparation of mechanically adaptive materials for wearable
+electronics and bioelectronics.
+■RESULTS AND DISCUSSION
+We chose to work with carboxymethylated CNF with a degree
+of substitution of 0.1, i.e., 10% of the hydroxy groups of
+cellulose have been replaced with a carboxymethyl group,
+which has been found to allow the preparation of highly
+conducting nanocomposites in the case of PEDOT:PSS and
+CNF.40 A predetermined amount of a DMF solution of
+p(g42T-T) was added to a DMF dispersion of carboxymethy-
+lated CNF (see the Experimental Section for details). The
+mixture was stirred for 1 h and then used to prepare
+nanocomposite films by either drop casting (thick films) or
+wire bar coating (thin films). The resulting nanocomposites
+had a CNF content that varied from 0.6 to 33 vol % assuming
+densities of 1 and 1.6 g cm−3 for p(g42T-T) and CNF,
+respectively.
+Atomic force microscopy (AFM) was used to assess the
+distribution of CNF in the polymer matrix. Quantitative
+analysis of the height of neat fibrils revealed a diameter of 4.6
+± 1.1 nm. We were only able to distinguish the nanocellulose
+in very thin films (thickness d ≈20 nm) containing at least 20
+vol % CNF (Figure 2b). The recorded AFM images indicate
+that a significant fraction of CNF is present as individual fibrils.
+The observed fibrils on the film surface had a height of 2.7 ±
+0.9 nm, which suggests that they are in part embedded in the
+polymer matrix.
+Dynamic mechanical analysis (DMA) was used to determine
+the impact of the nanocellulose on the Tg of the polymer. For
+neat p(g42T-T), we obtained a Tg = −53 °C from the peak in
+loss modulus (Figure S1). For the nanocomposites containing
+11 and 20 vol % CNF, two peaks were observed, the first one
+located at −46 and −52 °C and a second peak at 5 or −3 °C,
+respectively (Figure S1). The presence of two Tg values can be
+attributed to the existence of two types of domains in the
+polymeric matrix, i.e., a bulk material with a similar Tg as neat
+p(g42T-T) and a polymer layer close to the CNF surface where
+chain motion is restricted, yielding a higher Tg. Note that
+nanocellulose does not display a glass transition.42
+Wide-angle X-ray scattering (WAXS) was performed to
+analyze the crystalline order of neat p(g42T-T) and the
+nanocomposites containing 3, 11, and 20 vol % CNF (Figure
+S2). The WAXS diffractogram of neat p(g42T-T) featured two
+peaks at q100 ≈0.35 Å−1 and q200 ≈0.72 Å−1, characteristic of
+lamellar stacking.43 At higher wave vectors, only a broad
+amorphous halo with a peak at q ≈1.6 Å−1 was present but no
+π-stacking peak could be observed. The addition of CNF
+results in a considerable decrease of the intensity of the
+lamellar stacking peaks, which does not scale with the
+remaining polymer content. Hence, it appears that the
+presence of CNF disrupts lamellar stacking of the polymer
+to some extent. Concomitantly, a distinct peak emerges at q200
+≈1.62 Å−1 in the case of nanocomposites containing 11 and
+20 vol % CNF (Figure S2), which we assign to the 200
+diffraction of CNF,44 instead of π-stacking of the polymer
+(which would appear at a similar position) since CNF appears
+to disrupt its ability to order.
+Figure 2. (a) Molecular structure of p(g42T-T). (b) AFM phase
+images of neat CNF (left) and a 20 nm thin film of a nanocomposite
+of p(g42T-T) and 20 vol % CNF (right).
+ACS Applied Materials & Interfaces
+www.acsami.org
+Research Article
+https://doi.org/10.1021/acsami.3c03962
+ACS Appl. Mater. Interfaces 2023, 15, 28300−28309
+28301
+
+We used tensile deformation to compare the mechanical
+properties of the p(g42T-T):CNF nanocomposites. The
+Young’s modulus strongly increased upon the addition of
+CNF from Em = 1 MPa for the neat polymer to E = 756 MPa
+for p(g42T-T):CNF containing 27 vol % CNF (Figures 3a, S3
+and Table S1). The value of neat p(g42T-T) is lower than a
+previous measurement (see Figure 1),12 which we explain with
+a lower degree of order of the here used polymer batch. The
+elongation at break decreased from εb > 20% for a CNF
+content of up to 3 vol % to εb ≲10% for larger amounts of
+CNF. The experimentally obtained Young’s modulus values
+were compared with those predicted by the Ouali and Halpin-
+Tsai models, which can be used to describe the reinforcing
+effect obtained for a percolating network of the reinforcing
+agent and a material dominated by filler−matrix interactions,
+respectively.45−47
+According to the Ouali model, the elastic modulus is given
+by:46,47
+E
+V E E
+V
+E
+V E
+V
+E
+(1
+2
+)
+(1
+)
+(1
+)
+(
+)
+r
+m
+n
+r
+n
+2
+r
+n
+r
+m
+=
++
++
++
+(1)
+where Vr is the volume fraction of the reinforcing agent, Em = 1
+MPa is the elastic modulus of the matrix, En is the elastic
+modulus of the reinforcing network, here given a value
+reported for a microfibrillated cellulose nanopaper, En = 13.2
+GPa,48 and ψ is the volume fraction of the reinforcing agent
+that participates in the percolating network:
+V
+V
+V V
+V
+V
+V
+V
+0
+1
+b
+f
+c
+r
+r
+c
+c
+f
+c
+l
+m
+oooooo
+n
+oooooo
+i
+k
+jjjjj
+y
+{
+zzzzz
+=
+>
+(2)
+where Vc is the percolation threshold (here given a value of 0.7
+vol %) and b is the critical percolation exponent with a value of
+0.4 in the case of a three-dimensional (3D) network.46 The
+modulus predicted by the Ouali model increases rapidly above
+Vc, significantly exceeding experimental values (Figure 3b), and
+thus, we argue that a reinforcing filler network is likely not a
+good description of the here studied p(g42T-T):CNF
+nanocomposites.
+The Halpin-Tsai model allows us to estimate Young’s
+modulus according to:45
+E
+E
+V
+V
+1
+1
+m
+r
+r
+=
++
+(3)
+where ξ/2 is the aspect ratio of the reinforcing agent (here
+given a value of ξ/2 = 100) and η is given by
+1
+E
+E
+E
+E
+r
+m
+r
+m
+=
++
+(4)
+where Er is Young’s modulus of the reinforcing agent, here
+given the value reported for cellulose I single crystals, i.e., Er =
+130 GPa.49 The increase in modulus predicted by the Halpin-
+Tsai model matches the experimental values up to 6 vol %
+CNF (Figure 3b), and thus, we propose that a material
+dominated by filler:matrix interactions is a reasonable
+description of p(g42T-T):CNF nanocomposites with a low
+CNF content. For higher CNF concentrations, the measured
+Young’s modulus exceeds the values predicted by the Halpin-
+Tsai model and instead approaches the values predicted by the
+Ouali model, which we assign to partial aggregation of CNF
+leading to an increased influence of filler:filler interactions.
+In a further set of experiments, we explored the change in
+mechanical properties of the nanocomposites upon swelling
+through water uptake. Vacuum oven dried samples of p(g42T-
+T):CNF nanocomposites with 11 to 33 vol % CNF were
+immersed in deionized water for approximately 48 h (Figure
+4a), immediately followed by tensile deformation since the
+samples rapidly dried once removed from the water bath. Note
+that the thickness of the p(g42T-T):CNF nanocomposite films
+was not changed even after swelling and drying were repeated
+3 times over the course of 5 days. Thus, it is clear that CNF
+remains in the bulk films (see Figure S4a,b). We were unable
+to carry out tensile deformation experiments with neat p(g42T-
+T), which became too soft upon swelling. The water uptake of
+the nanocomposites was estimated by comparing the weight of
+dry and swollen samples, wdry and wswollen, expressed as the
+swelling ratio according to:
+w
+w
+swelling ratio
+swollen
+dry
+=
+(5)
+as well as the water content in percent (%):
+Figure 3. Tensile deformation of dry nanocomposites. (a) Engineering stress vs strain recorded at room temperature by tensile deformation of neat
+p(g42T-T) (blue) and p(g42T-T):CNF nanocomposites (red). The inset shows the stress−strain curves for neat and 3 vol % CNF nanocomposites.
+(b) Young’s moduli of p(g42T-T):CNF nanocomposites as a function of the volume percentage (vol %) of CNF. The dashed and solid lines are
+predictions made using the Halpin-Tsai and Ouali models, respectively. The data points and error bars represent the mean value and min−max
+error for measurements of three to four individual samples.
+ACS Applied Materials & Interfaces
+www.acsami.org
+Research Article
+https://doi.org/10.1021/acsami.3c03962
+ACS Appl. Mater. Interfaces 2023, 15, 28300−28309
+28302
+
+w
+w
+w
+water content
+100
+swollen
+dry
+swollen
+=
+×
+(6)
+All four studied compositions showed similar behavior with
+a swelling ratio of about 2 and a water content of about 50%
+(Table S2). Fourier transform infrared spectroscopy (FTIR)
+spectra of swollen samples featured a broad peak at 3350 cm−1,
+corresponding to the O−H stretch vibration, which signifi-
+cantly decreased in magnitude upon drying under ambient
+conditions for 15 min (Figure S5). Therefore, tensile
+deformation of swollen nanocomposites was carried out
+immediately after their removal from the deionized water
+bath so that the time in air until the end of the tensile
+deformation experiment did not exceed 10 min. Tensile
+deformation experiments revealed that swollen samples
+displayed a more than one order of magnitude lower Young’s
+modulus of only E = 3−15 MPa, compared to dried samples
+(Figures 4b, S6a and Table S1). The here observed significant
+reduction in elastic modulus upon swelling with water is in
+agreement with previous reports of other types of cellulose
+nanocomposites, which albeit comprised non-conjugated
+polymer matrices.20,50 To investigate the reversibility of the
+swelling process, we dried the swollen nanocomposites by
+placing them in a vacuum oven at 40 °C for ∼24 h. Tensile
+deformation of swollen and then dried samples indicated that
+nanocomposites with 11 and 20 vol % CNF were able to regain
+the same degree of reinforcement, as evidenced by a similar
+Young’s modulus before and after swelling/drying (Figures 4b
+and S6b). Instead, for higher contents of 27 and 33 vol %
+CNF, Young’s moduli of swollen and dried samples were
+somewhat lower than those of the as-cast material, which we
+explain with irreversible structural changes upon swelling.
+AFM allowed us to compare the texture and thickness of dry
+and swollen thin films. AFM topography images reveal that
+neat films are smooth with a low root-mean-square (RMS)
+roughness of Rsq = 0.8 nm in the case of neat p(g42T-T) and a
+slightly higher value of Rsq = 1.0 nm for a nanocomposite film
+containing 20 vol % CNF (Figures 5 and S6a,c), indicating that
+CNF is embedded in the film. However, the roughness and
+thickness significantly increased when submerging the films in
+deionized water. AFM topography images of films submerged
+in deionized water revealed a roughness of Rsq = 7.3 nm and a
+swelling ratio of dswollen/ddry = 1.43 ± 0.16 for neat, swollen
+p(g42T-T), and values of 4.4 nm and 1.30 ± 0.09 for a
+nanocomposite film containing 20 vol % CNF (see Figure 5b;
+dswollen and ddry are the thickness of swollen and dry films,
+respectively). Thin films experience a lesser degree of passive
+swelling compared to bulk samples (cf. Table S2), which has
+also been observed for other materials such as ionomers and
+was explained with confinement effects.51 AFM topography
+images reveal a lower roughness as compared to the neat
+polymer (Figures 5b and S7b,d). Swollen nanocomposite films
+feature a lower roughness compared to neat, swollen p(g42T-
+T), i.e., the presence of CNF results in films with a more fine-
+grained texture. Repeated swelling and drying were carried out
+for a nanocomposite film comprising 20 vol % CNF, and an
+invariant film thickness after five cycles suggests that CNF
+remains in the films (Figure S4). Hence, we were readily able
+to fabricate electrochemical devices with the here studied
+nanocomposites.
+The hydrophilic nature of CNFs can be expected to alter the
+transport of ions into polymer films during electrochemical
+oxidation, which would influence the operation of electro-
+chemical devices. We constructed planar devices that allowed
+Figure 4. Water uptake. (a) Schematic of the swelling experiments.
+(b) Young’s moduli of p(g42T-T):CNF nanocomposites as a function
+of vol % CNF for initial vacuum-dried samples (blue squares),
+samples swollen in deionized water (blue circles), and the same
+samples dried again in vacuum (red triangles). Each data point and
+error bar represent the mean value and min−max error for
+measurements of two to four individual samples.
+Figure 5. (a) Representative AFM images of neat p(g42T-T) (top) and a nanocomposite film containing 20 vol % CNF (bottom) when dry (left)
+and swollen, measured while submerged in deionized water (right). Corresponding height profiles are overlayed. Scale-adjusted topography images
+are depicted in Figure S7. (b) RMS roughness Rsq (left, solid symbol; mean values and standard error from four measurements) of the dry and
+submerged films and swelling ratio dswollen/ddry (right, open symbol; mean values and standard error of four measurements) as a function of the
+CNF content.
+ACS Applied Materials & Interfaces
+www.acsami.org
+Research Article
+https://doi.org/10.1021/acsami.3c03962
+ACS Appl. Mater. Interfaces 2023, 15, 28300−28309
+28303
+
+us to track the moving front of electrochromic color changes
+upon application of an electrochemical potential, similar to the
+experiments described by Stavrinidou et al. (see Figure 6a for
+the schematic of the setup and the Experimental Section for
+details).52 A potential of ϕ = 1 V vs Ag/AgCl was applied at
+one end of the channel,53 and a CCD camera was used to
+monitor the lateral change in color due to oxidation of the
+polymer, which requires the ingression of Cl−ions from the
+aqueous electrolyte (100 mM NaCl) into the film and thus
+provides information about the mobility of Cl−ions. A
+comparison of the optical images shown in Figure 6b reveals
+that after application of the electrical potential for 60 s, the
+moving front has progressed further into nanocomposite films
+compared to neat p(g42T-T), indicating a higher ion mobility.
+The position of the moving front l(t) as a function of time t
+(see Figure S8a) allowed us to determine the mobility of Cl−
+ions μCl
+−according to (see the Experimental Section for
+details):
+l
+t
+2
+2
+Cl
+=
+(7)
+For neat p(g42T-T), we extract an ion mobility of μCl
+−= 2.4
+× 10−5 cm2 V−1 s−1 from the plots of l2 vs t (Figure S8b),
+which increases to 3.6 × 10−5 cm2 V−1 s−1 for a nanocomposite
+film containing 20 vol % CNF (Figure 6c). We conclude that
+the addition of CNF to p(g42T-T) results in a slightly
+enhanced mobility of Cl−ions in nanocomposite films.
+OECTs were fabricated to investigate how the addition of
+CNF impacts the electrochemical response of p(g42T-T).
+Transfer curves of devices with active layers composed of neat
+p(g42T-T) were compared with devices based on nano-
+composites containing 3, 11, or 20 vol % CNF. All transfer
+curves feature low current levels at positive gate voltages VGS
+and a sharply increasing dimension-normalized source−drain
+current IDS* = IDS/(W × d/L) below a threshold voltage Vth ≈
+−0.2 V (Figure 7a and Table 1; see Figure S9 for output
+characteristics; W, d, and L are the width, thickness, and length
+of the channel), indicating p-type accumulation mode
+Figure 6. (a) Schematic of planar devices and measurement setup
+used to extract the mobility of Cl−ions μCl
+−(R.E., reference electrode;
+C.E., counter electrode; and W.E., working electrode). (b)
+Representative optical images of the channel of devices comprising
+p(g42T-T) (top) and a nanocomposite comprising 20 vol % CNF
+(bottom) before applying a potential and after applying a potential ϕ
+= 1 V for 60 s at the working electrode. The gray scale depicts the
+relative intensity ΔI = I0 −I normalized by the initial intensity I0. (c)
+μCl
+−as a function of the CNF concentration (mean values and min−
+max error of two measurements) for an aqueous electrolyte (100 mM
+NaCl).
+Figure 7. OECTs. (a) Dimension-normalized source−drain current IDS* = IDS/(W × d/L) (left) and corresponding transconductance gm* = gm/(W ×
+d/L) (right, VDS = −0.7 V, VGS = +0.5 to −0.7 V), where W, d, and L are the width, thickness, and length of the channel. (b) Trajectory of μ and C*
+values upon varying VGS from +0.1 to −0.6 V; ΔV = −0.1 V. (c) Maximum volumetric capacitance Cmax
+* and (d) hole mobility μmax as a function of
+the CNF concentration (see Table 1 for the description of errors).
+ACS Applied Materials & Interfaces
+www.acsami.org
+Research Article
+https://doi.org/10.1021/acsami.3c03962
+ACS Appl. Mater. Interfaces 2023, 15, 28300−28309
+28304
+
+operation. The dimension-normalized transconductance gm* =
+|dIDS* /dVGS| of all devices is comparable (Figure 7a), indicating
+that the presence of non-conducting CNF does not
+significantly affect the electrical properties of the materials.
+The product of volumetric capacitance C* and mobility μ can
+be obtained from gm* according to
+g
+g
+W
+d L
+C
+V
+V
+/(
+/ )
+(
+)
+m
+m
+th
+GS
+* =
+×
+=
+*
+(8)
+We obtain a value of μC* = 135 F cm−1 V−1 s−1 for neat
+p(g42T-T), which is not significantly affected by the addition
+of CNF and comparable to values reported for p(g32T-T), a
+similar polymer with shorter triethylene glycol side chains.54
+Electrochemical impedance spectroscopy (EIS) for poten-
+tials ranging from −0.4 to 0.8 V vs Ag/AgCl (Figure S10)
+allowed us to determine the volumetric capacitance C*, which
+displayed a maximum value Cmax
+*
+at a potential of +0.4 V vs
+Ag/AgCl (Figure S11). The C* values from EIS in
+combination with the μC* values from OECT transfer curves
+were used to calculate the mobility. Trajectories of μ vs C*
+reveal a comparable trend for both neat p(g42T-T) and the
+investigated nanocomposites with 3, 11, and 20 vol % CNF
+(Figure 7b). Both parameters first increase and reach
+maximum values at VGS = −0.4 V, followed by a slight
+decrease at higher oxidation potentials, in agreement with
+previous reports for similar polymers such as a thienothio-
+phene−thiophene copolymer with oligoether side chains.54
+The maximum capacitance Cmax
+*
+increased with the CNF
+content from 162 to 197 F cm−3 (Figure 7c and Table 1).
+Instead, the maximum mobility μmax slightly decreased with the
+CNF content from μmax = 0.83 cm2 V−1 s−1 for neat p(g42T-T)
+to 0.65 cm2 V−1 s−1 for the nanocomposite with 20 vol % CNF
+(Table 1 and Figure 7d). The increase in Cmax
+*
+indicates that
+the presence of CNF aids the accumulation of charge carriers
+upon application of a negative VGS, which compensates for the
+slight decrease in charge-carrier mobility, overall resulting in
+invariant values of μC* and hence a transconductance that is
+not affected by the presence of CNF (see Figure 7a). We argue
+that the more fine-grained texture of swollen nanocomposite
+films as compared to neat p(g42T-T) (see the AFM images in
+Figure 5) results in additional grain boundaries that slightly
+impede charge transport but increase the internal surface area
+where electrochemical oxidation can occur.
+The addition of CNF increases the ionic mobility without
+affecting μC*, which may accelerate the response of OECTs to
+changes in the input gate potential, an advantage for circuit
+design. To verify that CNF composites display faster switching
+behavior, we fabricated OECT devices with a patterned active
+layer with a size of 220 × 100 μm2 for the channel (W/L = 100
+μm/20 μm). The contact region had a size of 100 × 100 μm2
+to minimize parasitic capacitance, which can strongly influence
+the transient response. Then, the drain current IDS was
+recorded while applying a constant VDS of −0.6 V and voltage
+steps on the gate electrode, i.e., VGS = 0 to −0.6 V and −0.6 to
+0 V for turning devices ON and OFF, respectively. Time
+constant values τon and τoff were extracted from the time-
+dependent drain current by using eqs 9 and 10:
+Table 1. Electrical Properties of Doped Films Comprising Different Amounts of CNFa
+electrochemical doping
+chemical doping
+vol % CNF
+Vth (V)
+μC* (F cm−1 V−1 s−1)
+Cmax
+*
+(F cm−3)
+μmax (cm2 V−1 s−1)
+σ (S cm−1)
+Np (1026 m−3)
+μF
+d4TCNQ (cm2 V−1 s−1)
+0
+−0.20
+135 ± 9
+162 ± 10
+0.83 ± 0.08
+24.7 ± 0.3
+0.7 ± 0.2
+2.1 ± 0.6
+3
+−0.18
+146 ± 15
+160 ± 8
+0.91 ± 0.10
+24.8 ± 3.2
+0.8 ± 0.2
+2.1 ± 0.7
+11
+−0.17
+123 ± 5
+171 ± 11
+0.72 ± 0.05
+17.9 ± 0.1
+1.0 ± 0.3
+1.1 ± 0.3
+20
+−0.20
+130 ± 8
+197 ± 14
+0.65 ± 0.06
+19.5 ± 1.4
+0.9 ± 0.3
+1.4 ± 0.4
+aElectrochemical doping with OECTs (channel width W = 200 μm and channel length L = 20 μm) and EIS devices: threshold voltage Vth, the
+product of hole mobility and volumetric capacitance μC* from OECT transfer curves (mean and standard error of values extracted from 8−10
+devices), maximum dimension-normalized volumetric capacitance Cmax
+* from EIS (mean and standard error of values extracted from 4 devices), and
+maximum hole mobility μmax. Chemical doping with F4TCNQ (20 mol % relative to the g42T-T repeat unit): electrical conductivity σ (mean and
+min−max error of three measurements of the same sample), polaron density Np from analysis of UV−vis spectra (estimated error 30%), and
+charge-carrier mobility μF
+d4TCNQ.
+Figure 8. Transient analysis of OECT devices. (a) Representative plot of the IDS response (triangles: data; dashed lines: exponential fits using eqs 9
+and 10) upon application of voltage steps at the gate electrode (left: VGS = 0 to −0.6 V, right: VGS = −0.6 to 0 V). (b) Plot of the time constants τon
+(upper triangles) and τoff (lower triangles) vs IDS as well as linear fits (solid lines) for devices based on neat p(g42T-T) (blue) and nanocomposites
+comprising 20 vol % CNF (red).
+ACS Applied Materials & Interfaces
+www.acsami.org
+Research Article
+https://doi.org/10.1021/acsami.3c03962
+ACS Appl. Mater. Interfaces 2023, 15, 28300−28309
+28305
+
+I
+I
+e
+(1
+)
+t
+DS
+on
+/ on
+=
+×
+(9)
+I
+I
+e t
+DS
+on
+/ off
+=
+×
+(10)
+where Ion is a steady-state on-current at VGS = −0.6 V and VDS
+= −0.6 V, and t is the time after applying the voltage step (see
+Figure 8a). To facilitate a precise analysis of the transient
+response, we obtained τ and Ion values from 20 devices, which
+were prepared with an identical mask layout. The transient
+response of OECTs depends on the material properties (e.g.,
+C* and μCl
+−) as well as the exact device dimensions (e.g.,
+channel dimensions and area of the active layer) and parasitic
+capacitance from the metal electrodes. However, since both Ion
+and τ are proportional to the thickness of the active layer, plots
+of τ vs Ion facilitate a fair comparison of the transient response
+of different active-layer materials (Figure 8b).
+OECTs based on p(g42T-T):CNF nanocomposites dis-
+played a higher switching speed than devices with a neat
+p(g42T-T) active layer. For Ion = 0.5 mA, for example, we
+extrapolate values of τon = 3.72 ms and τoff = 0.43 ms for neat
+polymer devices, while for nanocomposite devices, we obtain
+lower values of τon = 1.93 ms and τoff = 0.29 ms (Figure 8).
+Hence, the addition of 20 vol % CNF to p(g42T-T) results in a
+1.9 and 1.5 times faster ON and OFF switching speed,
+respectively. Even though the nanocomposite has a slightly
+higher volumetric capacitance and lower charge-carrier
+mobility than the neat polymer, which would suggest lower
+switching speeds for identical current output, the higher ionic
+mobility of the nanocomposite films appears to improve the
+transient response of OECTs.
+To rule out that differences in active swelling, i.e., water
+uptake upon the application of an electrochemical potential,
+cause the observed decrease in μmax with the CNF content, we
+also carried out chemical doping with 2,3,5,6-tetrafluoro-
+tetracyanoquinodimethane (F4TCNQ). P(g42T-T) and CNF
+were coprocessed with 20 mol % F4TCNQ (relative to the
+g42T-T repeat unit), resulting in thin films with an electrical
+conductivity of about 20 S cm−1 (Table 1). Previous studies
+have shown that the selected dopant concentration results in
+highly doped films and does not negatively affect the
+nanostructure of the polymer.6,12 UV−vis spectra of doped
+films featured distinct polaronic absorption peaks in the near-
+infrared part of the spectrum as well as two additional peaks
+around 1.5 eV that are characteristic of F4TCNQ anions. We
+estimated the fraction of ionized dopant molecules by
+comparing the UV−vis spectra around 3 eV with previously
+reported absorption spectra of neutral F4TCNQ and its anion
+(Figure S12).55 Assuming that each F4TCNQ anion gives rise
+to one polaron on the polymer backbone, we were able to
+estimate the number of charge carriers (polarons) Np, which
+allowed us to determine the charge-carrier mobility according
+to
+N
+e
+p
+F TCNQ
+4
+=
+·
+·
+(11)
+where e is the elementary charge (Table 1). A value of Np ≈
+0.7 × 1026 m−3 yields a value of μF
+d4TCNQ = 2.1 cm2 V−1 s−1 for
+neat p(g42T-T), which decreases to 1.4 cm2 V−1 s−1 for the
+nanocomposite with 20 vol % CNF, in agreement with the
+slight decrease in charge-carrier mobility deduced from OECT
+devices (Table 1).
+■CONCLUSIONS
+Coprocessing of the polar polythiophene p(g42T-T) with
+carboxymethylated CNF allows the preparation of nano-
+composites that in the dry state feature a Young’s modulus of
+more than 400 MPa, an increase by more than two orders of
+magnitude compared to the neat polymer. Moreover, passive
+swelling of the nanocomposites resulted in a reversible
+decrease in modulus to 10 MPa or less. The addition of
+CNF to p(g42T-T) enhances the mobility of Cl−ions but
+results in a slight decrease in electronic mobility compared to
+the neat polymer, with values of 3.6 × 10−5 and 0.65 cm2 V−1
+s−1 for nanocomposites comprising 20 vol % CNF. At the same
+time, nanocomposites featured an improvement in volumetric
+capacitance, reaching a value of Cmax
+*
+= 197 F cm−3 for
+nanocomposites comprising 20 vol % CNF. Overall, OECTs
+reveal an invariant transconductance but a higher switching
+speed upon the addition of CNF to the channel. Evidently,
+CNF can be used as a reinforcing agent for polymers with
+oligoether side chains, which allows one to modulate the
+mechanical properties and, in addition, improves the electro-
+chemical performance of the polymer. The combination of
+reversible passive swelling and invariant transconductance
+facilitates the design of mechanically adaptive mixed ionic-
+electronic conductors for wearable electronics and bioelec-
+tronics.
+■EXPERIMENTAL SECTION
+Materials. p(g42T-T) with a number-average molecular weight Mn
+= 21 kg mol−1 and polydispersity index PDI = 5.9 was synthesized
+according to a previously reported procedure.6 A 2.6 wt % aqueous
+dispersion of carboxymethylated CNF with a degree of substitution of
+0.1 was provided by the Research Institutes of Sweden (RISE).
+Solvent exchange from water to DMF resulted in a dispersion of 0.9
+wt % CNF in DMF, using the following procedure: (1) 400 mL of
+DMF (purity ≥99.9% purchased from Sigma-Aldrich) was added to a
+round-bottom flask containing 2 g of the aqueous CNF dispersion;
+(2) the mixture was sonicated for 20 min and then stirred for 30 min
+using a homogenizer; and (3) a rotary evaporator at a temperature of
+80 °C was used to remove the solvent. The above process was
+repeated 4 times to ensure complete water removal and exchange to
+DMF. F4TCNQ and silver paint were purchased from TCI Chemicals
+and Agar Scientific, respectively.
+Sample Preparation. Nanocomposites were prepared by stirring
+a solution of p(g42T-T) in DMF (8 g L−1 for thin films or 12 g L−1 for
+thick films) with a dispersion of 0.9 wt % CNF in DMF at different
+ratios for 1 h using a magnetic stirrer, resulting in p(g42T-T):CNF
+dispersions that contained a solid content of 0.6 to 33 vol % CNF
+[calculated assuming a density of 1 and 1.6 g cm−3 for p(g42T-T) and
+CNF]. Doping with F4TCNQ was done by coprocessing p(g42T-
+T):CNF mixtures in DMF with F4TCNQ (2 g L−1 in acetonitrile).
+Thin films for spectroscopy and conductivity measurements (thick-
+ness d ≈70 nm) as well as for electrochemical characterization
+(thickness d = 140−230 nm for OECTs and liquid AFM and 50 nm
+for EIS devices) were prepared by wire bar coating on glass substrates
+at 45 °C using a K101 control coater from RK Print Instruments
+(wire diameter = 50 μm). Thick films for tensile testing and WAXS
+were fabricated by drop casting multiple layers on glass substrates at
+45 °C (thickness d ≈100 μm), followed by drying under vacuum for
+∼48 h and finally being removed from the glass substrate with a sharp
+blade. The film thickness of thin and thick films was measured with
+AFM or an AlphaStep D-100 profilometer from KLA and micro-
+calipers, respectively.
+Atomic Force Microscopy (AFM). AFM images were recorded in
+tapping mode using a MultiMode SPM microscope equipped with a
+Nanoscope IV Controller from Veeco (Figure 2) or an NTEGRA
+NT-DMT instrument (Figures 6 and S7). Topography images of
+ACS Applied Materials & Interfaces
+www.acsami.org
+Research Article
+https://doi.org/10.1021/acsami.3c03962
+ACS Appl. Mater. Interfaces 2023, 15, 28300−28309
+28306
+
+swollen films were obtained in liquid AFM mode in deionized water
+after immersing the as-prepared films in deionized water for 12 h.
+Wide-Angle X-ray Scattering (WAXS). Transmission WAXS
+diffractograms were obtained under vacuum using a Mat:Nordic
+instrument from SAXLAB equipped with a Rigaku 003+ high
+brilliance microfocus Cu-radiation source (wavelength = 1.5406 Å)
+and a Dectris Pilatus 300K detector. Samples were placed at a
+distance of 134 mm from the sample and irradiated for 1800 s. The
+sample-to-detector distance was calibrated using silver behenate
+powder. The SaxsGUI software was used for data reduction.
+Tensile Testing. Tensile testing of free-standing thick films was
+performed using a Q800 dynamic mechanical analyzer from TA
+Instruments at room temperature in controlled force mode with a
+force rate of 0.005 N/min using a gauge length of 3.8 mm. To ease
+fastening between the linear film tension clamps, samples of neat
+p(g42T-T) and nanocomposites containing up to 4 vol % CNF were
+fixated in a paper frame that was cut prior to tensile testing.
+UV−vis−NIR Absorption Spectroscopy. UV−vis−NIR spectra
+of thin films were recorded with a PerkinElmer Lambda 1050
+spectrophotometer.
+Fourier Transform Infrared Spectroscopy (FTIR). FTIR
+spectra were recorded in attenuated total reflectance (ATR) mode
+using a PerkinElmer Frontier FTIR instrument equipped with a
+GladiATR attachment from Pike Technologies.
+Ion Mobility Measurements. Active layers were bar-coated on
+pre-cleaned indium-doped tin oxide (ITO)-coated glass substrates
+and patterned with a swab soaked in chloroform (width = 10 mm;
+length = 30 mm). Then, paraffin films were deposited on the ion-
+channel region and molten by placing the devices on a hot plate at 60
+°C for 5 min. During the measurements, one end of the devices was
+electrically connected with a Cu clip, and the other end was dipped in
+an aqueous electrolyte (100 mM NaCl). A potential of ϕ = 1 V vs Ag/
+AgCl was applied at the ITO working electrode with a Keithley 2400
+source-measure unit using a three-electrode configuration that
+comprised a Ag/AgCl reference electrode and a Pt counter electrode.
+The potential of ϕ = 1 V vs Ag/AgCl was applied for 5 min, and a
+video of the channel was recorded with a Canon EOS RP camera. To
+remove the background, all images (frame rate = 30 fps) of the video
+were divided by a frame recorded at 0 V vs Ag/AgCl (dedoped state).
+Intensity profiles along the ion channels were acquired for each frame
+using the ImageJ software. For each normalized intensity profile, the
+distance l between the start of the channel and the location where the
+intensity had dropped to 50% of the initial value was determined
+using MATLAB. The ion mobility was extracted by plotting l2 vs t
+(Figure S8b; see eq 7).
+OECT Fabrication and Characterization. The metal electrodes
+of OECT devices were prepared via lithography. First, the source and
+drain electrodes were defined via a lift-off process using a Karl Suss
+MA6 contact aligner and a Kurt J Lesker PVD225 e-beam evaporator
+on cleaned Marienfeld soda lime glass slides, resulting in channels
+with a width W = 200 μm and length L = 20 μm. Then, active layers
+with a thickness of d = 140−230 nm were wire bar-coated. The active
+layers are not patterned but partially removed near the contact pads
+with a swab soaked in chloroform. Finally, a 20−30 μL drop of an
+aqueous electrolyte (100 mM NaCl) was placed on top of the active
+layer. Device characterization was conducted with two MATLAB-
+controlled Keithley 2400 source-measure units, with a Ag/AgCl
+reference electrode (RE-1B from ALS) immersed in the electrolyte as
+the gate electrode. For analysis of the transient response, the drain
+current was electrically bypassed and recorded using a Stanford
+Research Systems SR570 preamplifier and a DAQ board from
+National Instruments.
+Electrochemical Impedance Spectroscopy (EIS). Films with a
+thickness of d ≈50 nm were wire bar-coated on ITO-coated glass
+substrates (Ossila, 20 Ω sq−1). The active layer was patterned with a
+swab soaked in chloroform, and its area (A ≈40 mm2) and thickness
+were measured with a CCD camera and AFM, respectively. Finally,
+the ITO contact was contacted with crocodile clips, passivated with
+paraffin wax, and then, the sample was immersed in an aqueous
+electrolyte (100 mM NaCl). EIS spectra were obtained with a CH
+instrument CHI 650D using a conventional three-electrode
+configuration that comprised a Ag/AgCl reference electrode and a
+Pt counter electrode. The offset potential was varied from +0.4 to
+−0.8 V vs Ag/AgCl with a 20 mV peak-to-peak sinusoidal signal
+(frequency of 10−1 to 105 Hz). The electrochemical capacitance of the
+active layer was extracted from EIS data using the EIS Spectrum
+Analyser
+software
+and
+an
+equivalent
+circuit
+model
+Re[RsCs[Rc[RaCa]]], where Re, Rs, Cs, Rc, Ra, and Ca are the resistance
+of the electrolyte, electrochemical resistance/capacitance of the ITO
+substrate, contact resistance between the substrate and the active
+layer, and electrochemical resistance/capacitance of the active layer
+(see Figure S10a for a circuit diagram). The obtained values for Ca
+were normalized by the volume (=d × A) of each sample.
+Electrical Characterization. The sheet resistance Rs = π/ ln 2 ·
+V/I of thin films on glass substrates, where V and I are the measured
+voltage and current, respectively, was measured with a four-point
+probe setup from Jandel Engineering (cylindrical probe head,
+RM3000) using co-linear tungsten carbide electrodes with an
+equidistant spacing of 1 mm. The electrical conductivity was
+calculated according to σ = 1/(dRs), where d is the film thickness.
+■ASSOCIATED CONTENT
+*
+sı Supporting Information
+The Supporting Information is available free of charge at
+https://pubs.acs.org/doi/10.1021/acsami.3c03962.
+DMA thermograms, WAXS diffractograms, tensile
+deformation stress−strain curves and Young’s moduli,
+swelling ratios, FTIR spectra, AFM images, analysis of
+moving front experiments, OECT output characteristics,
+EIS spectra, volumetric capacitance, and UV−vis spectra
+(PDF)
+■AUTHOR INFORMATION
+Corresponding Author
+Christian Müller −Department of Chemistry and Chemical
+Engineering and Wallenberg Wood Science Center, Chalmers
+University of Technology, 412 96 Göteborg, Sweden;
+orcid.org/0000-0001-7859-7909;
+Email: christian.muller@chalmers.se
+Authors
+Mariza Mone −Department of Chemistry and Chemical
+Engineering and Wallenberg Wood Science Center, Chalmers
+University of Technology, 412 96 Göteborg, Sweden
+Youngseok Kim −Department of Chemistry and Chemical
+Engineering, Chalmers University of Technology, 412 96
+Göteborg, Sweden
+Sozan Darabi −Department of Chemistry and Chemical
+Engineering and Wallenberg Wood Science Center, Chalmers
+University of Technology, 412 96 Göteborg, Sweden
+Sepideh Zokaei −Department of Chemistry and Chemical
+Engineering, Chalmers University of Technology, 412 96
+Göteborg, Sweden
+Lovisa Karlsson −Department of Chemistry and Chemical
+Engineering, Chalmers University of Technology, 412 96
+Göteborg, Sweden
+Mariavittoria Craighero −Department of Chemistry and
+Chemical Engineering, Chalmers University of Technology,
+412 96 Göteborg, Sweden
+Simone Fabiano −Laboratory of Organic Electronics,
+Department of Science and Technology and Wallenberg
+Wood Science Center, Linköping University, 602 21
+Norrköping, Sweden;
+orcid.org/0000-0001-7016-6514
+ACS Applied Materials & Interfaces
+www.acsami.org
+Research Article
+https://doi.org/10.1021/acsami.3c03962
+ACS Appl. Mater. Interfaces 2023, 15, 28300−28309
+28307
+
+Renee Kroon −Laboratory of Organic Electronics,
+Department of Science and Technology and Wallenberg
+Wood Science Center, Linköping University, 602 21
+Norrköping, Sweden;
+orcid.org/0000-0001-8053-4288
+Complete contact information is available at:
+https://pubs.acs.org/10.1021/acsami.3c03962
+Author Contributions
+⊥M.M. and Y.K. contributed equally.
+Notes
+The authors declare no competing financial interest.
+■ACKNOWLEDGMENTS
+We gratefully acknowledge financial support from the
+Wallenberg Wood Science Center (WWSC), the Knut and
+Alice Wallenberg Foundation through a Wallenberg Scholar
+grant, and the European Union’s Horizon 2020 research and
+innovation program through the Marie Skłodowska-Curie
+grant agreement no. 955837 (HORATES). This project was in
+part performed at the Chalmers Materials Analysis Laboratory
+(CMAL). Myfab is acknowledged for support and access to the
+nanofabrication laboratory at Chalmers. We thank Merima
+Hasani for fruitful discussions, Anders Mårtensson for his
+assistance with AFM measurements, and Han-Yan Wu for
+initial OECT measurements.
+■REFERENCES
+(1) Kroon, R.; Mengistie, D. A.; Kiefer, D.; Hynynen, J.; Ryan, J. D.;
+Yu, L. Y.; Müller, C. Thermoelectric Plastics: from Design to
+Synthesis, Processing and Structure-Property Relationships. Chem.
+Soc. Rev. 2016, 45, 6147−6164.
+(2) Rivnay, J.; Inal, S.; Salleo, A.; Owens, R. M.; Berggren, M.;
+Malliaras, G. G. Organic Electrochemical Transistors. Nat. Rev. Mater.
+2018, 3, 17086.
+(3) Zhang, G. C.; Lin, F. R.; Qi, F.; Heumuller, T.; Distler, A.;
+Egelhaaf, H. J.; Li, N.; Chow, P. C. Y.; Brabec, C. J.; Jen, A. K. Y.; Yip,
+H. L. Renewed Prospects for Organic Photovoltaics. Chem. Rev. 2022,
+122, 14180−14274.
+(4) Meng, B.; Liu, J.; Wang, L. X. Oligo(Ethylene Glycol) as Side
+Chains of Conjugated Polymers for Optoelectronic Applications.
+Polym. Chem. 2020, 11, 1261−1270.
+(5) Dong, B. X.; Nowak, C.; Onorato, J. W.; Strzalka, J.; Escobedo,
+F. A.; Luscombe, C. K.; Nealey, P. F.; Patel, S. N. Influence of Side-
+Chain Chemistry on Structure and Ionic Conduction Characteristics
+of Polythiophene Derivatives: A Computational and Experimental
+Study. Chem. Mater. 2019, 31, 1418−1429.
+(6) Kroon, R.; Kiefer, D.; Stegerer, D.; Yu, L. Y.; Sommer, M.;
+Müller, C. Polar Side Chains Enhance Processability, Electrical
+Conductivity, and Thermal Stability of a Molecularly p-Doped
+Polythiophene. Adv. Mater. 2017, 29, No. 1700930.
+(7) Savva, A.; Hallani, R.; Cendra, C.; Surgailis, J.; Hidalgo, T. C.;
+Wustoni, S.; Sheelamanthula, R.; Chen, X. X.; Kirkus, M.; Giovannitti,
+A.; Salleo, A.; McCulloch, I.; Inal, S. Balancing Ionic and Electronic
+Conduction for High-Performance Organic Electrochemical Tran-
+sistors. Adv. Funct. Mater. 2020, 30, No. 1907657.
+(8) Szumska, A. A.; Maria, I. P.; Flagg, L. Q.; Savva, A.; Surgailis, J.;
+Paulsen, B. D.; Moia, D.; Chen, X. X.; Griggs, S.; Mefford, J. T.;
+Rashid, R. B.; Marks, A.; Inal, S.; Ginger, D. S.; Giovannitti, A.;
+Nelson, J. Reversible Electrochemical Charging of n-Type Conjugated
+Polymer Electrodes in Aqueous Electrolytes. J. Am. Chem. Soc. 2021,
+143, 14795−14805.
+(9) Rivnay, J.; Inal, S.; Collins, B. A.; Sessolo, M.; Stavrinidou, E.;
+Strakosas, X.; Tassone, C.; Delongchamp, D. M.; Malliaras, G. G.
+Structural Control of Mixed Ionic and Electronic Transport in
+Conducting Polymers. Nat. Commun. 2016, 7, 11287.
+(10) Inal, S.; Rivnay, J.; Suiu, A. O.; Malliaras, G. G.; McCulloch, I.
+Conjugated Polymers in Bioelectronics. Acc. Chem. Res. 2018, 51,
+1368−1376.
+(11) Torricelli, F.; Adrahtas, D. Z.; Bao, Z. N.; Berggren, M.;
+Biscarini, F.; Bonfiglio, A.; Bortolotti, C. A.; Frisbie, C. D.; Macchia,
+E.; Malliaras, G. G.; McCulloch, I.; Moser, M.; Nguyen, T. Q.;
+Owens, R. M.; Salleo, A.; Spanu, A.; Torsi, L. Electrolyte-Gated
+Transistors for Enhanced Performance Bioelectronics. Nat. Rev.
+Methods Primers 2021, 1, 66.
+(12) Zokaei, S.; Kim, D.; Jarsvall, E.; Fenton, A. M.; Weisen, A. R.;
+Hultmark, S.; Nguyen, P. H.; Matheson, A. M.; Lund, A.; Kroon, R.;
+Chabinyc, M. L.; Gomez, E. D.; Zozoulenko, I.; Müller, C. Tuning of
+the Elastic Modulus of a Soft Polythiophene through Molecular
+Doping. Mater. Horiz. 2022, 9, 433−443.
+(13) Müller, C. On the Glass Transition of Polymer Semiconductors
+and Its Impact on Polymer Solar Cell Stability. Chem. Mater. 2015, 27,
+2740−2754.
+(14) Dai, Y. H.; Dai, S. L.; Li, N.; Li, Y.; Moser, M.; Strzalka, J.;
+Prominski, A.; Liu, Y. D.; Zhang, Q. T.; Li, S. S.; Hu, H. W.; Liu, W.;
+Chatterji, S.; Cheng, P.; Tian, B. Z.; McCulloch, I.; Xu, J.; Wang, S. H.
+Stretchable Redox-Active Semiconducting Polymers for High-
+Performance Organic Electrochemical Transistors. Adv. Mater.
+2022, 34, No. 2201178.
+(15) He, F.; Lycke, R.; Ganji, M.; Xie, C.; Luan, L. Review
+Ultraflexible Neural Electrodes for Long-Lasting Intracortical Record-
+ing. iScience 2020, 23, No. 101387.
+(16) Wang, B. H.; Facchetti, A. Mechanically Flexible Conductors
+for Stretchable and Wearable E-Skin and E-Textile Devices. Adv.
+Mater. 2019, 31, No. 1901408.
+(17) Lund, A.; van der Velden, N. M.; Persson, N. K.; Hamedi, M.
+M.; Müller, C. Electrically Conducting Fibres for E-Textiles: An Open
+Playground for Conjugated Polymers and Carbon Nanomaterials.
+Mater. Sci. Eng. R Rep. 2018, 126, 1−29.
+(18) Kim, Y.; Lim, T.; Kim, C.-H.; Yeo, C. S.; Seo, K.; Kim, S.-M.;
+Kim, J.; Park, S. Y.; Ju, S.; Yoon, M.-H. Organic Electrochemical
+Transistor-Based Channel Dimension-Independent Single-Strand
+Wearable Sweat Sensors. NPG Asia Mater. 2018, 10, 1086−1095.
+(19) Hofmann, A. I.; Östergren, I.; Kim, Y.; Fauth, S.; Craighero, M.;
+Yoon, M.-H.; Müller, C. All-Polymer Conducting Fibers and 3D
+Prints via Melt Processing and Templated Polymerization. ACS Appl.
+Mater. Interfaces 2020, 12, 8713−8721.
+(20) Capadona, J. R.; Shanmuganathan, K.; Tyler, D. J.; Rowan, S. J.;
+Weder, C. Stimuli-Responsive Polymer Nanocomposites Inspired by
+the Sea Cucumber Dermis. Science 2008, 319, 1370−1374.
+(21) Goding, J.; Vallejo-Giraldo, C.; Syed, O.; Green, R.
+Considerations for Hydrogel Applications to Neural Bioelectronics.
+J. Mater. Chem. B 2019, 7, 1625−1636.
+(22) Hynynen, J.; Järsvall, E.; Kroon, R.; Zhang, Y. D.; Barlow, S.;
+Marder, S. R.; Kemerink, M.; Lund, A.; Müller, C. Enhanced
+Thermoelectric Power Factor of Tensile Drawn Poly(3-hexylthio-
+phene). ACS Macro Lett. 2019, 8, 70−76.
+(23) Hultmark, S.; Paleti, S. H. K.; Harillo, A.; Marina, S.; Nugroho,
+F. A. A.; Liu, Y. F.; Ericsson, L. K. E.; Li, R. P.; Martn, J.; Bergqvist, J.;
+Langhammer, C.; Zhang, F. L.; Yu, L. Y.; Campoy-Quiles, M.; Moons,
+E.; Baran, D.; Müller, C. Suppressing Co-Crystallization of
+Halogenated Non-Fullerene Acceptors for Thermally Stable Ternary
+Solar Cells. Adv. Funct. Mater. 2020, 30, No. 2005462.
+(24) Zhang, S.; Alesadi, A.; Selivanova, M.; Cao, Z. Q.; Qian, Z. Y.;
+Luo, S. C.; Galuska, L.; Teh, C.; Ocheje, M. U.; Mason, G. T.; St
+Onge, P. B. J.; Zhou, D. S.; Rondeau-Gagné, S.; Xia, W. J.; Gu, X. D.
+Toward the Prediction and Control of Glass Transition Temperature
+for Donor-Acceptor Polymers. Adv. Funct. Mater. 2020, 30,
+No. 2002221.
+(25) Galuska, L. A.; McNutt, W. W.; Qian, Z. Y.; Zhang, S.; Weller,
+D. W.; Dhakal, S.; King, E. R.; Morgan, S. E.; Azoulay, J. D.; Mei, J.
+G.; Gu, X. D. Impact of Backbone Rigidity on the Thermomechanical
+Properties of Semiconducting Polymers with Conjugation Break
+Spacers. Macromolecules 2020, 53, 6032−6042.
+ACS Applied Materials & Interfaces
+www.acsami.org
+Research Article
+https://doi.org/10.1021/acsami.3c03962
+ACS Appl. Mater. Interfaces 2023, 15, 28300−28309
+28308
+
+(26) Ghasemi, M.; Balar, N.; Peng, Z. X.; Hu, H. W.; Qin, Y. P.;
+Kim, T.; Rech, J. J.; Bidwell, M.; Mask, W.; McCulloch, I.; You, W.;
+Amassian, A.; Risko, C.; O’Connor, B. T.; Ade, H. A Molecular
+Interaction-Diffusion Framework for Predicting Organic Solar Cell
+Stability. Nat. Mater. 2021, 20, 525.
+(27) Pan, X.; Bjuggren, J. M.; Jevric, M.; Tan, W. L.; McNeill, C. R.;
+Andersson, M. R. Achieving High-Efficiency Organic Photovoltaics
+from a New Completely Amorphous Donor Polymer. Chem. Mater.
+2022, 34, 5103−5115.
+(28) Xie, R. X.; Weisen, A. R.; Lee, Y.; Aplan, M. A.; Fenton, A. M.;
+Masucci, A. E.; Kempe, F.; Sommer, M.; Pester, C. W.; Colby, R. H.;
+Gomez, E. D. Glass Transition Temperature from the Chemical
+Structure of Conjugated Polymers. Nat. Commun. 2020, 11, 893.
+(29) Xie, R. X.; Lee, Y.; Aplan, M. P.; Caggiano, N. J.; Müller, C.;
+Colby, R. H.; Gomez, E. D. Glass Transition Temperature of
+Conjugated Polymers by Oscillatory Shear Rheometry. Macro-
+molecules 2017, 50, 5146−5154.
+(30) Ashizawa, M.; Zheng, Y.; Tran, H.; Bao, Z. A. Intrinsically
+Stretchable Conjugated Polymer Semiconductors in Field Effect
+Transistors. Prog. Polym. Sci. 2020, 100, No. 101181.
+(31) Müller, C.; Goffri, S.; Breiby, D. W.; Andreasen, J. W.; Chanzy,
+H. D.; Janssen, R. A. J.; Nielsen, M. M.; Radano, C. P.; Sirringhaus,
+H.; Smith, P.; Stingelin-Stutzmann, N. Tough, Semiconducting
+Polyethylene-Poly(3-hexylthiophene) Diblock Copolymers. Adv.
+Funct. Mater. 2007, 17, 2674−2679.
+(32) Peng, R.; Pang, B.; Hu, D. Q.; Chen, M. J.; Zhang, G. B.; Wang,
+X. H.; Lu, H. B.; Cho, K.; Qiu, L. Z. An ABA triblock Copolymer
+Strategy for Intrinsically Stretchable Semiconductors. J. Mater. Chem.
+C 2015, 3, 3599−3606.
+(33) Selivanova, M.; Zhang, S.; Billet, B.; Malik, A.; Prine, N.;
+Landry, E.; Gu, X. D.; Xiang, P.; Rondeau-Gagné, S. Branched
+Polyethylene as a Plasticizing Additive to Modulate the Mechanical
+Properties of pi-Conjugated Polymers. Macromolecules 2019, 52,
+7870−7877.
+(34) van den Berg, O.; Schroeter, M.; Capadona, J. R.; Weder, C.
+Nanocomposites Based on Cellulose Whiskers and (Semi)-
+Conducting Conjugated Polymers. J. Mater. Chem. 2007, 17, 2746−
+2753.
+(35) Lee, K. Y.; Aitomaki, Y.; Berglund, L. A.; Oksman, K.;
+Bismarck, A. On the Use of Nanocellulose as Reinforcement in
+Polymer Matrix Composites. Compos. Sci. Technol. 2014, 105, 15−27.
+(36) Li, T.; Chen, C. J.; Brozena, A. H.; Zhu, J. Y.; Xu, L. X.;
+Driemeier, C.; Dai, J. Q.; Rojas, O. J.; Isogai, A.; Wagberg, L.; Hu, L.
+B. Developing Fibrillated Cellulose as a Sustainable Technological
+Material. Nature 2021, 590, 47−56.
+(37) Wang, Z. H.; Tammela, P.; Zhang, P.; Huo, J. X.; Ericson, F.;
+Strømme, M.; Nyholm, L. Freestanding Nanocellulose-Composite
+Fibre Reinforced 3D Polypyrrole Electrodes for Energy Storage
+Applications. Nanoscale 2014, 6, 13068−13075.
+(38) Carlsson, D. O.; Nyström, G.; Zhou, Q.; Berglund, L. A.;
+Nyholm, L.; Strømme, M. Electroactive Nanofibrillated Cellulose
+Aerogel Composites with Tunable Structural and Electrochemical
+Properties. J. Mater. Chem. 2012, 22, 19014−19024.
+(39) Fall, A. B.; Hagel, F.; Edberg, J.; Malti, A.; Larsson, P. A.;
+Wågberg, L.; Granberg, H.; Håkansson, K. M. O. Spinning of Stiff and
+Conductive Filaments from Cellulose Nanofibrils and PEDOT:PSS
+Nanocomplexes. ACS Appl. Polym. Mater. 2022, 4, 4119−4130.
+(40) Belaineh, D.; Andreasen, J. W.; Palisaitis, J.; Malti, A.;
+Hakansson, K.; Wågberg, L.; Crispin, X.; Engquist, I.; Berggren, M.
+Controlling the Organization of PEDOT:PSS on Cellulose Structures.
+ACS Appl. Polym. Mater. 2019, 1, 2342−2351.
+(41) Brooke, R.; Lay, M.; Jain, K.; Francon, H.; Say, M. G.; Belaineh,
+D.; Wang, X.; Håkansson, K. M. O.; Wagberg, L.; Engquist, I.;
+Edberg, J.; Berggren, M. Nanocellulose and PEDOT:PSS composites
+and their applications. Polym. Rev. 2023, 63, 437−477.
+(42) Mariano, M.; Dufresne, A. Nanocellulose: Common Strategies
+for Processing of Nanocomposites. ACS Symp. Ser. 2017, 1251, 203−
+225.
+(43) Zokaei, S.; Kroon, R.; Gladisch, J.; Paulsen, B. D.; Sohn, W.;
+Hofmann, A. I.; Persson, G.; Stamm, A.; Syren, P. O.; Olsson, E.;
+Rivnay, J.; Stavrinidou, E.; Lund, A.; Müller, C. Toughening of a Soft
+Polar Polythiophene through Copolymerization with Hard Urethane
+Segments. Adv. Sci. 2021, 8, No. 2002778.
+(44) Daicho, K.; Saito, T.; Fujisawa, S.; Isogai, A. The Crystallinity
+of Nanocellulose: Dispersion-Induced Disordering of the Grain
+Boundary in Biologically Structured Cellulose. ACS Appl. Nano
+Mater. 2018, 1, 5774−5785.
+(45) Affdl, J. C. H.; Kardos, J. L. The Halpin-Tsai Equations - A
+Review. Polym. Eng. Sci. 1976, 16, 344−352.
+(46) Ouali, N.; Cavaille, J. Y.; Perez, J. Elastic, Viscoelastic and
+Plastic Behavior of Multiphase Polymer Blends. Plast. Rubber Compos.
+Proc. Appl. 1991, 16, 55−60.
+(47) Takayanagi, M.; Minami, S.; Uemura, S. Application of
+Equivalent Model Method to Dynamic Rheo-Optical Properties of
+Crystalline Polymer. J. Polym. Sci. C Polym. Symp. 1964, 5, 113−122.
+(48) Henriksson, M.; Berglund, L. A.; Isaksson, P.; Lindström, T.;
+Nishino, T. Cellulose Nanopaper Structures of High Toughness.
+Biomacromolecules 2008, 9, 1579−1585.
+(49) Dufresne, A. Cellulose Nanomaterials as Green Nanoreinforce-
+ments for Polymer Nanocomposites. Philos. Trans. A Math. Phys. Eng.
+Sci. 2018, 376, No. 20170040.
+(50) Meesorn, W.; Zoppe, J. O.; Weder, C. Stiffness-Changing of
+Polymer Nanocomposites with Cellulose Nanocrystals and Polymeric
+Dispersant. Macromol. Rapid Commun. 2019, 40, No. 1800910.
+(51) Kusoglu, A.; Dursch, T. J.; Weber, A. Z. Nanostructure/
+Swelling Relationships of Bulk and Thin-Film PFSA Ionomers. Adv.
+Funct. Mater. 2016, 26, 4961−4975.
+(52) Stavrinidou, E.; Leleux, P.; Rajaona, H.; Khodagholy, D.;
+Rivnay, J.; Lindau, M.; Sanaur, S.; Malliaras, G. G. Direct
+Measurement of Ion Mobility in a Conducting Polymer. Adv.
+Mater. 2013, 25, 4488−4493.
+(53) Feicht, S. E.; Degen, G. D.; Khair, A. S. Moving Ion Fronts in
+Mixed Ionic-Electronic Conducting Polymer Films. AIChE J. 2015,
+61, 1447−1454.
+(54) Inal, S.; Malliaras, G. G.; Rivnay, J. Benchmarking Organic
+Mixed Conductors for Transistors. Nat. Commun. 2017, 8, 1767.
+(55) Kiefer, D.; Kroon, R.; Hofmann, A. I.; Sun, H. D.; Liu, X. J.;
+Giovannitti, A.; Stegerer, D.; Cano, A.; Hynynen, J.; Yu, L. Y.; Zhang,
+Y. D.; Nai, D. Q.; Harrelson, T. F.; Sommer, M.; Moulé, A. J.;
+Kemerink, M.; Marder, S. R.; McCulloch, I.; Fahlman, M.; Fabiano,
+S.; Müller, C. Double Doping of Conjugated Polymers with Monomer
+Molecular Dopants. Nat. Mater. 2019, 18, 149−155.
+ACS Applied Materials & Interfaces
+www.acsami.org
+Research Article
+https://doi.org/10.1021/acsami.3c03962
+ACS Appl. Mater. Interfaces 2023, 15, 28300−28309
+28309
+

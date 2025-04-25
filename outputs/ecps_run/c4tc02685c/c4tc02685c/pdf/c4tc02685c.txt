@@ -1,0 +1,676 @@
+This journal is ©The Royal Society of Chemistry 2015
+J. Mater. Chem. C, 2015, 3, 3211--3218 | 3211
+Cite this: J. Mater. Chem. C, 2015,
+3, 3211
+Tuning the painter’s palette: subtle steric eﬀects
+on spectra and colour in conjugated
+electrochromic polymers†
+J. A. Kerszulis,a K. E. Johnson,a M. Kuepfert,b D. Khoshabo,b A. L. Dyerac and
+J. R. Reynolds*a
+A series of vibrantly coloured p-conjugated electrochromic polymers (ECPs) were designed and
+synthesized with the goal of extracting structure–property relationships from subtle changes in steric strain
+or relaxation. These are soluble all donor, electron rich, alternating polymers based on repeat units of 3,4-
+ethylenedioxythiophene (EDOT), 3,4-propylenedioxythiophene (ProDOT), and an acyclic dioxythiophene
+(AcDOT) in varying combinations to tune steric interactions and the subsequent optical absorption for
+fine colour control. Two families of polymers were formed where ProDOT2–EDOT, ProDOT–EDOT, and
+ProDOT2–EDOT2 constitute new shades of blues while AcDOT2–ProDOT, AcDOT–ProDOT, and
+AcDOT–EDOT yield new hues of magentas with the homopolymers of ProDOT and AcDOT and the
+copolymer AcDOT2–EDOT2 serving as comparisons. The polymers were synthesized using direct (hetero)-
+arylation polymerization. Examinations of the optoelectronic properties via cyclic voltammetry, spectro-
+electrochemistry, and colorimetry show that by subtly varying the level of steric relaxation or strain in the
+form of EDOT or AcDOT content, lower or higher energy absorption transitions are produced respectively.
+This increase in relaxation or strain allows more short or long wavelength light to transmit, giving new
+shades of blues or magentas respectively. Since these are all donating polymers, they exhibit changes in
+contrast no less than 70% at the lmax with the exception of AcDOT–EDOT. The most desirable electro-
+chromic properties were achieved with ProDOT2–EDOT2 and AcDOT2–ProDOT, with band gaps (Eg) and
+neutral state L*a*b* colour values (a* and +a* correspond to green and red and b* and +b* corre-
+spond to blue and yellow respectively and L* represents the lightness) of 1.74 eV, 37, 12, 63 and 2.01 eV,
+56, 59, 16 respectively. The highly transmissive oxidized state colour values for ProDOT2–EDOT2 and
+AcDOT2–ProDOT are 92, 3, 3 and 91, 2, 1 respectively. These structure–property relationships grant
+a greater ability to tune light absorption across the visible, with colour properties similar to ECPs made
+through other methods without using donor–acceptor effects. This all donor steric tuning method leads
+to considerably higher levels of transparency when the polymers are fully oxidized.
+Introduction
+When comparing electrochromic materials derived from metal
+oxides1 with molecular organic2–4 and polymeric5 electrochromes,
+the latter stand out for the broad array of colours that can switch to
+highly transmissive states. Due to their solubility allowing
+them to be processed via spin,6–8 spray,9,10 blade,11 and slot-die12
+coating
+along
+with
+inkjet
+printing,11,13
+fully
+conjugated
+electrochromic polymers (ECPs) provide a full palette of colours
+from which to develop devices. These polymers all attain highly
+transmissive states, high electrochromic contrast, rapid (sub-
+second) switching and long cycle lives (410000). These material
+properties have allowed ECPs to be incorporated into display and
+window type devices (ECDs) with potential commercial viability.
+Numerous techniques have been employed to control the
+visible absorption and colour of the neutral state in ECPs. These
+range from utilizing donor–acceptor (D–A) effects, vinylene and
+azomethine14 linkers, the interchange of atoms that constitute
+heterocycles or reside on the b positions, the variation of comono-
+mer feed ratios or the nature of pendant groups,5 and varying the
+design of the metal–ligand in metallo-supramolecular polymers.15–18
+The D–A method has proven especially useful as the donor
+moiety positions the HOMO while the acceptor positions the
+a School of Chemistry and Biochemistry, School of Materials Science and
+Engineering, Center for Organic Photonics and Electronics, Georgia Institute of
+Technology, Atlanta, Georgia, 30332, USA. E-mail: reynolds@chemistry.gatech.edu
+b Re-Synthesis Laboratory, NC/IS, BASF Corporation, Tarrytown, NY, 10591, USA
+c Department of Natural Sciences, Clayton State University, Morrow, GA, 30260,
+USA
+† Electronic supplementary information (ESI) available. See DOI: 10.1039/c4tc02685c
+Received 24th November 2014,
+Accepted 29th January 2015
+DOI: 10.1039/c4tc02685c
+www.rsc.org/MaterialsC
+Journal of
+Materials Chemistry C
+PAPER
+Published on 19 February 2015. Downloaded by Argonne Research Library on 9/26/2024 9:30:51 PM. 
+View Article Online
+View Journal | View Issue
+
+3212 | J. Mater. Chem. C, 2015, 3, 3211--3218
+This journal is ©The Royal Society of Chemistry 2015
+LUMO, retaining low oxidation potentials required for long
+term redox switching.19–21
+Examining the spectra for the transmissive oxidized states of
+these D–A ECPs shows tailing of charge carrier absorption in the
+near infrared back into the visible, giving some residual visible
+absorption and inducing a blue tint in the films. This effect
+is evident in poly(3,4-ethylenedioxythiophene) (PEDOT)22 and some-
+what minimalised in poly(3,4-propylenedioxythiophene) (ProDOT)23
+ECPs with long and bulky substituents. By retaining the highly
+electron rich nature of the XDOT polymers (where X represents
+ethylene, propylene, butylene, etc.), we hypothesize that steric con-
+trol can be the sole ‘‘handle’’ for tuning colour while maintaining
+outstanding electrochromic switching to highly transmissive states.
+This is exemplified in the literature by the use of an acyclic
+dioxythiophene (AcDOT) in developing orange and red-coloured
+ECPs.24
+Here, we report a family of EDOT, ProDOT, and AcDOT
+copolymers, each having regular nonrandom repeat units, and
+all prepared by direct arylation polymerisation (DAP) where
+neutral colours can be varied from bright pink, to magenta,
+purple, periwinkle, and blue solely by steric control. We find
+these polymers to switch rapidly and reproducibly to highly
+transmissive oxidised states that are more transmissive and less
+coloured than previously reported polymers. These ECPs explore
+the eﬀects of subtle relaxation and torsional strain on spectra for
+colour control and allow us to address the issue of colour break-in
+by comparing as-sprayed films to those that have been electro-
+chemically cycled as steric hindrance eliminates the break-in
+eﬀect making for improved colour consistency.
+As illustrated by Scheme 1, steric interactions can be viewed
+as inducing torsional strain and relaxation along a conjugated
+polymer backbone, controlling pi-overlap. When AcDOT units
+neighbor another AcDOT, strain induces conformational twist-
+ing. This breaks conjugation and leads to shorter wavelength
+absorption. As torsional strain is relaxed through the incorpora-
+tion of ProDOT or EDOT, planarity is induced, conjugation is
+extended, and longer wavelengths of light are absorbed.
+Results and discussion
+1.
+Polymer synthesis
+All polymers were prepared using optimized DAP25,26 from six
+diﬀerent monomeric and dimeric XDOTs, as shown in the ESI,†
+to yield ECPs with repeat unit structures shown in Scheme 2.
+With recent developments reviewed by Leclerc et al.,27 DAP was
+chosen as it allows access to the desired electron rich polymer
+structures without the need to synthesize and purify organotin
+monomers while maintaining an alternating repeat unit that
+is not accessible via oxidative methods. Characterization by
+Scheme 1
+Cartoon depicting backbone torsional interactions between neighbouring 3,4-dioxythiophene rings. Strain decreases from left to right
+through relaxation.
+Scheme 2
+Family of EDOT-, ProDOT-, and AcDOT-based ECPs prepared
+for this study using direct arylation.
+Paper
+Journal of Materials Chemistry C
+Published on 19 February 2015. Downloaded by Argonne Research Library on 9/26/2024 9:30:51 PM. 
+View Article Online
+
+This journal is ©The Royal Society of Chemistry 2015
+J. Mater. Chem. C, 2015, 3, 3211--3218 | 3213
+1H-NMR and comparative GPC demonstrates all polymers to
+be correctly structured and of suﬃcient molecular weight
+(Mn ranging from 14 kDa to 176 kDa) to produce continuous
+films where the optical properties are in the polymer limit. A
+collection of polymerization yields and molecular weights is
+given in Table 1. All of the polymers were isolated in high yield
+(460%) with the exception of ProDOT–EDOT as it was difficult
+to solubilize. The solubility of the polymers that are composed
+of EDOTs is relatively low (ca. o2 mg mL1) but sufficient enough
+to conduct spray casting of solutions at room temperature.
+2.
+Optoelectronic properties
+Electrochemistry and break-in. Solutions of the polymers
+were prepared at a concentration of 5 mg mL1 in chloroform
+and then spray cast onto ITO glass at 10 psi yielding films of
+varying thickness based on optical density (from 0.8 a.u. to
+1.2 a.u.) which was then correlated to a physical thickness as
+measured and averaged by profilometry (see ESI,† Table S1).
+The polymers are divided into two families: the blue hues
+(comprised of ProDOT–EDOT, ProDOT2–EDOT, and ProDOT2–
+EDOT2) and the magenta hues (comprised of AcDOT–ProDOT,
+AcDOT2–ProDOT, and AcDOT–EDOT) while AcDOT2–EDOT2,
+ProDOT, and AcDOT (purple and orange hues respectively) stand
+as comparison structures between the two families. These families
+of blue and magenta ECPs were developed with the goal of
+examining the effects of subtle relaxation and torsional strain
+on spectra to explore colour control.
+Prior to spectroelectrochemistry, the films were electro-
+chemically conditioned (so called ‘‘broken in’’) with 25 cycles
+via cyclic voltammetry (CV) to the point where the current
+stabilized to become reproducible. As noted from Fig. S2 (ESI†)
+there is a considerable change between the first and second cycle,
+after which the current minimally decreases and is fully reproduc-
+ible in all cases by the 25th cycle. All of the polymers oxidize
+easily and, as shown by diﬀerential pulse voltammetry (DPV), the
+onsets for the oxidation potentials range from 490 to 206 mV.
+AcDOT (ECP-orange) is an exception and has an oxidation
+potential of 260 mV, attributed to pendant group bulkiness.24
+The induction of steric relaxation along the conjugated back-
+bone via the alternating addition of EDOT moieties and mono-
+mer repeats having large and bulky solubilizing substituents
+presents drastic changes between the pristine and broken-in
+film states. As strain is introduced through AcDOT incorpora-
+tion, this eﬀect is mitigated with a minimal change between
+the pristine and broken in state exhibited by AcDOT2–ProDOT
+(Fig. S2e, ESI†). Examining the differential pulse voltammetry
+results in Fig. S3 (ESI†), the increase in strain raises oxidation
+potential onsets while relaxation lowers it.
+Optical properties. The break-in eﬀect observed results in
+an alteration of the film spectra after switching as exemplified in
+Fig. S4 (ESI†). In concert with the changes observed by CV, the film
+spectra redshift and increase in optical density as relaxation is
+induced, while the changes in the spectra are reduced with increas-
+ing strain. This is exemplified with AcDOT2–ProDOT where there is
+no spectral difference between the pristine and broken in state,
+which can be correlated to a minimal change during CV. To
+examine the optical properties of the broken-in films, the normal-
+ized neutral state absorption spectra for the two families of the all
+donor polymers are shown in Fig. 1 with the absorption onsets and
+lmax values reported in Table 1. Examining Fig. 1a, as strain is
+decreased (relaxation) through increased EDOT content, long
+wavelength absorption, relative to the ProDOT and AcDOT
+homopolymers, is increased. All of the copolymers possess
+considerably lower band gaps relative to ProDOT allowing the
+Table 1
+All polymer molecular weight, yield, and solid state spectroscopy
+data
+Polymer
+Molecular weight
+(Mn, PDI, solvent (kDa))
+Yield
+(%)
+Absorption
+onset (eV)
+lmax
+(nm)
+ProDOT
+12.3, 1.77, THF
+40
+1.97
+555, 606
+ProDOT2–EDOT
+14.5, 2.00, CHCl3
+82
+1.81
+590
+ProDOT–EDOT
+NA
+24
+1.75
+597
+ProDOT2–EDOT2 14.1, 4.50, CHCl3
+70
+1.74
+606
+AcDOT
+279.7, 2.08, THF
+62
+2.10
+490
+AcDOT2–ProDOT 176.0, 2.20, THF
+82
+2.01
+536, 579
+AcDOT–ProDOT
+51.8, 2.37, THF
+97
+2.00
+541, 587
+AcDOT–EDOT
+30.9, 1.21, THF
+75
+1.84
+553
+AcDOT2–EDOT2
+24.2, 4.90, CHCl3
+60
+1.81
+557
+Fig. 1
+Normalized neutral state film spectra of blue (a) and magenta (b) hued ECPs post break-in.
+Journal of Materials Chemistry C
+Paper
+Published on 19 February 2015. Downloaded by Argonne Research Library on 9/26/2024 9:30:51 PM. 
+View Article Online
+
+3214 | J. Mater. Chem. C, 2015, 3, 3211--3218
+This journal is ©The Royal Society of Chemistry 2015
+absorption of long wavelength light, making the materials
+appear periwinkle-blue to the eye. With this red-shifted absorp-
+tion onsetting around 700–750 nm, these polymers can be
+thought of as organic soluble analogues of PEDOT. Turning
+attention to Fig. 1b, as steric hindrance is increased via AcDOT
+addition, shorter wavelength absorption is induced relative to
+ProDOT. These materials with greater strain absorb more of the
+high energy portion of the visible spectrum, reducing the
+amount of blue light that reaches the eye, making the materials
+appear as ‘‘reddened’’ or ‘‘hotter’’ magentas and pinks.
+The repeat unit structure has an overall eﬀect on the presence,
+or lack thereof, of vibronic coupling in the spectra. Increasing the
+amount of strain via shifting from AcDOT–ProDOT to AcDOT2–
+ProDOT only showed a slight decrease in the degree of vibronic
+coupling, as evidenced by the lower definition in the multiple
+peaks, relative to ProDOT which exhibits a high degree of
+order.22,28–30 Following this, there is a decrease in the extent of
+vibronic coupling observed for the EDOT containing polymers.
+This indicates that, although AcDOT is considerably bulkier than
+EDOT, the low steric hindrance of the latter allows the propylene
+bridge on neighboring ProDOT rings to have more freedom in
+conformational changes, inducing greater degrees of disorder in
+the polymer backbone, thereby reducing the extent of vibronic
+coupling and broadening the spectra.31–33
+3.
+Spectroelectrochemistry
+These all-donor polymers exhibit a high electrochromic contrast,
+switching from a vibrant coloured state to highly transmissive, as
+illustrated in Fig. 2 for ProDOT2–EDOT2 and AcDOT2–ProDOT,
+along with the remaining polymers in Fig. S5 (ESI†). The entire
+family of materials studied exhibit changes in contrast above
+60% at lmax as shown in Table 2. ProDOT2–EDOT2 and AcDOT2–
+ProDOT exhibit the highest contrast values, 75 and 73 D%T at
+lmax respectively, and the least residual absorption in the visible
+from the fully oxidized transmissive state, even for thicker films.
+Those that incorporate EDOT have a broadened potential range
+over which the polymer switches with subtle changes over the
+duration of oxidation while those that utilize AcDOT have a
+narrowing of the potential window with larger changes upon
+each potential step. As presented by the Leclerc group, this
+phenomena has been attributed to twiston effects, which are
+in essence delocalized conformational defects, seen in previous
+polymer systems.24,34,35 Because of the high twist (less planarity)
+induced in AcDOT–ProDOT and AcDOT2–ProDOT, there is a resis-
+tance to planarization on initial oxidation. However, at increasing
+oxidation steps, localized planarization begins to occur, which has a
+rapid propagation along neighboring repeat units.
+Upon examination of the switching kinetics via chrono-
+absorptometry in Fig. S6 (ESI†), all of the polymers synthesized
+for this study are shown to undergo their full neutral coloured
+to oxidized transmissive change with switch times as fast as
+1 second showing minimal loss in contrast. Upon switching at
+fast speeds of 1
+2 and 1
+4 second cycles, the polymers exhibit an
+expected loss in contrast due to diﬀusion limiting processes of
+electrolyte migration. After cycling at high speeds, the polymers
+are all capable of regaining high levels of contrast with no
+apparent negative eﬀects (delaminating, blistering, etc.), demon-
+strating robustness during rapid changes in switching speeds.
+4.
+Colorimetry
+Upon the completion of spectroelectrochemistry the colorimetric
+properties of each polymer were examined and are presented as
+a*b* colour tracks in Fig. 3 (including photographs), while the
+colour values of each polymer in the neutral and fully oxidized
+states are shown in Table 2. The colour trend for the blue hued
+Fig. 2
+Electrochromic properties of films sprayed to an optical density of B1.2 a.u. of ProDOT2–EDOT2 (a) and AcDOT2–ProDOT (b). Spectro-
+electrochemistry performed at potential steps of 50 mV with 0.5 M TBAPF6 in PC with a Pt wire as counter electrode; Ag/Ag+ reference electrode
+calibrated to Fc/Fc+ with a value of 82 mV.
+Paper
+Journal of Materials Chemistry C
+Published on 19 February 2015. Downloaded by Argonne Research Library on 9/26/2024 9:30:51 PM. 
+View Article Online
+
+This journal is ©The Royal Society of Chemistry 2015
+J. Mater. Chem. C, 2015, 3, 3211--3218 | 3215
+ECPs with increasing relaxation progressing from orange,
+through purple, to blue a*b* values are as follows:
+AcDOT (42, 53) - ProDOT (51, 37) -
+AcDOT2–EDOT2 (38, 44) - ProDOT2–EDOT (32, 63) -
+ProDOT–EDOT (16, 43) - ProDOT2–EDOT2 (12, 63)
+Referring to the neutral state spectra in Fig. 1a, as long
+wavelength absorption transitions are induced through relaxa-
+tion from the increased content of EDOT, colour values in the
+neutral state progress to lower a*, indicating less purple colour
+and more blue hue. This is due to the progressive transmission
+or passing of more blue and less red light. The colour trend for
+the magenta hued ECPs with increasing strain progressing
+from purple, through pink, to orange a*b* values are as follows:
+AcDOT2–EDOT2 (38, 44) - AcDOT–EDOT (41, 35) -
+ProDOT (51, 37) - AcDOT–ProDOT (70, 36) -
+AcDOT2–ProDOT (59, 16) - AcDOT (42, 53)
+Again, connecting to the neutral state spectra in Fig. 1b, as
+moderate and short wavelength light absorption is induced
+through the increase in strain from the addition of AcDOT, colour
+values in the neutral state progress to higher b*, decreasing
+Table 2
+L*a*b* colour coordinates for all polymers in the neutral and transmissive states and total change in contrast upon switching between the
+extremes
+Relaxed polymers
+D%T
+(at lmax)
+Neutral state
+L*, a*, b*
+Oxidized state
+L*, a*, b*
+Strained
+polymers
+D%T
+(at lmax)
+Neutral state
+L*, a*, b*
+Oxidized state
+L*, a*, b*
+AcDOT
+48
+72, 42, 53
+81, 2, 7
+AcDOT2–EDOT2
+70
+38, 38, 44
+91, 2, 4
+ProDOT
+71
+50, 51, 37
+88, 1, 2
+AcDOT–EDOT
+63
+49, 41, 35
+88, 3, 4
+ProDOT2–EDOT2
+70
+38, 38, 44
+91, 2, 4
+ProDOT
+71
+50, 51, 37
+88, 1, 2
+ProDOT2–EDOT
+71
+33, 32, 63
+90, 2, 3
+AcDOT–ProDOT
+72
+47, 70, 36
+91, 2, 3
+ProDOT–EDOT
+68
+40, 16, 43
+85, 4, 5
+AcDOT2–ProDOT
+73
+56, 59, 16
+91, 2, 1
+ProDOT2–EDOT2
+75
+37, 12, 63
+92, 3, 3
+AcDOT
+48
+72, 42, 53
+81, 2, 7
+Fig. 3
+Colorimetry of blue and magenta hue ECPs. All films sprayed to B1.0 a.u. Direction of the arrow indicate increasing relaxation or strain.
+Journal of Materials Chemistry C
+Paper
+Published on 19 February 2015. Downloaded by Argonne Research Library on 9/26/2024 9:30:51 PM. 
+View Article Online
+
+3216 | J. Mater. Chem. C, 2015, 3, 3211--3218
+This journal is ©The Royal Society of Chemistry 2015
+‘‘purpleness’’ and yielding truer magenta and pink colours due to
+more absorption of blue light and increasing transmission or
+passing of red light. Importantly, AcDOT2–ProDOT nearly matches
+the colour values of a standard magenta as defined by Munsell
+(L*, a*, b* = 52, 50, 15)36 whereas ProDOT is a bit too ‘‘purple’’
+after break-in. This will allow for more accurate colour mixing in
+the cyan-magenta-yellow (CMY) subtractive regime using these
+soluble polymers.37 Complete colorimetry and arrays of photo-
+graphs for each polymer at a variety of thicknesses can be found
+in Fig. S7 (ESI†).
+The minimal hue and saturation of colour in the oxidized
+form for all of these polymers comes from their ability to
+exhibit minimal residual absorption in the visible spectrum
+because of their electron rich, all-donating character, as shown
+by Fig. 4a and Fig. S8 (ESI†). The L* for all of the polymers as a
+function of voltage during switching can be seen in Fig. 4b.
+Upon oxidation all values of lightness are high.
+5.
+Comparing all-donor and donor–acceptor systems
+Through relaxation, the subtle steric tuning in all donor poly-
+mers can yield materials with low band gaps (ProDOT2–EDOT2)
+that are blue in the neutral state with colour values that are
+comparable to those of a blue-to-transmissive ECP designed by
+donor–acceptor (D–A) methods.20 A comparison between the
+neutral states for ProDOT2–EDOT2 and the previously reported
+ECP-blue (ProDOT–BTD) is presented in Fig. 5a. This compar-
+ison was chosen as the two materials possess similar colour
+values while employing distinctly different structures to tune
+optical transitions. From Fig. 5a it can be seen that using a D–A
+approach between alternating ProDOT and BTD (benzothiadia-
+zole) a dual band absorption results where the shorter wave-
+length absorption is attributed to the p to p* and the longer
+wavelength absorption is from the donor–acceptor charge
+transfer interactions.21 Using the method of steric relaxation
+in ProDOT2–EDOT2, an absorption was attained with an onset
+at shorter wavelengths (1.74 eV), remaining at the edge of the
+visible spectrum. Through the D–A approach, a much lower
+onset was achieved (1.53 eV) with a window of transmission at
+431 nm between the two bands. The two different absorption
+spectra give two unique neutral state colours. As shown earlier,
+ProDOT2–EDOT2 allows a majority of blue light, and a minimal
+amount of red light, to transmit, giving a saturated blue colour.
+With ECP-blue, its more redshifted onset from the CT absorp-
+tion allows more green than red light to transmit however, the
+higher energy p to p* filters out blue and violet light, making it
+a less saturated sky-blue colour. Though they have similar
+numerical colour values, ProDOT2–EDOT2 appears more satu-
+rated in colour because more blue light is reaching the highly
+sensitive S cones in the human eye.
+The electron rich character of the all donor polymers devel-
+oped here allow them to be fully bleached (oxidized to a point
+where a*b* colour values approach zero and L* is high) at
+potentials that are lower than those exhibited by donor–acceptor
+systems. In the oxidized transmissive states, for the all donor
+polymer (ProDOT2–EDOT2), the p-electron donating character of
+the oxygens residing on the b-position of thiophene impart
+stabilization to the oxidized form, red-shifting the overall absorp-
+tion (see Fig. 5a) and leading to a repression of the absorption
+between 700–1000 nm relative to the donor–acceptor system
+(ECP-blue). The ability for S and O to interact between neigh-
+boring dioxythiophene units and induce planarization may also
+assist in this redshift.32,33 In Fig. 5a it can be seen that when
+ECP-blue is fully oxidized to the transmissive state there is
+a significant absorption tailing into the long wavelength portion
+of the visible (600–720 nm) with a peak in the NIR at B1460 nm,
+showing a blue tint when oxidized (Fig. 5c) while ProDOT2–
+EDOT2 exhibits minimal tailing in the same portion with a peak
+beyond 1600 nm, being nearly colourless when oxidized.
+From the comparisons presented in Fig. 5, one can see that
+lower gaps can be attained with donor–acceptor effects, but at
+the cost of electrochromic contrast as a consequence of tailing
+absorption due to the incorporation of electron deficient acceptors.
+All donor systems would require significant synthetic design of
+new relaxed rings to achieve comparably low gaps, but as the state
+Fig. 4
+Most transmissive oxidized state absorption for all polymers across the visible with spectrum as inset (380–730 nm) (a). Lightness values (L*) for all
+polymers as a function of voltage (b). All films sprayed to B1.0 a.u.
+Paper
+Journal of Materials Chemistry C
+Published on 19 February 2015. Downloaded by Argonne Research Library on 9/26/2024 9:30:51 PM. 
+View Article Online
+
+This journal is ©The Royal Society of Chemistry 2015
+J. Mater. Chem. C, 2015, 3, 3211--3218 | 3217
+of the art stands with DOTs, the attainable gaps are sufficient for
+colour applications with high electrochromic contrast from all
+donor structures nearly eliminating residual visible absorption
+when fully oxidized.
+For improved visualization of the enhanced properties of the
+all donor systems, Fig. 6 shows a patterned film comparing
+several of the all donor polymers examined here (ProDOT2–EDOT2,
+ProDOT, AcDOT2–ProDOT, and AcDOT) side by side with the
+donor–acceptor ProDOT–BTD. It is evident that each of the poly-
+mers, save for ProDOT–BTD, switch to the bleached state in a
+similar voltage window, as desired for simultaneously colouring-
+bleaching displays. The ProDOT–BTD remains coloured until
+higher voltages are applied due to its higher oxidation potential.
+Also it is worth noting in Fig. 6, the polymer that makes up the
+stem and leaves of the flower, is also a donor acceptor system,
+ProDOT4–BTD (structure shown in Fig. S9, ESI†); however, it
+qualitatively shows behavior that is comparable with the all donor
+systems. This can be explained by the fact that it has significantly
+more donor character than acceptor, containing four times the
+donor amount of ProDOT–BTD.
+Fig. 5
+Comparison between ProDOT2–EDOT2 and ECP-blue (ProDOT–BTD) spectra of the extreme states (a), colorimetry (b), and structurally and
+photographically (L*a*b* colour values below photos, Munsell blue: 29, 14, 50) (c). Both polymers sprayed to B1 a.u.
+Fig. 6
+One electrode comparison of optical properties of all donor and donor–acceptor polymer films in 0.04 M TBAPF4 in acetonitrile (ACN). Counter
+electrode is an ITO coated glass pane of equal size with reference electrode that is the same used for other studies herein.
+Journal of Materials Chemistry C
+Paper
+Published on 19 February 2015. Downloaded by Argonne Research Library on 9/26/2024 9:30:51 PM. 
+View Article Online
+
+3218 | J. Mater. Chem. C, 2015, 3, 3211--3218
+This journal is ©The Royal Society of Chemistry 2015
+Conclusions
+Through modulating the strain along the backbone of all
+donating dioxythiophene ECPs the colour of the neutral state
+was controlled, making new, desired shades of blues and
+magentas with high electrochromic contrast. Blue hues (low
+band gaps) could be attained by utilizing relaxation in the form
+of EDOT content while magenta hues (mid gaps) could be
+acquired through increasing steric hindrance with AcDOT. This
+steric approach was used to achieve a polymer with a magenta
+neutral state as defined by Munsell, allowing more accurate
+subtractive CMY colour mixing. These polymers exhibit signifi-
+cant changes in spectra between the pristine and electrochemi-
+cally broken-in neutral state, which can be minimized through
+increased steric strain. Compared to the donor–acceptor method
+of colour control, sterically tuned all donors can achieve similar
+vibrantly coloured neutral states but with the advantage of
+greater contrast when oxidized. Based on this revelation it would
+be advantageous to minimize the use of donor–acceptor archi-
+tectures in ECPs where possible or to develop new acceptors that
+would minimize the tailing from fully oxidized states.
+Acknowledgements
+We thank BASF for funding and scale-up support, Mike Craig
+for preliminary systems that inspired the work shown here,
+Natasha Teran for synthetic & purification advice, Ray Bulloch
+for electrochemical input and support. We also appreciate the
+collaboration from Dow Chemical, Rongjuan Cong, and James
+Ponder in obtaining GPC results.
+Notes and references
+1 C. G. Granqvist, Thin Solid Films, 2014, 564, 1–38.
+2 X. Xu and R. D. Webster, RSC Adv., 2014, 4, 18100–18107.
+3 L. Beverina, G. A. Pagani and M. Sassi, Chem. Commun.,
+2014, 50, 5413–5430.
+4 R. J. Mortimer and T. S. Varley, Sol. Energy Mater. Sol. Cells,
+2013, 109, 275–279.
+5 G. Gunsbas and L. Toppare, Chem. Commun., 2012, 48,
+1083–1101.
+6 T. A. F. Ko¨nig, P. A. Ledin, J. Kerszulis, M. A. Mahmoud,
+M. A. El-Sayed, J. R. Reynolds and V. V. Tsukruk, ACS Nano,
+2014, 8, 6182–6192.
+7 J. Jensen, A. L. Dyer, D. E. Shen, F. C. Krebs and J. R. Reynolds,
+Adv. Funct. Mater., 2013, 23, 3728–3737.
+8 H. W. Heuer, R. Wehrmann and S. Kirchmeyer, Adv. Funct.
+Mater., 2002, 12, 89–94.
+9 A. L. Dyer, E. J. Thompson and J. R. Reynolds, ACS Appl.
+Mater. Interfaces, 2011, 3, 1787–1795.
+10 C. M. Amb, A. L. Dyer and J. R. Reynolds, Chem. Mater.,
+2011, 23, 397–415.
+11 R. R. Søndergaard, M. Ho¨sel and F. C. Krebs, J. Polym. Sci.,
+Part B: Polym. Phys., 2013, 51, 16–34.
+12 J. Jensen, H. F. Dam, J. R. Reynolds, A. L. Dyer and F. C. Krebs,
+J. Polym. Sci., Part B: Polym. Phys., 2012, 50, 536–545.
+13 H. Sirringhaus, T. Kawase, R. H. Friend, T. Shimoda,
+M. Inbasekaran, W. Wu and E. P. Woo, Science, 2000, 290,
+2123–2126.
+14 S. Barik, D. Navarathne, M. LeBorgne and W. G. Skene,
+J. Mater. Chem. C, 2013, 1, 5508–5519.
+15 C.-W. Hu, T. Sato, J. Zhang, S. Moriyama and M. Higuchi,
+J. Mater. Chem. C, 2013, 1, 3408–3413.
+16 C.-W. Hu, T. Sato, J. Zhang, S. Moriyama and M. Higuchi,
+ACS Appl. Mater. Interfaces, 2014, 6, 9118–9125.
+17 M. D. Hossain, J. Zhang, R. K. Pandey, T. Sato and
+M. Higuchi, Eur. J. Inorg. Chem., 2014, 3763–3770.
+18 M. Schott, H. Lorrmann, W. Szczerba, M. Beck and
+D. G. Kurth, Sol. Energy Mater. Sol. Cells, 2014, 126, 68–73.
+19 P. M. Beaujuge, S. V. Vasilyeva, D. Y. Liu, S. Ellinger,
+T. D. McCarley and J. R. Reynolds, Chem. Mater., 2012, 24,
+255–268.
+20 C. M. Amb, P. M. Beaujuge and J. R. Reynolds, Adv. Mater.,
+2010, 22, 724–728.
+21 P. M. Beaujuge, C. M. Amb and J. R. Reynolds, Acc. Chem.
+Res., 2010, 43, 1396–1407.
+22 A. Kumar, D. M. Welsh, M. C. Morvant, F. Piroux,
+K. A. Abboud and J. R. Reynolds, Chem. Mater., 1998, 10,
+896–902.
+23 B. D. Reeves, C. R. G. Grenier, A. A. Argun, A. Cirpan,
+T. D. McCarley and J. R. Reynolds, Macromolecules, 2004,
+37, 7559–7569.
+24 A. L. Dyer, M. R. Craig, J. E. Babiarz, K. Kiyak and J. R. Reynolds,
+Macromolecules, 2010, 43, 4460–4467.
+25 L. A. Estrada, J. J. Deininger, G. D. Kamenov and J. R. Reynolds,
+ACS Macro Lett., 2013, 2, 869–873.
+26 H. Zhao, C.-Y. Liu, S.-C. Luo, B. Zhu, T.-H. Wang, H.-F. Hsu
+and H.-h. Yu, Macromolecules, 2012, 45, 7783–7790.
+27 L. G. Mercier and M. Leclerc, Acc. Chem. Res., 2013, 46, 1597–1605.
+28 C. R. G. Grenier, Synthetic Control of Order in Soluble Dioxythio-
+phene Polymers, PhD dissertation, University of Florida, 2006.
+29 D. Welsh, L. J. Kloeppner, L. Madrigal, M. R. Pinto,
+B. C. Thompson, K. S. Schanze, K. A. Abboud, D. Powell
+and J. R. Reynolds, Macromolecules, 2002, 35, 6517–6525.
+30 B. D. Reeves, B. C. Thompson, K. A. Abboud, B. E. Smart and
+J. R. Reynolds Name, Adv. Mater., 2000, 14, 717–719.
+31 A. Elschner, S. Kirchmeyer, W. Lovenich, U. Merker and
+K. Reuter, PEDOT: Principles and Applications of an Intrinsi-
+cally Conductive Polymer, Taylor & Francis, 2010.
+32 H. J. Spencer, P. J. Skabara, M. Giles, I. McCulloch,
+S. J. Coles and M. B. Hursthouse, J. Mater. Chem., 2005,
+15, 4783–4792.
+33 M. Turbiez, P. Fre`re, M. Allain, C. Videlot, J. Ackermann and
+J. Roncali, Chem. – Eur. J., 2005, 11, 3742–3752.
+34 M. Leclerc, Adv. Mater., 1999, 11, 1491–1498.
+35 M.
+Leclerc, M.
+Fre´chette,
+J.-Y. Bergeron,
+M.
+Ranger,
+I. Le´vesque and K. Faı¨d, Macromol. Chem. Phys., 1996, 197,
+2077–2087.
+36 R. S. Berns, Billmeyer and Saltzman’s Principles of Color
+Technology, 3rd edn, 2000.
+37 R. H. Bulloch, J. A. Kerszulis, A. L. Dyer and J. R. Reynolds,
+ACS Appl. Mater. Interfaces, 2015, 7, 1406–1412.
+Paper
+Journal of Materials Chemistry C
+Published on 19 February 2015. Downloaded by Argonne Research Library on 9/26/2024 9:30:51 PM. 
+View Article Online
+

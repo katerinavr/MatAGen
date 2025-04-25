@@ -1,0 +1,981 @@
+Citation: Shameem, R.; Bongartz,
+L.M.; Weissbach, A.; Kleemann, H.;
+Leo, K. Hysteresis in Organic
+Electrochemical Transistors: Relation
+to the Electrochemical Properties of
+the Semiconductor. Appl. Sci. 2023,
+13, 5754. https://doi.org/10.3390/
+app13095754
+Academic Editor: Carolina Belver
+Received: 4 April 2023
+Revised: 27 April 2023
+Accepted: 28 April 2023
+Published: 7 May 2023
+Copyright:
+© 2023 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed
+under
+the
+terms
+and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+applied  
+sciences
+Article
+Hysteresis in Organic Electrochemical Transistors: Relation to
+the Electrochemical Properties of the Semiconductor
+Raufar Shameem †,‡, Lukas M. Bongartz, Anton Weissbach
+, Hans Kleemann
+and Karl Leo *
+Dresden Integrated Center for Applied Physics and Photonic Materials (IAPP), Technische Universität Dresden,
+Nöthnitzer Str. 61, 01187 Dresden, Germany
+* Correspondence: karl.leo@tu-dresden.de
+† Current address: Laboratory of Organic Electronics, Department of Science and Technology,
+Linköping University, 602 21 Norrköping, Sweden.
+‡ Current address: Bio- and Organic Electronics, RISE Research Institutes of Sweden,
+602 33 Norrköping, Sweden.
+Abstract: The ability to bridge ionic and electronic transport coupled with large volumetric ca-
+pacitance renders organic electrochemical transistors (OECTs) ideal candidates for bioelectronic
+applications. Adopting ionic-liquid-based solid electrolytes extends their applicability and facilitates
+large-area printable productions. However, OETCs employing solid electrolytes tend to show a pro-
+nounced hysteresis in the transfer curve. A detailed understanding of the hysteresis is crucial for their
+accurate characterizations and reliable applications. Here, we demonstrated fully photopatternable
+poly(3,4-ethylenedioxythiophene):tosylate (PEDOT:Tos)- based OECTs incorporating the ionic liquid
+[EMIM][EtSO4] in a solid electrolyte (SE). The PEDOT:Tos ﬁlms deposited through vapor phase
+polymerization (VPP) were annealed for different durations after the polymerization step. Upon
+rinsing with ethanol and the deposition of the SE, the OECTs made of these ﬁlms showed impressive
+bias stress stability under prolonged operation cycles, a high switching ratio, a low threshold voltage,
+and a high transconductance. Furthermore, by taking transfer measurements with different sweep
+rates, we revealed two distinct regimes of hysteresis: kinetic hysteresis and non-kinetic hysteresis.
+We observed pronounced changes in these regimes after annealing. Finally, impedance spectroscopy
+exhibited that the PEDOT:Tos turned from a Faradaic to a non-Faradaic response through annealing,
+explaining the observed hysteresis changes in both regimes.
+Keywords: organic electrochemical transistors; organic mixed ionic–electronic conductors; hysteresis;
+vapor phase polymerization; bias stress
+1. Introduction
+Owing to their ability to transduce both electronic and ionic signals, organic electro-
+chemical transistors (OECTs) are ideal candidates for bioelectronics [1,2], sensors [3,4], and
+neuromorphic applications [5–8]. OECTs are three-terminal devices comprising an organic
+mixed ionic electronic conductor (OMIEC) [9] as the channel between the source and drain
+electrode. An electrolyte acts as the ion reservoir between the channel and gate electrode.
+When the drain–source bias (VDS) is ﬁxed, a changing gate–source voltage (VGS) dictates
+the ﬂow of the mobile ions between the OMIEC channel and the electrolyte. These ions, in
+turn, change the doping states and the conductivity (ID) of the OMIEC channel [10]. As a
+result, OECTs are volumetric devices, which grants them a high transconductance (high
+ampliﬁcation), allowing them to operate at relatively low voltages [11].
+Various conjugated polymers are suitable as the channel materials of OECTs [12]. One
+polymer of particular interest that allows precision control over device properties is poly(3,4-
+ethylenedioxythiophene):tosylate (PEDOT:Tos) [13,14]. A popular method to deposit PE-
+DOT:Tos is vapor phase polymerization (VPP). Although various variations are possible [15],
+VPP typically follows the routine of surface preparation by an oxidant, polymerization in
+Appl. Sci. 2023, 13, 5754. https://doi.org/10.3390/app13095754
+https://www.mdpi.com/journal/applsci
+
+Appl. Sci. 2023, 13, 5754
+2 of 11
+vacuum, post-polymerization annealing, and the removal of residuals. Traditionally, the
+electrolyte used for gating incorporates water with salts (i.e., liquid electrolyte), which can
+evaporate and contaminate easily and is inconvenient for all-printed applications. Ion gels, a
+composite material comprising an ionic liquid in a complex polymer matrix [16] (also referred
+to as solid electrolyte or SE), are printable [17], scalable [18], and photopatternable [19].
+The typical ﬁgures of merit of OECTs, such as the transconductance, switching ratio,
+and threshold voltage, are extracted from the transfer curve measurements. It has been
+shown that OECTs employing an SE have a pronounced hysteresis in the transfer curves [19].
+In other words, the device gives two sets of data depending on whether the transfer curve
+measurement is taken from the ON to the OFF state and vice versa. Previous work has tried
+to explore the origin of hysteresis from different perspectives where the explanations differ
+signiﬁcantly. Kaphle et al. attributed hysteresis to an incomplete movement of ions [20],
+which explains the change in hysteresis with changing gate–source voltage scan rates.
+However, an ionic-movement-based explanation fails to explain a saturating hysteresis
+(i.e., a hysteresis that sustains even for a sufﬁciently slow scan rate). Winther-Jensen et al.
+argued that hysteresis could be adjusted by controlling the degree of polymer collapse by
+modifying the concentration of polytetrahydrofuran (PTHF) in the PEDOT:Tos blend [13].
+Ji et al. later showed that such a change is instead connected to the trapping of cations
+by PTHF [14]. However, none of these theories explain the presence of hysteresis in
+PEDOT:Tos-based OECTs without any PTHF additive. Regardless of the explanations, it is
+safe to assume that multiple factors might contribute to hysteresis in OECTs. In particular,
+the inﬂuence of defect states on hysteresis remains elusive.
+Here, we introduce a fully photopatternable PEDOT:Tos OECT employing a solid
+electrolyte with [EMIM][EtSO4] as the ionic liquid. Contrary to conventional pattern-
+ing via parylene peel-off, photolithography coupled with dry etching is cleaner and less
+complex [21]. We annealed the deposited PEDOT:Tos ﬁlm for different durations before
+washing it with ethanol. Upon residual removal from the deposited ﬁlms and SE deposition,
+the resulting OECTs showed impressive bias stress stability under prolonged operation.
+By varying the gate–source voltage (VGS) scan rate, we revealed two distinct regimes of
+hysteresis distinguishable by their kinetics. We named them kinetic and non-kinetic hys-
+teresis depending on whether they change by change in the VGS scan rate. We observed an
+increasing kinetic hysteresis in the devices with increased thermal annealing. However, the
+strength of the non-kinetic hysteresis and its onsets remain curious. From the impedance
+measurements, we observed that PEDOT:Tos switched from a non-polarizable (Faradaic)
+to a polarizable (non-Faradaic) behavior upon thermal annealing, explaining the evolution
+of the hysteresis over different scan rates. We speculated that annealing caused a demixing
+in PEDOT:Tos, causing ion trapping in the different phases of the material.
+2. Materials and Methods
+The sample fabrication and characterization were carried out in a cleanroom environ-
+ment. The OETCs involved in this work were a side-gated planar electrode conﬁguration
+utilizing a three-stage photolithography patterning process (see Figure 1a). A glass sub-
+strate (1′′ × 1′′, 3 nm Cr and 50 nm Au) was spin-coated (60 s, 3000 rpm; Sawatec SM-180-BT,
+Sax, Switzerland ) with the photoresist AZ 1518 (MicroChemicals GmbH, Ulm, Germany)
+followed by baking on a hotplate (60 s, 110 °C; Sawatec HP-150, Sax, Switzerland). The illu-
+mination of the electrode pattern ensued in a mask aligner (10 s, I-line 365 nm, 167 W; SÜSS
+Microtec AG, Garching, Germany). The development of AZ 1518 (60 s, AZ 726 MIF; Micro-
+Chemicals GmbH, Ulm, Germany) and etching of Au (60 s; 10% diluted aqueous; Merck
+KGaA, Darmstadt, Germany) and Cr (20 s, 10% diluted aqueous; Merck KGaA,Darmstadt,
+Germany), respectively, produced the desired electrode pattern on the glass substrate.
+The second stage of photolithography started with the deposition of PEDOT:Tos. We
+followed a five-step base-inhibited VPP process [22] with some modifications. First, the sub-
+strate was spin-coated (15 s, 1500 rpm) with the reactants Fe(III):Tos (324 mg; Sigma Aldrich,
+Taufkirchen Germany), pyridine (32 µL; Alfa Aesar, Karlsruhe, Germany), and butanol (1.6 mL;
+
+Appl. Sci. 2023, 13, 5754
+3 of 11
+Acros Organics, Karlsruhe, Germany), followed by air drying for 30 min. The polymerization
+was carried out in a desiccation chamber (Gebr. Rettberg GmbH, Göttingen, Germany). A
+Petri dish containing EDOT (Sigma Aldrich, Taufkirchen Germany) was kept at the bottom
+of the desiccation chamber, while the substrate containing the reactants was set on a stage.
+The desiccation chamber was kept on a hotplate at 70 °C, which maintained the substrate
+temperature at around 50 °C (VOLTCRAFT IR 500-12S, Hirschau, Germany). The desiccation
+chamber was connected to a vacuum pump rated at 780 Pa. The equilibration time was 10 min,
+and the polymerization time was 1 h. The post-polymerization thermal annealing was carried
+out for 0, 1, and 4 h on a hotplate at 70 °C. Finally, the deposited PEDOT:Tos was carefully
+dipped in ethanol to remove any residuals.
+Next, the substrate with the electrode pattern and the deposited polymer was spin-
+coated with an SL1 sacrificial layer (60 s, 3000 rpm; post-baking at 100 °C for 60 s; Orthogonal
+Inc., Rochester, NY, USA) [21] and photoresist AZ nLOF 2020 (60 s, 3000 rpm; post-baking
+at 110 °C for 60 s; MicroChemicals GmbH, Ulm, Germany). The illumination in the mask
+aligner (14 s, I-line 365 nm, 167 W; SÜSS Microtec AG, Garching, Germany) and post-baking
+followed (60 s, 110 °C). The resist was developed by AZ 726 MIF (60 s; MicroChemicals
+GmbH, Ulm, Germany), and the unprotected sacrificial layer was removed by spin coating
+(3000 rpm, increments of 15 s until undercut appeared) with HFE (3M Performance Chemicals,
+Nordrhein-Westfalen Germany). The final PEDOT:Tos pattern on the gate and channel was
+obtained by dry etching with oxygen plasma (300 s, 100 V bias, 50 W RF power, 30 Pa; Aurion
+VPA-14-01, Seligenstadt, Germany). The crosslinked resist and underlying SL1 were removed
+by keeping the substrate in the OSCoR Developer 103a (Orthogonal Inc.) overnight. The SE
+pattern was achieved by the same method reported earlier [19].
+The thickness measurements were taken using a proﬁlometer (Veeco Dektak 150,
+Aschheim, Germany). All electrical and impedance measurements were carried in a N2
+glovebox (MBraun, Garching Germany). The electrical measurements were taken with
+two Keithley 236 SMUs (Oregon, United States) coupled with the software SweepMe!
+(Dresden, Germany). The impedance measurements were taken with Metrohm Autolab
+PGSTAT302N (Filderstadt, Germany) in the potentiostatic mode with an RMS amplitude of
+10 mV and without any DC offset. The scan range was from 105 to 10−1 Hz, and the ﬁtting
+was performed from 104 Hz (excluding the outliers at higher frequencies).
+Figure 1. (a) Micrograph of a fabricated OECT; (b) the chemicals used as the solid electrolyte;
+(c) schematic of the OMIEC polymer PEDOT:Tos.
+3. Results and Discussion
+After polymerization in vacuum and before ethanol washing, the deposited PE-
+DOT:Tos ﬁlms were annealed for 0, 1, and 4 h at 70 °C. Here, we report the preliminary
+comparisons of our fabricated PEDOT:Tos ﬁlms and devices. Figure 1a shows a fabricated
+device, and Figure 1b,c depict the corresponding chemical composition of the SE and
+channel material, respectively. We observed an increasing ﬁlm thickness and decreasing
+ﬁlm conductivity (see Appendix A.1 Figure A1) with increasing annealing time, in line with
+the results of Zuber et al. [23]. According to this report, the ﬁlm thickness increased due to
+further polymerization from the residuals, while the decreased conductivity (even with an
+
+Appl. Sci. 2023, 13, 5754
+4 of 11
+increased doping level) was explained by the branching out of polymers. A pronounced
+hysteresis was noticeable in the transfer curves of the annealed devices. At a VGS scan rate
+of 175 mV s−1, the 0, 1, and 4 h-annealed devices showed ON–OFF (ION, −1 V/IOFF, 1.25 V)
+ratios of 2.50 × 104, 4.29 × 104, and 2.06 × 104; peak transconductances of 0.76, 0.66, and
+0.26 mS; and threshold voltages of 0.31, 0.47, and 0.89 V, respectively (see Appendix A.2
+Figure A2). The following section discusses the bias stress and ways to mitigate it. After
+that, we depict the two regimes of hysteresis over the VGS scan rate in the 1 h-annealed
+device as a demonstration. In the ﬁnal section, we evaluate the effect of post-polymerization
+thermal annealing in PEDOT:Tos.
+3.1. Bias Stress and Recovery
+The conductivities of the polymers decreased slightly after depositing the SE, which
+was indicative of partial polymer dedoping [24]. Therefore, we included a negative VGS
+voltage during the transfer curve measurements. The transfer curve sweeping was typ-
+ically carried out from −1.0 V to 1.25 V, then back to −1.0 V to scan the full switching
+potential of the device (i.e., including complete dedoping and redoping of the polymer;
+see Appendix A.3 Figure A3). A previous study showed that bias stress arose from the
+incomplete movement of ions between the SE and polymer [20]. Therefore, if the VGS
+scan rate (sweeping speed) is too slow or the VGS scan window is too large, then the bias
+stress will not be visible. Moreover, the drain–source voltage (VDS) should also be small
+enough to avoid current stress (see Appendix A.4 Figure A4). We performed ﬁve-hundred
+successive transfer curve measurements (from purple to red gradient in Figure 2a). This
+measurement, lasting for about 6 h, showed some bias stress effect in our device (i.e., the
+shift of the transfer curves). Nevertheless, a recovery measurement after the bias stressing
+indicated that the device completely recovered even after prolonged operation. The latter
+reported measurements were taken after giving sufﬁcient pauses to avoid bias stress.
+  
+0 . 0
+0 . 5
+1 . 0
+1 . 5
+  
+  
+  
+  
+  
+0 . 0
+I D  ( m
+A )
+V
+G
+S  ( V )
+C h e c k  R e c o v e r y
+M
+u l t i  L o o p
+1 s t
+5 0 0 t h
+I n i t i a l
+1  h
+( a )
+  
+  
+  
+0 . 0
+0 . 5
+1 . 0
+1 0 	  
+1 0 	  
+1 0 	 
+1 0 	 
+1 0 	 
+1 0 	 
+1 0 	 
+1 0 	 
+1 0
+1 0 0
+3
+4
+5
+| I D |  ( A )
+V
+G
+S  ( V )
+1  h
+H
+y s t e r e s i s  S t r e n g t h
+( b )
+   
+ K i n e t i c
+ N
+o n - k i n e t i c
+S c a n  R a t e  m
+V s  
+Figure 2. (a) Bias stress stability measurement in an OECT where the PEDOT:Tos ﬁlm is annealed
+for 1 h at 70 °C. The measurement spans approximately six hours, with a recovery measurement
+showing no evidence of device degradation. (b) Demonstration of a scan-rate-dependent transfer
+curve measurement where the inlet shows the hysteresis strength ψ [19,25]. Such a measurement
+reveals two distinct regimes of hysteresis, which we name kinetic hysteresis (blue gradients) or
+non-kinetic hysteresis (orange gradients), depending on whether they change for a further reduction
+of the scan rates. Kinetic hysteresis at higher scan rates is related to the incomplete movement of ions,
+whereas non-kinetic hysteresis observed at lower scan rates results presumably from a combination
+of multiple factors. The channel width W, length L, and gate distance g are 150 µm, 150 µm, and
+50 µm, respectively. The ﬁlm thickness d for the bias stress measurement is 80 nm and for the scan-
+rate-dependent measurement is 119 nm. The drain–source voltage (VDS) is kept constant at −0.2 V.
+The scan speed for bias stress measurement is ≈180 mV s−1.
+
+Appl. Sci. 2023, 13, 5754
+5 of 11
+3.2. Regimes of Hysteresis
+As the ions need to physically move to switch the device, the response time of the
+OECTs to a change of the input signal VGS is typically large. The response time also
+depends on parameters such as the ion mobility (conductivity of the electrolyte) or the
+distance between the channel and gate [1]. Therefore, the shape of the transfer curve (and
+the extracted parameters) depends closely on the VGS scan rate. We carried out a set of
+measurements with a ﬁxed VGS step and different hold times to extract transfer curves with
+varying VGS scan rates (in units of mV s−1). The gate voltage was set at −1 V for 15–30 s
+before each transfer curve measurement to ensure that the polymer reached the maximum
+conducting state. Holding VGS at the beginning of each measurement also acted as a pause,
+allowing the cations to move completely out of the polymer to mitigate any bias stress
+effect. Nevertheless, the duration of these measurements with different scan rates was
+around 20 min, which is much shorter than the time scale on which we observed the bias
+stress instability (see Appendix A.5 Figure A5).
+Figure 2b depicts the scan-rate-dependent transfer curve measurements for the OECT
+made from the 1 h-annealed PEDOT:Tos ﬁlm. We utilized the ψ parameter to represent
+the hysteresis strength, which is the ratio of a pair of outputs ID to the same input VGS,
+integrated over the hysteresis window [19] (see Figure 2b inlet). The ψ parameter indicated
+that the hysteresis saturated at a scan rate of ≈85 mV s−1 for the 1 h-annealed devices. We
+assumed that the kinetic hysteresis observable under a faster scan rate was indeed due to
+the incomplete movement of the ions, as shown earlier [20]. However, the nature of the
+inner non-kinetic hysteresis at lower scan rates was not trivial.
+3.3. Effect of Thermal Annealing on Hysteresis
+We report the scan-rate-dependent measurements for OECTs where the PEDOT:Tos was
+annealed for 0, 1, and 4 h. In Figure 3a–c, we show the transfer curves for different scan rates
+and annealing durations. Figure 3d shows the hysteresis strength ψ for these devices as a
+function of the scan rate. We observed a direct correlation between hysteresis strength and
+annealing time for a fixed VGS scan rate in the kinetic hysteresis regime. For example, at a
+scan rate of 175 mV s−1, the 0, 1, and 4 h-annealed devices showed a ψ value of 2.17, 2.93, and
+7.42 V, respectively. However, the devices behaved curiously in the non-kinetic hysteresis
+regime. Firstly, the non-kinetic hysteresis for the non-annealed device (0 h) was significantly
+lower (ψ = 0.51 V) than for the annealed devices, where ψ reached a value of approximately
+3 V (note that ψ is a logarithmic quantity and, hence, the difference between the annealed
+and non-annealed devices was very large). Secondly, the non-kinetic hysteresis for the 1 and
+4 h-annealed devices were almost similar at around ψ = 3 V, indicating that the effect of
+annealing was almost complete after 1 h. Finally, the onset of the non-kinetic hysteresis did
+not show any specific dependence on the scan rate (e.g., the onset of non-kinetic hysteresis
+for the 0, 1, and 4 h-annealed devices were at 9.82, 85.1, and 7.05 mV s−1, respectively). This
+aspect reflected the situation that the transition from the non-kinetic to the kinetic hysteresis
+was governed by the time constant of ion movement, which may depend significantly on the
+thickness and conductivity of the solid electrolyte.
+  
+  
+0 . 0
+0 . 5
+1 . 0
+1 0 	  
+1 0 	 
+1 0 	 
+1 0 	 
+1 0 	 
+1 0 	 
+1 0 	 
+| I D |  ( A )
+V
+G
+S  ( V )
+ 2 4 5  m
+V s  
+ 2 3 6  m
+V s  
+ 1 7 5  m
+V s  
+ 8 5 . 1  m
+V s  
+ 4 5 . 8  m
+V s  
+ 2 3 . 9  m
+V s  
+ 9 . 8 2  m
+V s  
+0  h
+( a )
+  
+  
+0 . 0
+0 . 5
+1 . 0
+1 0 	  
+1 0 	 
+1 0 	 
+1 0 	 
+1 0 	 
+1 0 	 
+1 0 	 
+| I D |  ( A )
+V
+G
+S  ( V )
+ 2 4 5  m
+V s  
+ 2 3 6  m
+V s  
+ 1 7 5  m
+V s  
+ 8 5 . 1  m
+V s  
+ 4 5 . 8  m
+V s  
+ 2 3 . 9  m
+V s  
+ 1 6 . 1  m
+V s  
+ 1 2 . 2  m
+V s  
+1  h
+( b )
+Figure 3. Cont.
+
+Appl. Sci. 2023, 13, 5754
+6 of 11
+  
+  
+0 . 0
+0 . 5
+1 . 0
+1 0 	  
+1 0 	 
+1 0 	 
+1 0 	 
+1 0 	 
+1 0 	 
+1 0 	 
+| I D |  ( A )
+V
+G
+S  ( V )
+ 1 7 5  m
+V s  
+ 8 5 . 1  m
+V s  
+ 4 5 . 8  m
+V s  
+ 2 3 . 9  m
+V s  
+ 1 6 . 1  m
+V s  
+ 1 2 . 2  m
+V s  
+ 7 . 0 5  m
+V s  
+4  h
+( c )
+1 0
+1 0 0
+0
+2
+4
+6
+8
+1 0
+   
+S c a n  R a t e  ( m
+V s   )
+ 0  h
+ 1  h
+ 4  h
+( d )
+Figure 3. (a–c) Scan rate-dependent transfer curve measurements for OECTs where the PEDOT:Tos
+ﬁlm is annealed for 0, 1, and 4 h, respectively. (d) Hysteresis strength ψ plotted against the scan
+rates. The kinetic hysteresis strengths (at higher scan rates) increase with increasing annealing time.
+Non-kinetic hysteresis appears fastest in the 1 h-annealed ﬁlm. Further, the 1 and 4 h-annealed devices
+show similar non-kinetic hysteresis (ψ ≈3 V), whereas the non-annealed device shows rather small
+non-kinetic hysteresis (ψ = 0.51 V). Here, W, L, g = 150 µm, 150 µm, 50 µm; VD = −0.2 V; the ﬁlm
+thicknesses for 0, 1, 4 h annealing are 103, 119, 141 nm, respectively.
+We performed impedance spectroscopy to gain more insight into the two regimes
+of hysteresis. Typically, the ionic circuit of an OECT is represented by a series circuit of
+a resistor and capacitors. The resistor accounts for the electrolyte resistance, while the
+capacitors represent the gate electrolyte and channel electrolyte interfaces. The capacitance
+of the gate is usually signiﬁcantly larger and, hence, negligible in the series connection.
+One can also include a resistor parallel to the capacitor to include Faradaic processes. The
+ideal capacitor is a simpliﬁcation, and usually, more complex models need to be used to
+describe all possible processes (e.g., accounting for different types of ions, their velocity
+distribution [4], and the non-uniformity of the electrode materials). Furthermore, the
+description of the electrode by means of a resistor is a simpliﬁcation, as diffusion in an
+electrolyte is in general described by a Warburg element (behaving like a resistor at very
+low frequency and absorbing boundaries [26]).
+Figure 4 depicts the impedances (source and drain at the same potential and impedance
+measured to the gate) of all the annealed devices, with the ﬁtting circuit contained as inlets.
+For non-annealed devices (0 h), the impedance of the channel is mainly described by a
+pure resistor representing a Faradaic electrode with a capacitive contribution at only a
+very low frequency (presumably originating from the Warburg element describing the
+ion migration in the electrolyte). Therefore, it will mostly show kinetic hysteresis (the
+higher the sweep rate, the stronger the hysteresis is), which is in line with our observations.
+Moreover, the contribution of the capacitance to the impedance was small, and hence, the
+kinetic hysteresis was predicted to be the smallest for the non-annealed devices.
+If the devices were annealed (1, 4 h), the impedance response transformed into the
+response of a constant phase element (CPE). For the 1 h-annealed device, an additional
+capacitor was required with the CPE to capture the response. The C and CPE in series
+imply that only the electrostatic process is there at the beginning. Thus, the electronic–ionic
+coupling would happen via the same states, but, e.g., the energies of these states change
+upon annealing, making a Faradaic process possible. With increasing annealing time, the
+slope in the Bode plot increased, meaning that the electrode was becoming more capacitive
+(hence, the kinetic hysteresis of the 4 h device will be the strongest). However, the change
+from a Faradaic to non-Faradaic response explains the different strength of the kinetic
+hysteresis at high scan rates; still, it does not explain the origin of the non-kinetic hysteresis
+at low scan rates. The pronounced non-kinetic hysteresis (ψ ≈3 V) only occurred in the
+device with a capacitive character, while the non-annealed device was primarily resistive
+and only showed very low non-kinetic hysteresis (ψ = 0.51 V), the origin of which still
+
+Appl. Sci. 2023, 13, 5754
+7 of 11
+remains elusive. The CPE in the impedance spectra tells us that the annealed PEDOT:Tos
+devices possessed a distribution of states at the interface between the electrolyte and the
+OMIEC, which is possibly connected to the appearance of the non-kinetic hysteresis. This
+transition in the impedance response of the PEDOT:Tos ﬁlm is connected to the annealing-
+induced polymerization. We speculated that this polymerization process might trigger
+a demixing of the two components (PEDOT and Tos), similar to PEDOT:PSS [27], where,
+e.g., PSS-rich domains might act as deep trap states (as described by the CPE). However, to
+analyze this in more detail, further studies on the micro- and nano-scale formation of such
+ﬁlms are needed.
+1 0 5
+1 0 6
+1 0  
+1 0  
+1 0 0
+1 0 1
+1 0 2
+1 0 3
+1 0 4
+0
+2 0
+4 0
+6 0
+8 0
+1 0  
+1 0 0
+1 0 1
+1 0 2
+1 0 3
+1 0 4
+1 0  
+1 0 0
+1 0 1
+1 0 2
+1 0 3
+1 0 4
+     
+ F i t
+0  h
+( a )
+( b )
+( c )
+R    =  8 . 5 2 × 1 0 5  
+C   =  2 . 9 5 × 1 0   F
+R
+C
+       o )
+F r e q u e n c y  ( H
+z )
+ F i t
+1  h
+R    =  5 . 6 5 × 1 0 4  
+C    =  2 . 7 6 × 1 0   F
+Q   =  2 . 5 3 × 1 0  
+n    =  0 . 2 4
+C
+R
+C P E
+ F i t
+F r e q u e n c y  ( H
+z )
+ F i t
+ F i t
+4  h
+R    =  5 × 1 0 4  
+Q   =  1 . 8 5 × 1 0  
+n    =  0 . 3 8 6
+C P E
+R
+F r e q u e n c y  ( H
+z )
+ F i t
+Figure 4. Impedance measurements of OECTs employing PEDOT:Tos ﬁlms annealed for 0, 1, 4 h.
+The corresponding ﬁtting circuits and parameters are given as insets.
+The non-annealed de-
+vice shows mostly a Faradaic response, which changes to non-Faradaic responses after anneal-
+ing.
+The phase also indicates that the capacitances rapidly increase upon annealing.
+Here,
+W, L, g = 150 µm, 150 µm, 50 µm; the thicknesses are 103, 119, 141 nm for thermal annealing of 0, 1, 4 h,
+respectively (a–c). The measurements were taken in potentiostatic mode with the source and drain
+shorted, with an RMS amplitude of 10 mV and without any DC offset. The instabilities around the
+50 Hz range probably originate due to the non-standard cables connecting the measurement setup
+inside the glovebox to the standard Autolab cables situated outside the glovebox.
+4. Summary
+In this work, we demonstrated a fully photopatternable PEDOT:Tos OECT showing
+excellent bias stress stability, and we adopted a scan-rate-dependent measurement scheme
+to illustrate the kinetic and non-kinetic hysteresis. A strong enhancement of both could
+be revealed by thermal annealing, and we utilized impedance analysis to explain the
+changes in the two hysteresis regimes upon annealing. PEDOT:Tos was presumably well-
+mixed for non-annealed samples (all states were equivalent and had no dopant-rich or
+-poor domains), showing Faradaic behavior. Annealing fostered further polymerization of
+PEDOT, which might cause the demixing of PEDOT and Tos [23], showing a non-Faradaic
+behavior. Similar to PEDOT:PSS, ions might become trapped (represented by a CPE),
+causing an increased capacitance [27].
+This work illustrated that PEDOT:Tos ﬁlms employing solid electrolytes could be
+viable for applications where reliable long operation cycles are desired. A VGS scan-rate-
+dependent measurement scheme captured the effects of the changing material properties
+on the device performances. This work further illustrated a simple process modiﬁcation
+in thermal annealing to achieve varying hysteresis levels without changing the starting
+material, suitable for neuromorphic applications utilizing hysteresis [13,14]. While this
+work clearly distinguished between the non-kinetic and kinetic regimes of hysteresis, the
+true origin of the non-kinetic hysteresis remains open for investigation. In particular,
+further studies on micro- and nano-scale changes in PEDOT:Tos ﬁlms upon annealing will
+
+Appl. Sci. 2023, 13, 5754
+8 of 11
+provide valuable insights. If deep defects indeed cause the observed changes in hysteresis,
+annealing could pave the way to quantify and assess the effect of defect states on the
+OECTs’ properties.
+Author Contributions: R.S.: conceptualization, methodology, investigation, formal analysis, data
+curation, visualization, writing—original draft preparation. L.M.B.: methodology, formal analysis,
+software, writing—review and editing, supervision. A.W.: formal analysis, writing—review and edit-
+ing, supervision. H.K.: project administration, resources, writing—review and editing, supervision.
+K.L.: validation, writing—review and editing, supervision. All authors have read and agreed to the
+published version of the manuscript.
+Funding: Lukas M. Bongartz and Hans Kleemann are grateful for funding from the German Research
+Foundation (DFG) under the grant KL 2961/5-1. The authors also thank the Bundesministerium für
+Bildung und Forschung (BMBF) for funding from the project BAYOEN (01IS21089) and EC/SAB for
+funding in the ESF-Project “Re-Learning” (Funding No. 100382146).
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: All data related to this article are available upon request.
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+Appendix A.
+Appendix A.1. Effect of Post-Polymerization Annealing on PEDOT:Tos Films
+0
+1
+4
+1 0 0
+1 1 0
+1 2 0
+1 3 0
+1 4 0
+1 5 0
+T h i c k n e s s  ( n m
+)
+A n n e a l i n g  T i m
+e  ( h )
+( a )
+0
+1
+4
+2 0 0
+2 5 0
+3 0 0
+ ( S c m
+  )
+A n n e a l i n g  T i m
+e  ( h )
+( b )
+Figure A1. Effect of thermal annealing on the (a) thickness and (b) conductivity of PEDOT:Tos ﬁlms.
+The bars represent standard deviations from the mean values. The adopted annealing temperature is
+70 °C These results are in line with previous experiments [23].
+Appendix A.2. Figure of Merits of the Fabricated Devices
+  
+  
+0 . 0
+0 . 5
+1 . 0
+0 . 0
+0 . 2
+0 . 4
+0 . 6
+0 . 8
+  
+  
+0 . 0
+0 . 5
+1 . 0
+0 . 0 0 0
+0 . 0 0 5
+0 . 0 1 0
+0 . 0 1 5
+0 . 0 2 0
+  
+  
+0 . 0
+0 . 5
+1 . 0
+1 0 	  
+1 0 	  
+1 0 	 
+1 0 	 
+1 0 	 
+1 0 	 
+1 0 	 
+1 0 	 
+g
+m  ( m
+S )
+V
+G
+S  ( V )
+ 0  h
+ 1  h
+ 4  h
+ 0  h
+ 1  h
+ 4  h
+| I D | 1 / 2  ( A )
+V
+G
+S  ( V )
+| I D |  ( A )
+V
+G
+S  ( V )
+ 0  h
+ 1  h
+ 4  h
+( a )
+( b )
+( c )
+Figure A2. (a) Transfer curves, (b) peak transconductances (ON to OFF sweep), and (c) extracted
+threshold voltages (ON to OFF sweep) for OECTs annealed for 0, 1, 4 h. The annealing temperature is
+at 70 °C. Here, W, L, g = 150 µm, 150 µm, 50 µm; VDS = −0.2 V; the thicknesses are 103, 119, 141 nm
+for thermal annealing of 0, 1, 4 h, respectively. The comparison is for a scan rate of ≈175 mV s−1.
+
+Appl. Sci. 2023, 13, 5754
+9 of 11
+Appendix A.3. Hysteresis Windows
+   
+   
+   
+   
+   
+  
+  
+  
+  
+   
+   
+   
+   
+0 . 0 0
+  
+  
+0 . 0
+0 . 2
+0 . 4
+   
+   
+   
+   
+  
+0 . 0
+0 . 5
+1 . 0
+1 . 5
+   
+   	
+   
+   
+   
+   
+  
+  
+0 . 0
+1 . 0
+2 . 0
+   
+   
+   	
+   
+   
+   
+1
+2
+3
+4
+5
+L o o p
+( c )
+( b )
+1
+2
+L o o p
+( a )
+I D  ( m
+A )
+1
+2
+L o o p
+V
+G
+S  ( V )
+1
+2
+3
+4
+5
+L o o p
+V
+G
+S  ( V )
+1
+2
+L o o p
+|  I D  |  ( A )
+V
+G
+S  ( V )
+1
+2
+L o o p
+Figure A3. Changes of hysteresis for different VGS scan windows: (a) the scan window is too high,
+causing device degradation; (b) the scan window is too small to observe any hysteresis; (c) the scan
+window captures the complete switching ON or OFF of the device, and the hysteresis strength does
+not increase for a further increase of the VGS window [19].
+Appendix A.4. Current Stress
+  
+  
+0 . 0
+0 . 5
+  
+  
+  
+0 . 0
+I D  ( m
+A )
+V
+G
+S  ( V )
+ V
+D
+S  
+   	
+ V
+D
+S  
+   	
+ V
+D
+S  
+   	
+ V
+D
+S  
+   	
+Figure A4. Current stress in OECTs, with no current stress visible at VDS= −0.2 V. Here, W, L, g,
+d = 150 µm, 150 µm, 50 µm, and 103 nm. The annealing time is 0 h; the scan speed is ≈245 mV s−1.
+Appendix A.5. Device Stability during Measurements
+  
+  
+0 . 0
+0 . 5
+1 . 0
+1 0 	  
+1 0 	 
+1 0 	 
+1 0 	 
+1 0 	 
+1 0 	 
+1 0 	 
+| I D |  ( A )
+V
+G
+S  ( V )
+ 2 4 5  m
+V s  
+ 1 2 . 2  m
+V s  
+ 2 4 5  m
+V s    ( r e c o v e r y )
+1  h
+( a )
+  
+  
+0 . 0
+0 . 5
+1 . 0
+1 0 	  
+1 0 	 
+1 0 	 
+1 0 	 
+1 0 	 
+1 0 	 
+1 0 	 
+| I D |  ( A )
+V
+G
+S  ( V )
+4  h
+7 . 0 5  m
+V s  
+M
+u l t i  L o o p
+1
+3 0
+( b )
+Figure A5. (a) Initial and ﬁnal measurements for scan-rate-dependent measurement scheme for
+1 h annealed device. A recovery measurement depicts that the device can switch between different
+regimes of hysteresis when the bias stress is avoided by providing pauses. (b) A thirty-loop saturating
+hysteresis measurement for the 4 h-thermally annealed ﬁlm showing impressive consistency. The
+measurement duration is ≈7 h, with no visible bias stress as the scan speed for such a measurement
+is signiﬁcantly slower. Here, the devices have dimensions of W, L, g = 150 µm, 150 µm, 50 µm;
+VD = −0.2 V. The thicknesses are 119, 141 nm for thermal annealing of 1, 4 h, respectively.
+
+Appl. Sci. 2023, 13, 5754
+10 of 11
+References
+1.
+Rivnay, J.; Leleux, P.; Ferro, M.; Sessolo, M.; Williamson, A.; Koutsouras, D.A.; Khodagholy, D.; Ramuz, M.; Strakosas, X.;
+Owens, R.M.; et al. High-performance transistors for bioelectronics through tuning of channel thickness.
+Sci. Adv. 2015,
+1, e1400251. [CrossRef] [PubMed]
+2.
+Jo, Y.J.; Kim, H.; Ok, J.; Shin, Y.J.; Shin, J.H.; Kim, T.H.; Jung, Y.; Kim, T.i. Biocompatible and biodegradable organic transistors
+using a solid-state electrolyte incorporated with choline-based ionic liquid and polysaccharide.
+Adv. Funct. Mater. 2020,
+30, 1909707. [CrossRef]
+3.
+Strakosas, X.; Bongo, M.; Owens, R.M. The organic electrochemical transistor for biological applications. J. Appl. Polym. Sci. 2015,
+132, 41735. [CrossRef]
+4.
+Tseng, H.; Cucchi, M.; Weissbach, A.; Leo, K.; Kleemann, H. Membrane-Free, Selective Ion Sensing by Combining Organic
+Electrochemical Transistors and Impedance Analysis of Ionic Diffusion. ACS Appl. Electron. Mater. 2021, 3, 3898–3903. [CrossRef]
+5.
+Van De Burgt, Y.; Lubberman, E.; Fuller, E.J.; Keene, S.T.; Faria, G.C.; Agarwal, S.; Marinella, M.J.; Alec Talin, A.; Salleo, A. A
+non-volatile organic electrochemical device as a low-voltage artiﬁcial synapse for neuromorphic computing. Nat. Mater. 2017,
+16, 414–418. [CrossRef] [PubMed]
+6.
+Gerasimov, J.Y.; Gabrielsson, R.; Forchheimer, R.; Stavrinidou, E.; Simon, D.T.; Berggren, M.; Fabiano, S. An evolvable organic
+electrochemical transistor for neuromorphic applications. Adv. Sci. 2019, 6, 1801339. [CrossRef]
+7.
+Cucchi, M.; Gruener, C.; Petrauskas, L.; Steiner, P.; Tseng, H.; Fischer, A.; Penkovsky, B.; Matthus, C.; Birkholz, P.;
+Kleemann, H.; et al. Reservoir computing with biocompatible organic electrochemical networks for brain-inspired biosignal
+classiﬁcation. Sci. Adv. 2021, 7, eabh0693. [CrossRef]
+8.
+Petrauskas, L.; Cucchi, M.; Grüner, C.; Ellinger, F.; Leo, K.; Matthus, C.; Kleemann, H. Nonlinear Behavior of Dendritic Polymer
+Networks for Reservoir Computing. Adv. Electron. Mater. 2022, 8, 2100330. [CrossRef]
+9.
+Paulsen, B.D.; Tybrandt, K.; Stavrinidou, E.; Rivnay, J. Organic mixed ionic–electronic conductors. Nat. Mater. 2020, 19, 13–26.
+[CrossRef]
+10.
+Friedlein, J.T.; McLeod, R.R.; Rivnay, J. Device physics of organic electrochemical transistors. Org. Electron. 2018, 63, 398–414.
+[CrossRef]
+11.
+Khodagholy, D.; Rivnay, J.; Sessolo, M.; Gurﬁnkel, M.; Leleux, P.; Jimison, L.H.; Stavrinidou, E.; Herve, T.; Sanaur, S.;
+Owens, R.M.; et al.
+High transconductance organic electrochemical transistors.
+Nat. Commun. 2013, 4, 2133. [CrossRef]
+[PubMed]
+12.
+Zeglio, E.; Inganäs, O. Active materials for organic electrochemical transistors.
+Adv. Mater. 2018, 30, 1800941. [CrossRef]
+[PubMed]
+13.
+Winther-Jensen, B.; Kolodziejczyk, B.; Winther-Jensen, O. New one-pot poly (3, 4-ethylenedioxythiophene): Poly (tetrahydrofuran)
+memory material for facile fabrication of memory organic electrochemical transistors. APL Mater. 2015, 3, 014903. [CrossRef]
+14.
+Ji, X.; Paulsen, B.D.; Chik, G.K.; Wu, R.; Yin, Y.; Chan, P.K.; Rivnay, J. Mimicking associative learning using an ion-trapping
+non-volatile synaptic organic electrochemical transistor. Nat. Commun. 2021, 12, 2480. [CrossRef]
+15.
+Brooke, R.; Cottis, P.; Talemi, P.; Fabretto, M.; Murphy, P.; Evans, D. Recent advances in the synthesis of conducting polymers
+from the vapour phase. Prog. Mater. Sci. 2017, 86, 127–146. [CrossRef]
+16.
+Khodagholy, D.; Curto, V.F.; Fraser, K.J.; Gurﬁnkel, M.; Byrne, R.; Diamond, D.; Malliaras, G.G.; Benito-Lopez, F.; Owens, R.M.
+Organic electrochemical transistor incorporating an ionogel as a solid state electrolyte for lactate sensing. J. Mater. Chem. 2012,
+22, 4440–4443. [CrossRef]
+17.
+Andersson Ersman, P.; Lassnig, R.; Strandberg, J.; Tu, D.; Keshmiri, V.; Forchheimer, R.; Fabiano, S.; Gustafsson, G.; Berggren, M.
+All-printed large-scale integrated circuits based on organic electrochemical transistors. Nat. Commun. 2019, 10, 5053. [CrossRef]
+18.
+Zabihipour, M.; Lassnig, R.; Strandberg, J.; Berggren, M.; Fabiano, S.; Engquist, I.; Andersson Ersman, P. High yield manufacturing
+of fully screen-printed organic electrochemical transistors. npj Flex. Electron. 2020, 4, 15. [CrossRef]
+19.
+Weissbach, A.; Bongartz, L.M.; Cucchi, M.; Tseng, H.; Leo, K.; Kleemann, H. Photopatternable solid electrolyte for integrable
+organic electrochemical transistors: Operation and hysteresis. J. Mater. Chem. C 2022, 10, 2656–2662. [CrossRef]
+20.
+Kaphle, V.; Liu, S.; Keum, C.M.; Lüssem, B. Organic electrochemical transistors based on room temperature ionic liquids:
+Performance and stability. Phys. Status Solidi (a) 2018, 215, 1800631. [CrossRef]
+21.
+Höppner, M.; Kneppe, D.; Kleemann, H.; Leo, K. Precise patterning of organic semiconductors by reactive ion etching. Org.
+Electron. 2020, 76, 105357. [CrossRef]
+22.
+Winther-Jensen, B.; West, K. Vapor-phase polymerization of 3, 4-ethylenedioxythiophene: A route to highly conducting polymer
+surface layers. Macromolecules 2004, 37, 4538–4543. [CrossRef]
+23.
+Zuber, K.; Shere, H.; Rehmen, J.; Wheaton, V.; Fabretto, M.; Murphy, P.J.; Evans, D.R. Inﬂuence of postsynthesis heat treatment on
+vapor-phase-polymerized conductive polymers. ACS Omega 2018, 3, 12679–12687. [CrossRef] [PubMed]
+24.
+Cucchi, M.; Weissbach, A.; Bongartz, L.M.; Kantelberg, R.; Tseng, H.; Kleemann, H.; Leo, K. Thermodynamics of organic
+electrochemical transistors. Nat. Commun. 2022, 13, 4514. [CrossRef] [PubMed]
+25.
+Bongartz, L.M.; Weissbach, A.; Cucchi, M.; Leo, K.; Kleemann, H. Temperature-Dependence of All-Solid-State Organic Electro-
+chemical Transistors. In Proceedings of the 2022 IEEE International Conference on Flexible and Printable Sensors and Systems
+(FLEPS), Vienna, Austria, 10–13 July 2022; pp. 1–4. [CrossRef]
+
+Appl. Sci. 2023, 13, 5754
+11 of 11
+26.
+Bisquert, J. Theory of the Impedance of Electron Diffusion and Recombination in a Thin Layer. J. Phys. Chem. B 2002, 106, 325–333.
+[CrossRef]
+27.
+Volkov, A.V.; Wijeratne, K.; Mitraka, E.; Ail, U.; Zhao, D.; Tybrandt, K.; Andreasen, J.W.; Berggren, M.; Crispin, X.; Zozoulenko, I.V.
+Understanding the capacitance of PEDOT: PSS. Adv. Funct. Mater. 2017, 27, 1700329. [CrossRef]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.
+

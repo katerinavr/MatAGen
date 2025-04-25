@@ -1,0 +1,1610 @@
+{
+   "page_2_img_1.png": {
+      "title": "Tunable control of the performance of aqueous-based electrochemical devices by post-polymerization functionalization",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based",
+      "image_url": [],
+      "figure_name": "page_2_img_1.png",
+      "full_caption": "Scheme 1. (A) Conventional approach of pre-polymerization side-chain functionalization on conjugated polymers, and the associated limitations. (B) \u201cGraft-onto-polymer\u201d synthesis strategy by post-polymerization functionalization (GOP-PPF) using nucleophilic aromatic substitution (SNAr) reaction to functionalize the side chains of the conjugated polymers. (C) EG functionalized PIMECs synthesized by post-polymerization functionalization. Reaction conditions: (i) toluene, p-TsOH, 2-(2-methoxyethoxy)ethanol, 110 \u00b0C, 6 h; (ii) NBS, anhydrous DCM, 0 \u00b0C, 2 h; (iii) Ni(COD)2, COD, bpy, THF; (iv) n-BuLi, Me3SnCl, THF, \u221278 \u00b0C; (v) Pd2(dba)3, P(o-tol)3, toluene, 110 \u00b0C, 24 h. Post-polymerization condition: NaOH, chlorobenzene:DMF (3:1), 120 \u00b0C, 48 h.",
+      "figure_path": "output\\figures\\page_2_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 1419,
+            "width": 1753,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1753,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 1419
+               },
+               {
+                  "x": 1753,
+                  "y": 1419
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1753,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 1419
+                  },
+                  {
+                     "x": 1753,
+                     "y": 1419
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "A",
+               "description": "Conventional approach of pre-polymerization side-chain functionalization on conjugated polymers, and the associated limitations.",
+               "keywords": [
+                  "Pre-polymerization",
+                  "Functionalization",
+                  "Limitations"
+               ]
+            },
+            {
+               "label": "B",
+               "description": "\u201cGraft-onto-polymer\u201d synthesis strategy by post-polymerization functionalization (GOP-PPF) using nucleophilic aromatic substitution (SNAr) reaction to functionalize the side chains of the conjugated polymers.",
+               "keywords": [
+                  "Graft-onto-polymer",
+                  "SNAr reaction",
+                  "functionalization"
+               ]
+            },
+            {
+               "label": "C",
+               "description": "EG functionalized PIMECs synthesized by post-polymerization functionalization. Reaction conditions: (i) toluene, p-TsOH, 2-(2-methoxyethoxy)ethanol, 110 \u00b0C, 6 h; (ii) NBS, anhydrous DCM, 0 \u00b0C, 2 h; (iii) Ni(COD)2, COD, bpy, THF; (iv) n-BuLi, Me3SnCl, THF, \u221278 \u00b0C; (v) Pd2(dba)3, P(o-tol)3, toluene, 110 \u00b0C, 24 h. Post-polymerization condition: NaOH, chlorobenzene:DMF (3:1), 120 \u00b0C, 48 h.",
+               "keywords": [
+                  "Polymerization",
+                  "Functionalization",
+                  "Synthesis"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_4_img_1.png": {
+      "title": "Tunable control of the performance of aqueous-based electrochemical devices by post-polymerization functionalization",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based",
+      "image_url": [],
+      "figure_name": "page_4_img_1.png",
+      "full_caption": "Fig. 1 (a) Normalized UV\u2212vis\u2212NIR absorption spectra in films and (b) cyclic voltammograms of the polymer films in 0.1 M tetrabutylammonium hexafluorophosphate (n-Bu4NPF6) acetonitrile solution at a scan rate of 50 mV s\u22121, using Ag/AgCl as a reference electrode. (c) Contact angle measurements.",
+      "figure_path": "output\\figures\\page_4_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9537381529808044,
+            "height": 575,
+            "width": 722,
+            "geometry": [
+               {
+                  "x": 778,
+                  "y": 1
+               },
+               {
+                  "x": 1500,
+                  "y": 1
+               },
+               {
+                  "x": 778,
+                  "y": 576
+               },
+               {
+                  "x": 1500,
+                  "y": 576
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 778,
+                     "y": 1
+                  },
+                  {
+                     "x": 1500,
+                     "y": 1
+                  },
+                  {
+                     "x": 778,
+                     "y": 576
+                  },
+                  {
+                     "x": 1500,
+                     "y": 576
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Cyclic voltammograms of the polymer films in 0.1 M tetrabutylammonium hexafluorophosphate (n-Bu4NPF6) acetonitrile solution at a scan rate of 50 mV s\u22121, using Ag/AgCl as a reference electrode",
+            "keywords": [
+               "Cyclic voltammetry",
+               "polymer films",
+               "electrochemistry"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.8776155114173889,
+            "height": 567,
+            "width": 712,
+            "geometry": [
+               {
+                  "x": 31,
+                  "y": 4
+               },
+               {
+                  "x": 743,
+                  "y": 4
+               },
+               {
+                  "x": 31,
+                  "y": 571
+               },
+               {
+                  "x": 743,
+                  "y": 571
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 31,
+                     "y": 4
+                  },
+                  {
+                     "x": 743,
+                     "y": 4
+                  },
+                  {
+                     "x": 31,
+                     "y": 571
+                  },
+                  {
+                     "x": 743,
+                     "y": 571
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Normalized UV\u2212vis\u2212NIR absorption spectra in films",
+            "keywords": [
+               "UV\u2212vis\u2212NIR",
+               "absorption",
+               "films"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.20371271669864655,
+            "height": 251,
+            "width": 1594,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 593
+               },
+               {
+                  "x": 1594,
+                  "y": 593
+               },
+               {
+                  "x": 0,
+                  "y": 844
+               },
+               {
+                  "x": 1594,
+                  "y": 844
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 593
+                  },
+                  {
+                     "x": 1594,
+                     "y": 593
+                  },
+                  {
+                     "x": 0,
+                     "y": 844
+                  },
+                  {
+                     "x": 1594,
+                     "y": 844
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Contact angle measurements",
+            "keywords": [
+               "Contact angle",
+               "measurements",
+               "surface analysis"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_5_img_1.png": {
+      "title": "Tunable control of the performance of aqueous-based electrochemical devices by post-polymerization functionalization",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based",
+      "image_url": [],
+      "figure_name": "page_5_img_1.png",
+      "full_caption": "Fig. 2 (a) CV measurements of PMIECs in 0.1 M aqueous NaCl solution from \u22120.3 V to 0.7 V at a scan rate of 50 mV s\u22121 with low O2 concentration (1000 cycles). The red circle represents the 1st cycle. (b) Galvanostatic charge\u2013discharge plots recorded at 1.0 A g\u22121.",
+      "figure_path": "output\\figures\\page_5_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9637900590896606,
+            "height": 514,
+            "width": 624,
+            "geometry": [
+               {
+                  "x": 16,
+                  "y": 0
+               },
+               {
+                  "x": 640,
+                  "y": 0
+               },
+               {
+                  "x": 16,
+                  "y": 514
+               },
+               {
+                  "x": 640,
+                  "y": 514
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 16,
+                     "y": 0
+                  },
+                  {
+                     "x": 640,
+                     "y": 0
+                  },
+                  {
+                     "x": 16,
+                     "y": 514
+                  },
+                  {
+                     "x": 640,
+                     "y": 514
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "CV measurements of PMIECs in 0.1 M aqueous NaCl solution from \u22120.3 V to 0.7 V at a scan rate of 50 mV s\u22121 with low O2 concentration (1000 cycles). The red circle represents the 1st cycle.",
+            "keywords": [
+               "CV measurements",
+               "PMIECs",
+               "NaCl solution"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9368814826011658,
+            "height": 504,
+            "width": 621,
+            "geometry": [
+               {
+                  "x": 639,
+                  "y": 7
+               },
+               {
+                  "x": 1260,
+                  "y": 7
+               },
+               {
+                  "x": 639,
+                  "y": 511
+               },
+               {
+                  "x": 1260,
+                  "y": 511
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 639,
+                     "y": 7
+                  },
+                  {
+                     "x": 1260,
+                     "y": 7
+                  },
+                  {
+                     "x": 639,
+                     "y": 511
+                  },
+                  {
+                     "x": 1260,
+                     "y": 511
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Galvanostatic charge\u2013discharge plots recorded at 1.0 A g\u22121.",
+            "keywords": [
+               "Charge-discharge",
+               "galvanostatic",
+               "electrochemistry"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.7970572113990784,
+            "height": 504,
+            "width": 627,
+            "geometry": [
+               {
+                  "x": 1275,
+                  "y": 5
+               },
+               {
+                  "x": 1902,
+                  "y": 5
+               },
+               {
+                  "x": 1275,
+                  "y": 509
+               },
+               {
+                  "x": 1902,
+                  "y": 509
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1275,
+                     "y": 5
+                  },
+                  {
+                     "x": 1902,
+                     "y": 5
+                  },
+                  {
+                     "x": 1275,
+                     "y": 509
+                  },
+                  {
+                     "x": 1902,
+                     "y": 509
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.7796757817268372,
+            "height": 495,
+            "width": 628,
+            "geometry": [
+               {
+                  "x": 634,
+                  "y": 523
+               },
+               {
+                  "x": 1262,
+                  "y": 523
+               },
+               {
+                  "x": 634,
+                  "y": 1018
+               },
+               {
+                  "x": 1262,
+                  "y": 1018
+               }
+            ],
+            "subfigure_label": {
+               "text": "e",
+               "geometry": [
+                  {
+                     "x": 634,
+                     "y": 523
+                  },
+                  {
+                     "x": 1262,
+                     "y": 523
+                  },
+                  {
+                     "x": 634,
+                     "y": 1018
+                  },
+                  {
+                     "x": 1262,
+                     "y": 1018
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.33220648765563965,
+            "height": 495,
+            "width": 630,
+            "geometry": [
+               {
+                  "x": 1273,
+                  "y": 525
+               },
+               {
+                  "x": 1903,
+                  "y": 525
+               },
+               {
+                  "x": 1273,
+                  "y": 1020
+               },
+               {
+                  "x": 1903,
+                  "y": 1020
+               }
+            ],
+            "subfigure_label": {
+               "text": "f",
+               "geometry": [
+                  {
+                     "x": 1273,
+                     "y": 525
+                  },
+                  {
+                     "x": 1903,
+                     "y": 525
+                  },
+                  {
+                     "x": 1273,
+                     "y": 1020
+                  },
+                  {
+                     "x": 1903,
+                     "y": 1020
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.1614041030406952,
+            "height": 497,
+            "width": 628,
+            "geometry": [
+               {
+                  "x": 1274,
+                  "y": 524
+               },
+               {
+                  "x": 1902,
+                  "y": 524
+               },
+               {
+                  "x": 1274,
+                  "y": 1021
+               },
+               {
+                  "x": 1902,
+                  "y": 1021
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 1274,
+                     "y": 524
+                  },
+                  {
+                     "x": 1902,
+                     "y": 524
+                  },
+                  {
+                     "x": 1274,
+                     "y": 1021
+                  },
+                  {
+                     "x": 1902,
+                     "y": 1021
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_6_img_1.png": {
+      "title": "Tunable control of the performance of aqueous-based electrochemical devices by post-polymerization functionalization",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based",
+      "image_url": [],
+      "figure_name": "page_6_img_1.png",
+      "full_caption": "Fig. 3 (a\u2013c) CV measurements of g2T2-g8T2, g2T2-g8T4 and g2T2-g8T6 in 0.1 M aqueous NaCl solution from \u22120.3 V to 0.7 V at a series of scan rates with low O2 concentration; (d) peak currents against the square roots of the scan rates.",
+      "figure_path": "output\\figures\\page_6_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9685049653053284,
+            "height": 512,
+            "width": 734,
+            "geometry": [
+               {
+                  "x": 769,
+                  "y": 3
+               },
+               {
+                  "x": 1503,
+                  "y": 3
+               },
+               {
+                  "x": 769,
+                  "y": 515
+               },
+               {
+                  "x": 1503,
+                  "y": 515
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 769,
+                     "y": 3
+                  },
+                  {
+                     "x": 1503,
+                     "y": 3
+                  },
+                  {
+                     "x": 769,
+                     "y": 515
+                  },
+                  {
+                     "x": 1503,
+                     "y": 515
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "CV measurements of g2T2-g8T4 in 0.1 M aqueous NaCl solution from \u22120.3 V to 0.7 V at a series of scan rates with low O2 concentration",
+            "keywords": [
+               "CV measurements",
+               "aqueous NaCl",
+               "scan rates"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9684752225875854,
+            "height": 522,
+            "width": 651,
+            "geometry": [
+               {
+                  "x": 784,
+                  "y": 532
+               },
+               {
+                  "x": 1435,
+                  "y": 532
+               },
+               {
+                  "x": 784,
+                  "y": 1054
+               },
+               {
+                  "x": 1435,
+                  "y": 1054
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 784,
+                     "y": 532
+                  },
+                  {
+                     "x": 1435,
+                     "y": 532
+                  },
+                  {
+                     "x": 784,
+                     "y": 1054
+                  },
+                  {
+                     "x": 1435,
+                     "y": 1054
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "peak currents against the square roots of the scan rates",
+            "keywords": [
+               "Electrochemistry",
+               "Scan Rate",
+               "Peak Currents"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9668561220169067,
+            "height": 517,
+            "width": 736,
+            "geometry": [
+               {
+                  "x": 9,
+                  "y": 1
+               },
+               {
+                  "x": 745,
+                  "y": 1
+               },
+               {
+                  "x": 9,
+                  "y": 518
+               },
+               {
+                  "x": 745,
+                  "y": 518
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 9,
+                     "y": 1
+                  },
+                  {
+                     "x": 745,
+                     "y": 1
+                  },
+                  {
+                     "x": 9,
+                     "y": 518
+                  },
+                  {
+                     "x": 745,
+                     "y": 518
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "CV measurements of g2T2-g8T2 in 0.1 M aqueous NaCl solution from \u22120.3 V to 0.7 V at a series of scan rates with low O2 concentration",
+            "keywords": [
+               "CV measurements",
+               "aqueous NaCl",
+               "low O2 concentration"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9586132764816284,
+            "height": 515,
+            "width": 743,
+            "geometry": [
+               {
+                  "x": 9,
+                  "y": 538
+               },
+               {
+                  "x": 752,
+                  "y": 538
+               },
+               {
+                  "x": 9,
+                  "y": 1053
+               },
+               {
+                  "x": 752,
+                  "y": 1053
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 9,
+                     "y": 538
+                  },
+                  {
+                     "x": 752,
+                     "y": 538
+                  },
+                  {
+                     "x": 9,
+                     "y": 1053
+                  },
+                  {
+                     "x": 752,
+                     "y": 1053
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "CV measurements of g2T2-g8T6 in 0.1 M aqueous NaCl solution from \u22120.3 V to 0.7 V at a series of scan rates with low O2 concentration",
+            "keywords": [
+               "CV measurements",
+               "aqueous NaCl",
+               "scan rates"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_7_img_1.png": {
+      "title": "Tunable control of the performance of aqueous-based electrochemical devices by post-polymerization functionalization",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based",
+      "image_url": [],
+      "figure_name": "page_7_img_1.png",
+      "full_caption": "Fig. 4 (a, d), (b, e) and (c, f) Output curves, and transfer and transconductance characteristics for g2T2-gBT2, g2T2-gBT4 and g2T2-gBT6-based OECTs, respectively.",
+      "figure_path": "output\\figures\\page_7_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9706193804740906,
+            "height": 450,
+            "width": 590,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 412
+               },
+               {
+                  "x": 590,
+                  "y": 412
+               },
+               {
+                  "x": 0,
+                  "y": 862
+               },
+               {
+                  "x": 590,
+                  "y": 862
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 412
+                  },
+                  {
+                     "x": 590,
+                     "y": 412
+                  },
+                  {
+                     "x": 0,
+                     "y": 862
+                  },
+                  {
+                     "x": 590,
+                     "y": 862
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Transfer and transconductance characteristics for g2T2-gBT2-based OECTs.",
+            "keywords": [
+               "OECTs",
+               "transconductance",
+               "g2T2-gBT2"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9692201614379883,
+            "height": 421,
+            "width": 557,
+            "geometry": [
+               {
+                  "x": 579,
+                  "y": 2
+               },
+               {
+                  "x": 1136,
+                  "y": 2
+               },
+               {
+                  "x": 579,
+                  "y": 423
+               },
+               {
+                  "x": 1136,
+                  "y": 423
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 579,
+                     "y": 2
+                  },
+                  {
+                     "x": 1136,
+                     "y": 2
+                  },
+                  {
+                     "x": 579,
+                     "y": 423
+                  },
+                  {
+                     "x": 1136,
+                     "y": 423
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Output curves for g2T2-gBT4-based OECTs.",
+            "keywords": [
+               "OECTs",
+               "g2T2-gBT4",
+               "Output Curves"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9651323556900024,
+            "height": 431,
+            "width": 548,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 548,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 431
+               },
+               {
+                  "x": 548,
+                  "y": 431
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 548,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 431
+                  },
+                  {
+                     "x": 548,
+                     "y": 431
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Output curves for g2T2-gBT2-based OECTs.",
+            "keywords": [
+               "OECTs",
+               "g2T2-gBT2",
+               "output curves"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9468749165534973,
+            "height": 453,
+            "width": 580,
+            "geometry": [
+               {
+                  "x": 587,
+                  "y": 409
+               },
+               {
+                  "x": 1167,
+                  "y": 409
+               },
+               {
+                  "x": 587,
+                  "y": 862
+               },
+               {
+                  "x": 1167,
+                  "y": 862
+               }
+            ],
+            "subfigure_label": {
+               "text": "e",
+               "geometry": [
+                  {
+                     "x": 587,
+                     "y": 409
+                  },
+                  {
+                     "x": 1167,
+                     "y": 409
+                  },
+                  {
+                     "x": 587,
+                     "y": 862
+                  },
+                  {
+                     "x": 1167,
+                     "y": 862
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Transfer and transconductance characteristics for g2T2-gBT4-based OECTs.",
+            "keywords": [
+               "OECTs",
+               "transconductance",
+               "g2T2-gBT4"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9415862560272217,
+            "height": 423,
+            "width": 534,
+            "geometry": [
+               {
+                  "x": 1177,
+                  "y": 3
+               },
+               {
+                  "x": 1711,
+                  "y": 3
+               },
+               {
+                  "x": 1177,
+                  "y": 426
+               },
+               {
+                  "x": 1711,
+                  "y": 426
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1177,
+                     "y": 3
+                  },
+                  {
+                     "x": 1711,
+                     "y": 3
+                  },
+                  {
+                     "x": 1177,
+                     "y": 426
+                  },
+                  {
+                     "x": 1711,
+                     "y": 426
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Output curves for g2T2-gBT6-based OECTs.",
+            "keywords": [
+               "OECTs",
+               "Output Curves",
+               "g2T2-gBT6"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.8954178094863892,
+            "height": 444,
+            "width": 571,
+            "geometry": [
+               {
+                  "x": 1182,
+                  "y": 419
+               },
+               {
+                  "x": 1753,
+                  "y": 419
+               },
+               {
+                  "x": 1182,
+                  "y": 863
+               },
+               {
+                  "x": 1753,
+                  "y": 863
+               }
+            ],
+            "subfigure_label": {
+               "text": "f",
+               "geometry": [
+                  {
+                     "x": 1182,
+                     "y": 419
+                  },
+                  {
+                     "x": 1753,
+                     "y": 419
+                  },
+                  {
+                     "x": 1182,
+                     "y": 863
+                  },
+                  {
+                     "x": 1753,
+                     "y": 863
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Transfer and transconductance characteristics for g2T2-gBT6-based OECTs.",
+            "keywords": [
+               "OECTs",
+               "transconductance",
+               "g2T2-gBT6"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_8_img_1.png": {
+      "title": "Tunable control of the performance of aqueous-based electrochemical devices by post-polymerization functionalization",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based",
+      "image_url": [],
+      "figure_name": "page_8_img_1.png",
+      "full_caption": "Fig. 5 GIWAXS patterns of the oxidized polymer films for (a and d) g2T2-gBT2, (b and e) g2T2-gBT4 and (c and f) g2T2-gBT6, and corresponding line-cut profiles along the in-plane (qxy) and out-of-plane (qz) directions.",
+      "figure_path": "output\\figures\\page_8_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9752734899520874,
+            "height": 468,
+            "width": 615,
+            "geometry": [
+               {
+                  "x": 1288,
+                  "y": 2
+               },
+               {
+                  "x": 1903,
+                  "y": 2
+               },
+               {
+                  "x": 1288,
+                  "y": 470
+               },
+               {
+                  "x": 1903,
+                  "y": 470
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1288,
+                     "y": 2
+                  },
+                  {
+                     "x": 1903,
+                     "y": 2
+                  },
+                  {
+                     "x": 1288,
+                     "y": 470
+                  },
+                  {
+                     "x": 1903,
+                     "y": 470
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9750805497169495,
+            "height": 468,
+            "width": 633,
+            "geometry": [
+               {
+                  "x": 649,
+                  "y": 0
+               },
+               {
+                  "x": 1282,
+                  "y": 0
+               },
+               {
+                  "x": 649,
+                  "y": 468
+               },
+               {
+                  "x": 1282,
+                  "y": 468
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 649,
+                     "y": 0
+                  },
+                  {
+                     "x": 1282,
+                     "y": 0
+                  },
+                  {
+                     "x": 649,
+                     "y": 468
+                  },
+                  {
+                     "x": 1282,
+                     "y": 468
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9648277163505554,
+            "height": 466,
+            "width": 634,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 2
+               },
+               {
+                  "x": 634,
+                  "y": 2
+               },
+               {
+                  "x": 0,
+                  "y": 468
+               },
+               {
+                  "x": 634,
+                  "y": 468
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 2
+                  },
+                  {
+                     "x": 634,
+                     "y": 2
+                  },
+                  {
+                     "x": 0,
+                     "y": 468
+                  },
+                  {
+                     "x": 634,
+                     "y": 468
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9403854608535767,
+            "height": 449,
+            "width": 546,
+            "geometry": [
+               {
+                  "x": 656,
+                  "y": 481
+               },
+               {
+                  "x": 1202,
+                  "y": 481
+               },
+               {
+                  "x": 656,
+                  "y": 930
+               },
+               {
+                  "x": 1202,
+                  "y": 930
+               }
+            ],
+            "subfigure_label": {
+               "text": "e",
+               "geometry": [
+                  {
+                     "x": 656,
+                     "y": 481
+                  },
+                  {
+                     "x": 1202,
+                     "y": 481
+                  },
+                  {
+                     "x": 656,
+                     "y": 930
+                  },
+                  {
+                     "x": 1202,
+                     "y": 930
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.8922087550163269,
+            "height": 453,
+            "width": 545,
+            "geometry": [
+               {
+                  "x": 15,
+                  "y": 478
+               },
+               {
+                  "x": 560,
+                  "y": 478
+               },
+               {
+                  "x": 15,
+                  "y": 931
+               },
+               {
+                  "x": 560,
+                  "y": 931
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 15,
+                     "y": 478
+                  },
+                  {
+                     "x": 560,
+                     "y": 478
+                  },
+                  {
+                     "x": 15,
+                     "y": 931
+                  },
+                  {
+                     "x": 560,
+                     "y": 931
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.7753588557243347,
+            "height": 447,
+            "width": 561,
+            "geometry": [
+               {
+                  "x": 1272,
+                  "y": 485
+               },
+               {
+                  "x": 1833,
+                  "y": 485
+               },
+               {
+                  "x": 1272,
+                  "y": 932
+               },
+               {
+                  "x": 1833,
+                  "y": 932
+               }
+            ],
+            "subfigure_label": {
+               "text": "f",
+               "geometry": [
+                  {
+                     "x": 1272,
+                     "y": 485
+                  },
+                  {
+                     "x": 1833,
+                     "y": 485
+                  },
+                  {
+                     "x": 1272,
+                     "y": 932
+                  },
+                  {
+                     "x": 1833,
+                     "y": 932
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_9_img_1.png": {
+      "title": "Tunable control of the performance of aqueous-based electrochemical devices by post-polymerization functionalization",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based",
+      "image_url": [],
+      "figure_name": "page_9_img_1.png",
+      "full_caption": "Fig. 6 (a) Polymer film swelling extent corresponding to the wet state with no potential bias (passive swelling) and electrochemical doping at +0.7 V versus Ag/AgCl (active swelling). (b) Concentration of Cl\u2212 ions and H2O molecule density in the polymer films oxidized at +0.7 V in aqueous solution.",
+      "figure_path": "output\\figures\\page_9_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9448138475418091,
+            "height": 588,
+            "width": 706,
+            "geometry": [
+               {
+                  "x": 1,
+                  "y": 4
+               },
+               {
+                  "x": 707,
+                  "y": 4
+               },
+               {
+                  "x": 1,
+                  "y": 592
+               },
+               {
+                  "x": 707,
+                  "y": 592
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 4
+                  },
+                  {
+                     "x": 707,
+                     "y": 4
+                  },
+                  {
+                     "x": 1,
+                     "y": 592
+                  },
+                  {
+                     "x": 707,
+                     "y": 592
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Polymer film swelling extent corresponding to the wet state with no potential bias (passive swelling) and electrochemical doping at +0.7 V versus Ag/AgCl (active swelling).",
+            "keywords": [
+               "Polymer",
+               "Swelling",
+               "Electrochemical"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9435723423957825,
+            "height": 588,
+            "width": 839,
+            "geometry": [
+               {
+                  "x": 713,
+                  "y": 0
+               },
+               {
+                  "x": 1552,
+                  "y": 0
+               },
+               {
+                  "x": 713,
+                  "y": 588
+               },
+               {
+                  "x": 1552,
+                  "y": 588
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 713,
+                     "y": 0
+                  },
+                  {
+                     "x": 1552,
+                     "y": 0
+                  },
+                  {
+                     "x": 713,
+                     "y": 588
+                  },
+                  {
+                     "x": 1552,
+                     "y": 588
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Concentration of Cl\u2212 ions and H2O molecule density in the polymer films oxidized at +0.7 V in aqueous solution.",
+            "keywords": [
+               "Polymer oxidation",
+               "Chloride ions",
+               "Water density"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   }
+}

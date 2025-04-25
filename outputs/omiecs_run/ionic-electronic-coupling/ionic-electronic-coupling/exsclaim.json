@@ -1,0 +1,1013 @@
+{
+   "page_1_img_1.png": {
+      "title": "The relationship between ionic-electronic coupling and transport in organic mixed conductors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_ionic-electronic-coupling\\ionic-electronic-coupling",
+      "image_url": [],
+      "figure_name": "page_1_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_1_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9153116345405579,
+            "height": 381,
+            "width": 943,
+            "geometry": [
+               {
+                  "x": 41,
+                  "y": 617
+               },
+               {
+                  "x": 984,
+                  "y": 617
+               },
+               {
+                  "x": 41,
+                  "y": 998
+               },
+               {
+                  "x": 984,
+                  "y": 998
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 41,
+                     "y": 617
+                  },
+                  {
+                     "x": 984,
+                     "y": 617
+                  },
+                  {
+                     "x": 41,
+                     "y": 998
+                  },
+                  {
+                     "x": 984,
+                     "y": 998
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.12102842330932617,
+            "height": 599,
+            "width": 1001,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 9
+               },
+               {
+                  "x": 1001,
+                  "y": 9
+               },
+               {
+                  "x": 0,
+                  "y": 608
+               },
+               {
+                  "x": 1001,
+                  "y": 608
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 9
+                  },
+                  {
+                     "x": 1001,
+                     "y": 9
+                  },
+                  {
+                     "x": 0,
+                     "y": 608
+                  },
+                  {
+                     "x": 1001,
+                     "y": 608
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_2_img_1.png": {
+      "title": "The relationship between ionic-electronic coupling and transport in organic mixed conductors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_ionic-electronic-coupling\\ionic-electronic-coupling",
+      "image_url": [],
+      "figure_name": "page_2_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_2_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9401276707649231,
+            "height": 619,
+            "width": 777,
+            "geometry": [
+               {
+                  "x": 1381,
+                  "y": 420
+               },
+               {
+                  "x": 2158,
+                  "y": 420
+               },
+               {
+                  "x": 1381,
+                  "y": 1039
+               },
+               {
+                  "x": 2158,
+                  "y": 1039
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1381,
+                     "y": 420
+                  },
+                  {
+                     "x": 2158,
+                     "y": 420
+                  },
+                  {
+                     "x": 1381,
+                     "y": 1039
+                  },
+                  {
+                     "x": 2158,
+                     "y": 1039
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.8911082744598389,
+            "height": 621,
+            "width": 780,
+            "geometry": [
+               {
+                  "x": 551,
+                  "y": 417
+               },
+               {
+                  "x": 1331,
+                  "y": 417
+               },
+               {
+                  "x": 551,
+                  "y": 1038
+               },
+               {
+                  "x": 1331,
+                  "y": 1038
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 551,
+                     "y": 417
+                  },
+                  {
+                     "x": 1331,
+                     "y": 417
+                  },
+                  {
+                     "x": 551,
+                     "y": 1038
+                  },
+                  {
+                     "x": 1331,
+                     "y": 1038
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.7473123669624329,
+            "height": 540,
+            "width": 527,
+            "geometry": [
+               {
+                  "x": 537,
+                  "y": 1057
+               },
+               {
+                  "x": 1064,
+                  "y": 1057
+               },
+               {
+                  "x": 537,
+                  "y": 1597
+               },
+               {
+                  "x": 1064,
+                  "y": 1597
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 537,
+                     "y": 1057
+                  },
+                  {
+                     "x": 1064,
+                     "y": 1057
+                  },
+                  {
+                     "x": 537,
+                     "y": 1597
+                  },
+                  {
+                     "x": 1064,
+                     "y": 1597
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.656213104724884,
+            "height": 540,
+            "width": 547,
+            "geometry": [
+               {
+                  "x": 1075,
+                  "y": 1056
+               },
+               {
+                  "x": 1622,
+                  "y": 1056
+               },
+               {
+                  "x": 1075,
+                  "y": 1596
+               },
+               {
+                  "x": 1622,
+                  "y": 1596
+               }
+            ],
+            "subfigure_label": {
+               "text": "e",
+               "geometry": [
+                  {
+                     "x": 1075,
+                     "y": 1056
+                  },
+                  {
+                     "x": 1622,
+                     "y": 1056
+                  },
+                  {
+                     "x": 1075,
+                     "y": 1596
+                  },
+                  {
+                     "x": 1622,
+                     "y": 1596
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_4_img_1.png": {
+      "title": "The relationship between ionic-electronic coupling and transport in organic mixed conductors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_ionic-electronic-coupling\\ionic-electronic-coupling",
+      "image_url": [],
+      "figure_name": "page_4_img_1.png",
+      "full_caption": "Fig. 2. Quantifying local hole concentrations. (A) Differential transmission spectra \u0394T/T0 for (de)doping across a range of potentials. The absolute value of the integral of the spectra plotted against the potential (inset) shows a linear relationship between transmission intensity and applied potential. (B) Chronoamperometry from reduction (a) and oxidation (b) experiments at different potentials. (c) Integrated charge extracted during charging and injected during discharging for experiments at varied potentials showing a linear dependence between charge and the applied potential.",
+      "figure_path": "output\\figures\\page_4_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.13788169622421265,
+            "height": 636,
+            "width": 745,
+            "geometry": [
+               {
+                  "x": 754,
+                  "y": 0
+               },
+               {
+                  "x": 1499,
+                  "y": 0
+               },
+               {
+                  "x": 754,
+                  "y": 636
+               },
+               {
+                  "x": 1499,
+                  "y": 636
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 754,
+                     "y": 0
+                  },
+                  {
+                     "x": 1499,
+                     "y": 0
+                  },
+                  {
+                     "x": 754,
+                     "y": 636
+                  },
+                  {
+                     "x": 1499,
+                     "y": 636
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_5_img_1.png": {
+      "title": "The relationship between ionic-electronic coupling and transport in organic mixed conductors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_ionic-electronic-coupling\\ionic-electronic-coupling",
+      "image_url": [],
+      "figure_name": "page_5_img_1.png",
+      "full_caption": "Fig. 3. Driving forces for electrochemical (de)doping of PEDOT:PSS. Schematic description of the dedoping process in PEDOT:PSS. (A) When a potential is applied to the ITO contact, there is small hole displacement current to equilibrate the potential across the ITO/PEDOT:PSS, leaving a hole depletion region at the electrolyte interface. (B) Cations drift into PEDOT:PSS due to the electric field, dedoping PEDOT. This ion displacement leads to a decrease in the local electric potential. Rather than forming a sharp boundary between the dedoped and doped regions, the potential gradients become broad. (C) Dedoping finishes when the internal potential reaches the potential in the electrolyte, leaving a flat potential landscape for holes and cations. The final hole concentration will depend on the (D) hole chemical potential (\u03d5h) shift during dedoping such that there is no driving force for hole transport across the PEDOT:PSS/ITO interface. (E) The concentration-dependent hole chemical potential results in a hole quasi-electric field driving diffusion in the opposite direction of drift resulting in diffuse potential gradients. Estimated evolution of the hole chemical potential profile from experiment data during (F) dedoping (VWE from 0 to \u22120.5 V versus Ag/AgCl) and (G) doping (VWE from 0 to \u22120.5 V versus Ag/AgCl). The color of each trace in (F) and (G) indicates the time after applying VWE as described by the color bar, where the temporal spacing between successive traces increases linearly from the first time increment of 20 ms (purple curve) to 13 s (yellow curve).",
+      "figure_path": "output\\figures\\page_5_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.7827589511871338,
+            "height": 364,
+            "width": 683,
+            "geometry": [
+               {
+                  "x": 1445,
+                  "y": 0
+               },
+               {
+                  "x": 2128,
+                  "y": 0
+               },
+               {
+                  "x": 1445,
+                  "y": 364
+               },
+               {
+                  "x": 2128,
+                  "y": 364
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1445,
+                     "y": 0
+                  },
+                  {
+                     "x": 2128,
+                     "y": 0
+                  },
+                  {
+                     "x": 1445,
+                     "y": 364
+                  },
+                  {
+                     "x": 2128,
+                     "y": 364
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Dedoping finishes when the internal potential reaches the potential in the electrolyte, leaving a flat potential landscape for holes and cations.",
+            "keywords": [
+               "Dedoping",
+               "potential",
+               "electrolyte"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.7781662940979004,
+            "height": 368,
+            "width": 667,
+            "geometry": [
+               {
+                  "x": 745,
+                  "y": 0
+               },
+               {
+                  "x": 1412,
+                  "y": 0
+               },
+               {
+                  "x": 745,
+                  "y": 368
+               },
+               {
+                  "x": 1412,
+                  "y": 368
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 745,
+                     "y": 0
+                  },
+                  {
+                     "x": 1412,
+                     "y": 0
+                  },
+                  {
+                     "x": 745,
+                     "y": 368
+                  },
+                  {
+                     "x": 1412,
+                     "y": 368
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Cations drift into PEDOT:PSS due to the electric field, dedoping PEDOT. This ion displacement leads to a decrease in the local electric potential. Rather than forming a sharp boundary between the dedoped and doped regions, the potential gradients become broad.",
+            "keywords": [
+               "Ion displacement",
+               "Dedoping",
+               "Potential gradients"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.1136079728603363,
+            "height": 538,
+            "width": 704,
+            "geometry": [
+               {
+                  "x": 714,
+                  "y": 397
+               },
+               {
+                  "x": 1418,
+                  "y": 397
+               },
+               {
+                  "x": 714,
+                  "y": 935
+               },
+               {
+                  "x": 1418,
+                  "y": 935
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 714,
+                     "y": 397
+                  },
+                  {
+                     "x": 1418,
+                     "y": 397
+                  },
+                  {
+                     "x": 714,
+                     "y": 935
+                  },
+                  {
+                     "x": 1418,
+                     "y": 935
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "The final hole concentration will depend on the hole chemical potential (\u03d5h) shift during dedoping such that there is no driving force for hole transport across the PEDOT:PSS/ITO interface.",
+            "keywords": [
+               "Hole concentration",
+               "Dedoping",
+               "Interface"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.109697625041008,
+            "height": 542,
+            "width": 715,
+            "geometry": [
+               {
+                  "x": 1445,
+                  "y": 396
+               },
+               {
+                  "x": 2160,
+                  "y": 396
+               },
+               {
+                  "x": 1445,
+                  "y": 938
+               },
+               {
+                  "x": 2160,
+                  "y": 938
+               }
+            ],
+            "subfigure_label": {
+               "text": "e",
+               "geometry": [
+                  {
+                     "x": 1445,
+                     "y": 396
+                  },
+                  {
+                     "x": 2160,
+                     "y": 396
+                  },
+                  {
+                     "x": 1445,
+                     "y": 938
+                  },
+                  {
+                     "x": 2160,
+                     "y": 938
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "The concentration-dependent hole chemical potential results in a hole quasi-electric field driving diffusion in the opposite direction of drift resulting in diffuse potential gradients.",
+            "keywords": [
+               "Hole diffusion",
+               "Quasi-electric field",
+               "Concentration-dependent"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "A",
+               "description": "When a potential is applied to the ITO contact, there is small hole displacement current to equilibrate the potential across the ITO/PEDOT:PSS, leaving a hole depletion region at the electrolyte interface.",
+               "keywords": [
+                  "ITO",
+                  "PEDOT:PSS",
+                  "Electrolyte"
+               ]
+            },
+            {
+               "label": "F",
+               "description": "Estimated evolution of the hole chemical potential profile from experiment data during dedoping (VWE from 0 to \u22120.5 V versus Ag/AgCl).",
+               "keywords": [
+                  "Dedoping",
+                  "Experiment",
+                  "Ag/AgCl"
+               ]
+            },
+            {
+               "label": "G",
+               "description": "Estimated evolution of the hole chemical potential profile from experiment data during doping (VWE from 0 to \u22120.5 V versus Ag/AgCl). The color of each trace in (F) and (G) indicates the time after applying VWE as described by the color bar, where the temporal spacing between successive traces increases linearly from the first time increment of 20 ms (purple curve) to 13 s (yellow curve).",
+               "keywords": [
+                  "Doping",
+                  "Chemical Potential",
+                  "Experiment"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_6_img_1.png": {
+      "title": "The relationship between ionic-electronic coupling and transport in organic mixed conductors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_ionic-electronic-coupling\\ionic-electronic-coupling",
+      "image_url": [],
+      "figure_name": "page_6_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_6_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.930501401424408,
+            "height": 542,
+            "width": 715,
+            "geometry": [
+               {
+                  "x": 1445,
+                  "y": 532
+               },
+               {
+                  "x": 2160,
+                  "y": 532
+               },
+               {
+                  "x": 1445,
+                  "y": 1074
+               },
+               {
+                  "x": 2160,
+                  "y": 1074
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1445,
+                     "y": 532
+                  },
+                  {
+                     "x": 2160,
+                     "y": 532
+                  },
+                  {
+                     "x": 1445,
+                     "y": 1074
+                  },
+                  {
+                     "x": 2160,
+                     "y": 1074
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.650150716304779,
+            "height": 553,
+            "width": 650,
+            "geometry": [
+               {
+                  "x": 728,
+                  "y": 1090
+               },
+               {
+                  "x": 1378,
+                  "y": 1090
+               },
+               {
+                  "x": 728,
+                  "y": 1643
+               },
+               {
+                  "x": 1378,
+                  "y": 1643
+               }
+            ],
+            "subfigure_label": {
+               "text": "e",
+               "geometry": [
+                  {
+                     "x": 728,
+                     "y": 1090
+                  },
+                  {
+                     "x": 1378,
+                     "y": 1090
+                  },
+                  {
+                     "x": 728,
+                     "y": 1643
+                  },
+                  {
+                     "x": 1378,
+                     "y": 1643
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.5613581538200378,
+            "height": 516,
+            "width": 1463,
+            "geometry": [
+               {
+                  "x": 1,
+                  "y": 0
+               },
+               {
+                  "x": 1464,
+                  "y": 0
+               },
+               {
+                  "x": 1,
+                  "y": 516
+               },
+               {
+                  "x": 1464,
+                  "y": 516
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 0
+                  },
+                  {
+                     "x": 1464,
+                     "y": 0
+                  },
+                  {
+                     "x": 1,
+                     "y": 516
+                  },
+                  {
+                     "x": 1464,
+                     "y": 516
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.4830070734024048,
+            "height": 544,
+            "width": 714,
+            "geometry": [
+               {
+                  "x": 727,
+                  "y": 533
+               },
+               {
+                  "x": 1441,
+                  "y": 533
+               },
+               {
+                  "x": 727,
+                  "y": 1077
+               },
+               {
+                  "x": 1441,
+                  "y": 1077
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 727,
+                     "y": 533
+                  },
+                  {
+                     "x": 1441,
+                     "y": 533
+                  },
+                  {
+                     "x": 727,
+                     "y": 1077
+                  },
+                  {
+                     "x": 1441,
+                     "y": 1077
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_8_img_1.png": {
+      "title": "The relationship between ionic-electronic coupling and transport in organic mixed conductors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_ionic-electronic-coupling\\ionic-electronic-coupling",
+      "image_url": [],
+      "figure_name": "page_8_img_1.png",
+      "full_caption": "Fig. 5. Contributions of drift and diffusion fluxes during dedoping simulations. Cation (purple) and hole (green) concentrations along the length of the polymer channel for the (A) classical drift-diffusion model, (B) drift-only model, and (C) quasi-field drift-diffusion model during simulated dedoping (VWE from 0 to \u2212500 mV versus Ag/AgCl). (D) Net hole flux, Jx, along the length of the polymer with increasing time (top) and hole flux contributions due to drift (green) and diffusion (purple) with increasing time (bottom). (E) The ratio of drift and diffusion fluxes for holes (green) and cations (purple). For holes, drift, Jdrift/Jdiff, dominates at very early time scales, then at longer time scales, diffusion fluxes (Jdiff) in fluxes and Jdrift are nearly equal. In contrast, cation transport is primarily due to drift, Jdrift, over the course of dedoping. (F) The ratio of drift and diffusion fluxes for holes increases with increasing driving potential causing dedoping to become dominated by drift. For comparison, the drift ratio is plotted for the classical drift diffusion model (black dotted line). The time scale in (F) is normalized to the dedoping time for each potential (100, 13, and 5 ns, and 20 ns for VWE of \u22120.5, \u22122, and \u22125, and \u22120.5 V classical, respectively). The dashed lines in (E) and (F) denote where drift and diffusion currents are equal (Jdrift/Jdiff = 1).",
+      "figure_path": "output\\figures\\page_8_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 1056,
+            "width": 2160,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 2160,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 1056
+               },
+               {
+                  "x": 2160,
+                  "y": 1056
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 2160,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 1056
+                  },
+                  {
+                     "x": 2160,
+                     "y": 1056
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "A",
+               "description": "Cation (purple) and hole (green) concentrations along the length of the polymer channel for the classical drift-diffusion model.",
+               "keywords": [
+                  "Cation",
+                  "Hole",
+                  "Drift-diffusion"
+               ]
+            },
+            {
+               "label": "B",
+               "description": "Cation (purple) and hole (green) concentrations along the length of the polymer channel for the drift-only model.",
+               "keywords": [
+                  "Cation",
+                  "Hole",
+                  "Polymer"
+               ]
+            },
+            {
+               "label": "C",
+               "description": "Cation (purple) and hole (green) concentrations along the length of the polymer channel for the quasi-field drift-diffusion model during simulated dedoping (VWE from 0 to \u2212500 mV versus Ag/AgCl).",
+               "keywords": [
+                  "Cation",
+                  "Hole",
+                  "Dedoping"
+               ]
+            },
+            {
+               "label": "D",
+               "description": "Net hole flux, Jx, along the length of the polymer with increasing time (top) and hole flux contributions due to drift (green) and diffusion (purple) with increasing time (bottom).",
+               "keywords": [
+                  "Polymer",
+                  "Hole Flux",
+                  "Drift-Diffusion"
+               ]
+            },
+            {
+               "label": "E",
+               "description": "The ratio of drift and diffusion fluxes for holes (green) and cations (purple). For holes, drift, Jdrift/Jdiff, dominates at very early time scales, then at longer time scales, diffusion fluxes (Jdiff) in fluxes and Jdrift are nearly equal. In contrast, cation transport is primarily due to drift, Jdrift, over the course of dedoping.",
+               "keywords": [
+                  "Drift",
+                  "Diffusion",
+                  "Dedoping"
+               ]
+            },
+            {
+               "label": "F",
+               "description": "The ratio of drift and diffusion fluxes for holes increases with increasing driving potential causing dedoping to become dominated by drift. For comparison, the drift ratio is plotted for the classical drift diffusion model (black dotted line). The time scale in (F) is normalized to the dedoping time for each potential (100, 13, and 5 ns, and 20 ns for VWE of \u22120.5, \u22122, and \u22125, and \u22120.5 V classical, respectively). The dashed lines in (E) and (F) denote where drift and diffusion currents are equal (Jdrift/Jdiff = 1).",
+               "keywords": [
+                  "Drift",
+                  "Diffusion",
+                  "Dedoping"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   }
+}

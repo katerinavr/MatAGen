@@ -1,0 +1,1016 @@
+{
+   "page_3_img_1.png": {
+      "title": "A general relationship between disorder, aggregation and charge transport in conjugated polymers",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_MIEC_transport_mechanism\\MIEC_transport_mechanism",
+      "image_url": [],
+      "figure_name": "page_3_img_1.png",
+      "full_caption": "Figure 3 | Modelling of the electronic effects of energetic and structural disorder. a\u2013d, DOS of 1D stacks with different amounts of lattice disorder (g) and Gaussian energetic disorder (of width \u03c3). We show the cases of an almost perfect lattice (g = 0.5%; a), a lattice with a small amount of disorder (g = 2%; b), a moderately paracrystalline lattice (g = 5%; c), and a strongly disordered lattice (g = 10%; d). The widths of the probability distribution of on-site energies increase as indicated by the arrow in a in the sequence 0, 50, 100 and 200 meV. The energy coordinate is normalized by the inter-site transfer integral at equilibrium, t0 = 150 meV. e\u2013h, Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state's energy. No energetic disorder was included, and the amounts of paracrystalline disorder are the same as a\u2013d. The box depicts the localization length of states in a perfect stack (red horizontal line: complete delocalization) and the band edge in the absence of disorder (dashed line). States with a normalized localization length <2 are considered completely localized. The magnitude of K at room temperature is indicated in h.",
+      "figure_path": "output\\figures\\page_3_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.33009591698646545,
+            "height": 249,
+            "width": 82,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 82,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 249
+               },
+               {
+                  "x": 82,
+                  "y": 249
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 82,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 249
+                  },
+                  {
+                     "x": 82,
+                     "y": 249
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "DOS of 1D stacks with different amounts of lattice disorder (g) and Gaussian energetic disorder (of width \u03c3). We show the cases of an almost perfect lattice (g = 0.5%; a), a lattice with a small amount of disorder (g = 2%; b), a moderately paracrystalline lattice (g = 5%; c), and a strongly disordered lattice (g = 10%; d). The widths of the probability distribution of on-site energies increase as indicated by the arrow in a in the sequence 0, 50, 100 and 200 meV. The energy coordinate is normalized by the inter-site transfer integral at equilibrium, t0 = 150 meV.",
+            "keywords": [
+               "Lattice disorder",
+               "Energetic disorder",
+               "Density of states"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.17614376544952393,
+            "height": 247,
+            "width": 81,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 81,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 247
+               },
+               {
+                  "x": 81,
+                  "y": 247
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 81,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 247
+                  },
+                  {
+                     "x": 81,
+                     "y": 247
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "e",
+               "description": "Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state's energy. No energetic disorder was included, and the amounts of paracrystalline disorder are the same as a\u2013d. The box depicts the localization length of states in a perfect stack (red horizontal line: complete delocalization) and the band edge in the absence of disorder (dashed line). States with a normalized localization length <2 are considered completely localized. The magnitude of K at room temperature is indicated in h.",
+               "keywords": [
+                  "Localization",
+                  "Disorder",
+                  "Eigenstates"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_3_img_2.png": {
+      "title": "A general relationship between disorder, aggregation and charge transport in conjugated polymers",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_MIEC_transport_mechanism\\MIEC_transport_mechanism",
+      "image_url": [],
+      "figure_name": "page_3_img_2.png",
+      "full_caption": "Figure 3 | Modelling of the electronic effects of energetic and structural disorder. a\u2013d, DOS of 1D stacks with different amounts of lattice disorder (g) and Gaussian energetic disorder (of width \u03c3). We show the cases of an almost perfect lattice (g = 0.5%; a), a lattice with a small amount of disorder (g = 2%; b), a moderately paracrystalline lattice (g = 5%; c), and a strongly disordered lattice (g = 10%; d). The widths of the probability distribution of on-site energies increase as indicated by the arrow in a in the sequence 0, 50, 100 and 200 meV. The energy coordinate is normalized by the inter-site transfer integral at equilibrium, t0 = 150 meV. e\u2013h, Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state's energy. No energetic disorder was included, and the amounts of paracrystalline disorder are the same as a\u2013d. The box depicts the localization length of states in a perfect stack (red horizontal line: complete delocalization) and the band edge in the absence of disorder (dashed line). States with a normalized localization length <2 are considered completely localized. The magnitude of K at room temperature is indicated in h.",
+      "figure_path": "output\\figures\\page_3_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.11918927729129791,
+            "height": 254,
+            "width": 63,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 63,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 254
+               },
+               {
+                  "x": 63,
+                  "y": 254
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 63,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 254
+                  },
+                  {
+                     "x": 63,
+                     "y": 254
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "DOS of 1D stacks with different amounts of lattice disorder (g) and Gaussian energetic disorder (of width \u03c3). We show the cases of an almost perfect lattice (g = 0.5%; a), a lattice with a small amount of disorder (g = 2%; b), a moderately paracrystalline lattice (g = 5%; c), and a strongly disordered lattice (g = 10%; d). The widths of the probability distribution of on-site energies increase as indicated by the arrow in a in the sequence 0, 50, 100 and 200 meV. The energy coordinate is normalized by the inter-site transfer integral at equilibrium, t0 = 150 meV.",
+            "keywords": [
+               "Lattice disorder",
+               "Energetic disorder",
+               "Density of states"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "e",
+               "description": "Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state's energy. No energetic disorder was included, and the amounts of paracrystalline disorder are the same as a\u2013d. The box depicts the localization length of states in a perfect stack (red horizontal line: complete delocalization) and the band edge in the absence of disorder (dashed line). States with a normalized localization length <2 are considered completely localized. The magnitude of K at room temperature is indicated in h.",
+               "keywords": [
+                  "Localization",
+                  "Disorder",
+                  "Eigenstates"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_3_img_3.png": {
+      "title": "A general relationship between disorder, aggregation and charge transport in conjugated polymers",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_MIEC_transport_mechanism\\MIEC_transport_mechanism",
+      "image_url": [],
+      "figure_name": "page_3_img_3.png",
+      "full_caption": "Figure 3 | Modelling of the electronic effects of energetic and structural disorder. a\u2013d, DOS of 1D stacks with different amounts of lattice disorder (g) and Gaussian energetic disorder (of width \u03c3). We show the cases of an almost perfect lattice (g = 0.5%; a), a lattice with a small amount of disorder (g = 2%; b), a moderately paracrystalline lattice (g = 5%; c), and a strongly disordered lattice (g = 10%; d). The widths of the probability distribution of on-site energies increase as indicated by the arrow in a in the sequence 0, 50, 100 and 200 meV. The energy coordinate is normalized by the inter-site transfer integral at equilibrium, t0 = 150 meV. e\u2013h, Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state's energy. No energetic disorder was included, and the amounts of paracrystalline disorder are the same as a\u2013d. The box depicts the localization length of states in a perfect stack (red horizontal line: complete delocalization) and the band edge in the absence of disorder (dashed line). States with a normalized localization length <2 are considered completely localized. The magnitude of K at room temperature is indicated in h.",
+      "figure_path": "output\\figures\\page_3_img_3.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.38690856099128723,
+            "height": 264,
+            "width": 130,
+            "geometry": [
+               {
+                  "x": 37,
+                  "y": 0
+               },
+               {
+                  "x": 167,
+                  "y": 0
+               },
+               {
+                  "x": 37,
+                  "y": 264
+               },
+               {
+                  "x": 167,
+                  "y": 264
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 37,
+                     "y": 0
+                  },
+                  {
+                     "x": 167,
+                     "y": 0
+                  },
+                  {
+                     "x": 37,
+                     "y": 264
+                  },
+                  {
+                     "x": 167,
+                     "y": 264
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "DOS of 1D stacks with different amounts of lattice disorder (g) and Gaussian energetic disorder (of width \u03c3). We show the case of an almost perfect lattice (g = 0.5%).",
+            "keywords": [
+               "Lattice disorder",
+               "Energetic disorder",
+               "DOS"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "b",
+               "description": "DOS of 1D stacks with different amounts of lattice disorder (g) and Gaussian energetic disorder (of width \u03c3). We show the case of a lattice with a small amount of disorder (g = 2%).",
+               "keywords": [
+                  "Density of States",
+                  "Lattice Disorder",
+                  "Energetic Disorder"
+               ]
+            },
+            {
+               "label": "c",
+               "description": "DOS of 1D stacks with different amounts of lattice disorder (g) and Gaussian energetic disorder (of width \u03c3). We show the case of a moderately paracrystalline lattice (g = 5%).",
+               "keywords": [
+                  "Density of States",
+                  "Lattice Disorder",
+                  "Paracrystalline"
+               ]
+            },
+            {
+               "label": "d",
+               "description": "DOS of 1D stacks with different amounts of lattice disorder (g) and Gaussian energetic disorder (of width \u03c3). We show the case of a strongly disordered lattice (g = 10%). The widths of the probability distribution of on-site energies increase as indicated by the arrow in a in the sequence 0, 50, 100 and 200 meV. The energy coordinate is normalized by the inter-site transfer integral at equilibrium, t0 = 150 meV.",
+               "keywords": [
+                  "Lattice disorder",
+                  "Energetic disorder",
+                  "Density of states"
+               ]
+            },
+            {
+               "label": "e",
+               "description": "Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state's energy. No energetic disorder was included, and the amount of paracrystalline disorder is the same as in a.",
+               "keywords": [
+                  "Localization length",
+                  "Eigenstates",
+                  "Paracrystalline disorder"
+               ]
+            },
+            {
+               "label": "f",
+               "description": "Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state's energy. No energetic disorder was included, and the amount of paracrystalline disorder is the same as in b.",
+               "keywords": [
+                  "Localization length",
+                  "Eigenstates",
+                  "Paracrystalline disorder"
+               ]
+            },
+            {
+               "label": "g",
+               "description": "Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state's energy. No energetic disorder was included, and the amount of paracrystalline disorder is the same as in c.",
+               "keywords": [
+                  "Localization length",
+                  "Eigenstates",
+                  "Paracrystalline disorder"
+               ]
+            },
+            {
+               "label": "h",
+               "description": "Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state's energy. No energetic disorder was included, and the amount of paracrystalline disorder is the same as in d. The box depicts the localization length of states in a perfect stack (red horizontal line: complete delocalization) and the band edge in the absence of disorder (dashed line). States with a normalized localization length <2 are considered completely localized. The magnitude of K at room temperature is indicated.",
+               "keywords": [
+                  "Localization",
+                  "Disorder",
+                  "Eigenstates"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_3_img_4.png": {
+      "title": "A general relationship between disorder, aggregation and charge transport in conjugated polymers",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_MIEC_transport_mechanism\\MIEC_transport_mechanism",
+      "image_url": [],
+      "figure_name": "page_3_img_4.png",
+      "full_caption": "Figure 3 | Modelling of the electronic effects of energetic and structural disorder. a\u2013d, DOS of 1D stacks with different amounts of lattice disorder (g) and Gaussian energetic disorder (of width \u03c3). We show the cases of an almost perfect lattice (g = 0.5%; a), a lattice with a small amount of disorder (g = 2%; b), a moderately paracrystalline lattice (g = 5%; c), and a strongly disordered lattice (g = 10%; d). The widths of the probability distribution of on-site energies increase as indicated by the arrow in a in the sequence 0, 50, 100 and 200 meV. The energy coordinate is normalized by the inter-site transfer integral at equilibrium, t0 = 150 meV. e\u2013h, Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state's energy. No energetic disorder was included, and the amounts of paracrystalline disorder are the same as a\u2013d. The box depicts the localization length of states in a perfect stack (red horizontal line: complete delocalization) and the band edge in the absence of disorder (dashed line). States with a normalized localization length <2 are considered completely localized. The magnitude of K at room temperature is indicated in h.",
+      "figure_path": "output\\figures\\page_3_img_4.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.2734234631061554,
+            "height": 264,
+            "width": 143,
+            "geometry": [
+               {
+                  "x": 18,
+                  "y": 0
+               },
+               {
+                  "x": 161,
+                  "y": 0
+               },
+               {
+                  "x": 18,
+                  "y": 264
+               },
+               {
+                  "x": 161,
+                  "y": 264
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 18,
+                     "y": 0
+                  },
+                  {
+                     "x": 161,
+                     "y": 0
+                  },
+                  {
+                     "x": 18,
+                     "y": 264
+                  },
+                  {
+                     "x": 161,
+                     "y": 264
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "DOS of 1D stacks with different amounts of lattice disorder (g) and Gaussian energetic disorder (of width \u03c3). We show the case of an almost perfect lattice (g = 0.5%).",
+            "keywords": [
+               "Lattice disorder",
+               "Energetic disorder",
+               "DOS"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "b",
+               "description": "DOS of 1D stacks with different amounts of lattice disorder (g) and Gaussian energetic disorder (of width \u03c3). We show the case of a lattice with a small amount of disorder (g = 2%).",
+               "keywords": [
+                  "Lattice disorder",
+                  "Energetic disorder",
+                  "DOS"
+               ]
+            },
+            {
+               "label": "c",
+               "description": "DOS of 1D stacks with different amounts of lattice disorder (g) and Gaussian energetic disorder (of width \u03c3). We show the case of a moderately paracrystalline lattice (g = 5%).",
+               "keywords": [
+                  "DOS",
+                  "lattice disorder",
+                  "paracrystalline"
+               ]
+            },
+            {
+               "label": "d",
+               "description": "DOS of 1D stacks with different amounts of lattice disorder (g) and Gaussian energetic disorder (of width \u03c3). We show the case of a strongly disordered lattice (g = 10%). The widths of the probability distribution of on-site energies increase as indicated by the arrow in a in the sequence 0, 50, 100 and 200 meV. The energy coordinate is normalized by the inter-site transfer integral at equilibrium, t0 = 150 meV.",
+               "keywords": [
+                  "Lattice disorder",
+                  "Energetic disorder",
+                  "Density of states"
+               ]
+            },
+            {
+               "label": "e",
+               "description": "Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state's energy. No energetic disorder was included, and the amount of paracrystalline disorder is the same as in a.",
+               "keywords": [
+                  "Localization length",
+                  "eigenstates",
+                  "paracrystalline disorder"
+               ]
+            },
+            {
+               "label": "f",
+               "description": "Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state's energy. No energetic disorder was included, and the amount of paracrystalline disorder is the same as in b.",
+               "keywords": [
+                  "Localization",
+                  "Eigenstates",
+                  "Disorder"
+               ]
+            },
+            {
+               "label": "g",
+               "description": "Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state's energy. No energetic disorder was included, and the amount of paracrystalline disorder is the same as in c.",
+               "keywords": [
+                  "Localization length",
+                  "Eigenstates",
+                  "Paracrystalline disorder"
+               ]
+            },
+            {
+               "label": "h",
+               "description": "Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state's energy. No energetic disorder was included, and the amount of paracrystalline disorder is the same as in d. The box depicts the localization length of states in a perfect stack (red horizontal line: complete delocalization) and the band edge in the absence of disorder (dashed line). States with a normalized localization length <2 are considered completely localized. The magnitude of K at room temperature is indicated.",
+               "keywords": [
+                  "Localization",
+                  "Disorder",
+                  "Eigenstates"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_3_img_5.png": {
+      "title": "A general relationship between disorder, aggregation and charge transport in conjugated polymers",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_MIEC_transport_mechanism\\MIEC_transport_mechanism",
+      "image_url": [],
+      "figure_name": "page_3_img_5.png",
+      "full_caption": "Figure 3 | Modelling of the electronic effects of energetic and structural disorder. a\u2013d, DOS of 1D stacks with different amounts of lattice disorder (g) and Gaussian energetic disorder (of width \u03c3). We show the cases of an almost perfect lattice (g = 0.5%; a), a lattice with a small amount of disorder (g = 2%; b), a moderately paracrystalline lattice (g = 5%; c), and a strongly disordered lattice (g = 10%; d). The widths of the probability distribution of on-site energies increase as indicated by the arrow in a in the sequence 0, 50, 100 and 200 meV. The energy coordinate is normalized by the inter-site transfer integral at equilibrium, t0 = 150 meV. e\u2013h, Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state's energy. No energetic disorder was included, and the amounts of paracrystalline disorder are the same as a\u2013d. The box depicts the localization length of states in a perfect stack (red horizontal line: complete delocalization) and the band edge in the absence of disorder (dashed line). States with a normalized localization length <2 are considered completely localized. The magnitude of K at room temperature is indicated in h.",
+      "figure_path": "output\\figures\\page_3_img_5.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.13502724468708038,
+            "height": 263,
+            "width": 165,
+            "geometry": [
+               {
+                  "x": 28,
+                  "y": 0
+               },
+               {
+                  "x": 193,
+                  "y": 0
+               },
+               {
+                  "x": 28,
+                  "y": 263
+               },
+               {
+                  "x": 193,
+                  "y": 263
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 28,
+                     "y": 0
+                  },
+                  {
+                     "x": 193,
+                     "y": 0
+                  },
+                  {
+                     "x": 28,
+                     "y": 263
+                  },
+                  {
+                     "x": 193,
+                     "y": 263
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "DOS of 1D stacks with different amounts of lattice disorder (g) and Gaussian energetic disorder (of width \u03c3). We show the cases of an almost perfect lattice (g = 0.5%; a).",
+            "keywords": [
+               "DOS",
+               "lattice disorder",
+               "Gaussian disorder"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "b",
+               "description": "DOS of 1D stacks with different amounts of lattice disorder (g) and Gaussian energetic disorder (of width \u03c3). We show the cases of a lattice with a small amount of disorder (g = 2%; b).",
+               "keywords": [
+                  "DOS",
+                  "lattice disorder",
+                  "Gaussian disorder"
+               ]
+            },
+            {
+               "label": "c",
+               "description": "DOS of 1D stacks with different amounts of lattice disorder (g) and Gaussian energetic disorder (of width \u03c3). We show the cases of a moderately paracrystalline lattice (g = 5%; c).",
+               "keywords": [
+                  "DOS",
+                  "lattice disorder",
+                  "paracrystalline"
+               ]
+            },
+            {
+               "label": "d",
+               "description": "DOS of 1D stacks with different amounts of lattice disorder (g) and Gaussian energetic disorder (of width \u03c3). We show the cases of a strongly disordered lattice (g = 10%; d). The widths of the probability distribution of on-site energies increase as indicated by the arrow in a in the sequence 0, 50, 100 and 200 meV. The energy coordinate is normalized by the inter-site transfer integral at equilibrium, t0 = 150 meV.",
+               "keywords": [
+                  "Lattice disorder",
+                  "Energetic disorder",
+                  "Density of states"
+               ]
+            },
+            {
+               "label": "e",
+               "description": "Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state's energy. No energetic disorder was included, and the amounts of paracrystalline disorder are the same as a\u2013d.",
+               "keywords": [
+                  "Localization length",
+                  "Eigenstates",
+                  "Paracrystalline disorder"
+               ]
+            },
+            {
+               "label": "f",
+               "description": "Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state's energy. No energetic disorder was included, and the amounts of paracrystalline disorder are the same as a\u2013d.",
+               "keywords": [
+                  "Localization",
+                  "Eigenstates",
+                  "Disorder"
+               ]
+            },
+            {
+               "label": "g",
+               "description": "Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state's energy. No energetic disorder was included, and the amounts of paracrystalline disorder are the same as a\u2013d.",
+               "keywords": [
+                  "Localization length",
+                  "Eigenstates",
+                  "Paracrystalline disorder"
+               ]
+            },
+            {
+               "label": "h",
+               "description": "Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state's energy. No energetic disorder was included, and the amounts of paracrystalline disorder are the same as a\u2013d. The box depicts the localization length of states in a perfect stack (red horizontal line: complete delocalization) and the band edge in the absence of disorder (dashed line). States with a normalized localization length <2 are considered completely localized. The magnitude of K at room temperature is indicated in h.",
+               "keywords": [
+                  "Localization",
+                  "Disorder",
+                  "Eigenstates"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_3_img_6.png": {
+      "title": "A general relationship between disorder, aggregation and charge transport in conjugated polymers",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_MIEC_transport_mechanism\\MIEC_transport_mechanism",
+      "image_url": [],
+      "figure_name": "page_3_img_6.png",
+      "full_caption": "Figure 3 | Modelling of the electronic effects of energetic and structural disorder. a\u2013d, DOS of 1D stacks with different amounts of lattice disorder (g) and Gaussian energetic disorder (of width \u03c3). We show the cases of an almost perfect lattice (g = 0.5%; a), a lattice with a small amount of disorder (g = 2%; b), a moderately paracrystalline lattice (g = 5%; c), and a strongly disordered lattice (g = 10%; d). The widths of the probability distribution of on-site energies increase as indicated by the arrow in a in the sequence 0, 50, 100 and 200 meV. The energy coordinate is normalized by the inter-site transfer integral at equilibrium, t0 = 150 meV. e\u2013h, Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state's energy. No energetic disorder was included, and the amounts of paracrystalline disorder are the same as a\u2013d. The box depicts the localization length of states in a perfect stack (red horizontal line: complete delocalization) and the band edge in the absence of disorder (dashed line). States with a normalized localization length <2 are considered completely localized. The magnitude of K at room temperature is indicated in h.",
+      "figure_path": "output\\figures\\page_3_img_6.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 265,
+            "width": 227,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 227,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 265
+               },
+               {
+                  "x": 227,
+                  "y": 265
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 227,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 265
+                  },
+                  {
+                     "x": 227,
+                     "y": 265
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "a",
+               "description": "DOS of 1D stacks with different amounts of lattice disorder (g) and Gaussian energetic disorder (of width \u03c3). We show the cases of an almost perfect lattice (g = 0.5%; a).",
+               "keywords": [
+                  "DOS",
+                  "lattice disorder",
+                  "Gaussian disorder"
+               ]
+            },
+            {
+               "label": "b",
+               "description": "A lattice with a small amount of disorder (g = 2%; b).",
+               "keywords": [
+                  "Lattice",
+                  "Disorder",
+                  "Percentage"
+               ]
+            },
+            {
+               "label": "c",
+               "description": "A moderately paracrystalline lattice (g = 5%; c).",
+               "keywords": [
+                  "Paracrystalline",
+                  "Lattice",
+                  "Disorder"
+               ]
+            },
+            {
+               "label": "d",
+               "description": "A strongly disordered lattice (g = 10%; d). The widths of the probability distribution of on-site energies increase as indicated by the arrow in a in the sequence 0, 50, 100 and 200 meV. The energy coordinate is normalized by the inter-site transfer integral at equilibrium, t0 = 150 meV.",
+               "keywords": [
+                  "Disordered lattice",
+                  "On-site energies",
+                  "Probability distribution"
+               ]
+            },
+            {
+               "label": "e",
+               "description": "Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state's energy.",
+               "keywords": [
+                  "Localization",
+                  "Eigenstates",
+                  "Hamiltonian"
+               ]
+            },
+            {
+               "label": "f",
+               "description": "No energetic disorder was included, and the amounts of paracrystalline disorder are the same as a\u2013d.",
+               "keywords": [
+                  "Paracrystalline disorder"
+               ]
+            },
+            {
+               "label": "g",
+               "description": "The box depicts the localization length of states in a perfect stack (red horizontal line: complete delocalization) and the band edge in the absence of disorder (dashed line).",
+               "keywords": [
+                  "Localization",
+                  "Delocalization",
+                  "Disorder"
+               ]
+            },
+            {
+               "label": "h",
+               "description": "States with a normalized localization length <2 are considered completely localized. The magnitude of K at room temperature is indicated in h.",
+               "keywords": [
+                  "Localization",
+                  "Room Temperature",
+                  "Magnitude"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_3_img_7.png": {
+      "title": "A general relationship between disorder, aggregation and charge transport in conjugated polymers",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_MIEC_transport_mechanism\\MIEC_transport_mechanism",
+      "image_url": [],
+      "figure_name": "page_3_img_7.png",
+      "full_caption": "Figure 3 | Modelling of the electronic effects of energetic and structural disorder. a\u2013d, DOS of 1D stacks with different amounts of lattice disorder (g) and Gaussian energetic disorder (of width \u03c3). We show the cases of an almost perfect lattice (g = 0.5%; a), a lattice with a small amount of disorder (g = 2%; b), a moderately paracrystalline lattice (g = 5%; c), and a strongly disordered lattice (g = 10%; d). The widths of the probability distribution of on-site energies increase as indicated by the arrow in a in the sequence 0, 50, 100 and 200 meV. The energy coordinate is normalized by the inter-site transfer integral at equilibrium, t0 = 150 meV. e\u2013h, Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state's energy. No energetic disorder was included, and the amounts of paracrystalline disorder are the same as a\u2013d. The box depicts the localization length of states in a perfect stack (red horizontal line: complete delocalization) and the band edge in the absence of disorder (dashed line). States with a normalized localization length <2 are considered completely localized. The magnitude of K at room temperature is indicated in h.",
+      "figure_path": "output\\figures\\page_3_img_7.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.1682010293006897,
+            "height": 241,
+            "width": 100,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 100,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 241
+               },
+               {
+                  "x": 100,
+                  "y": 241
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 100,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 241
+                  },
+                  {
+                     "x": 100,
+                     "y": 241
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "DOS of 1D stacks with different amounts of lattice disorder (g) and Gaussian energetic disorder (of width \u03c3). We show the case of an almost perfect lattice (g = 0.5%).",
+            "keywords": [
+               "DOS",
+               "lattice disorder",
+               "Gaussian disorder"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "b",
+               "description": "DOS of 1D stacks with different amounts of lattice disorder (g) and Gaussian energetic disorder (of width \u03c3). We show the case of a lattice with a small amount of disorder (g = 2%).",
+               "keywords": [
+                  "Lattice disorder",
+                  "Energetic disorder",
+                  "DOS"
+               ]
+            },
+            {
+               "label": "c",
+               "description": "DOS of 1D stacks with different amounts of lattice disorder (g) and Gaussian energetic disorder (of width \u03c3). We show the case of a moderately paracrystalline lattice (g = 5%).",
+               "keywords": [
+                  "DOS",
+                  "lattice disorder",
+                  "paracrystalline"
+               ]
+            },
+            {
+               "label": "d",
+               "description": "DOS of 1D stacks with different amounts of lattice disorder (g) and Gaussian energetic disorder (of width \u03c3). We show the case of a strongly disordered lattice (g = 10%). The widths of the probability distribution of on-site energies increase as indicated by the arrow in a in the sequence 0, 50, 100 and 200 meV. The energy coordinate is normalized by the inter-site transfer integral at equilibrium, t0 = 150 meV.",
+               "keywords": [
+                  "Lattice disorder",
+                  "Energetic disorder",
+                  "Density of states"
+               ]
+            },
+            {
+               "label": "e",
+               "description": "Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state's energy. No energetic disorder was included, and the amounts of paracrystalline disorder are the same as a\u2013d.",
+               "keywords": [
+                  "Localization length",
+                  "Eigenstates",
+                  "Paracrystalline disorder"
+               ]
+            },
+            {
+               "label": "f",
+               "description": "Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state's energy. No energetic disorder was included, and the amounts of paracrystalline disorder are the same as a\u2013d.",
+               "keywords": [
+                  "Localization length",
+                  "Eigenstates",
+                  "Paracrystalline disorder"
+               ]
+            },
+            {
+               "label": "g",
+               "description": "Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state's energy. No energetic disorder was included, and the amounts of paracrystalline disorder are the same as a\u2013d.",
+               "keywords": [
+                  "Localization length",
+                  "Eigenstates",
+                  "Paracrystalline disorder"
+               ]
+            },
+            {
+               "label": "h",
+               "description": "Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state's energy. No energetic disorder was included, and the amounts of paracrystalline disorder are the same as a\u2013d. The box depicts the localization length of states in a perfect stack (red horizontal line: complete delocalization) and the band edge in the absence of disorder (dashed line). States with a normalized localization length <2 are considered completely localized. The magnitude of K at room temperature is indicated in h.",
+               "keywords": [
+                  "Localization",
+                  "Disorder",
+                  "Eigenstates"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_3_img_8.png": {
+      "title": "A general relationship between disorder, aggregation and charge transport in conjugated polymers",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_MIEC_transport_mechanism\\MIEC_transport_mechanism",
+      "image_url": [],
+      "figure_name": "page_3_img_8.png",
+      "full_caption": "Figure 3 | Modelling of the electronic effects of energetic and structural disorder. a\u2013d, DOS of 1D stacks with different amounts of lattice disorder (g) and Gaussian energetic disorder (of width \u03c3). We show the cases of an almost perfect lattice (g = 0.5%; a), a lattice with a small amount of disorder (g = 2%; b), a moderately paracrystalline lattice (g = 5%; c), and a strongly disordered lattice (g = 10%; d). The widths of the probability distribution of on-site energies increase as indicated by the arrow in a in the sequence 0, 50, 100 and 200 meV. The energy coordinate is normalized by the inter-site transfer integral at equilibrium, t0 = 150 meV. e\u2013h, Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state's energy. No energetic disorder was included, and the amounts of paracrystalline disorder are the same as a\u2013d. The box depicts the localization length of states in a perfect stack (red horizontal line: complete delocalization) and the band edge in the absence of disorder (dashed line). States with a normalized localization length <2 are considered completely localized. The magnitude of K at room temperature is indicated in h.",
+      "figure_path": "output\\figures\\page_3_img_8.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 242,
+            "width": 227,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 227,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 242
+               },
+               {
+                  "x": 227,
+                  "y": 242
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 227,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 242
+                  },
+                  {
+                     "x": 227,
+                     "y": 242
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "a",
+               "description": "DOS of 1D stacks with different amounts of lattice disorder (g) and Gaussian energetic disorder (of width \u03c3). We show the cases of an almost perfect lattice (g = 0.5%; a), a lattice with a small amount of disorder (g = 2%; b), a moderately paracrystalline lattice (g = 5%; c), and a strongly disordered lattice (g = 10%; d). The widths of the probability distribution of on-site energies increase as indicated by the arrow in a in the sequence 0, 50, 100 and 200 meV. The energy coordinate is normalized by the inter-site transfer integral at equilibrium, t0 = 150 meV.",
+               "keywords": [
+                  "Lattice disorder",
+                  "Energetic disorder",
+                  "Density of states"
+               ]
+            },
+            {
+               "label": "e",
+               "description": "Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state's energy. No energetic disorder was included, and the amounts of paracrystalline disorder are the same as a\u2013d. The box depicts the localization length of states in a perfect stack (red horizontal line: complete delocalization) and the band edge in the absence of disorder (dashed line). States with a normalized localization length <2 are considered completely localized. The magnitude of K at room temperature is indicated in h.",
+               "keywords": [
+                  "Localization",
+                  "Disorder",
+                  "Eigenstates"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   }
+}

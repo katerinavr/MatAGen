@@ -1,0 +1,1822 @@
+{
+   "page_3_img_2.png": {
+      "title": "Stable organic electrochemical neurons based on p-type and n-type ladder polymers",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_ladder_polymers\\ladder_polymers",
+      "image_url": [],
+      "figure_name": "page_3_img_2.png",
+      "full_caption": "Fig. 1 Synthesis and physicochemical properties of PBBT-H and PBBT-Me. (a) Synthetic route of PBBT-H and PBBT-Me. (b) CV of PBBT-H and PBBT-Me in 0.1 M n-Bu4NPF6 acetonitrile solution. (c) and (d) UV-vis-NIR absorption spectra of PBBT-H and PBBT-Me in diluted MSA solutions (c) and thin films (d).",
+      "figure_path": "output\\figures\\page_3_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9710971117019653,
+            "height": 656,
+            "width": 793,
+            "geometry": [
+               {
+                  "x": 808,
+                  "y": 654
+               },
+               {
+                  "x": 1601,
+                  "y": 654
+               },
+               {
+                  "x": 808,
+                  "y": 1310
+               },
+               {
+                  "x": 1601,
+                  "y": 1310
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 808,
+                     "y": 654
+                  },
+                  {
+                     "x": 1601,
+                     "y": 654
+                  },
+                  {
+                     "x": 808,
+                     "y": 1310
+                  },
+                  {
+                     "x": 1601,
+                     "y": 1310
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "UV-vis-NIR absorption spectra of PBBT-H and PBBT-Me in thin films.",
+            "keywords": [
+               "UV-vis-NIR",
+               "absorption",
+               "thin films"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9705679416656494,
+            "height": 662,
+            "width": 796,
+            "geometry": [
+               {
+                  "x": 806,
+                  "y": 0
+               },
+               {
+                  "x": 1602,
+                  "y": 0
+               },
+               {
+                  "x": 806,
+                  "y": 662
+               },
+               {
+                  "x": 1602,
+                  "y": 662
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 806,
+                     "y": 0
+                  },
+                  {
+                     "x": 1602,
+                     "y": 0
+                  },
+                  {
+                     "x": 806,
+                     "y": 662
+                  },
+                  {
+                     "x": 1602,
+                     "y": 662
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "CV of PBBT-H and PBBT-Me in 0.1 M n-Bu4NPF6 acetonitrile solution.",
+            "keywords": [
+               "Cyclic Voltammetry",
+               "PBBT-H",
+               "PBBT-Me"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9630868434906006,
+            "height": 583,
+            "width": 788,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 3
+               },
+               {
+                  "x": 788,
+                  "y": 3
+               },
+               {
+                  "x": 0,
+                  "y": 586
+               },
+               {
+                  "x": 788,
+                  "y": 586
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 3
+                  },
+                  {
+                     "x": 788,
+                     "y": 3
+                  },
+                  {
+                     "x": 0,
+                     "y": 586
+                  },
+                  {
+                     "x": 788,
+                     "y": 586
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Synthetic route of PBBT-H and PBBT-Me.",
+            "keywords": [
+               "Polymer synthesis",
+               "PBBT-H",
+               "PBBT-Me"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9591100811958313,
+            "height": 652,
+            "width": 789,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 659
+               },
+               {
+                  "x": 789,
+                  "y": 659
+               },
+               {
+                  "x": 0,
+                  "y": 1311
+               },
+               {
+                  "x": 789,
+                  "y": 1311
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 659
+                  },
+                  {
+                     "x": 789,
+                     "y": 659
+                  },
+                  {
+                     "x": 0,
+                     "y": 1311
+                  },
+                  {
+                     "x": 789,
+                     "y": 1311
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "UV-vis-NIR absorption spectra of PBBT-H and PBBT-Me in diluted MSA solutions.",
+            "keywords": [
+               "UV-vis-NIR",
+               "absorption spectra",
+               "MSA solutions"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_4_img_2.png": {
+      "title": "Stable organic electrochemical neurons based on p-type and n-type ladder polymers",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_ladder_polymers\\ladder_polymers",
+      "image_url": [],
+      "figure_name": "page_4_img_2.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_4_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9389414191246033,
+            "height": 663,
+            "width": 608,
+            "geometry": [
+               {
+                  "x": 637,
+                  "y": 0
+               },
+               {
+                  "x": 1245,
+                  "y": 0
+               },
+               {
+                  "x": 637,
+                  "y": 663
+               },
+               {
+                  "x": 1245,
+                  "y": 663
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 637,
+                     "y": 0
+                  },
+                  {
+                     "x": 1245,
+                     "y": 0
+                  },
+                  {
+                     "x": 637,
+                     "y": 663
+                  },
+                  {
+                     "x": 1245,
+                     "y": 663
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9384161233901978,
+            "height": 279,
+            "width": 398,
+            "geometry": [
+               {
+                  "x": 1251,
+                  "y": 290
+               },
+               {
+                  "x": 1649,
+                  "y": 290
+               },
+               {
+                  "x": 1251,
+                  "y": 569
+               },
+               {
+                  "x": 1649,
+                  "y": 569
+               }
+            ],
+            "subfigure_label": {
+               "text": "e",
+               "geometry": [
+                  {
+                     "x": 1251,
+                     "y": 290
+                  },
+                  {
+                     "x": 1649,
+                     "y": 290
+                  },
+                  {
+                     "x": 1251,
+                     "y": 569
+                  },
+                  {
+                     "x": 1649,
+                     "y": 569
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 1457,
+                           "y": 537
+                        },
+                        {
+                           "x": 1457,
+                           "y": 563
+                        },
+                        {
+                           "x": 1560,
+                           "y": 563
+                        },
+                        {
+                           "x": 1560,
+                           "y": 537
+                        }
+                     ],
+                     "text": "200.0 nm",
+                     "label_confidence": 0.9315069317817688,
+                     "box_confidence": 0.9925008416175842,
+                     "nm": 200.0
+                  },
+                  "geometry": [
+                     {
+                        "x": 1479,
+                        "y": 519
+                     },
+                     {
+                        "x": 1479,
+                        "y": 527
+                     },
+                     {
+                        "x": 1535,
+                        "y": 527
+                     },
+                     {
+                        "x": 1535,
+                        "y": 519
+                     }
+                  ],
+                  "confidence": 0.9618780612945557,
+                  "length": 56,
+                  "label_line_distance": 731.25
+               }
+            ],
+            "nm_height": 996.4,
+            "nm_width": 1421.4,
+            "scale_label": "200.0 nm",
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9376949667930603,
+            "height": 278,
+            "width": 400,
+            "geometry": [
+               {
+                  "x": 1249,
+                  "y": 1
+               },
+               {
+                  "x": 1649,
+                  "y": 1
+               },
+               {
+                  "x": 1249,
+                  "y": 279
+               },
+               {
+                  "x": 1649,
+                  "y": 279
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 1249,
+                     "y": 1
+                  },
+                  {
+                     "x": 1649,
+                     "y": 1
+                  },
+                  {
+                     "x": 1249,
+                     "y": 279
+                  },
+                  {
+                     "x": 1649,
+                     "y": 279
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 1457,
+                           "y": 246
+                        },
+                        {
+                           "x": 1457,
+                           "y": 273
+                        },
+                        {
+                           "x": 1560,
+                           "y": 273
+                        },
+                        {
+                           "x": 1560,
+                           "y": 246
+                        }
+                     ],
+                     "text": "200.0 nm",
+                     "label_confidence": 0.8926132917404175,
+                     "box_confidence": 0.9942091703414917,
+                     "nm": 200.0
+                  },
+                  "geometry": [
+                     {
+                        "x": 1480,
+                        "y": 228
+                     },
+                     {
+                        "x": 1480,
+                        "y": 236
+                     },
+                     {
+                        "x": 1536,
+                        "y": 236
+                     },
+                     {
+                        "x": 1536,
+                        "y": 228
+                     }
+                  ],
+                  "confidence": 0.9653910398483276,
+                  "length": 56,
+                  "label_line_distance": 756.5
+               }
+            ],
+            "nm_height": 992.8,
+            "nm_width": 1428.5,
+            "scale_label": "200.0 nm",
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9280358552932739,
+            "height": 278,
+            "width": 624,
+            "geometry": [
+               {
+                  "x": 2,
+                  "y": 0
+               },
+               {
+                  "x": 626,
+                  "y": 0
+               },
+               {
+                  "x": 2,
+                  "y": 278
+               },
+               {
+                  "x": 626,
+                  "y": 278
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 2,
+                     "y": 0
+                  },
+                  {
+                     "x": 626,
+                     "y": 0
+                  },
+                  {
+                     "x": 2,
+                     "y": 278
+                  },
+                  {
+                     "x": 626,
+                     "y": 278
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.877578854560852,
+            "height": 382,
+            "width": 635,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 286
+               },
+               {
+                  "x": 635,
+                  "y": 286
+               },
+               {
+                  "x": 0,
+                  "y": 668
+               },
+               {
+                  "x": 635,
+                  "y": 668
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 286
+                  },
+                  {
+                     "x": 635,
+                     "y": 286
+                  },
+                  {
+                     "x": 0,
+                     "y": 668
+                  },
+                  {
+                     "x": 635,
+                     "y": 668
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.49339133501052856,
+            "height": 463,
+            "width": 836,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 666
+               },
+               {
+                  "x": 836,
+                  "y": 666
+               },
+               {
+                  "x": 0,
+                  "y": 1129
+               },
+               {
+                  "x": 836,
+                  "y": 1129
+               }
+            ],
+            "subfigure_label": {
+               "text": "f",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 666
+                  },
+                  {
+                     "x": 836,
+                     "y": 666
+                  },
+                  {
+                     "x": 0,
+                     "y": 1129
+                  },
+                  {
+                     "x": 836,
+                     "y": 1129
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_4_img_3.png": {
+      "title": "Stable organic electrochemical neurons based on p-type and n-type ladder polymers",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_ladder_polymers\\ladder_polymers",
+      "image_url": [],
+      "figure_name": "page_4_img_3.png",
+      "full_caption": "Fig. 3  Differential spectroelectrochemistry. (a) and (b) Differential absorption spectra of PBBT-H (a) and PBBT-Me (b). (c) Differential absorption spectra of PBBT-H (c) and PBBT-Me (d) at select wavelengths. In all these spectroelectrochemistry measurements, 0.1 M NaCl aqueous solution was used as the electrolyte, Ag/AgCl electrode was grounded, and the voltage was applied to the polymer films scanning between 0 V and 1.0 V versus Ag/AgCl electrode.",
+      "figure_path": "output\\figures\\page_4_img_3.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9773058295249939,
+            "height": 482,
+            "width": 584,
+            "geometry": [
+               {
+                  "x": 1167,
+                  "y": 1
+               },
+               {
+                  "x": 1751,
+                  "y": 1
+               },
+               {
+                  "x": 1167,
+                  "y": 483
+               },
+               {
+                  "x": 1751,
+                  "y": 483
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1167,
+                     "y": 1
+                  },
+                  {
+                     "x": 1751,
+                     "y": 1
+                  },
+                  {
+                     "x": 1167,
+                     "y": 483
+                  },
+                  {
+                     "x": 1751,
+                     "y": 483
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Differential absorption spectra of PBBT-H at select wavelengths.",
+            "keywords": [
+               "Differential absorption",
+               "PBBT-H",
+               "Spectra"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9760909676551819,
+            "height": 482,
+            "width": 580,
+            "geometry": [
+               {
+                  "x": 582,
+                  "y": 0
+               },
+               {
+                  "x": 1162,
+                  "y": 0
+               },
+               {
+                  "x": 582,
+                  "y": 482
+               },
+               {
+                  "x": 1162,
+                  "y": 482
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 582,
+                     "y": 0
+                  },
+                  {
+                     "x": 1162,
+                     "y": 0
+                  },
+                  {
+                     "x": 582,
+                     "y": 482
+                  },
+                  {
+                     "x": 1162,
+                     "y": 482
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Differential absorption spectra of PBBT-Me.",
+            "keywords": [
+               "Differential absorption spectra"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9718598127365112,
+            "height": 481,
+            "width": 576,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 1
+               },
+               {
+                  "x": 576,
+                  "y": 1
+               },
+               {
+                  "x": 0,
+                  "y": 482
+               },
+               {
+                  "x": 576,
+                  "y": 482
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 1
+                  },
+                  {
+                     "x": 576,
+                     "y": 1
+                  },
+                  {
+                     "x": 0,
+                     "y": 482
+                  },
+                  {
+                     "x": 576,
+                     "y": 482
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Differential absorption spectra of PBBT-H.",
+            "keywords": [
+               "Differential absorption",
+               "PBBT-H",
+               "Spectroscopy"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "d",
+               "description": "Differential absorption spectra of PBBT-Me at select wavelengths.",
+               "keywords": [
+                  "Differential absorption",
+                  "PBBT-Me",
+                  "Spectroscopy"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_5_img_2.png": {
+      "title": "Stable organic electrochemical neurons based on p-type and n-type ladder polymers",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_ladder_polymers\\ladder_polymers",
+      "image_url": [],
+      "figure_name": "page_5_img_2.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_5_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9727028608322144,
+            "height": 500,
+            "width": 491,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 491,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 500
+               },
+               {
+                  "x": 491,
+                  "y": 500
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 491,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 500
+                  },
+                  {
+                     "x": 491,
+                     "y": 500
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9665406346321106,
+            "height": 509,
+            "width": 489,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 506
+               },
+               {
+                  "x": 489,
+                  "y": 506
+               },
+               {
+                  "x": 0,
+                  "y": 1015
+               },
+               {
+                  "x": 489,
+                  "y": 1015
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 506
+                  },
+                  {
+                     "x": 489,
+                     "y": 506
+                  },
+                  {
+                     "x": 0,
+                     "y": 1015
+                  },
+                  {
+                     "x": 489,
+                     "y": 1015
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9545684456825256,
+            "height": 506,
+            "width": 482,
+            "geometry": [
+               {
+                  "x": 1042,
+                  "y": 508
+               },
+               {
+                  "x": 1524,
+                  "y": 508
+               },
+               {
+                  "x": 1042,
+                  "y": 1014
+               },
+               {
+                  "x": 1524,
+                  "y": 1014
+               }
+            ],
+            "subfigure_label": {
+               "text": "f",
+               "geometry": [
+                  {
+                     "x": 1042,
+                     "y": 508
+                  },
+                  {
+                     "x": 1524,
+                     "y": 508
+                  },
+                  {
+                     "x": 1042,
+                     "y": 1014
+                  },
+                  {
+                     "x": 1524,
+                     "y": 1014
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9383886456489563,
+            "height": 505,
+            "width": 538,
+            "geometry": [
+               {
+                  "x": 495,
+                  "y": 0
+               },
+               {
+                  "x": 1033,
+                  "y": 0
+               },
+               {
+                  "x": 495,
+                  "y": 505
+               },
+               {
+                  "x": 1033,
+                  "y": 505
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 495,
+                     "y": 0
+                  },
+                  {
+                     "x": 1033,
+                     "y": 0
+                  },
+                  {
+                     "x": 495,
+                     "y": 505
+                  },
+                  {
+                     "x": 1033,
+                     "y": 505
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.937459409236908,
+            "height": 503,
+            "width": 471,
+            "geometry": [
+               {
+                  "x": 1531,
+                  "y": 510
+               },
+               {
+                  "x": 2002,
+                  "y": 510
+               },
+               {
+                  "x": 1531,
+                  "y": 1013
+               },
+               {
+                  "x": 2002,
+                  "y": 1013
+               }
+            ],
+            "subfigure_label": {
+               "text": "h",
+               "geometry": [
+                  {
+                     "x": 1531,
+                     "y": 510
+                  },
+                  {
+                     "x": 2002,
+                     "y": 510
+                  },
+                  {
+                     "x": 1531,
+                     "y": 1013
+                  },
+                  {
+                     "x": 2002,
+                     "y": 1013
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9221689105033875,
+            "height": 504,
+            "width": 542,
+            "geometry": [
+               {
+                  "x": 497,
+                  "y": 508
+               },
+               {
+                  "x": 1039,
+                  "y": 508
+               },
+               {
+                  "x": 497,
+                  "y": 1012
+               },
+               {
+                  "x": 1039,
+                  "y": 1012
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 497,
+                     "y": 508
+                  },
+                  {
+                     "x": 1039,
+                     "y": 508
+                  },
+                  {
+                     "x": 497,
+                     "y": 1012
+                  },
+                  {
+                     "x": 1039,
+                     "y": 1012
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.8728657364845276,
+            "height": 501,
+            "width": 484,
+            "geometry": [
+               {
+                  "x": 1039,
+                  "y": 0
+               },
+               {
+                  "x": 1523,
+                  "y": 0
+               },
+               {
+                  "x": 1039,
+                  "y": 501
+               },
+               {
+                  "x": 1523,
+                  "y": 501
+               }
+            ],
+            "subfigure_label": {
+               "text": "e",
+               "geometry": [
+                  {
+                     "x": 1039,
+                     "y": 0
+                  },
+                  {
+                     "x": 1523,
+                     "y": 0
+                  },
+                  {
+                     "x": 1039,
+                     "y": 501
+                  },
+                  {
+                     "x": 1523,
+                     "y": 501
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_6_img_1.png": {
+      "title": "Stable organic electrochemical neurons based on p-type and n-type ladder polymers",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_ladder_polymers\\ladder_polymers",
+      "image_url": [],
+      "figure_name": "page_6_img_1.png",
+      "full_caption": "Fig. 5 OECT-based inverters. (a) and (b) Typical voltage transfer characteristics (VTC) of the inverters at various supply voltages (from 0.2 to 0.7 V). (c) and (d) Voltage gains of the inverters at various supply voltages. (e) and (f) Input and output of the inverters showing \u201c0\u201d and \u201c1\u201d states. All the above inverters consisted of an n-type (BBL) and a p-type OECT (PBBT-H or PBBT-Me) OECT.",
+      "figure_path": "output\\figures\\page_6_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9698907136917114,
+            "height": 461,
+            "width": 563,
+            "geometry": [
+               {
+                  "x": 1,
+                  "y": 453
+               },
+               {
+                  "x": 564,
+                  "y": 453
+               },
+               {
+                  "x": 1,
+                  "y": 914
+               },
+               {
+                  "x": 564,
+                  "y": 914
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 453
+                  },
+                  {
+                     "x": 564,
+                     "y": 453
+                  },
+                  {
+                     "x": 1,
+                     "y": 914
+                  },
+                  {
+                     "x": 564,
+                     "y": 914
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Voltage gains of the inverters at various supply voltages.",
+            "keywords": [
+               "Inverter",
+               "Voltage",
+               "Supply"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9654898047447205,
+            "height": 456,
+            "width": 547,
+            "geometry": [
+               {
+                  "x": 1121,
+                  "y": 459
+               },
+               {
+                  "x": 1668,
+                  "y": 459
+               },
+               {
+                  "x": 1121,
+                  "y": 915
+               },
+               {
+                  "x": 1668,
+                  "y": 915
+               }
+            ],
+            "subfigure_label": {
+               "text": "f",
+               "geometry": [
+                  {
+                     "x": 1121,
+                     "y": 459
+                  },
+                  {
+                     "x": 1668,
+                     "y": 459
+                  },
+                  {
+                     "x": 1121,
+                     "y": 915
+                  },
+                  {
+                     "x": 1668,
+                     "y": 915
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Input and output of the inverters showing \u201c0\u201d and \u201c1\u201d states.",
+            "keywords": [
+               "Inverter",
+               "Logic States",
+               "Electronics"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.962672770023346,
+            "height": 458,
+            "width": 626,
+            "geometry": [
+               {
+                  "x": 1123,
+                  "y": 2
+               },
+               {
+                  "x": 1749,
+                  "y": 2
+               },
+               {
+                  "x": 1123,
+                  "y": 460
+               },
+               {
+                  "x": 1749,
+                  "y": 460
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1123,
+                     "y": 2
+                  },
+                  {
+                     "x": 1749,
+                     "y": 2
+                  },
+                  {
+                     "x": 1123,
+                     "y": 460
+                  },
+                  {
+                     "x": 1749,
+                     "y": 460
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Voltage gains of the inverters at various supply voltages.",
+            "keywords": [
+               "Voltage gains",
+               "Inverters",
+               "Supply voltages"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9625642895698547,
+            "height": 453,
+            "width": 545,
+            "geometry": [
+               {
+                  "x": 572,
+                  "y": 462
+               },
+               {
+                  "x": 1117,
+                  "y": 462
+               },
+               {
+                  "x": 572,
+                  "y": 915
+               },
+               {
+                  "x": 1117,
+                  "y": 915
+               }
+            ],
+            "subfigure_label": {
+               "text": "e",
+               "geometry": [
+                  {
+                     "x": 572,
+                     "y": 462
+                  },
+                  {
+                     "x": 1117,
+                     "y": 462
+                  },
+                  {
+                     "x": 572,
+                     "y": 915
+                  },
+                  {
+                     "x": 1117,
+                     "y": 915
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Input and output of the inverters showing \u201c0\u201d and \u201c1\u201d states.",
+            "keywords": [
+               "Inverter",
+               "States",
+               "Output"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9555186629295349,
+            "height": 459,
+            "width": 553,
+            "geometry": [
+               {
+                  "x": 569,
+                  "y": 1
+               },
+               {
+                  "x": 1122,
+                  "y": 1
+               },
+               {
+                  "x": 569,
+                  "y": 460
+               },
+               {
+                  "x": 1122,
+                  "y": 460
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 569,
+                     "y": 1
+                  },
+                  {
+                     "x": 1122,
+                     "y": 1
+                  },
+                  {
+                     "x": 569,
+                     "y": 460
+                  },
+                  {
+                     "x": 1122,
+                     "y": 460
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Typical voltage transfer characteristics (VTC) of the inverters at various supply voltages (from 0.2 to 0.7 V).",
+            "keywords": [
+               "Voltage Transfer Characteristics"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9279730319976807,
+            "height": 357,
+            "width": 542,
+            "geometry": [
+               {
+                  "x": 16,
+                  "y": 3
+               },
+               {
+                  "x": 558,
+                  "y": 3
+               },
+               {
+                  "x": 16,
+                  "y": 360
+               },
+               {
+                  "x": 558,
+                  "y": 360
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 16,
+                     "y": 3
+                  },
+                  {
+                     "x": 558,
+                     "y": 3
+                  },
+                  {
+                     "x": 16,
+                     "y": 360
+                  },
+                  {
+                     "x": 558,
+                     "y": 360
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Typical voltage transfer characteristics (VTC) of the inverters at various supply voltages (from 0.2 to 0.7 V).",
+            "keywords": [
+               "Voltage transfer characteristics"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_6_img_3.png": {
+      "title": "Stable organic electrochemical neurons based on p-type and n-type ladder polymers",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_ladder_polymers\\ladder_polymers",
+      "image_url": [],
+      "figure_name": "page_6_img_3.png",
+      "full_caption": "Fig. 6 Organic electrochemical neurons based on PBBT-Me and BBL. (a) Schematic of the leaky-integrate-and-fire (LIF) type spiking neuron, comprising both p-type and n-type accumulation-mode OECTs. (b) Typical spiking behaviors of a LIF-neuron based on PBBT-Me and BBL, gated using Ag/AgCl and working at In = 2 \u03bcA in 0.1 M NaCl aqueous solution. (c) Spiking frequency and Vfire,max of the LIF-neuron at different In. (d) Spiking patterns at In = 2 \u03bcA for 0 h, 3 h, and 6.5 h. (e) Spiking frequencies of the LIF-neuron change over time at In = 0.25 \u03bcA, 1 \u03bcA, 6 \u03bcA during 6.5 h of continuous operation. (f) Evolution of the Vfire,max over time at In = 0.25 \u03bcA, 1 \u03bcA, 6 \u03bcA during 6.5 h of continuous operation.",
+      "figure_path": "output\\figures\\page_6_img_3.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9720972180366516,
+            "height": 488,
+            "width": 571,
+            "geometry": [
+               {
+                  "x": 1181,
+                  "y": 478
+               },
+               {
+                  "x": 1752,
+                  "y": 478
+               },
+               {
+                  "x": 1181,
+                  "y": 966
+               },
+               {
+                  "x": 1752,
+                  "y": 966
+               }
+            ],
+            "subfigure_label": {
+               "text": "f",
+               "geometry": [
+                  {
+                     "x": 1181,
+                     "y": 478
+                  },
+                  {
+                     "x": 1752,
+                     "y": 478
+                  },
+                  {
+                     "x": 1181,
+                     "y": 966
+                  },
+                  {
+                     "x": 1752,
+                     "y": 966
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Evolution of the Vfire,max over time at In = 0.25 \u03bcA, 1 \u03bcA, 6 \u03bcA during 6.5 h of continuous operation.",
+            "keywords": [
+               "Current",
+               "Operation",
+               "Time"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9709242582321167,
+            "height": 484,
+            "width": 586,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 586,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 484
+               },
+               {
+                  "x": 586,
+                  "y": 484
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 586,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 484
+                  },
+                  {
+                     "x": 586,
+                     "y": 484
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Schematic of the leaky-integrate-and-fire (LIF) type spiking neuron, comprising both p-type and n-type accumulation-mode OECTs.",
+            "keywords": [
+               "Spiking neuron",
+               "OECTs",
+               "Schematic"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9608051180839539,
+            "height": 489,
+            "width": 587,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 478
+               },
+               {
+                  "x": 587,
+                  "y": 478
+               },
+               {
+                  "x": 0,
+                  "y": 967
+               },
+               {
+                  "x": 587,
+                  "y": 967
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 478
+                  },
+                  {
+                     "x": 587,
+                     "y": 478
+                  },
+                  {
+                     "x": 0,
+                     "y": 967
+                  },
+                  {
+                     "x": 587,
+                     "y": 967
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Typical spiking behaviors of a LIF-neuron based on PBBT-Me and BBL, gated using Ag/AgCl and working at In = 2 \u03bcA in 0.1 M NaCl aqueous solution.",
+            "keywords": [
+               "Spiking behavior",
+               "LIF-neuron",
+               "NaCl solution"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9280540347099304,
+            "height": 483,
+            "width": 581,
+            "geometry": [
+               {
+                  "x": 595,
+                  "y": 0
+               },
+               {
+                  "x": 1176,
+                  "y": 0
+               },
+               {
+                  "x": 595,
+                  "y": 483
+               },
+               {
+                  "x": 1176,
+                  "y": 483
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 595,
+                     "y": 0
+                  },
+                  {
+                     "x": 1176,
+                     "y": 0
+                  },
+                  {
+                     "x": 595,
+                     "y": 483
+                  },
+                  {
+                     "x": 1176,
+                     "y": 483
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Spiking frequency and Vfire,max of the LIF-neuron at different In.",
+            "keywords": [
+               "Neural networks",
+               "Spiking frequency",
+               "Input current"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.8534401059150696,
+            "height": 487,
+            "width": 581,
+            "geometry": [
+               {
+                  "x": 594,
+                  "y": 480
+               },
+               {
+                  "x": 1175,
+                  "y": 480
+               },
+               {
+                  "x": 594,
+                  "y": 967
+               },
+               {
+                  "x": 1175,
+                  "y": 967
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 594,
+                     "y": 480
+                  },
+                  {
+                     "x": 1175,
+                     "y": 480
+                  },
+                  {
+                     "x": 594,
+                     "y": 967
+                  },
+                  {
+                     "x": 1175,
+                     "y": 967
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Spiking patterns at In = 2 \u03bcA for 0 h, 3 h, and 6.5 h.",
+            "keywords": [
+               "Spiking patterns",
+               "Time evolution",
+               "Current"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "e",
+               "description": "Spiking frequencies of the LIF-neuron change over time at In = 0.25 \u03bcA, 1 \u03bcA, 6 \u03bcA during 6.5 h of continuous operation.",
+               "keywords": [
+                  "Spiking frequencies",
+                  "LIF-neuron",
+                  "continuous operation"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   }
+}

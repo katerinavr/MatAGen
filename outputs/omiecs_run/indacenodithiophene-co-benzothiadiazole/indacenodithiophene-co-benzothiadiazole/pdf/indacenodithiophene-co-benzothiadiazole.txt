@@ -1,0 +1,1255 @@
+3686 |  J. Mater. Chem. C, 2024, 12, 3686–3697
+This journal is © The Royal Society of Chemistry 2024
+Cite this: J. Mater. Chem. C,
+2024, 12, 3686
+Side chain engineering in indacenodithiophene-
+co-benzothiadiazole and its impact on mixed
+ionic–electronic transport properties†
+Isabelle Holzer,
+‡a Vincent Lemaur,
+‡b Meng Wang,‡cd Han-Yan Wu,‡e
+Lu Zhang,f Raymundo Marcial-Hernandez,
+c Peter Gilhooly-Finn,c
+Priscila Cavassin,a Se´bastien Hoyas,bg Dilara Meli,h Ruiheng Wu,i
+Bryan D. Paulsen,
+j Joseph Strzalka,
+k Andrea Liscio,
+l Jonathan Rivnay,
+jm
+Henning Sirringhaus,f Natalie Banerji,
+*a David Beljonne,
+*b
+Simone Fabiano
+*e and Christian B. Nielsen
+*c
+Organic semiconductors are increasingly being decorated with hydrophilic solubilising chains to create
+materials that can function as mixed ionic–electronic conductors, which are promising candidates for inter-
+facing biological systems with organic electronics. While numerous organic semiconductors, including p-
+and n-type materials, small molecules and polymers, have been successfully tailored to encompass mixed
+conduction properties, common to all these systems is that they have been semicrystalline materials. Here,
+we explore how side chain engineering in the nano-crystalline indacenodithiophene-co-benzothiadiazole
+(IDTBT) polymer can be used to instil ionic transport properties and how this in turn influences the
+electronic transport properties. This allows us to ultimately assess the mixed ionic–electronic transport prop-
+erties of these new IDTBT polymers using the organic electrochemical transistor as the testing platform.
+Using a complementary experimental and computational approach, we find that polar IDTBT derivatives can
+be infiltrated by water and solvated ions, they can be electrochemically doped efficiently in aqueous electro-
+lyte with fast doping kinetics, and upon aqueous swelling there is no deterioration of the close interchain
+contacts that are vital for efficient charge transport in the IDTBT system. Despite these promising attributes,
+mixed ionic–electronic charge transport properties are surprisingly poor in all the polar IDTBT derivatives.
+Albeit a ‘‘negative’’ result, this finding clearly contradicts established side chain engineering rules for mixed
+ionic–electronic conductors, which motivated our continued investigation of this system. We eventually find
+this anomalous behaviour to be caused by increasing energetic disorder in the polymers with increasing
+polar side chain content. We have investigated computationally how the polar side chain motifs contribute
+to this detrimental energetic inhomogeneity and ultimately use the learnings to propose new molecular
+design criteria for side chains that can facilitate ion transport without impeding electronic transport.
+a Department of Chemistry, Biochemistry and Pharmaceutical Sciences (DCBP), University of Bern, Freiestrasse 3, 3012 Bern, Switzerland. E-mail: natalie.banerji@unibe.ch
+b Laboratory for the Chemistry of Novel Materials, Materials Research Institute, University of Mons, Place du Parc 20, Mons, BE-7000, Belgium.
+E-mail: david.beljonne@umons.ac.be
+c Department of Chemistry, Queen Mary University of London, Mile End Road, London E1 4NS, UK. E-mail: c.b.nielsen@qmul.ac.uk
+d i-Lab & Printable Electronics Research Center, Suzhou Institute of Nano-Tech and Nano-Bionics, Chinese Academy of Sciences, 398 Ruoshui Road, SEID, SIP, Suzhou,
+215123, P. R. China
+e Laboratory of Organic Electronics, Department of Science and Technology, Linko¨ping University, SE-601 74 Norrko¨ping, Sweden. E-mail: simone.fabiano@liu.se
+f Optoelectronics Group, Cavendish Laboratory, JJ Thomson Avenue, Cambridge CB3 0HE, UK
+g Organic Synthesis & Mass Spectrometry Laboratory, Interdisciplinary Center for Mass Spectrometry (CISMa), Center of Innovation and Research in Materials and
+Polymers (CIRMAP), University of Mons – UMONS, 23 Place du Parc, 7000 Mons, Belgium
+h Department of Materials Science and Engineering, Northwestern University, Evanston, Illinois 60208, USA
+i Department of Chemistry, Northwestern University, Evanston, Illinois 60208, USA
+j Department of Biomedical Engineering, Northwestern University, Evanston, Illinois 60208, USA
+k X-Ray Science Division, Argonne National Laboratory, Lemont, Illinois 60439, USA
+l Istituto per la Microelettronica e Microsistemi, CNR, Roma Unit, via del fosso del cavaliere 100, 00133 Roma, Italy
+m Simpson Querrey Institute, Northwestern University, Chicago, Illinois 60611, USA
+† Electronic supplementary information (ESI) available. See DOI: https://doi.org/10.1039/d3tc04738e
+‡ These authors contributed equally.
+Received 22nd December 2023,
+Accepted 12th February 2024
+DOI: 10.1039/d3tc04738e
+rsc.li/materials-c
+Journal of
+Materials Chemistry C
+PAPER
+Open Access Article. Published on 12 February 2024. Downloaded on 5/10/2024 2:01:51 AM. 
+This article is licensed under a Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+View Journal | View Issue
+
+This journal is © The Royal Society of Chemistry 2024
+J. Mater. Chem. C, 2024, 12, 3686–3697 |  3687
+Introduction
+A rapidly growing interest in the field of organic bioelectronics
+with emerging applications such as bioelectronic sensors and
+neuromorphic devices has spurred significant attention to the
+concept of mixed ionic and electronic conduction that merges
+the language of biology (ionic charges) with that of electronics
+(electronic charges).1–3 Engineering of organic mixed ionic–
+electronic conductors (OMIECs) can be approached through
+rational materials choice, for instance by mixing an electrically
+conducting polymer with an ionomer as seen in the case of
+poly(3,4-ethylenedioxythiophene):polystyrene
+sulfonate.4–6
+Chemical engineering offers another approach whereby organic
+semiconductors can be structurally modified, typically with
+hydrophilic or ionic moieties, to afford mixed ionic–electronic
+properties within a single active material.7–10 While both
+approaches have their advantages and disadvantages, a greater
+selection of OMIECs with varied properties is needed to facil-
+itate the continued growth of organic bioelectronics.
+Taking advantage of the vast knowledge generated during
+the last few decades of organic electronics research, many high-
+performing organic charge-transport materials have successfully
+been chemically modified to encompass mixed ionic–electronic
+transport properties. This includes for instance hole-transporting
+(p-type) thiophene-based small-molecule and polymeric semicon-
+ductors as well as electron-transporting (n-type) rylene diimide-
+based materials chemically modified with e.g., oligoether chains,
+hydroxyl- or sulfonate-terminated alkyl chains.8–12 Donor–accep-
+tor-type structures, benefiting from strong intramolecular inter-
+actions between alternating electron-rich and -deficient units to
+modulate the frontier energy levels, have likewise been syntheti-
+cally modified to ensure ionic transport in the bulk semiconductor
+film as exemplified by recent studies of diketopyrrolopyrrole- and
+isoindigo-based polymers functionalised with oligoether side
+chains.13–17 A common theme emerging from these studies across
+different classes of organic semiconductors is that a good electro-
+nic charge transport material can be turned into a good mixed
+ionic–electronic charge transport material simply by replacing
+the non-polar solubilising substituents with polar alternatives.
+Among the plethora of donor–acceptor materials from the organic
+electronics literature, the indacenodithiophene-co-benzothiadiazole
+(IDTBT) polymer has often been highlighted due to a reliably high
+hole mobility above 1 cm2 V1 s1 with near-ideal field-effect
+transistor characteristics despite a lack of long-range crystalline
+order.18–20 The highly efficient charge transport in the solid state is
+attributed to a torsion-resilient backbone conformation leading to a
+low degree of energetic disorder and fast intrachain charge trans-
+port with only a few interchain contacts needed for efficient long-
+range transport.21 As such, IDTBT appears as a promising polymer
+backbone for OMIECs materials development and an obvious
+platform for side chain engineering studies.
+With these considerations in mind, we have systematically
+substituted fractions of the usual n-hexadecyl (C16) solubilising
+side chains of IDTBT-C16 with more polar ethylene glycol-
+containing side chains to study the impact on ionic and
+electronic charge transport properties. More precisely, the
+introduced amphipathic side chains comprise an initial non-
+polar five-carbon spacer unit separating the polymer backbone
+from a polar methyl-terminated triethylene glycol unit to keep
+the side chain length identical to the original C16 chain.
+Employing a statistical (random) copolymerisation protocol,
+10%, 50% and 100% of the C16-bearing indacenodithiophene
+units have been substituted for the corresponding indaceno-
+dithiophene motifs with amphipathic side chains. Undertaking a
+joint experimental and computational approach, we have subse-
+quently studied in detail how the resulting polymers interact with
+solvated ions, how they conduct electronic charges and how they
+respond to electrochemical and chemical doping. To our surprise,
+we have found that IDTBT does not conform to the established
+side chain engineering rules; it does not readily function as a
+mixed ionic–electronic conductor upon the introduction of polar
+oligoether side chains. Finally, we have used the accumulated
+understanding of this system to refine our current comprehen-
+sion of side chain engineering and propose new side chain design
+criteria for optimising mixed ionic–electronic conduction proper-
+ties in near-amorphous semiconducting polymers.
+Results and discussion
+Polymer synthesis and characterisation
+The IDTBT copolymer series presented in Fig. 1a, comprising
+diﬀerent ratios of the glycolated IDT monomer containing
+2,5,8,11-tetraoxahexadecane side chains and the commonly
+used hexadecyl substituted IDT monomer, was synthesised
+via Suzuki–Miyaura polymerisation by adapting the reported
+literature procedure.18 The well-known IDTBT-C16 (denoted
+IDTBT-P0 herein) was synthesised as a reference material to
+thereafter proceed with co-polymerisations using 10%, 50%
+and 100% loading of the polar IDT monomer to afford poly-
+mers IDTBT-P10, IDTBT-P50 and IDTBT-P100.22 Detailed con-
+ditions of monomer and polymer synthesis are described in the
+ESI.† 1H NMR analysis (Fig. 1b and Section S1, ESI†) confirmed
+that the ratios between glycolated and alkylated IDT moieties in
+the mixed copolymers were close to the expected based on
+monomer feed ratios; polar content of 11% and 51%, respec-
+tively, was found for IDTBT-P10 and IDTBT-P50. The number
+average molecular weight (Mn) and dispersities (PDI) of the
+polymers were determined by gel permeation chromatography.
+Non-polar IDTBT-P0 displayed the highest molecular weight
+(Mn = 58 kDa, PDI = 1.2), meanwhile IDTBT-P10 (Mn = 48 kDa,
+PDI = 1.2) and IDTBT-P50 (Mn = 48 kDa, PDI = 1.3) presented
+comparable values, however IDTBT-P100 (Mn = 18 kDa,
+PDI = 1.8) showed a considerably lower degree of polymeri-
+sation indicating that the 100% loading of the polar IDT
+monomer negatively affected the chain growth of the polymer.
+UV-vis absorption spectroscopy of polymer thin films spin-
+cast from o-dichlorobenzene (ODCB) onto glass substrates is
+presented in Fig. 1c. It can be observed that IDTBT-P10 and
+IDTBT-P50 share a maximum absorption peak with IDTBT-P0
+at 678 nm, with a slight increase in the shoulder at 624 nm with
+increasing polar content. The main absorption feature of
+Paper
+Journal of Materials Chemistry C
+Open Access Article. Published on 12 February 2024. Downloaded on 5/10/2024 2:01:51 AM. 
+This article is licensed under a Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+3688 |  J. Mater. Chem. C, 2024, 12, 3686–3697
+This journal is © The Royal Society of Chemistry 2024
+IDTBT-P100 is blue-shifted by 14 nm relative to the other
+polymers with a slightly broader shape; this might be attributed
+to the somewhat lower degree of polymerisation and a more
+disordered morphology. The higher energy absorption feature
+observed for all the polymers around 400 nm is attributed to
+the p–p* transitions.
+Contact angle measurements were performed to better
+understand the polarity and wettability of the polymer thin
+film surfaces. IDTBT-P0 presented a contact angle of 851  0.3
+with water and the introduction of 10% of the polar monomer
+led to a lower contact angle (741  0.2), this eﬀect is stronger
+with 50% incorporation of the polar monomer (611  0.6), but
+no further decrement of the contact angle is observed for the
+fully glycolated polymer (IDTBT-P100, 631  0.3, Fig. S1, ESI†).
+The polymers thus showed increased hydrophilicity and wett-
+ability with increasing polar content with a limit close to 601 in
+contact angle with water.
+The surface work function of each polymer was investigated
+using the Kelvin probe technique. Thin films were spin-cast
+from ODCB solutions onto silicon substrates. It was found that
+the surface work function of the polymer films decreased with
+increasing polar content. IDTBT-P0, P10, P50 and P100 aﬀorded
+work functions of 4.98 eV, 4.95 eV, 4.88 eV, and 4.70 eV,
+respectively (Fig. S2, ESI†). Although the work function depends
+on several factors like the orientation of the polymer near the
+surface, the exposure to ambient conditions and residual
+solvent, the trend reflects the increasing content of electron-
+donating oligoether chains when going from IDTBT-P0 to
+IDTBT-P100. The work function values are moreover close to
+that reported for polycrystalline gold under ambient conditions
+(B5.1 eV),23 which could potentially lead to low contact resis-
+tance when using gold contacts in electrical measurements.24
+Cyclic voltammetry measurements on polymer thin films
+spin-cast from ODCB were conducted with tetrabutylammo-
+nium hexafluorophosphate electrolyte in acetonitrile at various
+scan rates (see Fig. S3, ESI†). The onset of oxidation was found
+to decrease with increasing polar content in agreement with the
+Kelvin probe data reflecting the more facile ion penetration
+into the polymer films with increasing polar content.
+Grazing incidence wide-angle X-ray scattering (GIWAXS) was
+performed to investigate the structural properties of the poly-
+mer thin films (Fig. 2 and Fig. S4, ESI†). A predominant face-on
+orientation of the polymer backbone relative to the substrate is
+observed; fittings of the in-plane peaks at low q-values and the
+out-of-plane peaks at higher q-values aﬀord along-chain repeat
+distances in the range 15.5–15.7 Å and p-stacking distances
+from 4.15 to 4.35 Å across the polymer series. IDTBT-P100 is
+significantly more amorphous than the other three IDTBT
+polymers who show similar along-chain coherence lengths in
+the range 97–114 Å and a slight decrease of the second order
+(002) along-chain peak when going from IDTBT-P0 to IDTBT-
+P10 and IDTBT-P50; IDTBT-P100, on the other hand, shows no
+discernible (00l) along-chain peaks in the in-plane direction.
+Longer p-stacking distances (4.34–4.35 Å) for IDTBT-P10 and
+IDTBT-P50 than for IDTBT-P0 and IDTBT-P100 (4.29 Å and 4.15 Å,
+respectively) suggest that the mixed copolymer design with polar
+and non-polar side chains randomly distributed along the poly-
+mer backbone leads to less favourable polymer backbone inter-
+actions than seen for the two polymers decorated entirely with
+polar or non-polar side chains.
+Fig. 1
+(a) Synthetic scheme outlining the IDTBT polymer synthesis employing diﬀerent ratios of the polar and nonpolar IDT monomers. (b) UV-vis
+spectra of thin polymer films obtained by spin-coating from 10 mg mL1 ODCB solutions at 80 1C; 2000 rpm for 90 s then 8000 rpm for 30 s. Dried in
+vacuum oven at 40 1C for 30 min. (c) 1H NMR spectra of the IDTBT polymers highlighting the peaks from polar (blue box) and nonpolar (red box) side
+chain moieties.
+Journal of Materials Chemistry C
+Paper
+Open Access Article. Published on 12 February 2024. Downloaded on 5/10/2024 2:01:51 AM. 
+This article is licensed under a Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+This journal is © The Royal Society of Chemistry 2024
+J. Mater. Chem. C, 2024, 12, 3686–3697 |  3689
+Mixed ionic–electronic transport properties
+Following the characterisation of the IDTBT copolymers, we
+investigated the mixed ionic–electronic transport properties to
+validate our molecular design strategy. To this end, the organic
+electrochemical transistor (OECT) is an ideal platform due to
+the three-electrode configuration with electrochemical gating
+facilitated by an electrolyte solution directly in contact with the
+active layer. This allows for ions to infiltrate the semiconductor
+film and compensate the electronic charges that can be injected
+into (or extracted from) the bulk semiconductor layer via the
+source and drain electrodes. The OECT performance of the four
+polymers was evaluated using both aqueous and non-aqueous
+electrolytes. For the aqueous system, OECTs were measured with
+a 0.1 M NaCl electrolyte, however, none of the four IDTBT
+polymers showed typical output and transfer characteristics when
+biased between 0 and 0.7 V (Fig. 3 and Fig. S5, ESI†). To explore
+a larger electrochemical window, non-aqueous OECTs were tested
+with 0.1 M LiOTf and 0.1 M NaClO4 in acetonitrile and biased up
+to 2.0 V during the gate sweep (Fig. 3c, g and Fig. S6, ESI†).
+To mimic the conditions where we see efficient electrochemical
+doping (vide infra), non-aqueous OECTs were also tested with
+0.1 M TBAPF6 in acetonitrile (Fig. S9, ESI†). Finally, OECTs
+were tested with the ionic liquid 1-ethyl-3-methylimidazolium
+bis(trifluoromethylsulfonyl)imide ([EMIM][TFSI], Fig. S7 and S8,
+ESI†). None of the polymers showed typical output and transfer
+characteristics when tested in acetonitrile irrespective of choice of
+electrolyte. Only with the [EMIM][TFSI] ionic liquid electrolyte,
+small current responses (o 1 mA) were observed for IDTBT-P10
+and IDTBT-P50 (Fig. 3d and h) although meaningful figures-of-
+merit could not be extracted. These surprising results on the
+mixed ionic–electronic transport led us to interrogate in greater
+detail both the ionic transport and the electronic transport
+properties to elucidate the underlying reasons for the lack of
+efficient mixed transport in this polymer system.
+Ionic transport and electrochemical doping
+An electrochemical quartz crystal microbalance (eQCM) was
+used to investigate the static swelling properties of the four
+polymers in water. IDTBT-P0, IDTBT-P10, IDTBT-P50, and
+IDTBT-P100 swell 0%, 2%, 9% and 12% respectively (Table S1
+and Fig. S10, ESI†). Without the polar side chains, the IDTBT-
+P0 thin film does not absorb any aqueous electrolyte within the
+detection limit of the eQCM technique. As the polar side chain
+content increases, the degree of swelling grows gradually up to
+12% for IDTBT-P100. This trend indicates that the introduction of
+glycolated side chains enhances the hydrophilicity of the IDTBT
+polymers, which is consistent with the molecular design and the
+contact angle and cyclic voltammetry data discussed above.
+The dispersion of water molecules (and associated ions) was
+further investigated from a computational perspective using
+classical force-field molecular mechanics (MM) and molecular
+dynamics (MD) simulations focusing on the extreme cases of
+IDTBT-P0 and IDTBT-P100. To proceed with this, we first
+benchmarked our force field by constructing the most stable
+supramolecular organizations of dry IDTBT-P025 and IDTBT-
+P100 films (see Section S8, ESI†). Stable crystal arrangements
+for both polymers (Fig. S11, ESI†) correspond to a cofacial
+arrangement of two inequivalent polymer chains. In both cases,
+Fig. 2
+2D GIWAXS scattering patterns for the IDTBT polymer series.
+Paper
+Journal of Materials Chemistry C
+Open Access Article. Published on 12 February 2024. Downloaded on 5/10/2024 2:01:51 AM. 
+This article is licensed under a Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+3690 |  J. Mater. Chem. C, 2024, 12, 3686–3697
+This journal is © The Royal Society of Chemistry 2024
+the side chains are interdigitated between the successive layers
+of p-stacked chains. Lattice parameters compare favourably
+with experimental data available from earlier investigations
+for IDTBT-P0 and with the results of the GIWAXS measure-
+ments reported here.21,26 The impact on the resulting morphol-
+ogy of the presence of water molecules inside the IDTBT co-
+polymer amorphous films was subsequently estimated by mix-
+ing 20 hexamers of IDTBT-P0 or IDTBT-P100 with 5 wt% (442
+molecules) and 25 wt% (2210 molecules) of water. We obtained
+very diﬀerent results for IDTBT-P0 versus IDTBT-P100. In the
+case of the P0 polymer chains, carrying apolar side chains, all
+water molecules aggregate as bubbles when inserted into the
+films, while the water molecules get fully dispersed during the
+MD simulations of the P100 films (see Fig. 4a and b). At this
+point, and very much in line with chemical intuition, we can
+thus deliberately disregard P0 as a possible candidate for OECT
+applications, because of the very poor uptake of water.
+To mimic the working principle of an OECT, a system made
+of 20 hexamers of IDTBT-P100, 25 wt% of water and 60 chlorine
+anions was studied next. Here, to ensure the electroneutrality of
+the system, 60 positive charges have been added uniformly on
+the conjugated atoms of P100. The morphology of this system is
+represented in Fig. 4c and reveals that: (i) the water molecules
+are still reasonably well dispersed throughout the films, though
+not as uniformly as in the water-only case; and (ii) that the
+chlorine atoms are preferentially located in water-rich regions.
+To analyse the relative position of the chlorine atoms in the
+film, radial distribution functions (RDF) and coordination
+numbers have been calculated on the 10 snapshots of the MD
+trajectory (Fig. 4d–g). Not surprisingly, the RDF curves suggest a
+strong interaction between the chlorine ions and the water
+molecules (mostly with the hydrogen atoms). With a coordina-
+tion number of five, our RDF analysis suggests that chlorine
+anions are, on average, solvated by five water molecules (Fig. 4d
+and e). Chlorine atoms are also interacting with the polar side
+chains since the calculated coordination numbers between the
+chlorine anions and either the carbons or oxygens of the polar
+side chains is two (Fig. 4f and g). Chlorine anions are in
+contrast less likely to interact with the conjugated backbones,
+the coordination numbers being small for all conjugated atoms
+(see Table S2, ESI†). This should also have a positive impact on
+charge transport, as trapping of the majority hole carriers by
+chlorine anions should be limited.
+With confirmation that water molecules (and associated
+ions) can infiltrate the polar IDTBT derivatives, we next turned
+our attention to the electrochemical doping process using
+in situ time-resolved Vis-NIR spectroelectrochemistry. Spectro-
+electrochemical experiments were carried out, using 0.1 M
+TBAPF6 in acetonitrile as electrolyte and an Ag/AgCl counter
+electrode and thin films of B25 and B200 nm deposited via
+spin coating onto ITO substrates. A home-built setup was used,
+where polychromatic light is transmitted through the sample
+and simultaneously detected with two spectrophotometers in
+the visible and near-infrared range. Square pulses of voltage
+ranging from 0.1 to 1.3 V with 0.1 V steps were applied for
+5 s. Each doping step was followed by a subsequent dedoping
+step for 5 s at 0 V. In Fig. 5a, the absorbance spectra for diﬀerent
+voltages of IDTBT-P50 (28 nm) are displayed. The spectra for the
+other IDTBT polymers are included in the ESI† (Fig. S13). From
+0.1 to 0.8 V, one main band at around 670 nm is present,
+which is ascribed to the absorption of the neutral polymer. At
+higher doping voltages, a second band at around 1020 nm and a
+third band at around 1450 nm appear. Those are attributed to
+polarons and bipolarons, respectively.26,27
+To decompose the absorption spectra into the diﬀerent
+species and their respective concentrations, we used multi-
+variate curve resolution (MCR) analysis. The spectral compo-
+nents for the B25 nm thick films are shown in Fig. 5b (Fig. S14
+for all films, ESI†). The shape of the neutral polymer absor-
+bance around 670 nm was adapted to account for the spectral
+Fig. 3
+Electrical performance of IDTBT-P10 and IDTBT-P50-based OECTs; (a) and (b) output curves and (e) and (f) transfer curves for IDTBT-P10 and
+IDTBT-P50-based devices in 0.1 M NaCl aqueous electrolyte; (c) and (g) transfer curves for IDTBT-P50-based devices in 0.1 M LiOTf and 0.1 M NaClO4
+acetonitrile electrolytes; (d) and (h) output and transfer curves for IDTBT-P50-based devices in ionic liquid electrolyte with PEDOT:PSS as the gate.
+Journal of Materials Chemistry C
+Paper
+Open Access Article. Published on 12 February 2024. Downloaded on 5/10/2024 2:01:51 AM. 
+This article is licensed under a Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+This journal is © The Royal Society of Chemistry 2024
+J. Mater. Chem. C, 2024, 12, 3686–3697 |  3691
+changes between the materials shown in Fig. 1b) (notably,
+IDTBT-P100 has a broader and more unstructured signature).
+The polaron component centred around 1020 nm is also
+broader for IDTBT-P100, while a similar spectrum could be
+used for the other films, and a comparable bipolaron compo-
+nent around 1450 nm was found in all cases. From the MCR
+analysis, the evolution of the species as a function of voltage is
+extracted and compared for IDTBT-P50 (28 nm) and IDTBT-P0
+(21 nm) in Fig. 5c). The plots of the other polymers are included
+in Fig. S15 and S16 (ESI†). In agreement with the cyclic
+voltammetry and Kelvin probe data, the onset of the oxidation
+of the neutral species to polarons decreases from about 0.8 V
+to 0.6 V with increasing polar content, and the formation of
+bipolarons shifts from 0.9 V to 0.8 V. The neutral species are
+depleted until 1.1 V in all films and the polaron concentration
+decreases at high oxidation voltages, as polarons are converted
+to a rising population of bipolarons. We also recorded the
+current of the devices by chronoamperometry and deduced the
+injected or extracted charge carrier density during the doping
+and dedoping processes (Fig. S17 and S18, ESI†). The onsets
+and trends with voltage closely follow the spectroelectrochem-
+ical changes in the diﬀerent materials.
+The dynamics of the doping processes in the IDTBT poly-
+mers was investigated using time-resolved spectroelectrochem-
+istry with a resolution of 10 ms. The MCR components from the
+steady-state spectra were used to obtain the temporal evolution
+of the neutral, polaron and bipolaron species as shown for
+IDTBT-P50 (28 nm) in Fig. 5d). The bi-exponential dynamics
+show a fast decay of the neutral species together with a fast rise
+of polarons and slightly slower rise of bipolarons at a doping
+voltage of 0.9 V. The conversion speeds up with higher voltage
+because the driving force increases at a higher overpotential
+with respect to the doping onset (Fig. S19, ESI†). To compare
+the diﬀerent materials, two voltages were chosen for each (1.0
+and 1.3 V for IDTBT-P0 and P10, 0.9 and 1.2 V for IDTBT-
+P50 and 0.8 and 1.1 V for IDTBT-P100), taking into account
+the diﬀerent oxidation onsets. As the ion transport is hypothe-
+sized to be better for the more polar polymers, the kinetics is
+Fig. 4
+Representation of the simulated distributions of water molecules in amorphous phases of IDTBT-P0 + 25 wt% of water (a) and IDTBT-P100 + 25%
+of water (b) after a 2 ns-long molecular dynamics (NPT, p = 1 atm, T = RT). Representation of the simulated distribution of the water molecules and
+chlorine anions (cyan balls) in an amorphous phase of charged IDTBT-P100 + 25 wt% of water + 60 chlorine anions after a 2 ns-long molecular dynamics
+(NPT, p = 1 atm, T = RT) (c). The polymer chains have been omitted for clarity. Radial distribution functions (blue) and coordination numbers (red)
+between the chlorine anions and the hydrogen atoms of the water molecules (d); the oxygen atoms of the water molecules (e); the carbon atoms of the
+polar side chains (f); and the oxygen atoms of the polar side chains (g); as calculated from the analysis of the 10 snapshots of the MD trajectory for the
+system containing 20 charged hexamers of IDTBT, 25 wt% of water and 60 chlorine anions.
+Paper
+Journal of Materials Chemistry C
+Open Access Article. Published on 12 February 2024. Downloaded on 5/10/2024 2:01:51 AM. 
+This article is licensed under a Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+3692 |  J. Mater. Chem. C, 2024, 12, 3686–3697
+This journal is © The Royal Society of Chemistry 2024
+expected to vary for the IDTBT-P0 to P100 materials. This eﬀect
+will also be impacted by the film thickness, since in our device
+configuration, the ions must penetrate vertically through the
+film to compensate the holes injected at the underlying ITO
+electrode. We hypothesise that ions penetrate through thinner
+films faster, until a limit is reached where the electrochemical
+reaction is slower than the ion penetration and the kinetics
+depend
+less
+on
+film
+thickness
+(Fig.
+S20,
+ESI†).
+Single-
+wavelength dynamics were used to display the dependence of
+the oxidation reaction rate on the applied voltage and the
+thickness (Fig. S21 and Table S3, ESI†). Dynamics for 5–6
+thicknesses ranging from around 8 to 200 nm for each IDTBT
+polymer were analysed, so that a clear sub-linear relation
+between doping/dedoping rate with the thickness can be
+observed. The precise thickness-dependent transport will be
+subject to a further study. For moving-front experiments over
+micrometre lateral film distances, it has been shown to occur
+by complex drift-diffusion
+mechanisms
+that include the
+applied potential and quasi-electric fields generated by charges
+in the film.28
+For the present study, we simply compare thinner films of
+B25 nm (close to the electrochemical limit) to thicker films of
+B200 nm (strong dependence on ionic transport) for the
+diﬀerent polymers. All doping and dedoping dynamics are
+shown in Fig. S22 and S23 (ESI†). The data were analysed by
+MCR, and the kinetics were quantified by the time to reach 1/e
+of the final population (interpolating between two points close
+to 1/e) and are summarized in Table 1 and Table S4 (ESI†). In
+Fig. 5e the temporal evolution of the neutral species is com-
+pared between the diﬀerent IDTBT polymers for the two film
+thicknesses at the lower (0.8 to 1.0 V) doping level. In the
+thinner films, IDTBT-P0 dopes the slowest with a time of
+0.682 s to deplete 1/e of the neutral population, followed by
+IDTBT-P10 (0.336 s). This time decreases by more than half for
+Fig. 5
+(a) Absorption spectra of IDTBT-P50 (28 nm) upon application of doping voltage ranging from 0.1 V to 1.3 V (DV = 0.1 V) versus Ag/AgCl.
+(b) Spectral signature of each species obtained from the MCR analysis in the diﬀerent films and (c) their corresponding normalized concentration for
+IDTBT-P50 (solid lines) and IDTBT-P0 (dashed lines) as a function of voltage. (d) Time-resolved normalized species concentration for the doping at
+0.9 V of IDTBT-P50. (e) Comparison of the doping dynamics at lower doping level for the neutral species in the diﬀerent thick and thin films, and
+(f) comparison of the corresponding dedoping dynamics.
+Journal of Materials Chemistry C
+Paper
+Open Access Article. Published on 12 February 2024. Downloaded on 5/10/2024 2:01:51 AM. 
+This article is licensed under a Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+This journal is © The Royal Society of Chemistry 2024
+J. Mater. Chem. C, 2024, 12, 3686–3697 |  3693
+the polar IDTBT-P50 and IDTBT-P100 polymers (0.138–0.187 s),
+which have very similar dynamics. Those polar polymers are
+close to the electrochemical limit, and the dynamics mainly
+correspond to the charge injection into the IDTBT backbone at
+a given overpotential (Fig. S20, ESI†). For the less polar deriva-
+tives with less favourable ionic transport, thinner films
+(B8 nm) are necessary to reach the electrochemical limit, so
+that the dynamics in the B25 nm films are still limited by ion
+transport and therefore slower. The same trend is seen for the
+1/e rise of the polarons and bipolarons, which slows down from
+0.145 s to 0.624 s (polarons) and from 0.309 s to 0.759 s
+(bipolarons) with decreasing polarity (Fig. S22, ESI†). In the
+thicker films, the doping process is overall slower by a factor of
+1.5–2 compared to the thin films (Fig. S22 and Table 1, ESI†),
+because of the higher impact of ionic transport. The effect is
+enhanced for the non-polar films, so that the difference
+between the materials becomes accentuated (Fig. 5e). At the
+higher doping level (1.1 to 1.3 V), all the doping dynamics
+are faster, and a similar increase of doping rate with polar side
+chain content is seen, especially for the thicker films (Fig. S23,
+ESI†). The dynamics were also investigated for the dedoping
+processes. A faster kinetic behaviour is observed during the
+dedoping of all polymers compared to the doping. However, the
+polar polymers again respond significantly faster than IDTBT-
+P0 even in the thin films (Fig. 5f), showing that poor ionic
+transport also limits the dedoping rate. These results extracted
+from the dynamics of the MCR agree with the findings from the
+single-wavelength dynamics (Fig. S21, ESI†) and are very repro-
+ducible (Fig. S24 and Table S5, ESI†).
+Electronic transport and chemical doping
+Having confirmed, both experimentally and computationally,
+that the IDTBT derivatives with polar side chain motifs indeed
+do facilitate ion movement in and out of the bulk polymer film,
+we next investigated the electronic transport properties of the
+system. As mentioned above, the charge transport of IDTBT is
+governed by fast intrachain transport and a limited number of
+close interchain contacts that allow for charge hopping across
+polymer chains. With this in mind, we first investigated in silico
+the eﬀect of polar side chains and water and ion uptake on the
+number and quality of interchain contacts in IDTBT.
+The analysis of the spatial contacts between polymer chains
+in the simulated morphologies of pure IDTBT-P0 and IDTBT-
+P100 without water or ions, as quantified in Fig. S12 and
+Table 2 (ESI†), suggests a larger number of connecting path-
+ways for charge hopping in IDTBT-P100 compared to IDTBT-P0.
+This result is corroborated by the calculated distribution of
+hole couplings.29,30 Our density functional theory (DFT) calcu-
+lations indeed reveal that, among all close contacts, the fraction
+that yields transfer integrals in excess of 1 meV is 37% in
+IDTBT-P100, compared to only 31% in IDTBT-P0 (Table 2). The
+diﬀerence is even more pronounced for strongly electronically
+coupled chromophores (transfer integrals in excess of 10 meV),
+which amount to 9% in IDTBT-P100 compared to 5% in IDTBT-
+P0. Based on the analysis of the density and quality of the close
+contacts between the polymer chains, substituting the apolar
+side chains of the original IDTBT copolymer by more flexible
+polar side chains is thus not expected to alter the outstanding
+charge transport properties of the original IDTBT copolymer,
+quite the opposite. Moving on from the pure polymer films, we
+consider next the swollen systems more relevant for OECT
+device operation. In the case of IDTBT-P100 subjected to 5%
+and 25% water uptake, we find that the higher the water intake
+the smaller the density of intermolecular electronic contacts,
+though the eﬀect is rather modest (except for the most strongly
+interacting pairs), see Table 2. This decrease in electronic
+connectivity is driven by the swelling of the polymer film in
+the presence of water. Furthermore, the simultaneous presence
+of water and anions in the film does not alter the connectivity
+between the monomeric units (Table 2, last entry). Although the
+total number of contacts is slightly reduced compared to pure
+IDTBT-P100 films (111 versus 124), the quality of the strongest
+electronic contacts is similar to what was found for pure P100
+(11% versus 9% of contacts with hole couplings larger than
+10 meV). This suggests that, from an electronic connectivity
+point of view, the intrinsic charge transport properties of pure
+IDTBT-P100 should be preserved in OECT devices.
+In contrast to the encouraging computational results on the
+electronic properties of the polar IDTBT derivatives, experi-
+mental data suggests otherwise. First, we fabricated organic
+field-eﬀect transistors (OFETs) to evaluate the charge carrier
+mobilities across the IDTBT series (Fig. S25, S26 and Table 3,
+ESI†). A saturation hole mobility of 0.95 cm2 V1 s1 was
+found
+for
+IDTBT-P0
+in
+good
+agreement
+with
+previous
+studies.18 Nevertheless, introduction of polar side chains
+aﬀorded a rapid decline in the transport properties with the
+hole mobility decreasing steeply to 0.34 cm2 V1 s1 and 7.8 
+103 cm2 V1 s1 for IDTBT-P10 and IDTBT-P50, respectively,
+while no current modulation could be observed for the IDTBT-
+P100 device. Such trends have been observed previously for
+other p- and n-type semiconducting polymers.22,31 To investi-
+gate if residual water in the more polar IDTBT films played a
+Table 1
+Time to reach 1/e of the formation respectively decay of the species at lower doping levels of 0.8 to 1.0 V (N = neutral; P = polaron;
+B = bipolaron). The errors represent the scatter of the curves. The total experimental error amounts to about  0.04 s
+Polymer
+N (s)
+P (s)
+B (s)
+Thin
+Thick
+Thin
+Thick
+Thin
+Thick
+IDTBT-P0
+0.68  0.02
+0.96  0.00
+0.62  0.03
+0.84  0.01
+0.76  0.01
+1.37  0.00
+IDTBT-P10
+0.34  0.01
+0.65  0.02
+0.20  0.01
+0.41  0.03
+0.51  0.00
+1.07  0.01
+IDTBT-P50
+0.14  0.01
+0.33  0.01
+0.08  0.02
+0.16  0.03
+0.26  0.00
+0.69  0.12
+IDTBT-P100
+0.19  0.01
+0.24  0.01
+0.15  0.01
+0.15  0.02
+0.31  0.00
+0.32  0.01
+Paper
+Journal of Materials Chemistry C
+Open Access Article. Published on 12 February 2024. Downloaded on 5/10/2024 2:01:51 AM. 
+This article is licensed under a Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+3694 |  J. Mater. Chem. C, 2024, 12, 3686–3697
+This journal is © The Royal Society of Chemistry 2024
+role in the poor device performance, we also fabricated OFETs with
+a molecular additive (2,3,5,6-tetrafluoro-7,7,8,8-tetracyanoquinodi-
+methane,
+F4TCNQ).32,33
+No
+improvement
+in
+device
+per-
+formance was observed with the F4TCNQ additive (Fig. S27, ESI†)
+indicating that residual water is not responsible for the decline in
+charge carrier mobility with increasing polar content or that the
+adverse eﬀect of residual water cannot be avoided by the incorpora-
+tion of molecular additives as it can for the IDTBT-P0 polymer.
+Subsequently, IDTBT films spin-cast onto glass substrates
+were chemically doped using the strong oxidant tris(4-bromo-
+phenyl)ammoniumyl hexachloroantimonate (Magic Blue) to
+investigate
+their
+electrical
+conductivity
+using
+four-point
+probe measurements. The polymers were doped sequentially
+using two diﬀerent dopant concentrations, 0.25 mg mL1 and
+0.5 mg mL1 of Magic Blue in acetonitrile, to achieve diﬀerent
+doping levels (Fig. S28, ESI†). Again, a rapid decline in electrical
+performance was observed with increasing polar content
+(Table 3). At low doping levels, a more than 100-fold decrease
+in conductivity was seen when going from IDTBT-P0 to IDTBT-
+P50 in line with the OFET data. The conductivity is generally
+higher at the higher doping level (0.5 mg mL1) with the trend of
+decreasing conductivity with increasing polar content similar,
+although the drop in conductivity is smaller (4.49 S cm1 versus
+0.93 S cm1 for IDTBT-P0 and IDTBT-P50, respectively). For both
+doping levels, no current could be detected for IDTBT-P100 with
+the used technique in good agreement with the transistor data.
+Although the relatively low molecular weight of IDTBT-P100
+could be a contributing factor to the low OFET mobility and
+the low conductivity upon doping, the three other IDTBT deri-
+vatives are of comparable molecular weight confirming that the
+observed charge transport trends are unlikely to be dominated
+by molecular weight eﬀects.
+With the computational modelling suggesting little or no
+negative eﬀect on the number and quality of interchain
+contacts upon the introduction of polar side chains onto
+IDTBT, increasing energetic disorder was considered as an
+alternative explanation for the deterioration of charge transport
+properties that we observe experimentally with increasing polar
+side chain content.34 In order to test this hypothesis, we
+theoretically assessed the electrostatic energetic disorder in
+IDTBT-P100 (both dry and wet) versus IDTBT-P0, in both
+amorphous and crystalline morphologies of the polymers. As
+a proxy for the energetic disorder, we computed the standard
+deviation on the total energy of the films when adding one
+excess positive charge on successively each single monomer
+unit of each polymer chain. Table 4 shows that, in their
+respective amorphous phases, the standard deviation calcu-
+lated in dry IDTBT-P100 is about three times as large as that in
+IDTBT-P0 (113 meV versus 43 meV). Interestingly, the presence
+of water in amorphous IDTBT-P100 does not lead to a further
+increase of the energetic disorder. Since IDTBT-P0 and IDTBT-
+P100 both exhibit a near-amorphous character and conforma-
+tional disorder resilient energetic disorder, the main culprit for
+the increased energetic inhomogeneity in IDTBT-P100 is the
+varying electrostatic potential induced on the conjugated back-
+bones by the polar side chains, as indeed confirmed by a
+detailed analysis of the various contributions to the total
+potential energy. In hypothetical crystalline morphologies, we
+expect the electrostatic potential to be more homogeneous and
+hence the energetic disorder to be smaller. This is, indeed,
+what is predicted by the calculations, see Table 4. We note,
+however, that even in the crystalline phase, where the side
+chains are kept away from their conjugated cores due to the
+interdigitated lamellar organisation, there is a residual ener-
+getic inhomogeneity with a similar trend of increased energetic
+disorder in the polar system. This is because of the combined
+eﬀects of thermal motion and the fact that holes sitting on one
+lamellar layer still feel the electrostatic eﬀects associated with
+Table 2
+Number and quality of close interchain contacts in IDTBT-P0 and IDTBT-P100
+Polymer
+Water
+content (%)
+Close
+contacts
+Contacts w.
+tHOMO 4 10 meV (%)
+Contacts w.
+tHOMO 4 5 meV (%)
+Contacts w.
+tHOMO 4 1 meV (%)
+IDTBT-P0
+0
+93
+5
+12
+31
+IDTBT-P100
+0
+124
+9
+14
+37
+IDTBT-P100
+5
+110
+7
+16
+35
+IDTBT-P100
+25
+100
+5
+17
+40
+IDTBT-P100a
+25
+111
+11
+19
+42
+All systems comprise 20 hexamers. a System doped with 60 positive charges and 60 Cl counter ions.tHOMO denotes the highest occupied molecular
+orbital (HOMO) electronic transfer coupling.
+Table 3
+Field-eﬀect transistor characteristics of the IDTBT polymers and electrical conductivity of the IDTBT polymers at diﬀerent chemical doping
+levels
+Polymer
+msat (cm2 V1 s1)a
+Vth
+sat (V) (reverse/forward)
+Ion/Ioﬀ
+Conductivity (S cm1)b
+Conductivity (S cm1)c
+IDTBT-P0
+0.95
+26.4/26.4
+4.87  105
+1.06
+4.49
+IDTBT-P10
+0.34
+19.4/18.2
+4.80  104
+2.77  102
+2.65
+IDTBT-P50
+7.8  103
+18.9/5.89
+65.7
+8.64  103
+9.26  101
+IDTBT-P100
+—
+—
+—
+—
+—
+a The saturation hole mobility (msat) is a maximum value extracted at a drain voltage of 60 V. b Doped with Magic Blue (0.25 mg mL1). c Doped
+with Magic Blue (0.50 mg mL1).
+Journal of Materials Chemistry C
+Paper
+Open Access Article. Published on 12 February 2024. Downloaded on 5/10/2024 2:01:51 AM. 
+This article is licensed under a Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+This journal is © The Royal Society of Chemistry 2024
+J. Mater. Chem. C, 2024, 12, 3686–3697 |  3695
+side chains belonging to the adjacent lamella (see Fig. S8, ESI†).
+As a matter of fact, the distance between the last carbon of the
+side chains and the closest conjugated atom of the next
+lamellar layer is only B2.5 Å.
+Photothermal deflection spectroscopy was subsequently per-
+formed on the polymer series to investigate experimentally the
+energetic disorder in the system (Fig. S29, ESI†). Urbach energy
+values of 29.8 meV, 30.8 meV, 32.0 meV, and 43 meV for IDTBT-
+P0, P10, P50 and P100, respectively, confirmed the increasing
+energetic disorder with increasing polar content; a significantly
+higher energetic disorder for IDTBT-P100 is in qualitative
+agreement with the predictions from the computational mod-
+elling. We note that the lower molecular weight and higher
+polydispersity of IDTBT-P100 could also contribute to the
+higher Urbach energy.
+Conclusion and outlook
+Indacenodithiophene-co-benzothiadiazole, a high-performing elec-
+tronic charge transport material, was synthetically modified with
+amphipathic side chains comprising an apolar five-methylene
+spacer and a polar terminal oligoether group to impart mixed
+ionic–electronic transport properties. A series of polymers was
+prepared with varying polar content and studied extensively using
+a suite of experimental and computational techniques. Expectedly,
+we saw increasing water uptake and faster ion kinetics in the
+polymer films with increasing polar content. This was firmly
+established using time-resolved spectroelectrochemistry on both
+relatively thin and thick polymer films. Despite the successful
+chemical engineering of ion-transport pathways in the polymer
+films with higher polar content, mixed ionic–electronic properties
+probed in an organic electrochemical transistor configuration were
+lacking with negligible electrical current modulation observed for
+the polar IDTBT polymers. The underlying lack of efficient electro-
+nic charge transport in the polar polymer derivatives was ulti-
+mately found to originate not from a deterioration of intrachain
+contacts but from an increasing energetic inhomogeneity caused
+by the oligoether segments of the side chains.
+To better gauge the origin of the observed electrostatic
+disorder in the polar IDTBT systems, we have performed
+Gedanken numerical experiments where the partial atomic
+charges of the oxygen atoms in the oligoether moiety have
+been set to zero one after the other (Fig. 6a) while freezing all
+nuclei. We find, in particular, that the amount of energetic
+disorder is significantly reduced when the partial charges over
+the last two oxygen atoms (O3 and O4 in Fig. 6a) are set to zero
+as for apolar groups. Overall, our results suggest that the poor
+performance of IDTBT-P100 in OECTs is likely because of the
+poorly organised character of the film and the associated
+additional source of disorder introduced by the polar side
+chains. Increasing the degree of structural order in the polymer
+films thus appears as an attractive strategy, especially if it can
+be combined with the use of mixed (amphipathic) side chains
+for water and ion intake where the polar moieties are properly
+Table 4
+DFT-calculated standard deviation of the energetic disorder
+when adding one excess positive charge successively on each monomer
+of each IDTBT-P0 and IDTBT-P100 polymer chain
+Polymer
+Morphology
+Standard deviation (meV)
+IDTBT-P0
+Amorphous
+43
+IDTBT-P100
+Amorphous
+113
+IDTBT-P100
+Amorphous (5% water)
+109
+IDTBT-P100
+Amorphous (25% water)
+110
+IDTBT-P0
+Crystalline
+22
+IDTBT-P100
+Crystalline
+46
+All systems comprise 20 hexamers.
+Fig. 6
+(a) DFT-calculated standard deviation of the energetic disorder in IDTBT-P100 (cofacial stacking) when tuning the atomic charges along the
+oligoether segment of the side chain. The values are obtained from the analysis of the last frame of the 1 ns MD (NPT, p = 1 atm, T = room temperature).
+The atomic charges are estimated at the electrostatic potential quantum-chemical level (*) and set to 0 for zero atomic charges where indicated;
+(b) schematic illustration of cofacial polymer packing with side chain interdigitation giving rise to close proximity between the polar terminus (middle
+image) of a side chain and the neighbouring polymer backbone; this distance could be increased if the polar segment is moved to the middle of the side
+chain (bottom image).
+Paper
+Journal of Materials Chemistry C
+Open Access Article. Published on 12 February 2024. Downloaded on 5/10/2024 2:01:51 AM. 
+This article is licensed under a Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+3696 |  J. Mater. Chem. C, 2024, 12, 3686–3697
+This journal is © The Royal Society of Chemistry 2024
+placed near the middle to maximize their separation from the
+conjugated backbones from the same or adjacent layers
+(Fig. 6b).
+Considering why IDTBT behaves diﬀerently to other semi-
+conducting polymers that have been structurally modified to
+impart mixed ionic–electronic transport properties we believe it
+is related to the microstructure and the mechanism of charge
+transport. Because IDTBT has no pronounced, close p–p stack-
+ing the electronic charge transport is particularly sensitive to
+the presence of energetic disorder in the vicinity of the sites at
+which interchain hopping occurs. The presence of polar side
+chains, which are introduced in a random fashion along the
+polymer chain due to the statistical polymerisation process and
+have permanent dipoles and a different conformation com-
+pared to linear alkyl chains, in the vicinity of the close inter-
+chain
+contacts
+can
+introduce
+energetic
+barriers
+for
+the
+interchain hopping process that the electronic charge carrier
+mobility is very sensitive to.
+In conclusion, when considering the learning outcomes
+from this study in the context of future molecular design
+strategies, our experimental work and combined classical/
+quantum simulations have shown that the performance of
+OECT devices can be strongly altered by the presence of polar
+side chains. Their interactions with the conjugated backbone
+can lead to a dramatic increase of the energetic disorder.
+However, two strategies can limit this increase: (i) the use of
+semi-crystalline instead of near-amorphous organic semicon-
+ductors and (ii) the judicious design of the polar side chains,
+i.e., by incorporating the hydrophilic segment between two
+apolar regions.
+Data availability
+The data that support the findings of this work obtained at the
+University of Bern are available as open access in the BORIS
+Repository of the University of Bern at https://doi.org/10.48620/389.
+Author contributions
+I. H.: investigation, formal analysis, writing; V. L.: investigation,
+formal analysis, writing; M. W.: investigation, formal analysis,
+writing; H.-Y. W.: investigation, formal analysis, writing; L. Z.:
+investigation, formal analysis; R. M.-H.: formal analysis, writing;
+P. G.-F.: investigation, formal analysis; P. C.: investigation,
+formal analysis; S. H.: investigation, formal analysis; D. M.:
+investigation, formal analysis; R. W.: investigation, formal ana-
+lysis; B. D. P.: formal analysis; J. S.: investigation; A. L.: investiga-
+tion, formal analysis; J. R.: supervision; H. S.: supervision; N. B.:
+conceptualization, supervision, writing; D. B.: conceptualization,
+supervision, writing; S.F.: conceptualization, supervision, writ-
+ing; C. B. N.: conceptualization, supervision, writing.
+Conflicts of interest
+There are no conflicts to declare.
+Acknowledgements
+We acknowledge funding from the European Commission
+Horizon 2020 Future and Emerging Technologies (FET) project
+MITICS (964677). The computational resources in Mons are
+supported by the FNRS ‘‘Consortium des Equipements de
+Calcul Intensif–CECI’’ program Grant No. 2.5020.11 and by
+the Walloon Region (ZENOBE Tier-1 supercomputer, under
+grant 1117545). R.W. and J.R. acknowledge support from the
+National Science Foundation, NSF award DMR-1751308. This
+research used resources of the Advanced Photon Source; a U.S.
+Department of Energy (DOE) Office of Science User Facility
+operated for the DOE Office of Science by Argonne National
+Laboratory under Contract No. DE-AC02-06CH11357. D.B. is
+FNRS Research Director.
+References
+1 B. D. Paulsen, K. Tybrandt, E. Stavrinidou and J. Rivnay, Nat.
+Mater., 2020, 19, 13–26.
+2 F.
+Torricelli,
+D.
+Z.
+Adrahtas,
+Z.
+Bao,
+M.
+Berggren,
+F. Biscarini, A. Bonfiglio, C. A. Bortolotti, C. D. Frisbie,
+E. Macchia, G. G. Malliaras, I. McCulloch, M. Moser,
+T.-Q. Nguyen, R. M. Owens, A. Salleo, A. Spanu and
+L. Torsi, Nat. Rev. Methods Primers, 2021, 1, 66.
+3 C. J. Kousseﬀ, R. Halaksa, Z. S. Parr and C. B. Nielsen, Chem.
+Rev., 2022, 122, 4397–4419.
+4 J. Rivnay, P. Leleux, M. Ferro, M. Sessolo, A. Williamson,
+D. A. Koutsouras, D. Khodagholy, M. Ramuz, X. Strakosas,
+R. M. Owens, C. Benar, J.-M. J. M. Badier, C. Bernard and
+G. G. Malliaras, Sci. Adv., 2015, 1, e1400251.
+5 M.
+J.
+Donahue,
+A.
+Sanchez-Sanchez,
+S.
+Inal,
+J.
+Qu,
+R.
+M.
+Owens,
+D.
+Mecerreyes,
+G.
+G.
+Malliaras
+and
+D. C. Martin, Mater. Sci. Eng., R, 2020, 140, 100546.
+6 Y. Kim, H. Noh, B. D. Paulsen, J. Kim, I. Y. Jo, H. J. Ahn,
+J. Rivnay and M. H. Yoon, Adv. Mater., 2021, 33, 2007550.
+7 A. Giovannitti,
+D.-T.
+Sbircea, S.
+Inal,
+C.
+B. Nielsen,
+E. Bandiello, D. A. Hanifi, M. Sessolo, G. G. Malliaras,
+I. McCulloch and J. Rivnay, Proc. Natl. Acad. Sci. U. S. A.,
+2016, 113, 12017–12022.
+8 T. Nicolini, J. Surgailis, A. Savva, A. D. Scaccabarozzi,
+R. Nakar, D. Thuau, G. Wantz, L. J. Richter, O. Dautel,
+G. Hadziioannou and N. Stingelin, Adv. Mater., 2020,
+33, 2005723.
+9 A. T. Lill, D. X. Cao, M. Schrock, J. Vollbrecht, J. Huang,
+T.
+Nguyen-Dang,
+V.
+V.
+Brus,
+B.
+Yurash,
+D.
+Leifert,
+G.
+C.
+Bazan
+and
+T.
+Q.
+Nguyen,
+Adv.
+Mater.,
+2020,
+32, 1908120.
+10 Z. S. Parr, R. B. Rashid, B. D. Paulsen, B. Poggi, E. Tan,
+M.
+Freeley,
+M.
+Palma,
+I.
+Abrahams,
+J.
+Rivnay
+and
+C. B. Nielsen, Adv. Electron. Mater., 2020, 6, 2000215.
+11 C. B. Nielsen, A. Giovannitti, D.-T. T. Sbircea, E. Bandiello,
+M. R. Niazi, D. A. Hanifi, M. Sessolo, A. Amassian,
+G. G. Malliaras, J. Rivnay and I. Mcculloch, J. Am. Chem.
+Soc., 2016, 138, 10252–10259.
+Journal of Materials Chemistry C
+Paper
+Open Access Article. Published on 12 February 2024. Downloaded on 5/10/2024 2:01:51 AM. 
+This article is licensed under a Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+
+This journal is © The Royal Society of Chemistry 2024
+J. Mater. Chem. C, 2024, 12, 3686–3697 |  3697
+12 A. Giovannitti, C. B. Nielsen, D.-T. T. Sbircea, S. Inal, M. Donahue,
+M. R. Niazi, D. A. Hanifi, A. Amassian, G. G. Malliaras, J. Rivnay
+and I. Mcculloch, Nat. Commun., 2016, 7, 13066.
+13 M. Moser, A. Savva, K. Thorley, B. D. Paulsen, T. C. Hidalgo,
+D. Ohayon, H. Chen, A. Giovannitti, A. Marks, N. Gasparini,
+A. Wadsworth, J. Rivnay, S. Inal and I. McCulloch, Angew.
+Chem., 2021, 133, 7856–7864.
+14 G. Krauss, F. Meichsner, A. Hochgesang, J. Mohanraj,
+S. Salehi, P. Schmode and M. Thelakkat, Adv. Funct. Mater.,
+2021, 31, 2010048.
+15 E. Tan, J. Kim, K. Stewart, C. Pitsalidis, S. Kwon, N. Siemons,
+J. Kim, Y. Jiang, J. M. Frost, D. Pearce, J. E. Tyrrell, J. Nelson,
+R. M. Owens, Y. H. Kim and J. S. Kim, Adv. Mater., 2022,
+34, 2202574.
+16 Y. Wang, E. Zeglio, H. Liao, J. Xu, F. Liu, Z. Li, I. P. Maria,
+D. Mawad, A. Herland, I. Mcculloch and W. Yue, Chem.
+Mater., 2019, 31, 9797–9806.
+17 Z. S. Parr, J. Borges-Gonza´lez, R. B. Rashid, K. J. Thorley,
+D.
+Meli,
+B.
+D.
+Paulsen,
+J.
+Strzalka,
+J.
+Rivnay
+and
+C. B. Nielsen, Adv. Mater., 2022, 34, 2107829.
+18 W. Zhang, J. Smith, S. E. Watkins, R. Gysel, M. McGehee,
+A. Salleo, J. Kirkpatrick, R. S. Ashraf, T. D. Anthopoulos,
+M. Heeney and I. McCulloch, J. Am. Chem. Soc., 2010, 132,
+11437–11439.
+19 X. Zhang, H. Bronstein, A. J. Kronemeijer, J. Smith, Y. Kim,
+R. J. Kline, L. J. Richter, T. D. Anthopoulos, H. Sirringhaus,
+K.
+Song,
+M.
+Heeney,
+W.
+Zhang,
+I.
+McCulloch
+and
+D. M. Delongchamp, Nat. Commun., 2013, 4, 2238.
+20 I. Dobryden, V. V. Korolkov, V. Lemaur, M. Waldrip,
+H.-I. Un, D. Simatos, L. J. Spalek, O. D. Jurchescu,
+Y. Olivier, P. M. Claesson and D. Venkateshvaran, Nat.
+Commun., 2022, 13, 3076.
+21 D. Venkateshvaran, M. Nikolka, A. Sadhanala, V. Lemaur,
+M. Zelazny, M. Kepa, M. Hurhangee, A. J. Kronemeijer,
+V.
+Pecunia,
+I.
+Nasrallah,
+I.
+Romanov,
+K.
+Broch,
+I. McCulloch, D. Emin, Y. Olivier, J. Cornil, D. Beljonne
+and H. Sirringhaus, Nature, 2014, 515, 384–388.
+22 P. A. Finn, I. E. Jacobs, J. Armitage, R. Wu, B. D. Paulsen,
+M. Freeley, M. Palma, J. Rivnay, H. Sirringhaus and
+C. B. Nielsen, J. Mater. Chem. C, 2020, 8, 16216–16223.
+23 A. Kahn, Mater. Horizons, 2016, 3, 7–10.
+24 O.
+Fenwick,
+C.
+Van Dyck,
+K.
+Murugavel,
+D.
+Cornil,
+F. Reinders, S. Haar, M. Mayor, J. Cornil and P. Samorı`,
+J. Mater. Chem. C, 2015, 3, 3007–3015.
+25 V.
+Lemaur,
+J.
+Cornil,
+R.
+Lazzaroni,
+H.
+Sirringhaus,
+D. Beljonne and Y. Olivier, Chem. Mater., 2019, 31,
+6889–6899.
+26 I. E. Jacobs, G. D’avino, V. Lemaur, Y. Lin, Y. Huang,
+C.
+Chen,
+T.
+F.
+Harrelson,
+W.
+Wood,
+L.
+J.
+Spalek,
+T. Mustafa, C. A. O’keefe, X. Ren, D. Simatos, D. Tjhe,
+M. Statz, J. W. Strzalka, J. K. Lee, I. Mcculloch, S. Fratini,
+D. Beljonne and H. Sirringhaus, J. Am. Chem. Soc., 2022, 144,
+3005–3019.
+27 S. H. Kim, H. Yook, W. Sung, J. Choi, H. Lim, S. Chung,
+J. W. Han and K. Cho, Adv. Mater., 2023, 35, 2207320.
+28 S. T. Keene, A. Rao and G. G. Malliaras, Sci. Adv., 2023,
+9, eadi3536.
+29 T. H. Thomas, D. J. Harkin, A. J. Gillett, V. Lemaur,
+M. Nikolka, A. Sadhanala, J. M. Richter, J. Armitage,
+H.
+Chen,
+I.
+McCulloch,
+S.
+M.
+Menke,
+Y.
+Olivier,
+D. Beljonne and H. Sirringhaus, Nat. Commun., 2019,
+10, 2614.
+30 R. Dilmurat, V. Lemaur, Y. Olivier, S. M. Gali and
+D. Beljonne, J. Phys. Chem. C, 2022, 126, 3118–3126.
+31 A. Giovannitti, I. P. Maria, D. Hanifi, M. J. Donahue,
+D. Bryant, K. J. Barth, B. E. Makdah, A. Savva, D. Moia,
+M. Zetek, P. R. F. Barnes, O. G. Reid, S. Inal, G. Rumbles,
+G. G. Malliaras, J. Nelson, J. Rivnay and I. McCulloch, Chem.
+Mater., 2018, 30, 2945–2953.
+32 M. Nikolka, I. Nasrallah, B. Rose, M. K. Ravva, K. Broch,
+A. Sadhanala, D. Harkin, J. Charmet, M. Hurhangee,
+A. Brown, S. Illig, P. Too, J. Jongman, I. McCulloch, J.-L.
+L. Bredas and H. Sirringhaus, Nat. Mater., 2017, 16,
+356–362.
+33 M. Nikolka, G. Schweicher, J. Armitage, I. Nasrallah,
+C.
+Jellett,
+Z.
+Guo,
+M.
+Hurhangee,
+A.
+Sadhanala,
+I. McCulloch, C. B. Nielsen and H. Sirringhaus, Adv. Mater.,
+2018, 30, 1801874.
+34 B. Xu, X. Yi, T. Y. Huang, Z. Zheng, J. Zhang, A. Salehi,
+V. Coropceanu, C. H. Y. Ho, S. R. Marder, M. F. Toney,
+J. L. Bre´das, F. So and J. R. Reynolds, Adv. Funct. Mater.,
+2018, 28, 1803418.
+Paper
+Journal of Materials Chemistry C
+Open Access Article. Published on 12 February 2024. Downloaded on 5/10/2024 2:01:51 AM. 
+This article is licensed under a Creative Commons Attribution 3.0 Unported Licence.
+View Article Online
+

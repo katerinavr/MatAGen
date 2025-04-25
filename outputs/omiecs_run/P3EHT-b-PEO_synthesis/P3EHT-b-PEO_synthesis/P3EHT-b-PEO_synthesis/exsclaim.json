@@ -1,0 +1,717 @@
+{
+   "page_1_img_1.png": {
+      "title": "nl302454c 1..6",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3EHT-b-PEO_synthesis\\P3EHT-b-PEO_synthesis",
+      "image_url": [],
+      "figure_name": "page_1_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_1_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.16747835278511047,
+            "height": 243,
+            "width": 280,
+            "geometry": [
+               {
+                  "x": 719,
+                  "y": 266
+               },
+               {
+                  "x": 999,
+                  "y": 266
+               },
+               {
+                  "x": 719,
+                  "y": 509
+               },
+               {
+                  "x": 999,
+                  "y": 509
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 719,
+                     "y": 266
+                  },
+                  {
+                     "x": 999,
+                     "y": 266
+                  },
+                  {
+                     "x": 719,
+                     "y": 509
+                  },
+                  {
+                     "x": 999,
+                     "y": 509
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 727,
+                           "y": 477
+                        },
+                        {
+                           "x": 727,
+                           "y": 497
+                        },
+                        {
+                           "x": 794,
+                           "y": 497
+                        },
+                        {
+                           "x": 794,
+                           "y": 477
+                        }
+                     ],
+                     "text": "100.0 nm",
+                     "label_confidence": 0.9447968006134033,
+                     "box_confidence": 0.989741325378418,
+                     "nm": 100.0
+                  },
+                  "geometry": [
+                     {
+                        "x": 729,
+                        "y": 500
+                     },
+                     {
+                        "x": 729,
+                        "y": 506
+                     },
+                     {
+                        "x": 786,
+                        "y": 506
+                     },
+                     {
+                        "x": 786,
+                        "y": 500
+                     }
+                  ],
+                  "confidence": 0.9764069318771362,
+                  "length": 57,
+                  "label_line_distance": 265.0
+               }
+            ],
+            "nm_height": 426.3,
+            "nm_width": 491.2,
+            "scale_label": "100.0 nm",
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": [
+            {
+               "label": {
+                  "geometry": [
+                     {
+                        "x": 733,
+                        "y": 211
+                     },
+                     {
+                        "x": 733,
+                        "y": 228
+                     },
+                     {
+                        "x": 796,
+                        "y": 228
+                     },
+                     {
+                        "x": 796,
+                        "y": 211
+                     }
+                  ],
+                  "text": "100.0 nm",
+                  "label_confidence": 0.9373415112495422,
+                  "box_confidence": 0.9847132563591003,
+                  "nm": 100.0
+               },
+               "geometry": [
+                  {
+                     "x": 734,
+                     "y": 229
+                  },
+                  {
+                     "x": 734,
+                     "y": 236
+                  },
+                  {
+                     "x": 788,
+                     "y": 236
+                  },
+                  {
+                     "x": 788,
+                     "y": 229
+                  }
+               ],
+               "confidence": 0.9766137003898621,
+               "length": 54,
+               "label_line_distance": 181.25
+            }
+         ]
+      },
+      "caption_delimiter": 0
+   },
+   "page_2_img_1.png": {
+      "title": "nl302454c 1..6",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3EHT-b-PEO_synthesis\\P3EHT-b-PEO_synthesis",
+      "image_url": [],
+      "figure_name": "page_2_img_1.png",
+      "full_caption": "Figure 1. (a) Synthetic scheme of P3EHT-b-PEO block copolymer. (b) SEC traces of homopolymers and P3EHT-b-PEO (see Supporting Information for more details).",
+      "figure_path": "output\\figures\\page_2_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.5828396677970886,
+            "height": 1312,
+            "width": 1218,
+            "geometry": [
+               {
+                  "x": 1921,
+                  "y": 18
+               },
+               {
+                  "x": 3139,
+                  "y": 18
+               },
+               {
+                  "x": 1921,
+                  "y": 1330
+               },
+               {
+                  "x": 3139,
+                  "y": 1330
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 1921,
+                     "y": 18
+                  },
+                  {
+                     "x": 3139,
+                     "y": 18
+                  },
+                  {
+                     "x": 1921,
+                     "y": 1330
+                  },
+                  {
+                     "x": 3139,
+                     "y": 1330
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Synthetic scheme of P3EHT-b-PEO block copolymer.",
+            "keywords": [
+               "Block copolymer",
+               "Synthesis",
+               "P3EHT-b-PEO"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.5172116160392761,
+            "height": 906,
+            "width": 1497,
+            "geometry": [
+               {
+                  "x": 828,
+                  "y": 1387
+               },
+               {
+                  "x": 2325,
+                  "y": 1387
+               },
+               {
+                  "x": 828,
+                  "y": 2293
+               },
+               {
+                  "x": 2325,
+                  "y": 2293
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 828,
+                     "y": 1387
+                  },
+                  {
+                     "x": 2325,
+                     "y": 1387
+                  },
+                  {
+                     "x": 828,
+                     "y": 2293
+                  },
+                  {
+                     "x": 2325,
+                     "y": 2293
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "SEC traces of homopolymers and P3EHT-b-PEO (see Supporting Information for more details).",
+            "keywords": [
+               "SEC",
+               "homopolymers",
+               "P3EHT-b-PEO"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_4_img_1.png": {
+      "title": "nl302454c 1..6",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3EHT-b-PEO_synthesis\\P3EHT-b-PEO_synthesis",
+      "image_url": [],
+      "figure_name": "page_4_img_1.png",
+      "full_caption": "Figure 3. (a) Heating scan and (b) cooling scan SAXS curves of P3EHT-b-PEO (r = 0). The inset in (a) is the full width half-maximum (fwhm) of the primary scattering peak vs T (temperature) marking the indication of order-disorder phase transition. The melt-state gyroid morphology (90 \u00b0C) is destroyed ('breakout') upon crystallization of the P3EHT block at 28 \u00b0C. The filled triangles denote peaks corresponding to the gyroid morphology, and the unfilled triangles denote peaks corresponding to the lamellar morphology. (c) Bright-field transmission electron microscopy (TEM) image of P3EHT-b-PEO (r = 0) shows that the 'breakout' morphology is lamellar at room temperature. Contrast arises from the higher electron density in the semicrystalline P3EHT (dark phase).",
+      "figure_path": "output\\figures\\page_4_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.98047935962677,
+            "height": 877,
+            "width": 894,
+            "geometry": [
+               {
+                  "x": 504,
+                  "y": 1710
+               },
+               {
+                  "x": 1398,
+                  "y": 1710
+               },
+               {
+                  "x": 504,
+                  "y": 2587
+               },
+               {
+                  "x": 1398,
+                  "y": 2587
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 504,
+                     "y": 1710
+                  },
+                  {
+                     "x": 1398,
+                     "y": 1710
+                  },
+                  {
+                     "x": 504,
+                     "y": 2587
+                  },
+                  {
+                     "x": 1398,
+                     "y": 2587
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 551,
+                           "y": 2493
+                        },
+                        {
+                           "x": 551,
+                           "y": 2544
+                        },
+                        {
+                           "x": 743,
+                           "y": 2544
+                        },
+                        {
+                           "x": 743,
+                           "y": 2493
+                        }
+                     ],
+                     "text": "100.0 nm",
+                     "label_confidence": 0.8068988919258118,
+                     "box_confidence": 0.982396125793457,
+                     "nm": 100.0
+                  },
+                  "geometry": [
+                     {
+                        "x": 548,
+                        "y": 2548
+                     },
+                     {
+                        "x": 548,
+                        "y": 2567
+                     },
+                     {
+                        "x": 720,
+                        "y": 2567
+                     },
+                     {
+                        "x": 720,
+                        "y": 2548
+                     }
+                  ],
+                  "confidence": 0.9758771657943726,
+                  "length": 171,
+                  "label_line_distance": 1690.0
+               }
+            ],
+            "nm_height": 512.8,
+            "nm_width": 522.8,
+            "scale_label": "100.0 nm",
+            "caption": "Bright-field transmission electron microscopy (TEM) image of P3EHT-b-PEO (r = 0) shows that the 'breakout' morphology is lamellar at room temperature. Contrast arises from the higher electron density in the semicrystalline P3EHT (dark phase).",
+            "keywords": [
+               "Bright-field TEM",
+               "lamellar morphology",
+               "semicrystalline P3EHT"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9681679606437683,
+            "height": 1659,
+            "width": 944,
+            "geometry": [
+               {
+                  "x": 951,
+                  "y": 1
+               },
+               {
+                  "x": 1895,
+                  "y": 1
+               },
+               {
+                  "x": 951,
+                  "y": 1660
+               },
+               {
+                  "x": 1895,
+                  "y": 1660
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 951,
+                     "y": 1
+                  },
+                  {
+                     "x": 1895,
+                     "y": 1
+                  },
+                  {
+                     "x": 951,
+                     "y": 1660
+                  },
+                  {
+                     "x": 1895,
+                     "y": 1660
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Cooling scan SAXS curves of P3EHT-b-PEO (r = 0). The melt-state gyroid morphology (90 \u00b0C) is destroyed ('breakout') upon crystallization of the P3EHT block at 28 \u00b0C. The filled triangles denote peaks corresponding to the gyroid morphology, and the unfilled triangles denote peaks corresponding to the lamellar morphology.",
+            "keywords": [
+               "SAXS",
+               "gyroid",
+               "lamellar"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9588575959205627,
+            "height": 1656,
+            "width": 940,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 3
+               },
+               {
+                  "x": 940,
+                  "y": 3
+               },
+               {
+                  "x": 0,
+                  "y": 1659
+               },
+               {
+                  "x": 940,
+                  "y": 1659
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 3
+                  },
+                  {
+                     "x": 940,
+                     "y": 3
+                  },
+                  {
+                     "x": 0,
+                     "y": 1659
+                  },
+                  {
+                     "x": 940,
+                     "y": 1659
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Heating scan SAXS curves of P3EHT-b-PEO (r = 0). The inset in (a) is the full width half-maximum (fwhm) of the primary scattering peak vs T (temperature) marking the indication of order-disorder phase transition.",
+            "keywords": [
+               "SAXS",
+               "phase transition",
+               "temperature"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_5_img_1.png": {
+      "title": "nl302454c 1..6",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3EHT-b-PEO_synthesis\\P3EHT-b-PEO_synthesis",
+      "image_url": [],
+      "figure_name": "page_5_img_1.png",
+      "full_caption": "Figure 4. (a) Cooling run SAXS curves of P3EHT-b-PEO (r = 0.125). The lamellar morphology is retained after 12 h at 28 \u00b0C where P3EHT block fully crystallizes (confined crystallization). (b) Bright-field TEM image of P3EHT-b-PEO (r = 0.125) at room temperature indicating a high degree of crystallinity, with the higher electron density in the semicrystalline P3EHT (dark phase).",
+      "figure_path": "output\\figures\\page_5_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.967220664024353,
+            "height": 945,
+            "width": 942,
+            "geometry": [
+               {
+                  "x": 28,
+                  "y": 1555
+               },
+               {
+                  "x": 970,
+                  "y": 1555
+               },
+               {
+                  "x": 28,
+                  "y": 2500
+               },
+               {
+                  "x": 970,
+                  "y": 2500
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 28,
+                     "y": 1555
+                  },
+                  {
+                     "x": 970,
+                     "y": 1555
+                  },
+                  {
+                     "x": 28,
+                     "y": 2500
+                  },
+                  {
+                     "x": 970,
+                     "y": 2500
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 57,
+                           "y": 2390
+                        },
+                        {
+                           "x": 57,
+                           "y": 2445
+                        },
+                        {
+                           "x": 275,
+                           "y": 2445
+                        },
+                        {
+                           "x": 275,
+                           "y": 2390
+                        }
+                     ],
+                     "text": "100.0 nm",
+                     "label_confidence": 0.8759417533874512,
+                     "box_confidence": 0.9784963130950928,
+                     "nm": 100.0
+                  },
+                  "geometry": [
+                     {
+                        "x": 62,
+                        "y": 2465
+                     },
+                     {
+                        "x": 62,
+                        "y": 2485
+                     },
+                     {
+                        "x": 250,
+                        "y": 2485
+                     },
+                     {
+                        "x": 250,
+                        "y": 2465
+                     }
+                  ],
+                  "confidence": 0.9789658784866333,
+                  "length": 187,
+                  "label_line_distance": 3406.25
+               }
+            ],
+            "nm_height": 505.3,
+            "nm_width": 503.7,
+            "scale_label": "100.0 nm",
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9656581878662109,
+            "height": 1501,
+            "width": 1000,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 4
+               },
+               {
+                  "x": 1000,
+                  "y": 4
+               },
+               {
+                  "x": 0,
+                  "y": 1505
+               },
+               {
+                  "x": 1000,
+                  "y": 1505
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 4
+                  },
+                  {
+                     "x": 1000,
+                     "y": 4
+                  },
+                  {
+                     "x": 0,
+                     "y": 1505
+                  },
+                  {
+                     "x": 1000,
+                     "y": 1505
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Cooling run SAXS curves of P3EHT-b-PEO (r = 0.125). The lamellar morphology is retained after 12 h at 28 \u00b0C where P3EHT block fully crystallizes (confined crystallization).",
+            "keywords": [
+               "SAXS",
+               "lamellar morphology",
+               "crystallization"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "b",
+               "description": "Bright-field TEM image of P3EHT-b-PEO (r = 0.125) at room temperature indicating a high degree of crystallinity, with the higher electron density in the semicrystalline P3EHT (dark phase).",
+               "keywords": [
+                  "Bright-field TEM",
+                  "Crystallinity",
+                  "P3EHT-b-PEO"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   }
+}

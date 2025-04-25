@@ -1,0 +1,1192 @@
+Inﬂuence of Water on the Performance of Organic Electrochemical
+Transistors
+Achilleas Savva,† Camila Cendra,∥Andrea Giugni,‡ Bruno Torre,‡ Jokubas Surgailis,† David Ohayon,†
+Alexander Giovannitti,⊥Iain McCulloch,§,⊥Enzo Di Fabrizio,‡ Alberto Salleo,∥Jonathan Rivnay,#
+and Sahika Inal*,†
+†Biological and Environmental Science and Engineering, ‡SMILEs laboratory, Physical Science and Engineering (PSE), and §PSE,
+KAUST Solar Center (KSC), King Abdullah University of Science and Technology (KAUST), Thuwal 23955-6900, Kingdom of
+Saudi Arabia
+∥Department of Materials Science and Engineering, Stanford University, Stanford, California 94305, United States
+⊥Department of Chemistry, Imperial College London, London SW72AZ, U.K.
+#Department of Biomedical Engineering, Northwestern University, Evanston, Illinois 60208, United States
+*
+S Supporting Information
+ABSTRACT: Organic electrochemical transistors (OECTs)
+composed of organic mixed conductors can operate in aqueous,
+biological media and translate low-magnitude ionic ﬂuctuations
+of biological origin into measurable electrical signals. The
+growing technological interest in these biotransducers makes the
+fundamental understanding of ion-to-electron coupling ex-
+tremely important for the design of new materials and devices.
+One crucial aspect in this process that has been so far
+disregarded is the water taken up by the ﬁlm during device
+operation and its eﬀects on device performance. Here, using a
+series of the same electrolyte with varying ion concentrations,
+we quantify the amount of water that is incorporated into a hydrophilic p-type organic semiconductor ﬁlm alongside the dopant
+anions and investigate structural and morphological changes occurring in the ﬁlm upon electrochemical doping. We show that
+inﬁltration of the hydrated dopant ions into the ﬁlm irreversibly changes the polymer structure and negatively impacts the
+eﬃciency, reversibility, and speed of charge generation. When less water is injected into the channel, OECTs exhibit higher
+transconductance and faster switching speeds. Although swelling is commonly suggested to be a necessity for eﬃcient ion-to-
+electron transduction, this work uncovers the negative impact of a swollen channel material on the performance of accumulation
+mode OECTs and lays the foundation for future materials design.
+■INTRODUCTION
+Organic semiconductors revolutionized the way we look at
+electronic materials due to their molecularly tunable electrical
+properties in combination with their soft mechanical proper-
+ties. Importantly, their ability to conduct ionic in addition to
+electronic charges has attracted broad interest, particularly for
+the ﬁeld of bioelectronics.1 In biological systems, signal
+transmission involves ionic ﬂuxes that arise due to local
+transport of ions or charged neurotransmitters across cell
+membranes.2 To transduce these signals, organic semi-
+conductors that accommodate mixed conduction, i.e., organic
+mixed conductors, have shown great potential.3 To this end,
+electronic devices based on organic semiconductors have led to
+state-of-the-art biosensors including implantable electrode
+arrays for measuring cortical neural signals,4 impedance-
+based cell monitoring devices,5 and metabolite sensors.6,7
+Among these devices, organic electrochemical transistors
+(OECTs) that operate in aqueous electrolytes are particularly
+interesting for transducing and amplifying low amplitude ionic
+ﬂuctuations of biological origin.8
+In an OECT, the application of a gate bias drives ions into
+the channel that electrostatically compensate for the electronic
+charges provided by the source electrode. The channel is made
+of an organic mixed conductor that can undergo reversible
+changes in its doping state by exchanging ions with an aqueous
+electrolyte, i.e., the biological media. A typical material for
+OECTs is the p-type semiconducting polymer poly(3,4-
+ethylenedioxythiophene) doped with poly(styrenesulfonate)
+(PEDOT:PSS).9 While such conducting polymer-based
+OECTs operate in depletion mode, it is also possible to
+operate OECTs in accumulation mode if the channel is made
+of a semiconducting polymer permeable to ions.10 These
+polymers consist of a conjugated backbone modiﬁed with side
+Received:
+October 12, 2018
+Revised:
+January 3, 2019
+Published: January 4, 2019
+Article
+pubs.acs.org/cm
+Cite This: Chem. Mater. 2019, 31, 927−937
+© 2019 American Chemical Society
+927
+DOI: 10.1021/acs.chemmater.8b04335
+Chem. Mater. 2019, 31, 927−937
+Downloaded via UNIV OF CHICAGO on December 28, 2021 at 21:19:22 (UTC).
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+chains that are either charged (known as conjugated
+polyelectrolytes) or carry nonionic but polar chemical units
+(e.g., ethylene glycol).11 The rationale of the side chain
+modiﬁcation is to promote interactions of the rather
+hydrophobic backbone with water, enabling ion penetration/
+transport within the channel. With tailored molecular designs,
+accumulation mode materials can be further customized based
+on the need of the applications, e.g., enable speciﬁc
+associations with proteins/cells or adhere stronger to surfaces
+that they are cast on.12 A recent example for such polymers is
+the p-type poly(2-(3,3′-bis(2-(2-(2-methoxyethoxy)ethoxy)-
+ethoxy)-[2,2′-bithiophen]-5-yl)thieno[3,2-b] thiophene), p-
+(g2T-TT), which has shown superior OECT performance
+compared to state-of-the-art PEDOT:PSS-based devices.13
+Regardless of the mode of operation, the identifying character-
+istic of OECTs is the volumetric interactions of the electrolyte
+ions with the channel.14 The extent of these interactions
+governs the transconductance of the device, i.e., the trans-
+duction of an ionic ﬂux into an electronic current.1,15
+While a number of studies have investigated electrochemical
+processes in PEDOT:PSS and the depletion mode
+OECTs,16−18 the electrochemical phenomena at the aqueous
+interface of undoped, single-component semiconducting
+polymer ﬁlms remain rather unexplored. However, the ion
+injection process and mixed transport properties of these
+semiconducting polymers are expected to be inherently
+diﬀerent compared with PEDOT:PSS: the latter swells almost
+double its thickness/volume when immersed in water due to
+the hydrophilic polyanion phase (i.e., PSS), and cation
+transport takes place in this swollen phase, a region (almost)
+physically separated from PEDOT.19 Semiconducting poly-
+mers with grafted hydrophilic side chains, on the other hand,
+do not contain such a bulky ionic phase. Therefore, our gap in
+knowledge, ﬁrst, resides in understanding the route of ions
+inside these ﬁlms. Second, little is known about how the
+polymeric network is aﬀected by the encounter with dopant
+ions. In this context, Guardado et al. have revealed changes in
+lattice spacing and crystallite orientation in the bulk of the
+semiconducting polymer poly(3-hexylthiophene) (P3HT)
+induced upon electrochemical doping by an ionic liquid.20
+The dopant ions are dragged into the crystalline regions when
+a low-frequency, high-amplitude voltage bias is applied across
+the polymer ﬁlm. Such intercalation of dopant molecules in
+crystallites has also been observed when P3HT was chemically
+doped with tetraﬂuorotetracyanoquinodimethane, leading to
+more oligomer-like chains with low hole mobility.21 Giridhar-
+agopal et al., on the other hand, showed that amorphous
+regions of a P3HT ﬁlm undergoes subnanometer swelling as
+dopant anions from an aqueous electrolyte penetrate into the
+ﬁlm.22 These studies evidence a signiﬁcant, voltage-dependent
+distortion of the polymer lattice/nanomorphology upon ion-
+induced doping, which are likely to have consequences on the
+charge transport as well as on the operation of OECTs. Finally,
+during the operation of OECTs in aqueous electrolytes, in
+addition to dopant ions, the polymer ﬁlm also interacts with
+water. The electrolyte ions are hydrated,23 and as such, their
+drift in and out of the polymeric channel might/can involve a
+signiﬁcant amount of water molecules. In fact, we have recently
+shown that when exposed to dedoping potentials, PEDOT:PSS
+ﬁlms undergo signiﬁcant volumetric expansion due to uptake
+not only of cations but also of water, and they shrink as water
+and cations are ejected from the ﬁlm.19 A recent study of
+Ginger and co-workers demonstrated the eﬀect of the
+hydration state of dopant anions on the electrochemical
+doping of P3HT.24 The ions with high hydration numbers in
+water allow water to enter the hydrophobic ﬁlm, which slows
+the transistors and increases the threshold voltage. In contrast
+to P3HT, the aforementioned hydrophilic semiconducting
+polymers can swell with water, which is the feature that
+primarily renders them suitable for OECTs.13 However,
+because of the single-component nature of these polymers,
+water uptake during doping should have implications on the
+microstructure and transport properties as well as on the
+output characteristics of OECTs comprising these polymers.
+Monitoring such in-operando bulk structural and morphological
+state of the ﬁlm and linking it to the extent of swelling and the
+device performance can give us important guidelines to design
+mixed conductors showing favorable ion−polymer interac-
+tions, i.e., high transconductance in OECTs.
+In this study, we investigate the impact of water on the
+electrochemical behavior of the top OECT performer p-type
+semiconductor, p(g2T-TT), in aqueous NaCl solutions of
+varying salt concentrations. Because the hydration of the
+dopant anion, i.e., Cl−, gradually increases with a decrease in
+electrolyte concentration,25 we can modulate the hydration of
+the ﬁlm without changing the nature of the dopant. Doping the
+ﬁlms in these electrolytes allows us to control the extent of
+water/polymer interactions and to monitor the inﬂuence of
+channel hydration on OECT operation. By using electro-
+chemical quartz crystal microbalance with dissipation monitor-
+ing (EQCM-D), we ﬁnd that a signiﬁcant amount of water is
+incorporated into the ﬁlm during electrochemical doping,
+increasing with a decrease in electrolyte concentration. The
+water taken up by the ﬁlm has two main adverse eﬀects: (1) it
+limits the speed of electrochemical switching, and (2) it
+impairs the reversibility of the doping process. We perform ex-
+situ grazing incidence wide-angle X-ray scattering (GIWAXS)
+studies and in-situ Raman spectroscopy to understand the
+consequences of hydration on the polymer microstructure. The
+rather drastic and permanent lamellar expansion upon doping
+conﬁrms that anions can inﬁltrate into the crystallites, while
+water accumulates between the glycol side chains and mainly
+in the amorphous regions of the ﬁlm. Excess water uptake by
+these regions irreversibly disrupts the overall structural order.
+The net result is a decrease in hole mobility. Consequently,
+with an increase in the hydration of the OECT channel, we
+measure a reduction in the transconductance. By controlling
+the degree of swelling of the channeloptimized to enable
+facile ion penetration, yet minimal deterioration of the ﬁlm
+structurethe transconductance is maximized alongside with
+an improvement of switching speeds of OECTs. These results
+show that while swelling of the mixed conductor channel is
+needed to enable OECT operation, it must be carefully
+balanced to minimize adverse structural changes in the ﬁlm.
+■EXPERIMENTAL SECTION
+Materials. p(g2T-TT) was synthesized as described previously.13
+All the other chemicals were purchased from Sigma-Aldrich and used
+as received.
+OECT Fabrication. The devices were fabricated according to the
+parylene-C lift-oﬀmethod reported previously.26 Standard micro-
+scope glass slides were cleaned via sonication in an acetone and
+isopropyl alcohol solution and dried with N2. Connection pads and
+interconnects were deposited through a lift-oﬀprocess using
+photolithographic patterning of positive photoresist (S1813). A
+subsequent metal deposition via sputtering of Cr (10 nm) and of
+Au (120 nm) and metal lift-oﬀusing acetone deﬁnes the Au lines. A
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.8b04335
+Chem. Mater. 2019, 31, 927−937
+928
+
+ﬁrst layer of parylene C (2 μm), deposited together with a small
+amount of 3-(trimethoxysilyl)propyl methacrylate (A-174 Silane) to
+enhance adhesion, acts as an insulator to prevent disturbing capacitive
+eﬀects at the metal liquid interface. Subsequently, an antiadhesive
+layer was spin-coated using a dilution of industrial cleaner (2 wt %,
+Micro-90), and a second parylene-C sacriﬁcial layer (2 μm) is
+deposited. To deﬁne the contact pads and the channel of the OECT, a
+second photolithographic patterning step using a thick positive
+photoresist (5 μm, AZ9260) and AZ developer is used to protect the
+parylene-C layers from a subsequent plasma reactive ion etching step.
+All the polymer solutions were prepared in chloroform at 5 mg/mL (if
+not mentioned otherwise) and spin-coated from a glass ﬁber ﬁlter
+with 0.45 μm pore diameter. Peeling of the parylene-C sacriﬁcial layer
+deﬁnes the channel dimensions. The thickness of the channels was
+measured using a DEKTAK 150 stylus proﬁlometer.
+OECT Characterization. OECTs were characterized using a dual-
+channel source-meter unit (NI-PXI) with custom-written control
+code in LabVIEW. All measurements were performed using an Ag/
+AgCl pellet (D = 2 mm × H = 2 mm; Warner Instruments) as the
+gate electrode. The electrolytes in water were contained in a PDMS
+well on top of the OECTs, and the electrolyte volume was constant at
+80 μL for all measurements. The DC response time of the OECTs
+was estimated using an exponential ﬁt to the drain current recorded
+after applying a 5 ms long doping pulse at the gate electrode. The AC
+response time of the OECTs was calculated via bandwidth
+measurements, using the 3-dB cutoﬀfrequency equivalent to 0.707
+times the peak of transconductance, also known as the half-power
+point. The mobility (μOECT) was determined by applying a constant
+drain bias to the channel and a sinusoidal voltage pulse at the gate
+electrode (ΔVG = 10 mV) with a preset oﬀset (VG, oﬀset) and at
+varying frequencies. The frequency domain relation between the
+measured gate current (ΔIG) and drain current (ΔID) is27
+π τ
+Δ
+=
+Δ
+I
+f
+f
+I
+f
+( )
+2
+( )
+G
+e
+D
+(1)
+Matching the gate current and drain current derived impedance yields
+hole/electron transit time in the channel (τe), as detailed by Rivnay et
+al.28 Using the τe, the channel length (L), and the applied drain bias
+(VD), μOECT can be estimated:
+μ
+τ
+=
+L
+V
+OECT
+2
+e D
+(2)
+Swelling Analysis. We performed EQCM-D measurements using
+a Q-sense analyzer (QE401, Biolin Scientiﬁc). Swelling measurements
+were performed as follows. First, we recorded the QCM-D response
+of the bare Au sensors in the air, followed by the injection of the
+aqueous NaCl solutions into the chamber. This resulted in large shifts
+in f and D due to the density diﬀerences between the two media,
+which must be excluded from the swelling percentage calculation. The
+measurements were then stopped, the sensors were removed, and
+p(g2T-TT) layers were spin-coated directly on the same sensor from
+a chloroform solution (5 mg/mL) at 1K rpm. We then compared the
+absolute diﬀerence in f for multiple overtones between the bare sensor
+and the Ti/Au/p(g2T-TT)-coated sensors, both in air and in the
+corresponding NaCl solutions, by using the function “stitched data” of
+Q-soft software. This function compares the selected data sets based
+on the raw frequencies measured and excludes the eﬀect of the
+diﬀerent densities between the two mediums (Figure S1). Thus, the
+diﬀerence of the f values of the stitched data is directly analogous to
+the thickness of the polymer in both media, which is calculated by
+using the Sauerbrey equation (eq 3).
+EQCM-D Analysis. EQCM-D measurements were performed
+using Autolab PGstat128N potentiostat coupled with Q-sense
+electrochemistry module. The three-electrode setup was composed
+of Ag/AgCl reference, Pt counter, and Au/polymer EQCM-D sensor
+as the working electrode. The physical modeling of the two measured
+parameters, the f and D, is related to the viscoelastic properties of the
+ﬁlm. On the one hand, a rigid ﬁlm shows zero D as there are
+theoretically no energy losses (no viscoelasticity), and the Sauerbrey
+equation can be used to quantify the mass (m), using only one
+overtone as described in eq 3:
+Δ
+= −
+Δ
+m
+n
+f
+17.7
+n
+(3)
+On the other hand, a thicker and/or softer ﬁlm does not follow the
+motion of the crystal and leads to energy losses during the oscillation.
+We approximate thicker and/or soft ﬁlms to behave like a Kelvin−
+Voigt element, which means that they exhibit both viscous and elastic
+characteristics acting in parallel (viscoelastic). A Kelvin−Voigt
+element has a complex shear modulus as described in eq 4:
+μ
+π η
+* =
++
+G
+if
+2
+(4)
+where G* is the complex shear modulus, μ is elasticity (kg m−1 s−2), η
+is viscosity (kg m−1 s−1), and f is the frequency.
+To calculate the mass changes of a thick, viscoelastic ﬁlm, the
+complex shear modulus was analyzed and ﬁtted using at least three
+frequency and dissipation of energy overtones. Q-Tools and D-ﬁnd
+software were used for the modeling and data analysis. Because
+p(g2T-TT) ﬁlms are becoming soft and uptake a signiﬁcant amount
+of water under doping potentials, we used the Kelvin−Voigt
+viscoelastic (VSE) model to ﬁt the data. To quantify the mass
+correctly, we used the f and D data of three diﬀerent overtones (5th,
+7th, and 9th). The good quality of the ﬁts guaranteed the accurate
+mass calculation accumulated within the ﬁlms upon applied
+potentials. To convert the recorded mass into number of Cl−ions,
+we divided the recorded mass values with the weight of pure Cl−
+atoms (5.88725 × 10−23 g/atom).
+Electrochemical Analysis. Electrochemical impedance spectros-
+copy (EIS) was performed from 10 kHz to 0.1 Hz in the EQCM-D
+electrochemical cell. The measurements were performed either at Voc
+or at a dc oﬀset potential (doping) with an ac amplitude of 10 mV.
+The capacitance−frequency plots of each ﬁlm were constructed by
+using the complex impedance formula as described in eq 5:
+ω
+=
++
+Z
+R
+C
+1
+2
+2
+2
+(5)
+The diﬀusion coeﬃcient for the four systems under study was
+calculated based on the Cottrell equation and using the raw data
+obtained from the chronoamperometry, current versus time.
+π
+=
+I
+nFAc
+D
+t
+j
+j
+0
+(6)
+where I is the current, n is the number of electronic charges (to
+oxidize one molecule of the analyte (e.g., p(g2T-TT) = 1), F is the
+Faraday constant (96485 C/mol), A is the area of the electrode
+(0.7854 cm2), cj is the concentration of the electrolyte, Dj is the
+diﬀusion coeﬃcient of the dopant ions in the electrolyte, and t is the
+time.
+X-ray Characterization. Films for ex-situ X-ray scattering were
+prepared inside a N2 glovebox (<1 ppm of O2) by spin-coating a 7.5
+mg/mL solution of p(g2T-TT) in chloroform heated to 60 °C onto
+native oxide p+ silicon substrates at 600 rpm for 15 s and then at 1000
+rpm for 60 s. Spin-coating was followed by brief drying (60 s) on a
+hot plate at 60 °C and longer drying (4 h) in N2 to remove residual
+solvent. Prior to coating, the solution was left stirring overnight at 60
+°C and ﬁltered using a glass ﬁber ﬁlter with 0.45 μm of pore size.
+Samples were measured in various conditions with two diﬀerent
+NaCl(aq) concentrations: 1 M and 10 mM. For the samples that were
+electrically gated, a 80 μL droplet of electrolyte was placed on a
+p(g2T-TT) ﬁlm, where an Ag/AgCl pellet electrode was immersed
+and a voltage was applied across the Ag/AgCl and p+ silicon substrate
+electrodes. After the doping procedure, ﬁlms were rinsed in deionized
+water and dried using a N2 gun. Grazing incidence wide-angle X-ray
+scattering (GIWAXS) was performed at the Stanford Synchrotron
+Radiation Lightsource (SSRL) on beamline 11-3 using an area
+detector (Rayonix MAR-225) and incident energy of 12.73 keV. The
+distance between sample and detector was 320.8 mm, and it was
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.8b04335
+Chem. Mater. 2019, 31, 927−937
+929
+
+calibrated using a LaB6 polycrystalline standard. The incidence angle
+(0.1°) was slightly larger than the critical angle, ensuring that we
+sampled the full depth of the ﬁlm. All X-ray measurements were
+performed in a helium environment to minimize air scattering and
+beam damage to samples. Raw data were normalized by detector
+counts and thickness and reduced and analyzed using a combination
+of Nika 1D SAXS29 and WAXStools software packages in Igor Pro.30
+Raman Spectroscopy. For the Raman spectroelectrochemical
+investigation, two identically prepared p(g2T-TT) ﬁlms were spin-
+coated on transparent glass/Ti-3 nm/Au-18 nm substrates fabricated
+using RF magneton sputtering. The substrates were transparent and
+conductive to allow both doping and access to the Raman beam. The
+ﬁlms were immersed in NaCl(aq) 0.01 and 1 M solutions, and an Ag/
+AgCl electrode was used for the in-situ doping experiments. The
+resonant Raman spectra of the dry and wet samples were measured
+using a Witec alpha Raman spectrometer with the excitation beamline
+He−Ne laser of wavelength 632.8 nm and 50 μW power to avoid
+photothermal eﬀects. The dispersion gratings were 600 and 1800
+grooves/mm. The dry spectrum was collected with a 100× objective,
+while for the spectrum of the ﬁlm in solution we used a 63× water-
+compatible objective. Both objectives have a comparable spatial
+resolution ∼600 nm. For each condition, we mapped the sample with
+4 × 4 points to average out the representative spectrum.
+Spectroelectrochemistry Measurements. Thin ﬁlms were
+prepared on ITO coated glass substrates and the measurements
+were carried out using a UV-vis spectrometer (OceanOptics USB
+2000+) integrated with a Ivium CompactStat potentiostat. A Pt mesh
+was used as the counter electrode and a Ag/AgCl electrode as the
+reference electrode. The indicated voltages were applied versus VOC
+(to compensate for any changes in the threshold voltage) for 10 s
+until the current stabilized prior to recording of the spectrum.
+Atomic Force Microscopy (AFM). AFM measurements were
+performed in tapping mode, using Agilent 5500 SPM-AFM
+equipment and Bruker AFM probes with spring constant k = 2.8
+mN/cm2. The measurements were performed with two diﬀerent
+p(g2T-TT) ﬁlms which were spin-coated on glass/Au substrates from
+a 5 mg/mL solution in chloroform. First, we took the AFM images of
+both ﬁlms in ambient conditions (as-cast). The ﬁlms were then
+immersed in the corresponding electrolyte, doped at −0.5 V vs Ag/
+AgCl for 5 min, dedoped at 0 V for 5 min, and dried again before
+monitoring the surface in ambient conditions.
+■RESULTS AND DISCUSSION
+Inﬂuence of Water on the Electrochemical Doping of
+p(g2T-TT). The electrochemical reactions in a p-type organic
+semiconductor−aqueous electrolyte system involve the in-
+jection of charge carriers (e−) and penetration of hydrated ions
+(A−) to compensate for these charges on the backbone of the
+semiconducting polymer (P):
++
++
+−
++
+−
+−
+F
+P
+A
+P :A
+e
+0
+This phenomenon can be studied by EQCM-Da molecular
+balance that monitors in situ changes in the mass of an
+electroactive ﬁlm coated on a piezoelectric quartz crystal while
+it undergoes an electrochemical reaction.31 In general, a
+decrease in the oscillation frequency (f) of the QCM-D crystal
+indicates an increase of its mass. For a soft ﬁlm, the decrease in
+f is accompanied by an increase in the dissipation of energy
+(D) as a result of energy losses during oscillations.32 To
+determine the amount of water incorporated into p(g2T-TT)
+during electrochemical doping, we studied the EQCM-D
+response of p(g2T-TT) ﬁlms immersed in aqueous electrolytes
+of four diﬀerent NaCl concentrations, i.e., NaCl(aq)10 mM, 100
+mM, 1 M, and 6 M. With an increase in the concentration of
+NaCl(aq), the hydration shell around the anions and the
+number of ion-free water molecules within the electrolyte
+solution reduce signiﬁcantly.33 By changing the electrolyte
+concentration, we therefore aim to modulate the amount of
+water injected into the ﬁlm alongside the Cl−ions. First, we
+measure the swelling of the polymer prior to biasing, which is
+due to water and passive ion diﬀusion. We ﬁnd that passive
+swelling is nearly identical in all concentrations, accounting for
+10−13% of mass increase (Figure S1 and Table S1). Once the
+QCM-D signals (Δf and ΔD) are stabilized, i.e., p(g2T-TT)
+ﬁlms are in thermodynamic equilibrium with the electrolyte,
+sequential doping and dedoping potential pulses are applied,
+and the corresponding changes in QCM-D signals are
+recorded, as shown in Figure S2. For all the ﬁlms, the changes
+in Δf and ΔD upon doping (i.e., V > open circuit voltage
+(VOC) ≈0 V) indicate an increase in the mass of the ﬁlm,
+which is due to uptake of Cl−ions and water molecules. When
+the potential returns to VOC, the signals reverse due to
+expulsion of water and Cl−ions from the ﬁlms. A schematic
+representation of the ion drift in and out of the ﬁlms during the
+EQCM-D measurements is shown in Figure S3. We convert
+the EQCM-D signals into mass changes using viscoelastic
+modeling, and the results are shown in Figure 1a,b, (see
+Experimental Section for more information about the model
+used). When the polymer is doped with less concentrated
+NaCl(aq), the ﬁlm gains more mass for the same applied
+potential. For instance, at 0.5 V, we calculate a mass increase of
+5.6 μg/cm2 in NaCl(aq) 10 mM, while this value is only 2.75
+μg/cm2 in NaCl(aq) 6 M. This corresponds to an increase in
+mass of 86% and 42% in 10 mM and 6 M NaCl(aq) respectively,
+compared with the equilibrium conditions (in the electrolyte,
+before bias). In addition, when the potential is reverted to 0 V,
+a fraction of the injected mass remains in the ﬁlm, which is
+higher at lower NaCl concentrations (e.g., 2.61 μg/cm2 for
+NaCl(aq) 10 mM and 0.49 μg/cm2 for NaCl(aq) 6 M).
+Whereas the measured charge directly corresponds to the
+number of doping anions in the ﬁlm, water uptake is also to be
+expected. In fact, the mass calculated from the injected anions
+is smaller than the measured mass (Figure S4). This
+Figure 1. (a) Applied potential waveform as a function of time.
+Square-shaped doping pulses are applied for 60 s and range from 0.1
+to 0.5 V vs VOC, with a dedoping potential applied at 0 V lasting for
+120 s in between each doping pulse. (b) Changes in the mass of the
+ﬁlms when doped in four electrolytes of varying ion concentrations.
+(c) Top: a schematic representation of p(g2T-TT)-NaCl(aq) system in
+the EQCM-D chamber during doping in low and high concentration
+electrolyte solutions. Bottom: the number of water molecules injected
+into the ﬁlms at the end of the doping pulse at 0.5 V and remaining in
+the ﬁlm upon the subsequent dedoping pulse applied at 0 V as a
+function of NaCl concentration.
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.8b04335
+Chem. Mater. 2019, 31, 927−937
+930
+
+discrepancy must thus correspond to the mass of water being
+dragged in the polymer. The water taken up by the ﬁlms
+increases with a decrease in electrolyte concentration due to
+larger degree of hydration of anions therein (Figure 1c, 0.5 V).
+Moreover, a fraction of water remains in the ﬁlm even after a
+dedoping pulse is applied (Figure 1c, 0 V), and this is most
+pronounced in dilute electrolytes. In addition, changes in the
+dissipation of energy upon doping with low concentration
+NaCl(aq) are larger compared to high concentration NaCl(aq)
+(Figure S3), indicating that the ﬁlm becomes softer due to
+increased water uptake. We note that in these solutions
+osmosis also plays a role in determining the water drift. The
+osmosis eﬀect is signiﬁcantly large in the case of NaCl(aq) 10
+mM due to the maximized diﬀerence in solute concentration
+between this electrolyte and the ﬁlm. Bay et al. suggested that
+very large volume changes that polypyrrole ﬁlms undergo
+during electrochemical reduction are due to the osmotic forces
+which cause water molecules to move into the polymer in
+quantities far in excess of those in the solvation shell of the
+ions in the electrolyte.34 Similar observations are reported by
+Maw and co-workers, who showed that during electrochemical
+switching water is carried in and out of the polymer ﬁlms
+together with electrolyte ions but also independently as a result
+of osmotic pressure.35 These results evidence two important
+phenomena regarding doping of an organic semiconductor in
+aqueous electrolytes: (1) the dopant anions that enter the ﬁlm
+are hydrated, and (2) the ﬁlm swells more upon doping with
+low concentration electrolytes and retains most of these water
+molecules compared with operation at high concentration
+electrolytes.
+The hydration of the polymer ﬁlm aﬀects also the dynamics
+of ion uptake. From the mass uptake versus time curves in
+Figure 1b, we calculated the time required for each p(g2T-TT)
+ﬁlm to accumulate 90% of the total mass (τ) upon doping with
+these solutions (Figure 2a), which is a direct measurement of
+the speed of mass loading into the ﬁlm, i.e., ionic charging. The
+ionic charging is slowest in NaCl(aq) 10 mM and becomes
+faster as the electrolyte concentrations increases regardless of
+the magnitude of the doping pulse. The fastest ionic charging
+is, however, achieved at NaCl(aq) 1 M, rather than NaCl(aq) 6
+M. In addition, assuming that the ion injection into p(g2T-
+TT) is governed by semi-inﬁnite linear diﬀusion, we use the
+Cottrell equation to extract the diﬀusion coeﬃcient of Cl−
+anions. We ﬁnd that for all doping potentials the diﬀusion
+coeﬃcient of the dopant increases with a decrease in
+electrolyte concentration (Figure 2b). The ions in NaCl(aq) 6
+M exhibit, however, the slowest diﬀusion. These results suggest
+that the injection/drift of ions is strongly aﬀected by the ion−
+counterion (Cl−−Na+) attractive forces which are most
+pronounced in the highest concentration electrolyte. These
+forces delay the ion injection from the electrolyte, opposing
+their drift into p(g2T-TT). Thus, the fastest ionic charging is
+achieved when the polymer ﬁlm is doped in NaCl(aq) 1 M. At
+this concentration, the optimum hydration conditions are
+achieved; i.e., the polymer swelling is moderate while the Cl−−
+Na+ attractive forces do not signiﬁcantly hinder the drift of
+anions.
+To further reveal the inﬂuence of water on the speed of ionic
+charging, we used electrochemical impedance spectroscopy
+(EIS) which allows us to investigate ionic charging at diﬀerent
+time scales. We performed EIS prior to biasing as well as at a
+doping potential (V = +0.5 V vs VOC) for all the ﬁlms at
+diﬀerent NaCl concentrations (Figure S5a−d). On the basis of
+these impedance data, we extracted capacitance versus
+frequency plots, all exhibiting a cutoﬀfrequency after which
+the capacitance drops (Figure S5e,f and Figure 2c). In NaCl(aq)
+1 M, the capacitance curve reaches a plateau at 8.5 Hz, i.e., a
+frequency higher than all the other NaCl concentrations
+studied (Figure S5f). The ionic charging of the ﬁlm is thus
+fastest in NaCl(aq) 1 M, in accordance with Figure 2a.
+Moreover, prior to doping, the capacitance values at low
+frequencies (i.e., 0.1 Hz) are similar for all the systems (ca. 2 ×
+10−4 F at 0.1 Hz, Figure S5e), which is also the case when the
+samples are doped (ca. 1.8 × 10−3 F at 0.1 Hz, Figure S5f).
+Based on the low-frequency capacitance of the doped
+polymers, the volumetric capacitance is calculated to be 285
+F/cm3, which is on par with the previously reported values
+(Figure 2c).13 The same C* calculated for all the systems
+under investigation means that at steady-state conditions the
+number of ions injected during doping is the same regardless
+of the electrolyte concentration. On the basis of our
+electrochemical analysis, it is clear that more water is dragged
+in the p(g2T-TT) ﬁlm when doped in less concentrated NaCl
+solution. The excess water molecules lead to large volumetric
+expansion of the ﬁlm and slow down the ionic charging;
+Figure 2. (a) Mass loading time (τ) calculated at each doping pulse in
+electrolytes of diﬀerent ion concentrations. The data are based on the
+mass vs time plots of Figure 1b. (b) Diﬀusion coeﬃcient of Cl−anions
+in diﬀerent electrolytes as a function of doping bias. The values are
+calculated from the chronoamperometry data (Figure S4) using
+Cottrell equation. (c) Volumetric capacitance of the ﬁlms as a
+function of NaCl(aq) concentration measured at 0.5 V vs VOC. Error
+bars correspond to standard deviation from the measured average of
+four ﬁlms with the electrolytes in question.
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.8b04335
+Chem. Mater. 2019, 31, 927−937
+931
+
+however, the charging capacity of the ﬁlm is not aﬀected by its
+hydration state.
+Inﬂuence of Water on the Structural Properties of
+P(G2T-TT). To understand how the injected ions and water
+inﬂuence the structural properties of the ﬁlm, we collected ex-
+situ grazing incidence wide-angle scattering (GIWAXS)
+patterns of thin ﬁlms electrochemically doped in NaCl(aq) 1
+M and 10 mM. In its dry, as-cast condition, p(g2T-TT)
+presents a predominantly edge-on texture,13 with lamellar and
+π-stacking distances of 13.45 and 3.79 Å, respectively. As it can
+be seen in Figure 3, exposure of the polymer to NaCl(aq)1 M
+and NaCl(aq) 10 mM at Vapplied = 0 V does not largely aﬀect the
+lattice spacing of the ordered regions (step 2). Upon
+electrochemical doping (Vapplied = −0.5 V, step 3), however,
+the crystallites experience a permanent expansion in the
+lamellar spacing (∼14−15%) and contraction in the π−π
+stacking direction (∼7−8%). A change in orientation in
+reciprocal space of the π−π stacking peak position, visible in
+the GIWAXS patterns (Figure S6), suggests that the crystallites
+in the polymer experience a unit cell distortion upon doping.
+Similar to the irreversible eﬀects of water uptake on the bulk
+properties of the ﬁlm as measured by EQCM-D, dedoping the
+ﬁlms (Vapplied = 0 V, step 4) does not the reverse the lattice
+distortion to the initial, dry, crystal structure. As our EQCM-D
+and EIS results show, upon doping anions and water penetrate
+into the bulk of the polymer. The rather drastic lamellar
+expansion upon doping conﬁrms that anions can also inﬁltrate
+into the crystallites, likely accumulating between the glycol side
+chains to compensate for electronic charges in the polymer
+backbone. This is in agreement with previous literature
+evidencing that electrochemical doping in nonaqueous electro-
+lytes with anions larger in size than Cl−, such as BF4
+−, AsF6
+−,36
+or bistriﬂimide (TFSI−),20 produces a lamellar expansion in
+poly(3-alkylthiophenes) (i.e., P3HT) attributed to anions
+being located between the alkyl chains. In p(g2T-TT),
+however, due to the hydrophilic nature of the side chains
+and large water uptake upon doping (Figure 1c), we also
+expect water to accumulate between the side chains of the
+crystallites.
+The inﬂuence of water on the crystallites of the polymer is
+subtle. Although water uptake in the bulk of the polymer
+almost doubles when left at doped state after −0.5 V with 10
+mM vs 1 M NaCl, diﬀerences in the lattice spacings of the
+crystallites with salt concentration are rather small. In
+comparison to ﬁlms doped with NaCl(aq) 1 M, the lamellar
+spacing of ﬁlms doped with NaCl(aq)10 mM presents an
+additional expansion of 0.15 Å (see Table S2), which is well
+above the experimental error (∼0.01 Å). In this doping
+condition, diﬀerences in π−π spacing are within the
+experimental error, and thus, no comparisons can be
+performed in this crystallite direction. Dedoping of the
+polymer with diﬀerent electrolyte concentrations (step 4)
+produces no discernible diﬀerences in the lattice spacings.
+Given the small changes in lamellar spacing relative to the
+molecular size of water (1.76 Å)37 and Cl−(crystal radius: 3.62
+Å),37 we suggest that the small increase in lamellar expansion
+when the polymer is doped with low concentration electrolytes
+is due to a slight increase in water uptake by the crystallites. In
+addition, the permanent changes in the crystallites induced
+after doping also suggest that water could be residing in the
+crystallites, even when the polymer is reduced. Complete out-
+of-plane and in-plane lineouts and 2D GIWAXS patterns are
+included in Figures S6 and S7.
+GIWAXS data suggest that the majority of water uptake
+occurs in the amorphous regions of the polymer. We thus
+performed in-situ Raman spectroscopy to probe the impact of
+doping on the bulk of the polymer as the technique monitors
+the ﬁlm structure regardless of its crystal or amorphous content
+and is sensitive to conformational changes and stacking of
+conjugated components.38 The molecular structure of neutral
+Figure 3. (a) Out-of-plane (qz) and in-plane (qxy) X-ray scattering lineouts for the (200) and (010) peaks, respectively, of p(g2T-TT) ﬁlms doped
+with NaCl(aq) 10 mM (black lines) and NaCl(aq) 1 M (green lines). Numbers in parentheses correspond to diﬀerent conditions of the polymer: (1)
+dry, as-cast, (2) immersed in electrolyte, (3) doped at 0.5 V vs VOC, and (4) subsequently dedoped at VOC. Asterisks denote position of scattering
+peaks after lattice distortion induced by electrochemical doping. Dashed lines correspond to center of scattering peaks. (b) Lattice spacing values of
+the π−π stacking and lamellar distances extracted from ﬁtting peak diﬀraction positions of the (010) and (200) peaks, respectively. Error bars in
+lattice spacing correspond to propagated error from peak ﬁtting.
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.8b04335
+Chem. Mater. 2019, 31, 927−937
+932
+
+p(g2T-TT) is shown in Figure 4a, depicting a distribution of
+charge mainly localized around the backbone within the
+aromatic thiophene−thienothiophene rings. The presence and
+the degree of delocalization of π-electrons enhance and
+modulate both the electronic absorption in the visible
+range13 and the polarizability, resulting in a strong Raman
+scattering signal, very sensitive to changes in backbone
+vibrations. Figure 4b shows the high-energy Raman spectrum
+of a dry p(g2T-TT) ﬁlm that consists of two distinct regions
+ascribed to the backbone and the side chains. The main peaks
+in the spectral region between 1200 and 1600 cm−1 are
+associated with the vibrations of the backbone (which beneﬁts
+from an enhanced polarizability due to the π-delocalized
+electrons compared to the side chains), and in particular, the
+three main visible bands (A, B, and C in Figure 4b) refer to the
+in-plane ring modes: CC stretching (≃1406 cm−1,
+thienothiophene core), CC symmetric stretching (≃1448
+cm−1, thiophene core), and CC/C−C asymmetric stretch-
+ing/shrinking collective vibrational mode (≃1494 cm−1). The
+latter (peak C) is associated with oscillations of the nuclei
+along the path of the molecular axis from the ground to the
+excited state, sensitive to π-electron delocalization, electron−
+phonon coupling, or polaron formation, and as such it is
+regarded as an indicator of structural−electronic changes.39
+The region below ca. 1300 cm−1, on the other hand, contains
+C−C skeletal stretching and C−H bending. The C−O
+vibration, indicative of the ethylene glycol side chains, is
+characterized with a less pronounced nonresonant Raman line
+at ca. 1100 cm−1.40
+As shown in Figure 4c, exposing the ﬁlm to the
+corresponding electrolyte does not aﬀect the thiophene ring
+spectral region (compare step 1 with step 2). On the contrary,
+the Raman spectra of both ﬁlms under investigation undergo
+signiﬁcant changes as they are doped (step 3). Particularly, in
+NaCl(aq) 1 M (green lines), peak B becomes broader, blue-
+shifts, and nearly merges with peak A. In NaCl(aq) 10 mM, peak
+B disappears while peak C increases in relative intensity and
+breadth (black lines). In both electrolytes, we observe a
+signiﬁcant decrease in the overall Raman spectral intensity, in
+particular for peaks B and C (Figure S8). Another region that
+is aﬀected by doping is the inter-ring C−C stretching vibration
+at ca. 1215 and 1270 cm−1, indicating an overall reduced bond
+order in the polymer backbone. This is a typical consequence
+of charge redistribution that gives rise to a quinoid-type
+conﬁguration, reducing the π-electron delocalization and the
+degree of long-structural order in poly(thiophenes).41 The
+changes in the backbone region upon doping are attributed to
+the presence of Cl−ions close to the thienothiophene rings and
+the formation of polarons, causing signiﬁcant distortions on
+the vibrational properties of the ring bonds. These distortions
+are more pronounced in NaCl(aq) 1 M compared to NaCl(aq)
+10 mM. We postulate that the limited hydration of the ﬁlm in
+concentrated electrolytes allows a closer interaction of ions
+with the backbone.
+Finally, when the potential is reversed to VOC, while the
+doping-induced changes along the backbone are partially
+recovered for the ﬁlm in NaCl(aq) 10 mM, these are more
+reversible in NaCl(aq)1 M (Figure 4c, step 4). This result is in
+accordance with our EQCM-D ﬁndingsthe fact that a
+substantial amount of mass remains in the ﬁlm upon doping in
+dilute electrolytes. Moreover, looking closer at the spectral
+region associated with the side chains (ca. 1000−1300 cm−1),
+we see that upon dedoping the formerly distinct, well-
+separated peaks reappear only in NaCl(aq) 1 M, but not in
+10 mM (Figure S9). On the basis of these ﬁndings, we suggest
+a route for water that is inﬁltrating into the ﬁlm: water interacts
+mainly with the side chains and localizes in chain interstitial
+spaces, and swelling of these regions disrupts the aggregates. In
+dilute electrolytes, as the doping induced hydration is high,
+water irreversibly leads to structural distortions.
+The eﬀect of electrochemical doping on the electronic
+properties of the ﬁlm can be further investigated via
+spectroelectrochemistry measurements where we monitor the
+changes in the absorbance spectra of the polymer ﬁlms during
+the application of a doping potential in each electrolyte. Figure
+S10a shows that in all electrolytes the π−π* related absorption
+peak is bleached, while the absorption of the polaronic species
+increases with an increase in doping voltage. Notably, these
+changes are more prominent in concentrated electrolytes
+(Figure S10b,c), indicating a higher degree of anion−backbone
+coupling, in agreement with our in-situ Raman spectroscopy
+results. To monitor the eﬀects of electrochemical doping on
+ﬁlm morphology, we next performed atomic force microscopy
+(AFM) measurements. Figure S11 shows the AFM images of
+two polymer ﬁlms in air before and after doping in the
+electrolytes in question. The ﬁlm morphology changes
+signiﬁcantly once the ﬁlms were electrochemically addressed
+in either high- or low-concentration electrolyte. The
+permanent changes that we observe on the ﬁlm surface agree
+well with the irreversible structural distortions suggested by
+Raman and GIWAXS data.
+Inﬂuence of Water on the Operation of OECTs. To
+understand the inﬂuence of water coupled to the polymer ﬁlm
+on OECT characteristics, we characterized micrometer-scale
+OECTs composed of identically prepared p(g2T-TT) channels
+gated in the same four electrolytes. As shown in Figure 5a,b,
+Figure 4. (a) Molecular structure of p(g2T-TT) showing the
+distribution of charge, with increasing electron density from blue to
+red. (b) Characteristic Raman spectrum of p(g2T-TT) ﬁlm recorded
+in air. The peaks labeled with A, B, and C are attributed to CC
+stretching, thienothiophene core (≃1406 cm−1), CC symmetric
+stretching (≃1448 cm−1), and CC/C−C asymmetric stretching/
+shrinking (≃1494 cm−1), respectively. The region between ca. 1000
+and 1300 cm−1 is mainly due to the side chains. (c) Changes in the
+Raman spectra of identically prepared ﬁlms during doping in NaCl(aq)
+10 mM (black lines) andNaCl(aq) 1 M (green lines). The spectra were
+recorded when the ﬁlm was dry, i.e., in air (1), immersed in
+electrolyte (2), doped at −0.5 V vs VOC (3), and subsequently
+dedoped at VOC (4).
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.8b04335
+Chem. Mater. 2019, 31, 927−937
+933
+
+upon application of a negative bias at the gate, the source-drain
+current increases, indicative of the accumulation mode of
+operation, regardless of the electrolyte concentration and the
+water coupled to the channel. However, the ON current is
+always higher at higher NaCl concentrations as well as the
+transconductance (Figure 5a,b). We also observe a decent
+increase in the threshold voltage with an increase in electrolyte
+concentration (Figure S12). We hypothesize that since the
+ions are less hydrated in concentrated electrolytes, the ion−
+counterion forces start hindering their drift into the ﬁlm,
+increasing the potential required to inject them.24 Using
+bandwidth measurements (Figure S13a),28 we ﬁnd that the
+hole mobility scales with the NaCl concentration: μOECT is
+0.15, 0.20, 0.22, and 0.33 cm2 V−1 s−1 when doped in NaCl(aq)
+10 mM, 100 mM, 1 M, and 6 M, respectively (Figure 5c). The
+extent of channel swelling inﬂuences also the transient
+characteristics of the OECTs. To determine the switching
+speed of the transistors, we monitored the change in drain
+current upon application of square voltage pulses at the gate
+electrode (Figure S13b). The current−time proﬁles follow an
+exponential behavior and the response times (τOECT) of the
+devices are shown in Figure 5d. The devices switch ON fastest
+when they are gated in NaCl(aq) 1 M, while the slowest
+response is predominantly in NaCl(aq) 10 mM. At the highest
+NaCl(aq) concentration (6 M), the low hydration of ions leads
+to attractive forces between Cl−and Na+ counterions, which
+oppose the injection of Cl−ions into the ﬁlm to compensate
+for the polaron sites. Therefore, the OECTs gated in NaCl(aq)
+6 M switch ON slower compared with 1 M. Similar
+observations were reported by Lin et al., who show that at
+high electrolyte concentrations a higher VG is required to
+compensate for the potential change at the interface between
+the electrolyte and a PEDOT:PSS ﬁlm.42
+Together with the temporal response of the drain current,
+we also measure the current ﬂowing between the gate electrode
+and the channel (Figure S13c). The gate current is modulated
+by the ion movement in the electrolyte, which is then
+transduced as the drain current. The gate current is purely
+capacitive (notice the brief spikes at the beginning and end of
+the doping pulse) and should vanish at steady state. The
+charge redistribution therein is thus correlated to the ionic
+charge injected from the electrolyte into the channel, as the
+same number of countercharges (cations) is injected to the
+gate electrode. The gate electrode accumulates the largest
+amount of charges at NaCl(aq) 1 M (Figure S13d), as the ionic
+charging of the channel is the fastest in this electrolyte.
+During the OECT operation, the channel hydrates
+signiﬁcantly due to the dopant ions entering the ﬁlm with
+Figure 5. Gate voltage dependence of the (a) drain current (ID) and
+(b) transconductance of OECTs comprising p(g2T-TT) in the
+channel (W = 100 μm, L = 10 μm, d = 120 nm). The devices are
+measured in NaCl(aq) solutions of varying ion concentrations at VD =
+−0.5 V. (c) Hole mobility (μOECT) of p(g2T-TT) ﬁlm as a function of
+NaCl(aq) concentration, calculated from the bandwidth measurements
+performed at VG = VD = −0.5 V as shown in Figure S13a. The error
+bars are derived from four diﬀerent OECT channels measured at each
+concentration. (d) Response time of the OECTs (τOECT) as a
+function of NaCl concentration measured at VG = VD = −0.5 V.
+Figure 6. Schematic representation of an OECT channel composed of p(g2T-TT) and gated with an Ag/AgCl electrode immersed in NaCl(aq)
+solutions with diﬀerent ion concentrations. The magniﬁed region depicts the polymer−electrolyte interface and the diﬀerences in the swelling
+behavior of the ﬁlm in low- and high-concentration electrolyte.
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.8b04335
+Chem. Mater. 2019, 31, 927−937
+934
+
+their hydration shell. When the device is operated in low
+concentration NaCl(aq), where Cl−ions drag more water with
+them during their drift, the channel swells more compared with
+when doping in high concentration electrolytes. As the ﬁlm
+swells, it becomes softer (see the large changes in dissipation in
+Figure S2b). The more water the ﬁlm gains upon doping, the
+less it can lose upon dedoping. The osmosis eﬀect also
+contributes to the extensive swelling observed in low-
+concentration electrolytes: the doping potential pushes anions
+into a small volume of the polymer ﬁlm; therefore, a large
+diﬀerence in ion concentration occurs between the electrolyte
+and the ﬁlm. This enables free water molecules spontaneously
+moving into the ﬁlm, most pronounced in dilute electrolytes.
+Figure 6 depicts the diﬀerent swelling behavior of the channel
+when gated in low- and high-concentration electrolytes.
+The water drifting into the ﬁlm aﬀects the polymer structure
+as well as the hole transport therein. Water causes a large
+volumetric expansion of the polymer ﬁlm, but the swelling is
+not uniform throughout the bulk. Ex-situ GIWAXS measure-
+ments suggest that water molecules reside mostly in the
+disordered regions of the polymer, while anions accumulate
+among the side chains (in the interlamellar region of the
+crystallites) to compensate for electronic charges, possibly
+bringing along some water into the crystallites. In-situ Raman
+measurements reveal that side chains remain distorted upon a
+doping/dededoping cycle in low concentration NaCl(aq). The
+large water cloud around the side chains and in amorphous
+regions would result in an overall heterogeneous swelling of
+the polymer ﬁlm upon doping: while these parts of the ﬁlm
+swell with water, the crystalline regions show only a small
+extension in lamella spacing. Such a morphology may not be
+ideal for charge transport, loosening the connectivity of the
+crystallites that are responsible for charge transport. In fact, we
+ﬁnd that hole mobility decreases as the channel swells further.
+Moreover, we postulate that the anions shed the outer water
+molecules around the side chains, and as such their doping
+ability becomes independent of the electrolyte concentration.
+Accordingly, we measure similar capacitance values at low
+frequencies in all electrolytes, while hole transport is aﬀected
+by the electrolyte concentration.
+These structural changes have consequences on device
+performance. The transconductance (gm) of the OECTs scales
+with the product of the volumetric capacitance (C*) and the
+hole mobility (μ) according to
+μ
+=
+*
+−
+g
+d C
+V
+V
+(
+)
+W
+L
+m
+T
+G . As the
+capacitance is not aﬀected by the channel hydration, it is the
+higher hole mobility that is responsible for the higher
+transconductance when the channel hydration is limited. The
+ON/OFF ratio of the OECTs is also higher when gated with
+high-concentration electrolytes. The eﬀect of water uptake is
+not limited to the steady-state characteristics of the OECTs. At
+low concentration electrolytes, the number of ions per unit
+volume is low, leading to a high electrolyte resistance (Figure
+S5, note the electrolyte resistance at high frequency).
+Considering that ionic transit time is τ = RC,27 where R is
+the electrolyte resistance and C is the capacitance of the ﬁlm,
+the increase in electrolyte resistance slows the OECTs. In
+addition to that, for a rapidly switching channel, the ions need
+to move fast within the ﬁlm to reach the polaron sites, and at
+the same time the electronic carriers need to travel along the
+channel. At low concentration electrolytes, ionic charging of
+the ﬁlm is delayed accompanied by a reduction in hole
+mobility, another reason why hydration of the channel leads to
+slow switching speeds in OECTs.
+■CONCLUSIONS
+In summary, we showed, for the ﬁrst time, the inﬂuence of
+water on the doping, structure, and transport properties of a
+new class of amphiphilic organic semiconductors. Rather than
+using diﬀerent anions with varying hydration behavior or
+changing the polymer hydrophilicity, we simply change the
+electrolyte concentration to modulate the hydration properties
+of the dopant. This gives us a handle to solely observe the
+water drift in and out of the ﬁlms and its consequences in
+device performance. The polymer ﬁlm requires an optimum
+degree of hydration for eﬃcient electrochemical doping in
+aqueous electrolytes as well as for fast and high gain
+accumulation mode OECTs. However, controlling the swelling
+of the channel can maximize the ON currents alongside an
+improvement of switching speeds since water accumulating in
+the ﬁlm leads to structural changes that impair the hole
+mobility. Importantly, these results evidence major diﬀerences
+of these polymers compared to PEDOT based systems which
+are used in depletion mode devices where hydration is always
+beneﬁcial for device operation. We suggest that minimizing the
+volumetric expansion of the polymer ﬁlms during doping could
+be a key parameter to design fast and highly eﬃcient ion-to-
+electron transduction devices. This work presents a solid
+understanding of the impact of hydration of mixed conductors
+on the operation of accumulation mode OECTs and lays the
+foundation for future design of eﬃcient ion-to-electron
+transducers.
+■ASSOCIATED CONTENT
+*
+S
+Supporting Information
+The Supporting Information is available free of charge on the
+ACS Publications website at DOI: 10.1021/acs.chemma-
+ter.8b04335.
+Swelling and EQCM-D measurements and analysis, EIS,
+GIWAXS, Raman spectroscopy, spectroelectrochemistry,
+AFM and transient OECT measurements (PDF)
+■AUTHOR INFORMATION
+Corresponding Author
+*E-mail sahika.inal@kaust.edu.sa.
+ORCID
+Jonathan Rivnay: 0000-0002-0602-6485
+Sahika Inal: 0000-0002-1166-1512
+Notes
+The authors declare no competing ﬁnancial interest.
+■ACKNOWLEDGMENTS
+The authors thank Dr. George Nikiforidis for fruitful
+discussions. J.R. acknowledges support from the National
+Science Foundation (Grant NSF DMR-1751308). A.S. and
+C.C. acknowledge support from the NSF (Grant NSF DMR-
+1808401). Portions of this research were performed at the
+Stanford Synchrotron Radiation Lightsource, a national user
+facility operated by Stanford University on behalf of the U.S.
+Department of Energy, Oﬃce of Basic Energy Sciences.
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.8b04335
+Chem. Mater. 2019, 31, 927−937
+935
+
+■REFERENCES
+(1) Inal, S.; Malliaras, G. G.; Rivnay, J. Benchmarking organic mixed
+conductors for transistors. Nat. Commun. 2017, 8 (1), 1767.
+(2) Uzman, A. Molecular biology of the cell, 4th ed. Alberts, B.;
+Johnson, A.; Lewis, J.; Raff, M.; Roberts, K.; Walter, P. Biochem. Mol.
+Biol. Educ. 2003, 31 (4), 212−214.
+(3) Martin, D. C.; Malliaras, G. G. Interfacing Electronic and Ionic
+Charge Transport in Bioelectronics. ChemElectroChem. 2016, 3 (5),
+686−688.
+(4) Lee, W.; Kim, D.; Matsuhisa, N.; Nagase, M.; Sekino, M.;
+Malliaras, G. G.; Yokota, T.; Someya, T. Transparent, conformable,
+active multielectrode array using organic electrochemical transistors.
+Proc. Natl. Acad. Sci. U. S. A. 2017, 114 (40), 10554−10559.
+(5) Curto, V. F.; Marchiori, B.; Hama, A.; Pappa, A.-M.; Ferro, M.
+P.; Braendlein, M.; Rivnay, J.; Fiocchi, M.; Malliaras, G. G.; Ramuz,
+M.; Owens, R. M. Organic transistor platform with integrated
+microfluidics for in-line multi-parametric in vitro cell monitoring.
+Microsys. Nanoeng. 2017, 3, 17028.
+(6) Pappa, A.-M.; Parlak, O.; Scheiblin, G.; Mailley, P.; Salleo, A.;
+Owens, R. M. Organic Electronics for Point-of-Care Metabolite
+Monitoring. Trends Biotechnol. 2018, 36 (1), 45−59.
+(7) Pappa, A. M.; Ohayon, D.; Giovannitti, A.; Maria, I. P.; Savva,
+A.; Uguz, I.; Rivnay, J.; McCulloch, I.; Owens, R. M.; Inal, S. Direct
+metabolite detection with an n-type accumulation mode organic
+electrochemical transistor. Sci. Adv. 2018, 4 (6), No. eaat0911.
+(8) Rivnay, J.; Inal, S.; Salleo, A.; Owens, R. M.; Berggren, M.;
+Malliaras, G. G. Organic electrochemical transistors. Nat. Rev. Mater.
+2018, 3, 17086.
+(9) Khodagholy, D.; Rivnay, J.; Sessolo, M.; Gurfinkel, M.; Leleux,
+P.; Jimison, L. H.; Stavrinidou, E.; Herve, T.; Sanaur, S.; Owens, R.
+M.; Malliaras, G. G. High transconductance organic electrochemical
+transistors. Nat. Commun. 2013, 4, 2133.
+(10) Inal, S.; Rivnay, J.; Leleux, P.; Ferro, M.; Ramuz, M.; Brendel, J.
+C.; Schmidt, M. M.; Thelakkat, M.; Malliaras, G. G. A High
+Transconductance Accumulation Mode Electrochemical Transistor.
+Adv. Mater. 2014, 26 (44), 7450−7455.
+(11) Inal, S.; Rivnay, J.; Suiu, A.-O.; Malliaras, G. G.; McCulloch, I.
+Conjugated Polymers in Bioelectronics. Acc. Chem. Res. 2018, 51 (6),
+1368−1376.
+(12) Du, W.; Ohayon, D.; Combe, C.; Mottier, L.; Maria, I. P.;
+Ashraf, R. S.; Fiumelli, H.; Inal, S.; McCulloch, I. Improving the
+Compatibility of Diketopyrrolopyrrole Semiconducting Polymers for
+Biological Interfacing by Lysine Attachment. Chem. Mater. 2018, 30
+(17), 6164−6172.
+(13) Giovannitti, A.; Sbircea, D.-T.; Inal, S.; Nielsen, C. B.;
+Bandiello, E.; Hanifi, D. A.; Sessolo, M.; Malliaras, G. G.; McCulloch,
+I.; Rivnay, J. Controlling the mode of operation of organic transistors
+through side-chain engineering. Proc. Natl. Acad. Sci. U. S. A. 2016,
+113 (43), 12017−12022.
+(14) Laiho, A.; Herlogsson, L.; Forchheimer, R.; Crispin, X.;
+Berggren, M. Controlling the dimensionality of charge transport in
+organic thin-film transistors. Proc. Natl. Acad. Sci. U. S. A. 2011, 108
+(37), 15069−15073.
+(15) Rivnay, J.; Leleux, P.; Ferro, M.; Sessolo, M.; Williamson, A.;
+Koutsouras, D. A.; Khodagholy, D.; Ramuz, M.; Strakosas, X.; Owens,
+R. M.; Benar, C.; Badier, J.-M.; Bernard, C.; Malliaras, G. G. High-
+performance transistors for bioelectronics through tuning of channel
+thickness. Sci. Adv. 2015, 1 (4), No. e1400251.
+(16) Inal, S.; Malliaras, G. G.; Rivnay, J. Optical study of
+electrochromic moving fronts for the investigation of ion transport
+in conducting polymers. J. Mater. Chem. C 2016, 4 (18), 3942−3947.
+(17) Volkov, A. V.; Wijeratne, K.; Mitraka, E.; Ail, U.; Zhao, D.;
+Tybrandt, K.; Andreasen, J. W.; Berggren, M.; Crispin, X.;
+Zozoulenko, I. V. Understanding the Capacitance of PEDOT:PSS.
+Adv. Funct. Mater. 2017, 27 (28), 1700329.
+(18) Rivnay, J.; Inal, S.; Collins, B. A.; Sessolo, M.; Stavrinidou, E.;
+Strakosas, X.; Tassone, C.; Delongchamp, D. M.; Malliaras, G. G.
+Structural control of mixed ionic and electronic transport in
+conducting polymers. Nat. Commun. 2016, 7, 11287.
+(19) Savva, A.; Wustoni, S.; Inal, S. Ionic-to-electronic coupling
+efficiency in PEDOT:PSS films operated in aqueous electrolytes. J.
+Mater. Chem. C 2018, 6, 12023−12030.
+(20) Guardado, J. O.; Salleo, A. Structural Effects of Gating Poly(3
+hexylthiophene) through an Ionic Liquid. Adv. Funct. Mater. 2017, 27
+(32), 1701791.
+(21) Chew, A. R.; Salleo, A. Spectroscopic studies of dopant-induced
+conformational changes in poly(3-hexylthiophene) thin films. MRS
+Commun. 2017, 7 (3), 728−734.
+(22) Giridharagopal, R.; Flagg, L. Q.; Harrison, J. S.; Ziffer, M. E.;
+Onorato, J.; Luscombe, C. K.; Ginger, D. S. Electrochemical strain
+microscopy probes morphology-induced variations in ion uptake and
+performance in organic electrochemical transistors. Nat. Mater. 2017,
+16, 737.
+(23) Ohtaki, H.; Radnai, T. Structure and dynamics of hydrated
+ions. Chem. Rev. 1993, 93 (3), 1157−1204.
+(24) Flagg, L. Q.; Giridharagopal, R.; Guo, J.; Ginger, D. S. Anion-
+Dependent Doping and Charge Transport in Organic Electrochemical
+Transistors. Chem. Mater. 2018, 30 (15), 5380−5389.
+(25) Afanasiev, V. N.; Ustinov, A. N.; Vashurina, I. Y. State of
+Hydration Shells of Sodium Chloride in Aqueous Solutions in a Wide
+Concentration Range at 273.15−373.15 K. J. Phys. Chem. B 2009, 113
+(1), 212−223.
+(26) Braendlein, M.; Lonjaret, T.; Leleux, P.; Badier, J.-M.; Malliaras,
+G. G. Voltage Amplifier Based on Organic Electrochemical Transistor.
+Adv. Science 2017, 4 (1), 1600247.
+(27) Bernards, D. A.; Malliaras, G. G. Steady-State and Transient
+Behavior of Organic Electrochemical Transistors. Adv. Funct. Mater.
+2007, 17 (17), 3538−3544.
+(28) Rivnay, J.; Ramuz, M.; Leleux, P.; Hama, A.; Huerta, M.;
+Owens, R. M. Organic electrochemical transistors for cell-based
+impedance sensing. Appl. Phys. Lett. 2015, 106 (4), 043301.
+(29) Ilavsky, J. Nika: software for two-dimensional data reduction. J.
+Appl. Crystallogr. 2012, 45 (2), 324−328.
+(30) Oosterhout, S. D.; Savikhin, V.; Zhang, J.; Zhang, Y.; Burgers,
+M. A.; Marder, S. R.; Bazan, G. C.; Toney, M. F. Mixing Behavior in
+Small Molecule:Fullerene Organic Photovoltaics. Chem. Mater. 2017,
+29 (7), 3062−3069.
+(31) Rodahl, M.; Höök, F.; Krozer, A.; Brzezinski, P.; Kasemo, B.
+Quartz crystal microbalance setup for frequency and Q factor
+measurements in gaseous and liquid environments. Rev. Sci. Instrum.
+1995, 66 (7), 3924−3930.
+(32) Höök, F.; Rodahl, M.; Brzezinski, P.; Kasemo, B. Energy
+Dissipation Kinetics for Protein and Antibody−Antigen Adsorption
+under Shear Oscillation on a Quartz Crystal Microbalance. Langmuir
+1998, 14 (4), 729−734.
+(33) Marcus, Y. Concentration Dependence of Ionic Hydration
+Numbers. J. Phys. Chem. B 2014, 118 (35), 10471−10476.
+(34) Bay, L.; Jacobsen, T.; Skaarup, S.; West, K. Mechanism of
+Actuation in Conducting Polymers: Osmotic Expansion. J. Phys.
+Chem. B 2001, 105 (36), 8492−8497.
+(35) Maw, S.; Smela, E.; Yoshida, K.; Stein, R. B. Effects of
+monomer and electrolyte concentrations on actuation of PPy(DBS)
+bilayers. Synth. Met. 2005, 155 (1), 18−26.
+(36) Kawai, T.; Nakazono, M.; Sugimoto, R.-i.; Yoshino, K. Crystal
+Structure of Poly(3-alkylthiophene) and Its Doping Effect. J. Phys. Soc.
+Jpn. 1992, 61 (9), 3400−3406.
+(37) Geise, G. M.; Paul, D. R.; Freeman, B. D. Fundamental water
+and salt transport properties of polymeric materials. Prog. Polym. Sci.
+2014, 39 (1), 1−42.
+(38) Sainbileg, B.; Lan, Y.-B.; Wang, J.-K.; Hayashi, M. Deciphering
+Anomalous Raman Features of Regioregular Poly(3-hexylthiophene)
+in Ordered Aggregation Form. J. Phys. Chem. C 2018, 122 (8), 4224−
+4231.
+(39) Francis, C.; Fazzi, D.; Grimm, S. B.; Paulus, F.; Beck, S.;
+Hillebrandt, S.; Pucci, A.; Zaumseil, J. Raman spectroscopy and
+microscopy of electrochemically and chemically doped high-mobility
+semiconducting polymers. J. Mater. Chem. C 2017, 5 (25), 6176−
+6184.
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.8b04335
+Chem. Mater. 2019, 31, 927−937
+936
+
+(40) Bruckmoser, K.; Resch, K.; Kisslinger, T.; Lucyshyn, T.
+Measurement of interdiffusion in polymeric materials by applying
+Raman spectroscopy. Polym. Test. 2015, 46, 122−133.
+(41) Milani, A.; Brambilla, L.; Del Zoppo, M.; Zerbi, G. Raman
+Dispersion and Intermolecular Interactions in Unsubstituted Thio-
+phene Oligomers. J. Phys. Chem. B 2007, 111 (6), 1271−1276.
+(42) Lin, P.; Yan, F.; Chan, H. L. W. Ion-Sensitive Properties of
+Organic Electrochemical Transistors. ACS Appl. Mater. Interfaces
+2010, 2 (6), 1637−1641.
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.8b04335
+Chem. Mater. 2019, 31, 927−937
+937
+

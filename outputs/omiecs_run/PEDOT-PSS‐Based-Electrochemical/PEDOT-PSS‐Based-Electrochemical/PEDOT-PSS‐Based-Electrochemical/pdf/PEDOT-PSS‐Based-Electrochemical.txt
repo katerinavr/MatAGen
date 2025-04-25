@@ -1,0 +1,841 @@
+RESEARCH ARTICLE
+www.advmattechnol.de
+Electrical and Optical Modulation of a PEDOT:PSS-Based
+Electrochemical Transistor for Multiple
+Neurotransmitter-Mediated Artiﬁcial Synapses
+Giovanni Maria Matrone, Ugo Bruno, Csaba Forró, Claudia Lubrano, Stefano Cinti,
+Yoeri van de Burgt, and Francesca Santoro*
+Neuromorphic systems that display synaptic conditioning based on
+biochemical signaling activity have recently been introduced in the form of
+artiﬁcial synapses that are model devices to develop tissue-interfaced
+platforms. In this regard, biohybrid synapses promise adaptive
+neuron-integrated functions. However, these systems suﬀer from both
+molecular cross-talk as biological neural circuits signal transmission typically
+involves more than one neuromodulator, and unstable electronics wirings as
+complex architectures are required to interface the tissues. Moreover, whilst
+novel spiking circuits can work as artiﬁcial neurons, they only recreate the
+biological electrical signaling pathway while electrochemical signal
+transduction is required for inter-neuron communication. As such, artiﬁcial
+chemically-mediated synapses are essential to perform memory/learning
+computing functions. Herein, an electrochemical neuromorphic organic
+device (ENODe) working as an artiﬁcial synapse that overcomes
+electrochemical and readout interferences while it emulates two
+neurotransmitters synaptic weight modulation and their recycling machinery
+at the synaptic cleft is shown. Neuronal short- and long-term plasticity are
+replicated by transducing two separate neurotransmitter-mediated chemical
+signals into reversible and nonreversible variations of PEDOT:PSS
+conductance. By exploiting the electrochromic properties of PEDOT:PSS, an
+alternative optical monitoring strategy is introduced which promises stable
+multidevice readout from complex bio-hybrid interfaces. The platform
+emulates high-order biological processes such as intrinsic forgetting, memory
+consolidation, and neurotransmitter co-modulation. These brain-inspired
+functionalities herald the development of tissue-integrated neuromorphic
+systems that combine spiking (electrical neurons) and nonspiking
+(electrochemical synapses) elements, thus envisioning prosthetic bridges for
+neural engineering and regenerative medicine.
+The ORCID identiﬁcation number(s) for the author(s) of this article
+can be found under https://doi.org/10.1002/admt.202201911
+© 2023 The Authors. Advanced Materials Technologies published by
+Wiley-VCH GmbH. This is an open access article under the terms of the
+Creative Commons Attribution-NonCommercial License, which permits
+use, distribution and reproduction in any medium, provided the original
+work is properly cited and is not used for commercial purposes.
+DOI: 10.1002/admt.202201911
+1. Introduction
+Artiﬁcial intelligence applications often
+require neural networks featuring highly
+demanding computational density and
+energy consumption.[1,2] As a response
+to these technological challenges, neu-
+romorphic computing aims to emulate
+the structure and functions of the brain,
+in order to outperform conventional
+von Neumann architectures. On this ac-
+count, spiking neural networks (SNNs)
+introduce a spikes-based communication
+mechanism among artiﬁcial neurons.
+However, eﬃcient strategies to estab-
+lish such biologically-inspired commu-
+nication in SNNs is still lacking, dras-
+tically limiting the allowed computing
+functions.[3]
+Furthermore, learning/memory func-
+tions of the brain are based on the so-
+called synaptic plasticity, enabling neu-
+rons to change the weight of the synaptic
+connections depending on the received
+external stimuli through neurotransmit-
+ter modulation.[4] This mechanism al-
+lows biological neural networks (BNNs)
+to perform multiple operations, such as
+learning and computation, in an energy-
+eﬃcient way.[5]
+Similarly, by featuring brain-inspired
+plasticity behavior, artiﬁcial neuromor-
+phic devices enable parallel computing
+algorithms with low energy consumption
+and high reliability.[6,7]
+G. M. Matrone, U. Bruno, C. Forró, C. Lubrano, F. Santoro
+Tissue Electronics
+Istituto Italiano di Tecnologia
+Naples 80125, Italy
+E-mail: f.santoro@fz-juelich.de
+G. M. Matrone, Y. van de Burgt
+Microsystems
+Institute for Complex Molecular Systems
+Eindhoven University of Technology
+Eindhoven 5612AJ, The Netherlands
+Adv. Mater. Technol. 2023, 8, 2201911
+2201911 (1 of 9)
+© 2023 The Authors. Advanced Materials Technologies published by Wiley-VCH GmbH
+
+www.advancedsciencenews.com
+www.advmattechnol.de
+Indeed, over the last decade, artiﬁcial neuromorphic systems
+have been designed by exploiting memristive devices whose con-
+ductance can be modulated to emulate the signal transmission
+of a biological synapse.[8,9] In this scenario, organic neuromor-
+phic devices based on conductive polymers (CPs) have emerged
+in bio-integrated applications because of their biocompatibility
+and mixed conduction (electronic and ionic) suitable for physio-
+logical processes, biomolecules-mediated operation and integra-
+tion with cells and tissue.[10,11] Due to their peculiar doping/de-
+doping processes, organic mixed ionic-electronic semiconduc-
+tors feature a large dynamic range, i.e., they allow conductance
+modulations in a window (between their highest and lowest
+states) that is larger than 2x their initial conductance value.[12]
+They enable analog tuning which is ideal for parallel comput-
+ing applications.[13] One class of organic neuromorphic devices
+are based on organic electrochemical transistors (OECTs), which
+have lately shown the ability to modify their conductive state
+upon an external stimulation (i.e., electrical pulses at the gate
+electrode) and to retain this altered conditioning over time, re-
+sembling synaptic plasticity.[7] In particular, when the active ma-
+terial is poly(3,4-ethylene- dioxythiophene):polystyrene sulfonate
+(PEDOT:PSS), the device operates in depletion mode and the ap-
+plication of a voltage bias at the gate electrode causes a de-doping
+of the ﬁlm due to cations penetrating its bulk.[14] This mecha-
+nism is reversed upon removal of the voltage bias. Employing
+high-frequency voltage pulses as inputs, the reversibility of the
+process is hindered so that cations accumulate inside the PEDOT
+channel causing a cumulative de-doping which emulates short-
+term depressive behavior (STD).[15]
+The evolution of such systems towards bio-integrated and
+synaptic biomimicking applications has led to the development
+of neurotransmitter-mediated artiﬁcial synapses, i.e., devices
+working with species that participate in the biological signal-
+ing mechanisms such as dopamine (DA).[16] From these con-
+cepts, biohybrid synapses has been developed establishing a long-
+term plasticity relationship between the oxidation of dopamine
+(released by cells directly coupled with the active material) and
+U. Bruno
+Dipartimento di Chimica
+Materiali e Produzione Industriale
+Università di Napoli Federico II
+Piazzale Vincenzo Tecchio, 80, Napoli, NA 80125, Italy
+C. Forró
+Department of Chemistry
+Stanford University
+290 Jane Stanford Way, Chem-H/Neuroscience S285, Stanford, CA
+94305, United States
+C. Lubrano, F. Santoro
+Faculty of Electrical Engineering and IT
+RWTH Aachen
+52074 Aachen, Germany
+C. Lubrano, F. Santoro
+Institute for Biological Information Processing-Bioelectronics
+Forschungszentrum Juelich
+52428 Aachen, Germany
+S. Cinti
+University of Napoli Federico II
+Department of Pharmacy
+School of Medicine and Surgery
+Via D. Montesano 49, Napoli 80131, Italy
+the memory state (conductance) of the organic neuromorphic
+device.[17]
+However, in a biological synapse multiple neurotransmitters
+participate to the signaling mechanisms.[18,19] For instance, DA
+and serotonin (5-HT) are important neuromodulators contribut-
+ing to the regulation of synaptic plasticity such as long-term po-
+tentiation (LTP) and depression (LTD).[20–22] Thus, sophisticated
+and adaptable bio-hybrid interfaces actively interacting with neu-
+rons must be able to correctly identify interrelated biological cues
+such as the concentration and distribution of these neurotrans-
+mitters. As such, the ﬁrst step towards these next-generation bio-
+hybrid systems is the design of artiﬁcial synapses mediated by
+multiple neurotransmitters which could be further integrated
+into SNNs. In this context, organic artiﬁcial synapses may serve
+to both enhance the inference and training of spiking networks
+and emulate speciﬁc synaptic functions.[3]
+Here, we engineer an artiﬁcial synapse by integrating a ﬂuid
+chamber for the control of neurotransmitter solutions ﬂow in
+an ENODe design. This platform is able to display short and
+long-term conditioning mediated by two neurotransmitters by ex-
+ploiting their selective oxidation: a key biological computational
+primitive. We show that this weight modulation is reversible,
+and essential for implementation in artiﬁcial neural networks.
+We simultaneously monitor the conditioning electrically and op-
+tically, and demonstrate the coexpression of multiple neurotrans-
+mitters to emulate neuronal learning and forgetting patterns.
+Indeed, optical detection approaches have emerged in the last
+years due to their unprecedented ﬂexibility for choosing regions
+of interest.[23,24]
+This work paves the way for sophisticated bio-hybrid neuro-
+morphic interfaces, comprising array of mutually dependent de-
+vices that are controlled by multiple neurotransmitters resulting
+from a variety of physiological cues that can be closely monitored
+using noninvasive optical readouts.
+2. Results and Discussion
+2.1. Device Design and Opto-Electronic Characterization
+An ENODe (Figure 1 and Figure S1, S2, Supporting Information)
+was fabricated as described in Methods. Here, the gate terminal
+represents the presynaptic end of the artiﬁcial synapse while the
+transistor channel acts as the post-synaptic terminal.[17] The gate
+electrode has been exposed to two diﬀerent neurotransmitters
+(DA and 5-HT) which can be oxidized upon the application of
+a gate bias (oxidation potential).[17] This potential has been de-
+termined for each neurotransmitter through cyclic voltammetry
+(CV) (Methods and Figure S3, Supporting Information) as 0.3 V,
+0.4 V (vs. Ag/AgCl), for DA and 5-HT, respectively which is also
+in agreement with previous results.[25,26]
+Additionally, chronoamperometry measurements (Figure S4,
+Supporting Information) were performed to determine the neu-
+rotransmitters’ diﬀusion coeﬃcients resulting as 2.4 × 10−6
+cm2s−1 and 1.9 × 10−5 cm2s−1 for DA and 5-HT, respectively.
+Here, although DA and 5-HT have diﬀerent diﬀusion coef-
+ﬁcients, due to the neurotransmitters speciﬁc interaction at
+the surface of the PEDOT:PSS electrode, they both display a
+diﬀusion-controlled oxidation mechanism (Figure S4 and S5,
+Supporting Information).[27]
+Adv. Mater. Technol. 2023, 8, 2201911
+2201911 (2 of 9)
+© 2023 The Authors. Advanced Materials Technologies published by Wiley-VCH GmbH
+ 2365709x, 2023, 12, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/admt.202201911 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+www.advmattechnol.de
+Figure 1. The artiﬁcial synapse: presynaptic and post-synaptic functions. a) Schematic illustrating the ENODe’s gate electrode and the combination
+of the ﬂuidic module and the channel terminal corresponding to the presynaptic and post-synaptic terminal of a biological synapse, respectively.
+b) Channel conductance modulation GD (ii) and integral f optical density changes ∫OD (iii) upon gate periodic voltage pulses (i) (three square
+pulses with 3s duration and 10s delay) that trigger the neurotransmitters oxidation (static PBS-neurotransmitter solution in the ﬂuidic module), DA
+(left, red) and 5-HT (right, blue), followed by a baseline recovery input comprising three train of pulses (0.1 to 0.8 Vg, ∆Vg 0.1V, Vd -0.1 V) un-
+der PBS ﬂow (1mL min−1). c) ∆GD% (left) and d) ∆∫OD% (right) for both conditioning and extinction processes for the diﬀerent concentrations
+of neurotransmitters. The % of the extinction/recovery ratios (hereafter named % of recovery, in rectangles) have been obtained from the ratio-to-
+percentage of extinction/conditioning values (∆GD% and ∆∫OD%). The initial conductance/integral of optical density baseline is partially recov-
+ered showing that the modulation triggered by DA is semi-reversible (>80% recovery) while 5-HT leads to more permanent modulations (<27%
+recovery).
+Adv. Mater. Technol. 2023, 8, 2201911
+2201911 (3 of 9)
+© 2023 The Authors. Advanced Materials Technologies published by Wiley-VCH GmbH
+ 2365709x, 2023, 12, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/admt.202201911 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+www.advmattechnol.de
+Then, the long-term memory of the artiﬁcial synapse mediated
+by the individual neurotransmitters (Figure 1a) was character-
+ized through the application of periodic voltage pulses (presynap-
+tic signals at the gate electrode consisting of three-square pulses
+with 3s duration and 10s delay between pulses), whose ampli-
+tudes correspond to the previously determined neurotransmit-
+ter’s oxidation potential (Figure 1b and Figure S3, Supporting In-
+formation).
+The ENODe works as a depletion mode OECT : when a positive
+gate bias is applied cations from the electrolyte are injected into
+the channel terminal and compensate the anions on PSS−chains
+decreasing the number of holes and so the drain current (PE-
+DOT:PSS de-doping).[14] This leads to a reversible conductance
+modulation in case no neurotransmitters are present in the elec-
+trolyte solution (Figure 1bii, black dotted traces).
+Here, in presence of a neurotransmitter, the PEDOT:PSS chan-
+nel conductance decreases in a nonreversible way due to the de-
+doping process (Figure 1bii, red and blue solid traces).[17] This
+mechanism is strongly inﬂuenced by protons and electrons pro-
+duced during the oxidation reaction thus depending on the type
+of neurotransmitter and its concentration in the solution as pre-
+viously shown.[17]
+In parallel, in situ time-resolved UV-vis measurements allow
+for monitoring the kinetics of penetrating ions in the polymer
+ﬁlm[28]: in the optical density (OD) spectrum, a new absorp-
+tion peak at ≈650 nm is detected whose amplitude is increased
+by the de-doping process (Figure S6, Supporting Information).
+Optical readouts methods for PEDOT:PSS have been previously
+proposed,[29] though here both electronical and optical measure-
+ments are simultaneously collected not only for material charac-
+terization but precisely for neuromorphic applications. The inte-
+gral of optical density in the region 550–650 nm (∫OD) and its
+time-dependence have been extracted (Figures S6 and S7, Sup-
+porting Information) and compared to the channel conductance
+variations (Figures S8, S9, S10 and Table S1, Supporting Infor-
+mation), establishing a readouts correspondence: the same presy-
+naptic signal elicits comparable variations of optical density and
+conductance (Figure 1biii) with respect to their relative baseline
+values, i.e., the readout values before the modulation (Figures
+S8,S10 and Tables S1,S2, Supporting Information).
+Thus, both channel conductance and integral of optical den-
+sity variations represent the modulation of the artiﬁcial synapse
+weight and as such correspond to the “memory of the device”: the
+neurotransmitters electrochemical signal is converted and stored
+through an opto-electronically readable and stable mechanism
+(ΔGD, ∆∫OD).
+Interestingly, synapses operating with DA and 5-HT display
+speciﬁc modulations of ∆GD and ∆∫OD (evaluated in percent-
+ages) so that the synapse conditioning is correlated to the speciﬁc
+neurotransmitter that has been employed as oxidizing species
+(Figures S8 and Table S1, Supporting Information) due to the
+distinct number of electrons and cations produced (Figure 1bii-
+iii). This conditioning is also permanently retained due to the
+electrons produced and donated to the channel polymer, while si-
+multaneously inducing the penetration of cations from the elec-
+trolyte to keep charge neutrality (Figure S8 and S9, Supporting
+Information).[17,26] In terms of percentages of modulation, for the
+lowest concentration of DA and 5-HT (0.025mM and 0.01mM,
+respectively) the ratio between the electronic and optical mod-
+ulations values is ≈2.3–2.5 (Table S1, Supporting Information),
+while for the higher concentrations (0.1mM and 0.05mM, respec-
+tively) the same ratio moves to 2.8.
+Inspired by the mechanism of BNNs working to mini-
+mize their occupied storage by memory erasure and control
+processes,[30,31] the intrinsic properties of PEDOT:PSS are here
+explored to reverse the de-doping process and possibly ‘erase’
+a previously established conductance or optical density level
+(synaptic extinction following synaptic conditioning).
+Here, the de-doping mechanism of the PEDOT:PSS channel
+can be reversed exploiting the un-binding of H+ from the PSS−
+domains (the mechanisms of doping/de-doping are explained in
+Figures S8 and S9, Supporting Information).[32] To achieve this,
+in presence of electrolyte only, periodic voltage pulses have been
+applied with increasing amplitude (8 pulses of 3 s, delay 0 s, from
+0.1 to 0.8 V, voltage step of 0.1 V) such that the penetrated cations
+can return to the electrolyte (extinction), restoring the initial con-
+ductance level of the transistor channel (Figure 1bii-iii).
+Based on this, we observed that in the case of DA for both the
+examined concentrations (0.025 mM and 0.05mM) the GD and
+∫OD modulations (5.07 and 12.21% of GD and 2.04 and 4.33%
+of ∫OD, respectively) increase with the neurotransmitter concen-
+tration in the conditioning phase. These modulation values have
+been extracted from the traces presented in Figure 1 (Figure S8
+Supporting Information contains a detailed description of this
+analysis). The optical and electronical modulations can be par-
+tially reversed through the periodic gate pulses under PBS ﬂow
+(extinction phase) achieving a recovery of the initial GD and ∫OD
+> 75% (Figure 1c,d, extinction/conditioning %). The percentages
+of the extinction/recovery ratios (hereafter named % of recov-
+ery) have been obtained from the ratio-to-percentage of extinc-
+tion/conditioning values (Table S1, Supporting Information). In
+the case of DA, due to the eﬃcient extinction mechanism (high
+values of % of recovery), the eﬀects of a double cycle of condition-
+ing/extinction phases have been investigated (Figure S11, Sup-
+porting Information). The artiﬁcial synapse, employing the low-
+est concentration of DA (0.025mM), can allow repetitive cycles of
+learning/forgetting (Figure S16, Supporting Information).
+5-HT solutions (0.01mM and 0.05mM, Figure 1b blue traces),
+after conditioning, lead to comparable values of GD and ∫OD
+modulations (4.68 and 11.30% of GD and 2.02 and 4.0% of ∫OD,
+respectively) but induced a limited recovery of the conductance
+and integral of optical density (comprised in the window 10%–
+30%, Table S1, Supporting Information), suggesting a perma-
+nent long-term synaptic modulation.
+In the case of 5-HT higher anodic current are recorded with
+a stronger de-doping of the polymer channel compared to the
+other neurotransmitter (Figures S3,S4, S5, Supporting Informa-
+tion). However, the % of recovery values extracted from the si-
+multaneous opto-electronical monitoring almost coincide. Con-
+sidering for example the DA 0.025mM solution, the percentage of
+recovery values from the electronical and optical readout are 90%
+and 85%, respectively. Increasing the concentration of the neuro-
+transmitters, only minor diﬀerences are encountered: these can
+be ascribed to the diﬀerent rates at which the two species cause
+a fouling of the electrode in the static case. Whilst the two read-
+out methods produce modulations values of diﬀerent units which
+cannot be directly compared, the respective recovery percentages
+are close to being equal thus proving the intimate correspon-
+Adv. Mater. Technol. 2023, 8, 2201911
+2201911 (4 of 9)
+© 2023 The Authors. Advanced Materials Technologies published by Wiley-VCH GmbH
+ 2365709x, 2023, 12, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/admt.202201911 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+www.advmattechnol.de
+Figure 2. a) Schematics illustrating the amperometry experiments of panels b): i) a potential step matching the neurotransmitters oxidation potential
+is applied to the ENODe gate electrode. ii) The neurotransmitters molecules interact with the gate electrode through the mechanisms of absorption,
+oxidation, and desorption while the Ig current is monitored over time. b) Ig curves oﬀers an insight into the diﬀusion of neurotransmitters towards
+the gate electrode in the ﬂuidic channel depending on their initial concentration, DA (red) and 5-HT (blue). Ig traces are also ﬁtted (circles) applying a
+Langmuir model that considers the neurotransmitters kA (absorption), kD (desorption), and kB (oxidation) at the gate.
+dence of the two monitoring approaches that are here conﬁrmed
+to probe the same phenomena (PEDOT:PSS de-doping/doping,
+Figure S10, and Table S2, Supporting Information).
+2.2. Dynamic Characterization of Neurotransmitter-Electrode
+Interaction
+To achieve a ﬁne control on the plasticity (conductance modula-
+tion) of the post-synaptic terminal, the ﬂuid chamber integrated
+(Figure S1, Supporting Information) with the organic neuromor-
+phic device was exploited to dynamically adjust the neurotrans-
+mitters’ solution concentration over time. Here, the combined
+eﬀect of the neurotransmitter diﬀusion and ﬂow rate were inves-
+tigated by monitoring the current at the gate electrode Ig while
+applying a constant gate bias that triggers the oxidation process
+(Figure 2ai,ii). A Langmuir model has been proposed in order to
+elucidate the artiﬁcial synapse’s response (Figure S12, Support-
+ing Information).[33] The experimental Ig curves are replicated by
+this model’s function (dotted circle in Figure 2bi,ii), highlighting
+that high ﬂow regimes increase the number of species available
+for the oxidation while also preventing the gate electrode fouling
+caused by the reaction by-products, resulting in higher, sharper
+and faster occurring Ig peaks.
+As such, in static and low ﬂow-rate conditions (0 and 0.5-mL
+min−1 ﬂow, respectively) the neurotransmitters’ oxidation is dom-
+inated by mass transport towards the electrode which leads to low
+values of Ig. On the other hand, the increase of the electrolyte ﬂow
+causes the rise of the Ig maximum value due to a constant refresh
+of species available for the oxidation at the gate electrode.[34]
+However, high ﬂow regimes (1.5 and 2 mL min−1 for DA and
+5-HT, respectively) aﬀect the interaction of the neurotransmit-
+ters with the gate electrode, hindering the oxidation process (Fig-
+ure 2bi-ii and Figure S10, Supporting Information).
+In light of this, the neurotransmitters in solution induce a ﬂow
+regimes-dependent modulation of the channel conductance and
+integral of optical density as reported in Figure 3bi,ii (for the com-
+plete statistics see also Figure S13 and Table S4, Supporting In-
+formation). Here, by applying the same periodic voltage pulses of
+the conditioning experiment (Figure 1bi), we determined the dif-
+ferent neurotransmitters ﬂow ranges that induce the maximum
+ΔGD and Δ∫OD as 1 and 1.5 mL min−1 for DA and 5-HT, respec-
+tively (Figure 3bi,ii and Table S4, Supporting Information).
+Hence, the ΔGD and Δ∫OD modulations ﬂow regimes depen-
+dency can be exploited as a strategy to replicate DA and 5-HT
+molecules binding to post-synaptic receptors in the synaptic po-
+tentiated (large modulation) and depressed states (low modula-
+tion). Also, the devices proved to be stable for up to two weeks
+since their fabrication (Figure S13, Supporting Information).
+2.3. Mimicking Biological Neurotransmitter Corelease Using the
+Artiﬁcial Synapse
+Most neurons in the brain release more than one chemical work-
+ing as a neuromodulator, each conveying a principal message, so
+the neural signaling mechanism is often regulated by the com-
+plex orchestration of multiple neurotransmitters.[19] Here, the
+simultaneous presence of multiple neurotransmitters and their
+concurrent oxidation at the gate electrode is exploited to ulti-
+mately modulate the channel conductance (Figure 4a).
+First, binary neurotransmitters solutions have been charac-
+terized through CV, transconductance, and diﬀerential pulsed
+voltammetry (DPV) measurements to evaluate possible interfer-
+ing phenomena in their oxidation potentials previously evaluated
+individually (Figure S3,S14, S15,S16, Supporting Information).
+Figure S15 (Supporting Information) shows the transconduc-
+tance, CV and DPV traces that refers to binary solutions contain-
+Adv. Mater. Technol. 2023, 8, 2201911
+2201911 (5 of 9)
+© 2023 The Authors. Advanced Materials Technologies published by Wiley-VCH GmbH
+ 2365709x, 2023, 12, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/admt.202201911 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+www.advmattechnol.de
+Figure 3. a) Schematics illustrating the periodic voltage pulses experiment of panels b: i) a periodic voltage pulses input (three square pulses with 3 s
+duration and 10 s of delay) matching the neurotransmitters oxidation potential is applied to the ENODe gate electrode, ii) The neurotransmitters enters
+the ﬂuidic chamber (In) at a ﬁxed ﬂow rate, are oxidized at the gate electrode and exit the chamber (Out), while ∆GD and ∆∫OD are monitored. b) ∆GD%
+(i) and ∆∫OD% (ii), upon the periodic voltage pulses input, recorded from solutions containing diﬀerent concentrations of DA (pulse amplitude 0.3 V)
+and 5-HT (pulse amplitude 0.4 V) at diﬀerent ﬂow rates (from 0, 0.5, 1, 1.5, 2 mL min−1).
+Figure 4. Neurotransmitter co-modulation. a) The schematic illustrates the release of neurotransmitters in case of single and double-neurotransmitters
+neurons, showing a coexpression process for high-stimulation presynaptic stimuli. b) i) The artiﬁcial synapse GD and ∫OD modulations in case of DA
+(pink) and 5-HT (blue) at their respective oxidation potential, emulating a single neurotransmitters neuron. Black dotted curves represent the null GD and
+∫OD modulations in case of PBS-only solutions at low and high stimulation presynaptic stimuli, here used as reference. ii,) A double neurotransmitters
+neuron expressing the couple DA:5-HT 0.025:0.01mM under low stimulation, i.e. pulsing the gate at the DA oxidation potential (0.3 V). iii) The same
+neuron under high stimulation, pulsing the gate at the 5-HT oxidation potential (0.4 V).
+Adv. Mater. Technol. 2023, 8, 2201911
+2201911 (6 of 9)
+© 2023 The Authors. Advanced Materials Technologies published by Wiley-VCH GmbH
+ 2365709x, 2023, 12, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/admt.202201911 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+www.advmattechnol.de
+ing DA:5HT (at diﬀerent concentrations) in which two distinct
+peaks appear at 0.3 V and 0.4 V corresponding to the oxidation of
+DA and 5-HT, respectively, as previously reported.[25]
+The artiﬁcial synapse allows to tune its output response (to a
+ﬁxed electrical input) through modulations (ΔG and Δ∫OD) that
+can be controlled via chemical (type of neurotransmitters) and
+ﬂuido-dynamic means. Indeed, these are two methods to ﬁnely
+control the synaptic modulation and enable a wide range of dif-
+ferent conditioning which allows this platform to reduce the gap
+with the programming capability of a biological synapse.
+In this context, the artiﬁcial synapse’s output depends on
+the amplitude of the voltage pulses used as input and serves
+to emulate the biological cotransmission mechanisms, as the
+neurotransmitters examined here are oxidizing at speciﬁc gate
+potentials.[18,35]
+Figure 4bi,ii,iii show the modulation of the ENODe in pres-
+ence of diverse neurotransmitters binary solutions at the ﬂow
+rate of 1 mL min−1.
+In case of DA:5-HT (0.025mM:0.01mM) mixture (Figure 4bii),
+the application of a low presynaptic stimulation corresponding
+to DA oxidation potential (0.3 V), results in electrical and opti-
+cal modulations of the artiﬁcial synapse (6.21% of GD and 2.7%
+of ∫OD) comparable to the ones obtained for the solution with
+DA only (6.37% of GD and 2.6% of ∫OD) (Figure 4bi). By con-
+trast, the application of a larger-synaptic input (Figure 4biii), cor-
+responding to the 5-HT anodic potential (0.4 V), triggers the si-
+multaneous oxidation of DA and 5-HT and results in large out-
+put modulations (10% of GD and 4.7% of ∫OD). These values are
+slightly lower than the arithmetic sum of the modulations ob-
+tained by the individual neurotransmitter’s solution (DA+5-HT
+15% of GD and 5.2% of ∫OD, Figure S13 and Table S4, Supporting
+Information), possibly due to minor interferences phenomena
+arising when the two species diﬀuse simultaneously towards the
+electrode interface where they compete for oxidation.[27,36] Nev-
+ertheless, the selectivity of the oxidation mechanisms enables a
+voltage amplitude-dependent synaptic modulation that allows to
+prove the eﬃciency of the biological emulation process.
+3. Conclusion
+In this work, we presented an artiﬁcial synaptic platform based
+on a ENODe architecture with two neurotransmitters-mediated
+plasticity. We have proved that the synaptic weight modulation
+of this neuromorphic platform is reversible, and it depends not
+only on the concentration of neurotransmitters but also on the
+type of released neurotransmitters, allowing to emulate neuronal
+learning and forgetting patterns, and to replicate these biorele-
+vant molecules binding to speciﬁc post-synaptic receptors vary-
+ing in size, number, and distribution.
+Crucially, the proposed approach that exploits the optical spec-
+trum variations of PEDOT:PSS to evaluate the synaptic condition-
+ing, paves the way to the use of spectroscopic techniques in en-
+gineering neuromorphic circuits such as SNNs.
+A noninvasive optical array facilitates the bio-hybrid cou-
+pling with tissues while the correspondence between electroni-
+cal (channel conductance, GD) and optical (channel absorbance
+spectrum, speciﬁcally the integral of optical density, ∫OD) modu-
+lation may be employed as a further strategy to control the SNNs
+inter-neuronal communication enabling feedback regulated and
+memory/learning functions.
+The neurotransmitter-speciﬁc synaptic plasticity combined
+with the reversibility of the process is able to transduce synap-
+tic signals allowing it to pass from in vitro cultures comprising
+models of neuronal cells (PC-12 cells which express mainly DA)
+to cell cultures expressing multiple neurotransmitters.
+Ultimately, SNNs comprising artiﬁcial neurons and artiﬁcial
+synapses are envisioned where the synaptic weight of each spik-
+ing element interconnection is selectively programmable, and
+the associated information may be intentionally stored.
+Such spiking networks may include cascading neural path-
+ways that perform sensory coding and signal propagation with
+a local modulation of neurons spiking activity. Hence, the opto-
+electronic readout with the reversible programming capabilities
+opens to previously unexplored learning/forgetting paradigms.
+These surpass in computing performance the conventional par-
+allel programming standards by exploiting a bio-inspired signal
+processing which is i) neurotransmitter-selective, ii) combines
+multiple inputs and iii) dynamically adapts to the neuronal bi-
+ological scenarios.
+4. Experimental Section
+ENODe Fabrication:
+The ENODe devices were fabricated on glass-ITO
+patterned substrates purchased from Xin Yan Technology Ltd. The size
+of the glass square substrates is 25 mm with patterned squares of ITO
+(20 ohm sq−1) of 10 mm covering each corner. Substrates were cleaned
+through sonication in IPA (Sigma-Aldrich, USA) for 20 min. Employing
+Kapton tape and using a PMMA master mask, 2 stripes connecting op-
+posed ITO squares (with ﬁxed width 3 mm and length 20 mm) were traced
+for the deposition of the polymer mixture. PEDOT:PSS (Hereaus, Clevios
+PH 1000) aqueous solution was prepared by adding 6 vol.% ethylene glycol
+(Sigma-Aldrich, USA) to increase the PEDOT:PSS conductivity, 0.1 vol.%
+dodecylbenzene sulfonic acid (Sigma-Aldrich, USA) as a surfactant, and
+1 vol.% (3-glycidyloxypropyl)trimethoxysilane (Sigma-Aldrich, USA) as a
+crosslinking agent to improve mechanical stability. PEDOT:PSS solution
+was spun on the selected areas of the substrate at 1 000 r.p.m. for 2 min
+and baked at 120 °C for 20 min. Before the operation the devices were con-
+ditioned at least 20 min in PBS solution, in order to avoid swelling eﬀects
+during electrical measurements.
+Fluid Chamber Fabrication:
+Fluid channels were prepared using a
+PMMA mold made by a micro-milling machine. PDMS was mixed with
+a crosslinker in a ratio of 10:1 wt/wt and degassed in a vacuum desiccator
+before being poured onto the mold and heated to 80 °C for 3 h to cure
+(PDMS, Sylgard 184). A 1.5 mm diameter biopsy punch was used to cre-
+ate the holes for inlets and outlets, which consisted of Teﬂon tubing (0.813
+mm inner diameter, 1.32 mm outer diameter). A small amount of uncured
+PDMS was used to coat the bottom surface of the PDMS ﬂuidic channel
+before placing it onto the glass-ITO substrate, which was subsequently
+baked at 80 °C for at least 1h.
+Neurotransmitters’ Solutions Preparation:
+Neurotransmitters’ solu-
+tions were freshly prepared by dissolving dopamine hydrochloride (98%,
+Sigma-Aldrich, USA) and serotonin hydrochloride (98%, Sigma-Aldrich,
+USA) into Dulbecco’s Phosphate Buﬀered Saline (Modiﬁed, without cal-
+cium chloride and magnesium chloride, Sigma-Aldrich, USA) at a diﬀerent
+concentration ranging from 0.01 mM to 2 mM. Mixed neurotransmitters
+solutions were prepared by diluting single neurotransmitter ones.
+Presynaptic – Gate Measurements:
+The electrochemical characteriza-
+tions were performed by CV, DPV, and chronoamperometry techniques
+using an Autolab PGSTAT302N potentiostat/galvanostat (Metrohm AG,
+Switzerland) and the NOVA 1.8.14 software built-in routines. For these
+measurements, the ENODe channel was disconnected. The electrochem-
+ical potential values of the neurotransmitters reported in the manuscript
+Adv. Mater. Technol. 2023, 8, 2201911
+2201911 (7 of 9)
+© 2023 The Authors. Advanced Materials Technologies published by Wiley-VCH GmbH
+ 2365709x, 2023, 12, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/admt.202201911 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+www.advmattechnol.de
+and in the Figure S3,S4,S5,S14,S15,S16 were measured with respect to
+a standard Ag/AgCl reference electrode while a Pt wire was used as the
+counter electrode (both terminals were inserted in the ﬂuidic module). The
+ENODe gate PEDOT:PSS thin ﬁlm was used as the working electrode. For
+CV measurements the potential was swept from −0.2 V to 0.6 V at variable
+scan rates (1,5,10.30,50 mV s−1). For DPV, the instrumental variables were
+studied, and the optimum conditions resulted: pulse amplitude: 0.050 V;
+increment: 0.004 V; sample width: 4 s; pulse width: 5 s; pulse period: 10
+s; sensitivity: 1 × 102 μA. For chronoamperometry, the working electrode
+was subjected to diﬀerent potential steps (V = +0.3 V for DA, V = +0.4 V
+for 5-HT, V = +0.5 V for AA) and the current response was measured for
+a period of 20 s with a sensitivity of 1 × 102 μA.
+Postsynaptic Measurements:
+Devices were characterized using 2 com-
+mercial platforms: ARKEO multichannel (located in TU/e Eindhoven) and
+ARKEO all-in-one (located in IIT Naples) developed by Cicci Research
+(Italy). These systems are composed of a thermal controlled stage, two
+ﬂuidic pumps and two-channel and four-channel source meter units, re-
+spectively. The system (Eindhoven or Naples) used for various sets of ex-
+periments that are here presented is speciﬁed. Either needle or spring con-
+tact probes (as speciﬁed) were used to access the ENODe’s gate and drain
+electrodes. The electrolyte ﬂow across the device was controlled using two
+ﬂuidic pumps (Syringe-pump) controlled by custom LabView software. To
+preliminary test the devices, transfer curves were taken by sweeping the
+presynaptic electrode voltage from −0.2 V to +0.8 V (VG) while applying a
+constant VD = – 0.1V on the postsynaptic electrode.
+Optical measurements (ARKEO Multichannel):
+Excitation light was
+provided by a LED Tower (Cicci Research, Italy) (see Supplementary Fig-
+ure S1) assembled on top of the Arkeo stage; the LED Tower comprises
+a set of 13 LEDs which allow to select, and combine, diﬀerent excitation
+wavelengths. For all the performed experiments, a warm white light (range
+>4750K) was used. Optical detection was performed with a CCD based
+spectrometer (360–1050 nm), multimode bundle, and a 10 mm diameter
+aspheric lens close to the substrate (access from the bottom of the Arkeo
+stage, see Figure S1, Supporting Information). The spot size was roughly
+1 mm, and its position (indicated in Figure S1, Supporting Information)
+corresponds with the center of the channel area.
+Amperometry In-Flow Measurements (ARKEO all-in-one):
+For these
+measurements, the ENODe channel was left unconnected. To the gate
+electrode, used as working electrode, potential steps were applied
+(V = +0.3 V for DA and V = +0.4 V for 5-HT) and the current re-
+sponse was measured for a period of 60 s. The ﬂuidic module was
+preloaded with PBS solution. As the electrical measurement was started,
+the syringe pump was activated in sync by a Labview routine (ﬂow rates
+tested were 0.1,0.5,0.7,1,1.3,1.5,1.7, 2 mL min−1) so that the selected
+PBS-NT solution was ﬂuxed while monitoring the Ig with resolution of
+0.02 ms.
+Synaptic Weight Modulation & Reversibility In-Flow Experiments (ARKEO
+Multichannel):
+In this conﬁguration, both the ENODe channel and gate
+electrodes were connected via needle probes. Pulsed measurements were
+performed using a set of voltage pulses on the gate (3s ON, 10s OFF)
+to target the oxidation of each NT (VG = + 0.3 V for DA, VG = + 0.4 V
+for 5-HT) while monitoring the postsynaptic conductance (VD = −0.1 V).
+Simultaneously, the optical spectra were recorded via the coupled optical
+ﬁber.
+For the static experiments (Figure 1), the ﬂuidic module was preloaded
+with the solution PBS-neurotransmitter in exam, but the syringe pumps
+were not activated. After the set of pulses deﬁning the learning protocol
+(50 s), the pumps were activated for ﬂuxing PBS solution at 1 mL min−1.
+Simultaneously, on the gate were applied three trains of voltage pulses
+with increasing amplitude (0.1 to 0.8 Vg, ∆Vg 0.1V, Vd -0.1 V) with a 120 s of
+delay while still monitoring the postsynaptic conductance (VD = −0.1 V).
+The device response was deﬁned as the ∆GD% and ∆∫OD% (see below
+section) measured 240s after the end of the last train of pulses (800 s since
+the start of the measurement) while still ﬂuxing PBS.
+For pulsing-in-ﬂow experiments (Figure 2, Figure S13, and Tables S4,
+Supporting Information), the ﬂuidic module was preloaded with the solu-
+tion PBS-NT in exam and a syringe containing the NTs solution was acti-
+vated and set to the desired ﬂow regime (from 0.5, 1, 1.5 to 2mL min−1)
+10s before starting the opto-electronic measurement.
+Synaptic Weight Modulation & Reversibility Parameters Extraction and
+Data Analysis:
+For the electronic readout in the used conﬁguration, one
+channel the AKEO setup served to record the channel current. The mea-
+sured current traces were converted into conductance by dividing them
+for the VD applied on the channel (−0.1 V). To obtain the device electronic
+modulation from these traces, the point value of conductance at time 10s
+(right before the start of the train of voltage pulses) was extracted as the
+“baseline conductance value” (reported in Figure S8,S9, Table S1, Sup-
+porting Information). Similarly, the point value of the conductance trace
+at time 45 s (5 s after the last pulse) was assumed as the after-modulation
+value. To better appreciate the electronic readout and reduce the device-
+to-device variations in baseline conductance, the conductance variations
+∆GD have been normalized by the “baseline conductance value” for each
+recorded trace (examined device). Thus, %∆GD values are reported in the
+tables and in the main text for the electronic readout. Finally, the recovery
+of the electronic baseline has been extracted using the point value of the
+conductance at the time 800 s.
+For the optical readout in the used conﬁguration, the optical ﬁber
+records the transmitted light in counts through the device channel. Prior
+measurements, the ﬁber was calibrated by acquiring a spectrum in a no-
+light condition corresponding to the blank/dark (LED oﬀ) and a reference
+spectrum corresponding to the baseline value (LED on). In both condi-
+tions, the ENODe device was placed under the Tower LED on the Arkeo
+stage while the needle probes for electronic measurement were connected
+to the electrodes and the ﬂuidic tubes were in place. As such, both the
+reference spectra consider that the LED probing light crosses the optical
+media corresponding to the ﬂuidic module (PDMS septum) and the glass
+substrate.
+The ﬁber counts acquisition trace from 360 to 1050 nm (full spectral
+data) was also converted, visualized on the ARKEO software (Cicci Re-
+search, Italy) and simultaneously saved as transmittance, absorbance, and
+integral of the absorbance in the region of interest (550-650 nm) for a live
+monitoring of the traces during the measurements.
+Due to the activation of the ﬂuidic pump after the modulation section
+of the experiment (50 s), in many experiments, the optical trace recorded
+over time (either transmittance, absorbance, or integral or absorbance)
+present some artifacts (jumps over scale of the recorded values) that are
+connected to the vibration of the PDMS section due to the incoming PBS
+solution ﬂow. Following these spikes point-artifacts, the optical baseline
+might show a shift to slightly higher or lower values compared to the
+value recorded at 49–50 s (start of the PBS ﬂow). Cleaning of the data
+was performed in order to restore the device baseline by applying a cor-
+rective shift to the optical traces after the spikes and jumps (100 s on) to
+match the baseline level values at 49 s. Thus, both the electronic and op-
+tical traces are visualized in the windows of conditioning (0—45 s) and
+recovery (100—800 s) where no artifacts are clearly present. Due to the in-
+trinsic noise of the optical measurements, as reported in the SI, the optical
+traces (∆∫OD) have been smoothed by a smoothing box function with a
+factor of 5 in the range 0—45 s and a factor of 100 in the range 100—800
+s. To obtain the “optical trace baseline value”, the integral-of optical den-
+sity ∆∫OD traces have been scaled to the arbitrary starting value of 0.1 in
+correspondence of the ﬁrst point in the time scale before the start of the
+train of voltage pulses (time 9.7 s–10.1 s, there is a short time-shift re-
+spect to the electronic reading). Then, the optical trace point values were
+averaged in the window 40–45 s (5 s after the last pulse) to obtain the
+after-modulation optical value. As in the case of the electronic readout (to
+reduce device-to-device variations), the variations ∆∫OD have been nor-
+malized by the initial ∫OD. Thus, ∆∫OD% values are reported in the tables
+and in the main text for the optical readout. Finally, the recovery of the op-
+tical baseline has been extracted using the average of the ∫OD values in
+the window 750—800 s to reduce the device-to-device variations due to
+the intrinsic noise of these measurements.
+All the values reported in the tables and in the graph of this manuscript
+are the result of an average over three replica experiments performed on
+three devices.
+Adv. Mater. Technol. 2023, 8, 2201911
+2201911 (8 of 9)
+© 2023 The Authors. Advanced Materials Technologies published by Wiley-VCH GmbH
+ 2365709x, 2023, 12, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/admt.202201911 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+www.advmattechnol.de
+Transconductance Measurements (ARKEO all-in-one):
+In this conﬁgu-
+ration both the ENODe channel and gate electrode were connected to
+ARKEO all-in-one via spring probes. The gate potential was swept, repli-
+cating the CV protocol (from -0.2 to 0.6 V) while monitoring the GD con-
+ductance. The transconductance was directly derived through a built-in
+Lab-view routine (Cicci Research, Italy). For static measurements, the ﬂu-
+idic module was preloaded with the examined solution while for in-ﬂow
+experiments the syringe pump was activated 10s before starting the elec-
+trical measurement and kept active.
+Supporting Information
+Supporting Information is available from the Wiley Online Library or from
+the author.
+Acknowledgements
+The authors wish to thank Bas de Young (Cicci Research) for the support
+in developing the optical signal acquisition software. F.S. acknowledges
+the support of the European Research Council starting grant BRAIN-ACT
+No. 949478.
+Open access funding enabled and organized by Projekt DEAL.
+Conﬂict of Interest
+The authors declare no conﬂict of interest.
+Author Contributions
+F.S. and Y.v.D.B. conceived the idea and supervised the project. G.M.M.
+carried out the device fabrication and the opto-electronical characteriza-
+tion. S.C. and G.M.M. proposed the methodology to perform the electro-
+chemical analysis of neurotransmitters solution. G.M.M. and C.L. were
+responsible for the electrochemical characterization of the neurotransmit-
+ter interaction with the device. C.F. performed the simulation and mod-
+eling of neurotransmitter interaction with the gate electrode in diﬀerent
+ﬂow regimes. G.M.M., C.F., and U.B. were responsible for the interpreta-
+tion of the transistor electrical characteristic. G.M.M., F.S., and Y.v.D.B.
+wrote the paper. All authors discussed the results and commented on the
+manuscript.
+Data Availability Statement
+The data that support the ﬁndings of this study are available from the cor-
+responding author upon reasonable request.
+Keywords
+bio-hybrid synapses, optical absorption, organic mixed ionic-electronic
+conductors, organic electrochemical transistors
+Received: December 20, 2022
+Revised: March 6, 2023
+Published online: April 23, 2023
+[1] K. Berggren, Q. Xia, K. K. Likharev, D. B. Strukov, H. Jiang, T. Mikola-
+jick, D. Querlioz, M. Salinga, J. R. Erickson, S. Pi, F. Xiong, P. Lin, C.
+Li, Y. Chen, S. Xiong, B. D. Hoskins, M. W. Daniels, A. Madhavan, J.
+A. Liddle, J. J. McClelland, Y. Yang, J. Rupp, S. S. Nonnenmann, K.-T.
+Cheng, N. Gong, M. A. Lastras-Montaño, A. A. Talin, A. Salleo, B. J.
+Shastri, 2020, 32, 46.
+[2] S. Furber, J. Neural Eng. 2016, 13, 051001.
+[3] S. T. Keene, P. Gkoupidenis, Y. van de Burgt, in Organic Flexible Elec-
+tronics (Eds.: P. Cosseddu, M. Caironi), Woodhead Publishing, 2021,
+pp. 531–574.
+[4] T. V. P. Bliss, G. L. Collingridge, 1993, 361, 9.
+[5] D. Markovi´c, A. Mizrahi, D. Querlioz, J. Grollier, Nat Rev Phys 2020,
+2, 499.
+[6] C. D. Schuman, S. R. Kulkarni, M. Parsa, J. P. Mitchell, P. Date, B. Kay,
+Nat. Comput. Sci. 2022, 2, 10.
+[7] Y. van de Burgt, A. Melianas, S. T. Keene, G. Malliaras, A. Salleo, Nat.
+Electron. 2018, 1, 386.
+[8] J. J. Yang, Nat. Nanotechnol. 2013, 8, 13.
+[9] D. S. Jeong, K. M. Kim, S. Kim, B. J. Choi, C. S. Hwang, Adv. Electron.
+Mater. 2016, 2, 1600090.
+[10] T. Someya, Z. Bao, G. G. Malliaras, Nature 2016, 540, 379.
+[11] K.-N. Kim, M.-J. Sung, H.-L. Park, T.-W. Lee, Adv. Electron. Mater. 2022,
+8, 2100935.
+[12] A. Melianas, T. J. Quill, G. LeCroy, Y. Tuchman, H. v. Loo, S. T. Keene,
+A. Giovannitti, H. R. Lee, I. P. Maria, I. McCulloch, A. Salleo, Sci. Adv.
+2020, 6, eabb2958.
+[13] A. Gumyusenge, A. Melianas, S. T. Keene, A. Salleo, Annu. Rev. Mater.
+Res. 2021, 51, 47.
+[14] J. Rivnay, S. Inal, A. Salleo, R. M. Owens, M. Berggren, G. G. Malliaras,
+Nat. Rev. Mater. 2018, 3.
+[15] P. Gkoupidenis, N. Schaefer, B. Garlan, G. G. Malliaras, Adv. Mater.
+2015, 27, 7176.
+[16] M. Giordani, M. Berto, M. Di Lauro, C. A. Bortolotti, M. Zoli, F. Bis-
+carini, ACS Sens. 2017, 2, 1756.
+[17] S. T. Keene, Nat. Mater. 2020, 19, 16.
+[18] X. Li, D. Bucher, F. Nadim, J. Neurosci. 2018, 38, 8549.
+[19] E. Svensson, M. J. Williams, H. B. Schiöth, Trends Neurosci. 2018, 41,
+540.
+[20] P. Calabresi, B. Picconi, A. Tozzi, M. Di Filippo, Trends Neurosci. 2007,
+30, 211.
+[21] K.-P. Lesch, J. Waider, Neuron 2012, 76, 175.
+[22] R. Kostrzewa, R. Brus, K. Perry, Pol. J. Pharmacol. 1999, 51, 39.
+[23] F. S. Alfonso, Y. Zhou, E. Liu, A. F. McGuire, Y. Yang, H. Kantarci, D.
+Li, E. Copenhaver, J. B. Zuchero, H. Müller, B. Cui, Proc. Natl. Acad.
+Sci. USA 2020, 117, 17260.
+[24] Y. Zhou, E. Liu, Y. Yang, F. S. Alfonso, B. Ahmed, K. Nakasone, C.
+Forró, H. Müller, B. Cui, J. Am. Chem. Soc. 2022, 144, 23505.
+[25] N. F. Atta, A. Galal, R. A. Ahmed, J. Electrochem. Soc. 2011, 158,
+F52.
+[26] I. Gualandi, D. Tonelli, F. Mariani, E. Scavetta, M. Marzocchi, B.
+Fraboni, Sci. Rep. 2016, 6, 1.
+[27] T. Selvaraju, R. Ramaraj, Electrochem. Commun. 2003, 5, 667.
+[28] J. Rivnay, S. Inal, B. A. Collins, M. Sessolo, E. Stavrinidou, X.
+Strakosas, C. Tassone, D. M. Delongchamp, G. G. Malliaras, Nat.
+Commun. 2016, 7, 11287.
+[29] X. Ji, B. D. Paulsen, G. K. K. Chik, R. Wu, Y. Yin, P. K. L. Chan, J. Rivnay,
+Nat. Commun. 2021, 12, 2480.
+[30] J. J. Langille, R. E. Brown, Front Syst. Neurosci. 2018, 12, 52.
+[31] G. Kastellakis, D. J. Cai, S. C. Mednick, A. J. Silva, P. Poirazi, Prog
+Neurobiol. 2015, 126, 19.
+[32] A. Savva, S. Wustoni, S. Inal, J. Mater. Chem. C 2018, 6, 12023.
+[33] A. E. Rodrigues, M. D. LeVan, D. Tondeur, Eds., Adsorption: Science
+and Technology, Springer Netherlands, Dordrecht 1989.
+[34] N. Elgrishi, K. J. Rountree, B. D. McCarthy, E. S. Rountree, T. T. Eisen-
+hart, J. L. Dempsey, J. Chem. Educ. 2018, 95, 197.
+[35] F.-M. Zhou, Y. Liang, R. Salas, L. Zhang, M. De Biasi, J. A. Dani, Neu-
+ron 2005, 46, 65.
+[36] D. Sun, H. Li, M. Li, C. Li, H. Dai, D. Sun, B. Yang, Sens. Actuators, B
+2018, 259, 433.
+Adv. Mater. Technol. 2023, 8, 2201911
+2201911 (9 of 9)
+© 2023 The Authors. Advanced Materials Technologies published by Wiley-VCH GmbH
+ 2365709x, 2023, 12, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/admt.202201911 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+

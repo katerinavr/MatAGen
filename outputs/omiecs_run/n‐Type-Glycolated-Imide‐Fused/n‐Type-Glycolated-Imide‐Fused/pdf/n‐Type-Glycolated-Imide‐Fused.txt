@@ -1,0 +1,849 @@
+www.afm-journal.de
+© 2023 Wiley-VCH GmbH
+2300012  (1 of 10)
+n-Type Glycolated Imide-Fused Polycyclic Aromatic 
+Hydrocarbons with High Capacity for Liquid/Solid-
+Electrolyte-based Electrochemical Devices
+Yaping Yu, Genming Zhu, Liuyuan Lan,* Junxin Chen, Xiuyuan Zhu, Jiayao Duan, 
+Shengyu Cong, Zhengke Li, Yunxia Wang, Zhaohui Wang, Iain McCulloch, and Wan Yue*
+Currently, n-type small-molecule mixed ionic-electronic conductors remain 
+less explored and their molecular design rules are not mature enough. 
+Herein, two n-type glycolated imide-fused polycyclic aromatic hydrocar-
+bons (IPAHs), d-gdiPDI and t-gdiPDI, are developed to probe the effects of 
+molecular conformation on the electronic, electrochemical, morphological, 
+and coupled ionic-electronic transport properties. It is found that the highly 
+twisted scaffold in d-gdiPDI, compared to the nearly planar one of t-gdiPDI, 
+has a strong positive effect on the charge storage properties and thus the per-
+formance of organic electrochemical transistors (OECTs). d-gdiPDI exhibits 
+a volumetric capacitance of 657 F cm−3, obviously outperforming that of 
+t-gdiPDI (261 F cm−3), which is the highest value reported to date for small-
+molecule OECT materials. Moreover, a high charge-storage capacity of up 
+to 479 F g−1 is observed for d-gdiPDI. Arising from such high ionic-electronic 
+coupling characteristic, d-gdiPDI-based OECTs present a ≈2 × times higher 
+geometry-normalized transconductance (gm,norm) of 105.3 mS cm−1 relative 
+to that of t-gdiPDI counterparts. Significantly, further application of d-gdiPDI 
+in solid-electrolyte OECTs delivers a gm,norm of 142.4 mS cm−1. These findings 
+indicate that IPAHs are very promising candidates for n-type small-molecule 
+OECTs and highlight the superiority of twisting conformation manipulation in 
+materials design toward high-performance electrochemical devices.
+DOI: 10.1002/adfm.202300012
+devices, including organic electrochemical 
+transistors (OECTs),[1–3] electrochemical 
+charge storage devices,[4–6] and electro-
+chromic displays.[7,8] The functionality 
+of all fronts is principally governed by 
+the ionic transport, electronic transport, 
+and ionic-electronic coupling characteris-
+tics of OMIECs. The intricate and subtle 
+relationship between these contributing 
+factors, such as the trade-off between 
+ionic and electronic mobility, in turn, 
+poses a massive challenge for the struc-
+tural design and synthesis of OMIECs 
+with desirable electrochemical properties, 
+mixed volumetric conduction and opera-
+tional stability in ambient and aqueous 
+environments. 
+Until 
+now, 
+although 
+remarkable progress has been made in 
+the development of efficient OMIECs,[9–13] 
+this subfield of organic semiconductors 
+is still at its early stage and the molecular 
+design principles remain immature. Con-
+tinuous research on the exploration of 
+new building blocks, design and optimi-
+zation of molecular structures, and cor-
+relations between material chemistry, 
+properties, and performance of functional 
+devices is an essential prerequisite for gaining more funda-
+mental insights into the physics of ionic and electronic charge 
+transport and for further advancing the OMIEC field as a 
+whole, which has aroused widespread concern in the research 
+community.[14–16]
+Research Article
+﻿
+Y. Yu, G. Zhu, L. Lan, J. Chen, X. Zhu, J. Duan, S. Cong, Z. Li, W. Yue
+State Key Laboratory of Optoelectronic Materials and Technologies
+Key Laboratory for Polymeric Composite and Functional Materials  
+of Ministry of Education
+Guangzhou Key Laboratory of Flexible Electronic Materials  
+and Wearable Devices
+School of Materials and Engineering
+Sun Yat-Sen University
+Guangzhou 510275, China
+E-mail: lanly5@mail.sysu.edu.cn; yuew5@mail.sysu.edu.cn
+The ORCID identification number(s) for the author(s) of this article 
+can be found under https://doi.org/10.1002/adfm.202300012.
+Y. Wang
+School of Chemistry and Chemical Engineering
+Shanxi University
+Taiyuan 030006, China
+Z. Wang
+Key Laboratory of Organic Optoelectronics and Molecular Engineering
+Department of Chemistry
+Tsinghua University
+Beijing 100084, China
+I. McCulloch
+Department of Chemistry
+University of Oxford
+Oxford OX1 3TA, UK
+1. Introduction
+Organic mixed ionic-electronic conductors (OMIECs) having 
+the ability to effectively transport and couple ionic and electronic 
+species provide an ideal platform for a range of electrochemical  
+Adv. Funct. Mater. 2023, 33, 2300012
+
+www.afm-journal.de
+www.advancedsciencenews.com
+2300012  (2 of 10)
+© 2023 Wiley-VCH GmbH
+In the case of OECT, upon a small applied bias (<1  V), 
+the channel conductivity can be dramatically altered by the 
+changes in doping state in the channel bulk due to the infil-
+tration of ions from the operational electrolyte. This fantastic 
+ion-to-current transducing feature appears particularly attrac-
+tive for chemical and biological sensors, and neuromorphic 
+engineering.[17–23] In addition, the OECT based on solid or gel 
+electrolytes is also highly sought after as it broadens its appli-
+cation scope and shows promise as flexible and wearable elec-
+tronics.[24–28] In order to realize a high-transconductance OECT, 
+the organic semiconductor channel layer is supposed to have 
+a combination of high charge carrier mobility, preferably with 
+a densely packed crystalline film morphology, and high charge 
+storage capacity that largely depends on facile ion diffusion into 
+the channel. Impressively, the past few years have witnessed a 
+rapid expansion of the library of new materials and significant 
+advances in the pursuit of these two properties, thanks to the 
+synthetic strategy of grafting oligo ethylene glycol (OEG) side-
+chains onto traditional excellent electron- and hole-transporting 
+backbones to facilitate ionic intercalation.[29–37] In particular, the 
+transconductance of p-type OMIECs has reached over 200 S 
+cm−1.[12] By comparison, the n-type ones in terms of mixed con-
+duction performance, however, have remained far behind,[13,38] 
+despite that they are highly desirable for applications in comple-
+mentary logic circuits, supercapacitors, and enzymatic sensors 
+based on electron transfer.[39–41] Motivated by the unbalanced 
+development of p- and n-type OECTs, the OECT community 
+has recently turned its main focus toward the more challenging 
+n-type counterpart. Meanwhile, it is worth noting that the 
+majority of n-type OECT materials studied in current literature 
+are based on conjugated polymers, while the investigation of 
+small molecule-based n-type OECTs is relatively rare, with only 
+a few cases reported, and their performance falls behind that 
+of the state-of-the-art polymer-based analogs.[42–46] Small mole-
+cule semiconductors, however, remain extraordinarily attractive,  
+since they are typically easier to purify to a high standard 
+without batch-to-batch variations, have well-defined structures, 
+and the monodisperse nature of them allows for straightfor-
+ward elucidation of structure-property relations. To this end, 
+developing novel and diverse n-type small-molecule OMIECs 
+with improved OECT performance is of particular interest to us.
+Imide-fused polycyclic aromatic hydrocarbons (IPAHs) fea-
+turing extended π-conjugation and strong electron-deficient 
+nature have attracted remarkable attention in organic field-
+effect transistors, organic solar cells, and energy storage appli-
+cations, due to their unique optical and redox properties and 
+interesting π-π stacking motifs.[47–51] The simplest representa-
+tive is the perylene diimide (PDI), which comprises two imide 
+functionalities at the peri region of a five-ring perylene unit, and 
+is among the most studied building blocks for n-type organic 
+semiconductors toward functional devices with promising per-
+formance.[52–55] As a tentative exploration, in our previous work, 
+we developed for the first time a series of small molecules based 
+on tetrachlorinated PDI-bearing OEG side chains for n-type 
+OECTs.[43] The fabricated devices can afford a normalized peak 
+transconductance of 45.2 mS cm−1 and impressive operational 
+stability, which were further utilized for hydrogen peroxide 
+sensing, and a low detection limit of 0.75 µM was obtained. The 
+results highlight new and great opportunities for PDI used as 
+a strong electron-accepting unit to construct high-performance 
+n-type small-molecule mixed conductors, worthy of more sys-
+tematic investigations into the structure-property relationships 
+of the materials derived therefrom and thus contributing to the 
+general development of small-molecule OECTs.
+Herein, through the homocoupling of tetrachlorinated PDI, 
+we report the synthesis and characterization of two bay-linked 
+glycolated PDIs with different kinds of linkages, namely doubly- 
+and triply-linked PDI dimers (d-gdiPDI and t-gdiPDI, Scheme 1), 
+and investigated how the changes in backbone conformation 
+induced by the linkage mode between PDI units affects the  
+Adv. Funct. Mater. 2023, 33, 2300012
+Scheme 1.  The synthetic routes for t-gdiPDI and d-gdiPDI.
+ 16163028, 2023, 22, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adfm.202300012 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.afm-journal.de
+www.advancedsciencenews.com
+2300012  (3 of 10)
+© 2023 Wiley-VCH GmbH
+electronic, optical, capacitive, and molecular stacking proper-
+ties, as well as corresponding electrochemical device perfor-
+mance. It is found that d-gdiPDI displays a twisted structure 
+with an almost cruciform conformation, while t-gdiPDI has a 
+rigid and almost planar skeleton, as revealed by DFT calcula-
+tions. The high twisting effect exerts a favorable impact on the 
+charge storage property, providing d-gdiPDI with a remarkably 
+higher volumetric capacitance of 657 F cm−3 than 261 F cm−3 for 
+t-gdiPDI in a 0.1 m NaCl aqueous electrolyte. When coupled with 
+an ionic gel, d-gdiPDI also demonstrated a high specific capaci-
+tance of 479 F g−1 at a current density of 1 A g−1. Benefitting from 
+the excellent ionic-electronic coupling property, d-gdiPDI-based 
+n-type OECTs afforded a nearly double higher geometry-normal-
+ized transconductance of 105.3 mS cm−1, as compared to that of 
+55.5 mS cm−1 for t-gdiPDI counterparts. More importantly, solid-
+electrolyte OECT has been further fabricated using d-gdiPDI as 
+the active channel layer, delivering a low VTH of 0.11 V and a nor-
+malized transconductance of 142.4 mS cm−1. This work demon-
+strates that hydrophilic IPAHs can be attractive candidates for 
+OECTs and energy storage devices, and the structure-property-
+device performance relationships revealed here provided impor-
+tant guidance for future design of higher-performing small mol-
+ecule OMIECs for electrochemical devices.
+2. Results and Discussion
+2.1. Synthesis and Characterization
+The synthetic routes consisting of two steps for PDI dimer-based 
+small molecules are depicted in Scheme  1, and the synthetic 
+details are available in Supporting Information. The starting 
+material 4Cl-PTCDA was reacted with amino-triethylene glycol 
+to give intermediate 4Cl-PDI-3EG. The functionality of trieth-
+ylene glycol side chain at the nitrogen position of imide aims to 
+facilitate ion transport and ensure solution processability of the 
+final molecules. For the dimer d-gdiPDI, it was prepared from 
+4Cl-PDI-3EG via the homocoupling in anhydrous dimethyl sul-
+foxide (DMSO) with a stoichiometric amount of copper powder 
+as the reagent and Pd(PPh3)4 as the catalyst. While in the syn-
+thesis of the dimer t-gdiPDI, compound 4Cl-PDI-3EG underwent 
+a one-spot domino reaction involving Ullmann coupling and 
+CH transformation in anhydrous DMSO, using a stoichio-
+metric amount of copper iodide as the reagent, l-proline as the 
+ligand and potassium carbonate as the base. Both d-gdiPDI and 
+t-gdiPDI could be readily purified by column chromatography 
+on silica gel and their structures were fully characterized by 1H 
+NMR, 13C NMR, and MALDI-TOF (see Supporting Information). 
+All materials presented good solubility in common organic sol-
+vents such as toluene, chloroform, and dichloromethane at room 
+temperature. The thermal properties of these two molecules were 
+characterized using thermogravimetric analysis (TGA) under a 
+nitrogen atmosphere. As shown in Figure S1 (Supporting Infor-
+mation), the temperatures corresponding to 5% weight loss were 
+determined to be 397 °C for d-gdiPDI and 345 °C for t-gdiPDI, 
+indicating good thermal stability of them.
+2.2. Theoretical Calculations
+To elucidate the impact of connection mode on the geometric 
+and electronic properties of these two PDI dimers, density 
+functional theory (DFT) calculations were performed using the 
+B3LYP/6-31G(d) basis set, and the long OEG side chain was 
+replaced with 2-methoxyethyl group to simplify the calculations. 
+The optimized molecular geometries are presented in Figure 1. 
+Adv. Funct. Mater. 2023, 33, 2300012
+Figure 1.  The optimized geometries and frontier molecular orbitals of t-gdiPDI and d-gdiPDI obtained at B3LYP/6-31G(d) level of theory.
+ 16163028, 2023, 22, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adfm.202300012 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.afm-journal.de
+www.advancedsciencenews.com
+2300012  (4 of 10)
+© 2023 Wiley-VCH GmbH
+A large dihedral angle of 64o was found between two perylene 
+moieties in d-gdiPDI, indicating a very high twisting of the 
+molecular skeleton. In contrast, t-gdiPDI adopts an almost-
+planar geometry, and the torsion angle between the two adja-
+cent PDI units is significantly reduced to 25o. The pronounced 
+difference in the backbone conformation between d-gdiPDI and 
+t-gdiPDI results in varying degrees of π-electron delocalization, 
+as shown by the electron density distribution in the frontier 
+molecular orbitals (Figure 1). The lowest unoccupied molecular 
+orbital (LUMO) wavefunction of t-gdiPDI is delocalized over the 
+entire conjugated π-system, while the highest occupied molecular 
+orbital (HOMO) is mainly localized on the two perylene moie-
+ties. Disparate results were obtained for d-gdiPDI, in which 
+the LUMO wavefunction is predominantly localized on one 
+PDI unit, while the HOMO wavefunction is mostly localized 
+on the perylene moiety of the other PDI unit. The calculated 
+HOMO and LUMO energy levels for doubly linked d-gdiPDI are  
+−6.21 and −3.68  eV, respectively. In comparison, triply linked 
+t-gdiPDI exhibits a shallower HOMO energy level of −6.06  eV 
+and a deeper LUMO energy level of −4.12 eV.
+2.3. Photophysical and Electrochemical Properties
+The ultraviolet  visible  near  infrared  (UV–vis–NIR)  absorption 
+spectra for d-gdiPDI and t-gdiPDI in chloroform solution and 
+in thin films are shown in Figure S2 (Supporting Information), 
+and relevant optical properties are summarized in Table S1  
+(Supporting Information). These two PDI dimers exhibited 
+complex multi-peak features with well-resolved vibronic pro-
+gressions in the absorption spectra similar to most PDI fami-
+lies,[47] and presented two main absorption bands with the 
+high energy ones located in the regime of 330−430  nm and 
+the broader low energy ones located at 435−750 nm. Both mol-
+ecules showed redshifted absorption spectra in film relative to 
+those in solution, indicating that there is aggregation in the 
+solid state to some extent. The longest absorbance maxima of 
+d-gdiPDI in solution (λmax,sol) and film (λmax,film) states were 
+located at 525 and 540 nm, respectively. In contrast, the λmax,sol 
+and λmax,film of t-gdiPDI significantly bathochromically shifted 
+to 654 and 669 nm, respectively, which can be ascribed to the 
+extensive conjugation over the entire π-system of t-gdiPDI,[56] 
+as evidenced by the DFT calculations showing nearly planar 
+skeleton of t-gdiPDI (compared to the central highly twisted 
+eight-membered ring in d-gdiPDI) favoring extended electron 
+delocalization. Furthermore, based on their absorption onsets 
+of thin films, the optical bandgaps (Egopt) were calculated to be 
+1.73 and 2.16 eV for t-gdiPDI and d-gdiPDI, respectively.
+To evaluate the energy levels of the molecules, cyclic vol-
+tammetry (CV) measurements were conducted in anhydrous 
+dichloromethane solutions under a nitrogen atmosphere, with 
+0.1 m tetrabutylammonium hexafluorophosphate (Bu4NPF6) as 
+the supporting electrolyte and Ag/AgCl as the reference elec-
+trode. The LUMO energy level was calculated based on the onset 
+potential of the first reduction wave (E1r) versus the ferrocene/
+ferrocenium (Fc/Fc+) redox potential, according to the equation 
+ELUMO = −(4.80 + E1r). As shown in Figure S3a,b (Supporting 
+Information), the E1rs were found to be −0.49 and −0.77  eV 
+for t-gdiPDI and d-gdiPDI, respectively, corresponding to the 
+LUMO energy levels at −4.31 and −4.03  eV. The decreasing 
+trend in LUMO levels when going from d-gdiPDI to t-gdiPDI is 
+consistent with the DFT calculation results. The HOMO energy 
+level was estimated by subtracting the optical bandgap from the 
+LUMO energy level, giving the values of −6.04 eV for t-gdiPDI 
+and −6.19 eV for d-gdiPDI. CV was further performed to under-
+stand the electrochemical redox activity of small molecule films 
+in a 0.1 m NaCl aqueous electrolyte at low oxygen concentration 
+(Figure S3c,d, Supporting Information). It was observed that 
+the cathodic waves were small for t-gdiPDI, likely ascribed to 
+the continuous redox process of t-gdiPDI leading to a gradual 
+consumption of the redox-active units of t-gdiPDI on the elec-
+trode surface, from which the first reduction onset potential 
+was extracted to be −0.015 V versus Ag/AgCl. In comparison, 
+d-gdiPDI exhibited a pronounced cathodic wave with a higher 
+onset potential at −0.19 V versus Ag/AgCl.
+2.4. Spectroelectrochemical Properties
+In order to study the doping kinetics of the small molecule 
+films in a 0.1  m NaCl aqueous solution, the spectroelectro-
+chemical measurements were carried out to record the evolu-
+tions of the absorbance spectra of the films upon application 
+of a successive step potential, as shown in Figure 2a,b. These 
+two molecules displayed different optical profile changes with 
+the external bias. For t-gdiPDI, as the potential was swept from 
++0.2 to −0.2 V, the transitions at 666, 611, 550, 512, and 412 nm 
+gradually decreased in intensity to an almost disappearance of 
+them, while that of the transition at 477 nm increased and blue-
+shifted, and two new transitions at 585 and 802 nm grew in. 
+These spectral changes are related to the formation of polaronic 
+species on the molecular backbones upon electrochemical 
+reduction.[29,57] In contrast, no spectral change was found upon 
+applying potentials at 0.1 and 0 V versus Ag/AgCl for d-gdiPDI. 
+Within further bias from −0.1 to −0.8 V versus Ag/AgCl with a 
+−0.1 V potential increment, the transition peaks at 535, 495, and  
+419  nm slowly decayed, accompanied by the emergence of a 
+new absorption band centered at 757 nm, indicating the elec-
+trochemical doping of d-gdiPDI film by the injected sodium 
+ions and thus the formation of radical anion (polaron) species. 
+Besides, we observed in Figure  2c,d, which plots the relative 
+variations in the intensity of the polaronic absorption peak of 
+films over the applied bias, that the polaronic absorption band 
+began to appear at a lower potential for t-gdiPDI relative to 
+d-gdiPDI, corresponding to an earlier doping onset. Further-
+more, compared to d-gdiPDI, t-gdiPDI exhibited higher inten-
+sity of polaronic absorption at the same potential (0.1 to −0.2 V), 
+indicating its higher doping efficiency before the voltage of 
+–0.2 V.
+2.5. Capacitive Properties
+Volumetric capacitance (C*) as an important parameter for 
+OMIECs determines the OECT operation and needs to be 
+particularly considered in materials design. The C*s of both 
+molecules were assessed by performing electrochemical imped-
+ance spectroscopy (EIS) measurements in a 0.1 m NaCl aqueous 
+Adv. Funct. Mater. 2023, 33, 2300012
+ 16163028, 2023, 22, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adfm.202300012 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.afm-journal.de
+www.advancedsciencenews.com
+2300012  (5 of 10)
+© 2023 Wiley-VCH GmbH
+solution (Figure S4, Supporting Information). As shown in 
+Table  1, d-gdiPDI delivered a maximum C* of 657 F cm−3, 
+>2.5 times higher than that of t-gdiPDI (261 F cm−3). Note 
+that the C* of d-gdiPDI is the highest value reported to date 
+for small molecule OECT materials, and is also comparable 
+to that of the n-type redox-active polymer BBL.[38] To ration-
+alize the difference in the C* values between these two small 
+molecules, the contact angles of both thin films were tested 
+(Figure S5, Supporting Information). d-gdiPDI showed a con-
+tact angle of 26.5°, much smaller than that of t-gdiPDI (65.5°). 
+Previous studies have revealed that hydrophilic materials could 
+facilitate hydration and ion penetration into the film, which in 
+turn usually gives rise to higher volumetric capacitance.[32,35] In 
+this regard, we would attribute the higher C* of d-gdiPDI to its 
+more hydrophilic characteristic compared to t-gdiPDI.
+As d-gdiPDI has demonstrated very high C*, its charge 
+storage capability was further examined by CV and galvano-
+static charge–discharge (GCD) measurements in a 0.1 m NaCl 
+aqueous solution. To alleviate the issue of delamination of 
+small molecule film in aqueous media upon the redox reaction, 
+a layer of ionic gel (see Supporting Information for its prepa-
+ration process) was covered on d-gdiPDI thin film during the 
+test. Figure 3a presents the CV curves of thin film coated on  
+ITO/glass with different scan rates from 5 to 50  mV s−1 at a 
+potential window ranging from 0.2 to −0.8  V. The maximum 
+gravimetric capacitance (Cg) was found to be 421 F g−1 at a scan 
+rate of 20 mV s−1 (Table S2, Supporting Information), which is 
+very impressive for hydrophilic organic electrode materials.[58] 
+In the same potential window, the galvanostatic charge–
+discharge (GCD) characteristics of d-gdiPDI film electrodes at 
+Adv. Funct. Mater. 2023, 33, 2300012
+Figure 2.  Normalized thin-film spectroelectrochemistry behavior of a) t-gdiPDI and b) d-gdiPDI. The absolute changes in polaron absorption of the 
+films versus applied bias for c) t-gdiPDI at 800 nm and d) d-gdiPDI at 750 nm.
+Table 1.  Summary of OECT parameters for t-gdiPDI and d-gdiPDI.
+Compound
+da) 
+[nm]
+gm,max 
+[mS]
+gm,normb) 
+[mS cm−1]
+VThc) 
+[V]
+µe,OECTd) 
+[cm2 V−1 s−1]
+C*e) 
+[F cm−3]
+µC*f) 
+[F V−1 cm−1 s−1]
+Ion/off
+τON 
+[ms]
+τOFF 
+[ms]
+t-gdiPDI
+139 ± 1
+1.49
+55.1 ± 0.4
+-0.07 ± 0.01
+8.3 × 10−4
+254 ± 7
+0.21 ± 0.02
+≈103
+123 ± 6
+41 ± 7
+d-gdiPDI
+81 ± 4
+1.58
+100.7 ± 4.6
+0.11 ± 0.01
+5.3 × 10−4
+628 ± 29
+0.33 ± 0.01
+≈103
+87 ± 9
+23 ± 1
+a)The thickness of the small molecule film; b)The maximum transconductance normalized by the channel geometry; c)Determined by extrapolating the linear regime of the 
+IDS1/2−VGS plot; d)Calculated from the µC* and the volumetric capacitance C*; e)Deduced at 0.1 Hz from capacitance versus frequency plots; f)Extracted from the slope of gm 
+as a function of (Wd/L)(VTh−VGS). Reported uncertainties are one standard deviation, with n = 6 devices.
+ 16163028, 2023, 22, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adfm.202300012 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.afm-journal.de
+www.advancedsciencenews.com
+2300012  (6 of 10)
+© 2023 Wiley-VCH GmbH
+various current densities between 1 to 5 A g−1 were depicted in 
+Figure 3b. The maximum specific capacitance (Cs) in this case 
+was 479 F g−1 at a current density of 1 A g−1 (Table S3, Sup-
+porting Information), which was retained as 278 F g−1 at a 
+higher current density of 5 A g−1, outperforming previously 
+reported NDI-based polymer electrodes in aqueous media.[6] 
+However, d-gdiPDI exhibited unsatisfactory cycling stability 
+(Figure S6, Supporting Information) in both CV and GCD 
+measurements, possibly due to the electrochemical instability 
+of d-gdiPDI caused by the uptake of hydrated ions at high 
+charging potential.[6,59] This conjecture was confirmed by per-
+forming the stability test using CV under a narrower potential 
+window (0.2 to −0.3  V). As shown in Figure S7 (Supporting 
+Information), the cycling stability was significantly improved 
+with a capacity retention of 65% after 50 cycles, as compared to 
+that of 10% when the charging potential window was between 
+0.2 and −0.8 V (Figure S6a, Supporting Information). We sup-
+pose that the cycling stability of d-gdiPDI could be further 
+improved by side chain engineering, such as partly substituting 
+OEG side chains with alkyl ones, introducing hybrid OEG-alkyl 
+side chains, and using hydroxylated alkyl side chains, to achieve 
+an optimal combination of electroactivity, mixed conductivity, 
+swelling, and microstructural stability. Such molecular struc-
+ture optimization is underway in our laboratory.
+2.6. OECT Performance
+Since these two small molecules have exhibited redox activity 
+and high capacitances in aqueous electrolyte, their mixed 
+ionic and electronic transport characteristics were further 
+investigated by fabricating OECT devices with a 0.1  m NaCl 
+aqueous solution as the electrolyte, as illustrated in Figure 4a. 
+The product of charge carrier mobility (µ) and volumetric 
+capacitance (C*), a key figure-of-merit to typically evaluate the 
+mixed conduction property of an OMIEC, is deduced from the 
+equation (1).
+(
+)
+=
+−
+g
+C Wd
+L
+V
+V
+µ
+m
+*
+Th
+GS
+	
+(1)
+where gm is the transconductance; W, d, and L represent the 
+channel width, channel depth, and channel length, respectively; 
+VGS is the gate voltage; VTH is the threshold voltage. The 
+output and transfer characteristics operated as enhancement-
+mode n-type OECTs for t-gdiPDI and d-gdiPDI are displayed 
+in Figure 4b–e and related data are summarized in Table 1. At 
+VDS = 0.40 V, VGS = 0.25 V, the drain current (IDS) reached the 
+maximum value of 0.27 mA for t-gdiPDI, while its maximum 
+transconductance (gm,max) was found to be 1.49 mS at VDS  = 
+0.40 V, VGS = 0.21 V. In comparison, d-gdiPDI showed a higher 
+IDS of 0.32  mA (VDS  = 0.40  V, VGS  = 0.45  V) and a gm,max up 
+to 1.58 mS (VDS = 0.40 V, VGS = 0.45 V). It can be seen from 
+Equation (1) that gm is a geometry-dependent parameter. Thus, 
+in order to more fairly compare the gm of different OMIECs, 
+the geometry-normalized transconductance (gm,norm) was fur-
+ther calculated, giving the value of 100.7 ± 4.6 mS cm−1 for 
+d-gdiPDI, which is almost 2-fold higher than 55.1 ± 0.4 mS cm−1  
+for t-gdiPDI. As shown in Table 1, t-gdiPDI displayed a lower 
+threshold voltage (VTH) of −0.07 ± 0.01  V in contrast with 
+d-gdiPDI (VTH = 0.11 ± 0.01 V), which is in line with the trend 
+of the reduction onset as well as the polaronic absorption onset 
+in NaCl aqueous solution. To our best knowledge, the VTH of 
+t-gdiPDI represents the lowest value reported to date for n-type 
+OECT materials, which is very beneficial for OECT-based 
+sensor applications.[60] The µC* product deduced from Equa-
+tion (1) is 0.21 ± 0.02 F cm−1 V−1 s−1 for t-gdiPDI and increases to  
+0.33 ± 0.01 F cm−1 V−1 s−1 for d-gdiPDI (Table 1), which is signif-
+icantly higher than that of our recently reported PDI congener 
+4Cl-PDI-3EG (0.17 ± 0.03 F cm−1 V−1 s−1).[43] Based on the C* 
+value, the µC* was further decoupled to deliver the OECT elec-
+tron mobilities (µe,OECT) of 8.3 × 10−4 and 5.3 × 10−4 cm2 V−1 s−1  
+for t-gdiPDI and d-gdiPDI, respectively. The higher µe,OECT 
+of t-gdiPDI relative to d-gdiPDI could be ascribed to its more 
+planar framework benefiting extended π-conjugation and more 
+favorable π-stacking orientation (see the microstructure char-
+acterization below). As for the response times, the turn-on 
+(τON) and turn-off (τOFF) times were estimated via an exponen-
+tial fit (Figure S8, Supporting Information), giving τON/τOFF of 
+123 ± 6/41 ± 7  ms for t-gdiPDI and 87 ± 9/23 ± 1  ms for 
+d-gdiPDI. The faster response speed of d-gdiPDI suggests the 
+facile diffusion of the dopant ions into the channel, as sup-
+ported by its higher hydrophilicity manifested in contact angle 
+measurement. Finally, we examined the long-term operational 
+stability of OECTs under continuous VGS pulses (−0.3−0.25 V 
+Adv. Funct. Mater. 2023, 33, 2300012
+Figure 3.  a) CV curves recorded at different scan rates for d-gdiPDI. b) Charge–discharge profile of d-gdiPDI measured at different current densities.
+ 16163028, 2023, 22, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adfm.202300012 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.afm-journal.de
+www.advancedsciencenews.com
+2300012  (7 of 10)
+© 2023 Wiley-VCH GmbH
+for t-gdiPDI, 0−0.4 V for d-gdiPDI, pulse length = 6 s) for 2 h, as 
+shown in Figure 4f. Both t-gdiPDI- and d-gdiPDI-based OECTs 
+presented stable operation in NaCl aqueous solution with no 
+sign of degradation and only a slight fluctuation in the channel 
+currents. The slightly increased drain current after repeated 
+doping/dedoping cycles might be ascribed to the improved 
+ion penetration into the thin film, thus facilitating the doping/
+depoing process.[61]
+To demonstrate the versatility of the d-gdiPDI, we further 
+investigated the d-gdiPDI-based OECTs gated by an ion gel solid 
+electrolyte. The gel electrolyte is composed of 19.5 wt.% gelatin, 
+19.5  wt.% poly(sodium-p-styrene sulfonate), 1  wt.% d-sorbitol, 
+1 wt.% glycerin, 0.4 wt.% NaCl and 58.6 wt.% deionized water, 
+whose photograph of appearance is shown in Figure 5a. d-sorb-
+itol is to increase the toughness of gel, and glycerin is used to 
+improve the property of moisture retention. The details of the 
+procedure used to make the gel electrolyte are described in Sup-
+porting Information. A schematic of a side-gated OECT is shown 
+in Figure 5a. The output and transfer curves along with the asso-
+ciated transconductance of the solid-electrolyte OECT (SEOECT) 
+doped with sodium cation are presented in Figure  5b,c. This 
+SEOECT exhibited a low VTH of 0.11 V and a decent gm of 2.14 mS,  
+with a corresponding gm,norm of 132.8 ± 9.6 mS cm−1, which is 
+comparable to the devices operated in NaCl aqueous electrolyte. 
+However, the SEOECT showed a slower transient speed with 
+τON/τOFF of 748±79/89±11 ms, which should be ascribed to the 
+increased ionic resistance in the gel electrolyte relative to 0.1 m 
+NaCl electrolyte.[28] Importantly, the d-gdiPDI-based SEOECT 
+exhibited high operational stability with no degradation in its ini-
+tial channel current after 1 h of pulse measurement (Figure 5d). 
+These data indicated that d-gdiPDI-based OECTs in combination 
+with solid electrolytes might hold promise in the field of flexible 
+electronics for real-time biosensor applications such as moni-
+toring of low electrophysiological signals.
+2.7. Microstructure Study
+To investigate the evolution of the surface morphologies of 
+these two small molecules, ex situ atomic force microscopy 
+(AFM) measurements were conducted for the thin films in 
+dry, hydrated, and doped states (Figure S9, Supporting Infor-
+mation). In pristine state, both t-gdiPDI and d-gdiPDI exhib-
+ited flat surface morphologies, with the root-mean-square 
+roughness (RMS) of 0.44 and 0.59  nm, respectively. In the 
+swelling state, the surfaces of both small molecules became 
+rougher after immersing in 0.1 m NaCl aqueous electrolyte for 
+10 min, with the RMS increasing to 0.52 nm for t-gdiPDI and 
+0.71 nm for d-gdiPDI, mainly due to the uptake of water mol-
+ecules. When the films were doped by subjecting them to the 
+bias in 0.1 m NaCl aqueous electrolyte for 10 min, the RMS of 
+both molecules further increased slightly compared with that 
+of the swollen films, ascribed to the ingestion of hydrated ions 
+into the films. 2D grazing-incidence wide-angle X-ray scat-
+tering (GIWAXS) studies were further performed to explore 
+the molecular packing of small molecule semiconductors 
+(Figure  6). These two small molecules exhibited similar (010) 
+π−π stacking distances, with d-spacings of 4.03/4.08 Å in the 
+out-of-plane direction and 4.03/4/05 Å in the in-plane direction 
+for t-gdiPDI/d-gdiPDI (Table S4, Supporting Information). Sim-
+ilar (010) diffraction peak was also observed in both out-of-plane 
+and in-plane orientations for d-gdiPDI, while the (100) diffrac-
+tion peak along the out-of-plane direction is obviously stronger 
+than that of in-plane direction, suggesting a preferential edge-on  
+Adv. Funct. Mater. 2023, 33, 2300012
+Figure 4.  a) A schematic of the OECT gated by 0.1 m NaCl aqueous electrolyte. The output characteristics of OECT based on b) t-gdiPDI and c) d-gdiPDI. 
+The transfer and transconductance curves of OECT based on (d) t-gdiPDI and e) d-gdiPDI obtained at a sweeping rate of 0.03 V s−1. f) Operational 
+stability measurement of the OECT based on t-gdiPDI (top) and d-gdiPDI (bottom).
+ 16163028, 2023, 22, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adfm.202300012 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.afm-journal.de
+www.advancedsciencenews.com
+2300012  (8 of 10)
+© 2023 Wiley-VCH GmbH
+Adv. Funct. Mater. 2023, 33, 2300012
+Figure 6.  2D GIWAXS images for a) d-gdiPDI and b) t-gdiPDI, and c) corresponding line cut profiles along the in-plane and out-of-plane directions.
+Figure 5.  a) A schematic of fabricated OECT gated by ion gel electrolyte (left) and a photo of the gel electrolyte (right). b) The output characteristics 
+of the d-gdiPDI-based SEOECT for VDS = 0.4 V. c) The transfer and transconductance curves of the d-gdiPDI-based SEOECT for VDS = 0.4 V. d) n-Type 
+operational stability measurement of the gel electrolyte gated OECT based on d-gdiPDI.
+ 16163028, 2023, 22, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adfm.202300012 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.afm-journal.de
+www.advancedsciencenews.com
+2300012  (9 of 10)
+© 2023 Wiley-VCH GmbH
+Adv. Funct. Mater. 2023, 33, 2300012
+orientation of d-gdiPDI. In contrast, t-gdiPDI showed similar 
+scattering intensities of (010) and (100) peaks in both in-plane 
+and out-of-plane directions, which indicates its balanced orien-
+tation of face-on and edge-on packing motifs. Unlike organic 
+field-effect transistors, the OECT operates via ionic electro-
+chemical volumetric doping/dedoping to modulate the elec-
+trical conductivity in the channel layer, existing a delicate 
+trade-off relationship between ion and charge carrier transport. 
+In this respect, we speculate that the face-on/edge-on bimodal 
+orientation of t-gdiPDI enabling 3D charge transport might con-
+tribute to its higher charge mobility in contrast to d-gdiPDI.[44] 
+Besides, it is interesting that d-gdiPDI displayed larger coher-
+ence lengths (CLs) in both in-plane and out-of-plane directions 
+(Table S4, Supporting Information), as compared to t-gdiPDI, 
+presumably due to its highly twisted, almost-orthogonal scaf-
+fold making the formation of multi-directional long-range 
+organizations possible.[62]
+3. Conclusion
+In summary, we designed and synthesized two bay-linked PDIs 
+decorated with OEG side chains, d-gdiPDI and t-gdiPDI, where 
+the two PDI units are linked through two and three covalent 
+bonds, respectively. We found that the manipulation of the 
+molecular conformation of PDI dimers through changing the 
+connection mode has pronounced effects on the electronic, 
+optical, and electrochemical properties. The highly twisted mol-
+ecule, d-gdiPDI, exhibited a superior volumetric capacitance 
+of 657 F cm−3 relative to that of the almost planar d-gdiPDI  
+(261 F cm−3), and also gave a charge-storage capacity of 479 F g−1 
+at a current density of 1 A g−1. The higher capacity of d-gdiPDI 
+could be associated with its more hydrophilic character as well 
+as the molecular contortion facilitating the ion intercalation/
+transport. Note that the volumetric capacitance of d-gdiPDI is 
+the highest value reported to date for small molecule OECT 
+materials. Furthermore, when employed as the active channel 
+of n-type OECTs, d-gdiPDI presented a much higher gm,norm of 
+105.3 mS cm−1, compared with that of 55.5 mS cm−1 obtained 
+from t-gdiPDI counterpart. Moreover, an impressive normalized 
+transconductance of 142.4 mS cm−1 was found for d-gdiPDI-
+based solid-electrolyte OECTs, showing its promising applica-
+tion in biosensors. Our work highlights the important role of 
+twisting molecular conformation manipulation toward opti-
+mizing the capacitance in aqueous media and thus improving 
+the performance of electrochemical devices and demonstrates 
+the bright future of hydrophilic IPAHs for high-performance 
+n-type small-molecule OECTs and energy storage devices.
+Supporting Information
+Supporting Information is available from the Wiley Online Library or 
+from the author.
+Acknowledgements
+Y.Y. and G.Z contributed equally to this work. This work was supported 
+by the National Natural Science Foundation of China (Grant No. 
+21875291, 22275212, and 52203251), the Guangzhou Basic and Applied 
+Basic Research Foundation (Grant No. 202201011508), and the Program 
+for Introducing Overseas High-level Talents of Shanxi (Hundred Talents 
+Plan).
+Conflict of Interest
+The authors declare no conflict of interest.
+Data Availability Statement
+The data that support the findings of this study are available from the 
+corresponding author upon reasonable request.
+Keywords
+high capacities, imide-fused polycyclic aromatic hydrocarbons, ionic-
+electronic conductors, n-types, organic electrochemical transistors
+Received: January 1, 2023
+Revised: February 6, 2023
+Published online: February 26, 2023
+[1]	 J. Rivnay, S. Inal, A. Salleo, R. M. Owens, M. Berggren, G. G. Malliaras,  
+Nat. Rev. Mater. 2018, 3, 17086.
+[2]	 J. Chen, W. Huang, D. Zheng, Z. Xie, X. Zhuang, D. Zhao, Y. Chen, 
+N.  Su, H.  Chen, R. M.  Pankow, Z.  Gao, J.  Yu, X.  Guo, Y.  Cheng, 
+J. Strzalka, X. Yu, T. J. Marks, A. Facchetti, Nat. Mater. 2022, 21, 564.
+[3]	 E. Zeglio, O. Inganäs, Adv. Mater. 2018, 30, 1800941.
+[4]	 D. Moia, A. Giovannitti, A. A. Szumska, I. P. Maria, E. Rezasoltani, 
+M.  Sachs, M.  Schnurr, P. R. F.  Barnes, I.  McCulloch, J.  Nelson, 
+Energy Environ. Sci. 2019, 12, 1349.
+[5]	 L. R.  Savagian, A. M.  Österholm, J. F.  Ponder, Jr., K. J.  Barth, 
+J. Rivnay, J. R. Reynolds, Adv. Mater. 2018, 30, 1804647.
+[6]	 S. Cong, J. Chen, L. Wang, L. Lan, Y. Wang, H. Dai, H. Liao, Y. Zhou, 
+Y. Yu, J. Duan, Z. Li, I. McCulloch, W. Yue, Adv. Funct. Mater. 2022, 
+32, 2201821.
+[7]	 R. J. Mortimer, A. L. Dyer, J. R. Reynolds, Displays 2006, 27, 2.
+[8]	 R.  Brooke, J.  Edberg, X.  Crispin, M.  Berggren, I.  Engquist, 
+M. P. Jonsson, Polymers 2019, 11, 267.
+[9]	 B. D.  Paulsen, K.  Tybrandt, E.  Stavrinidou, J.  Rivnay, Nat. Mater. 
+2020, 19, 13.
+[10]	 M.  Moser, J. F.  Ponder, Jr., A.  Wadsworth, A.  Giovannitti, 
+I. McCulloch, Adv. Funct. Mater. 2019, 29, 1807033.
+[11]	 N. A.  Kukhta, A.  Marks, C. K.  Luscombe, Chem. Rev. 2022, 122, 
+4325.
+[12]	 R. K.  Hallani, B. D.  Paulsen, A. J.  Petty, II, R.  Sheelamanthula, 
+M. Moser, K. J. Thorley, W. Sohn, R. B. Rashid, A. Savva, S. Moro, 
+J. P. Parker, O. Drury, M. Alsufyani, M. Neophytou, J. Kosco, S. Inal, 
+G. Costantini, J. Rivnay, I. McCulloch, J. Am. Chem. Soc. 2021, 143, 
+11007.
+[13]	 P. Li, J. Shi, Y. Lei, Z. Huang, T. Lei, Nat. Commun. 2022, 13, 5970.
+[14]	 J. Chung, A. Khot, B. M. Savoie, B. W. Boudouris, ACS Macro Lett. 
+2020, 9, 646.
+[15]	 S. T. M.  Tan, A.  Gumyusenge, T. J.  Quill, G. S.  LeCroy, 
+G. E.  Bonacchini, I.  Denti, A.  Salleo, Adv. Mater. 2022, 34, 
+2110406.
+[16]	 C. J. Kousseff, R. Halaksa, Z. S. Parr, C. B. Nielsen, Chem. Rev. 2022, 
+122, 4397.
+ 16163028, 2023, 22, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adfm.202300012 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.afm-journal.de
+www.advancedsciencenews.com
+2300012  (10 of 10)
+© 2023 Wiley-VCH GmbH
+Adv. Funct. Mater. 2023, 33, 2300012
+[17]	 Y. Dai, S. Dai, N. Li, Y. Li, M. Moser, J. Strzalka, A. Prominski, Y. Liu, 
+Q.  Zhang, S.  Li, H.  Hu, W.  Liu, S.  Chatterji, P.  Cheng, B.  Tian, 
+I. McCulloch, J. Xu, S. Wang, Adv. Mater. 2022, 34, 2201178.
+[18]	 L. Bai, C. G. Elósegui, W. Li, P. Yu, J. Fei, L. Mao, Front. Chem. 2019, 
+7, 313.
+[19]	 J. H.  Kim, S.  Kim, G.  Kim, M.  Yoon, Macromol. Biosci. 2020, 20, 
+2000211.
+[20]	 Y. van de Burgt, E. Lubberman, E. J. Fuller, S. T. Keene, G. C. Faria, 
+S. Agarwal, M. J. Marinella, A. A. Talin, A. Salleo, Nat. Mater. 2017, 
+16, 414.
+[21]	 D. Ohayon, S. Inal, Adv. Mater. 2020, 32, 2001439.
+[22]	 J. Ji, H. Wang, R. Liu, X. Jiang, Q. Zhang, Y. Peng, S. Sang, Q. Sun, 
+Z. L. Wang, Nano Energy 2021, 87, 106116.
+[23]	 Y. Zhao, S. Haseena, M. K. Ravva, S. Zhang, X. Li, J. Jiang, Y. Fu, 
+S.  Inal, Q.  Wang, Y.  Wang, W.  Yue, I.  McCullocn, D.  He, Nano 
+Energy 2022, 104, 107985.
+[24]	 W.  Wang, Z.  Li, M.  Li, L.  Fang, F.  Chen, S.  Han, L.  Lan, J.  Chen, 
+Q. Chen, H. Wang, C. Liu, Y. Yang, W. Yue, Z. Xie, Nano-Micro Lett. 
+2022, 14, 184.
+[25]	 L. Wang, X. Yue, Q. Sun, L. Zhang, G. Ren, G. Lu, H. Yu, W. Huang, 
+Nano Res. 2022, 15, 2433.
+[26]	 T.  Nguyen-Dang, K.  Harrison, A.  Lill, A.  Dixon, E.  Lewis, 
+J.  Vollbrecht, T.  Hachisu, S.  Biswas, Y.  Visell, T. Q.  Nguyen,  
+Adv. Electron. Mater. 2021, 7, 2100519.
+[27]	 H. Lee, S. Lee, W. Lee, T. Yokota, K. Fukuda, T. Someya, Adv. Funct. 
+Mater. 2019, 29, 1906982.
+[28]	 X. Wu, S. Chen, M. Moser, A. Moudgil, S. Griggs, A. Marks, T. Li, 
+I. McCulloch, W. L. Leong, Adv. Funct. Mater. 2023, 33, 2209354.
+[29]	 M.  Moser, T. C.  Hidalgo, J.  Surgailis, J.  Gladisch, S.  Ghosh, 
+R.  Sheelamanthula, Q.  Thiburce, A.  Giovannitti, A.  Salleo, 
+N.  Gasparini, A.  Wadsworth, I.  Zozoulenko, M.  Berggren, 
+E. Stavrinidou, S. Inal, I. McCulloch, Adv. Mater. 2020, 32, 2002748.
+[30]	 X.  Luo, H.  Shen, K.  Perera, D. T.  Tran, B. W.  Boudouris, J.  Mei, 
+ACS Macro Lett. 2021, 10, 1061.
+[31]	 L. Lan, J. Chen, Y. Wang, P. Li, Y. Yu, G. Zhu, Z. Li, T. Lei, W. Yue, 
+I. McCulloch, Chem. Mater. 2022, 34, 1666.
+[32]	 K. Feng, W. Shan, S. Ma, Z. Wu, J. Chen, H. Guo, B. Liu, J. Wang, 
+B. Li, H. Y. Woo, S. Fabiano, W. Huang, X. Guo, Angew. Chem., Int. 
+Ed. 2021, 60, 24198.
+[33]	 I. P.  Maria, S.  Griggs, R. B.  Rashid, B. D.  Paulsen, J.  Surgailis, 
+K.  Thorley, V. N.  Le, G. T.  Harrison, C.  Combe, R.  Hallani, 
+A. Giovannitti, A. F. Paterson, S. Inal, J. Rivnay, I. McCulloch, Chem. 
+Mater. 2022, 34, 8593.
+[34]	 Y. Wang, Y. Yu, H. Liao, Y. Zhou, I. McCulloch, W. Yue, Acc. Chem. 
+Res. 2020, 53, 2855.
+[35]	 X.  Chen, A.  Marks, B. D.  Paulsen, R.  Wu, R. B.  Rashid, H.  Chen, 
+M. Alsufyani, J. Rivnay, I. McCulloch, Angew. Chem., Int. Ed. 2021, 
+60, 9368.
+[36]	 B.  Ding, G.  Kim, Y.  Kim, F. D.  Eisner, E.  Gutiérrez-Fernández, 
+J. Martín, M. H. Yoon, M. Heeney, Angew. Chem., Int. Ed. 2021, 60, 
+19679.
+[37]	 J.  Shi, P.  Li, X.  Deng, J.  Xu, Z.  Huang, Y.  Lei, Y.  Wang, J.  Wang, 
+X. Gu, T. Lei, Chem. Mater. 2022, 34, 864.
+[38]	 H.  Wu, C.  Yang, Q.  Li, N. B.  Kolhe, X.  Strakosas, M.  Stoeckel, 
+Z. Wu, W. Jin, M. Savvakis, R. Kroon, D. Tu, H. Y. Woo, M. Berggren, 
+S. A. Jenekhe, S. Fabiano, Adv. Mater. 2022, 34, 2106235.
+[39]	 H. Sun, M. Vagin, S. Wang, X. Crispin, R. Forchheimer, M. Berggren, 
+S. Fabiano, Adv. Mater. 2018, 30, 1704916.
+[40]	 A. V.  Volkov, H.  Sun, R.  Kroon, T. P.  Ruoko, C.  Che, J.  Edberg, 
+C. Müller, S. Fabiano, X. Crispin, ACS Appl. Energy Mater. 2019, 2, 
+5350.
+[41]	 A. M.  Pappa, D.  Ohayon, A.  Giovannitti, I. P.  Maria, A.  Savva, 
+I. Uguz, J. Rivnay, I. McCulloch, R. M. Owens, S. Inal, Sci. Adv. 2018, 
+4, eaat0911.
+[42]	 C. G. Bischak, L. Q. Flagg, K. Yan, C. Z. Li, D. S. Ginger, ACS Appl. 
+Mater. Interfaces 2019, 11, 28138.
+[43]	 H.  Liao, J.  Chen, L.  Lan, Y.  Yu, G.  Zhu, J.  Duan, X.  Zhu, H.  Dai, 
+M.  Xiao, Z.  Li, W.  Yue, I.  McCulloch, ACS Appl. Mater. Interfaces 
+2022, 14, 16477.
+[44]	 J. Duan, G. Zhu, L. Wang, J. Chen, S. Cong, X. Zhu, Y. Zhou, Z. Li, 
+I. McCulloch, W. Yue, Adv. Funct. Mater. 2022, 32, 2203937.
+[45]	 E. Stein, O. Nahor, M. Stolov, V. Freger, I. M. Petruta, I. McCulloch, 
+G. L. Frey, Nat. Commun. 2022, 13, 5548.
+[46]	 J. Duan, G. Zhu, L. Lan, J. Chen, X. Zhu, C. Chen, Y. Yu, H. Liao, 
+Z.  Li, I.  McCulloch, W.  Yue, Angew. Chem., Int. Ed. 2023, 62, 
+202213737.
+[47]	 W. Jiang, Z. Wang, J. Am. Chem. Soc. 2022, 144, 14976.
+[48]	 G. Liu, Y. Liu, C. Zhao, Y. Li, Z. Wang, H. Tian, Angew. Chem., Int. 
+Ed. 2023, 62, 202214769.
+[49]	 L. Chen, C. Li, K. Müllen, J. Mater. Chem. C 2014, 2, 1938.
+[50]	 Z.  Jin, Q.  Cheng, S. T.  Bao, R.  Zhang, A. M.  Evans, F.  Ng, Y.  Xu, 
+M. L.  Steigerwald, A. E.  McDermott, Y.  Yang, C.  Nuckolls, 
+J. Am. Chem. Soc. 2022, 144, 13973.
+[51]	 K. Zhao, Z. Yao, Z. Wang, J. Zeng, L. Ding, M. Xiong, J. Wang, J. Pei, 
+J. Am. Chem. Soc. 2022, 144, 3091.
+[52]	 S. Chen, D. Meng, J. Huang, N. Liang, Y. Li, F. Liu, H. Yan, Z. Wang, 
+CCS Chem. 2021, 3, 78.
+[53]	 C. Xiao, W. Jiang, X. Li, L. Hao, C. Liu, Z. Wang, ACS Appl. Mater. 
+Interfaces 2014, 6, 18098.
+[54]	 Y. Duan, X. Xu, Y. Li, Q. Peng, Chinese Chem. Lett. 2017, 28, 2105.
+[55]	 P. Cheng, X. Zhao, X. Zhan, Acc. Mater. Res. 2022, 3, 309.
+[56]	 W.  Jiang, C.  Xiao, L.  Hao, Z.  Wang, H.  Ceymann, C.  Lambert, 
+S. D. Motta, F. Negri, Chem. - Eur. J. 2012, 18, 6764.
+[57]	 I.  Zozoulenko, A.  Singh, S. K.  Singh, V.  Gueskine, X.  Crispin, 
+M. Berggren, ACS Appl. Polym. Mater. 2019, 1, 83.
+[58]	 X. Wang, J. Zhou, W. Tang, Mater. Horiz. 2021, 8, 2373.
+[59]	 A. A.  Szumska, I. P.  Maria, L. Q.  Flagg, A.  Savva, J.  Surgailis, 
+B. D. Paulsen, D. Moia, X. Chen, S. Griggs, J. T. Mefford, R. B. Rashid,  
+A.  Marks, S.  Inal, D. S.  Ginger, A.  Giovannitti, J.  Nelson, J. Am. 
+Chem. Soc. 2021, 143, 14795.
+[60]	 P.  Schmode, D.  Ohayon, P. M.  Reichstein, A.  Savva, S.  Inal, 
+M. Thelakkat, Chem. Mater. 2019, 31, 5286.
+[61]	 D.  Jeong, I.  Jo, S.  Lee, J. H.  Kim, Y.  Kim, D.  Kim, J. R.  Reynolds, 
+M. Yoon, B. J. Kim, Adv. Funct. Mater. 2022, 32, 2111950.
+[62]	 A. Gulyani, R. Srinivasa Gopalan, G. U. Kulkarni, S. Bhattacharya, 
+J. Mol. Struct. 2002, 616, 103.
+ 16163028, 2023, 22, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adfm.202300012 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+

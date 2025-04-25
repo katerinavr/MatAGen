@@ -1,0 +1,1096 @@
+This journal is © The Royal Society of Chemistry 2023
+Mater. Horiz., 2023, 10, 607–618 |  607
+Cite this: Mater. Horiz., 2023,
+10, 607
+Backbone coplanarity manipulation via hydrogen
+bonding to boost the n-type performance
+of polymeric mixed conductors operating
+in aqueous electrolyte†
+Junxin Chen,a Shengyu Cong,*a Lewen Wang,a Yazhou Wang,a Liuyuan Lan,a
+Chaoyue Chen,a Yecheng Zhou,
+a Zhengke Li,a Iain McCullochb and
+Wan Yue
+*a
+The development of high-performance n-type semiconducting
+polymers remains a significant challenge. Reported here is the
+construction of a coplanar backbone via intramolecular hydrogen
+bonds to dramatically enhance the performance of n-type poly-
+meric mixed conductors operating in aqueous electrolyte. Specifi-
+cally, glycolated naphthalene tetracarboxylicdiimide (gNDI) couples
+with vinylene and thiophene to give gNDI-V and gNDI-T, respec-
+tively. The hydrogen bonding functionalities are fused to the back-
+bone to ensure a more coplanar backbone and much tighter p–p
+stacking of gNDI-V than gNDI-T, which is evidenced by density
+functional theory simulations and grazing-incidence wide-angle
+X-ray scattering. Importantly, these copolymers are fabricated as
+the active layer of the aqueous-based electrochromic devices and
+organic electrochemical transistors (OECTs). gNDI-V exhibits a
+larger electrochromic contrast (DT = 30%) and a higher coloration
+efficiency (1988 cm2 C1) than gNDI-T owing to its more efficient
+ionic–electronic coupling. Moreover, gNDI-V gives the highest
+electron mobility (0.014 cm2 V1 s1) and lC* (2.31 FV1 cm1 s1)
+reported to date for NDI-based copolymers in OECTs, attributed to
+the improved thin-film crystallinity and molecular packing pro-
+moted by hydrogen bonds. Overall, this work marks a remarkable
+advance in the n-type polymeric mixed conductors and the hydro-
+gen bond functionalization strategy opens up an avenue to access
+desirable performance metrics for aqueous-based electrochemical
+devices.
+1. Introduction
+Organic mixed ionic–electronic conductors (OMIECs) are often
+conjugated polymers (CPs), and can simultaneously transport
+ionic and electronic species.1,2 CPs are a perfect candidate for
+mixed conduction: a conjugated backbone supports the charge
+transport and the ionic transport is allowed through the
+bulk.3,4 More importantly, the desired properties can be facilely
+introduced to CPs via chemical modifications.5,6 Based on
+these advantages, there has been growing interest in develop-
+ing CPs which can be reversibly doped and de-doped with
+aqueous electrolyte.7,8 As reported, an aqueous-based electro-
+lyte possesses high ionic conductivity, incombustibility and
+non-toxicity, which makes it a promising alternative to an
+a Guangzhou Key Laboratory of Flexible Electronic Materials and Wearable Devices,
+Key Laboratory for Polymeric Composite and Functional Materials of Ministry of
+Education, School of Materials Science and Engineering, State Key Laboratory of
+Optoelectronic Materials and Technologies, Sun Yat-sen University, Guangzhou
+510275, P. R. China. E-mail: congshy@mail.sysu.edu.cn, yuew5@mail.sysu.edu.cn
+b Department of Chemistry, Chemistry Research Laboratory, University of Oxford,
+Oxford OX1 3TA, UK
+† Electronic supplementary information (ESI) available. See DOI: https://doi.org/
+10.1039/d2mh01100j
+Received 2nd September 2022,
+Accepted 30th November 2022
+DOI: 10.1039/d2mh01100j
+rsc.li/materials-horizons
+New concepts
+In recent years, considerable eﬀorts have been put into designing poly-
+meric mixed ionic–electronic conductors (PMIECs), as they are key to
+advancing a host of technological developments for electrochemical
+devices. However, the development of high-performance n-type PMIECs
+remains a significant challenge. While extensive research has gone into
+introducing novel building blocks or diverse hydrophilic pendant chains
+(e.g., butylene glycol) to maximize the performance of n-type PMIECs
+operating in aqueous electrolyte, little work has thus far been conducted
+on tailoring the molecular packing and electronic properties through
+conformational control using intramolecular hydrogen bonds. Herein, we
+report the very first high performance n-type PMIECs developed by
+backbone coplanarity manipulation via hydrogen bonds, which were
+fabricated
+as
+aqueous-based
+electrochromic
+devices
+and
+organic
+electrochemical transistors. In particular, the more coplanar backbone
+conformation driven by intermolecular hydrogen bonds results in a much
+higher device performance in both aqueous-based devices. Importantly,
+the first demonstration of backbone coplanarity control via hydrogen
+bonding promises to expand our understanding of the effect of backbone
+conformation on ionic–electronic coupling and mixed conduction in
+aqueous media. We envisage our systematic work will inspire researchers
+from diverse backgrounds to design future n-type PMIECs to promote
+their developments for application in next-generation bioelectronics,
+optoelectronics and batteries.
+Materials
+Horizons
+COMMUNICATION
+Published on 02 December 2022. Downloaded by University of Chicago on 5/10/2024 2:46:35 AM. 
+View Article Online
+View Journal | View Issue
+
+608 |  Mater. Horiz., 2023, 10, 607–618
+This journal is © The Royal Society of Chemistry 2023
+organic electrolyte.9,10 Therefore, CPs operating in aqueous
+electrolyte possess much potential to fabricate as active materials
+to develop non-toxic and environment-friendly electrochemical
+devices, such as light-emitting electrochemical cells (LEEC),11
+organic electrochemical transistors (OECTs)12 and electrochromic
+devices (ECDs).13
+However, most CPs are hydrophobic which results from
+their hydrophobic alkyl side chains and conjugated back-
+bones.14,15 Introducing hydrophilic oligo (ethylene glycol) (OEG)
+as side chains is a prevailing method to promote the ionic
+conductivity of CPs in aqueous electrolyte and provide suﬃcient
+solubility in organic solvents for solution processing.16–18
+Generally, the CPs as OMIECs can be classified as p-type and
+n-type.19,20 Compared to the well-developed p-type OMIECs,
+the development of n-type OMIECs is relatively slow.21,22
+Whereas the n-type OMIECs are highly essential as electron-
+transporting materials for realizing p–n-junction-based wear-
+able, flexible or printable electrochemical devices,23 such as
+low-power OECT-based complementary circuits for bioelectro-
+nic applications,24 thus it is indispensable and imperative to
+develop high-performance n-type polymeric mixed conductors.
+However, compared with p-type OMIECs, the n-type OMIECs
+more easily suffer from the issue of ‘‘nonplanar backbones’’.25,26
+This is attributed to the electron-withdrawing groups (such
+as CQO or CRN), which enable the n-type charge transport
+properties, are often bulky and likely induce a steric hindrance on
+their adjacent subunits.27 Furthermore, such steric hindrance may
+potentially result in a highly twisted backbone, which would
+shorten the coherent conjugation length and inhibit the interchain
+carrier transport, thus limiting the transport of charge carriers
+with respect of electrochemical application.28,29
+One promising approach to address the aforementioned
+‘‘nonplanar backbone’’ issue of the n-type OMIECs is the
+employment of noncovalent bonds to construct coplanar
+conformation.30,31 Among various types of noncovalent inter-
+actions, the hydrogen bond works as an ideal interaction owing
+to its tunable strength, directional nature and synthetic
+versatility
+which
+allow
+for
+precise
+control
+of
+backbone
+conformation.32–34 The noncovalent conformational lock effect
+driven by hydrogen bonds can be viewed as high energy barriers
+which prevent the low energy coplanar conformer from tor-
+sional rotation, contributed by the formation of noncovalent
+interactions.28 Much research has reported intriguing proper-
+ties which were induced by the coplanar conformation, such as
+anisotropic molecular aggregation and solvent resistance.35
+Moreover, a coplanar backbone is expected to possess effective
+coherent conjugation along the backbone and provide faster
+intramolecular charge transport.35,36 Additionally, coplanarity
+conformation favors small reorganization energy through
+charge transport and close intermolecular packing, which
+would result in strong intermolecular electronic coupling and
+long exciton diffusion length.36 Despite the potential of the
+hydrogen bond functionalization, especially rare are works
+reporting the performance enhancement of n-type polymeric
+mixed conductors operating in aqueous media through back-
+bone coplanarity manipulation by hydrogen bonds.
+Naphthalenediimide (NDI) has been well utilized as a robust
+building block for n-type OMIECs and NDI groups have high
+thermal and oxidative stability.37,38 The strongly electron-
+deficient aromatic unit with two electron-withdrawing imide
+groups gives low-lying LUMO energy levels, which makes NDI-
+based CPs excellent electron-transporting semiconductors.39,40
+Besides, NDI-based copolymers usually exhibit good long-term
+operational stability in water, which is critical for practical
+aqueous-based applications.41,42 Additionally, much potential
+was found in NDI-based copolymers as electrochromic dis-
+plays and energy storage devices, which can be used as a
+platform for varied aqueous-based electrochemical devices.16
+However, the carbonyl groups in the NDI core often cause a
+strong steric hindrance with the adjacent units and a twisted
+backbone conformation,43,44 consequently resulting in loca-
+lized polaron and limited carrier transport.45,46 For instance,
+our previous work investigated glycolated NDI coupling with
+bithiophene to give gNDI-BT, which was fabricated as a
+channel material in OECTs.16 It was found that gNDI-BT
+exhibited a highly twisted backbone and relatively large
+dihedral angles (y) up to 441, which was evidenced by density
+functional
+theory
+(DFT)
+calculations.
+Furthermore,
+DFT
+computations
+revealed
+that
+the
+twists
+mainly
+occurred
+between the NDI core and the adjacent thienyl groups. As a
+consequence, less ordered molecular packing was found
+and gNDI-BT presented a low electron mobility of 5.69 
+104 cm2 V1 s1 in OECTs.
+Inspired by the potential of hydrogen bond functionaliza-
+tion to construct a coplanar backbone conformation, the mole-
+cular structure–device property correlation for n-type OMIECs
+operating in aqueous media has been systematically investi-
+gated. NDI was employed as an acceptor unit in this work,
+coupling with vinylene and thiophene to give gNDI-V and
+gNDI-T, respectively. DFT simulations support that the gNDI-V
+displays a coplanar backbone conformation owing to intra-
+molecular hydrogen bonds, while gNDI-T exhibits a highly
+twisted backbone without an intermolecular hydrogen bond.
+Furthermore, gNDI-V exhibited much shorter p–p stacking
+(3.59 Å) than gNDI-T (3.97 Å). The relationship between poly-
+meric structure and device properties has been established
+by systemically comparing the NDI copolymers’ optical and
+electronic properties, electrochemical charging behavior and
+spectroelectrochemical properties, molecular packing, as well
+as a range of electrochemical device performances (ECDs and
+OECTs). It was observed that gNDI-V gave superior device
+performances than gNDI-T, including greater electrochromic
+contrast
+and
+composite
+coloration
+efficiency
+as
+ECDs.
+Compared to gNDI-T, the OECTs based on gNDI-V exhibit an
+impressive electron mobility of 0.014 cm2 V1 s1 and an
+excellent mC* value of 2.31 F V1 cm1 s1, which are both
+the highest values reported to date for NDI-based OMIECs.
+Therefore, the proposed hydrogen bond functionalization will
+inspire future molecular design and varied n-type copolymers
+can be optimized by this design principle to access desir-
+able performance metrics in aqueous-based electrochemical
+devices.
+Communication
+Materials Horizons
+Published on 02 December 2022. Downloaded by University of Chicago on 5/10/2024 2:46:35 AM. 
+View Article Online
+
+This journal is © The Royal Society of Chemistry 2023
+Mater. Horiz., 2023, 10, 607–618 |  609
+2. Results and discussion
+2.1
+NDI-based copolymers synthesis
+Two NDI-based copolymers synthesized in this work are illu-
+strated in Scheme 1. The synthetic procedures for the mono-
+mers and copolymers are described in Schemes S1 and S2
+(ESI†). The six OEG repeating units were utilized to provide
+the NDI-based copolymers with essential ionic conductivity in
+aqueous media and high solubility in organic solvents for
+solution processing. The gNDI for the polymerization was
+synthesized according to our previous report.16 The trans-1, 2-
+bis(tributylstannyl)ethene
+and
+2,5-bis(trimethylstannyl)thio-
+phene were both commercially available. Under typical Stille
+polymerization conditions, the gNDI monomer was polymer-
+ized with the two forementioned monomers to give gNDI-T and
+gNDI-V in high yields. Specifically, gNDI-T and gNDI-V are both
+insoluble in aqueous media, which allows characterization of
+their device properties in aqueous electrolyte. In addition, the two
+copolymers both exhibited good solution processability with
+adequate solubility (equal to or above 20 mg mL1) in common
+organic solvents, such as chloroform and dichloromethane.
+The molecular weights of gNDI-T and gNDI-V were evaluated by
+matrix-assisted laser desorption/ionization time-of-flight (MALDI-
+TOF) mass spectrometry, exhibiting the maximum molecular
+weights between 16.3 and 17.2 kDa, corresponding to the repeat-
+ing units of 19 (Fig. S7, ESI†). The number-average molecular
+weights (Mn) for the two copolymers were also determined by gel
+permeation chromatography (GPC) and the Mn was in the range
+between 11.0 and 15.9 kDa (Fig. S8, ESI†), which was in accor-
+dance with the MALDI-TOF data. Their thermal properties were
+characterized by the thermogravimetric analysis (TGA), showing
+good thermal stabilities with a decomposition temperature over
+290 1C for both copolymers (Fig. S9, ESI†).
+2.2
+Optical and electronic properties
+The optical properties of NDI-based copolymers were measured
+by UV-vis-NIR absorption measurement and the corresponding
+data are summarized in Table 1. As illustrated in Fig. 1a, all the
+absorption spectra exhibited similar absorption profiles with
+dual-band absorption, an absorption band in the high energy
+range (309–445 nm) attributed to the p–p* transition and a
+low energy (422–746 nm) band which originated from the
+intramolecular charge transfer (ICT).47 In the solution, an
+absorption maximum (lmax) of low energy band located at
+520 nm and 544 nm was recorded for gNDI-V and gNDI-T,
+respectively. By monitoring the film absorption spectra, the
+lmax of gNDI-V and gNDI-T presented an apparent red-shift
+compared with their solution absorption, suggesting improved
+molecular packing in solid states.48 Note that the absorption
+maximum (lmax) shifts significantly from 532 nm for gNDI-V to
+623 nm for gNDI-T. The red shift was likely due to the stronger
+electron-donating ability of the thiophene unit than that of the
+vinylene unit, which is evidenced by the later cyclic voltamme-
+try (CV) measurements and density functional theory (DFT)
+simulations. The optical bandgaps (Eopt
+g ) were obtained from
+the film absorption onsets, and the values are 1.73 eV for gNDI-T
+and 2.01 eV for gNDI-V. The lower bandgap of gNDI-T is attributed
+to the relatively stronger ICT character between the NDI and the
+thiophene unit.49
+To evaluate the electrochemical properties of the NDI-based
+copolymers, CV measurements were performed in aceto-
+nitrile with 0.1 M tetrabutylammonium hexafluorophosphate
+(n-Bu4NPF6) using Ag/AgCl as a reference electrode. As illu-
+strated in Fig. 1b, the reduction onset potential in acetonitrile
+of gNDI-T and gNDI-V was 0.21 V and 0.02 V, respectively.
+Then, the corresponding lowest unoccupied molecular orbital
+Scheme 1
+NDI-based copolymers synthesized in this work (the color represents the resulting polymer film color). Reaction conditions: (a) trans-1, 2-
+bis(tributylstannyl)ethene, Pd2(dba)3, P(o-tol)3, toluene, 110 1C, 24 h; (b) 2,5-bis(trimethylstannyl)thiophene, Pd2(dba)3, P(o-tol)3, toluene, 110 1C, 24 h.
+Table 1
+Optical and electrochemical properties of the NDI-based copolymers
+Polymer
+lmax,solution
+a (nm)
+lmax,film
+b (nm)
+ELUMO
+c (eV)
+EHOMO
+d (eV)
+Eopt
+g
+e (eV)
+Ered,aq
+f (V)
+gNDI-V
+328, 520
+329, 532
+4.40
+6.43
+2.01
+0.06
+gNDI-T
+325, 544
+348, 623
+4.21
+5.94
+1.73
+0.13
+a Solution. b Thin film. c ELUMO was calculated from the equation ELUMO = [4.8 + Ered(onset)  EFOC] V, where the EFOC is +0.38 V with Fc/Fc+ as an
+external standard. d EHOMO = ELUMO  Eopt
+g . e Obtained from the absorption onset of thin film (Eopt
+g
+= 1240/lonset). f Estimated from the onset of the
+first reduction peak in 0.1 M KCl at a scan rate of 100 mV s1.
+Materials Horizons
+Communication
+Published on 02 December 2022. Downloaded by University of Chicago on 5/10/2024 2:46:35 AM. 
+View Article Online
+
+610 |  Mater. Horiz., 2023, 10, 607–618
+This journal is © The Royal Society of Chemistry 2023
+(LUMO) energy levels (ELUMO) were calculated as 4.21 eV for
+gNDI-T and 4.40 eV for gNDI-V. Notably, gNDI-T and gNDI-V
+both present low-lying LUMO (o4.02 eV), which has favorable
+energetics to avoid the electron trapping by water and
+oxygen.50,51 The highest occupied molecular orbital (HOMO)
+energy level (EHOMO) was obtained by using ELUMO subtracting
+an optical band gap (Eopt
+g ) to give the value of 5.94 eV for
+gNDI-T and 6.43 eV for gNDI-V. According to the literature, for
+NDI-based copolymers, the ELUMO is dominantly influenced by
+the NDI contribution while the EHOMO is sensitive to the relative
+electron-donating strength of donor units.52,53 A significant
+increase in the EHOMO changing from vinylene to thiophene is
+observed, which indicates the destabilization of EHOMO with
+increasing electron donating strength.54
+2.3
+Coplanar backbone conformation analysis
+To gain an insight into the backbone geometries and electronic
+structures, DFT by Gaussian 09 with the level of B3LYP/6-31G(d)
+was carried out. The OEG side chains were simplified as the
+methyl group. The optimized backbone geometry and frontier
+molecular orbitals of both trimers are presented in Fig. 2a and
+c. First, the gNDI-V trimer presents a more coplanar backbone
+geometry than the gNDI-T trimer from the side view. Besides,
+for the gNDI-V trimer, the distance between the O atom
+Fig. 1
+(a) UV-vis-NIR absorption spectra of NDI-based copolymers. (b) Cyclic voltammetry of the polymer films in 0.1 M tetrabutylammonium
+hexafluorophosphate (n-Bu4NPF6) acetonitrile solution at a scan rate of 100 mV s1.
+Fig. 2
+(a) The optimized molecular geometries and dihedral angles of NDI-based trimers. The red and blue circles present the distance between the O
+atom from NDI and the H atom from the vinylene or thiophene unit. (b) Torsion energy profiles of the gNDI-V and gNDI-T trimers. (c) Energy levels and
+visualization of LUMOs and HOMOs of NDI-based trimers.
+Communication
+Materials Horizons
+Published on 02 December 2022. Downloaded by University of Chicago on 5/10/2024 2:46:35 AM. 
+View Article Online
+
+This journal is © The Royal Society of Chemistry 2023
+Mater. Horiz., 2023, 10, 607–618 |  611
+(the carbonyl of NDI) and the H atom (vinylene) is 2.18 Å, much
+shorter than the sum of the O and H van der Waals radii of
+2.50 Å,55,56 which indicates the presence of the O  H hydrogen
+bond, contributing to the reduction in the conformational
+disorder by locking the rotating single bond. However, the
+gNDI-T trimer indicates the distance between the O atom (the
+carbonyl of NDI) and H atom (thiophene) is 2.58 Å, larger than
+the sum of the O and H van der Waals radii, suggesting the
+absence of O  H noncovalent interactions. As a consequence,
+the gNDI-V trimer displays a coplanar backbone conformation
+with a dihedral angle around 351 between the NDI and the
+adjacent vinylene, while a more twisted backbone with a
+dihedral angle around 501 between the NDI and thiophene is
+found for the gNDI-T trimer. In addition, Fig. 2b illustrates the
+torsion energy for both trimers and it is found that the gNDI-V
+trimer gives a larger torsion energy barrier (B0.69 eV) than the
+gNDI-T trimer (B0.12 eV), enabling the gNDI-V trimer to have a
+more rigid backbone, since the hydrogen bond works as a non-
+bonding conformational lock.43 Furthermore, the coplanar back-
+bone would potentially prolong the coherent conjugation length
+and enhance interchain charge carrier transport.57 Besides, the
+visualization of LUMOs and HOMOs is shown in Fig. 2c. The two
+trimers revealed localized electronic structures: the donor units
+contribute mainly to the HOMOs while the LUMOs are highly
+localized on electron deficient NDI. The calculated ELUMO/EHOMO
+of gNDI-V (3.61/6.22 eV) was deeper than that of gNDI-T
+(3.53/5.89 eV), which was consistent with the CV measurement
+results. Similarly, the increased EHOMO in gNDI-T calculated from
+DFT simulations indicate the stronger electron-donating ability of
+the thiophene unit. Moreover, the DFT computation results reveal
+that the hydrogen bond functionalities finely modulate the n-type
+conjugated backbone conformation.
+2.4
+Microstructure study
+To further study the eﬀect of the hydrogen bond on polymer
+packing orientation, the NDI-based copolymer thin-film microstruc-
+tures were analyzed by grazing-incidence wide-angle X-ray scattering
+(GIWAXS). The GIWAXS characteristics of both copolymers are
+shown in Fig. 3 and the corresponding parameters are summarized
+in Table S1 (ESI†). The gNDI-V displayed a strong (010) scattering
+peak in the out-of-plane direction while the gNDI-T concurrently
+showed lamellar scattering (100) peaks in the out-of-plane direction
+and a p–p stacking (010) peak in both the out-of-plane and in-plane
+direction, suggesting that the gNDI-V presented a predominant face-
+on orientation and the gNDI-T exhibited a mixed face-on/edge-on
+orientation. Fig. 3c shows a comparison of the p–p stacking distance
+and paracrystalline disorder in p–p stacking direction for both
+copolymers. It is found that the p–p stacking distance sharply
+decreased from 3.97 Å for gNDI-T to 3.59 Å for gNDI-V. The closer
+intermolecular packing in the solid state of gNDI-V likely results
+from its coplanar backbone conformation.55 Additionally, the
+paracrystalline disorder parameter, strongly correlating with elec-
+trical conductivity, was calculated according to eqn (1)58
+g ¼
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+FWHM
+2pq
+s
+(1)
+Fig. 3
+(a and b) 2D GIWAXS patterns of thin films of gNDI-V and gNDI-T, and corresponding line-cut profiles along the in-plane and out-of-plane
+directions; (c) p–p stacking distance and paracrystalline disorder in the p–p stacking direction for both copolymers.
+Materials Horizons
+Communication
+Published on 02 December 2022. Downloaded by University of Chicago on 5/10/2024 2:46:35 AM. 
+View Article Online
+
+612 |  Mater. Horiz., 2023, 10, 607–618
+This journal is © The Royal Society of Chemistry 2023
+where the FWHM presents a diffraction peak full width at half-
+maximum, and q is the diffraction peak position. The para-
+crystalline disorder of p-stacking direction g(010) calculated
+from this equation decreased from 0.21 for gNDI-T to 0.19 for
+gNDI-V, and a decrease in g(010) indicates the hopping transfer
+integral and conductivity enhancement.59 Together with the
+much shorter p–p spacing and lower paracrystalline disorder in
+gNDI-V, we believe the manipulation of backbone coplanarity
+via the introduction of hydrogen bonding can improve the
+thin-film crystallinity and bring more favorable molecular
+packing to facilitate charge transport. Moreover, to analyze
+the microstructure features of polymer films upon electro-
+chemical doping, we collected GIWAXS of the films in their
+reduced condition (see Fig. S10 and Table S2, ESI†). Compared
+with the pristine state, there were no obvious film microstruc-
+ture changes in the reduced state for both NDI-based copoly-
+mers, which indicates a good operation stability in aqueous
+electrolytes.60
+2.5
+Electrochemical charging with aqueous electrolyte
+To investigate the electrochemical redox behavior, CV measure-
+ment of polymer thin films in 0.1 M KCl aqueous solution at a
+scan rate of 100 mV s1 was conducted (see Fig. 4). The
+reduction onset potential of the copolymers in aqueous media
+was 0.13 V for gNDI-T and 0.06 V for gNDI-V (Fig. S11, ESI†).
+However, the reduction onset potential in organic electrolyte
+(acetonitrile) was 0.21 V for gNDI-T and 0.02 V for gNDI-V.
+A shift in the onset of reduction towards more positive poten-
+tials for both copolymers was observed when switching from an
+organic electrolyte to aqueous electrolyte, and similar results
+have been reported for our previous NDI-based copolymers.16
+The reduction onset potential shift is attributed to changes in
+both the size and charge density of the counter cations and
+diﬀerences in the solute–solvent interactions between the
+polymer and the supporting electrolyte.61 The highly hydro-
+philic OEG side chains were introduced to NDI copolymers,
+allowing for efficient ionic species transport in aqueous
+media.62 Compared with acetonitrile, the stronger interactions
+between OEG side chains and water will lead to favorable K+
+penetration into the polymer film to stabilize the negative
+charge on the polymer backbone during reduction. Although
+gNDI-V (4.40 eV) presents lower LUMO energy levels than
+gNDI-T (4.21 eV), a more positive reduction onset potential
+in aqueous media was found in gNDI-T (0.13 V) than gNDI-V
+(0.06 V). According to the literature, the more positive reduction
+onset potential found in gNDI-T is due to its less ordered
+molecular packing, which is expected to facilitate ion penetra-
+tion into the polymer bulk.49,63,64
+Fig. 4
+Reversible charging of (a) gNDI-V (0.65 V to 0.65 V) and (b) gNDI-T (0.50 V to 0.50 V) with 0.1 M KCl(aq) electrolyte over 150 cycles at a scan
+rate of 100 mV s1. The arrows indicate scan directions. (c) gNDI-V and (d) gNDI-T were measured by CV measurements at diﬀerent scan rates from 10 to
+1000 mV s1, and the extracted peak current density in CVs is shown as a function of the square roots of scan rates.
+Communication
+Materials Horizons
+Published on 02 December 2022. Downloaded by University of Chicago on 5/10/2024 2:46:35 AM. 
+View Article Online
+
+This journal is © The Royal Society of Chemistry 2023
+Mater. Horiz., 2023, 10, 607–618 |  613
+To evaluate the electrochemical stability, the copolymer
+films were continuously charged for 150 cycles in Fig. 4a
+andb. As in previous discussions, the gNDI-T exhibits a more
+positive reduction onset potential which indicates gNDI-T
+would reach a higher doping level than gNDI-V during the
+same potential window (0.65 V to 0.65 V). A lower charging
+stability was found for gNDI-T than gNDI-V during the same
+potential window (0.65 V to 0.65 V) (Fig. S12, ESI†), which was
+likely due to its instability at a higher doping level.16 Then, a
+narrower potential window (0.50 V to 0.50 V) was applied and
+the charging stability was significantly improved for gNDI-T.
+Notably, the larger charging window (0.65 V to 0.65 V) found
+in gNDI-V results from its ordered molecular packing, which
+benefits from its coplanar backbone conformation. In addition
+to the electrochemical stability, the redox kinetics of polymer
+films in aqueous electrolyte was studied as well. CV measure-
+ments of copolymers in 0.1 M KCl aqueous solution from
+0.65 V to 0.65 V for gNDI-V and from 0.50 V to 0.50 V for
+gNDI-T at a scan rate from 10 mV s1 to 1000 mV s1 were
+carried out (Fig. S13, ESI†). As shown in Fig. 4c and d, the linear
+trend of relationship between current intensity and square root
+of scan rate has been shown in both copolymers, which reveals
+a
+diﬀusion-controlled
+mechanism
+of
+oxidation/reduction
+reactions in accordance with the Randles–Sevcik equation.65
+2.6
+Electrochromic properties
+To investigate the electrochemical doping mechanism of NDI-
+based copolymers in aqueous electrolyte, we conducted spec-
+troelectrochemical
+measurements
+of
+the
+thin
+films
+and
+monitored their absorption spectra changes during the cycling
+in Fig. 5a. Similar absorption spectra changes for gNDI-V and
+gNDI-T were observed. Note that the evolution of a new
+absorption (620–900 nm) and loss in the intensity of the ICT
+band (450–650 nm) were observed within the voltage range
+from 0.1 V to 0.7 V vs. Ag/AgCl, indicating the formation of the
+polaron.66 In addition, the polaron formation is also observed
+when a voltage pulse is applied as shown in Fig. S14 (ESI†),
+where the difference plots were obtained by subtracting the
+pristine absorption spectrum (0.1 V) from the electrochemically
+doped ones. A quantitative way to evaluate the electrochemical
+doping efficiency is shown in Fig. 5b, where the integral of the
+polaron absorption (620–900 nm) and the ICT absorption band
+(450–650 nm) were plotted versus the applied voltage.67 From
+0.1 V to 0.2 V, similar slopes in the polaron and ICT absorp-
+tion band were found. However, from 0.2 V to 0.7 V, a higher
+slope was found in gNDI-V than gNDI-T, which indicates the
+higher magnitude of ionic–electronic coupling in gNDI-V.67
+Furthermore, electrochromic behavior during spectroelec-
+trochemical measurements was found for the two copolymers
+and the electrochromic behavior was studied in Fig. 5c and the
+corresponding data is summarized in Table S3 (ESI†). To study
+the kinetics of the electrochromic switching process, the films
+of NDI-based copolymers were investigated via chronoabsorp-
+tiometry on films spin cast onto ITO/glass. The transmittance
+of the thin films was monitored by applying sequential square
+wave bias pulses, which switched the film between 0.1 V and
+0.7 V. gNDI-V exhibited a higher electrochromic contrast
+(DT = 30%) than gNDI-T (DT = 19%). Besides, a faster coloration
+(Tc, 0.4 s) and bleaching time (Tb, 0.4 s) of gNDI-V was found
+compared with gNDI-T (Tc, 1.5 s, Tb, 0.4 s). Moreover, both NDI-
+based copolymers showed good long-term switching stability
+with less than 2% drop in coloration contrast after switching
+Fig. 5
+(a) Spectroelectrochemical measurements of NDI copolymers, monitoring the evolution of the absorption spectra of polymer thin films between
++0.1 V and 0.7 V vs. Ag/AgCl at a scan rate of 100 mV s1, voltage step of 0.1 V. (b) Integrals of the polaron absorption and the ICT absorption with the
+charging varied from 0.1 V to 0.7 V vs. Ag/AgCl in 0.1 M KCl aqueous solution. (c) Time-dependent transmittance changes during bleaching (0.7 V) and
+coloration (0.1 V) of electrochromic properties based on gNDI-V and gNDI-T, recorded at 532 nm and 623 nm, respectively.
+Materials Horizons
+Communication
+Published on 02 December 2022. Downloaded by University of Chicago on 5/10/2024 2:46:35 AM. 
+View Article Online
+
+614 |  Mater. Horiz., 2023, 10, 607–618
+This journal is © The Royal Society of Chemistry 2023
+for 1200 s. In addition, since the ideal electrochromic material
+displays a large transmittance change with a small amount of
+charge, the composite coloration eﬃciency (CCE, Z) was used to
+evaluate the power eﬃciency during the electrochromic switch-
+ing process, and calculated as eqn (2)68
+Z ¼ DOD
+DQ ¼ logðTbl=TcoÞ
+DQ
+(2)
+where DOD is the change in optical density defined by the
+logarithm of the ratio between the transmittance at the
+bleached state (Tbl) and the colored state (Tco) and DQ presents
+the injected charge per unit area. Fig. S15 (ESI†) shows plots of
+DOD as a function of DQ for the electrochromic devices (ECDs)
+based on gNDI-V and gNDI-T, from which the Z values were
+obtained from the linear slopes. The composite coloration
+eﬃciency of gNDI-V (1988 cm2 C1) was much higher than that
+of gNDI-T (391 cm2 C1), which was in accordance with the
+electrochemical doping eﬃciency found in spectroelectrochem-
+ical measurements. Specifically, the higher electrochemical
+doping eﬃciency and CCE were attributed to the higher mag-
+nitude of ionic–electronic coupling in gNDI-V thin film owing
+to the coplanar backbone conformation and favorable molecu-
+lar packing which facilate ion–electron transport. Moreover,
+gNDI-V exhibited an impressive electrochromic performance
+compared with those state-of-the-art copolymer-based ECDs
+(Table S3, ESI†).
+2.7
+OECTs performance
+To investigate the mixed ionic–electronic transport properties
+of NDI-based copolymers, gNDI-V and gNDI-T were studied as
+channel materials by fabricating OECTs. The key figure of
+merit, transconductance gm, at saturation conditions for OECTs
+is obtained from eqn (3):69
+gm ¼ Wd
+L mCðVTH  VGÞ
+(3)
+where VG is the gate voltage and VTH is the threshold voltage; W
+presents the channel width, d and L are the channel depth and
+the channel length, respectively; m is the charge-carrier mobility
+and C* presents the volume capacitance. The value of mC* is
+used for evaluating the ionic–electronic conduction properties
+of the channel materials. The detailed OECT parameters for
+both NDI-based copolymers were summarized in Table 2 and
+Table S4 (ESI†).
+gNDI-V with more coplanar backbone conformation driven
+by intramolecular hydrogen bonding exhibited higher device
+performance than gNDI-T. gNDI-V reached a maximum drain
+current of 2.82 mA (VG = 0.65 V), which is more than 4-fold
+higher than gNDI-T (0.62 mA, VG = 0.50 V) at the same VD = 0.4 V
+(see Fig. 6a and b). Note that the maximum drain current found
+for gNDI-T was at VG = 0.50 V and VD = 0.4 V. As for the
+normalized transconductance, gm,norm in Fig. 6c and d, gNDI-V
+also
+gives
+a
+higher
+value
+(0.42
+S
+cm1)
+than
+gNDI-T
+(0.11 S cm1). Additionally, the window width of the hysteresis
+of gNDI-V (17 mV) is larger than gNDI-T (9 mV), indicating
+easier ion diﬀusion in gNDI-T.70 As shown in Fig. S16 (ESI†),
+the threshold voltage (VTH) is 0.30 V for gNDI-V and 0.20 V for
+gNDI-T, which is in accordance with the trend of the reduction
+onset observed from CV curves in aqueous media.
+To systematically investigate the response time, the on/oﬀ-
+time constant (ton/toﬀ) was provided in Fig. S17 (ESI†). Addi-
+tionally, for the analyte-responsive sensor, their response times
+are usually recorded at 90% of the saturation values. The rise/
+fall (Ton,90%/Toﬀ,90%) response times were obtained by measur-
+ing the time it takes for the channel current (IDS) to reach 90%
+of its maximum and minimum value. To eliminate the thick-
+ness eﬀects,71 the response time was normalized by channel
+geometry (tnorm = t/(d(WL)1/2) and Tnorm,90% = T/(d(WL)1/2))
+according to the literature.72 A normalized response time
+ton, norm/toﬀ, norm of 2.90/0.32 ms mm2 (Ton, norm,90%/Toﬀ,norm, 90%
+of 7.61/0.65 ms mm2) and 0.87/0.18 ms mm2 (Ton,norm,90%/
+Toﬀ,norm,90% of 2.33/0.42 ms mm2) was found for gNDI-V and
+gNDI-T, respectively. As discussed in the charging behavior
+section, the faster response time for gNDI-T is attributed to
+its less ordered packing, which facilitates ion penetration into
+the polymer bulk. Besides, the asymmetry in the switching
+characteristics between the turn-on and turn-oﬀtimes was
+found, indicating the presence of a dissipation process, such
+as a viscoelastic component in the conducting pathway through
+the channel. As reported, the possible processes that aﬀect the
+formation of this pathway are (1) the doping of the NDI-based
+chains that aﬀect electron density ne and (2) the relaxation of
+intrachain conformations and interchain packing that aﬀects
+electron mobility me.73,74 In addition, the on-to-oﬀcurrent
+ratios measured are in the order of 104–105, which can be
+comparable with the reported n-type copolymers.
+To understand the volumetric doping process of NDI-based
+copolymers, the electrochemical impedance spectroscopy (EIS)
+technique was used as presented in the Fig. S18 (ESI†).75 The
+capacitance was extracted by fitting EIS data via an equivalent
+circuit model (Rs (Rp8C)), where the electrolyte resistance is Rs,
+and Rp and C present the polymer film’s resistance and film’s
+capacitance, respectively.76 gNDI-V exhibited a lower volumetric
+capacitance (144 F cm3) than the gNDI-T films (237 F cm3).
+Table 2
+OECTs key performance metrics
+Polymer
+gm,norm
+a (S cm1)
+mC* b (F V1 cm1 s1)
+C* c (F cm3)
+me,est
+d (cm2 V1 s1)
+gNDI-V
+0.42  0.02
+2.31
+144  5
+1.4  102  1.3  103
+gNDI-T
+0.11  0.01
+0.42
+237  8
+1.5  103  2.0  104
+a Normalized by channel geometry. b Extracted from the slope in plots of gm versus (Wd/L)[VTH  VG]. c Measured by the electrochemical impedance
+spectroscopy. d Obtained from the figure of merit (mC*) and volumetric capacitance (C*).
+Communication
+Materials Horizons
+Published on 02 December 2022. Downloaded by University of Chicago on 5/10/2024 2:46:35 AM. 
+View Article Online
+
+This journal is © The Royal Society of Chemistry 2023
+Mater. Horiz., 2023, 10, 607–618 |  615
+Similarly, the larger C* is attributed to the less ordered packing
+of gNDI-T, which is expected to facilitate ion penetration into
+the polymer bulk. As shown in Fig. 6e, the mC* increased more
+than five times going from 0.42 F V1 cm1 s1 for gNDI-T to
+2.31 F V1 cm1 s1 for gNDI-V. Furthermore, based on the mC*
+and C* values, the electron mobility (m) was obtained. Note
+that the two polymers both exhibited a good device repro-
+ducibility (see Fig. S19, ESI†). The average m value (1.4 
+102 cm2 V1 s1) of gNDI-V is one order of magnitude higher
+than that (1.5  103 cm2 V1 s1) of gNDI-T, which benefits
+from the favorable molecular packing, originating from the
+coplanar backbone conformation driven by hydrogen bond
+functionalization. Note that the mC* (2.31 F V1 cm1 s1)
+and m (1.4  102 cm2 V1 s1) for gNDI-V are the highest
+values reported to date for the NDI-based OECTs (see Table S5,
+ESI†), which supports that our hydrogen bond functionaliza-
+tion opens up a proposing avenue for designing n-type mixed
+polymeric conductors operating in aqueous electrolyte. Long
+term on–off switching tests were performed to demonstrate the
+stable operation of NDI-based copolymers. The percentage
+retention of the initial current was employed to evaluate the
+operational stability. As summarized in Fig. S20 (ESI†), both
+NDI-based copolymers displayed a long-term stability with
+less than 9% current loss after 60 mins. According to the
+literature,60 the aqueous stability is dependent on the film
+microstructural crystallinity and composition. Compared with
+the GIWAXS in the pristine and reduced state, it was found
+that the two NDI-based copolymers both retain good film
+microstructural crystallinity upon electrochemical doping, which
+accounts for the operational stability for the 60 minutes test.
+3. Conclusion
+In summary, high performance n-type polymeric mixed con-
+ductors have been designed and synthesized via manipulating
+the coplanar backbone conformation through intramolecular
+hydrogen bonds. We find that the coplanar backbone confor-
+mation driven by hydrogen bonding not only aﬀects the copo-
+lymers’ optical properties, electrochemical redox behavior and
+molecular packing, but also remarkably enhances the perfor-
+mance of aqueous-based electrochemical devices. gNDI-V
+exhibited a larger electrochromic contrast (DT = 30%) and a
+higher coloration eﬃciency (1988 cm2 C1) than gNDI-T, which
+was due to its better ionic–electronic coupling. As for OECTs,
+gNDI-V outperformed gNDI-T, including a higher transconduc-
+tance of 0.42 S cm1 and exhibiting the highest value of m
+(0.014 cm2 V1 s1) and mC* (2.31 F V1 cm1 s1) for the NDI-
+based OECTs, which was attributed to the improved thin-film
+crystallinity and molecular packing induced by hydrogen bond-
+ing. This systematic work elucidates the mechanism of how
+hydrogen bonds promote the desired molecular conformation,
+solid-state packing, and electrochemical performances of
+n-type semiconducting polymeric materials. Moreover, we
+believe the hydrogen-bonding functionalization will provide
+rational design guidelines at the molecular level for researchers
+Fig. 6
+(a and b) Output characteristics of OECTs based on gNDI-V and gNDI-T; (c and d) Transfer curve and transconductance gm of the OECTs based
+on gNDI-V and gNDI-T. Devices were performed at a drain bias of VDS = 0.4 V with a 0.1 M KCl aqueous electrolyte. (e) Plots of the transconductance
+against channel geometry and operation parameters to extract the associated mC*. (f) The figure of merit mC* for n-type NDI-based copolymers as a
+function of electron mobility (me).
+Materials Horizons
+Communication
+Published on 02 December 2022. Downloaded by University of Chicago on 5/10/2024 2:46:35 AM. 
+View Article Online
+
+616 |  Mater. Horiz., 2023, 10, 607–618
+This journal is © The Royal Society of Chemistry 2023
+from diverse backgrounds to develop high performance n-type
+polymeric materials operating in aqueous electrolyte.
+Author contributions
+J. Chen carried out most experiments and the data analysis;
+S. Cong designed and synthesized the polymers; L. Wang
+conducted the DFT calculations and analyzed the data with
+support from Y. Zhou; Y. Wang, L. Lan and Z. Li provided
+helpful
+discussions;
+C.
+Chen
+coordinated
+the
+work;
+I.
+McCulloch and W. Yue supervised the work; and J. Chen
+prepared the manuscript with support from all co-authors;
+all authors discussed the results and contributed to this work.
+Conflicts of interest
+There are no conflicts of interest to declare.
+Acknowledgements
+The authors thank the National Natural Science Foundation of
+China (Grant No. 21875291), the China Postdoctoral Foundation
+(Grant No. 2021M693580), and the GuangDong Basic and Applied
+Basic Research Foundation (Grant No. 2021A1515110261) for the
+financial support.
+References
+1 B. D. Paulsen, K. Tybrandt, E. Stavrinidou and J. Rivnay, Nat.
+Mater., 2020, 19, 13.
+2 N. A. Kukhta, A. Marks and C. K. Luscombe, Chem. Rev.,
+2022, 122, 4325.
+3 S. T. M. Tan, A. Gumyusenge, T. J. Quill, G. S. LeCroy,
+G. E. Bonacchini, I. Denti and A. Salleo, Adv. Mater., 2022,
+34, 2110406.
+4 J. Rivnay, S. Inal, B. A. Collins, M. Sessolo, E. Stavrinidou,
+X. Strakosas, C. Tassone, D. M. Delongchamp and G. G.
+Malliaras, Nat. Commun., 2016, 7, 11287.
+5 C. Zhao, Z. Chen, R. Shi, X. Yang and T. Zhang, Adv. Mater.,
+2020, 32, e1907296.
+6 Y. Wang, L. Feng and S. Wang, Adv. Funct. Mater., 2019,
+29, 1806818.
+7 E. Zeglio and O. Inganas, Adv. Mater., 2018, 30, 1800941.
+8 Y. Dai, S. Dai, N. Li, Y. Li, M. Moser, J. Strzalka,
+A. Prominski, Y. Liu, Q. Zhang, S. Li, H. Hu, W. Liu,
+S. Chatterji, P. Cheng, B. Tian, I. McCulloch, J. Xu and
+S. Wang, Adv. Mater., 2022, 34, e2201178.
+9 W. J. Song, S. Lee, G. Song, H. B. Son, D.-Y. Han, I. Jeong,
+Y. Bang and S. Park, Energy Storage Mater., 2020, 30, 260.
+10 H. Zhang, X. Liu, H. Li, I. Hasa and S. Passerini, Angew.
+Chem., Int. Ed., 2021, 60, 598.
+11 K. Schlingman, Y. Chen, R. S. Carmichael and T. B.
+Carmichael, Adv. Mater., 2021, 33, e2006863.
+12 Y. Wang, E. Zeglio, L. Wang, S. Cong, G. Zhu, H. Liao,
+J. Duan, Y. Zhou, Z. Li, D. Mawad, A. Herland, W. Yue and
+I. McCulloch, Adv. Funct. Mater., 2022, 32, 2111439.
+13 V. Rai, R. S. Singh, D. J. Blackwood and D. Zhili, Adv. Eng.
+Mater., 2020, 22, 2000082.
+14 S. Cong, A. Creamer, Z. Fei, S. A. J. Hillman, C. Rapley,
+J. Nelson and M. Heeney, Macromol. Biosci., 2020, 20,
+2000087.
+15 L. R. MacFarlane, H. Shaikh, J. D. Garcia-Hernandez, M. Vespa,
+T. Fukui and I. Manners, Nat. Rev. Mater., 2020, 6, 7.
+16 S. Cong, J. Chen, L. Wang, L. Lan, Y. Wang, H. Dai, H. Liao,
+Y. Zhou, Y. Yu, J. Duan, Z. Li, I. McCulloch and W. Yue, Adv.
+Funct. Mater., 2022, 32, 2201821.
+17 B. Ding, G. Kim, Y. Kim, F. D. Eisner, E. Gutierrez-
+Fernandez, J. Martin, M. H. Yoon and M. Heeney, Angew.
+Chem., Int. Ed., 2021, 60, 19679.
+18 X. Li, Y. Li, K. Sarang, J. Lutkenhaus and R. Verduzco, Adv.
+Funct. Mater., 2021, 31, 2009263.
+19 T. J. Quill, G. LeCroy, A. Melianas, D. Rawlings, Q. Thiburce,
+R. Sheelamanthula, C. Cheng, Y. Tuchman, S. T. Keene,
+I. McCulloch, R. A. Segalman, M. L. Chabinyc and A. Salleo,
+Adv. Funct. Mater., 2021, 31, 2104301.
+20 Z. S. Parr, R. B. Rashid, B. D. Paulsen, B. Poggi, E. Tan,
+M. Freeley, M. Palma, I. Abrahams, J. Rivnay and C. B.
+Nielsen, Adv. Electron. Mater., 2020, 6, 2000215.
+21 Z. S. Parr, J. Borges-Gonzalez, R. B. Rashid, K. J. Thorley,
+D. Meli, B. D. Paulsen, J. Strzalka, J. Rivnay and C. B.
+Nielsen, Adv. Mater., 2022, 34, e2107829.
+22 A. Savva, D. Ohayon, J. Surgailis, A. F. Paterson, T. C.
+Hidalgo, X. Chen, I. P. Maria, B. D. Paulsen, A. J. Petty,
+J. Rivnay, I. McCulloch and S. Inal, Adv. Electron. Mater.,
+2019, 5, 1900249.
+23 H. Sun, M. Vagin, S. Wang, X. Crispin, R. Forchheimer,
+M. Berggren and S. Fabiano, Adv. Mater., 2018, 30, 1704916.
+24 C. Y. Yang, D. Tu, T. P. Ruoko, J. Y. Gerasimov, H. Y. Wu,
+P. C. Harikesh, M. Massetti, M. A. Stoeckel, R. Kroon,
+C. Mu¨ller, M. Berggren and S. Fabiano, Adv. Electron. Mater.,
+2021, 8, 2100907.
+25 C. Zhu, Z. Zhao, H. Chen, L. Zheng, X. Li, J. Chen, Y. Sun,
+F. Liu, Y. Guo and Y. Liu, J. Am. Chem. Soc., 2017, 139,
+17735.
+26 Y. Wang, T. Hasegawa, H. Matsumoto, T. Mori and
+T. Michinobu, Adv. Mater., 2018, 30, e1707164.
+27 B. Sun, W. Hong, Z. Yan, H. Aziz and Y. Li, Adv. Mater., 2014,
+26, 2636.
+28 C. Zhu and L. Fang, Macromol. Rapid Commun., 2018, 39,
+1700241.
+29 C. Zhu, A. J. Kalin and L. Fang, Acc. Chem. Res., 2019, 52,
+1089.
+30 H. Huang, L. Yang, A. Facchetti and T. J. Marks, Chem. Rev.,
+2017, 117, 10291.
+31 S. Wang, H. Li, K. Zhao, L. Zhang, Q. Zhang, X. Yu, H. Tian
+and Y. Han, Macromolecules, 2022, 55, 2497.
+32 T. Lei, X. Xia, J. Y. Wang, C. J. Liu and J. Pei, J. Am. Chem.
+Soc., 2014, 136, 2135.
+33 Y. Zou, X. Ji, J. Cai, T. Yuan, D. J. Stanton, Y.-H. Lin,
+M. Naraghi and L. Fang, Chem, 2017, 2, 139.
+34 Q. Wang, S. Bo¨ckmann, F. Gu¨nther, M. Streiter, M. Zerson,
+A. D. Scaccabarozzi, W. L. Tan, H. Komber, C. Deibel,
+Communication
+Materials Horizons
+Published on 02 December 2022. Downloaded by University of Chicago on 5/10/2024 2:46:35 AM. 
+View Article Online
+
+This journal is © The Royal Society of Chemistry 2023
+Mater. Horiz., 2023, 10, 607–618 |  617
+R. Magerle, S. Gemming, C. R. McNeill, M. Caironi, M. R.
+Hansen and M. Sommer, Chem. Mater., 2021, 33, 2635.
+35 Z. D. Yu, Y. Lu, J. Y. Wang and J. Pei, Chem. Eur. J., 2020,
+26, 16194.
+36 C. Zhu, A. U. Mu, Y. H. Lin, Z. H. Guo, T. Yuan, S. E. Wheeler
+and L. Fang, Org. Lett., 2016, 18, 6332.
+37 D. Ohayon, A. Savva, W. Du, B. D. Paulsen, I. Uguz,
+R. S. Ashraf, J. Rivnay, I. McCulloch and S. Inal, ACS Appl.
+Mater. Interfaces, 2021, 13, 4253.
+38 I. P. Maria, B. D. Paulsen, A. Savva, D. Ohayon, R. Wu,
+R. Hallani, A. Basu, W. Du, T. D. Anthopoulos, S. Inal,
+J. Rivnay, I. McCulloch and A. Giovannitti, Adv. Funct.
+Mater., 2021, 31, 2008718.
+39 J. Royakkers, K. Guo, D. T. W. Toolan, L. W. Feng,
+A. Minotto, D. G. Congrave, M. Danowska, W. Zeng,
+A. D. Bond, M. Al-Hashimi, T. J. Marks, A. Facchetti,
+F. Cacialli and H. Bronstein, Angew. Chem., Int. Ed., 2021,
+60, 25005.
+40 A. M. Evans, K. A. Collins, S. Xun, T. G. Allen, S. Jhulki,
+I. Castano, H. L. Smith, M. J. Strauss, A. K. Oanta, L. Liu,
+L. Sun, O. G. Reid, G. Sini, D. Puggioni, J. M. Rondinelli,
+T. Rajh, N. C. Gianneschi, A. Kahn, D. E. Freedman, H. Li,
+S. Barlow, G. Rumbles, J. L. Bredas, S. R. Marder and
+W. R. Dichtel, Adv. Mater., 2022, 34, e2101932.
+41 A.
+Giovannitti,
+C.
+B.
+Nielsen,
+D.
+Sbircea,
+S.
+Inal,
+M. Donahue, M. R. Niazi, D. A. Hanifi, A. Amassian,
+G. G. Malliaras, J. Rivnay and I. McCulloch, Nat. Commun.,
+2016, 7, 13066.
+42 D. Jeong, I. Y. Jo, S. Lee, J. H. Kim, Y. Kim, D. Kim,
+J. R. Reynolds, M. H. Yoon and B. J. Kim, Adv. Funct. Mater.,
+2022, 32, 2111950.
+43 D. Rosas Villalva, S. Singh, L. A. Galuska, A. Sharma, J. Han,
+J. Liu, M. A. Haque, S. Jang, A. H. Emwas, L. J. A. Koster,
+X. Gu, B. C. Schroeder and D. Baran, Mater. Horiz., 2022,
+9, 500.
+44 H. Wei, Y. Liu, Z. Liu, J. Guo, P. A. Chen, X. Qiu, G. Dai, Y. Li,
+J. Yuan, L. Liao and Y. Hu, Adv. Electron. Mater., 2020,
+6, 1901241.
+45 S. Wang, D. Fazzi, Y. Puttisong, M. J. Jafari, Z. Chen,
+T. Ederth, J. W. Andreasen, W. M. Chen, A. Facchetti and
+S. Fabiano, Chem. Mater., 2019, 31, 3395.
+46 B. D. Naab, X. Gu, T. Kurosawa, J. W. F. To, A. Salleo and
+Z. Bao, Adv. Electron. Mater., 2016, 2, 1600004.
+47 M.
+Schubert,
+D.
+Dolfen,
+J.
+Frisch,
+S.
+Roland,
+R.
+Steyrleuthner, B. Stiller, Z. Chen, U. Scherf, N. Koch,
+A. Facchetti and D. Neher, Adv. Energy Mater., 2012, 2, 369.
+48 L. Lan, J. Chen, Y. Wang, P. Li, Y. Yu, G. Zhu, Z. Li, T. Lei,
+W. Yue and I. McCulloch, Chem. Mater., 2022, 34, 1666.
+49 K. Feng, W. Shan, S. Ma, Z. Wu, J. Chen, H. Guo, B. Liu,
+J. Wang, B. Li, H. Y. Woo, S. Fabiano, W. Huang and X. Guo,
+Angew. Chem., Int. Ed., 2021, 60, 24198.
+50 X. Chen, A. Marks, B. D. Paulsen, R. Wu, R. B. Rashid,
+H. Chen, M. Alsufyani, J. Rivnay and I. McCulloch, Angew.
+Chem., Int. Ed., 2021, 60, 9368.
+51 B. D. Paulsen, S. Fabiano and J. Rivnay, Annu. Rev. Mater.
+Res., 2021, 51, 73.
+52 P. M. Alvey, R. J. Ono, C. W. Bielawski and B. L. Iverson,
+Macromolecules, 2013, 46, 718.
+53 S. Lee, G. S. Lee, M. Kang, Y. H. Ha, Y. H. Kim and
+D. S. Chung, Adv. Funct. Mater., 2022, 32, 2204383.
+54 Y. Kim, J. Hong, J. H. Oh and C. Yang, Chem. Mater., 2013,
+25, 3251.
+55 Y. Wang, T. Hasegawa, H. Matsumoto and T. Michinobu,
+J. Am. Chem. Soc., 2019, 141, 3566.
+56 J. H. Dou, Y. Q. Zheng, Z. F. Yao, Z. A. Yu, T. Lei, X. Shen,
+X. Y. Luo, J. Sun, S. D. Zhang, Y. F. Ding, G. Han, Y. Yi,
+J. Y. Wang and J. Pei, J. Am. Chem. Soc., 2015, 137, 15947.
+57 M. H. Lee, J. Kim, M. Kang, J. Kim, B. Kang, H. Hwang, K. Cho
+and D. Y. Kim, ACS Appl. Mater. Interfaces, 2017, 9, 2758.
+58 A. Luzio, J. Martin, C. H. Cheng, N. Stingelin, M. F. Toney,
+A. Salleo and M. Caironi, J. Mater. Chem. C, 2021, 9, 15848.
+59 I. E. Jacobs, G. D’Avino, V. Lemaur, Y. Lin, Y. Huang,
+C.
+Chen,
+T.
+F.
+Harrelson,
+W.
+Wood,
+L.
+J.
+Spalek,
+T. Mustafa, C. A. O’Keefe, X. Ren, D. Simatos, D. Tjhe,
+M. Statz, J. W. Strzalka, J. K. Lee, I. McCulloch, S. Fratini,
+D. Beljonne and H. Sirringhaus, J. Am. Chem. Soc., 2022,
+144, 3005.
+60 S. M. Kim, C. H. Kim, Y. Kim, N. Kim, W. J. Lee, E. H. Lee,
+D. Kim, S. Park, K. Lee, J. Rivnay and M. H. Yoon, Nat.
+Commun., 2018, 9, 3858.
+61 M. Moser, A. Savva, K. Thorley, B. D. Paulsen, T. C. Hidalgo,
+D. Ohayon, H. Chen, A. Giovannitti, A. Marks, N. Gasparini,
+A. Wadsworth, J. Rivnay, S. Inal and I. McCulloch, Angew.
+Chem., Int. Ed., 2021, 60, 7777.
+62 A. Khot and B. M. Savoie, J. Polym. Sci., 2022, 60, 610.
+63 L. Q. Flagg, C. G. Bischak, J. W. Onorato, R. B. Rashid,
+C. K. Luscombe and D. S. Ginger, J. Am. Chem. Soc., 2019,
+141, 4345.
+64 H. Jia, Z. Huang, P. Li, S. Zhang, Y. Wang, J.-Y. Wang, X. Gu
+and T. Lei, J. Mater. Chem. C, 2021, 9, 4927.
+65 M. Krajewski, B. Hamankiewicz, M. Michalska, M. Andrzejczuk,
+L. Lipinska and A. Czerwinski, RSC Adv., 2017, 7, 52151.
+66 A. A. Szumska, I. P. Maria, L. Q. Flagg, A. Savva, J. Surgailis,
+B. D. Paulsen, D. Moia, X. Chen, S. Griggs, J. T. Meﬀord,
+R. B. Rashid, A. Marks, S. Inal, D. S. Ginger, A. Giovannitti
+and J. Nelson, J. Am. Chem. Soc., 2021, 143, 14795.
+67 G. Krauss, F. Meichsner, A. Hochgesang, J. Mohanraj,
+S. Salehi, P. Schmode and M. Thelakkat, Adv. Funct. Mater.,
+2021, 31, 2010048.
+68 Y. R. In, J. M. Han, J. E. Kwon, B.-G. Kim and H. C. Moon,
+Chem. Eng. J., 2022, 433, 13380.
+69 J. Duan, G. Zhu, L. Wang, J. Chen, S. Cong, X. Zhu, Y. Zhou,
+Z. Li, I. McCulloch and W. Yue, Adv. Funct. Mater., 2022,
+32, 2203937.
+70 Y. Zhang, G. Ye, T. P. A. van der Pol, J. Dong, E. R. W. van
+Doremaele,
+I.
+Krauhausen,
+Y.
+Liu,
+P.
+Gkoupidenis,
+G. Portale, J. Song, R. C. Chiechi and Y. van de Burgt, Adv.
+Funct. Mater., 2022, 32, 2201593.
+71 J. Rivnay, P. Leleux, M. Ferro, M. Sessolo, A. Williamson,
+D. A. Koutsouras, D. Khodagholy, M. Ramuz, X. Strakosas,
+R. M. Owens, C. Benar, J. Badier, C. Bernard and G. G.
+Malliaras, Sci. Adv., 2015, 1, e1400251.
+Materials Horizons
+Communication
+Published on 02 December 2022. Downloaded by University of Chicago on 5/10/2024 2:46:35 AM. 
+View Article Online
+
+618 |  Mater. Horiz., 2023, 10, 607–618
+This journal is © The Royal Society of Chemistry 2023
+72 X. Wu, M. Stephen, T. C. Hidalgo, T. Salim, J. Surgailis,
+A. Surendran, X. Su, T. Li, S. Inal and W. L. Leong, Adv.
+Funct. Mater., 2022, 32, 2108510.
+73 J. T. Friedlein, M. J. Donahue, S. E. Shaheen, G. G. Malliaras
+and R. R. McLeod, Adv. Mater., 2016, 28, 8398.
+74 A. Giovannitti, D. T. Sbircea, S. Inal, C. B. Nielsen,
+E. Bandiello, D. A. Hanifi, M. Sessolo, G. G. Malliaras,
+I. McCulloch and J. Rivnay, Proc. Natl. Acad. Sci., 2016,
+113, 12017.
+75 I. Del Agua, L. Porcarelli, V. F. Curto, A. Sanchez-Sanchez,
+E. Ismailova, G. G. Malliaras and D. Mecerreyes, J. Mater.
+Chem. B, 2018, 6, 2901.
+76 Y. Wang, A. Hamidi-Sakr, J. Surgailis, Y. Zhou, H. Liao, J. Chen,
+G. Zhu, Z. Li, S. Inal and W. Yue, J. Mater. Chem. C, 2021, 9, 13338.
+Communication
+Materials Horizons
+Published on 02 December 2022. Downloaded by University of Chicago on 5/10/2024 2:46:35 AM. 
+View Article Online
+

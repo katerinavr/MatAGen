@@ -1,0 +1,1355 @@
+{
+   "page_1_img_1.png": {
+      "title": "n\u2010Type Glycolated Imide\u2010Fused Polycyclic Aromatic Hydrocarbons with High Capacity for Liquid/Solid\u2010Electrolyte\u2010based Electrochemical Devices",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_n\u2010Type-Glycolated-Imide\u2010Fused\\n\u2010Type-Glycolated-Imide\u2010Fused",
+      "image_url": [],
+      "figure_name": "page_1_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_1_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.12251568585634232,
+            "height": 44,
+            "width": 223,
+            "geometry": [
+               {
+                  "x": 2,
+                  "y": 0
+               },
+               {
+                  "x": 225,
+                  "y": 0
+               },
+               {
+                  "x": 2,
+                  "y": 44
+               },
+               {
+                  "x": 225,
+                  "y": 44
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 2,
+                     "y": 0
+                  },
+                  {
+                     "x": 225,
+                     "y": 0
+                  },
+                  {
+                     "x": 2,
+                     "y": 44
+                  },
+                  {
+                     "x": 225,
+                     "y": 44
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_2_img_1.png": {
+      "title": "n\u2010Type Glycolated Imide\u2010Fused Polycyclic Aromatic Hydrocarbons with High Capacity for Liquid/Solid\u2010Electrolyte\u2010based Electrochemical Devices",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_n\u2010Type-Glycolated-Imide\u2010Fused\\n\u2010Type-Glycolated-Imide\u2010Fused",
+      "image_url": [],
+      "figure_name": "page_2_img_1.png",
+      "full_caption": "Scheme 1. The synthetic routes for t-gdiPDI and d-gdiPDI.",
+      "figure_path": "output\\figures\\page_2_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 960,
+            "width": 1500,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1500,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 960
+               },
+               {
+                  "x": 1500,
+                  "y": 960
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1500,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 960
+                  },
+                  {
+                     "x": 1500,
+                     "y": 960
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_3_img_1.png": {
+      "title": "n\u2010Type Glycolated Imide\u2010Fused Polycyclic Aromatic Hydrocarbons with High Capacity for Liquid/Solid\u2010Electrolyte\u2010based Electrochemical Devices",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_n\u2010Type-Glycolated-Imide\u2010Fused\\n\u2010Type-Glycolated-Imide\u2010Fused",
+      "image_url": [],
+      "figure_name": "page_3_img_1.png",
+      "full_caption": "Figure 1. The optimized geometries and frontier molecular orbitals of t-gdiPDI and d-gdiPDI obtained at B3LYP/6-31G(d) level of theory.",
+      "figure_path": "output\\figures\\page_3_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 1048,
+            "width": 1750,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1750,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 1048
+               },
+               {
+                  "x": 1750,
+                  "y": 1048
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1750,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 1048
+                  },
+                  {
+                     "x": 1750,
+                     "y": 1048
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_5_img_1.png": {
+      "title": "n\u2010Type Glycolated Imide\u2010Fused Polycyclic Aromatic Hydrocarbons with High Capacity for Liquid/Solid\u2010Electrolyte\u2010based Electrochemical Devices",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_n\u2010Type-Glycolated-Imide\u2010Fused\\n\u2010Type-Glycolated-Imide\u2010Fused",
+      "image_url": [],
+      "figure_name": "page_5_img_1.png",
+      "full_caption": "Figure 2. Normalized thin-film spectroelectrochemistry behavior of a) t-gdiPDI and b) d-gdiPDI. The absolute changes in polaron absorption of the films versus applied bias for c) t-gdiPDI at 800 nm and d) d-gdiPDI at 750 nm.",
+      "figure_path": "output\\figures\\page_5_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9690192937850952,
+            "height": 653,
+            "width": 845,
+            "geometry": [
+               {
+                  "x": 903,
+                  "y": 0
+               },
+               {
+                  "x": 1748,
+                  "y": 0
+               },
+               {
+                  "x": 903,
+                  "y": 653
+               },
+               {
+                  "x": 1748,
+                  "y": 653
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 903,
+                     "y": 0
+                  },
+                  {
+                     "x": 1748,
+                     "y": 0
+                  },
+                  {
+                     "x": 903,
+                     "y": 653
+                  },
+                  {
+                     "x": 1748,
+                     "y": 653
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Normalized thin-film spectroelectrochemistry behavior of d-gdiPDI",
+            "keywords": [
+               "Spectroelectrochemistry",
+               "Thin-film",
+               "d-gdiPDI"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9665181040763855,
+            "height": 656,
+            "width": 884,
+            "geometry": [
+               {
+                  "x": 1,
+                  "y": 662
+               },
+               {
+                  "x": 885,
+                  "y": 662
+               },
+               {
+                  "x": 1,
+                  "y": 1318
+               },
+               {
+                  "x": 885,
+                  "y": 1318
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 662
+                  },
+                  {
+                     "x": 885,
+                     "y": 662
+                  },
+                  {
+                     "x": 1,
+                     "y": 1318
+                  },
+                  {
+                     "x": 885,
+                     "y": 1318
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "The absolute changes in polaron absorption of the films versus applied bias for t-gdiPDI at 800 nm",
+            "keywords": [
+               "Polaron absorption",
+               "bias",
+               "t-gdiPDI"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.965193510055542,
+            "height": 656,
+            "width": 842,
+            "geometry": [
+               {
+                  "x": 906,
+                  "y": 662
+               },
+               {
+                  "x": 1748,
+                  "y": 662
+               },
+               {
+                  "x": 906,
+                  "y": 1318
+               },
+               {
+                  "x": 1748,
+                  "y": 1318
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 906,
+                     "y": 662
+                  },
+                  {
+                     "x": 1748,
+                     "y": 662
+                  },
+                  {
+                     "x": 906,
+                     "y": 1318
+                  },
+                  {
+                     "x": 1748,
+                     "y": 1318
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "The absolute changes in polaron absorption of the films versus applied bias for d-gdiPDI at 750 nm",
+            "keywords": [
+               "Polaron absorption",
+               "bias",
+               "films"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9639301896095276,
+            "height": 652,
+            "width": 879,
+            "geometry": [
+               {
+                  "x": 1,
+                  "y": 1
+               },
+               {
+                  "x": 880,
+                  "y": 1
+               },
+               {
+                  "x": 1,
+                  "y": 653
+               },
+               {
+                  "x": 880,
+                  "y": 653
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 1
+                  },
+                  {
+                     "x": 880,
+                     "y": 1
+                  },
+                  {
+                     "x": 1,
+                     "y": 653
+                  },
+                  {
+                     "x": 880,
+                     "y": 653
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Normalized thin-film spectroelectrochemistry behavior of t-gdiPDI",
+            "keywords": [
+               "Spectroelectrochemistry",
+               "Thin-film",
+               "t-gdiPDI"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_6_img_1.png": {
+      "title": "n\u2010Type Glycolated Imide\u2010Fused Polycyclic Aromatic Hydrocarbons with High Capacity for Liquid/Solid\u2010Electrolyte\u2010based Electrochemical Devices",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_n\u2010Type-Glycolated-Imide\u2010Fused\\n\u2010Type-Glycolated-Imide\u2010Fused",
+      "image_url": [],
+      "figure_name": "page_6_img_1.png",
+      "full_caption": "Figure 3. a) CV curves recorded at different scan rates for d-gdiPDI. b) Charge\u2013discharge profile of d-gdiPDI measured at different current densities.",
+      "figure_path": "output\\figures\\page_6_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9653851389884949,
+            "height": 651,
+            "width": 829,
+            "geometry": [
+               {
+                  "x": 920,
+                  "y": 0
+               },
+               {
+                  "x": 1749,
+                  "y": 0
+               },
+               {
+                  "x": 920,
+                  "y": 651
+               },
+               {
+                  "x": 1749,
+                  "y": 651
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 920,
+                     "y": 0
+                  },
+                  {
+                     "x": 1749,
+                     "y": 0
+                  },
+                  {
+                     "x": 920,
+                     "y": 651
+                  },
+                  {
+                     "x": 1749,
+                     "y": 651
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Charge\u2013discharge profile of d-gdiPDI measured at different current densities.",
+            "keywords": [
+               "Charge\u2013discharge",
+               "current densities",
+               "d-gdiPDI"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9634984731674194,
+            "height": 651,
+            "width": 869,
+            "geometry": [
+               {
+                  "x": 2,
+                  "y": 0
+               },
+               {
+                  "x": 871,
+                  "y": 0
+               },
+               {
+                  "x": 2,
+                  "y": 651
+               },
+               {
+                  "x": 871,
+                  "y": 651
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 2,
+                     "y": 0
+                  },
+                  {
+                     "x": 871,
+                     "y": 0
+                  },
+                  {
+                     "x": 2,
+                     "y": 651
+                  },
+                  {
+                     "x": 871,
+                     "y": 651
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "CV curves recorded at different scan rates for d-gdiPDI.",
+            "keywords": [
+               "CV curves",
+               "scan rates",
+               "d-gdiPDI"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_7_img_1.png": {
+      "title": "n\u2010Type Glycolated Imide\u2010Fused Polycyclic Aromatic Hydrocarbons with High Capacity for Liquid/Solid\u2010Electrolyte\u2010based Electrochemical Devices",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_n\u2010Type-Glycolated-Imide\u2010Fused\\n\u2010Type-Glycolated-Imide\u2010Fused",
+      "image_url": [],
+      "figure_name": "page_7_img_1.png",
+      "full_caption": "Figure 4. a) A schematic of the OECT gated by 0.1 M NaCl aqueous electrolyte. The output characteristics of OECT based on b) t-gdiPDI and c) d-gdiPDI. The transfer and transconductance curves of OECT based on d) t-gdiPDI and e) d-gdiPDI obtained at a sweeping rate of 0.03 V s\u22121. f) Operational stability measurement of the OECT based on t-gdiPDI (top) and d-gdiPDI (bottom).",
+      "figure_path": "output\\figures\\page_7_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9754530191421509,
+            "height": 478,
+            "width": 616,
+            "geometry": [
+               {
+                  "x": 1429,
+                  "y": 0
+               },
+               {
+                  "x": 2045,
+                  "y": 0
+               },
+               {
+                  "x": 1429,
+                  "y": 478
+               },
+               {
+                  "x": 2045,
+                  "y": 478
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1429,
+                     "y": 0
+                  },
+                  {
+                     "x": 2045,
+                     "y": 0
+                  },
+                  {
+                     "x": 1429,
+                     "y": 478
+                  },
+                  {
+                     "x": 2045,
+                     "y": 478
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "The output characteristics of OECT based on d-gdiPDI.",
+            "keywords": [
+               "OECT",
+               "d-gdiPDI",
+               "output characteristics"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9708125591278076,
+            "height": 482,
+            "width": 687,
+            "geometry": [
+               {
+                  "x": 686,
+                  "y": 1
+               },
+               {
+                  "x": 1373,
+                  "y": 1
+               },
+               {
+                  "x": 686,
+                  "y": 483
+               },
+               {
+                  "x": 1373,
+                  "y": 483
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 686,
+                     "y": 1
+                  },
+                  {
+                     "x": 1373,
+                     "y": 1
+                  },
+                  {
+                     "x": 686,
+                     "y": 483
+                  },
+                  {
+                     "x": 1373,
+                     "y": 483
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "The output characteristics of OECT based on t-gdiPDI.",
+            "keywords": [
+               "OECT",
+               "t-gdiPDI",
+               "output characteristics"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9507342576980591,
+            "height": 395,
+            "width": 681,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 10
+               },
+               {
+                  "x": 681,
+                  "y": 10
+               },
+               {
+                  "x": 0,
+                  "y": 405
+               },
+               {
+                  "x": 681,
+                  "y": 405
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 10
+                  },
+                  {
+                     "x": 681,
+                     "y": 10
+                  },
+                  {
+                     "x": 0,
+                     "y": 405
+                  },
+                  {
+                     "x": 681,
+                     "y": 405
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "A schematic of the OECT gated by 0.1 M NaCl aqueous electrolyte.",
+            "keywords": [
+               "OECT",
+               "NaCl",
+               "electrolyte"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9484866857528687,
+            "height": 548,
+            "width": 658,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 475
+               },
+               {
+                  "x": 658,
+                  "y": 475
+               },
+               {
+                  "x": 0,
+                  "y": 1023
+               },
+               {
+                  "x": 658,
+                  "y": 1023
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 475
+                  },
+                  {
+                     "x": 658,
+                     "y": 475
+                  },
+                  {
+                     "x": 0,
+                     "y": 1023
+                  },
+                  {
+                     "x": 658,
+                     "y": 1023
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "The transfer and transconductance curves of OECT based on t-gdiPDI obtained at a sweeping rate of 0.03 V s\u22121.",
+            "keywords": [
+               "OECT",
+               "transconductance",
+               "t-gdiPDI"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9482512474060059,
+            "height": 551,
+            "width": 754,
+            "geometry": [
+               {
+                  "x": 1295,
+                  "y": 484
+               },
+               {
+                  "x": 2049,
+                  "y": 484
+               },
+               {
+                  "x": 1295,
+                  "y": 1035
+               },
+               {
+                  "x": 2049,
+                  "y": 1035
+               }
+            ],
+            "subfigure_label": {
+               "text": "f",
+               "geometry": [
+                  {
+                     "x": 1295,
+                     "y": 484
+                  },
+                  {
+                     "x": 2049,
+                     "y": 484
+                  },
+                  {
+                     "x": 1295,
+                     "y": 1035
+                  },
+                  {
+                     "x": 2049,
+                     "y": 1035
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Operational stability measurement of the OECT based on t-gdiPDI (top) and d-gdiPDI (bottom).",
+            "keywords": [
+               "Operational stability",
+               "OECT",
+               "gdiPDI"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9471694231033325,
+            "height": 549,
+            "width": 651,
+            "geometry": [
+               {
+                  "x": 655,
+                  "y": 480
+               },
+               {
+                  "x": 1306,
+                  "y": 480
+               },
+               {
+                  "x": 655,
+                  "y": 1029
+               },
+               {
+                  "x": 1306,
+                  "y": 1029
+               }
+            ],
+            "subfigure_label": {
+               "text": "e",
+               "geometry": [
+                  {
+                     "x": 655,
+                     "y": 480
+                  },
+                  {
+                     "x": 1306,
+                     "y": 480
+                  },
+                  {
+                     "x": 655,
+                     "y": 1029
+                  },
+                  {
+                     "x": 1306,
+                     "y": 1029
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "The transfer and transconductance curves of OECT based on d-gdiPDI obtained at a sweeping rate of 0.03 V s\u22121.",
+            "keywords": [
+               "OECT",
+               "transconductance",
+               "d-gdiPDI"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_8_img_1.png": {
+      "title": "n\u2010Type Glycolated Imide\u2010Fused Polycyclic Aromatic Hydrocarbons with High Capacity for Liquid/Solid\u2010Electrolyte\u2010based Electrochemical Devices",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_n\u2010Type-Glycolated-Imide\u2010Fused\\n\u2010Type-Glycolated-Imide\u2010Fused",
+      "image_url": [],
+      "figure_name": "page_8_img_1.png",
+      "full_caption": "Figure 5. a) A schematic of fabricated OECT gated by ion gel electrolyte (left) and a photo of the gel electrolyte (right). b) The output characteristics of the d-gdiPDI-based SEOECT for VGS = 0.4 V. c) The transfer and transconductance curves of the d-gdiPDI-based SEOECT for VDS = 0.4 V. d) n-Type operational stability measurement of the gel electrolyte gated OECT based on d-gdiPDI.",
+      "figure_path": "output\\figures\\page_8_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9578566551208496,
+            "height": 483,
+            "width": 743,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 2
+               },
+               {
+                  "x": 743,
+                  "y": 2
+               },
+               {
+                  "x": 0,
+                  "y": 485
+               },
+               {
+                  "x": 743,
+                  "y": 485
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 2
+                  },
+                  {
+                     "x": 743,
+                     "y": 2
+                  },
+                  {
+                     "x": 0,
+                     "y": 485
+                  },
+                  {
+                     "x": 743,
+                     "y": 485
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "A schematic of fabricated OECT gated by ion gel electrolyte (left) and a photo of the gel electrolyte (right).",
+            "keywords": [
+               "OECT",
+               "ion gel",
+               "schematic"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9493181705474854,
+            "height": 955,
+            "width": 731,
+            "geometry": [
+               {
+                  "x": 767,
+                  "y": 18
+               },
+               {
+                  "x": 1498,
+                  "y": 18
+               },
+               {
+                  "x": 767,
+                  "y": 973
+               },
+               {
+                  "x": 1498,
+                  "y": 973
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 767,
+                     "y": 18
+                  },
+                  {
+                     "x": 1498,
+                     "y": 18
+                  },
+                  {
+                     "x": 767,
+                     "y": 973
+                  },
+                  {
+                     "x": 1498,
+                     "y": 973
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": null,
+                  "geometry": [
+                     {
+                        "x": 1103,
+                        "y": 133
+                     },
+                     {
+                        "x": 1103,
+                        "y": 142
+                     },
+                     {
+                        "x": 1199,
+                        "y": 142
+                     },
+                     {
+                        "x": 1199,
+                        "y": 133
+                     }
+                  ],
+                  "confidence": 0.7392282485961914,
+                  "length": 95,
+                  "label_line_distance": -1
+               }
+            ],
+            "caption": "The transfer and transconductance curves of the d-gdiPDI-based SEOECT for VDS = 0.4 V.",
+            "keywords": [
+               "Transconductance",
+               "SEOECT",
+               "d-gdiPDI"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9336261749267578,
+            "height": 488,
+            "width": 751,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 501
+               },
+               {
+                  "x": 751,
+                  "y": 501
+               },
+               {
+                  "x": 0,
+                  "y": 989
+               },
+               {
+                  "x": 751,
+                  "y": 989
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 501
+                  },
+                  {
+                     "x": 751,
+                     "y": 501
+                  },
+                  {
+                     "x": 0,
+                     "y": 989
+                  },
+                  {
+                     "x": 751,
+                     "y": 989
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "The output characteristics of the d-gdiPDI-based SEOECT for VGS = 0.4 V.",
+            "keywords": [
+               "Output characteristics",
+               "d-gdiPDI",
+               "SEOECT"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "d",
+               "description": "n-Type operational stability measurement of the gel electrolyte gated OECT based on d-gdiPDI.",
+               "keywords": [
+                  "OECT",
+                  "n-Type",
+                  "Stability"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_8_img_2.png": {
+      "title": "n\u2010Type Glycolated Imide\u2010Fused Polycyclic Aromatic Hydrocarbons with High Capacity for Liquid/Solid\u2010Electrolyte\u2010based Electrochemical Devices",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_n\u2010Type-Glycolated-Imide\u2010Fused\\n\u2010Type-Glycolated-Imide\u2010Fused",
+      "image_url": [],
+      "figure_name": "page_8_img_2.png",
+      "full_caption": "Figure 6. 2D GIWAXS images for a) d-gdiPDI and b) t-gdiPDI, and c) corresponding line cut profiles along the in-plane and out-of-plane directions.",
+      "figure_path": "output\\figures\\page_8_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9700130820274353,
+            "height": 568,
+            "width": 782,
+            "geometry": [
+               {
+                  "x": 968,
+                  "y": 803
+               },
+               {
+                  "x": 1750,
+                  "y": 803
+               },
+               {
+                  "x": 968,
+                  "y": 1371
+               },
+               {
+                  "x": 1750,
+                  "y": 1371
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 968,
+                     "y": 803
+                  },
+                  {
+                     "x": 1750,
+                     "y": 803
+                  },
+                  {
+                     "x": 968,
+                     "y": 1371
+                  },
+                  {
+                     "x": 1750,
+                     "y": 1371
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9666302800178528,
+            "height": 703,
+            "width": 787,
+            "geometry": [
+               {
+                  "x": 962,
+                  "y": 32
+               },
+               {
+                  "x": 1749,
+                  "y": 32
+               },
+               {
+                  "x": 962,
+                  "y": 735
+               },
+               {
+                  "x": 1749,
+                  "y": 735
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 962,
+                     "y": 32
+                  },
+                  {
+                     "x": 1749,
+                     "y": 32
+                  },
+                  {
+                     "x": 962,
+                     "y": 735
+                  },
+                  {
+                     "x": 1749,
+                     "y": 735
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "2D GIWAXS images for t-gdiPDI",
+            "keywords": [
+               "GIWAXS",
+               "t-gdiPDI",
+               "2D images"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.961665153503418,
+            "height": 757,
+            "width": 907,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 21
+               },
+               {
+                  "x": 907,
+                  "y": 21
+               },
+               {
+                  "x": 0,
+                  "y": 778
+               },
+               {
+                  "x": 907,
+                  "y": 778
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 21
+                  },
+                  {
+                     "x": 907,
+                     "y": 21
+                  },
+                  {
+                     "x": 0,
+                     "y": 778
+                  },
+                  {
+                     "x": 907,
+                     "y": 778
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "2D GIWAXS images for d-gdiPDI",
+            "keywords": [
+               "GIWAXS",
+               "2D",
+               "d-gdiPDI"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9534515738487244,
+            "height": 569,
+            "width": 890,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 805
+               },
+               {
+                  "x": 890,
+                  "y": 805
+               },
+               {
+                  "x": 0,
+                  "y": 1374
+               },
+               {
+                  "x": 890,
+                  "y": 1374
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 805
+                  },
+                  {
+                     "x": 890,
+                     "y": 805
+                  },
+                  {
+                     "x": 0,
+                     "y": 1374
+                  },
+                  {
+                     "x": 890,
+                     "y": 1374
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Corresponding line cut profiles along the in-plane and out-of-plane directions",
+            "keywords": [
+               "Line cut profiles"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   }
+}

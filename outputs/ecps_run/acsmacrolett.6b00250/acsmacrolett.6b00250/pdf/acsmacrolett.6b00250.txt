@@ -1,0 +1,358 @@
+Heteroatom Role in Polymeric Dioxyselenophene/Dioxythiophene
+Systems for Color and Redox Control
+James F. Ponder, Jr., Sandra L. Pittelli, and John R. Reynolds*
+School of Chemistry and Biochemistry, School of Materials Science and Engineering, Center for Organic Photonics and Electronics,
+Georgia Tech Polymer Network, Georgia Institute of Technology, Atlanta, Georgia 30332-0400, United States
+*
+S Supporting Information
+ABSTRACT: The ﬁrst example of a solution processable dioxythio-
+phene-alt-dioxyselenophene polymer, ProDOT-EDOS, prepared via
+direct (hetero)arylation polymerization is reported and its optical and
+electrochemical properties are compared to the all thiophene analog,
+ProDOT-EDOT, and other relevant dioxythiophene polymers. By
+substituting the sulfur atom for a selenium atom on one of the
+monomers in the repeat unit a signiﬁcant red-shift of both the neutral
+(41 nm, 132 meV) and polaronic (106 nm, 126 meV) absorbances
+results, as well as a 160 mV reduction in the onset of oxidation
+compared to ProDOT-EDOT. Spray-cast ﬁlms of the polymer
+electrochemically switch from a vibrant blue charge neutral state to a
+color neutral and highly transmissive oxidized state.
+P
+olyselenophenes have received attention in the ﬁeld of
+organic electronics due to their similarities and diﬀerences
+to the more widely studied polythiophenes, where they possess
+reduced aromatic character, leading to increased quinoidal
+character and planarity between rings and yielding lower
+electronic band-gaps.1−4 Of particular note is the computational
+and experimental work of the late Michael Bendikov on
+selenophene oligomers and polymers who developed extensive
+selenophene chemistry and made important comparisons with
+structurally similar thiophene-based polymers.1,5−9 Recently,
+poly(3-alkylselenophenes) and copolymers containing 3-
+alkylselenophenes10−12 along with other selenophene contain-
+ing polymers have found use as both organic ﬁeld-eﬀect
+transistor (OFET)13−15 and organic photovoltaic (OPV)16,17
+materials with enhanced transport properties due to more
+extensive interchain interactions compared to their thiophene
+analogs.
+In a similar comparison, electrochemically polymerized 3,4-
+alkylenedioxyselenophenes (XDOSs) and their analogous 3,4-
+alkylenedioxythiophenes (XDOTs) have been investigated and
+compared as redox active and electrochromic (EC) materials.
+This is illustrated in PProDOS, which exhibits a saturated blue
+hue due to a distinct red-shift4,18 of the neutral polymer’s π →
+π* transition relative to the more purple color observed for the
+PProDOTs.19,20 A red-shifted absorption of the PProDOS
+cation-radical (polaron state) relative to that observed for
+PProDOT moves the charged material’s absorption of light
+more fully into the near-infrared.20 These PXDOS materials
+have low oxidation potentials (as low as −0.95 V vs Ag/AgCl),6
+which is of particular use in EC and electrochemical charge
+storage devices, such as supercapacitors. For the PXDOS family
+of materials to become more attractive and useful for redox and
+organic electronic applications, it is necessary to move beyond
+electrochemical polymerizations with the preparation and
+processing of soluble polymers. To date, there is one example
+of a PProDOS functionalized with solubilizing side chains that
+has been electropolymerized to yield a low molecular weight
+product (7.2−9.3 kDa), which could subsequently be spray cast
+from a dichloromethane (DCM) solution.19 During the
+preparation of this manuscript, the dehalogenative polymer-
+ization of dihalo XDOS and XDOT monomers were reported,
+yielding soluble oligomers with a low molecular weight (5
+kDa), but no polymeric materials were presented.21
+Direct (hetero)arylation polymerization (DHAP) has
+emerged as one of the most practical and versatile polymer-
+ization methods for the synthesis of conjugated polymers.22−24
+DHAP has been previously utilized to synthesize a large
+number of dioxythiophene-based polymers and copolymers for
+high contrast electrochromic25,26 and charge storage applica-
+tions27 and here, for the ﬁrst time, this chemistry has been
+extended to XDOS-based polymers. Speciﬁcally, the ﬁrst
+synthesis of an alternating ProDOT-EDOS copolymer,
+applying standard DHAP conditions, is reported with EDOS
+serving as the dihydrogen species and a ProDOT derivative
+with 2-hexyldecyloxy solubilizing chains as the dihalide to yield
+ProDOT-EDOS, as illustrated in Figure 1a. The polymer was
+puriﬁed via Soxhlet extraction and the repeat unit structure
+conﬁrmed using elemental analysis and NMR (Figure S1), as
+outlined in the Supporting Information. The molecular weight
+of the polymer (Mn = 12.5 kDa, Đ = 1.6) was determined via
+Received:
+March 29, 2016
+Accepted:
+May 23, 2016
+Published: May 24, 2016
+Letter
+pubs.acs.org/macroletters
+© 2016 American Chemical Society
+714
+DOI: 10.1021/acsmacrolett.6b00250
+ACS Macro Lett. 2016, 5, 714−717
+Downloaded via ARGONNE NATL LABORATORY on September 26, 2024 at 20:31:22 (UTC).
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+gel permeation chromatography (GPC) relative to polystyrene
+standards. Cyclic voltammetry (CV) of a dropcast ﬁlm of the
+polymer on a glassy carbon electrode exhibited a low onset of
+oxidation followed by a broad electrochemical response, as
+shown in Figure 1b. This onset of oxidation is lower than both
+the PProDOT homopolymer and the ProDOT-EDOT
+alternating polymer. This is consistent with the low oxidation
+potential reported in the literature for electropolymerized
+XDOS polymers and is conﬁrmed by diﬀerential pulse
+voltammograms (DPVs), as shown in Figure S2, where
+ProDOT-EDOS shows a reduction in the onset of oxidation
+of 160 mV relative to ProDOT-EDOT simply by changing one
+of the heteroatoms in the repeat unit from sulfur to selenium.
+Figure 1. (a) Direct (hetero) arylation polymerization of a dibromo ProDOT derivative and EDOS to yield ProDOT-EDOS and (b) CVs of
+PProDOT (magenta trace), ProDOT-EDOT (blue trace), and ProDOT-EDOS (red trace) drop cast to equal mass ﬁlms (3 μL of 2 mg/mL
+solutions in CHCl3) on glassy carbon electrodes, demonstrating the reduction in onset of oxidation and broad stable window of the polymer ﬁlms as
+well as an increase in redox current.
+Figure 2. (a) Photographs of a spray-cast ﬁlm of ProDOT-EDOS on ITO in electrolyte solution in its pristine (as cast), charge neutral (−1.0 V), and
+oxidized (+0.8 V) forms and (b) UV−vis absorption of ProDOT-EDOS on ITO at various applied potentials from the fully reduced, or charge
+neutral, form (blue trace) to the fully oxidized form (red trace).
+Figure 3. (a) Normalized absorption spectra of PProDOT (magenta trace) at higher energy, ProDOT-EDOT (blue trace), and ProDOT-EDOS
+(red trace) at lower energy, and (b) a*b* diagram showing the change in color occurring during electrochemical doping (oxidation) of ProDOT-
+EDOT and ProDOT-EDOS.
+ACS Macro Letters
+Letter
+DOI: 10.1021/acsmacrolett.6b00250
+ACS Macro Lett. 2016, 5, 714−717
+715
+
+When spray cast from a chloroform solution (4 mg/mL)
+onto ITO glass, the resulting ProDOT-EDOS ﬁlm appears as a
+slightly muted blue ﬁlm (L*a*b* = 53, 1, −45). However, it
+can be seen in Figure 2a and S3a that following an
+electrochemical break-in with 5 CV cycles the neutral form of
+the ﬁlm is converted to a deep blue color (L*a*b* = 53, −4,
+−47). Upon oxidation of the polymer the blue color disappears
+and a colorless and transmissive state (L*a*b* = 92, −3, −3) is
+formed, as seen in Figure 2a. The spectroelectrochemical series
+of the ﬁlm in Figures 2b and S3b allows us to observe the
+gradual oxidation of the polymer and the depletion of the
+charge neutral state as polarons are formed, followed by
+bipolarons, and ultimately bipolaron band formation28,29 with
+complete disappearance of the neutral state absorption by 0.8
+V.
+The UV−vis-NIR absorbance proﬁles of PProDOT,
+ProDOT-EDOT, and ProDOT-EDOS shown in Figure 3a
+demonstrate a red-shift in both peak and onset of absorbance
+for this family of polymers. Insertion of the less sterically
+encumbering EDOT in alternation with ProDOT leads to a
+relaxation of the torsional angles along the polymer backbone,
+as demonstrated previously in studies directed to color tuning
+in EC polymers (ECPs).26 With the subsequent substitution of
+the sulfur atom for a selenium atom in the EDOS repeat unit, a
+further 41 nm red-shift in peak absorbance is observed (Table
+1). Using the energy for the onset of the π →π* transition in
+the polymer as an estimation of the optical bandgap, we see a
+decrease from 1.97 to 1.77 eV and, ﬁnally, to 1.62 eV across this
+series. Tracking the hue and saturation of the ﬁlms during
+oxidation, the colorimetry results in Figure 3b, Figure S4, and
+Table 1 show how the materials transition from deeply colored
+states to highly transmissive, near neutral hued forms. The a* =
+−4 value for ProDOT-EDOS is unusual, as it does not contain
+a red component as we typically see in blue XDOT ECPs
+(speciﬁcally in ProDOT-EDOT2 and PEDOT), which have
+small positive a* values.26,27 As the polymer is oxidized, the
+colorimetry results track the b* axis relatively closely,
+minimizing secondary colors observed during electrochemical
+switching. This switch is relatively rapid with a 95% switch,
+calculated from the chronoabsorptiometry in Figure S5, of 0.60
+s.
+Interestingly, it can be see in Table 1 that the absorption
+maximum of ProDOT-EDOS and PEDOT are similar and the
+diﬀerence in bandgap between the two is small (0.04 eV),
+suggesting that the materials will appear similar in perceived
+color. However, a quantitative comparison of the colorimetry
+values of the two polymers show that this is not true and the
+materials appear as distinct hues. The color diﬀerence equation
+(ΔE*ab) presented in the Supporting Information was used to
+compare the colors, thereby determining if they are distinguish-
+able to a standard observer.30,31 If the value of ΔE*ab is greater
+than 2.2, two colors are distinguishable from each other.
+Despite the similarities in peak absorbance and onset,
+ProDOT-EDOS and PEDOT have a ΔE*ab value of 24,
+meaning that while they are both blue polymers they appear as
+distinctly diﬀerent hues of blue. In contrast, ProDOT-EDOT2
+(λmax = 613 nm, Eg = 1.71 eV) has a ΔE*ab value of 2.2 relative
+to PEDOT, making these two materials indistinguishable to a
+standard observer in spite of the larger diﬀerence in peak
+absorbance and optical bandgap.27 Comparing these polymers
+nicely demonstrates how perceived color is more complex than
+the bandgap and peak absorbance, but is dependent on the
+overall absorbance proﬁle.
+While altering the backbone structure in dioxythiophene
+polymers shifts the neutral absorbance, it generally does not
+have a signiﬁcant eﬀect on the polaronic absorption, which
+tends to be found between 780 and 980 nm. This is exempliﬁed
+in PProDOT and ProDOT-EDOT with a 50 nm diﬀerence in
+the neutral, and a 33 nm diﬀerence in the polaronic peak
+absorbance, corresponding to decreases in energy of 188 and 45
+meV, respectively. Substitution of the sulfur for selenium on the
+EDOT unit leads to a smaller energy reduction of 132 meV (a
+41 nm red-shift) in the neutral absorbance and a larger energy
+reduction of 126 meV (a 106 nm red-shift) in the polaron
+absorption relative to ProDOT-EDOT. By moving the polaron
+further into the IR, it may be possible to reduce the extent of
+tailing of the charged state absorption into the visible, which
+may ultimately increase the EC contrast observed.
+Given the large eﬀect that substitution of a selenium atom in
+place of sulfur in these structures has on the redox behavior,
+neutral state absorbance, and polaron absorbance of the
+resulting copolymer, we envision that these dioxyselenophenes
+will be of practical use in color mixing of electrochromic
+polymers. The XDOS family of polymers can provide the long
+wavelength absorbance needed for brown and black blends
+without leading to the higher oxidation potential and lower EC
+contrast that donor−acceptor ECPs (e.g., ProDOT-alt-
+benzothiadiazole) typically exhibit.32 Additionally, the signiﬁ-
+cant reduction in oxidation potential and broad electroactive
+response make this polymer, and others of its kind, of interest
+in charge storage research in both types I and II super-
+capacitors.
+■ASSOCIATED CONTENT
+*
+S
+Supporting Information
+The Supporting Information is available free of charge on the
+ACS Publications website at DOI: 10.1021/acsmacro-
+lett.6b00250.
+Experimental procedures and additional polymer char-
+acterizations (PDF).
+■AUTHOR INFORMATION
+Corresponding Author
+*E-mail reynolds@chemistry.gatech.edu.
+Notes
+The authors declare no competing ﬁnancial interest.
+Table 1. Optical, Colorimetric, and Electrochemical Comparisons of PProDOT, ProDOT-EDOT, ProDOT-EDOS, and
+PEDOT
+polymer
+λmax neutral (nm)
+λmax polaron (nm)
+L*, a*, b* (neutral)
+L*, a*, b* (oxidized)
+Eg (eV)
+onset of oxidation (V) by DPV
+PProDOT
+550
+937
+42, 58, −38
+89, −3, −3
+1.97
+0.08
+ProDOT-EDOT
+600
+970
+52, 12, −48
+93, −3, −3
+1.77
+−0.36
+ProDOT-EDOS
+641
+1076
+53, −4, −47
+92, −3, −3
+1.62
+−0.52
+PEDOT
+629
+923
+35, 10, −54
+81, −6, −10
+1.66
+−0.95
+ACS Macro Letters
+Letter
+DOI: 10.1021/acsmacrolett.6b00250
+ACS Macro Lett. 2016, 5, 714−717
+716
+
+■ACKNOWLEDGMENTS
+This work was funded by the Oﬃce of Naval Research (Grant:
+N00014−14−1−0399) for the development of new low
+oxidation potential materials for charge storage applications
+and the Air Force Oﬃce of Scientiﬁc Research (Grant:
+FA9550−14−1−0271) for the enhancement in contrast in
+electrochromic materials. The authors would like to thank Dr.
+Hayden Black for his initial synthetic work on this project and
+Brian Schmatz for his assistance in polymer NMR.
+■REFERENCES
+(1) Patra, A.; Wijsboom, Y. H.; Zade, S. S.; Li, M.; Sheynin, Y.;
+Leitus, G.; Bendikov, M. J. Am. Chem. Soc. 2008, 130 (21), 6734−
+6736.
+(2) Patra, A.; Bendikov, M. J. Mater. Chem. 2010, 20 (3), 422−433.
+(3) Hollinger, J.; Gao, D.; Seferos, D. S. Isr. J. Chem. 2014, 54 (5−6),
+440−453.
+(4) Patra, A.; Bendikov, M.; Chand, S. Acc. Chem. Res. 2014, 47 (5),
+1465−1474.
+(5) Zade, S. S.; Bendikov, M. Org. Lett. 2006, 8 (23), 5243−5246.
+(6) Li, M.; Sheynin, Y.; Patra, A.; Bendikov, M. Chem. Mater. 2009,
+21 (12), 2482−2488.
+(7) Wijsboom, Y. H.; Patra, A.; Zade, S. S.; Sheynin, Y.; Li, M.;
+Shimon, L. J. W.; Bendikov, M. Angew. Chem., Int. Ed. 2009, 48 (30),
+5443−5447.
+(8) Zade, S. S.; Zamoshchik, N.; Bendikov, M. Chem. - Eur. J. 2009,
+15 (34), 8613−8624.
+(9) Poverenov, E.; Sheynin, Y.; Zamoshchik, N.; Patra, A.; Leitus, G.;
+Perepichka, I. F.; Bendikov, M. J. Mater. Chem. 2012, 22 (29), 14645−
+14655.
+(10) Hollinger, J.; Jahnke, A. A.; Coombs, N.; Seferos, D. S. J. Am.
+Chem. Soc. 2010, 132 (25), 8546−8547.
+(11) Gao, D.; Hollinger, J.; Seferos, D. S. ACS Nano 2012, 6 (8),
+7114−7121.
+(12) Lai, Y.-Y.; Tung, T.-C.; Liang, W.-W.; Cheng, Y.-J. Macro-
+molecules 2015, 48 (9), 2978−2988.
+(13) Heeney, M.; Zhang, W.; Crouch, D. J.; Chabinyc, M. L.;
+Gordeyev, S.; Hamilton, R.; Higgins, S. J.; McCulloch, I.; Skabara, P. J.;
+Sparrowe, D.; Tierney, S. Chem. Commun. 2007, No. 47, 5061−5063.
+(14) Lin, H.-W.; Lee, W.-Y.; Chen, W.-C. J. Mater. Chem. 2012, 22
+(5), 2120−2128.
+(15) Kang, I.; An, T. K.; Hong, J.-a.; Yun, H.-J.; Kim, R.; Chung, D.
+S.; Park, C. E.; Kim, Y.-H.; Kwon, S.-K. Adv. Mater. 2013, 25 (4),
+524−528.
+(16) Ballantyne, A. M.; Chen, L.; Nelson, J.; Bradley, D. D. C.; Astuti,
+Y.; Maurano, A.; Shuttle, C. G.; Durrant, J. R.; Heeney, M.; Duffy, W.;
+McCulloch, I. Adv. Mater. 2007, 19 (24), 4544−4547.
+(17) Hollinger, J.; Sun, J.; Gao, D.; Karl, D.; Seferos, D. S. Macromol.
+Rapid Commun. 2013, 34 (5), 437−441.
+(18) Cihaner, A. Synlett 2015, 26 (04), 449−460.
+(19) Atak, S.; İçli-Ö zkut, M.; Önal, A. M.; Cihaner, A. J. Polym. Sci.,
+Part A: Polym. Chem. 2011, 49 (20), 4398−4405.
+(20) Karabay, B.; Pekel, L. C.; Cihaner, A. Macromolecules 2015, 48
+(5), 1352−1357.
+(21) Patra, A.; Agrawal, V.; Bhargav, R.; Shahjad; Bhardwaj, D.;
+Chand, S.; Sheynin, Y.; Bendikov, M. Macromolecules 2015, 48 (24),
+8760−8764.
+(22) Mercier, L. G.; Leclerc, M. Acc. Chem. Res. 2013, 46 (7), 1597−
+1605.
+(23) Okamoto, K.; Zhang, J.; Housekeeper, J. B.; Marder, S. R.;
+Luscombe, C. K. Macromolecules 2013, 46 (20), 8059−8078.
+(24) Rudenko, A. E.; Thompson, B. C. J. Polym. Sci., Part A: Polym.
+Chem. 2015, 53 (2), 135−147.
+(25) Estrada, L. A.; Deininger, J. J.; Kamenov, G. D.; Reynolds, J. R.
+ACS Macro Lett. 2013, 2 (10), 869−873.
+(26) Kerszulis, J. A.; Johnson, K. E.; Kuepfert, M.; Khoshabo, D.;
+Dyer, A. L.; Reynolds, J. R. J. Mater. Chem. C 2015, 3 (13), 3211−
+3218.
+(27) Ponder, J. F.; Österholm, A. M.; Reynolds, J. R. Macromolecules
+2016, 49 (6), 2106−2111.
+(28) Bredas, J. L.; Street, G. B. Acc. Chem. Res. 1985, 18 (10), 309−
+315.
+(29) Bubnova, O.; Crispin, X. Energy Environ. Sci. 2012, 5 (11),
+9345−9362.
+(30) Günther Wyszecki, W. S. S. Color Science: Concepts and Methods,
+Quantitative Data and Formulae, 2nd ed.; Wiley: Hoboken, NJ, U.S.A.,
+2000.
+(31) Mahy, M.; Van Eycken, L.; Oosterlinck, A. Color Res. Appl.
+1994, 19 (2), 105−121.
+(32) Amb, C. M.; Beaujuge, P. M.; Reynolds, J. R. Adv. Mater. 2010,
+22 (6), 724−728.
+ACS Macro Letters
+Letter
+DOI: 10.1021/acsmacrolett.6b00250
+ACS Macro Lett. 2016, 5, 714−717
+717
+

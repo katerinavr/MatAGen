@@ -1,0 +1,91 @@
+{
+  "records": [
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS‐Based-Electrochemical\\PEDOT-PSS‐Based-Electrochemical\\PEDOT-PSS‐Based-Electrochemical\\images_folder\\page_1_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS‐Based-Electrochemical\\PEDOT-PSS‐Based-Electrochemical"
+    },
+    {
+      "full_caption": "Figure 1. The artificial synapse: presynaptic and post-synaptic functions. a) Schematic illustrating the ENODE’s gate electrode and the combination of the fluidic module and the channel terminal corresponding to the presynaptic and post-synaptic terminal of a biological synapse, respectively. b) Channel conductance modulation G(t) (ii) and integral of optical density changes ∫OD (iii) upon gate periodic voltage pulses (i) (three square pulses with 3s duration and 10s delay) that trigger the neurotransmitters oxidation (static PBS+neurotransmitter solution in the fluidic module), DA (left, red) and 5-HT (right, blue), followed by a baseline recovery input comprising three train of pulses (0.1 to 0.8 V, ΔVG 0.1 V, td -0.1 V) under PBS flow (1mL min−1). c) ΔG% (left) and d) ΔOD% (right) for both conditioning and extinction processes for the different concentrations of neurotransmitters. The % of the extinction/recovery rates (hereafter named % of recovery, in rectangles) have been obtained from the ratio-to-percentage of extinction/conditioning values (ΔG% and ΔOD%). The initial conductance/integral of optical density baseline is partially recovered showing that the modulation triggered by DA is semi-reversible (>80% recovery) while 5-HT leads to more permanent modulations (<27% recovery).",
+      "caption": "ΔG% (left) and",
+      "caption_summary": [
+        "Thermodynamics",
+        "Gibbs Free Energy",
+        "Phase Diagram"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS‐Based-Electrochemical\\PEDOT-PSS‐Based-Electrochemical\\PEDOT-PSS‐Based-Electrochemical\\images_folder\\page_3_img_2_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS‐Based-Electrochemical\\PEDOT-PSS‐Based-Electrochemical"
+    },
+    {
+      "full_caption": "Figure 1. The artificial synapse: presynaptic and post-synaptic functions. a) Schematic illustrating the ENODE’s gate electrode and the combination of the fluidic module and the channel terminal corresponding to the presynaptic and post-synaptic terminal of a biological synapse, respectively. b) Channel conductance modulation G(t) (ii) and integral of optical density changes ∫OD (iii) upon gate periodic voltage pulses (i) (three square pulses with 3s duration and 10s delay) that trigger the neurotransmitters oxidation (static PBS+neurotransmitter solution in the fluidic module), DA (left, red) and 5-HT (right, blue), followed by a baseline recovery input comprising three train of pulses (0.1 to 0.8 V, ΔVG 0.1 V, td -0.1 V) under PBS flow (1mL min−1). c) ΔG% (left) and d) ΔOD% (right) for both conditioning and extinction processes for the different concentrations of neurotransmitters. The % of the extinction/recovery rates (hereafter named % of recovery, in rectangles) have been obtained from the ratio-to-percentage of extinction/conditioning values (ΔG% and ΔOD%). The initial conductance/integral of optical density baseline is partially recovered showing that the modulation triggered by DA is semi-reversible (>80% recovery) while 5-HT leads to more permanent modulations (<27% recovery).",
+      "caption": "ΔOD% (right) for both conditioning and extinction processes for the different concentrations of neurotransmitters. The % of the extinction/recovery rates (hereafter named % of recovery, in rectangles) have been obtained from the ratio-to-percentage of extinction/conditioning values (ΔG% and ΔOD%). The initial conductance/integral of optical density baseline is partially recovered showing that the modulation triggered by DA is semi-reversible (>80% recovery) while 5-HT leads to more permanent modulations (<27% recovery).",
+      "caption_summary": [
+        "Neurotransmitters",
+        "Modulation",
+        "Recovery"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS‐Based-Electrochemical\\PEDOT-PSS‐Based-Electrochemical\\PEDOT-PSS‐Based-Electrochemical\\images_folder\\page_3_img_2_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS‐Based-Electrochemical\\PEDOT-PSS‐Based-Electrochemical"
+    },
+    {
+      "full_caption": "Figure 1. The artificial synapse: presynaptic and post-synaptic functions. a) Schematic illustrating the ENODE’s gate electrode and the combination of the fluidic module and the channel terminal corresponding to the presynaptic and post-synaptic terminal of a biological synapse, respectively. b) Channel conductance modulation G(t) (ii) and integral of optical density changes ∫OD (iii) upon gate periodic voltage pulses (i) (three square pulses with 3s duration and 10s delay) that trigger the neurotransmitters oxidation (static PBS+neurotransmitter solution in the fluidic module), DA (left, red) and 5-HT (right, blue), followed by a baseline recovery input comprising three train of pulses (0.1 to 0.8 V, ΔVG 0.1 V, td -0.1 V) under PBS flow (1mL min−1). c) ΔG% (left) and d) ΔOD% (right) for both conditioning and extinction processes for the different concentrations of neurotransmitters. The % of the extinction/recovery rates (hereafter named % of recovery, in rectangles) have been obtained from the ratio-to-percentage of extinction/conditioning values (ΔG% and ΔOD%). The initial conductance/integral of optical density baseline is partially recovered showing that the modulation triggered by DA is semi-reversible (>80% recovery) while 5-HT leads to more permanent modulations (<27% recovery).",
+      "caption": "Channel conductance modulation G(t) (ii) and integral of optical density changes ∫OD (iii) upon gate periodic voltage pulses (i) (three square pulses with 3s duration and 10s delay) that trigger the neurotransmitters oxidation (static PBS+neurotransmitter solution in the fluidic module), DA (left, red) and 5-HT (right, blue), followed by a baseline recovery input comprising three train of pulses (0.1 to 0.8 V, ΔVG 0.1 V, td -0.1 V) under PBS flow (1mL min−1).",
+      "caption_summary": [
+        "Channel conductance",
+        "neurotransmitter oxidation",
+        "optical density"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS‐Based-Electrochemical\\PEDOT-PSS‐Based-Electrochemical\\PEDOT-PSS‐Based-Electrochemical\\images_folder\\page_3_img_2_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS‐Based-Electrochemical\\PEDOT-PSS‐Based-Electrochemical"
+    },
+    {
+      "full_caption": "Figure 1. The artificial synapse: presynaptic and post-synaptic functions. a) Schematic illustrating the ENODE’s gate electrode and the combination of the fluidic module and the channel terminal corresponding to the presynaptic and post-synaptic terminal of a biological synapse, respectively. b) Channel conductance modulation G(t) (ii) and integral of optical density changes ∫OD (iii) upon gate periodic voltage pulses (i) (three square pulses with 3s duration and 10s delay) that trigger the neurotransmitters oxidation (static PBS+neurotransmitter solution in the fluidic module), DA (left, red) and 5-HT (right, blue), followed by a baseline recovery input comprising three train of pulses (0.1 to 0.8 V, ΔVG 0.1 V, td -0.1 V) under PBS flow (1mL min−1). c) ΔG% (left) and d) ΔOD% (right) for both conditioning and extinction processes for the different concentrations of neurotransmitters. The % of the extinction/recovery rates (hereafter named % of recovery, in rectangles) have been obtained from the ratio-to-percentage of extinction/conditioning values (ΔG% and ΔOD%). The initial conductance/integral of optical density baseline is partially recovered showing that the modulation triggered by DA is semi-reversible (>80% recovery) while 5-HT leads to more permanent modulations (<27% recovery).",
+      "caption": "Schematic illustrating the ENODE’s gate electrode and the combination of the fluidic module and the channel terminal corresponding to the presynaptic and post-synaptic terminal of a biological synapse, respectively.",
+      "caption_summary": [
+        "ENODE",
+        "synapse",
+        "schematic"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS‐Based-Electrochemical\\PEDOT-PSS‐Based-Electrochemical\\PEDOT-PSS‐Based-Electrochemical\\images_folder\\page_3_img_2_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS‐Based-Electrochemical\\PEDOT-PSS‐Based-Electrochemical"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS‐Based-Electrochemical\\PEDOT-PSS‐Based-Electrochemical\\PEDOT-PSS‐Based-Electrochemical\\images_folder\\page_5_img_2_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS‐Based-Electrochemical\\PEDOT-PSS‐Based-Electrochemical"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS‐Based-Electrochemical\\PEDOT-PSS‐Based-Electrochemical\\PEDOT-PSS‐Based-Electrochemical\\images_folder\\page_5_img_2_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS‐Based-Electrochemical\\PEDOT-PSS‐Based-Electrochemical"
+    },
+    {
+      "full_caption": "Figure 4. Neurotransmitter co-modulation. a) The schematic illustrates the release of neurotransmitters in case of single and double-neurotransmitters neurons, showing a coexpression process for high-stimulation presynaptic stimuli. b) i) The artificial synapse GDO and Δ/OD modulations in case of DA (pink) and 5-HT (blue) at their respective oxidation potential, emulating a single neurotransmitters neuron. Black dotted curves represent the null GDO and Δ/OD modulations in case of PBS-only solutions at low and high stimulation presynaptic stimuli, here used as reference. ii) A double neurotransmitters neuron expressing the couple DA:5-HT 0.025:0.01mM under low stimulation, i.e. pulsing the gate at the DA oxidation potential (0.3 V). iii) The same neuron under high stimulation, pulsing the gate at the 5-HT oxidation potential (0.4 V).",
+      "caption": "i) The artificial synapse GDO and Δ/OD modulations in case of DA (pink) and 5-HT (blue) at their respective oxidation potential, emulating a single neurotransmitters neuron. Black dotted curves represent the null GDO and Δ/OD modulations in case of PBS-only solutions at low and high stimulation presynaptic stimuli, here used as reference. ii) A double neurotransmitters neuron expressing the couple DA:5-HT 0.025:0.01mM under low stimulation, i.e. pulsing the gate at the DA oxidation potential (0.3 V). iii) The same neuron under high stimulation, pulsing the gate at the 5-HT oxidation potential (0.4 V).",
+      "caption_summary": [
+        "Artificial synapse",
+        "Neurotransmitters",
+        "Oxidation potential"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS‐Based-Electrochemical\\PEDOT-PSS‐Based-Electrochemical\\PEDOT-PSS‐Based-Electrochemical\\images_folder\\page_6_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS‐Based-Electrochemical\\PEDOT-PSS‐Based-Electrochemical"
+    },
+    {
+      "full_caption": "Figure 3. a) Schematics illustrating the periodic voltage pulses experiment of panels b: i) a periodic voltage pulses input (three square pulses with 3 s duration and 10 s of delay) matching the neurotransmitters oxidation potential is applied to the ENODe gate electrode. ii) The neurotransmitters enters the fluidic chamber (In) at a fixed flow rate, are oxidized at the gate electrode and exit the chamber (Out), while ΔG% and Δ/OD are monitored. b) ΔG% (i) and Δ/OD% (ii), upon the periodic voltage pulses input, recorded from solutions containing different concentrations of DA (pulse amplitude 0.3 V) and 5-HT (pulse amplitude 0.4 V) at different flow rates (from 0.0, 0.5, 1, 1.5, 2 mL min−1).",
+      "caption": "Schematics illustrating the periodic voltage pulses experiment of panels b: i) a periodic voltage pulses input (three square pulses with 3 s duration and 10 s of delay) matching the neurotransmitters oxidation potential is applied to the ENODe gate electrode. ii) The neurotransmitters enters the fluidic chamber (In) at a fixed flow rate, are oxidized at the gate electrode and exit the chamber (Out), while ΔG% and Δ/OD are monitored.",
+      "caption_summary": [
+        "Voltage Pulses",
+        "Oxidation",
+        "Monitoring"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS‐Based-Electrochemical\\PEDOT-PSS‐Based-Electrochemical\\PEDOT-PSS‐Based-Electrochemical\\images_folder\\page_6_img_2_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS‐Based-Electrochemical\\PEDOT-PSS‐Based-Electrochemical"
+    }
+  ]
+}

@@ -1,0 +1,2047 @@
+{
+   "page_1_img_1.png": {
+      "title": "All\u2010Polymer Bulk\u2010Heterojunction Organic Electrochemical Transistors with Balanced Ionic and Electronic Transport",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PBBTL_BBLheterojunction\\PBBTL_BBLheterojunction",
+      "image_url": [],
+      "figure_name": "page_1_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_1_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.12251568585634232,
+            "height": 44,
+            "width": 223,
+            "geometry": [
+               {
+                  "x": 2,
+                  "y": 0
+               },
+               {
+                  "x": 225,
+                  "y": 0
+               },
+               {
+                  "x": 2,
+                  "y": 44
+               },
+               {
+                  "x": 225,
+                  "y": 44
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 2,
+                     "y": 0
+                  },
+                  {
+                     "x": 225,
+                     "y": 0
+                  },
+                  {
+                     "x": 2,
+                     "y": 44
+                  },
+                  {
+                     "x": 225,
+                     "y": 44
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_3_img_1.png": {
+      "title": "All\u2010Polymer Bulk\u2010Heterojunction Organic Electrochemical Transistors with Balanced Ionic and Electronic Transport",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PBBTL_BBLheterojunction\\PBBTL_BBLheterojunction",
+      "image_url": [],
+      "figure_name": "page_3_img_1.png",
+      "full_caption": "Figure 1. Characterization of the new p-type ladder-type polymer. a) Molecular structure of PBBTL, and b) schematic of OECTs device configuration. c) A representative output characteristic for the PBBTL-based OECT (channel width/length = 100/5 \u03bcm, thickness = d = 102 nm) with VG varying from 0 to \u22120.5 V s\u22121, and VD varying from 0 to \u22120.6 V at a step of \u22120.1 V, and d) the associated transfer curve with the corresponding transconductance, at VD = \u22120.3 V with a 1 V s\u22121 sweep rate of 0.05 V s\u22121, operated in 0.1 M NaCl aqueous electrolyte. e) Benchmarking of this new ladder-type conjugated polymer against those reported in the literature on OECTs. f) The drain current response of this PBBTL OECTs under a square gate bias with a pulse width of 50 ms, at VG = \u22120.3 V. g) Electrochemical impedance spectroscopy (EIS) of the PBBTL film operated in 0.1 M NaCl aqueous electrolyte under a constant DC bias of \u22120.8 V. h) Pulse stability of PBBTL OECT operated in 0.1 M NaCl, with VG varying from 0 to \u22120.6 V, at VD = \u22120.3 V.",
+      "figure_path": "output\\figures\\page_3_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9629718065261841,
+            "height": 426,
+            "width": 491,
+            "geometry": [
+               {
+                  "x": 492,
+                  "y": 425
+               },
+               {
+                  "x": 983,
+                  "y": 425
+               },
+               {
+                  "x": 492,
+                  "y": 851
+               },
+               {
+                  "x": 983,
+                  "y": 851
+               }
+            ],
+            "subfigure_label": {
+               "text": "e",
+               "geometry": [
+                  {
+                     "x": 492,
+                     "y": 425
+                  },
+                  {
+                     "x": 983,
+                     "y": 425
+                  },
+                  {
+                     "x": 492,
+                     "y": 851
+                  },
+                  {
+                     "x": 983,
+                     "y": 851
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Benchmarking of this new ladder-type conjugated polymer against those reported in the literature on OECTs.",
+            "keywords": [
+               "Ladder-type polymer",
+               "OECTs",
+               "Benchmarking"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9550779461860657,
+            "height": 420,
+            "width": 478,
+            "geometry": [
+               {
+                  "x": 996,
+                  "y": 422
+               },
+               {
+                  "x": 1474,
+                  "y": 422
+               },
+               {
+                  "x": 996,
+                  "y": 842
+               },
+               {
+                  "x": 1474,
+                  "y": 842
+               }
+            ],
+            "subfigure_label": {
+               "text": "f",
+               "geometry": [
+                  {
+                     "x": 996,
+                     "y": 422
+                  },
+                  {
+                     "x": 1474,
+                     "y": 422
+                  },
+                  {
+                     "x": 996,
+                     "y": 842
+                  },
+                  {
+                     "x": 1474,
+                     "y": 842
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "The drain current response of this PBBTL OECTs under a square gate bias with a pulse width of 50 ms, at VG = \u22120.3 V.",
+            "keywords": [
+               "OECTs",
+               "drain current",
+               "gate bias"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9548314809799194,
+            "height": 406,
+            "width": 492,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 421
+               },
+               {
+                  "x": 492,
+                  "y": 421
+               },
+               {
+                  "x": 0,
+                  "y": 827
+               },
+               {
+                  "x": 492,
+                  "y": 827
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 421
+                  },
+                  {
+                     "x": 492,
+                     "y": 421
+                  },
+                  {
+                     "x": 0,
+                     "y": 827
+                  },
+                  {
+                     "x": 492,
+                     "y": 827
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "schematic of OECTs device configuration.",
+            "keywords": [
+               "OECTs",
+               "device configuration",
+               "schematic"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9518299698829651,
+            "height": 410,
+            "width": 489,
+            "geometry": [
+               {
+                  "x": 480,
+                  "y": 0
+               },
+               {
+                  "x": 969,
+                  "y": 0
+               },
+               {
+                  "x": 480,
+                  "y": 410
+               },
+               {
+                  "x": 969,
+                  "y": 410
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 480,
+                     "y": 0
+                  },
+                  {
+                     "x": 969,
+                     "y": 0
+                  },
+                  {
+                     "x": 480,
+                     "y": 410
+                  },
+                  {
+                     "x": 969,
+                     "y": 410
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "A representative output characteristic for the PBBTL-based OECT (channel width/length = 100/5 \u03bcm, thickness = d = 102 nm) with VG varying from 0 to \u22120.5 V s\u22121, and VD varying from 0 to \u22120.6 V at a step of \u22120.1 V,",
+            "keywords": [
+               "OECT",
+               "output characteristic",
+               "voltage variation"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9473347067832947,
+            "height": 425,
+            "width": 528,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 864
+               },
+               {
+                  "x": 528,
+                  "y": 864
+               },
+               {
+                  "x": 0,
+                  "y": 1289
+               },
+               {
+                  "x": 528,
+                  "y": 1289
+               }
+            ],
+            "subfigure_label": {
+               "text": "g",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 864
+                  },
+                  {
+                     "x": 528,
+                     "y": 864
+                  },
+                  {
+                     "x": 0,
+                     "y": 1289
+                  },
+                  {
+                     "x": 528,
+                     "y": 1289
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Electrochemical impedance spectroscopy (EIS) of the PBBTL film operated in 0.1 M NaCl aqueous electrolyte under a constant DC bias of \u22120.8 V.",
+            "keywords": [
+               "Electrochemical impedance spectroscopy"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9260432124137878,
+            "height": 371,
+            "width": 467,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 1
+               },
+               {
+                  "x": 467,
+                  "y": 1
+               },
+               {
+                  "x": 0,
+                  "y": 372
+               },
+               {
+                  "x": 467,
+                  "y": 372
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 1
+                  },
+                  {
+                     "x": 467,
+                     "y": 1
+                  },
+                  {
+                     "x": 0,
+                     "y": 372
+                  },
+                  {
+                     "x": 467,
+                     "y": 372
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Molecular structure of PBBTL,",
+            "keywords": [
+               "Polymer",
+               "Structure",
+               "Synthesis"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.90079265832901,
+            "height": 421,
+            "width": 535,
+            "geometry": [
+               {
+                  "x": 965,
+                  "y": 0
+               },
+               {
+                  "x": 1500,
+                  "y": 0
+               },
+               {
+                  "x": 965,
+                  "y": 421
+               },
+               {
+                  "x": 1500,
+                  "y": 421
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 965,
+                     "y": 0
+                  },
+                  {
+                     "x": 1500,
+                     "y": 0
+                  },
+                  {
+                     "x": 965,
+                     "y": 421
+                  },
+                  {
+                     "x": 1500,
+                     "y": 421
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "the associated transfer curve with the corresponding transconductance, at VD = \u22120.3 V with a 1 V s\u22121 sweep rate of 0.05 V s\u22121, operated in 0.1 M NaCl aqueous electrolyte.",
+            "keywords": [
+               "Transfer curve",
+               "Transconductance",
+               "Electrolyte"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.3901820778846741,
+            "height": 426,
+            "width": 951,
+            "geometry": [
+               {
+                  "x": 532,
+                  "y": 865
+               },
+               {
+                  "x": 1483,
+                  "y": 865
+               },
+               {
+                  "x": 532,
+                  "y": 1291
+               },
+               {
+                  "x": 1483,
+                  "y": 1291
+               }
+            ],
+            "subfigure_label": {
+               "text": "h",
+               "geometry": [
+                  {
+                     "x": 532,
+                     "y": 865
+                  },
+                  {
+                     "x": 1483,
+                     "y": 865
+                  },
+                  {
+                     "x": 532,
+                     "y": 1291
+                  },
+                  {
+                     "x": 1483,
+                     "y": 1291
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Pulse stability of PBBTL OECT operated in 0.1 M NaCl, with VG varying from 0 to \u22120.6 V, at VD = \u22120.3 V.",
+            "keywords": [
+               "Pulse stability",
+               "PBBTL OECT",
+               "NaCl"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_5_img_1.png": {
+      "title": "All\u2010Polymer Bulk\u2010Heterojunction Organic Electrochemical Transistors with Balanced Ionic and Electronic Transport",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PBBTL_BBLheterojunction\\PBBTL_BBLheterojunction",
+      "image_url": [],
+      "figure_name": "page_5_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_5_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9704065918922424,
+            "height": 461,
+            "width": 536,
+            "geometry": [
+               {
+                  "x": 1502,
+                  "y": 3
+               },
+               {
+                  "x": 2038,
+                  "y": 3
+               },
+               {
+                  "x": 1502,
+                  "y": 464
+               },
+               {
+                  "x": 2038,
+                  "y": 464
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1502,
+                     "y": 3
+                  },
+                  {
+                     "x": 2038,
+                     "y": 3
+                  },
+                  {
+                     "x": 1502,
+                     "y": 464
+                  },
+                  {
+                     "x": 2038,
+                     "y": 464
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.969990074634552,
+            "height": 506,
+            "width": 550,
+            "geometry": [
+               {
+                  "x": 917,
+                  "y": 0
+               },
+               {
+                  "x": 1467,
+                  "y": 0
+               },
+               {
+                  "x": 917,
+                  "y": 506
+               },
+               {
+                  "x": 1467,
+                  "y": 506
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 917,
+                     "y": 0
+                  },
+                  {
+                     "x": 1467,
+                     "y": 0
+                  },
+                  {
+                     "x": 917,
+                     "y": 506
+                  },
+                  {
+                     "x": 1467,
+                     "y": 506
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9624375104904175,
+            "height": 605,
+            "width": 536,
+            "geometry": [
+               {
+                  "x": 566,
+                  "y": 518
+               },
+               {
+                  "x": 1102,
+                  "y": 518
+               },
+               {
+                  "x": 566,
+                  "y": 1123
+               },
+               {
+                  "x": 1102,
+                  "y": 1123
+               }
+            ],
+            "subfigure_label": {
+               "text": "e",
+               "geometry": [
+                  {
+                     "x": 566,
+                     "y": 518
+                  },
+                  {
+                     "x": 1102,
+                     "y": 518
+                  },
+                  {
+                     "x": 566,
+                     "y": 1123
+                  },
+                  {
+                     "x": 1102,
+                     "y": 1123
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9570881724357605,
+            "height": 472,
+            "width": 901,
+            "geometry": [
+               {
+                  "x": 1,
+                  "y": 2
+               },
+               {
+                  "x": 902,
+                  "y": 2
+               },
+               {
+                  "x": 1,
+                  "y": 474
+               },
+               {
+                  "x": 902,
+                  "y": 474
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 2
+                  },
+                  {
+                     "x": 902,
+                     "y": 2
+                  },
+                  {
+                     "x": 1,
+                     "y": 474
+                  },
+                  {
+                     "x": 902,
+                     "y": 474
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9525061249732971,
+            "height": 606,
+            "width": 942,
+            "geometry": [
+               {
+                  "x": 1108,
+                  "y": 517
+               },
+               {
+                  "x": 2050,
+                  "y": 517
+               },
+               {
+                  "x": 1108,
+                  "y": 1123
+               },
+               {
+                  "x": 2050,
+                  "y": 1123
+               }
+            ],
+            "subfigure_label": {
+               "text": "f",
+               "geometry": [
+                  {
+                     "x": 1108,
+                     "y": 517
+                  },
+                  {
+                     "x": 2050,
+                     "y": 517
+                  },
+                  {
+                     "x": 1108,
+                     "y": 1123
+                  },
+                  {
+                     "x": 2050,
+                     "y": 1123
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.94049471616745,
+            "height": 607,
+            "width": 548,
+            "geometry": [
+               {
+                  "x": 1,
+                  "y": 513
+               },
+               {
+                  "x": 549,
+                  "y": 513
+               },
+               {
+                  "x": 1,
+                  "y": 1120
+               },
+               {
+                  "x": 549,
+                  "y": 1120
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 513
+                  },
+                  {
+                     "x": 549,
+                     "y": 513
+                  },
+                  {
+                     "x": 1,
+                     "y": 1120
+                  },
+                  {
+                     "x": 549,
+                     "y": 1120
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_6_img_1.png": {
+      "title": "All\u2010Polymer Bulk\u2010Heterojunction Organic Electrochemical Transistors with Balanced Ionic and Electronic Transport",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PBBTL_BBLheterojunction\\PBBTL_BBLheterojunction",
+      "image_url": [],
+      "figure_name": "page_6_img_1.png",
+      "full_caption": "Figure 3. Bulk-heterojunction OECTs. a) The output transfer curves and b) the associated transconductance of the BHJ OECTs (PBBT:BBL = 3:1), operated in 0.1 M aqueous NaCl electrolyte, with a channel width/length = 100 \u03bcm/5 \u03bcm, thickness d = 102 nm. Note that the source electrode is grounded for all the measurements. c) The \u03bcC* value and peak gm value at different BBL content. d) Drain-current transient response of this BHJ OECT, with VG varying from 0 to |0.6| V and VD = |0.3| V. e) Pulse stability of the BHJ OECT. f,g) In situ spectroelectrochemistry measurements of PBBT:BBL (3:1) composite film under a progressive increment of the bias from 0 to 0.8 V at a step of 0.1 V (f) and from 0 to \u22120.6 V at a step of \u22120.1 V (g), operated in 0.1 M NaCl aqueous electrolyte. h) HAADF-STEM images reveal the internal structures of pristine PBBT, hybrid PBBT:BBL, and pristine BBL films.",
+      "figure_path": "output\\figures\\page_6_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9764278531074524,
+            "height": 480,
+            "width": 515,
+            "geometry": [
+               {
+                  "x": 2,
+                  "y": 486
+               },
+               {
+                  "x": 517,
+                  "y": 486
+               },
+               {
+                  "x": 2,
+                  "y": 966
+               },
+               {
+                  "x": 517,
+                  "y": 966
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 2,
+                     "y": 486
+                  },
+                  {
+                     "x": 517,
+                     "y": 486
+                  },
+                  {
+                     "x": 2,
+                     "y": 966
+                  },
+                  {
+                     "x": 517,
+                     "y": 966
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "The \u03bcC* value and peak gm value at different BBL content.",
+            "keywords": [
+               "\u03bcC*",
+               "peak gm",
+               "BBL content"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9701850414276123,
+            "height": 488,
+            "width": 457,
+            "geometry": [
+               {
+                  "x": 509,
+                  "y": 482
+               },
+               {
+                  "x": 966,
+                  "y": 482
+               },
+               {
+                  "x": 509,
+                  "y": 970
+               },
+               {
+                  "x": 966,
+                  "y": 970
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 509,
+                     "y": 482
+                  },
+                  {
+                     "x": 966,
+                     "y": 482
+                  },
+                  {
+                     "x": 509,
+                     "y": 970
+                  },
+                  {
+                     "x": 966,
+                     "y": 970
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Drain-current transient response of this BHJ OECT, with VG varying from 0 to |0.6| V and VD = |0.3| V.",
+            "keywords": [
+               "BHJ OECT",
+               "drain-current",
+               "transient response"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.967641294002533,
+            "height": 466,
+            "width": 472,
+            "geometry": [
+               {
+                  "x": 2,
+                  "y": 8
+               },
+               {
+                  "x": 474,
+                  "y": 8
+               },
+               {
+                  "x": 2,
+                  "y": 474
+               },
+               {
+                  "x": 474,
+                  "y": 474
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 2,
+                     "y": 8
+                  },
+                  {
+                     "x": 474,
+                     "y": 8
+                  },
+                  {
+                     "x": 2,
+                     "y": 474
+                  },
+                  {
+                     "x": 474,
+                     "y": 474
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "The output transfer curves of the BHJ OECTs (PBBT:BBL = 3:1), operated in 0.1 M aqueous NaCl electrolyte, with a channel width/length = 100 \u03bcm/5 \u03bcm, thickness d = 102 nm. Note that the source electrode is grounded for all the measurements.",
+            "keywords": [
+               "OECTs",
+               "NaCl",
+               "BHJ"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.966379702091217,
+            "height": 469,
+            "width": 476,
+            "geometry": [
+               {
+                  "x": 3,
+                  "y": 977
+               },
+               {
+                  "x": 479,
+                  "y": 977
+               },
+               {
+                  "x": 3,
+                  "y": 1446
+               },
+               {
+                  "x": 479,
+                  "y": 1446
+               }
+            ],
+            "subfigure_label": {
+               "text": "f",
+               "geometry": [
+                  {
+                     "x": 3,
+                     "y": 977
+                  },
+                  {
+                     "x": 479,
+                     "y": 977
+                  },
+                  {
+                     "x": 3,
+                     "y": 1446
+                  },
+                  {
+                     "x": 479,
+                     "y": 1446
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "In situ spectroelectrochemistry measurements of PBBT:BBL (3:1) composite film under a progressive increment of the bias from 0 to 0.8 V at a step of 0.1 V, operated in 0.1 M NaCl aqueous electrolyte.",
+            "keywords": [
+               "Spectroelectrochemistry",
+               "Composite",
+               "Electrolyte"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9266287684440613,
+            "height": 478,
+            "width": 1079,
+            "geometry": [
+               {
+                  "x": 967,
+                  "y": 486
+               },
+               {
+                  "x": 2046,
+                  "y": 486
+               },
+               {
+                  "x": 967,
+                  "y": 964
+               },
+               {
+                  "x": 2046,
+                  "y": 964
+               }
+            ],
+            "subfigure_label": {
+               "text": "e",
+               "geometry": [
+                  {
+                     "x": 967,
+                     "y": 486
+                  },
+                  {
+                     "x": 2046,
+                     "y": 486
+                  },
+                  {
+                     "x": 967,
+                     "y": 964
+                  },
+                  {
+                     "x": 2046,
+                     "y": 964
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Pulse stability of the BHJ OECT.",
+            "keywords": [
+               "BHJ OECT",
+               "stability",
+               "pulse"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.8614400029182434,
+            "height": 515,
+            "width": 1036,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 1464
+               },
+               {
+                  "x": 1036,
+                  "y": 1464
+               },
+               {
+                  "x": 0,
+                  "y": 1979
+               },
+               {
+                  "x": 1036,
+                  "y": 1979
+               }
+            ],
+            "subfigure_label": {
+               "text": "h",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 1464
+                  },
+                  {
+                     "x": 1036,
+                     "y": 1464
+                  },
+                  {
+                     "x": 0,
+                     "y": 1979
+                  },
+                  {
+                     "x": 1036,
+                     "y": 1979
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 350,
+                           "y": 1856
+                        },
+                        {
+                           "x": 350,
+                           "y": 1898
+                        },
+                        {
+                           "x": 513,
+                           "y": 1898
+                        },
+                        {
+                           "x": 513,
+                           "y": 1856
+                        }
+                     ],
+                     "text": "100.0 nm",
+                     "label_confidence": 0.8519943952560425,
+                     "box_confidence": 0.9923377633094788,
+                     "nm": 100.0
+                  },
+                  "geometry": [
+                     {
+                        "x": 378,
+                        "y": 1920
+                     },
+                     {
+                        "x": 378,
+                        "y": 1934
+                     },
+                     {
+                        "x": 491,
+                        "y": 1934
+                     },
+                     {
+                        "x": 491,
+                        "y": 1920
+                     }
+                  ],
+                  "confidence": 0.9853578805923462,
+                  "length": 112,
+                  "label_line_distance": 2509.0
+               },
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 857,
+                           "y": 1852
+                        },
+                        {
+                           "x": 857,
+                           "y": 1898
+                        },
+                        {
+                           "x": 1021,
+                           "y": 1898
+                        },
+                        {
+                           "x": 1021,
+                           "y": 1852
+                        }
+                     ],
+                     "text": "100.0 nm",
+                     "label_confidence": 0.9337720274925232,
+                     "box_confidence": 0.9899566769599915,
+                     "nm": 100.0
+                  },
+                  "geometry": [
+                     {
+                        "x": 885,
+                        "y": 1919
+                     },
+                     {
+                        "x": 885,
+                        "y": 1934
+                     },
+                     {
+                        "x": 997,
+                        "y": 1934
+                     },
+                     {
+                        "x": 997,
+                        "y": 1919
+                     }
+                  ],
+                  "confidence": 0.9804123640060425,
+                  "length": 111,
+                  "label_line_distance": 2656.25
+               }
+            ],
+            "nm_height": 463.9,
+            "nm_width": 933.3,
+            "scale_label": "100.0 nm",
+            "caption": "HAADF-STEM images reveal the internal structures of pristine PBBT, hybrid PBBT:BBL, and pristine BBL films.",
+            "keywords": [
+               "HAADF-STEM",
+               "PBBT",
+               "BBL"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.8547281622886658,
+            "height": 486,
+            "width": 1085,
+            "geometry": [
+               {
+                  "x": 964,
+                  "y": 0
+               },
+               {
+                  "x": 2049,
+                  "y": 0
+               },
+               {
+                  "x": 964,
+                  "y": 486
+               },
+               {
+                  "x": 2049,
+                  "y": 486
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 964,
+                     "y": 0
+                  },
+                  {
+                     "x": 2049,
+                     "y": 0
+                  },
+                  {
+                     "x": 964,
+                     "y": 486
+                  },
+                  {
+                     "x": 2049,
+                     "y": 486
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "The associated transconductance of the BHJ OECTs (PBBT:BBL = 3:1), operated in 0.1 M aqueous NaCl electrolyte, with a channel width/length = 100 \u03bcm/5 \u03bcm, thickness d = 102 nm. Note that the source electrode is grounded for all the measurements.",
+            "keywords": [
+               "Transconductance",
+               "BHJ OECTs",
+               "NaCl electrolyte"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.7548435926437378,
+            "height": 467,
+            "width": 478,
+            "geometry": [
+               {
+                  "x": 1039,
+                  "y": 978
+               },
+               {
+                  "x": 1517,
+                  "y": 978
+               },
+               {
+                  "x": 1039,
+                  "y": 1445
+               },
+               {
+                  "x": 1517,
+                  "y": 1445
+               }
+            ],
+            "subfigure_label": {
+               "text": "g",
+               "geometry": [
+                  {
+                     "x": 1039,
+                     "y": 978
+                  },
+                  {
+                     "x": 1517,
+                     "y": 978
+                  },
+                  {
+                     "x": 1039,
+                     "y": 1445
+                  },
+                  {
+                     "x": 1517,
+                     "y": 1445
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "In situ spectroelectrochemistry measurements of PBBT:BBL (3:1) composite film under a progressive increment of the bias from 0 to \u22120.6 V at a step of \u22120.1 V, operated in 0.1 M NaCl aqueous electrolyte.",
+            "keywords": [
+               "Spectroelectrochemistry",
+               "Composite Film",
+               "Electrolyte"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": [
+            {
+               "label": {
+                  "geometry": [
+                     {
+                        "x": 1855,
+                        "y": 1851
+                     },
+                     {
+                        "x": 1855,
+                        "y": 1897
+                     },
+                     {
+                        "x": 2016,
+                        "y": 1897
+                     },
+                     {
+                        "x": 2016,
+                        "y": 1851
+                     }
+                  ],
+                  "text": "100.0 nm",
+                  "label_confidence": 0.9020234942436218,
+                  "box_confidence": 0.9923630952835083,
+                  "nm": 100.0
+               },
+               "geometry": [
+                  {
+                     "x": 1893,
+                     "y": 1919
+                  },
+                  {
+                     "x": 1893,
+                     "y": 1934
+                  },
+                  {
+                     "x": 2003,
+                     "y": 1934
+                  },
+                  {
+                     "x": 2003,
+                     "y": 1919
+                  }
+               ],
+               "confidence": 0.981151282787323,
+               "length": 110,
+               "label_line_distance": 2912.5
+            },
+            {
+               "label": {
+                  "geometry": [
+                     {
+                        "x": 1356,
+                        "y": 1847
+                     },
+                     {
+                        "x": 1356,
+                        "y": 1895
+                     },
+                     {
+                        "x": 1517,
+                        "y": 1895
+                     },
+                     {
+                        "x": 1517,
+                        "y": 1847
+                     }
+                  ],
+                  "text": "100.0 mm",
+                  "label_confidence": 0.045261964201927185,
+                  "box_confidence": 0.9868353605270386,
+                  "nm": 100000000.0
+               },
+               "geometry": [
+                  {
+                     "x": 1386,
+                     "y": 1920
+                  },
+                  {
+                     "x": 1386,
+                     "y": 1936
+                  },
+                  {
+                     "x": 1503,
+                     "y": 1936
+                  },
+                  {
+                     "x": 1503,
+                     "y": 1920
+                  }
+               ],
+               "confidence": 0.9674069285392761,
+               "length": 116,
+               "label_line_distance": 3313.0
+            }
+         ]
+      },
+      "caption_delimiter": 0
+   },
+   "page_8_img_1.png": {
+      "title": "All\u2010Polymer Bulk\u2010Heterojunction Organic Electrochemical Transistors with Balanced Ionic and Electronic Transport",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PBBTL_BBLheterojunction\\PBBTL_BBLheterojunction",
+      "image_url": [],
+      "figure_name": "page_8_img_1.png",
+      "full_caption": "Figure 5. EOG signals monitored by BHJ complementary circuits. a) The operational principle of the hybrid circuit in EOG signals monitoring during left-right eye movement, and b) the associated EOG signals obtained using the BHJ OECTs complementary inverter. c) Up-down eye movements, and d) the associated EOG signals obtained using the BHJ OECT complementary inverter.",
+      "figure_path": "output\\figures\\page_8_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9529812335968018,
+            "height": 377,
+            "width": 745,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 356
+               },
+               {
+                  "x": 745,
+                  "y": 356
+               },
+               {
+                  "x": 0,
+                  "y": 733
+               },
+               {
+                  "x": 745,
+                  "y": 733
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 356
+                  },
+                  {
+                     "x": 745,
+                     "y": 356
+                  },
+                  {
+                     "x": 0,
+                     "y": 733
+                  },
+                  {
+                     "x": 745,
+                     "y": 733
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Up-down eye movements",
+            "keywords": [
+               "Eye movements"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9366468191146851,
+            "height": 350,
+            "width": 759,
+            "geometry": [
+               {
+                  "x": 740,
+                  "y": 381
+               },
+               {
+                  "x": 1499,
+                  "y": 381
+               },
+               {
+                  "x": 740,
+                  "y": 731
+               },
+               {
+                  "x": 1499,
+                  "y": 731
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 740,
+                     "y": 381
+                  },
+                  {
+                     "x": 1499,
+                     "y": 381
+                  },
+                  {
+                     "x": 740,
+                     "y": 731
+                  },
+                  {
+                     "x": 1499,
+                     "y": 731
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "The associated EOG signals obtained using the BHJ OECT complementary inverter",
+            "keywords": [
+               "EOG signals",
+               "BHJ OECT",
+               "complementary inverter"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.903476357460022,
+            "height": 352,
+            "width": 753,
+            "geometry": [
+               {
+                  "x": 746,
+                  "y": 0
+               },
+               {
+                  "x": 1499,
+                  "y": 0
+               },
+               {
+                  "x": 746,
+                  "y": 352
+               },
+               {
+                  "x": 1499,
+                  "y": 352
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 746,
+                     "y": 0
+                  },
+                  {
+                     "x": 1499,
+                     "y": 0
+                  },
+                  {
+                     "x": 746,
+                     "y": 352
+                  },
+                  {
+                     "x": 1499,
+                     "y": 352
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "The associated EOG signals obtained using the BHJ OECTs complementary inverter",
+            "keywords": [
+               "EOG signals",
+               "BHJ OECTs",
+               "complementary inverter"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.8988721370697021,
+            "height": 318,
+            "width": 747,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 3
+               },
+               {
+                  "x": 747,
+                  "y": 3
+               },
+               {
+                  "x": 0,
+                  "y": 321
+               },
+               {
+                  "x": 747,
+                  "y": 321
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 3
+                  },
+                  {
+                     "x": 747,
+                     "y": 3
+                  },
+                  {
+                     "x": 0,
+                     "y": 321
+                  },
+                  {
+                     "x": 747,
+                     "y": 321
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "The operational principle of the hybrid circuit in EOG signals monitoring during left-right eye movement",
+            "keywords": [
+               "Hybrid Circuit",
+               "EOG Monitoring",
+               "Eye Movement"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_8_img_2.png": {
+      "title": "All\u2010Polymer Bulk\u2010Heterojunction Organic Electrochemical Transistors with Balanced Ionic and Electronic Transport",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PBBTL_BBLheterojunction\\PBBTL_BBLheterojunction",
+      "image_url": [],
+      "figure_name": "page_8_img_2.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_8_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.979778528213501,
+            "height": 504,
+            "width": 515,
+            "geometry": [
+               {
+                  "x": 985,
+                  "y": 1
+               },
+               {
+                  "x": 1500,
+                  "y": 1
+               },
+               {
+                  "x": 985,
+                  "y": 505
+               },
+               {
+                  "x": 1500,
+                  "y": 505
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 985,
+                     "y": 1
+                  },
+                  {
+                     "x": 1500,
+                     "y": 1
+                  },
+                  {
+                     "x": 985,
+                     "y": 505
+                  },
+                  {
+                     "x": 1500,
+                     "y": 505
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9733179807662964,
+            "height": 494,
+            "width": 498,
+            "geometry": [
+               {
+                  "x": 477,
+                  "y": 489
+               },
+               {
+                  "x": 975,
+                  "y": 489
+               },
+               {
+                  "x": 477,
+                  "y": 983
+               },
+               {
+                  "x": 975,
+                  "y": 983
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 477,
+                     "y": 489
+                  },
+                  {
+                     "x": 975,
+                     "y": 489
+                  },
+                  {
+                     "x": 477,
+                     "y": 983
+                  },
+                  {
+                     "x": 975,
+                     "y": 983
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9689356684684753,
+            "height": 522,
+            "width": 681,
+            "geometry": [
+               {
+                  "x": 3,
+                  "y": 988
+               },
+               {
+                  "x": 684,
+                  "y": 988
+               },
+               {
+                  "x": 3,
+                  "y": 1510
+               },
+               {
+                  "x": 684,
+                  "y": 1510
+               }
+            ],
+            "subfigure_label": {
+               "text": "f",
+               "geometry": [
+                  {
+                     "x": 3,
+                     "y": 988
+                  },
+                  {
+                     "x": 684,
+                     "y": 988
+                  },
+                  {
+                     "x": 3,
+                     "y": 1510
+                  },
+                  {
+                     "x": 684,
+                     "y": 1510
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9672911167144775,
+            "height": 543,
+            "width": 807,
+            "geometry": [
+               {
+                  "x": 693,
+                  "y": 993
+               },
+               {
+                  "x": 1500,
+                  "y": 993
+               },
+               {
+                  "x": 693,
+                  "y": 1536
+               },
+               {
+                  "x": 1500,
+                  "y": 1536
+               }
+            ],
+            "subfigure_label": {
+               "text": "g",
+               "geometry": [
+                  {
+                     "x": 693,
+                     "y": 993
+                  },
+                  {
+                     "x": 1500,
+                     "y": 993
+                  },
+                  {
+                     "x": 693,
+                     "y": 1536
+                  },
+                  {
+                     "x": 1500,
+                     "y": 1536
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9659520983695984,
+            "height": 491,
+            "width": 501,
+            "geometry": [
+               {
+                  "x": 475,
+                  "y": 0
+               },
+               {
+                  "x": 976,
+                  "y": 0
+               },
+               {
+                  "x": 475,
+                  "y": 491
+               },
+               {
+                  "x": 976,
+                  "y": 491
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 475,
+                     "y": 0
+                  },
+                  {
+                     "x": 976,
+                     "y": 0
+                  },
+                  {
+                     "x": 475,
+                     "y": 491
+                  },
+                  {
+                     "x": 976,
+                     "y": 491
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.7412161231040955,
+            "height": 929,
+            "width": 445,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 3
+               },
+               {
+                  "x": 445,
+                  "y": 3
+               },
+               {
+                  "x": 0,
+                  "y": 932
+               },
+               {
+                  "x": 445,
+                  "y": 932
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 3
+                  },
+                  {
+                     "x": 445,
+                     "y": 3
+                  },
+                  {
+                     "x": 0,
+                     "y": 932
+                  },
+                  {
+                     "x": 445,
+                     "y": 932
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.4277193546295166,
+            "height": 494,
+            "width": 514,
+            "geometry": [
+               {
+                  "x": 985,
+                  "y": 499
+               },
+               {
+                  "x": 1499,
+                  "y": 499
+               },
+               {
+                  "x": 985,
+                  "y": 993
+               },
+               {
+                  "x": 1499,
+                  "y": 993
+               }
+            ],
+            "subfigure_label": {
+               "text": "e",
+               "geometry": [
+                  {
+                     "x": 985,
+                     "y": 499
+                  },
+                  {
+                     "x": 1499,
+                     "y": 499
+                  },
+                  {
+                     "x": 985,
+                     "y": 993
+                  },
+                  {
+                     "x": 1499,
+                     "y": 993
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   }
+}

@@ -1,0 +1,911 @@
+Published as a conference paper at ICLR 2025
+OPERATING ROBOTIC LABORATORIES WITH LARGE
+LANGUAGE MODELS AND TEACHABLE AGENTS
+Aikaterini Vriza*
+Argonne National Laboratory
+avriza@anl.gov
+Michael H Prince
+Argonne National Laboratory
+mprince@anl.gov
+Henry Chan*
+Argonne National Laboratory
+hchan@anl.gov
+Tao Zhou
+Argonne National Laboratory
+tzhou@anl.gov
+Matthew J Cherukara*
+Argonne National Laboratory
+mcherukara@anl.gov
+ABSTRACT
+Advanced scientific user facilities, including self-driving laboratories, are revo-
+lutionizing scientific discovery by automating repetitive tasks and enabling rapid
+experimentation. However, these facilities must continuously evolve to support
+new experimental workflows, adapt to diverse user projects, and meet growing de-
+mands for evermore sophisticated instrumentation. This continuous development
+introduces significant operational complexity, necessitating a focus on usability,
+reproducibility, and intuitive human-instrument interaction. In this work, we ex-
+plore the integration of agentic AI, powered by Large Language Models (LLMs),
+as a transformative tool to achieve this goal. We present our approach to devel-
+oping a pipeline for operating a robotic station dedicated to the design of novel
+materials. Specifically, we evaluate the potential of various LLMs as trainable
+scientific assistants for orchestrating complex, multi-task workflows, optimizing
+their performance through human input and iterative learning. We demonstrate
+the ability of AI agents to bridge the gap between advanced automation and user-
+friendly operation, paving the way for more adaptable and intelligent scientific
+facilities.
+1
+INTRODUCTION
+The design, synthesis, characterization, and testing of materials often involve a multi-step sequence
+of complex actions. Although self-driving laboratories have made significant progress in automating
+experimental procedures, achieving true autonomy in scientific discovery involving tasks such as ex-
+perimental workflow design, data analysis, execution planning, and decision making remains an ac-
+tive challenge that will likely continue to require human feedback and expert knowledge (Hung et al.
+(2024)). The emergence of Large Language Models (LLMs) (OpenAI (2024), Editorial (2023),Luo
+et al. (2024)), has created new opportunities for human-AI collaboration in scientific facilities, en-
+abling safer and more efficient laboratory operations. While significant progress has been made in
+adapting LLMs for various scientific applications (Prince et al. (2024), Van Herck et al. (2025)),
+substantial challenges remain in deploying them as effective agents for real-world laboratory exper-
+imentation in operating within science laboratories and user facilities (Mathur et al. (2024)).
+Tasks that human scientists perform intuitively, such as manipulating laboratory equipment, present
+significant challenges to autonomous systems. For example, picking up and moving a vial requires
+precise coordination of multiple components like grippers and vial holders, along with accurate
+spatial awareness. Traditional robotic systems rely on predefined functions for these operations,
+limiting their flexibility and ability to adapt to different experimental environments. Moreover,
+while existing LLM agents can utilize predefined functions as tools, they often lack the capability to
+incorporate user feedback and autonomously design experimental processes.
+In this work, we develop and evaluate an agentic system for managing sequential laboratory opera-
+tions, where task order is crucial for experimental success. The system handles increasingly complex
+tasks initiated by human researchers. An important aspect of this study is the ability of the system
+1
+
+---
+Published as a conference paper at ICLR 2025
+to learn from laboratory users through in-context learning during conversations. This teachability
+component stores human-AI interactions in a vector database as long-term memory, retrieving rele-
+vant information as needed rather than loading all memories into the context window. This approach
+enables the agent to retain and apply user-taught skills across multiple sessions. We evaluated the
+agent’s ability to learn from human scientists and their potential for self-improvement.
+2
+RELATED WORK
+Significant progress has been made in the deployment of LLMs in scientific research, from decision-
+making and literature screening to the execution of experimental protocols (Ruan et al. (2024),
+Birhane et al. (2023), White et al. (2023)). Research teams have successfully expanded LLM capa-
+bilities by integrating them with diverse sets of tools (Boiko et al. (2023), Bran et al. (2024)).
+The field is now advancing toward collaborative multi-agent systems that enhance the capabili-
+ties of LLMs through iterative feedback, role specialization, and coordinated teamwork (Ansari
+et al. (2024), Ma (2025)). These systems draw inspiration from human scientific discovery pro-
+cesses and are designed to complement human creativity and expertise with AI’s ability to analyze
+vast datasets, navigate hypothesis spaces and execute repetitive tasks. The adoption of pre-built
+frameworks such as LangGraph (langchain ai), Autogen (Wu et al. (2024))and Swarm (OpenAI)has
+significantly streamlined the integration of LLMs with scientific workflows, enabling efficient co-
+ordination between LLM agents and external tools (Yin et al. (2024)). AI agents can impact areas
+across various scientific disciplines. In biology, for instance, biomedical AI agents are being ap-
+plied to areas such as virtual cell simulation, programmable control of phenotypes, cellular circuit
+design, and the development of novel therapies Gao et al. (2024). In materials science, platforms
+like AtomAgents, are being developed as agentic systems for knowledge retrieval, multi-modal data
+integration, physics-based simulations, and comprehensive results analysis (Ghafarollahi & Buehler
+(2024)).
+3
+METHODS
+The core of our agentic pipeline is the Autogen (AG2) framework (Wu et al. (2024)), which serves
+as the backbone for orchestrating an autonomous experiment to create a polymer thin film (See Ap-
+pendix A.1). The robotic environment consists of an N9 robot from North Robotics equipped with
+finger and vacuum grippers to transfer material samples across the modules. The pipeline leverages
+autogen’s built-in capabilities, such as linter tool for code checking and the executor platform for
+running the generated code. The specialized agents are presented in detail in Table 1. AI agents have
+access to the N9 robot’s operation commands, station layout, and task descriptions (See Appendix
+A.2). Given a task, the agents can write, review, and execute the code as Python scripts and request
+human input and approval before execution to the robotic station. To further enhance functional-
+ity and reliability, we integrated a teachability component (See Appendix A.3). In this approach,
+agent capabilities are updated by appending new instruction to the system message, integrating stor-
+age and retrieval functionalities, and interacting with a background agent that decides whether the
+human provided information is important and should be stored. In that way, any new interaction
+with the human researcher that provides significant guidelines for the execution of the experimental
+protocol is stored as an input-output pair in a local vector database (See Figure 5). This process en-
+ables the agents to recall and apply previously learnt information when facing similar tasks, thereby
+supporting long-term learning and adaptability.
+We evaluated the ability of our agentic system to plan polymer thin film design experiments by using
+robotic operation functions and writing the code for the N9 robot (Figure 1). They are then provided
+with tasks of increasing complexity, ranging from simple operations such as moving a vial to more
+advanced tasks such as activating a vacuum system or extracting optimal experimental parameters
+from the literature to guide robotic operations. Given these tasks, the pipeline decided on which
+agents should participate, generates, and validates operational code (See Appendix A.4). Before
+execution, it requires human approval to ensure safety.
+2
+
+---
+Published as a conference paper at ICLR 2025
+Figure 1: Configuration of the robotic environment of a self-driving laboratory, including the main
+equipment components used and the system files that are provided as context to the agentic pipeline.
+The agentic pipeline is integrated external tools and memory.The table summarizes the evaluation
+tasks including their complexity and number of required steps.
+Table 1: Available agents and their operating capabilities
+Agent
+Agentic Tasks
+Code writer
+Write the code provided the relevant system files
+Code critic
+Check the code written from the code writer and provides feedback.
+Administrator
+Interacts with the other agents. Executes the code in the robotic working
+environment and interacts with the human for feedback.
+Paper scraper
+Scrapes research articles for relevant information extraction.
+Manager
+Distributed the tasks among the agents and organises the feedback .
+Teachability
+Memory retrieval of previously saved interactions between human and
+agents.
+4
+RESULTS
+We evaluated the performance of representative LLM assistants, including GPT-3.5, GPT-4o and
+Claude 3.5 Sonnet, on three autonomous sequential tasks of increased complexity (See Appendix
+A.5). The evaluation metrics are categorized as follows: i) Code quality check: verifying that the
+agent performs code quality analysis for potential errors, stylistic inconsistencies, and best-practice
+violation. ii) Code correctness: evaluating the functionality of the generated code and checking
+whether the sequential steps are performed in the correct order. iii) Code execution: evaluating the
+functional correctness of the code, basically measuring in how many steps it will stop working in the
+real robotic environment, iv) Code repeatability: evaluating whether the same code is generating
+after running the same prompt task for five times. v) Code reproducibility: evaluating whether the
+generated code is the same after modifying the task prompts whilst keeping the main task the same.
+The results are demonstrated in Table 2.
+The results in Table 3 show a significant improvement in the more complex tasks in all models when
+using previous interactions with humans as memory.
+3
+
+---
+Published as a conference paper at ICLR 2025
+Table 2: Evaluation results across different models and tasks without receiving human feedback.
+GPT-4o-mini
+GPT-4o
+Claude 3.5 Sonnet
+Task1
+Task2
+Task3
+Task1
+Task2
+Task3
+Task1
+Task2
+Task3
+Code quality check
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Code correctness (%)
+87.5
+70
+44
+100
+90
+48
+75
+60
+64
+Code execution (%)
+75
+50
+24
+100
+70
+39
+50
+60
+32
+Code repeatability
+100
+100
+90
+100
+100
+100
+100
+90
+25
+Reproducibility
+100
+100
+60
+100
+90
+75
+90
+80
+25
+Table 3: Evaluation results across different models and tasks after receiving human feedback as
+memory
+GPT-4o-mini
+GPT-4o
+Claude 3.5 Sonnet
+Task1
+Task2
+Task3
+Task1
+Task2
+Task3
+Task1
+Task2
+Task3
+Code quality check
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Code correctness (%)
+100
+100
+84
+100
+100
+100
+100
+100
+100
+Code execution (%)
+100
+100
+84
+100
+100
+100
+100
+100
+100
+Code repeatability
+100
+90
+90
+100
+100
+100
+100
+100
+100
+Reproducibility
+100
+90
+80
+100
+100
+100
+100
+100
+100
+5
+DISCUSSION
+In this work, we explored the capabilities and reliability of LLM-based scientific agents in operating
+a robotic platform for materials design. By integrating multiple LLMs into an autonomous multi-
+agent system, we evaluated their performance in a real-world robotic environment developed for
+creating polymer thin films. In addition, we further investigated the impact of incorporating user
+guidelines into the system to enhance its ability to handle complex design and operational tasks.
+A key focus of this study was the advantage provided by trainable agents in the operation of complex
+scientific workflows. Our results indicate that the agentic system is capable of learning from user
+interactions with the platform, refining its understanding of the processes over time, and generating
+reliable code for robotic operations. This adaptability highlights the potential of trainable agents
+to improve the autonomy of self-driving laboratories, where human-in-the-loop interactions play a
+critical role in guiding and refining AI-driven workflows. While our teachable agent framework
+reduces the need for continual human intervention by storing and reusing past instructions, com-
+plete automation in real-world laboratory and user facility settings requires further safeguards. In
+particular, instrument drift and other hardware variances necessitate regular calibration to maintain
+reliability over long experimental cycles. Likewise, reconfigurable workflows may introduce new
+instruments or procedures that must first be “taught” before running autonomously. Despite these
+challenges, once the core pipeline has been aligned with the lab environment and a sufficient body of
+memorized instructions has been built up, the agent can execute many tasks with minimal oversight.
+However, especially in user facilities where safety and accuracy are paramount, final checks by a
+human expert before running any critical protocol remain advisable.
+In our experiments, agents such as GPT-4o and Claude3.5-Sonnet were relatively easy to teach,
+whereas GTP-4-mini required more iterative feedback to achieve an equivalent level of understand-
+ing.
+Automation of protocols in an autonomous laboratory requires advanced models that can manage
+the sequential nature of tasks, perform quality checks, and provide real-time feedback to users. As
+multi-agent paradigms continue to evolve, they are expected to drive significant advancements in
+autonomous research, adaptive experimentation, and AI-guided discovery. Our results indicate that
+agentic systems can serve as a valuable resource for building self-driving laboratories with enhanced
+autonomy, capable of learning from human expertise and improving over time.
+4
+
+---
+Published as a conference paper at ICLR 2025
+Figure 2: Schematic of the agentic pipeline to operate a highly complex set of robotic action given
+a user prompt. The system had to first read a scientific paper and identify the conditions that lead
+to a good quality film. The initial code was corrected with human feedback so that the agents will
+understand the correct sequence of steps to create the polymer film, which include: 1) Use the
+vacuum gripper to pick up an available substrate from the substrate rack, 2) Place the substrate to
+the blade coating station and release the vacuum gripper, 3) Pick up the polymer from the vials rack
+and move it to the clamp, 4) Uncapping the clamp and aspirate the polymer with the pipette, 5)
+dropcast the polymer to the substrate and blade coat it.
+6
+ACKNOWLEDGMENTS
+Work was performed at the Center for Nanoscale Materials and Advanced Photon Source, both U.S.
+Department of Energy Office of Science User Facilities, supported by the U.S. DOE, Office of Basic
+Energy Sciences, under Contract No. DE-AC02-06CH11357.
+7
+DATA AND CODE AVAILABILITY
+All data, code and agentic pipeline used to produce results in this study are publicly available in the
+following GitHub repository: https://github.com/katerinavr/SDL-Agents.
+REFERENCES
+Mehrad Ansari, Jeffrey Watchorn, Carla E. Brown, and Joseph S. Brown. dziner: Rational inverse
+design of materials with ai agents, 2024. URL https://arxiv.org/abs/2410.03963.
+arXiv preprint.
+Abeba Birhane, Atoosa Kasirzadeh, David Leslie, and Sandra Wachter.
+Science in the age
+of large language models.
+Nature Reviews Physics, 5(5):277–280, May 2023.
+ISSN
+2522-5820.
+doi:
+10.1038/s42254-023-00581-4.
+URL https://doi.org/10.1038/
+s42254-023-00581-4.
+Daniil A. Boiko, Robert MacKnight, Ben Kline, and Gabe Gomes. Autonomous chemical research
+with large language models. Nature, 624(7992):570–578, December 2023.
+5
+
+---
+Published as a conference paper at ICLR 2025
+M. Bran, A. Cox, S. Schilter, et al. Augmenting large language models with chemistry tools. Nature
+Machine Intelligence, 6:525–535, 2024. doi: 10.1038/s42256-024-00832-8. URL https://
+doi.org/10.1038/s42256-024-00832-8.
+Editorial.
+Prepare for truly useful large language models.
+Nature Biomedical Engineering, 7:
+85–86, 2023.
+doi: 10.1038/s41551-023-01012-6.
+URL https://doi.org/10.1038/
+s41551-023-01012-6.
+Shanghua Gao, Ada Fang, Yepeng Huang, Valentina Giunchiglia, Ayush Noori, Jonathan Richard
+Schwarz, Yasha Ektefaie, Jovana Kondic, and Marinka Zitnik. Empowering biomedical discovery
+with ai agents. Cell, 187(22):6125–6151, 2024. doi: 10.1016/j.cell.2024.09.022. URL https:
+//doi.org/10.1016/j.cell.2024.09.022.
+Alireza Ghafarollahi and Markus J. Buehler. Atomagents: Alloy design and discovery through
+physics-aware multi-modal multi-agent artificial intelligence. arXiv, 2024. URL https://
+arxiv.org/abs/2407.10022.
+Linda Hung, Joyce A. Yager, Danielle Monteverde, Dave Baiocchi, Ha-Kyung Kwon, Shijing
+Sun, and Santosh Suram.
+Autonomous laboratories for accelerated materials discovery: a
+community survey and practical insights.
+Digital Discovery, 3(7):1273–1279, 2024.
+doi:
+10.1039/D4DD00059E. URL http://dx.doi.org/10.1039/D4DD00059E.
+langchain ai. Langgraph. https://github.com/langchain-ai/langgraph. Accessed:
+2025-02-03.
+X. Luo, A. Rechardt, G. Sun, and et al. Large language models surpass human experts in predicting
+neuroscience results. Nature Human Behaviour, 2024. doi: 10.1038/s41562-024-02046-9. URL
+https://doi.org/10.1038/s41562-024-02046-9.
+Kangyong Ma. Ai agents in chemical research: Gvim – an intelligent research assistant system.
+Digital Discovery, pp. –, 2025. doi: 10.1039/D4DD00398E. URL http://dx.doi.org/
+10.1039/D4DD00398E.
+Shray Mathur, Noah van der Vleuten, Kevin Yager, and Esther Tsai.
+Vision: A modular ai
+assistant for natural human-instrument interaction at scientific user facilities.
+arXiv preprint
+arXiv:2412.18161, 2024. URL https://doi.org/10.48550/arXiv.2412.18161.
+OpenAI. Swarm agents. https://github.com/openai/swarm.
+OpenAI. Openai, 2024. URL https://openai.com. Accessed: 2025-01-16.
+M. H. Prince, H. Chan, A. Vriza, et al.
+Opportunities for retrieval and tool augmented large
+language models in scientific facilities.
+npj Computational Materials, 10:251, 2024.
+doi:
+10.1038/s41524-024-01423-2.
+Y. Ruan, C. Lu, N. Xu, et al. An automatic end-to-end chemical synthesis development platform
+powered by large language models. Nature Communications, 15:10160, 2024. doi: 10.1038/
+s41467-024-54457-x. URL https://doi.org/10.1038/s41467-024-54457-x.
+Joren Van Herck, Mar´ıa Victoria Gil, Kevin Maik Jablonka, Alex Abrudan, Andy S. Anker,
+Mehrdad Asgari, Ben Blaiszik, Antonio Buffo, Leander Choudhury, Clemence Corminboeuf,
+Hilal Daglar, Amir Mohammad Elahi, Ian T. Foster, Susana Garcia, Matthew Garvin, Guil-
+laume Godin, Lydia L. Good, Jianan Gu, No´emie Xiao Hu, Xin Jin, Tanja Junkers, Seda Ke-
+skin, Tuomas P. J. Knowles, Ruben Laplaza, Michele Lessona, Sauradeep Majumdar, Hossein
+Mashhadimoslem, Ruaraidh D. McIntosh, Seyed Mohamad Moosavi, Beatriz Mouri˜no, Francesca
+Nerli, Covadonga Pevida, Neda Poudineh, Mahyar Rajabi-Kochi, Kadi L. Saar, Fahimeh Hoori-
+abad Saboor, Morteza Sagharichiha, K. J. Schmidt, Jiale Shi, Elena Simone, Dennis Svatunek,
+Marco Taddei, Igor Tetko, Domonkos Tolnai, Sahar Vahdatifar, Jonathan Whitmer, D. C. Florian
+Wieland, Regine Willumeit-R¨omer, Andreas Z¨uttel, and Berend Smit. Assessment of fine-tuned
+large language models for real-world chemistry and material science applications. Chem. Sci.,
+16:670–684, 2025. doi: 10.1039/D4SC04401K. URL http://dx.doi.org/10.1039/
+D4SC04401K.
+6
+
+---
+Published as a conference paper at ICLR 2025
+Andrew D. White, Glen M. Hocky, Heta A. Gandhi, Mehrad Ansari, Sam Cox, Geemi P. Wellawatte,
+Subarna Sasmal, Ziyue Yang, Kangxin Liu, Yuvraj Singh, and Willmor J. Pe˜na Ccoa. Assess-
+ment of chemistry knowledge in large language models that generate code. Digital Discovery,
+2:368–376, 2023.
+doi: 10.1039/D2DD00087C.
+URL http://dx.doi.org/10.1039/
+D2DD00087C.
+Qingyun Wu, Gagan Bansal, Jieyu Zhang, Yiran Wu, Beibin Li, Erkang (Eric) Zhu, Li Jiang, Xi-
+aoyun Zhang, Shaokun Zhang, Ahmed Awadallah, Ryen W. White, Doug Burger, and Chi Wang.
+Autogen: Enabling next-gen llm applications via multi-agent conversation. In COLM 2024, Au-
+gust 2024. URL https://www.microsoft.com/en-us/research/publication/
+autogen-enabling-next-gen-llm-applications-via-multi-agent-conversation-framework/
+Xiangyu Yin, Chuqiao Shi, Yimo Han, and Yi Jiang. Pear: A robust and flexible automation frame-
+work for ptychography enabled by multiple large language model agents. ArXiv, abs/2410.09034,
+2024. URL https://api.semanticscholar.org/CorpusID:273323364.
+A
+APPENDIX
+A.1
+WORKFLOW DESCRIPTION
+Figure 3: Detailed pipeline with the required sequential steps to create a polymer thin film using the
+N9 robotic station.
+7
+
+---
+Published as a conference paper at ICLR 2025
+Figure 4: Example of the operating functions for the N9 robot. The main instructions and commands
+are provided to the LLM agents as context to create the operating environment, accompanied by a
+brief description of each function as text.
+A.2
+AGENTS
+A detailed description of the agents that comprise our current framework is described below. Each
+of the agents can be configured with an LLM.
+Administrator agent: The administrator agent is designed to function as an administrative interface
+between users and the other agents. Its primary responsibilities include task delegation to other
+agents, receiving human input before a further action is taken and code execution in the specified
+working directory.
+Literature Scraping Agent: The literature scraping agent is responsible for extracting key infor-
+mation from scientific literature and transferring this knowledge to other agents. It has access to an
+external tool that converts PDFs into textual format, enabling efficient data extraction.
+System Message:
+• ”You are a PDF scraper and can extract information from any provided PDF using the
+available tools.”
+• ”After reading the text, you can provide specific answers based on the PDF’s context.”
+• ”Return ’TERMINATE’ when the scraping process is complete.”
+Code writer agent: This agent is responsible for providing the execution code as a python script.
+We provide the operating functions with a short description about the utility of each function in the
+system message. An example is shown in Figure 4.
+Code reviewer agent: This agent is designed to evaluate the code created by the code writer and
+provide feedback.
+System Message:
+• ”Your task is to review the code provided by the code writer agent and provide feedback on
+necessary corrections.”
+• ”Ensure that all required libraries are imported and that only the existing approved opera-
+tion functions are used.”
+8
+
+---
+Published as a conference paper at ICLR 2025
+Manager: This agent is creating a group with all the existing agents and is responsible for selecting
+the next relevant agent in the workflow.
+A.3
+TEACHABILITY
+Autogen provides a teachability feature that can add memory capabilities to any existing agent. Once
+the teachability class is added to an agent, the agent’s system message is appended with a note about
+the this new ability: ”You’ve been given the special ability to remember user teachings from prior
+conversations.” and the agent is provided with extra functions and interaction with another agent for
+text analysis. When a new task is provided, a teachable agent first calls a function to check if any
+stored memories are relevant. The system converts the new request into an embedding and searches
+the local ChromaDB for stored input-output pairs based on cosine similarity
+In addition, the agent uses a background TextAnalyzerAgent (configured with the same LLM)
+to examine user comments and decide whether any important information should be stored. Inter-
+nally, it follows logic similar to the following:
+• Step 1: Ask, “Does any part of the text ask the agent to perform a task or solve a problem?
+Answer with just one word, yes or no.”
+• If ‘yes’:
+“Briefly copy any advice from the text that may be useful for a similar but different task in
+the future. If no advice is present, respond with ‘none’.”*
+• If the advice is not ‘none’:
+“Briefly copy just the task from the text, then stop. Don’t solve it, and don’t include any
+advice.”
+“Summarize very briefly, in general terms, the type of task described in the text. Leave out
+details that might not appear in a similar problem.”
+By analyzing incoming user messages, this mechanism detects whether the text contains general
+information that should be remembered or a task/problem accompanied by useful advice. If such
+content is found, it is extracted and stored as input–output pairs in a ChromaDB vector database
+(Figures 5 and 6). These pairs are stored as embeddings to enable semantic similarity searches.
+When a new task is given, the teachable agent performs a similarity search to find relevant past
+teachings, allowing it to apply previous learnings automatically.
+By default, a teachable agent stores all new entries, even if they are very similar to existing ones. To
+avoid duplicates, we added a similarity check before storage: the system compares new memories
+against existing ones and only stores a new entry if it exceeds a certain distance threshold in the
+embedding space. Finally, because the teachability component does not require re-training the un-
+derlying model, it can be used in concert with larger or more expensive LLMs for creating memories,
+yet still function effectively with smaller or open-source models for day-to-day operations.
+9
+
+---
+Published as a conference paper at ICLR 2025
+Figure 5: Example of code related memories created from Claude 3.5 Sonnet after providing human
+input for task2.
+10
+
+---
+Published as a conference paper at ICLR 2025
+Figure 6: Example of memories created from GPT4o after providing human input for task2.
+A.4
+GENERATED PROMPTS
+1
+Task:
+2
+"""Write the execution code to create a polymer film using only PEDOT:PSS
+defined as polymer A. Extract the best range of the film processing
+conditions from the paper PEDOT_PSS_manuscript.pdf."""
+3
+4
+Most relevant retrieved memory:
+5
+INPUT-OUTPUT PAIR RETRIEVED FROM VECTOR DATABASE:
+6
+INPUT1
+7
+What do I do first, move the substrate to the coating station or pick
+up the vial?
+8
+OUTPUT
+9
+you always fist move the substate to the coating station and then
+pick up the vial
+10
+DISTANCE
+11
+1.6069608286244856
+12
+13
+Communication between the code writer agent an d the manager:
+14
+code_writer_agent (to chat_manager):
+15
+Based on the extracted information from the paper, the best range of film
+processing conditions for creating a polymer film using PEDOT:PSS (
+polymer A) includes:
+16
+1. **Additive Concentration**: Use ethylene glycol (EG) as an additive at
+a concentration of 5 vol%.
+17
+2. **Coating Speed**: A relatively low coating speed of 1 mm/s.
+18
+3. **Coating Temperature**: A relatively high coating temperature of 90
+C .
+19
+4. **Post-Processing**: The post-treatment step involves solvent rinsing,
+repeated twice more, to remove PSS content and improve PEDOT packing
+structure.
+20
+Now, let’s write the execution code to create a polymer film using these
+conditions. The code will follow the steps mentioned in your memories
+and the extracted information.
+21
+‘‘‘python
+22
+# filename: create_polymer_film.py
+23
+import loca
+# location information
+24
+import pandas as pd
+11
+
+---
+Published as a conference paper at ICLR 2025
+25
+import robotics as ro
+26
+from robotics import procedure as proc
+27
+import rack_status
+28
+# Initialize hardware modules
+29
+c9 = ro.system.init(’controller’)
+# N9 robot controller
+30
+t8 = ro.system.init(’temperature’)
+# temperature controller
+31
+coater = ro.system.init(’coater’)
+# coating station
+32
+# Set the coating temperature
+33
+T = 90
+# Coating temperature in Celsius
+34
+t8.set_temp(1, T)
+35
+# Move substrate to the coating station
+36
+c9.tool = ’substrate_tool’
+37
+c9.set_output(’substrate_tool’, True)
+# Activate vacuum to pick up
+substrate
+38
+c9.position = loca.substrate_rack_seq[0, 0]
+# Pick up substrate from
+rack
+39
+c9.position = loca.s_coater
+# Move substrate to the coating station
+40
+c9.set_output(’coater_stage_vacuum’, True)
+# Activate vacuum on coater
+stage
+41
+c9.set_output(’substrate_tool’, False)
+# Release substrate
+42
+c9.tool = None
+# Drop off the tool
+43
+# Pick up the vial containing polymer A (PEDOT:PSS)
+44
+sol_label = ’polymer_A’
+45
+vial_index = proc.find_rack_index(’vial’, sol_label)
+46
+c9.position = loca.vial_rack[vial_index]
+# Move robot arm to the
+solution
+47
+c9.set_output(’gripper’, True)
+# Close gripper to pick up the vial
+48
+c9.position = loca.clamp
+# Move vial to the clamp
+49
+c9.set_output(’clamp’, True)
+# Close clamp to hold the vial
+50
+c9.set_output(’gripper’, False)
+# Open gripper to release the vial
+51
+# Uncap the vial
+52
+uncap_position = c9.uncap(pitch=1.75, revs=3.0, vel=5000, accel=5000)
+#
+Uncap the vial
+53
+c9.position = uncap_position
+# Move gripper back to the recorded
+position
+54
+55
+# Pick up a pipette
+56
+proc.new_pipette(c9)
+57
+# Aspirate the solution in the clamp
+58
+c9.position = loca.clamp
+# move robot arm to the clamp
+59
+c9.aspirate_ml(0, 0.5)
+# Aspirate 0.5mL
+60
+61
+# Move pipette to the coating station
+62
+c9.position = loca.p_coater
+# Move pipette to the coating station
+63
+c9.dispense_ml(0, 0.2)
+# Dispense 0.2mL
+64
+65
+# Remove pipette
+66
+proc.remove_pipette(c9)
+67
+68
+# Cap the vial
+69
+c9.position = uncap_position
+70
+c9.cap(pitch=1.75, revs=3.0, torque_thresh=1000, vel=5000, accel=5000)
+71
+72
+# Return vial to rack
+73
+c9.set_output(’clamp’, False)
+74
+c9.set_output(’gripper’, True)
+75
+c9.position = loca.vial_rack[1, 2]
+76
+c9.set_output(’gripper’, False)
+77
+78
+# Coating process
+79
+coater.position = 45
+# Move coater blade to the starting position
+80
+coater.velocity = 1
+# Set the coating velocity to 1 mm/s
+81
+coater.position = 75
+# Move blade all the way to the right
+82
+print("Polymer film creation process completed.")
+83
+‘‘‘
+12
+
+---
+Published as a conference paper at ICLR 2025
+84
+This code will execute the process of creating a polymer film using PEDOT
+:PSS with the specified conditions. Please save the code in a file
+named ‘create_polymer_film.py‘ and execute it. TERMINATE
+Listing 1: Example of the communication between the teachable agents to create a polymer film.
+A.5
+PERFORMANCE EVALUATION METRICS
+For the evaluation of the agents performance we Focused on five tasks:
+1. Code quality check: Checking if the code reviewer was initiated to check the initial code written
+by the code writer. That is basicallt focusing checking if the correct functions have been imported
+and that the code is operational.
+2. Correctness: Checking if the final code is correct and calls the correct functions sequentially.
+Evaluating the functionality of the generated code and checking whether the sequential steps are
+performed in the correct order. The score is counting how many steps of the required ones have
+been identified from the agents. The best score is 8, 10, 25 for the first, second and third task
+accordingly.
+3. Code execution: How many of the steps can the code run without doing something wrong. This
+differs from the code correctness, as all the steps might have been identified correct but placed in a
+wrong sequence and as such the operation of the robot will break. The score is counting how many
+steps of the required ones have been identified from the agents. The best score is 8, 10, 25 for the
+first, second and third task accordingly.
+4. Code repeatability: Evaluating whether the same code is generating after running the same prompt
+task for two times. The temperature of the models is set to 0 in all cases.
+5.
+Reproducibility: Assess the consistency of the generated code when provided with altered
+prompts for the same task. This is particularly crucial in user facilities, where different users may
+describe identical tasks using various expressions. Below are the original prompts tested along with
+their alternative versions:
+- prompt1 = ”Write the execution code to move the vial with PEDOT:PSS defined as polymer A to
+the clamp holder.”
+- prompt1a = ”Write the code to move the vial with polymer A to the clamp.”
+- prompt2 ”Write the execution code to pick up a substrate from the substrate rack and move it to
+the coating station.”
+- prompt2a = ”Write the code to pick up a substrate and move it to the coating stage.”
+- prompt3 = ”Write the execution code to create a polymer film using only PEDOT:PSS de-
+fined as polymer A. Extract the best range of the film processing conditions from the paper
+PEDOT PSS manuscript.pdf”
+- prompt3a = ” Write the code to create a polymer film with only PEDOT:PSS defined as polymer
+A. Identify the best processing conditions from the paper PEDOT PSS manuscript.pdf”
+An example of how the evaluation was performed is shown below:
+The eight (8) sequential tasks are organized as follows:
+1. Import the correct libraries
+2. Initialize the required system components
+3. Identify the location of the vial
+4. Move gripper to the vial position
+5. Close the gripper to pick up the vial
+6. Move the gripper with the vial to the clamp holder
+7. Close the clamp holder to hold the vial
+13
+
+---
+Published as a conference paper at ICLR 2025
+8. Release the gripper
+9. We give one point for each correct step
+One point for each correct step.
+1
+# filename: move_vial_to_clamp.py
+2
+import loca
+3
+import pandas as pd
+4
+import robotics as ro
+5
+from robotics import procedure as proc
+6
+import time
+# Import time for delays
+7
+8
+def move_vial_to_clamp(polymer_label=’polymer_A’):
+9
+# Initialize the robot controller
+10
+c9 = ro.system.init(’controller’)
+11
+12
+# Step 1: Find the index of the vial containing polymer A
+13
+vial_index = proc.find_rack_index(’vial’, polymer_label)
+14
+15
+# Check if the vial index is valid
+16
+if vial_index is None:
+17
+print(f"Error: Vial with label ’{polymer_label}’ not found.")
+18
+return
+19
+20
+# Step 2: Move to the vial position
+21
+c9.position = loca.vial_rack[vial_index]
+22
+23
+# Step 3: Close the gripper to pick up the vial
+24
+c9.set_output(’gripper’, True)
+25
+time.sleep(1)
+# Wait for the gripper to close
+26
+27
+# Step 4: Move to the clamp holder position
+28
+c9.position = loca.clamp
+29
+30
+# Step 5: Open the gripper to release the vial into the clamp holder
+31
+c9.set_output(’gripper’, False)
+32
+time.sleep(1)
+# Wait for the gripper to open
+33
+34
+# Execute the function
+35
+move_vial_to_clamp()
+Listing 2: Example of the code produced from the GPT-4o-mini pipeline for executing Task 1.
+14
+
+---
+Published as a conference paper at ICLR 2025
+Evaluation metric
+Score
+Task explanation
+Evaluators comments
+Code quality check
+V
+Check if the code reviewer agents
+was called to check the code for
+code quality analysis for potential
+errors, stylistic inconsistencies and
+best-practice violation.
+Code reviewer was called and
+tions for error handling
+Code correctness
+87.5%
+Evaluating
+the
+functionality
+of
+the generated code and checking
+whether the sequential steps are
+performed in the correct order.
+7/8 of the steps were identified
+clamp to hold the gripper
+Code execution (correct order of functions)
+75%
+How many of the steps can the code
+run without doing something wrong
+Will stop in step 6; the rest is n
+break the process (6/8)
+Code repeatability
+100%
+Evaluating whether the same code
+is generating after running the same
+prompt task for 3 times.
+The same prompt was run thr
+duced the same output
+Reproducibility (varying prompts)
+100%
+Evaluating whether the generated
+code is the same after modifying
+the task prompt whilst keeping the
+main task the same.
+Used a similar prompt to the i
+formed the same, so gave 100%
+Table 4: Example of human evaluation metrics for task1 using GPT-40-mini
+15
+
+---

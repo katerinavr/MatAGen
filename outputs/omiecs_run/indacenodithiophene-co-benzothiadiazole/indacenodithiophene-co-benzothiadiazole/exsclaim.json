@@ -1,0 +1,1687 @@
+{
+   "page_3_img_2.png": {
+      "title": "Side chain engineering in indacenodithiophene-co-benzothiadiazole and its impact on mixed ionic&#x2013;electronic transport properties",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_indacenodithiophene-co-benzothiadiazole\\indacenodithiophene-co-benzothiadiazole",
+      "image_url": [],
+      "figure_name": "page_3_img_2.png",
+      "full_caption": "Fig. 1 (a) Synthetic scheme outlining the IDTBT polymer synthesis employing different ratios of the polar and nonpolar IDT monomers. (b) UV-vis spectra of thin polymer films obtained by spin-coating from 10 mg mL\u22121 ODCB solutions at 80 \u00b0C; 2000 rpm for 90 s then 8000 rpm for 30 s. Dried in vacuum oven at 40 \u00b0C for 30 min. (c) 1H NMR spectra of the IDTBT polymers highlighting the peaks from polar (blue box) and nonpolar (red box) side chain moieties.",
+      "figure_path": "output\\figures\\page_3_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9730992317199707,
+            "height": 574,
+            "width": 743,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 432
+               },
+               {
+                  "x": 743,
+                  "y": 432
+               },
+               {
+                  "x": 0,
+                  "y": 1006
+               },
+               {
+                  "x": 743,
+                  "y": 1006
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 432
+                  },
+                  {
+                     "x": 743,
+                     "y": 432
+                  },
+                  {
+                     "x": 0,
+                     "y": 1006
+                  },
+                  {
+                     "x": 743,
+                     "y": 1006
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "UV-vis spectra of thin polymer films obtained by spin-coating from 10 mg mL\u22121 ODCB solutions at 80 \u00b0C; 2000 rpm for 90 s then 8000 rpm for 30 s. Dried in vacuum oven at 40 \u00b0C for 30 min.",
+            "keywords": [
+               "UV-vis spectroscopy",
+               "polymer films",
+               "spin-coating"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.44747623801231384,
+            "height": 400,
+            "width": 1599,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1599,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 400
+               },
+               {
+                  "x": 1599,
+                  "y": 400
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1599,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 400
+                  },
+                  {
+                     "x": 1599,
+                     "y": 400
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Synthetic scheme outlining the IDTBT polymer synthesis employing different ratios of the polar and nonpolar IDT monomers.",
+            "keywords": [
+               "Polymer synthesis",
+               "IDTBT",
+               "Monomers"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.43647173047065735,
+            "height": 622,
+            "width": 828,
+            "geometry": [
+               {
+                  "x": 775,
+                  "y": 382
+               },
+               {
+                  "x": 1603,
+                  "y": 382
+               },
+               {
+                  "x": 775,
+                  "y": 1004
+               },
+               {
+                  "x": 1603,
+                  "y": 1004
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 775,
+                     "y": 382
+                  },
+                  {
+                     "x": 1603,
+                     "y": 382
+                  },
+                  {
+                     "x": 775,
+                     "y": 1004
+                  },
+                  {
+                     "x": 1603,
+                     "y": 1004
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "1H NMR spectra of the IDTBT polymers highlighting the peaks from polar (blue box) and nonpolar (red box) side chain moieties.",
+            "keywords": [
+               "NMR",
+               "polymers",
+               "side chains"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_4_img_2.png": {
+      "title": "Side chain engineering in indacenodithiophene-co-benzothiadiazole and its impact on mixed ionic&#x2013;electronic transport properties",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_indacenodithiophene-co-benzothiadiazole\\indacenodithiophene-co-benzothiadiazole",
+      "image_url": [],
+      "figure_name": "page_4_img_2.png",
+      "full_caption": "Fig. 2 2D GIWAXS scattering patterns for the IDTBT polymer series.",
+      "figure_path": "output\\figures\\page_4_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.7459155321121216,
+            "height": 573,
+            "width": 1502,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 579
+               },
+               {
+                  "x": 1502,
+                  "y": 579
+               },
+               {
+                  "x": 0,
+                  "y": 1152
+               },
+               {
+                  "x": 1502,
+                  "y": 1152
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 579
+                  },
+                  {
+                     "x": 1502,
+                     "y": 579
+                  },
+                  {
+                     "x": 0,
+                     "y": 1152
+                  },
+                  {
+                     "x": 1502,
+                     "y": 1152
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.6813600063323975,
+            "height": 565,
+            "width": 739,
+            "geometry": [
+               {
+                  "x": 760,
+                  "y": 0
+               },
+               {
+                  "x": 1499,
+                  "y": 0
+               },
+               {
+                  "x": 760,
+                  "y": 565
+               },
+               {
+                  "x": 1499,
+                  "y": 565
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 760,
+                     "y": 0
+                  },
+                  {
+                     "x": 1499,
+                     "y": 0
+                  },
+                  {
+                     "x": 760,
+                     "y": 565
+                  },
+                  {
+                     "x": 1499,
+                     "y": 565
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.44692614674568176,
+            "height": 573,
+            "width": 1503,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 580
+               },
+               {
+                  "x": 1503,
+                  "y": 580
+               },
+               {
+                  "x": 0,
+                  "y": 1153
+               },
+               {
+                  "x": 1503,
+                  "y": 1153
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 580
+                  },
+                  {
+                     "x": 1503,
+                     "y": 580
+                  },
+                  {
+                     "x": 0,
+                     "y": 1153
+                  },
+                  {
+                     "x": 1503,
+                     "y": 1153
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.12035062164068222,
+            "height": 564,
+            "width": 1497,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1497,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 564
+               },
+               {
+                  "x": 1497,
+                  "y": 564
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1497,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 564
+                  },
+                  {
+                     "x": 1497,
+                     "y": 564
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_5_img_2.png": {
+      "title": "Side chain engineering in indacenodithiophene-co-benzothiadiazole and its impact on mixed ionic&#x2013;electronic transport properties",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_indacenodithiophene-co-benzothiadiazole\\indacenodithiophene-co-benzothiadiazole",
+      "image_url": [],
+      "figure_name": "page_5_img_2.png",
+      "full_caption": "Fig. 3 Electrical performance of IDBT-P10 and IDBT-P50-based OECTs: (a) and (b) output curves and (e) and (f) transfer curves for IDBT-P10 and IDBT-P50-based devices in 0.1 M NaCl aqueous electrolyte; (c) and (g) transfer curves for IDBT-P50-based devices in 0.1 M LiOTf and 0.1 M NaClO4 acetonitrile electrolytes; (d) and (h) output and transfer curves for IDBT-P50-based devices in ionic liquid electrolyte with PEDOT:PSS as the gate.",
+      "figure_path": "output\\figures\\page_5_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9739629030227661,
+            "height": 416,
+            "width": 497,
+            "geometry": [
+               {
+                  "x": 1505,
+                  "y": 0
+               },
+               {
+                  "x": 2002,
+                  "y": 0
+               },
+               {
+                  "x": 1505,
+                  "y": 416
+               },
+               {
+                  "x": 2002,
+                  "y": 416
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 1505,
+                     "y": 0
+                  },
+                  {
+                     "x": 2002,
+                     "y": 0
+                  },
+                  {
+                     "x": 1505,
+                     "y": 416
+                  },
+                  {
+                     "x": 2002,
+                     "y": 416
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Output and transfer curves for IDBT-P50-based devices in ionic liquid electrolyte with PEDOT:PSS as the gate",
+            "keywords": [
+               "Ionic liquid",
+               "PEDOT:PSS",
+               "IDBT-P50"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9726341962814331,
+            "height": 414,
+            "width": 495,
+            "geometry": [
+               {
+                  "x": 1000,
+                  "y": 0
+               },
+               {
+                  "x": 1495,
+                  "y": 0
+               },
+               {
+                  "x": 1000,
+                  "y": 414
+               },
+               {
+                  "x": 1495,
+                  "y": 414
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1000,
+                     "y": 0
+                  },
+                  {
+                     "x": 1495,
+                     "y": 0
+                  },
+                  {
+                     "x": 1000,
+                     "y": 414
+                  },
+                  {
+                     "x": 1495,
+                     "y": 414
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Transfer curves for IDBT-P50-based devices in 0.1 M LiOTf acetonitrile electrolyte",
+            "keywords": [
+               "IDBT-P50",
+               "LiOTf",
+               "acetonitrile"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9699214100837708,
+            "height": 411,
+            "width": 499,
+            "geometry": [
+               {
+                  "x": 499,
+                  "y": 0
+               },
+               {
+                  "x": 998,
+                  "y": 0
+               },
+               {
+                  "x": 499,
+                  "y": 411
+               },
+               {
+                  "x": 998,
+                  "y": 411
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 499,
+                     "y": 0
+                  },
+                  {
+                     "x": 998,
+                     "y": 0
+                  },
+                  {
+                     "x": 499,
+                     "y": 411
+                  },
+                  {
+                     "x": 998,
+                     "y": 411
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Output curves for IDBT-P50-based devices in 0.1 M NaCl aqueous electrolyte",
+            "keywords": [
+               "IDBT-P50",
+               "devices",
+               "electrolyte"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9654877185821533,
+            "height": 412,
+            "width": 497,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 497,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 412
+               },
+               {
+                  "x": 497,
+                  "y": 412
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 497,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 412
+                  },
+                  {
+                     "x": 497,
+                     "y": 412
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Output curves for IDBT-P10-based devices in 0.1 M NaCl aqueous electrolyte",
+            "keywords": [
+               "IDBT-P10",
+               "devices",
+               "electrolyte"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9529172778129578,
+            "height": 414,
+            "width": 491,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 405
+               },
+               {
+                  "x": 491,
+                  "y": 405
+               },
+               {
+                  "x": 0,
+                  "y": 819
+               },
+               {
+                  "x": 491,
+                  "y": 819
+               }
+            ],
+            "subfigure_label": {
+               "text": "e",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 405
+                  },
+                  {
+                     "x": 491,
+                     "y": 405
+                  },
+                  {
+                     "x": 0,
+                     "y": 819
+                  },
+                  {
+                     "x": 491,
+                     "y": 819
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Transfer curves for IDBT-P10-based devices in 0.1 M NaCl aqueous electrolyte",
+            "keywords": [
+               "IDBT-P10",
+               "transfer curves",
+               "electrolyte"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9416830539703369,
+            "height": 418,
+            "width": 490,
+            "geometry": [
+               {
+                  "x": 501,
+                  "y": 402
+               },
+               {
+                  "x": 991,
+                  "y": 402
+               },
+               {
+                  "x": 501,
+                  "y": 820
+               },
+               {
+                  "x": 991,
+                  "y": 820
+               }
+            ],
+            "subfigure_label": {
+               "text": "f",
+               "geometry": [
+                  {
+                     "x": 501,
+                     "y": 402
+                  },
+                  {
+                     "x": 991,
+                     "y": 402
+                  },
+                  {
+                     "x": 501,
+                     "y": 820
+                  },
+                  {
+                     "x": 991,
+                     "y": 820
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Transfer curves for IDBT-P50-based devices in 0.1 M NaCl aqueous electrolyte",
+            "keywords": [
+               "Transfer curves",
+               "IDBT-P50",
+               "NaCl electrolyte"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9314103126525879,
+            "height": 416,
+            "width": 495,
+            "geometry": [
+               {
+                  "x": 1505,
+                  "y": 406
+               },
+               {
+                  "x": 2000,
+                  "y": 406
+               },
+               {
+                  "x": 1505,
+                  "y": 822
+               },
+               {
+                  "x": 2000,
+                  "y": 822
+               }
+            ],
+            "subfigure_label": {
+               "text": "h",
+               "geometry": [
+                  {
+                     "x": 1505,
+                     "y": 406
+                  },
+                  {
+                     "x": 2000,
+                     "y": 406
+                  },
+                  {
+                     "x": 1505,
+                     "y": 822
+                  },
+                  {
+                     "x": 2000,
+                     "y": 822
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Output and transfer curves for IDBT-P50-based devices in ionic liquid electrolyte with PEDOT:PSS as the gate",
+            "keywords": [
+               "Transistors",
+               "Ionic Liquid",
+               "PEDOT:PSS"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.6114587783813477,
+            "height": 417,
+            "width": 498,
+            "geometry": [
+               {
+                  "x": 998,
+                  "y": 405
+               },
+               {
+                  "x": 1496,
+                  "y": 405
+               },
+               {
+                  "x": 998,
+                  "y": 822
+               },
+               {
+                  "x": 1496,
+                  "y": 822
+               }
+            ],
+            "subfigure_label": {
+               "text": "g",
+               "geometry": [
+                  {
+                     "x": 998,
+                     "y": 405
+                  },
+                  {
+                     "x": 1496,
+                     "y": 405
+                  },
+                  {
+                     "x": 998,
+                     "y": 822
+                  },
+                  {
+                     "x": 1496,
+                     "y": 822
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Transfer curves for IDBT-P50-based devices in 0.1 M NaClO4 acetonitrile electrolyte",
+            "keywords": [
+               "IDBT-P50",
+               "transfer curves",
+               "electrolyte"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_6_img_2.png": {
+      "title": "Side chain engineering in indacenodithiophene-co-benzothiadiazole and its impact on mixed ionic&#x2013;electronic transport properties",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_indacenodithiophene-co-benzothiadiazole\\indacenodithiophene-co-benzothiadiazole",
+      "image_url": [],
+      "figure_name": "page_6_img_2.png",
+      "full_caption": "Fig. 4 Representation of the simulated distributions of water molecules in amorphous phases of IDTBT-PO + 25 wt% of water (a) and IDTBT-P100 + 25% of water (b) after a 2 ns-long molecular dynamics (NPT, p = 1 atm, T = RT). Representation of the simulated distribution of the water molecules and chloride anions (cyan balls) in an amorphous phase of a charged IDTBT-P100 + 25 wt% of water + 60 chlorine anions after a 2 ns-long molecular dynamics (NPT, p = 1 atm, T = RT). The polymer chains have been omitted for clarity. Radial distribution functions (blue) and coordination numbers (red) between the chlorine anions and the hydrogen atoms of the water molecules (d); the oxygen atoms of the water molecules (e); the carbon atoms of the polar side chains (f); and the oxygens of the polar side chains (g); as calculated from the analysis of the 10 snapshots of the MD trajectory for the system containing 20 charged hexamers of IDTBT, 25 wt% of water and 60 chlorine anions.",
+      "figure_path": "output\\figures\\page_6_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9807438254356384,
+            "height": 424,
+            "width": 640,
+            "geometry": [
+               {
+                  "x": 3,
+                  "y": 5
+               },
+               {
+                  "x": 643,
+                  "y": 5
+               },
+               {
+                  "x": 3,
+                  "y": 429
+               },
+               {
+                  "x": 643,
+                  "y": 429
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 3,
+                     "y": 5
+                  },
+                  {
+                     "x": 643,
+                     "y": 5
+                  },
+                  {
+                     "x": 3,
+                     "y": 429
+                  },
+                  {
+                     "x": 643,
+                     "y": 429
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": null,
+                  "geometry": [
+                     {
+                        "x": 77,
+                        "y": 402
+                     },
+                     {
+                        "x": 77,
+                        "y": 415
+                     },
+                     {
+                        "x": 122,
+                        "y": 415
+                     },
+                     {
+                        "x": 122,
+                        "y": 402
+                     }
+                  ],
+                  "confidence": 0.541633665561676,
+                  "length": 44,
+                  "label_line_distance": -1
+               }
+            ],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9730353951454163,
+            "height": 478,
+            "width": 787,
+            "geometry": [
+               {
+                  "x": 803,
+                  "y": 960
+               },
+               {
+                  "x": 1590,
+                  "y": 960
+               },
+               {
+                  "x": 803,
+                  "y": 1438
+               },
+               {
+                  "x": 1590,
+                  "y": 1438
+               }
+            ],
+            "subfigure_label": {
+               "text": "g",
+               "geometry": [
+                  {
+                     "x": 803,
+                     "y": 960
+                  },
+                  {
+                     "x": 1590,
+                     "y": 960
+                  },
+                  {
+                     "x": 803,
+                     "y": 1438
+                  },
+                  {
+                     "x": 1590,
+                     "y": 1438
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9690274596214294,
+            "height": 487,
+            "width": 793,
+            "geometry": [
+               {
+                  "x": 805,
+                  "y": 473
+               },
+               {
+                  "x": 1598,
+                  "y": 473
+               },
+               {
+                  "x": 805,
+                  "y": 960
+               },
+               {
+                  "x": 1598,
+                  "y": 960
+               }
+            ],
+            "subfigure_label": {
+               "text": "e",
+               "geometry": [
+                  {
+                     "x": 805,
+                     "y": 473
+                  },
+                  {
+                     "x": 1598,
+                     "y": 473
+                  },
+                  {
+                     "x": 805,
+                     "y": 960
+                  },
+                  {
+                     "x": 1598,
+                     "y": 960
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9663892984390259,
+            "height": 484,
+            "width": 760,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 474
+               },
+               {
+                  "x": 760,
+                  "y": 474
+               },
+               {
+                  "x": 0,
+                  "y": 958
+               },
+               {
+                  "x": 760,
+                  "y": 958
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 474
+                  },
+                  {
+                     "x": 760,
+                     "y": 474
+                  },
+                  {
+                     "x": 0,
+                     "y": 958
+                  },
+                  {
+                     "x": 760,
+                     "y": 958
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.951598048210144,
+            "height": 425,
+            "width": 497,
+            "geometry": [
+               {
+                  "x": 1103,
+                  "y": 4
+               },
+               {
+                  "x": 1600,
+                  "y": 4
+               },
+               {
+                  "x": 1103,
+                  "y": 429
+               },
+               {
+                  "x": 1600,
+                  "y": 429
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1103,
+                     "y": 4
+                  },
+                  {
+                     "x": 1600,
+                     "y": 4
+                  },
+                  {
+                     "x": 1103,
+                     "y": 429
+                  },
+                  {
+                     "x": 1600,
+                     "y": 429
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9402899742126465,
+            "height": 483,
+            "width": 762,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 955
+               },
+               {
+                  "x": 762,
+                  "y": 955
+               },
+               {
+                  "x": 0,
+                  "y": 1438
+               },
+               {
+                  "x": 762,
+                  "y": 1438
+               }
+            ],
+            "subfigure_label": {
+               "text": "f",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 955
+                  },
+                  {
+                     "x": 762,
+                     "y": 955
+                  },
+                  {
+                     "x": 0,
+                     "y": 1438
+                  },
+                  {
+                     "x": 762,
+                     "y": 1438
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9099636077880859,
+            "height": 429,
+            "width": 447,
+            "geometry": [
+               {
+                  "x": 647,
+                  "y": 0
+               },
+               {
+                  "x": 1094,
+                  "y": 0
+               },
+               {
+                  "x": 647,
+                  "y": 429
+               },
+               {
+                  "x": 1094,
+                  "y": 429
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 647,
+                     "y": 0
+                  },
+                  {
+                     "x": 1094,
+                     "y": 0
+                  },
+                  {
+                     "x": 647,
+                     "y": 429
+                  },
+                  {
+                     "x": 1094,
+                     "y": 429
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_7_img_2.png": {
+      "title": "Side chain engineering in indacenodithiophene-co-benzothiadiazole and its impact on mixed ionic&#x2013;electronic transport properties",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_indacenodithiophene-co-benzothiadiazole\\indacenodithiophene-co-benzothiadiazole",
+      "image_url": [],
+      "figure_name": "page_7_img_2.png",
+      "full_caption": "Fig. 5 (a) Absorption spectra of IDTBT-P50 (28 nm) upon application of doping voltage ranging from \u22120.1 V to \u22121.3 V (\u0394V = \u22120.1 V) versus Ag/AgCl. (b) Spectral signature of each species obtained from the MCR analysis in the different films and (c) their corresponding normalized concentration for IDTBT-P50 (solid lines) and IDTBT-P0 (dashed lines) as a function of voltage. (d) Time-resolved normalized species concentration for the doping at \u22120.9 V of IDTBT-P50. (e) Comparison of the doping dynamics at lower doping level for the neutral species in the different thick and thin films, and (f) comparison of the corresponding doping dynamics.",
+      "figure_path": "output\\figures\\page_7_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9801809191703796,
+            "height": 523,
+            "width": 800,
+            "geometry": [
+               {
+                  "x": 804,
+                  "y": 1085
+               },
+               {
+                  "x": 1604,
+                  "y": 1085
+               },
+               {
+                  "x": 804,
+                  "y": 1608
+               },
+               {
+                  "x": 1604,
+                  "y": 1608
+               }
+            ],
+            "subfigure_label": {
+               "text": "f",
+               "geometry": [
+                  {
+                     "x": 804,
+                     "y": 1085
+                  },
+                  {
+                     "x": 1604,
+                     "y": 1085
+                  },
+                  {
+                     "x": 804,
+                     "y": 1608
+                  },
+                  {
+                     "x": 1604,
+                     "y": 1608
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Comparison of the corresponding doping dynamics.",
+            "keywords": [
+               "Doping",
+               "Dynamics",
+               "Comparison"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9787752628326416,
+            "height": 531,
+            "width": 788,
+            "geometry": [
+               {
+                  "x": 806,
+                  "y": 542
+               },
+               {
+                  "x": 1594,
+                  "y": 542
+               },
+               {
+                  "x": 806,
+                  "y": 1073
+               },
+               {
+                  "x": 1594,
+                  "y": 1073
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 806,
+                     "y": 542
+                  },
+                  {
+                     "x": 1594,
+                     "y": 542
+                  },
+                  {
+                     "x": 806,
+                     "y": 1073
+                  },
+                  {
+                     "x": 1594,
+                     "y": 1073
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Time-resolved normalized species concentration for the doping at \u22120.9 V of IDTBT-P50.",
+            "keywords": [
+               "Doping",
+               "IDTBT-P50",
+               "Time-resolved"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9680446982383728,
+            "height": 526,
+            "width": 800,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 539
+               },
+               {
+                  "x": 800,
+                  "y": 539
+               },
+               {
+                  "x": 0,
+                  "y": 1065
+               },
+               {
+                  "x": 800,
+                  "y": 1065
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 539
+                  },
+                  {
+                     "x": 800,
+                     "y": 539
+                  },
+                  {
+                     "x": 0,
+                     "y": 1065
+                  },
+                  {
+                     "x": 800,
+                     "y": 1065
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Their corresponding normalized concentration for IDTBT-P50 (solid lines) and IDTBT-P0 (dashed lines) as a function of voltage.",
+            "keywords": [
+               "Concentration",
+               "Voltage",
+               "IDTBT"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.966672956943512,
+            "height": 524,
+            "width": 789,
+            "geometry": [
+               {
+                  "x": 805,
+                  "y": 0
+               },
+               {
+                  "x": 1594,
+                  "y": 0
+               },
+               {
+                  "x": 805,
+                  "y": 524
+               },
+               {
+                  "x": 1594,
+                  "y": 524
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 805,
+                     "y": 0
+                  },
+                  {
+                     "x": 1594,
+                     "y": 0
+                  },
+                  {
+                     "x": 805,
+                     "y": 524
+                  },
+                  {
+                     "x": 1594,
+                     "y": 524
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Spectral signature of each species obtained from the MCR analysis in the different films",
+            "keywords": [
+               "MCR analysis",
+               "spectral signature",
+               "films"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9655925035476685,
+            "height": 523,
+            "width": 797,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 797,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 523
+               },
+               {
+                  "x": 797,
+                  "y": 523
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 797,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 523
+                  },
+                  {
+                     "x": 797,
+                     "y": 523
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Absorption spectra of IDTBT-P50 (28 nm) upon application of doping voltage ranging from \u22120.1 V to \u22121.3 V (\u0394V = \u22120.1 V) versus Ag/AgCl.",
+            "keywords": [
+               "Absorption spectra",
+               "doping voltage",
+               "IDTBT-P50"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.965376615524292,
+            "height": 527,
+            "width": 798,
+            "geometry": [
+               {
+                  "x": 1,
+                  "y": 1083
+               },
+               {
+                  "x": 799,
+                  "y": 1083
+               },
+               {
+                  "x": 1,
+                  "y": 1610
+               },
+               {
+                  "x": 799,
+                  "y": 1610
+               }
+            ],
+            "subfigure_label": {
+               "text": "e",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 1083
+                  },
+                  {
+                     "x": 799,
+                     "y": 1083
+                  },
+                  {
+                     "x": 1,
+                     "y": 1610
+                  },
+                  {
+                     "x": 799,
+                     "y": 1610
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Comparison of the doping dynamics at lower doping level for the neutral species in the different thick and thin films,",
+            "keywords": [
+               "Doping",
+               "Thin Films",
+               "Neutral Species"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_10_img_2.png": {
+      "title": "Side chain engineering in indacenodithiophene-co-benzothiadiazole and its impact on mixed ionic&#x2013;electronic transport properties",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_indacenodithiophene-co-benzothiadiazole\\indacenodithiophene-co-benzothiadiazole",
+      "image_url": [],
+      "figure_name": "page_10_img_2.png",
+      "full_caption": "Fig. 6 (a) DFT-calculated standard deviation of the energetic disorder in IDTBT-P100 (cofacial stacking) when tuning the atomic charges along the oligothiophene segment of the side chain. The values are obtained from the analysis of the last frame of the 1 ns MD (NPT, p = 1 atm, T = room temperature). The atomic charges are estimated at the electrostatic potential quantum-chemical level (*) and set to 0 for zero atomic charges where indicated; (b) schematic illustration of cofacial polymer packing with side chain interdigitation giving rise to close proximity between the polar terminus (middle image) of a side chain and the neighbouring polymer backbone; this distance could be increased if the polar segment is moved to the middle of the side chain (bottom image).",
+      "figure_path": "output\\figures\\page_10_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.8892139792442322,
+            "height": 724,
+            "width": 613,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 613,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 724
+               },
+               {
+                  "x": 613,
+                  "y": 724
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 613,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 724
+                  },
+                  {
+                     "x": 613,
+                     "y": 724
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "DFT-calculated standard deviation of the energetic disorder in IDTBT-P100 (cofacial stacking) when tuning the atomic charges along the oligothiophene segment of the side chain. The values are obtained from the analysis of the last frame of the 1 ns MD (NPT, p = 1 atm, T = room temperature). The atomic charges are estimated at the electrostatic potential quantum-chemical level (*) and set to 0 for zero atomic charges where indicated;",
+            "keywords": [
+               "DFT",
+               "MD",
+               "electrostatic potential"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.22117000818252563,
+            "height": 748,
+            "width": 1080,
+            "geometry": [
+               {
+                  "x": 615,
+                  "y": 0
+               },
+               {
+                  "x": 1695,
+                  "y": 0
+               },
+               {
+                  "x": 615,
+                  "y": 748
+               },
+               {
+                  "x": 1695,
+                  "y": 748
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 615,
+                     "y": 0
+                  },
+                  {
+                     "x": 1695,
+                     "y": 0
+                  },
+                  {
+                     "x": 615,
+                     "y": 748
+                  },
+                  {
+                     "x": 1695,
+                     "y": 748
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Schematic illustration of cofacial polymer packing with side chain interdigitation giving rise to close proximity between the polar terminus (middle image) of a side chain and the neighbouring polymer backbone; this distance could be increased if the polar segment is moved to the middle of the side chain (bottom image).",
+            "keywords": [
+               "Polymer packing",
+               "Side chain",
+               "Interdigitation"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   }
+}

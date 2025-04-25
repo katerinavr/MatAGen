@@ -1,0 +1,957 @@
+Bioderived Radical Polymers for Sustainable Energy Storage
+Materials
+Scott L. Brooks, Zihao Liang, Hyunki Yeo, Bryan W. Boudouris,* and Andrew C. Weems*
+Cite This: https://doi.org/10.1021/acsaem.3c02060
+Read Online
+ACCESS
+Metrics & More
+Article Recommendations
+*
+sı
+Supporting Information
+ABSTRACT: Organic mixed ionic and electronic conductors have emerged as
+promising materials for next-generation energy applications, and a variety of
+molecular designs have been implemented to push performance to higher levels.
+Importantly, nonconjugated redox-active radical polymers capable of charge
+transport offer benefits such as ready synthesis in large quantities and the
+capability to separate thermomechanical and electrochemical behaviors. This
+affords more freedom with respect to macromolecular backbone design; thus, the
+resultant materials properties make this class of polymers appealing alternatives
+for energy storage. However, these radical polymers often still rely on
+petrochemically derived polymer backbones. Here, we demonstrate the
+polymerization of the bioderived terpene β-myrcene and its functionalization
+by attaching stable radical pendant groups capable of mixed electronic and ionic
+conduction. The electrochemical enhancement of these materials was substantial
+as the addition of carbon black and doping of lithium salts electronic conductivities of ∼60 S cm−1 were achieved for the composite
+systems. The addition of the lithium salts proved fruitful as the electric and ionic conductivities of the radical polymers surpassed
+10−4 S cm−1 at elevated temperatures when both lithium hexafluorophosphate and lithium chloride, a more bio and environmentally
+friendly material, where introduced to the system. These findings demonstrate a bioderived alternative for an organic mixed
+conductor serving as both potential cathode and polymer electrolyte for a more sustainable alternative for energy storage
+applications.
+KEYWORDS: Bioderived materials, Polymers for energy storage, Organic batteries, Organic mixed ionic-electronic conductors,
+Terpene derivatives
+■INTRODUCTION
+Electronically active polymers have garnered recent interest
+due to their potential to supplement or replace their inorganic
+counterparts in targeted applications.1−3 To date, the majority
+of these materials are π-conjugated polymers; however, the
+syntheses of these advanced conducting materials often
+includes the use of metal-based catalysts that prove difficult
+to remove from the final polymer product, which leads to
+potential toxicity and environmental risks.4−10 This is in
+tandem with potential for these materials to cause uninten-
+tional doping of the organic material that leads to degradation
+of long-term performance.11,12 Of particular interest are
+oxidation−reduction-active (redox-active), radical-laden poly-
+mers composed of aliphatic backbones with pendant stable
+radical groups. These redox-active radical polymers are an
+appealing alternative and play a vital role in a variety of organic
+electronic applications.13−16 These redox-active polymers offer
+several advantages, such as the ability to create homo- and
+copolymers through various synthetic mechanisms as well as
+create materials where the thermomechanical and electro-
+chemical properties are not intertwined.17 These synthetic
+methods create simpler routes of producing materials with
+complex architectures at scale for energy storage.17−21
+Additionally, through the selective addition and functionaliza-
+tion of pendant groups, preferentially oxidized radical polymers
+are useful cathode materials.8,18,19,22 Thus, nonconjugated
+macromolecules offer the molecular architecture and thermo-
+mechanical properties desired for a variety of energy storage
+materials.
+At the center of the redox functionality of these polymers are
+the stable radical groups.23 A common open-shell group is the
+(2,2,6,6-tetramethyl-piperidin-1-yl)oxidanyl (TEMPO) pend-
+ant moiety, which is a frequently used electronically active site
+in nonconjugated materials.7,24 Moreover, these pendant
+radical groups can undergo rapid charge transfer reactions
+with a high degree of stability and withstand the harsh
+conditions that can be associated with device performance.25,26
+Special Issue: Organic Battery Materials
+Received:
+August 17, 2023
+Revised:
+November 1, 2023
+Accepted:
+November 2, 2023
+Forum Article
+www.acsaem.org
+© XXXX American Chemical Society
+A
+https://doi.org/10.1021/acsaem.3c02060
+ACS Appl. Energy Mater. XXXX, XXX, XXX−XXX
+Downloaded via UNIV OF CHICAGO on May 10, 2024 at 01:17:01 (UTC).
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+Another crucial factor to the performance of radical polymers
+is the charge density of the stable radical sites capable of
+undergoing reversible redox reactions along the polymer chain,
+as this can strongly impact the ability for these radical polymers
+to transport charge.27−29 The nitroxide functionality within
+TEMPO is capable of readily undergoing redox reactions and
+allowing for electron exchange reactions between neighboring
+pendant groups, making it highly effective in energy storage
+applications.30−32
+TEMPO is a commonly utilized radical bearing moiety in
+organic energy storage systems. The Suga and Nishide groups
+demonstrated radical content of nearly 100% for a series of
+different polymers, including poly(2,2,6,6-tetramethylpiperidi-
+nyloxy-4-yl methacrylate) (PTMA), poly(TEMPO-substituted
+norbornene), and a five-membered cyclic nitroxide material
+attached to a poly(ethylene oxide) backbone.10,22,33 Multiple
+TEMPO-containing cyclic ethers have shown redox potentials
+of +3.66 V with a carbon composite cathode relative to a
+lithium anode.34 Moreover, the use of a glycidyl-TEMPO
+material achieved an electrical conductivity of 0.28 S cm−1.7,8,23
+This high conductivity can be achieved across significant
+molecular distances when the radical functional groups are
+arranged in periodical orders to facilitate charge transport.35,36
+Additionally, the Lutkenhaus group demonstrated biTEMPO-
+functionalized polypeptides for p-type cathodes in organic
+radical batteries, where the battery achieved could undergo
+more than 200 charge/discharge cycles without significant
+performance drop.37 These examples highlight that organic
+open-shell radical polymers have proved to be a step in the
+right direction toward sustainable materials for energy storage.
+Despite the success that radical polymers have had in
+emerging applications, the majority of these TEMPO-
+containing polymers are petrochemically derived.38,39 Naturally
+derived materials, which contain a variety of functional
+moieties that may be leveraged for different applications,
+provide an alternative feedstock for polymers. One important
+class of functional natural products is terpenes, which are
+isolated from essential oils and often contain alkenes or other
+moieties useful in polymer synthesis.40−44 Limonene, perhaps
+the best known terpene, is used in thermoplastic and
+thermoset polymer synthesis; however, often this consumes
+the majority of the useful alkenes.45−47 Conversely, β-myrcene,
+a monoterpene that contains three alkene groups, can be
+polymerized into different stereochemistry linkages that result
+residual in-chain and side-chain alkenes.48−50 This has made it
+of utility in multiple demonstrations. For example, Constant et
+al., produced poly(β-myrcene) and poly(limonene-co-β-
+myrcene) polymers suitable for vat photopolymerization 3D
+printing as an extension of previous work that had focused on
+homo poly(β-myrcene).51,52 Sarkar demonstrated poly(β-
+myrcene) elastomers with Mn up to ∼93 kDa, and Anastasiou
+formulated green epoxy polymer poly(β-myrcene) epoxide.53
+Thus, poly(β-myrcene) may serve as a bioderived materials
+platform with controllable alkene concentration, stereo-
+Figure 1. (a) Synthetic scheme showing the progression from the monomer, β-myrcene, to poly(myrcene-epoxide) (PME) via epoxidation, and the
+ring opening addition of hydroxy-TEMPO (H-TEMPO) using the organobase catalyst DBU to create the PME-H-TEMPO species (PME-
+TEMPO) via free radical polymerization (FR). (b) Representative 1H NMR spectra of PβM, PME, and PME-TEMPO. (c) Representative SEC
+chromatograms showing that the hydrodynamic diameter of the material increases at each synthetic progression.
+ACS Applied Energy Materials
+www.acsaem.org
+Forum Article
+https://doi.org/10.1021/acsaem.3c02060
+ACS Appl. Energy Mater. XXXX, XXX, XXX−XXX
+B
+
+chemistry, molecular weight, dispersity, and architecture with
+residual alkenes capable of post polymerization functionaliza-
+tion.
+With these considerations in mind, we evaluated the
+suitability of poly(β-myrcene) in redox-active polymers.
+Using three different polymerization conditions, a series of
+alkene-containing, and later epoxide-laden, polymer precursors
+were synthesized. TEMPO moieties were installed onto the
+polymer chain at discrete functional group concentrations
+while maintaining sufficiently low Tg values, allowing for the
+quantification of the impact of the molecular structure on the
+electrochemical behavior. These bioderived aliphatic, non-
+conjugated, radical laden p-type materials are capable of ionic
+and electronic conduction while only requiring small amounts
+of external dopants. These energy storage materials achieved
+electronic conductivity levels of ∼102 S cm−1 with minimal
+carbon black loading. Additional salt loading of these materials
+proved to improve electronic and ionic conductivity measures
+several orders of magnitude achieving measures of 10−3 S
+cm−1. These hole-transporting radical polymers serve as green
+alternatives for cathode and electrolyte application and
+introduce the utility of bioderived materials as potential
+backbone alternatives for energy storage materials in organic
+sustainable batteries.
+■RESULTS AND DISCUSSION
+An, aliphatic, nonconjugated radical homopolymer, poly(β-
+myrcene) (PβM), was synthesized from β-myrcene (Figure
+S1) using three synthetic methods: a free radical polymer-
+ization (FR, Mn ∼4 kDa, Đ ∼1.62), a free radical polymer-
+ization with the inclusion of limonene as a mediating solvent
+(FRL, Mn ∼5 kDa, Đ ∼2.34), and a reversible addition−
+fragmentation chain transfer polymerization (RAFT, Mn ∼19
+kDa, Đ ∼1.21) (Table S1). These polymers were subsequently
+epoxidized into poly(myrcene-epoxide) (PME), where the
+epoxide groups were later functionalized with 4-hydroxy-
+2,2,6,6-tetramethylpiperidin-1-oxyl (4-hydroxy-TEMPO)
+groups through base-catalyzed ring-opening reactions to yield
+organic radical-laden pendant groups as the bioderived
+energetic poly(myrcene-epoxide) TEMPO (PME-TEMPO),
+as shown in Figure 1.
+The successful synthesis of the PβM polymer was confirmed
+using 1H nuclear magnetic resonance (NMR) and Fourier
+transform infrared (FTIR) spectroscopy. The PβM displayed
+three characteristic resonances at 5.4, 5.13, and 4.78 ppm,
+which are associated with the 1,2, 1,4, and 3,4 myrcene
+linkages, respectively, and all three synthetic techniques yielded
+materials displaying these molecular architectures (Figures
+S2−S4).51,54 The PβM was epoxidized using meta-chloroper-
+benzoic acid (mCPBA), previously shown to be successful in
+epoxidizing PβMs, yielding PME.55 The successful epoxidation
+was confirmed by 1H NMR spectroscopy, where the formation
+of the peak at approximately 2.75 ppm indicated epoxide
+formation, as did the reduction in the characteristic alkene
+peaks (Figure S5 and S6).55,56 With the epoxides successfully
+attached to the backbone as the pendant groups of PME,
+subsequent
+ring-opening
+reactions
+using
+1,8-
+diazabicyclo[5.4.0]undec-7-ene (DBU) were utilized to attach
+TEMPO radical groups to create the radical-containing
+macromolecule, PME-TEMPO. An emerging
+1H NMR
+resonance at 3.98 ppm was observed, and this region is
+characteristic of the C−H atoms on the six-membered rings of
+the nitroxide functionality of TEMPO. There is also a broad
+peak at 3.68 ppm indicating the presence of OH-groups
+resultant of the successful opening of the epoxides (Figures
+S7−S11). The successful epoxide ring-opening is also observed
+in the FTIR spectrum with a peak at 3439 cm−1 corresponding
+with the presence of pendant and backbone −OH groups on
+the PME-TEMPO materials, consistent with all three synthetic
+methods (Figure S12).
+As expected, there is a slight increase in molecular weight
+observed by shifts to smaller retention times in the size
+exclusion chromatography (SEC) chromatograms with each
+synthetic step corresponding to larger pendant groups being
+attached (Figure 1c). The three synthetic methods resulted in
+a larger concentration (∼70−80%) of 1,4 linkages compared to
+Table 1. Characterization of the Various PME-TEMPO Species Quantifying the Stereochemical Ratios in the PβM
+Formulation, the Consumption of Alkenes to Epoxides in the PME-TEMPO, and the Successful Addition of TEMPO Groups
+along with Number Average Molecular Weight (Mn), Polymer Dispersity (Đ), and Glass Transition Temperature (Tg)
+species
+Myrcenea1,2
+(%)
+Myrcenea1,4
+(%)
+Myrcenea3,4
+(%)
+alkenes converted,a
+(%)
+TEMPO incorporated,a
+(%)
+Mna
+(kDa)
+Mnb
+(kDa)
+Đ,b
+Tgc
+(°C)
+FR-50
+4.5
+67.7
+27.9
+32.9
+50.8
+5.2
+5.4
+1.10
+62.0
+FR-100
+4.5
+67.7
+27.9
+53.4
+45.8
+6.1
+4.4
+1.10
+62.2
+FR-150
+4.5
+67.7
+27.9
+58.6
+44.4
+6.5
+3.8
+1.29
+59.8
+FR-200
+4.5
+67.7
+27.9
+70.7
+43.2
+13.7
+13.4
+1.51
+45.3
+FRL-25
+4.8
+78.5
+16.7
+38.0
+30.1
+8.1
+8.0
+1.11
+62.6
+FRL-50
+4.8
+78.5
+16.7
+40.8
+25.0
+6.2
+6.6
+1.12
+60.9
+FRL-75
+4.8
+78.5
+16.7
+50.8
+31.4
+10.1
+8.5
+1.13
+59.9
+FRL-100
+4.8
+78.5
+16.7
+55.4
+37.3
+10.7
+8.2
+1.15
+56.3
+FRL-150
+4.8
+78.5
+16.7
+74.0
+19.2
+5.9
+8.0
+1.04
+54.4
+FRL-200
+4.8
+78.5
+16.7
+46.6
+20.7
+10.8
+11.8
+1.57
+62.3
+RAFT-25
+6.4
+75.5
+19.6
+46.6
+20.0
+21.5
+23.8
+1.16
+58.0
+RAFT-50
+6.4
+75.5
+19.6
+41.5
+37.0
+27.7
+23.1
+1.3
+59.8
+RAFT-100
+6.4
+75.5
+19.6
+62.0
+15.8
+25.9
+28.4
+1.19
+58.5
+RAFT-200
+6.4
+75.5
+19.6
+67.2
+27.8
+23.3
+24.3
+1.11
+47.9
+aAs determined by proton (1H) nuclear magnetic resonance (NMR). bAs determined by size exclusion chromatography (SEC) against polystyrene
+(PS) standards. cGlass transition temperatures were determined by differential scanning calorimetry (DSC) on the second heating scan. These data
+were acquired after removal of the thermal history and scan rate was 10 °C min−1. Note that no melting temperature was observed in any of the
+samples of these materials are completely amorphous.
+ACS Applied Energy Materials
+www.acsaem.org
+Forum Article
+https://doi.org/10.1021/acsaem.3c02060
+ACS Appl. Energy Mater. XXXX, XXX, XXX−XXX
+C
+
+3,4 and 1,2 with the FRL and RAFT methods producing the
+highest percentages of 1,4 linkages which is consistent with
+previous findings reports (Table 1).48,51,54 Subspecies were
+created of each synthetic method, FR, FRL, and RAFT,
+according to the amount of alkenes capable of epoxidation due
+to the amount of mCPBA used (FR-50 meaning enough
+mCPBA is present to epoxidize 50% of alkenes). With
+increasing mCPBA present, an increasing number of alkene
+groups were converted to epoxide groups achieving up to 74%
+of alkenes converted (Table 1). The ring-opening reactions
+allowed for the attachment of ∼50% of TEMPO groups onto
+the opened epoxides while showing high control over all the
+species (1.1 < Đ < 1.6) (Table 1).
+All products had Tg < −40 °C (Table 1). These low Tg
+values are advantageous regarding potential additional
+processing as they are well below the thermal degradation
+temperature of the TEMPO moieties.
+The TEMPO radical loading in the polymers is a crucial
+factor to the performance of these energy storage materials, as
+they are the only electrochemically active moieties in these
+polymers. The redox activity of the TEMPO radical was
+confirmed using cyclic voltammetry with a peak-to-peak width
+of 0.12 V and an oxidation peak occurring at approximately
++0.8 V, consistent with other macromolecules containing
+TEMPO radicals, in representative cyclic voltammograms of
+FR-200, FRL-200, and RAFT-200 (Figure 2).57 This behavior
+is consistent with the PME-TEMPO species on the other end
+of the spectra as well (Figure S13). The presence of radicals on
+the TEMPO pendant groups was quantified using electron
+paramagnetic resonance (EPR) spectroscopy, which showed
+peaks in the range of 3480 and 3520 G across all PME-
+TEMPO species (Figure S15).
+This behavior is consistent with other aliphatic, non-
+conjugated redox-active materials containing TEMPO radi-
+cals.23,58 Radical content measurements were calculated from
+doubly integrating the EPR signal intensities and comparing
+with those of a TEMPO−OH standard as 100% radical
+content (Table S2). The FR and FRL PME-TEMPO species
+generally had higher radical density over the RAFT
+formulations with all but two formulations having over 50%
+radical content and only one of the RAFT formulations having
+over 50% radical content (Table S2). Transporting charge
+between radical sites is heavily related to the radical density, so
+to narrow the scope of material testing, the four subspecies
+with the highest radical content (FR-100, FR-150, FRL-75, and
+FRL-100) were selected for conductivity testing (Table S2).
+The PME-TEMPO species had relatively low electrical
+conductivities (σe) of ∼3 × 10−8 S cm−1, as shown in the
+current−voltage plot of Figure S16. This is not unusual for
+nonconjugated polymers with low radical functionalization as
+they are considered insulators; however, to have any significant
+performance, the addition of a conducting filler to achieve
+higher conductance values is needed. Carbon is commonly
+added to improve conductivity capabilities, particularly in
+composite electrodes. Thus, the materials were combined with
+5% and 15% carbon black (by weight) to increase the
+conductivity values to a suitable level for cathode applications
+(Figure 3).37
+There was a marked increase in conductivity values
+corresponding to the increase in carbon black loading reaching
+values >60 S cm−1 at 15% loading, achieving electrical
+conductivity values on par with other cathode material
+conductivities (Table S3).59 Other studies report significantly
+larger carbon black loadings such as 60 wt % and up to an 8:1
+weight ratio of carbon black to polymer weight to get
+comparable conductivities.37,60 The significant increase in
+conductivity indicates that with minimal carbon black loading
+(i.e., 5 wt % relative to the polymer), the carbon black additive
+is the driving force in the conductivity levels.
+Adding ionic salts to composite polymer electrodes is an
+effective strategy to create mixed ionic and electronic
+conducting energy storage materials.61 To quantify the effect
+of salt-mixing on the conductivity of the PME-TEMPO
+materials, two lithium-based salts were loaded into the
+polymer. The first was lithium hexafluorophosphate (LiPF6)
+as it is a common salt used in electrolyte solutions for lithium-
+ion batteries.62 The second selected salt was lithium chloride
+Figure 2. Representative cyclic voltammograms (CVs) of FR, FRL,
+and RAFT PME-TEMPO species showing the oxidation and
+reduction reactions of the TEMPO radical. An electrolyte solution
+of 0.1 M tetrabutylammonium hexafluorophosphate (TBAPF6) in
+acetonitrile was used with scan rates of 50 mV s−1and a polymer
+concentration of 10 mg mL−1.
+Figure 3. Electrical conductivity of the PME-TEMPO composites as a
+function of carbon black loading. Note that the data points shown are
+the averages of three trials and the standard deviations of the averages
+are smaller than the data points. The device schematic used for the
+study is inset.
+ACS Applied Energy Materials
+www.acsaem.org
+Forum Article
+https://doi.org/10.1021/acsaem.3c02060
+ACS Appl. Energy Mater. XXXX, XXX, XXX−XXX
+D
+
+(LiCl) as LiPF6 has shown to be relatively chemically instable
+and unsafe, particularly when flammable, low boiling point
+solvents are used and LiCl has shown to be more
+biotolerable.62−64 Respective salt amounts (15 and 30 wt %)
+of total sample mass were dissolved in the PME-TEMPO
+materials and methanol-chloroform solvent mix and were
+subsequently dried under vacuum. Frequency sweeps were
+conducted on the raw and salt-loaded materials at temper-
+atures ranging from −30 °C ≤T ≤80 °C (Figures S19−S20).
+There was an expected rise of conductivity values with the
+increase in frequency across the board in all formulations along
+with the increase in temperature. To investigate electron
+transport as a function of salt loading, upper frequency
+conductivities (106 Hz) were measured on a temperature
+sweep. The incorporation of Li ions proved to increase the
+electronic conductivity of the PME-TEMPO materials
+increasing up to ∼10−5 S cm−1 in the LiPF6 loaded
+formulations from the pristine PME-TEMPO materials (Figure
+4b,c). The higher salt loading (LiPF6 and LiCl) generally led to
+higher electronic conductivity levels likely due to the enhanced
+mixed conduction of the Li-ion loading providing greater
+electron transport properties in the polymers. This could be
+due to multiple factors increasing the charge transport such as
+ionic-electronic coupling, and electronic and ionic transport.
+This was apart from the FRL-100 material as the 15 wt % had a
+higher conductivity than the 30 wt % (Figure 4b). Despite
+there being a higher ion concentration indicating there should
+be a uniform increase in electronic conductivity, the higher salt
+loading could affect segmental motions within the PME-
+TEMPO materials which would affect the electron and ion
+transport of the materials.65 In general, the LiCl loaded
+polymers had higher conductivities than the LiPF6 formula-
+tions. This is except for FRL-100 formulation at 15 wt %, and
+FR-100 at 30 wt % which ranged from three-to-one orders
+magnitude of electrical conductivity higher than the mirrored
+LiCl formulations (Figure 4b,c). This is likely due to LiCl
+being more soluble in the PME-TEMPO materials than the
+LiPF6 leading to greater electron−ion interactions and
+facilitating higher degrees of electron transport. The 30 wt %
+LiCl formulations all had higher conductivity levels in all PME-
+TEMPO materials with exception of the FRL-75 formulations
+as the 15 wt % LiCl was roughly half an order of magnitude
+higher than FRL-75 30 wt % LiCl across the entire temperature
+sweep again likely due to the impaired PME-TEMPO
+segmental motion from higher salt loading (Figure 4a). All
+formulations with both lithium salts were able to achieve
+Figure 4. Electrical conductivity of (a) FRL-75, (b) FRL-100, (c) FR-100, and (d) FR-150 PME-TEMPO materials with increasing Li salt loadings
+at a frequency of 106 Hz as a function of temperature.
+ACS Applied Energy Materials
+www.acsaem.org
+Forum Article
+https://doi.org/10.1021/acsaem.3c02060
+ACS Appl. Energy Mater. XXXX, XXX, XXX−XXX
+E
+
+∼10−4 S cm−1 while FRL-75 using 15 wt % LiCl, FRL-100
+using 15 wt % LiPF6, and FR-100 using 30 wt % LiPF6 were
+able to reach conductivity levels of 10−3 S cm−1 (Figure 4).
+With few exceptions, the doping of Li ions provided a
+straightforward manner of mixed conduction allowing as much
+as an increase of 4 orders of magnitude in electrical
+conductivity performance opposed to the pristine PME-
+TEMPO materials.
+For the PME-TEMPO materials to replace traditional
+solvent-based electrolyte mediums, they must be capable of
+ion transport. To isolate ionic conductivity in the Li salt doped
+PME-TEMPO materials, a similar evaluation was conducted
+using poly(ethylene oxide) insulating blocking layers between
+the two gold electrodes and the radical polymer and evaluating
+ionic conductivity levels at 104 Hz (Figures S22−S23). The
+pristine PME-TEMPO materials had baseline conductivity
+values of ∼10−6 S cm−1, too low for significant electrolyte
+application (Figure 5). In similar fashion with the electrical
+conductivity values, the overall ionic conductivity increased
+with the presence of Li salt. Ionic conductivity levels increased
+at least 4 orders of magnitude across all PME-TEMPO
+formulations due to the increase of ion concentration (Figure
+5). This highlighted that the incorporation of the increased ion
+transport capabilities of the polymer. The LiCl formulations
+produced higher ionic conductivity levels than the LiPF6
+formulations in all but two formulations: FRL-100 15 wt %
+and FR-150 30 wt % both reported higher ionic conductivities
+with LiPF6. This is likely due to an increased ion mobility in
+those specific formulations and salt concentrations with LiPF6
+leading to a higher degree of ion transport. Increasing the salt
+concentration in the PME-TEMPO materials generally lead to
+an increase in ionic conductivity with three exceptions, the 15
+wt % LiPF6 FRL-100 formulation had higher conductivity
+measurements (∼2.0 × 10−4 S cm−1) than the 30 wt % LiPF6
+formulation (∼7.0 × 10−4 S cm−1) at 80 °C along with the 15
+wt % FR-150 LiCl formulation as well having a conductivity
+value of ∼2.0 × 10−4 S cm−1 and the 30 wt % LiCl formulation
+had a conductivity value of ∼1.0 × 10−4 S cm−1 (Figure 5b and
+d). This again is likely resultant of the increased Li ion
+concentration leading to impaired segment mobility of the
+polymer which impairs the ability of ion transport effecting
+ionic conductivity. Despite the few exceptions, this behavior
+still shows that doping the PME-TEMPO materials with Li
+ions provides a straightforward method if increasing the ionic
+conductivity. Both Li salts produced formulations with ionic of
+10−3 S cm−1 30 wt % salt incorporation at 80 °C, 6 orders of
+Figure 5. Ionic conductivity of (a) FRL-75, (b) FRL-100, (c) FR-100, and (d) FR-150 PME-TEMPO materials with increasing Li salt loadings at a
+frequency of 104 Hz as a function of temperature.
+ACS Applied Energy Materials
+www.acsaem.org
+Forum Article
+https://doi.org/10.1021/acsaem.3c02060
+ACS Appl. Energy Mater. XXXX, XXX, XXX−XXX
+F
+
+magnitude above the pristine polymers (Figure 5). Once
+doped with the Li salts, the PME-TEMPO materials were able
+to achieve conductivity measurements on par with other
+electrolyte solutions for ion transport showing potential for a
+polymer electrolyte in a battery application.66,67
+■CONCLUSIONS
+The bioderived PME-TEMPO materials synthesized from β-
+myrcene serve as aliphatic, nonconjugated p-type materials
+capable of facilitating redox reactions between neighboring
+radical sites on TEMPO pendant groups. While in their
+pristine (i.e., not doped) states, these materials do not provide
+sufficient conductance values to serve as a cathode material or
+electrolyte medium, when combined with external loadings or
+carbonaceous material and Li-salt, their performances dramat-
+ically increase. When blended with as little as 5% carbon black,
+the conductivity increased up to 10 orders of magnitude where
+similar loadings have reported conductivities of ∼10−7 S
+cm−1.68 When blending with either lithium hexafluorophos-
+phate and lithium chloride, these materials serve as mixed
+ionic-electronic conductors with electronic conductivity values
+increasing up to 3 orders of magnitude at 80 °C and higher
+frequencies (106 Hz) and ionic conductivity values increasing 2
+orders of magnitude at 80 °C and 104 Hz. These elevated
+metrics with the combination of external materials show
+potential application for energy storage. These materials
+provide an attractive, bioderived alternative for cathode and
+polymer electrolyte application for sustainable organic
+batteries.
+■ASSOCIATED CONTENT
+*
+sı Supporting Information
+The Supporting Information is available free of charge at
+https://pubs.acs.org/doi/10.1021/acsaem.3c02060.
+Methods and materials, as well as spectroscopic
+characterizations, including
+1H NMR, FT-IR, and
+dielectric spectroscopy, SEC, DSC, FT-IR, EPR, cyclic
+voltammograms, current−voltage curves and calcula-
+tions, and preparation and characterization of blocking
+electrodes (PDF)
+■AUTHOR INFORMATION
+Corresponding Authors
+Andrew C. Weems −Department of Mechanical Engineering
+and Biomedical Engineering, Translational Biomedical
+Sciences, Molecular and Chemical Biology, Ohio
+Musculoskeletal and Neurological Institute, Center for
+Advanced Materials Processing, Ohio University, Athens,
+Ohio 45701, United States;
+orcid.org/0000-0001-6592-
+3015; Email: weemsac@ohio.edu
+Bryan W. Boudouris −Charles D. Davidson School of
+Chemical Engineering, Purdue University, West Lafayette,
+Indiana 47907, United States; Department of Chemistry,
+Purdue University, West Lafayette, Indiana 47907, United
+States;
+orcid.org/0000-0003-0428-631X;
+Email: boudouris@purdue.edu
+Authors
+Scott L. Brooks −Department of Mechanical Engineering,
+Ohio University, Athens, Ohio 45701, United States
+Zihao Liang −Charles D. Davidson School of Chemical
+Engineering, Purdue University, West Lafayette, Indiana
+47907, United States
+Hyunki Yeo −Charles D. Davidson School of Chemical
+Engineering, Purdue University, West Lafayette, Indiana
+47907, United States
+Complete contact information is available at:
+https://pubs.acs.org/10.1021/acsaem.3c02060
+Notes
+The authors declare no competing financial interest.
+■ACKNOWLEDGMENTS
+The authors would like to thank the Department of Energy for
+Weems’s startup funds. Additionally, we are grateful to the
+Ohio NASA Space Consortium and the Department of
+Education’s GAANN fellowship for funding S Brooks. The
+work at Purdue University was supported by the US
+Department of Energy, Office of Science, Basic Energy
+Sciences, under award DE-SC0021967 (Program Manager:
+Dr. Craig Henderson), and we thank the Department of
+Energy for this generous support.
+■REFERENCES
+(1) Tomlinson, E. P.; Hay, M. E.; Boudouris, B. W. Radical
+Polymers and Their Application to Organic Electronic Devices.
+Macromolecules 2014, 47 (18), 6145−6158.
+(2) Friebe, C.; Lex-Balducci, A.; Schubert, U. S. Sustainable Energy
+Storage: Recent Trends and Developments toward Fully Organic
+Batteries. ChemSusChem 2019, 12 (18), 4093−4115.
+(3) Kim, J.; Kim, J. H.; Ariga, K. Redox-Active Polymers for Energy
+Storage Nanoarchitectonics. Joule 2017, 1 (4), 739−768.
+(4) Holliday, S.; Donaghey, J. E.; McCulloch, I. Advances in charge
+carrier mobilities of semiconducting polymers used in organic
+transistors. Chem. Mater. 2014, 26 (1), 647−663.
+(5) Chi, T.; Akkiraju, S.; Liang, Z.; Tan, Y.; Kim, H. J.; Zhao, X.;
+Savoie, B. M.; Boudouris, B. W. Design of an n-type low glass
+transition temperature radical polymer. Polym. Chem. 2021, 12 (10),
+1448−1457.
+(6) Cheng, F.; Bonder, E. M.; Jäkle, F. Electron-Deficient
+Triarylborane Block Copolymers: Synthesis by Controlled Free
+Radical Polymerization and Application in the Detection of Fluoride
+Ions. J. Am. Chem. Soc. 2013, 135 (46), 17286−17289.
+(7) Joo, Y.; Agarkar, V.; Sung, S. H.; Savoie, B. M.; Boudouris, B. W.
+A nonconjugated radical polymer glass with high electrical
+conductivity. Science 2018, 359 (6382), 1391−1395.
+(8) Rostro, L.; Baradwaj, A. G.; Boudouris, B. W. Controlled Radical
+Polymerization and Quantification of Solid State Electrical Con-
+ductivities of Macromolecules Bearing Pendant Stable Radical
+Groups. ACS Appl. Mater. Interfaces 2013, 5 (20), 9896−9901.
+(9) Merckle, D.; King, O.; Weems, A. C. Ring-Opening
+Copolymerization of Four-Dimensional Printable Polyesters Using
+Supramolecular Thiourea/Organocatalysis. ACS Sustainable Chem.
+Eng. 2023, 11 (6), 2219−2228.
+(10) Suga, T.; Nishide, H. Redox-Active Radical Polymers for a
+Totally Organic Rechargeable Battery. In Polymers for Energy Storage
+and Delivery: Polyelectrolytes for Batteries and Fuel Cells, ACS
+Symposium Series, Vol. 1096; American Chemical Society:
+Washington, D.C., 2012; pp 45−53 DOI: 10.1021/bk-2012-
+1096.ch003.
+(11) Nikiforov, M. P.; Lai, B.; Chen, W.; Chen, S.; Schaller, R. D.;
+Strzalka, J.; Maser, J.; Darling, S. B. Detection and role of trace
+impurities in high-performance organic solar cells. Energy Environ. Sci.
+2013, 6 (5), 1513−1520.
+(12) Krebs, F. C.; Nyberg, R. B.; Jørgensen, M. Influence of Residual
+Catalyst on the Properties of Conjugated Polyphenylenevinylene
+ACS Applied Energy Materials
+www.acsaem.org
+Forum Article
+https://doi.org/10.1021/acsaem.3c02060
+ACS Appl. Energy Mater. XXXX, XXX, XXX−XXX
+G
+
+Materials: Palladium Nanoparticles and Poor Electrical Performance.
+Chem. Mater. 2004, 16 (7), 1313−1318.
+(13) Huo, M.; Yuan, J.; Tao, L.; Wei, Y. Redox-responsive polymers
+for drug delivery: from molecular design to applications. Polym. Chem.
+2014, 5 (5), 1519−1528.
+(14) Sui, X.; Feng, X.; Hempenius, M. A.; Vancso, G. J. Redox active
+gels: synthesis, structures and applications. J. Mater. Chem. B 2013, 1
+(12), 1658−1672.
+(15) Janoschka, T.; Friebe, C.; Hager, M. D.; Martin, N.; Schubert,
+U. S. An Approach Toward Replacing Vanadium: A Single Organic
+Molecule for the Anode and Cathode of an Aqueous Redox-Flow
+Battery. ChemistryOpen 2017, 6 (2), 216−220.
+(16) Oyaizu, K.; Nishide, H. Radical Polymers for Organic
+Electronic Devices: A Radical Departure from Conjugated Polymers?
+Adv. Mater. 2009, 21 (22), 2339−2344.
+(17) Wingate, A. J.; Boudouris, B. W. Recent advances in the
+syntheses of radical-containing macromolecules. J. Polym. Sci., Part A:
+Polym. Chem. 2016, 54 (13), 1875−1894.
+(18) Hung, M.-K.; Wang, Y.-H.; Lin, C.-H.; Lin, H.-C.; Lee, J.-T.
+Synthesis and electrochemical behaviour of nitroxide polymer brush
+thin-film electrodes for organic radical batteries. J. Mater. Chem. 2012,
+22 (4), 1570−1577.
+(19) Janoschka, T.; Teichler, A.; Krieg, A.; Hager, M. D.; Schubert,
+U. S. Polymerization of free secondary amine bearing monomers by
+RAFT polymerization and other controlled radical techniques. J.
+Polym. Sci., Part A: Polym. Chem. 2012, 50 (7), 1394−1407.
+(20) Shipp, D. A. Living radical polymerization: Controlling
+molecular size and chemical functionality in vinyl polymers. Journal
+of Macromolecular Science, Part C: Polymer Reviews 2005, 45 (2), 171−
+194.
+(21) Gao, H.; Matyjaszewski, K. Synthesis of functional polymers
+with controlled architecture by CRP of monomers in the presence of
+cross-linkers: From stars to gels. Prog. Polym. Sci. 2009, 34 (4), 317−
+350.
+(22) Oyaizu, K.; Kawamoto, T.; Suga, T.; Nishide, H. Synthesis and
+Charge Transport Properties of Redox-Active Nitroxide Polyethers
+with Large Site Density. Macromolecules 2010, 43 (24), 10382−
+10389.
+(23) Rostro, L.; Wong, S. H.; Boudouris, B. W. Solid State Electrical
+Conductivity of Radical Polymers as a Function of Pendant Group
+Oxidation State. Macromolecules 2014, 47 (11), 3713−3719.
+(24) Ramesh, S.; Arof, A. K. Electrical conductivity studies of
+polyvinyl chloride-based electrolytes with double salt system. Solid
+State Ionics 2000, 136 (1-2), 1197−1200.
+(25) Kola, S.; Sinha, J.; Katz, H. E. Organic transistors in the new
+decade: Toward n-channel, printed, and stabilized devices. J. Polym.
+Sci., Part B: Polym. Phys. 2012, 50 (15), 1090−1120.
+(26) Kamtekar, K. T.; Monkman, A. P.; Bryce, M. R. Recent
+advances in white organic light-emitting materials and devices
+(WOLEDs). Adv. Mater. 2010, 22 (5), 572−582.
+(27) Nakahara, K.; Oyaizu, K.; Nishide, H. Organic radical battery
+approaching practical use. Chemistry letters 2011, 40 (3), 222−227.
+(28) Suga, T.; Sakata, M.; Aoki, K.; Nishide, H. Synthesis of Pendant
+Radical- and Ion-Containing Block Copolymers via Ring-Opening
+Metathesis Polymerization for Organic Resistive Memory. ACS Macro
+Lett. 2014, 3 (8), 703−707.
+(29) Yonekuta, Y.; Susuki, K.; Oyaizu, K.; Honda, K.; Nishide, H.
+Battery-Inspired, Nonvolatile, and Rewritable Memory Architecture: a
+Radical Polymer-Based Organic Device. J. Am. Chem. Soc. 2007, 129
+(46), 14128−14129.
+(30) Nishide, H.; Koshika, K.; Oyaizu, K. Environmentally benign
+batteries based on organic radical polymers. Pure and applied chemistry
+2009, 81 (11), 1961−1970.
+(31) Oyaizu, K.; Sukegawa, T.; Nishide, H. Dual dopable poly
+(phenylacetylene) with nitronyl nitroxide pendants for reversible
+ambipolar charging and discharging. Chem. Lett. 2011, 40 (2), 184−
+185.
+(32) Suga, T.; Pu, Y.-J.; Oyaizu, K.; Nishide, H. Electron-transfer
+kinetics of nitroxide radicals as an electrode-active material. Bull.
+Chem. Soc. Jpn. 2004, 77 (12), 2203−2204.
+(33) Nishide, H.; Suga, T. Organic Radical Battery. Electrochemical
+Society Interface 2005, 14 (4), 32.
+(34) Oyaizu, K.; Suga, T.; Yoshimura, K.; Nishide, H. Synthesis and
+Characterization of Radical-Bearing Polyethers as an Electrode-Active
+Material for Organic Secondary Batteries. Macromolecules 2008, 41
+(18), 6646−6652.
+(35) Liang, Z.; Hsu, S.-N.; Tan, Y.; Tahir, H.; Kim, H. J.; Liu, K.;
+Stoehr, J. F.; Zeller, M.; Dou, L.; Savoie, B. M.; Boudouris, B. W.
+Significant charge transport effects due to subtle molecular changes in
+nitroxide radical single crystals. Cell Reports Physical Science 2023, 4
+(5), No. 101409.
+(36) Liang, Z.; Tan, Y.; Hsu, S.-N.; Stoehr, J. F.; Tahir, H.; Woeppel,
+A. B.; Debnath, S.; Zeller, M.; Dou, L.; Savoie, B. M.; Boudouris, B.
+W. Charge transport and antiferromagnetic ordering in nitroxide
+radical crystals. Molecular Systems Design & Engineering 2023, 8 (4),
+464−472.
+(37) Nguyen, T. P.; Easley, A. D.; Kang, N.; Khan, S.; Lim, S.-M.;
+Rezenom, Y. H.; Wang, S.; Tran, D. K.; Fan, J.; Letteri, R. A.; He, X.;
+Su, L.; Yu, C.-H.; Lutkenhaus, J. L.; Wooley, K. L. Polypeptide
+organic radical batteries. Nature 2021, 593 (7857), 61−66.
+(38) Robert, C.; de Montigny, F.; Thomas, C. M. Tandem synthesis
+of alternating polyesters from renewable resources. Nat. Commun.
+2011, 2 (1), 586.
+(39) Chamas, A.; Moon, H.; Zheng, J.; Qiu, Y.; Tabassum, T.; Jang,
+J. H.; Abu-Omar, M.; Scott, S. L.; Suh, S. Degradation Rates of
+Plastics in the Environment. ACS Sustainable Chem. Eng. 2020, 8 (9),
+3494−3511.
+(40) Thomsett, M. R.; Moore, J. C.; Buchard, A.; Stockman, R. A.;
+Howdle, S. M. New renewably-sourced polyesters from limonene-
+derived monomers. Green Chem. 2019, 21 (1), 149−156.
+(41) Della Monica, F.; Kleij, A. W. From terpenes to sustainable and
+functional polymers. Polym. Chem. 2020, 11 (32), 5109−5127.
+(42) O'Brien, D. M.; Atkinson, R. L.; Cavanagh, R.; Pacheco, A.
+A.C.; Larder, R.; Kortsen, K.; Krumins, E.; Haddleton, A. J.;
+Alexander, C.; Stockman, R. A.; Howdle, S. M.; Taresco, V. A
+‘greener’one-pot synthesis of monoterpene-functionalised lactide
+oligomers. Eur. Polym. J. 2020, 125, No. 109516.
+(43) Singh, A.; Kamal, M. Synthesis and characterization of
+polylimonene: Polymer of an optically active terpene. J. Appl.
+Polym. Sci. 2012, 125 (2), 1456−1459.
+(44) Guggenbiller, G.; Brooks, S.; King, O.; Constant, E.; Merckle,
+D.; Weems, A. C. 3D Printing of Green and Renewable Polymeric
+Materials: Toward Greener Additive Manufacturing. ACS Applied
+Polymer Materials 2023, 5, 3201.
+(45) Claudino, M.; Mathevet, J.-M.; Jonsson, M.; Johansson, M.
+Bringing d-limonene to the scene of bio-based thermoset coatings via
+free-radical thiol−ene chemistry: macromonomer synthesis, UV-
+curing and thermo-mechanical characterization. Polym. Chem. 2014,
+5 (9), 3245−3260.
+(46) Weems, A. C.; Delle Chiaie, K. R.; Worch, J. C.; Stubbs, C. J.;
+Dove, A. P. Terpene- and terpenoid-based polymeric resins for
+stereolithography 3D printing. Polym. Chem. 2019, 10 (44), 5959−
+5966.
+(47) Sharma, S.; Srivastava, A. K. Radical co-polymerization of
+limonene with N-vinyl pyrrolidone: synthesis and characterization.
+Des. Monomers Polym. 2006, 9 (5), 503−516.
+(48) Bauer, N.; Brunke, J.; Kali, G. Controlled Radical Polymer-
+ization of Myrcene in Bulk: Mapping the Effect of Conditions on the
+System. ACS Sustainable Chem. Eng. 2017, 5 (11), 10084−10092.
+(49) Hilschmann, J.; Kali, G. Bio-based polymyrcene with highly
+ordered structure via solvent free controlled radical polymerization.
+Eur. Polym. J. 2015, 73, 363−373.
+(50) Naddeo, M.; Buonerba, A.; Luciano, E.; Grassi, A.; Proto, A.;
+Capacchione, C. Stereoselective polymerization of biosourced
+terpenes β-myrcene and β-ocimene and their copolymerization with
+styrene promoted by titanium catalysts. Polymer 2017, 131, 151−159.
+ACS Applied Energy Materials
+www.acsaem.org
+Forum Article
+https://doi.org/10.1021/acsaem.3c02060
+ACS Appl. Energy Mater. XXXX, XXX, XXX−XXX
+H
+
+(51) Constant, E.; King, O.; Weems, A. C. Bioderived 4D Printable
+Terpene Photopolymers from Limonene and β-Myrcene. Biomacro-
+molecules 2022, 23 (6), 2342−2352.
+(52) Weems, A. C.; Delle Chiaie, K. R.; Yee, R.; Dove, A. P.
+Selective Reactivity of Myrcene for Vat Photopolymerization 3D
+Printing and Post-Fabrication Surface Modification. Biomacromole-
+cules 2020, 21 (1), 163−170.
+(53) Anastasiou, D. E. Investigating the Epoxidation of Poly-β-
+myrcene: Optimization, Kinetics, and Thermodynamics. Journal of
+Polymers and the Environment 2023, 31, 4044.
+(54) Zhang, J.; Aydogan, C.; Patias, G.; Smith, T.; Al-Shok, L.; Liu,
+H.; Eissa, A. M.; Haddleton, D. M. Polymerization of Myrcene in
+Both Conventional and Renewable Solvents: Postpolymerization
+Modification via Regioselective Photoinduced Thiol−Ene Chemistry
+for Use as Carbon Renewable Dispersants. ACS Sustainable Chem.
+Eng. 2022, 10 (29), 9654−9664.
+(55) Matic, A.; Hess, A.; Schanzenbach, D.; Schlaad, H. Epoxidized
+1,4-polymyrcene. Polym. Chem. 2020, 11 (7), 1364−1368.
+(56) Tibbetts, J. D.; Cunningham, W. B.; Vezzoli, M.; Plucinski, P.;
+Bull, S. D. Sustainable catalytic epoxidation of biorenewable terpene
+feedstocks using H2O2 as an oxidant in flow microreactors. Green
+Chem. 2021, 23 (15), 5449−5455.
+(57) Cheng, Y.; Hall, D.; Boualavong, J.; Hickey, R.; Lvov, S.;
+Gorski, C. Influence of Hydrotropes on the Solubilities and
+Diffusivities of Redox-Active Organic Compounds for Aqueous
+Flow Batteries. ACS Omega 2021, 6, 30800−30810.
+(58) Zhang, J.; Shen, H.; Song, W.; Wang, G. Synthesis and
+Characterization of Novel Copolymers with Different Topological
+Structures and TEMPO Radical Distributions. Macromolecules 2017,
+50 (7), 2683−2695.
+(59) El-Tantawy, F.; Kamada, K.; Ohnabe, H. In situ network
+structure, electrical and thermal properties of conductive epoxy resin−
+carbon black composites for electrical heater applications. Mater. Lett.
+2002, 56 (1), 112−126.
+(60) Wu, X.; Liu, M.; Yao, S.; Li, S.; Pang, S.; Shen, X.; Li, T.; Qin,
+S. Boosting the electrochemical performance of lithium-sulfur
+batteries by using a carbon black/LiMn2O4-modified separator. J.
+Alloys Compd. 2020, 835, No. 155251.
+(61) Li, X.; Liu, Z.; Zhou, Z.; Gao, H.; Liang, G.; Rauber, D.; Kay, C.
+W. M.; Zhang, P. Effects of Cationic Species in Salts on the Electrical
+Conductivity of Doped PEDOT:PSS Films. ACS Applied Polymer
+Materials 2021, 3 (1), 98−103.
+(62) Wang, Q.; Jiang, L.; Yu, Y.; Sun, J. Progress of enhancing the
+safety of lithium ion battery from the electrolyte aspect. Nano Energy
+2019, 55, 93−114.
+(63) Nikiforidis, G.; Raghibi, M.; Sayegh, A.; Anouti, M. Low-
+Concentrated Lithium Hexafluorophosphate Ternary-based Electro-
+lyte for a Reliable and Safe NMC/Graphite Lithium-Ion Battery. J.
+Phys. Chem. Lett. 2021, 12 (7), 1911−1917.
+(64) Zhang, J.; He, L.; Yang, Z.; Li, L.; Cai, W. Lithium chloride
+promotes proliferation of neural stem cells in vitro, possibly by
+triggering the Wnt signaling pathway. Animal Cells and Systems 2019,
+23 (1), 32−41.
+(65) Zhao, Y.; Tao, R.; Fujinami, T. Enhancement of ionic
+conductivity of PEO-LiTFSI electrolyte upon incorporation of
+plasticizing lithium borate. Electrochim. Acta 2006, 51 (28), 6451−
+6455.
+(66) Ding, Y.; Zhang, P.; Long, Z.; Jiang, Y.; Xu, F.; Di, W. The ionic
+conductivity and mechanical property of electrospun P(VdF-HFP)/
+PMMA membranes for lithium ion batteries. J. Membr. Sci. 2009, 329
+(1), 56−59.
+(67) Fan, F. Y.; Pan, M. S.; Lau, K. C.; Assary, R. S.; Woodford, W.
+H.; Curtiss, L. A.; Carter, W. C.; Chiang, Y.-M. Solvent effects on
+polysulfide redox kinetics and ionic conductivity in lithium-sulfur
+batteries. J. Electrochem. Soc. 2016, 163 (14), A3111.
+(68) Burmistrov, I.; Gorshkov, N.; Ilinykh, I.; Muratov, D.;
+Kolesnikov, E.; Anshin, S.; Mazov, I.; Issi, J. P.; Kusnezov, D.
+Improvement of carbon black based polymer composite electrical
+conductivity with additions of MWCNT. Compos. Sci. Technol. 2016,
+129, 79−85.
+ACS Applied Energy Materials
+www.acsaem.org
+Forum Article
+https://doi.org/10.1021/acsaem.3c02060
+ACS Appl. Energy Mater. XXXX, XXX, XXX−XXX
+I
+

@@ -1,0 +1,254 @@
+{
+   "page_1_img_1.png": {
+      "title": "Ion Pair Uptake in Ion Gel Devices Based on Organic Mixed Ionic\u2013Electronic Conductors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_pg2t-tt_iongel\\pg2t-tt_iongel",
+      "image_url": [],
+      "figure_name": "page_1_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_1_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.12251568585634232,
+            "height": 44,
+            "width": 223,
+            "geometry": [
+               {
+                  "x": 2,
+                  "y": 0
+               },
+               {
+                  "x": 225,
+                  "y": 0
+               },
+               {
+                  "x": 2,
+                  "y": 44
+               },
+               {
+                  "x": 225,
+                  "y": 44
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 2,
+                     "y": 0
+                  },
+                  {
+                     "x": 225,
+                     "y": 0
+                  },
+                  {
+                     "x": 2,
+                     "y": 44
+                  },
+                  {
+                     "x": 225,
+                     "y": 44
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_4_img_1.png": {
+      "title": "Ion Pair Uptake in Ion Gel Devices Based on Organic Mixed Ionic\u2013Electronic Conductors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_pg2t-tt_iongel\\pg2t-tt_iongel",
+      "image_url": [],
+      "figure_name": "page_4_img_1.png",
+      "full_caption": "Figure 2. a) X-ray scattering of p(g2T-TT) films in (left to right) pristine state, with PIL electrolyte, and with ion gel electrolyte. b) Out-of-plane and c) in-plane lineouts from 2D scattering.",
+      "figure_path": "output\\figures\\page_4_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9698147773742676,
+            "height": 675,
+            "width": 745,
+            "geometry": [
+               {
+                  "x": 4,
+                  "y": 526
+               },
+               {
+                  "x": 749,
+                  "y": 526
+               },
+               {
+                  "x": 4,
+                  "y": 1201
+               },
+               {
+                  "x": 749,
+                  "y": 1201
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 4,
+                     "y": 526
+                  },
+                  {
+                     "x": 749,
+                     "y": 526
+                  },
+                  {
+                     "x": 4,
+                     "y": 1201
+                  },
+                  {
+                     "x": 749,
+                     "y": 1201
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Out-of-plane lineouts from 2D scattering.",
+            "keywords": [
+               "2D scattering",
+               "lineouts",
+               "analysis"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9584943056106567,
+            "height": 531,
+            "width": 1501,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 1
+               },
+               {
+                  "x": 1501,
+                  "y": 1
+               },
+               {
+                  "x": 0,
+                  "y": 532
+               },
+               {
+                  "x": 1501,
+                  "y": 532
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 1
+                  },
+                  {
+                     "x": 1501,
+                     "y": 1
+                  },
+                  {
+                     "x": 0,
+                     "y": 532
+                  },
+                  {
+                     "x": 1501,
+                     "y": 532
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "X-ray scattering of p(g2T-TT) films in (left to right) pristine state, with PIL electrolyte, and with ion gel electrolyte.",
+            "keywords": [
+               "X-ray scattering",
+               "p(g2T-TT)",
+               "electrolytes"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.943228542804718,
+            "height": 676,
+            "width": 739,
+            "geometry": [
+               {
+                  "x": 761,
+                  "y": 527
+               },
+               {
+                  "x": 1500,
+                  "y": 527
+               },
+               {
+                  "x": 761,
+                  "y": 1203
+               },
+               {
+                  "x": 1500,
+                  "y": 1203
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 761,
+                     "y": 527
+                  },
+                  {
+                     "x": 1500,
+                     "y": 527
+                  },
+                  {
+                     "x": 761,
+                     "y": 1203
+                  },
+                  {
+                     "x": 1500,
+                     "y": 1203
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "In-plane lineouts from 2D scattering.",
+            "keywords": [
+               "2D scattering",
+               "lineouts",
+               "analysis"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   }
+}

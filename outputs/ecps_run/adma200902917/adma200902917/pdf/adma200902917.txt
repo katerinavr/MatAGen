@@ -1,0 +1,557 @@
+Spray-Processable Blue-to-Highly Transmissive
+Switching Polymer Electrochromes via the
+Donor–Acceptor Approach
+By Chad M. Amb, Pierre M. Beaujuge, and John R. Reynolds*
+Relying on low-power stimulated optical changes, non-emissive
+electrochromic (EC) technologies can be operated under a wide
+range of viewing angles and lighting conditions (e.g., direct
+sunlight), making them especially desirable in the development
+of ﬂexible-display-device applications including electronic papers
+(e-papers) and large-area information panels.[1,2] With their
+applicability in scalable and cost-effective manufacturing pro-
+cesses spanning inkjet- and ﬂexo-printing, solution-processable
+p-conjugated polymers are ﬁnding the path to commercialization
+in several areas including solar power conversion[3] and are now
+expected to be applied to various transmissive/reﬂective electro-
+chromic device (ECD) conﬁgurations.[1] However, for electro-
+chromic polymers (ECPs) to compete with the more established
+electrophoretic technologies, their potential for color tunability
+should be conﬁrmed by extending the design and synthesis of
+polymer electrochromes to a palette of derivatives possessing
+complementary color states, as well as a redox accessible
+transmissive state.
+The homopolymerization of dioxythiophenes[4–7] (DOTs) and
+other electron-rich monomers[8–10] with a high-lying highest
+occupied
+molecular
+orbital
+(HOMO)
+commonly
+produces
+narrow-bandgap materials absorbing in the red region of the
+visible spectrum, hence, exhibiting colors ranging from purple to
+dark blue. Nonetheless, it is worth noting that only a few are, at
+the same time, solution-processable (the vast majority being
+electropolymerized from unsubstituted monomers), cathodically
+coloring, and fast-switching analogues with long-term stability on
+repeated electrochemical switching.[8,11] In parallel, the ‘‘donor–
+acceptor’’ (DA) approach,[12] now frequently applied to macro-
+molecular systems in the context of bandgap engineering, has
+recently been employed to achieve blue-to-clear switching ECPs
+incorporating low-lying lowest unoccupied molecular orbital
+(LUMO) moieties such as cyanovinylene[13] and benzotriazole,[14]
+thus, introducing the perspective of reducing the electron-rich
+character of the backbone, while retaining the low bandgap
+producing
+the
+desired
+blue
+color.
+In
+spite
+of
+these
+developments,
+designing
+neutral-state
+blue
+polymer
+electrochromes combining solution processability, high contrast
+ratios attainable in subsecond switching times, and long-term
+redox stability (over 10000 cycles) represents the next logical step
+towards truly useful EC materials.
+In recent work, we investigated the effect of varying the relative
+contribution of electron-rich and electron-deﬁcient heterocycles
+composing the polymer repeat unit on the absorption spectrum of
+a series of well-deﬁned p-conjugated polymers containing various
+DOTs
+and
+2,1,3-benzothiadiazole
+(BTD)
+as
+the
+accepting
+component (see Fig. 1a P1–P3).[15] These polymers were shown
+to possess a dual band of absorption in the visible spectrum
+consisting of a short- and a long-wavelength absorption band,
+which can be modulated in terms of their relative intensity,
+wavelength maxima, and absorption onsets as a function of the
+DA content in the main-chain. In particular, when the local
+minimum of absorption separating these two optical transitions
+was positioned in the 500–550-nm range, the resulting ECPs were
+found to exhibit the color green,[16] a color-state historically
+difﬁcult to achieve in the ﬁeld of p-conjugated polymers.[17,18]
+Herein, we demonstrate how the dual band of absorption
+found in macromolecular p-conjugated systems alternating
+electron-rich and -poor heterocycles[15,19–22] can be tailored to
+open a broad window of transmission in the high-energy region
+of the visible spectrum, with the goal of producing neutral-state
+saturated blue ECPs. In this instance, the extent of electron-rich
+building units along the polymer backbone has been reduced to a
+point where the short-wavelength absorption band of the polymer
+is
+fully
+transferred
+into
+the
+UV
+to
+maximize
+the
+blue
+transmission,
+while
+the
+long-wavelength
+optical
+transition
+extends from the green region up to the near-IR (see Fig. 1b,
+P4a). Our approach is exempliﬁed by a series of spray-processable
+cathodically coloring polymer electrochromes that switch to a
+highly transmissive oxidized state on electrochemical doping.
+The corresponding polymers are linear, strictly alternating in
+terms of their DA content (see Fig. 1c P4a–P4c), and possess
+oxidation potentials sufﬁciently high to provide ambient stability
+[in contrast with the majority of their all-donor counterparts
+including poly(3,4-ethylenedioxythiophene) (PEDOT)][7] but low
+enough to allow fast and reversible redox switching on repeated
+cycling. In addition, an ester-functionalized DA electrochrome
+(P4c) was achieved by solubilizing side chains that can be
+chemically removed in a postdeposition processing step to
+produce ﬁlms insoluble in conventional organic solvents that
+retain their electroactivity. Our strategy offers perspectives for the
+fabrication of long-lived electrolyte-based switchable devices, as
+well as in the processing of vertically stacked ECDs with multiple
+electroactive layers.
+COMMUNICATION
+www.advmat.de
+www.MaterialsViews.com
+[*] Prof. J. R. Reynolds, Dr. C. M. Amb, Dr. P. M. Beaujuge
+The George and Josephine Butler Polymer Research Laboratory
+Department of Chemistry
+Center for Macromolecular Science and Engineering
+University of Florida
+Gainesville, FL, 32611 (USA)
+E-mail: reynolds@chem.ufl.edu
+DOI: 10.1002/adma.200902917
+724
+ 2010 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+Adv. Mater. 2010, 22, 724–728
+
+COMMUNICATION
+www.MaterialsViews.com
+www.advmat.de
+While the origin of the dual-band absorption sometimes
+encountered in DA-type semiconducting polymers remains a
+source of debate, two mainstream rationales have been frequently
+proposed. A ﬁrst assumption attributes the lower-energy optical
+transition to the presence of intramolecular charge-transfer
+excitons occurring on the presence of covalently bound DA
+segments along the backbone.[23,24] A second assumption
+considers the presence of low-lying unoccupied energy levels,
+strictly localized on the electron-deﬁcient heterocycles, yet
+forming a discrete ‘‘band’’ of easily accessed energy states within
+the
+‘‘bandgap’’
+of
+the
+conjugated
+system
+in
+its
+ground
+state.[16,25–27] In both cases, the higher-energy transitions appear
+localized on the most-electron-rich building units incorporated
+along the polymer backbone with a clear dependence on their
+relative concentration to the electron-deﬁcient heterocycles.[15]
+This distinct contribution from the electron-rich segments on
+the short-wavelength absorption band in DA backbones is
+illustrated in Figure 1b, where the said optical transition
+undergoes a hypsochromic shift ranging from 25 to 40 nm as
+the number of 3,4-propylenedioxythiophene (ProDOT) units
+incorporated in the repeat unit is decreased from 6 (P1), to 4 (P2),
+and to 2 (P3) units. In parallel, the long-wavelength absorption
+band red shifts with increasing number of BTDs in the repeat
+unit, and the peak-to-peak distance between the two bands of
+absorption increases dramatically, hence, opening a window of
+transmission in the blue-green region of the visible.
+With the idea of extending this window of transmission into
+the blue region of the spectrum by fully rejecting the high-energy
+optical transition into the UV, the synthesis of a strictly alternating
+DA copolymer of ProDOT and BTD was envisioned (see Fig. 1a,
+P4a). In contrast with P1–P3, which were chemically polymerized
+from
+symmetrical
+donor–acceptor–donor
+(DAD)
+oligomers
+via the mild oxidizing agent FeCl3,[15] a palladium-mediated
+polycondensation route had to be introduced to afford the desired
+DA alternating pattern. However, the relative difﬁculty and
+particularly low yields associated with the synthesis of difunctio-
+nalized organostannane and organoborane derivatives of diox-
+ythiophenes prevented us from using common polymerization
+methodology, whereby the most electron-poor heterocycle acts as
+the ‘‘electrophile’’ (which undergoes oxidative addition) and the
+electron-rich counterpart acts as the ‘‘nucleophile’’ (in transme-
+tallation).[20,28–31] Scanning the literature, we found a unique
+example of a DA copolymer synthesized by inverting the
+functionalities between donor and acceptor.[32,33] In this work,
+BTD was difunctionalized with pinacol ester-protected boronic
+acid in a one-step Miyaura borylation. Upon optimization of the
+step relative to the synthesis of the organoborane derivative of
+BTD
+(see
+Experimental
+section),
+two
+dialkoxy-substituted
+ProDOT–BTD copolymers (namely P4a and P4b) were subse-
+quently produced in excellent yields (>90%), with number
+average molecular weights (Mn) as high as 23 kDa by using
+traditional Suzuki cross-coupling conditions (see Fig. 1c). In
+addition, a didodecylester-substituted DA analogue, namely P4c,
+was successfully achieved (Mn ¼ 11.1 kDa) using a modiﬁcation
+of the base-free Suzuki conditions described earlier by our
+group.[34] Overall, the low toxicity of the reagents used, combined
+with the simplicity and the scalability of the synthetic pathway
+described in Figure 1c, makes this process attractive for the
+production of these materials on an industrial scale.
+The UV–vis absorption spectrum of P4a in toluene solution is
+shown in Figure 1b (P4b and P4c present similar characteristics,
+see also the Supporting Information, Fig. S1). As expected, in
+analogy with P1–P3, P4a exhibits a dual band of absorption, in
+this case peaking at 368 and 662 nm, respectively, in turn leaving a
+well of transmission extended over the entire blue region
+(420–490 nm) of the visible light, with a local minimum of
+absorption at 432 nm. Importantly, P4a–P4c show only minor
+optical changes upon elevating the temperature (ambient to
+100 8C), indicating neither signiﬁcant disruption of effective
+conjugation nor major aggregation of the solvated backbones.
+Figure 1. a) Structures of DA copolymers P1–P4a differing by the number
+of electron-rich and -poor heterocycles incorporated in the repeat unit.
+b) UV–vis solution absorption spectra of P1–P4a in toluene (the spectra are
+normalized at the longer-wavelength absorption maximum of the poly-
+mers). The inset shows the various colors obtained across the polymer
+series as a function of the DA ratio constitutive of the repeat unit.
+c) P4a–P4c are polymerized by inverting the monomer functionalities in
+comparison with conventional Pd-mediated Suzuki cross-coupling meth-
+odologies employed.
+Adv. Mater. 2010, 22, 724–728
+ 2010 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+725
+ 15214095, 2010, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.200902917 by Argonne National Laboratory, Wiley Online Library on [26/09/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+COMMUNICATION
+www.advmat.de
+www.MaterialsViews.com
+Thin ﬁlms of P4a and P4b were spray-cast onto indium tin
+oxide (ITO)-coated glass slides from warm mixtures of toluene
+and chloroform (ca. 40 8C) and, subsequently, redox cycled until a
+stable and reproducible switch was obtained prior to spectro-
+electrochemical analysis. P4a and P4b were found to possess
+relatively narrow bandgaps of 1.51 eV, and 1.53 eV respectively, as
+determined from the onset of their neutral-state lower-energy
+optical transition. An external bias was applied to the polymer
+ﬁlms placed in a three-electrode electrochemical cell and was
+gradually increased (in 25 mV steps) to induce simultaneous
+bleaching (starting at ca. 0.12 V vs. Fc/Fcþ) of both the short- and
+long-wavelength absorption bands in the UV–vis region. The
+depletion of the neutral-state optical absorption of the copolymers
+was
+accompanied
+by
+the
+concomitant
+formation
+of
+new
+transitions arising in the near-IR region of the spectrum (see
+Fig. 2a), indicating the development of radical cations (polarons),
+further combining into dications (bipolarons) at higher biases.
+Interestingly, the linearly substituted copolymer P4b switched
+more effectively to its transmissive oxidized state on full doping
+in comparison with the nearly identical, yet branch-substituted
+analogue P4a (see Supporting Information, S2). This can
+practically be seen from the extent of overlap of their respective
+bipolaronic optical transition with the visible spectrum (in the
+600–800 nm range). Here, the bipolaronic transition of P4a peaks
+at wavelengths lower than 1400 nm, while that of P4b peaks above
+1400 nm (at ca. 1460 nm), as can be seen from Figure 2a, and
+tails less into the visible. It is worth noting that the opposite trend
+has frequently been observed in p-conjugated polymers with
+various substitution patterns, as the best candidates tend to be the
+ones likely to exhibit the most open morphologies, in correlation
+with their ability to facilitate the diffusion of charge-balancing
+ions occurring on redox doping/dedoping.[4,6,10,35–37] The better
+‘‘packing ability’’ of the linearly substituted derivative P4a on full
+oxidation may explain the notable bathochromic shift undergone
+by its bipolaronic transition in the near-IR. In parallel, thin ﬁlms
+of P4b start oxidizing at slightly lower potentials (þ0.05 V vs. Fc/
+Fcþ) than those of P4a (þ0.12 V vs. Fc/Fcþ), as supported by
+differential pulse voltammetry (see S3), whereby the onset of
+oxidation of P4b occurs at slightly less positive potentials (ca.
+0.16 V) than that of P4a (ca. þ0.09 V). The resulting higher
+HOMO level of P4b may further contribute to its propensity to
+produce more transmissive oxidized states upon electrochemical
+doping. Based on those spectroelectrochemical data, P4a exhibits
+an EC contrast (i.e., a monochromatic change in transmittance,
+D%T) in the order of 40% at its longer-wavelength absorption
+maximum (663 nm), while values as high as 52% were attained
+with P4b at the same long-wavelength absorption maximum
+(642 nm).
+Monitoring the brightness of transmitted light as a percentage
+of the brightness of a light source calibrated to the sensitivity of
+the human eye, the relative luminance change was measured for
+the
+ﬁlms
+upon
+increasing
+the
+doping
+level
+induced
+by
+electrochemical oxidation. Here, P4a was found to switch from
+its neutral state, blue, to its highly transmissive oxidized state with
+up to 44% change in relative luminance (see S4), while ﬁlms of
+P4b of near-equal thickness, and even thicker, exhibited up to ca.
+47%, as illustrated in Figure 2b. The saturated blue color of the
+neutral-state polymers was supported by a colorimetry study,
+which indicated largely negative b* values at all ﬁlm thicknesses,
+along with especially small a* values (negative values indicating
+the extent of green hue) in comparison with b* (L*a*b* refers to
+the Commission internationale de l’e´clairage (CIE) 1976 L*a*b*
+color model). Upon full oxidation, P4b exhibits L* values ranging
+from 82 to 89 depending on the optical density of the deposited
+ﬁlm. Further, with a* and b* values as low as 5 and 3,
+respectively, P4b yields transmissive states in which residual tints
+can hardly be perceived by the human eye, demonstrating the
+aptitude of the electrochrome to nearly reach the ‘‘white point’’ of
+color space. In comparison, higher-optical-density ﬁlms of P4a do
+not show the same propensity to bleach and a trade-off in terms of
+contrasts observed can be found for ﬁlms with optical densities
+greater than 1.1 a.u. This reduction in electrochromic contrast
+with increased thickness observed in the case of P4a has been
+previously observed in other polymer electrochromes.[35] Overall,
+the polymers complete their full switches in a potential window of
+less than 1 V (90% of optical change is attained in ca. 0.5 V for P4a
+and ca. 0.8 V for P4b), a parameter of signiﬁcant interest for
+low-voltage device applications.
+Figure 2. a) Spectroelectrochemistry of P4b. The ﬁlms were spray-cast onto ITO-coated glass from a mixture of toluene and chloroform (1 mg mL1).
+Electrochemical oxidation of the ﬁlms was carried out in 0.1 M LiBF4/PC supporting electrolyte using a silver wire as a quasireference electrode (calibrated
+against Fc/Fcþ) and a platinum wire as the counter electrode. The applied potential was increased in 25 mV steps from 0 to 0.95 V vs. Fc/Fcþ. b) Relative
+luminance (%) as a function of applied potential for spray-coated P4b. For color matching, L*a*b* values of fully neutral and oxidized states are reported for
+the ﬁlms. c) Squarewave potential-step absorptiometry of P4b (monitored at 642 nm, 0.4 to þ0.96 V vs. Fc/Fcþ in 0.2 M Li BTI/PC solution electrolyte).
+The switch time was 10 s step for 40 s (2 cycles), then 2 s step for 20 s (5 cycles), and 1 s step for 20 s (10 cycles).
+726
+ 2010 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+Adv. Mater. 2010, 22, 724–728
+ 15214095, 2010, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.200902917 by Argonne National Laboratory, Wiley Online Library on [26/09/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+COMMUNICATION
+www.MaterialsViews.com
+www.advmat.de
+The EC contrasts for the polymers (D%T) were monitored as a
+function of time at their longer-wavelength absorption maximum
+by applying squarewave potential steps of 10, 2, and 1 s. In this
+case, the 0.1 M LiBF4/PC solution electrolyte system used
+throughout the spectroelectrochemical and colorimetric experi-
+ments was replaced by a 0.2 M lithium bis(triﬂuoromethanesul-
+fonyl)imide (LiBTI)/PC solution electrolyte, which was found to
+signiﬁcantly improve the response times for the polymers (while
+time was not a factor of importance in the previous experiments).
+As illustrated in Figure 2c, a variation of EC contrast (D%T) of
+only ca. 2% was monitored in the case of P4b on decreasing the
+switch time from 10 s to 1 s, an important result when
+considering the execution speed in switchable display devices.
+Further, in agreement with the spectroelectrochemical data, the
+EC contrast attainable with P4b (e.g., 41.5% when n ¼ 10 s) on
+repeated squarewave potential stepping was found higher than
+that of P4a (e.g., 35.2% when n ¼ 10 s) for ﬁlms of near-identical
+optical density. While P4b was found to reach its full switch faster
+than P4a, both polymers attained 95% of a complete switch in less
+than 1 s (t95% ¼ 0.80 s in the case of P4a, t95% ¼ 0.45 s in the case
+of P4b), again, reinforcing their potential for applications in
+products such as displays, which require fast response times.
+The long-term stability of the polymers was investigated by
+monitoring the EC contrast (D%T) of the thin ﬁlms (as described
+in Fig. 2c) upon repeated squarewave potential steps of 1 s
+(complete cycle is 2 s) in a 0.2 M LiBTI/PC solution electrolyte
+system. In over 10000 cycles under ambient conditions, P4a and
+P4b showed a variation of EC contrast (D%T) of less than 7% (see
+Fig. S5), hence, satisfying the requirements for polymer
+electrochromes applicable to cost-effective ambient device-
+manufacturing processes.
+Encouraged by the excellent results obtained with P4a and P4b
+in terms of contrast, response times, and switching stability, we
+developed the didodecylester-substituted DA copolymer analogue
+P4c with the perspective of cleaving its solubilizing side chains via
+a basic hydrolysis of the esters (saponiﬁcation) achieved directly
+from
+the
+thin
+ﬁlms.
+Conjugated
+polymers
+that
+can
+be
+solution-processed and, subsequently, defunctionalized to pro-
+duce ﬁlms insoluble in most conventional organic solvents have
+recently emerged for use in EC and multilayer light-emitting
+diode (LED) devices,[38] transistors,[39] and photovoltaic cells.[40]
+In the case of P4c, we found that the spray-cast polymer can be
+effectively defunctionalized by immersing the ﬁlms in a 1 M KOH
+methanol solution for 4 h at 70 8C. As demonstrated in Figure 3a,
+the same conditions can be applied to the saponiﬁcation of the
+ﬁnely ground polymer itself, hence, replacing the aliphatic esters
+by carboxylate functionalities on each ProDOT heterocycle along
+the backbone. Here, the conversion from the esters to the
+carboxylates is evidenced by a distinct shift of the C¼O stretching
+band towards lower frequencies (from 1734 to 1560 cm1), along
+with a broadening of the corresponding band. In parallel, the loss
+of the aliphatic side chains is clearly visible through the depletion
+of the CH-stretching-band intensity at higher frequencies
+(2800–3000 cm1). Figure 3b illustrates the differences in
+solubility for the DA polymer before and after saponiﬁcation,
+with the non-defunctionalized ﬁlm dissolving instantaneously on
+immersion in CHCl3 (left set of photographs), while the
+saponiﬁed counterpart holds to the substrate (right set of
+photographs), even after prolonged exposure to the solvent or on
+elevation of the temperature. As seen in Figure 3c, a series of
+squarewave potential steps applied to a defunctionalized thin ﬁlm
+of P4c conﬁrms that the electroactivity of the electrochrome is
+retained throughout the defunctionalization process. Here, the
+freshly hydrolyzed ﬁlm was rapidly neutralized in an aqueous
+solution of HCl (1 M) and subsequently rinsed with methanol,
+prior to electrochemical switching. Further work exploring the
+performance and the solubility of this structurally modiﬁed ECP
+is underway, including the construction of display devices with
+architectures taking advantage of the solubility change undergone
+by the electrochrome.
+In summary, a series of spray-processable p-conjugated
+polymer electrochromes switching from a saturated-blue to a
+highly transmissive oxidized state on electrochemical doping
+were designed with strictly alternating electron-rich and -poor
+heterocycles, and synthesized by Suzuki polycondensation. In
+this study, the dual band of absorption often found in DA
+macromolecular p-conjugated systems[15,19–22] was modulated by
+reducing the extent of electron-rich units along the polymer
+Figure 3. a) IR absorption spectra of P4c before (bottom) and after (top) defunctionalization of the solubilizing side chains. The spectrum before
+defunctionalization was taken from a thin ﬁlm of P4c deposited on a NaCl plate, defunctionalized P4c was taken from a pressed KBr pellet. b) Illustration of
+the difference in solubility observed before and after saponiﬁcation of the thin ﬁlms. Non-defunctionalized ﬁlms dissolve instantaneously on immersion in
+CHCl3 (left set of photographs) in contrast to the saponiﬁed ones (right set of photographs). c) Squarewave potential-step absorptiometry of P4c
+monitored at 645 nm, 0.56 to þ0.80 V vs. Fc/Fcþ in 0.2 M Li BTI/PC solution electrolyte. The switch time was 2 s step for 60 s (15 cycles).
+Adv. Mater. 2010, 22, 724–728
+ 2010 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+727
+ 15214095, 2010, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.200902917 by Argonne National Laboratory, Wiley Online Library on [26/09/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+COMMUNICATION
+www.advmat.de
+www.MaterialsViews.com
+backbone to a point where the short-wavelength absorption band
+of the polymer is fully transferred into the UV, hence, opening a
+broad window of transmission in the blue region of the visible
+spectrum. In contrast, more electron-rich parent copolymers have
+been found to possess a two-band absorption in the visible, in
+turn exhibiting colors ranging from blue-green to green.[15,16]
+Optical and electrochemical investigation of the neutral-state blue
+electrochromes revealed excellent optical contrasts, both in the
+visible and in the near-IR, small potential windows of operation,
+fast switching times, and long-term stability. Besides the initial
+solution-processability of all the polymer precursors described in
+this Communication, the postdeposition saponiﬁcation of thin
+ﬁlms of ProDOT–BTD copolymer electrochromes substituted
+with alkyl ester side-chains offers unique perspectives for the
+construction of long-lived electrolyte-based display devices, as
+well as in the processing of vertically-stacked ECDs with multiple
+electroactive layers.
+Acknowledgements
+We
+gratefully
+acknowledge
+funding of
+this
+work
+by
+the
+AFOSR
+(FA9550-09-1-0320) and thank Svetlana Vasilyeva for assistance with
+electrochemical measurements, and Sam Popwell for gPC measurements.
+Supporting Information is available online from Wiley InterScience or from
+the author.
+Received: August 24, 2009
+Published online: December 15, 2009
+[1] P. M. S. Monk, R. J. Mortimer, D. R. Rosseinsky, Electrochromism and
+Electrochromic Devices, Cambridge University Press, New York 2007.
+[2] F. C. Krebs, Nat. Mater. 2008, 7, 766.
+[3] G. Dennler, M. C. Scharber, C. J. Brabec, Adv. Mater. 2009, 21, 1323.
+[4] B. Sankaran, J. R. Reynolds, Macromolecules 1997, 30, 2582.
+[5] A. Kumar, J. R. Reynolds, Macromolecules 1996, 29, 7629.
+[6] A. Kumar, D. M. Welsh, M. C. Morvant, F. Piroux, K. A. Abboud,
+J. R. Reynolds, Chem. Mater. 1998, 10, 896.
+[7] H. W. Heuer, R. Wehrmann, S. Kirchmeyer, Adv. Funct. Mater. 2002, 12, 89.
+[8] C.-G. Wu, M. I. Lu, S. J. Chang, C. S. Wei, Adv. Funct. Mater. 2007, 17, 1063.
+[9] M. A. Invernale, V. Seshadri, D. M. D. Mamangun, Y. Ding, J. Filloramo,
+G. A. Sotzing, Chem. Mater. 2009, 21, 3332.
+[10] M. Li, Y. Sheynin, A. Patra, M. Bendikov, Chem. Mater. 2009, 21, 2482.
+[11] B. D. Reeves, C. R. G. Grenier, A. A. Argun, A. Cirpan, T. D. McCarley,
+J. R. Reynolds, Macromolecules 2004, 37, 7559.
+[12] E. E. Havinga, W. Hoeve, H. Wynberg, Synth. Met. 1993, 55, 299.
+[13] B. C. Thompson, Y. G. Kim, T. D. McCarley, J. R. Reynolds, J. Am. Chem. Soc.
+2006, 128, 12714.
+[14] A. Balan, G. Gunbas, A. Durmus, L. Toppare, Chem. Mater. 2008, 20,
+7510.
+[15] P. M. Beaujuge, S. Ellinger, J. R. Reynolds, Nat. Mater. 2008, 7, 795.
+[16] P. M. Beaujuge, S. Ellinger, J. R. Reynolds, Adv. Mater. 2008, 20, 2772.
+[17] G. Sonmez, C. K. F. Shen, Y. Rubin, F. Wudl, Angew. Chem. Int. Ed. 2004, 43,
+1498.
+[18] G. Sonmez, H. B. Sonmez, C. K. F. Shen, R. W. Jost, Y. Rubin, F. Wudl,
+Macromolecules 2005, 38, 669.
+[19] N. Blouin, A. Michaud, D. Gendron, S. Wakim, E. Blair, R. Neagu-Plesu,
+M. Belletete, G. Durocher, Y. Tao, M. Leclerc, J. Am. Chem. Soc. 2008, 130,
+732.
+[20] E. Bundgaard, F. C. Krebs, Macromolecules 2006, 39, 2823.
+[21] A. Durmus, G. E. Gunbas, P. Camurlu, L. Toppare, Chem. Commun. 2007,
+3246.
+[22] D. Mu¨hlbacher, M. Scharber, M. Morana, Z. Zhu, D. Waller, R. Gaudiana,
+C. Brabec, Adv. Mater. 2006, 18, 2884.
+[23] A. P. Kulkarni, Y. Zhu, A. Babel, P.-T. Wu, S. A. Jenekhe, Chem. Mater. 2008,
+20, 4212.
+[24] S. A. Jenekhe, L. Lu, M. M. Alam, Macromolecules 2001, 34, 7315.
+[25] U. Salzner, J. Phys. Chem. B 2002, 106, 9214.
+[26] U. Salzner, M. E. Kose, J. Phys. Chem. B 2002, 106, 9221.
+[27] O. Karalt, S. Durdag˘i, U. Salzner, J. Mol. Model. 2006, 12, 687.
+[28] Z. Zhu, D. Waller, R. Gaudiana, M. Morana, D. Muhlbacher, M. Scharber,
+C. Brabec, Macromolecules 2007, 40, 1981.
+[29] R. Yang, A. Garcia, D. Korystov, A. Mikhailovsky, G. C. Bazan, T.-Q. Nguyen,
+J. Am. Chem. Soc. 2006, 128, 16532.
+[30] W. Yue, Y. Zhao, S. Shao, H. Tian, Z. Xie, Y. Geng, F. Wang, J. Mater. Chem.
+2009, 19, 2199.
+[31] J. Hou, H.-Y. Chen, S. Zhang, G. Li, Y. Yang, J. Am. Chem. Soc. 2008, 130,
+16144.
+[32] M. Zhang, H. N. Tsao, W. Pisula, C. Yang, A. K. Mishra, K. Mullen, J. Am.
+Chem. Soc. 2007, 129, 3472.
+[33] T. Hoi Nok, C. Don, A. Jens Wenzel, R. Ali, W. B. Dag, P. Wojciech,
+K. Mullen, Adv. Mater. 2009, 21, 209.
+[34] R. N. Brookins, K. S. Schanze, J. R. Reynolds, Macromolecules 2007, 40,
+3524.
+[35] P. M. Beaujuge, S. V. Vasilyeva, S. Ellinger, T. D. McCarley, J. R. Reynolds,
+Macromolecules 2009, 42, 3694.
+[36] G. A. Sotzing, J. R. Reynolds, P. J. Steel, Chem. Mater. 1996, 8, 882.
+[37] C. L. Gaupp, D. M. Welsh, J. R. Reynolds, Macromol. Rapid Commun. 2002,
+23, 885.
+[38] B. D. Reeves, E. Unur, N. Ananthakrishnan, J. R. Reynolds, Macromolecules
+2007, 40, 5344.
+[39] A. R. Murphy, J. M. J. Frechet, P. Chang, J. Lee, V. Subramanian, J. Am.
+Chem. Soc. 2004, 126, 1596.
+[40] J. Liu, E. N. Kadnikova, Y. Liu, M. D. McGehee, J. M. J. Frechet, J. Am. Chem.
+Soc. 2004, 126, 9486.
+[41] K. Pilgram, M. Zupan, R. Skiles, J. Heterocycl. Chem. 1970, 7, 629.
+728
+ 2010 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+Adv. Mater. 2010, 22, 724–728
+ 15214095, 2010, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.200902917 by Argonne National Laboratory, Wiley Online Library on [26/09/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+

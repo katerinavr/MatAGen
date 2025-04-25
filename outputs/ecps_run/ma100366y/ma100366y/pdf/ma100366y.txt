@@ -1,0 +1,787 @@
+pubs.acs.org/Macromolecules
+Published on Web 04/28/2010
+r 2010 American Chemical Society
+4460
+Macromolecules 2010, 43, 4460–4467
+DOI: 10.1021/ma100366y
+Orange and Red to Transmissive Electrochromic Polymers Based on
+Electron-Rich Dioxythiophenes
+Aubrey L. Dyer,*,† Michael R. Craig,†,‡ Joseph E. Babiarz,‡ Kelly Kiyak,‡ and
+John R. Reynolds*,†
+†The George and Josephine Butler Polymer Laboratories, Department of Chemistry, Center for
+Macromolecular Science and Engineering, University of Florida, Gainesville Florida, 32611, and
+‡BASF, Tarrytown, New York, 10591
+Received February 15, 2010; Revised Manuscript Received April 12, 2010
+ABSTRACT: As the color palette of available solution processable electrochromic polymers expands, there
+has remained the need for red, orange, and yellow to transmissive switching materials. Here we report on
+the synthesis and characterization of two such polymers, the orange to transmissive switching (poly{3,4-
+di(2-ethylhexyloxy)thiophene}) electrochromic polymer-orange (ECP-orange) and the red to transmissive
+switching processable polymer (poly{3,4-di(2-ethylhexyloxy)thiophene-co-3,4-di(methoxy)thiophene}) elec-
+trochromic polymer-red (ECP-red). The ECP-orange has a bandgap of 2.04 eV, an absorption λmax centered
+at 483 nm, and an E1/2 of 0.37 V versus Ag/Agþ. The electrochromic contrast is 48% T at 483 nm with a time to
+reach 95% of the full optical contrast of 5.3 s for a film that has an absorbance of 0.98 au at λmax. Because of
+steric relaxations from the random copolymerization of a branched dialkoxy-substituted thiophene with a
+dimethoxy-substituted thiophene, the red to transmissive switching ECP-red has a bandgap of 2.00 eV, a λmax
+red-shifted by 42 to 525 nm, and an E1/2 decreased to 0.21 V versus Ag/Agþ. Additionally, the red polymer has
+a higher contrast of 60% T and a shorter time to reach 95% of the full optical contrast of 2.3 s. These two
+reported polymers allow the field of electrochromics to come closer to a full set of fully solution processable
+materials that yield films whose optical absorption covers the full visible spectrum while switching to a highly
+transmissive oxidized state as needed for full color displays.
+Introduction
+Electrochromic materials have held the attention of the scien-
+tific community, namely, in the smart windows and dynamic
+displays areas, for several decades now.1-7 The most commonly
+cited materials are those that include the metal oxides (e.g.,
+tungsten trioxide, WO3) and viologen compounds (e.g., 4,40-
+dimethylviologen) but also include transition metal complexes
+and conjugated electroactive polymers.1,2,8 Whereas many of the
+known electrochromic materials have received extensive research
+efforts and attempts toward commercialization (some quite
+successfully), there remain drawbacks. These include electro-
+chromes that are solution-based, limiting application in devices,
+such as some viologens, and transition-metal complexes (e.g.,
+Ru(bpy)3
+2þ), whereas other materials have relatively slow switch-
+ing speeds, as with the metal oxides that require anywhere from
+30 s to several minutes to reach a full contrast,9 limiting their
+application in devices that require a color change at shorter time
+frames. Other drawbacks include lack of ease of processability to
+high surface area or patterned films (as needed for windows and
+displays) and limit in range of colors available. Through intensive
+synthetic efforts over the past 5-10 years, conjugated electro-
+active polymers have come to address and remedy many of these
+drawbacks, with efforts still underway, to allow for fully solution
+processable, fast, and stable switching thinfilms thatare available
+in colors that span the entire visible region, switching to highly
+transmissive states.8,10
+There are a large number of examples of polymers with neutral
+state absorbances that vary across the visible region such as with
+the highly color-tunable azomethines of the Skene group,11-13
+and the multiply colored bis-heterocycle arylene polymers of this
+group.14-17 Additionally, polymers have been reported with
+neutral state absorbances ranging from the UV for N-substituted
+poly(3,4-propylenedioxypyrroles)18 to the near-infrared (NIR)
+for the low-gap polymers such as the donor-acceptor systems
+based on dithienopyrrole,19,20 with colors in between that range
+from orange (e.g., bis(thienyl pyrrole)-9H-carbazole from Icli),21
+to red (e.g., poly(3-methylthiophene)), blue (e.g., poly(3,4-ethyl-
+enedioxythiophene) (PEDOT)),22 and green (e.g., poly(2,7-car-
+bazole) derivatives from the Leclerc group),23 and poly(bis-
+EDOT-pyridines) of this group.24
+However, forfullcolordisplays and window-typeapplications,
+it is required that the materials switch between colored and
+noncolored highly transmissive states, of which a limited sam-
+pling of electrochromic systems is available. Of the systems that
+are available, one of the most well-known and well-utilized
+colored to transmissive-switching electroactive polymers is
+PEDOT.22,25 This polymer can be formed by electropolymeriza-
+tion from the monomer to deposit uniform films that switch from
+dark blue in the neutral state to highly transmissive, light blue in
+the oxidized state. Other colored to transmissive-switching poly-
+mers include the alkylenedioxypyrroles, such as poly(3,4-ethyl-
+enedioxypyrrole) (PEDOP), which is red in the neutral state and
+poly(3,4-propylenedioxypyrrole) (PProDOP), which is orange in
+the neutral state, with both switching to transmissive in the
+oxidized state.18
+Whereas these materials switch effectively from vibrant
+colored states to highly transmissive oxidized states, a lack of
+solution processabilitylimits their application in many respects as
+depositing homogeneous films across large area electrodes is
+*Corresponding authors. Tel: (352)392-2012. Fax: (352)392-9741.
+E-mail: adyer@chem.ufl.edu, reynolds@chem.ufl.edu.
+Downloaded via ARGONNE NATL LABORATORY on September 26, 2024 at 20:02:01 (UTC).
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+Article
+Macromolecules, Vol. 43, No. 10, 2010
+4461
+difficult and costly by electropolymerization. For ultimate ease of
+processing and device fabrication, soluble polymers that can be
+cast as uniform films are desired. Recent examples of solution
+processable colored to transmissive switching polymers include
+the alkyl- and alkoxy-substituted propylenedioxythiophenes
+(PProDOTs) from our group,26,27 and the donor-acceptor
+systems such as the green to transmissive polymers from
+Toppare28,29 and our group.30,31
+In addition to the purple to transmissive switching PPro-
+DOT homopolymers and the green to transmissive ProDOT-
+benzothiadiazole-based donor-acceptor-donor polymers men-
+tioned, our group has also focused attention on the synthesis of
+other fully solution processable multicolored electrochromic
+polymers (ECPs) that switch to highly transmissive, as illus-
+trated by the a*b* color representation in Figure 1. This set of
+ECPs has been named as the family of SprayDOT ECPs.32
+Whereas we have been successful in obtaining colors that include
+purple,26,27,33 blue,34 turquoise,30,31 green,30,31 and even black,35
+it is noted thatuntil now the top half of this color representation is
+empty.
+One reason for a lack of shorter wavelength absorbing mate-
+rials (those which are red, orange, and yellow) that switch to
+transmissive is that while the absorbance shifts to longer wave-
+lengths on oxidation of these polymers, it is still present in the
+visible region as with poly(3-methylthiophene), hence the large
+number of ECPs that have neutral state absorbances localized to
+wavelengths longer than 550 nm giving them a blue or purple
+color. To allow efficient depletion of the visible region absor-
+bance on oxidation the electronic transitions must then occur
+largely in the NIR, as occurs with PEDOT and ECP-purple, for
+example. To allow completion of the full color palette of solu-
+tion processable, colored to transmissive materials, judicious
+selection and tailoring of the polymer backbone is required such
+that the polymer exhibits higher energy absorbances at wave-
+lengths shorter than 500 nm, but the charge carriers (polarons
+and bipolarons) become highly delocalized as the polymer con-
+formation planarizes, shifting the absorbances out of the visible
+region.
+Here we report the synthesis and electrochromic characteriza-
+tion of two such materials based on dialkoxy-substituted thio-
+phenes that bring us closer to completing the color palette. A
+homopolymerofbis(ethylhexyloxy)thiophene(ECP-orange) that
+switches from a highly saturated orange to near colorless trans-
+missive is demonstrated. The electron-donating effect of the
+disubstitution of two oxygens directly on the thiophene ring
+allows for lowering of the oxidation potential to near that of
+PEDOT, whereas branched alkyl groups induce solubility and
+steric distortion of the neutral polymer backbone, shortening the
+conjugation length and subsequently shifting the absorbance to
+∼480 nm. Additionally, a 1:1 copolymer of bis(ethylhexyloxy)-
+thiophene and dimethoxythiophene (ECP-red) was prepared
+with a red neutral state that switches to a near colorless trans-
+missive oxidized state at a low oxidation potential. Conversely,
+the random incorporation of branched alkyl and short methoxy
+substituents eases steric interactions, allowing for lengthening of
+the average conjugation length, which red shifts the neutral state
+absorbance by ∼40 nm relative to ECP-orange. Electrochemical,
+spectroscopic, and full colorimetric characterizations are given
+for both of these polymers, allowing the field to come closer to
+full-color display applications.
+Results and Discussion
+Synthesis. The polymers were prepared by oxidative cou-
+pling of the relevant dialkoxythiophene monomers with
+excess iron(III) chloride in ethyl acetate at room tempera-
+ture, with subsequent reduction by hydrazine. The choice of
+ethyl acetate as solvent exploits the excellent solubility of
+iron(III) chloride in this medium, affording an initially
+homogeneous reaction mixture, which polymerizes rapidly.
+It is notable that the conventional solvent system of chloro-
+form, or a mixture of chloroform and methanol, retards
+polymerization of these dialkoxythiophene moieties.36-38 A
+five-fold excess of oxidant is employed to keep the oxidizing
+strength of the reaction sufficiently high to maximize yield
+and molecular weight.
+Figure 1. CIE 1976 LAB color plot with the a*b* values for recently published solution processable conjugated polymers reported by our group. The
+polymers represented here were chosen such that their oxidized, transmissive state have a*b* values less than (5, indicating a near colorless oxidized
+state. L*a*b* values are reported in the literature for ECP-purple,27 ECP-black,35 ECP-blue,34 ECP-turquoise,31 and ECP-green.31.
+
+4462
+Macromolecules, Vol. 43, No. 10, 2010
+Dyer et al.
+In the case of ECP-orange (P1), a very high molecular
+weight with low polydispersity is achieved (Mn ca. 115-153
+kDa, PDI = 1.27 to 1.79) whereas ECP-red (P2) exhibits a
+lower molecular weight and broader polydispersity (Mn ca.
+11-16 kDa, PDI = 2.12-4.38) (Schemes 1 and 2). The yield
+of ECP-red is consistently modest in the range of 20-30%,
+with losses incurred through removal of insoluble material of
+higher molecular weight by filtration. We suspect that the
+lower molecular weight of ECP-red relative to ECP-orange is
+duetothedecreasedconformationalentropyofthedi(methoxy)-
+thiophene monomer unit relative to the di(ethylhexyloxy)-
+thiophene unit resulting in a lower overall solubility of the
+copolymer in the reaction medium and thus limiting the
+propagation of the polymer chain and broadening the poly-
+dispersity. Whereas we expect the polymerization proceeds
+in a near random manner, comparison of the integrals in 1H
+NMR confirms the 1:1 ratio of 3,4-dimethoxythiophene to
+3,4-di(2-ethylhexyloxy)thiophene moieties in ECP-red, as
+shown in the Supporting Information. Both polymers have
+good solubility in solvents for film-casting (in particular spray
+casting) and demonstrate excellent film-forming characteristics.
+Electrochemistry. The polymers were dissolved to a con-
+centration of 1 mg/mL in either toluene for ECP-red or
+dichloromethane for ECP-orange. Thin films of each poly-
+mer were prepared on Pt button electrodes (A = 0.02 cm2) by
+drop-casting from the polymer solution and allowing the
+solvent to slowly evaporate by placement of the inverted
+electrode in a draft-free environment. Once the solvent had
+fully evaporated, cyclic voltammetric (CV) and differential
+pulse voltammetric (DPV) measurements were performed in
+a 0.2 M lithium bis(trifluoromethyl)sulfonylimide (LiBTI)/
+propylene carbonate (PC) electrolyte with a Pt flag counter
+electrode and Ag/Agþ reference electrode, as described in
+the Experimental Methods section. The orange polymer
+required a break-in cycling of ∼5-10 full cycles depending
+on the thickness of polymer deposited (Supporting Infor-
+mation), whereas the red polymer did not require break-in
+cycling. This result is not unexpected because of the high
+polymer molecular weight of ECP-orange contributing to a
+more densely packed film restricting full ion-solvent pene-
+tration on initial scans. On multiple scans, the morphology
+of the film opened up, and full electrochemical access is
+achieved repeatedly. Attempts to confirm this using micro-
+scopy methods were not fruitful because average feature sizes
+of the spray-cast films were not large enough to visualize
+using scanning electron microscopy (the films seem to be
+smooth). Preliminary atomic force microscopy studies39
+provide a topographic view of the films but do not elucidate
+changes occurring with switching break in.
+The CV and DPV results for both polymers are shown in
+Figure 2A-D. ECP-orange exhibits an E1/2 of 0.37 V versus
+Ag/Agþ and a peak-to-peak separation of 0.39 V, whereas
+ECP-red polymer has an E1/2 of 0.21 V versus Ag/Agþ and a
+peak-to-peak separation of 0.04 V. The smaller peak-to-peak
+separation for ECP-red can be attributed to the faster
+electron exchange between redox sites within the polymer
+film and the working electrode surface. This is possibly due
+to either the easier movement of the electrolyte within the
+film of ECP-red or the smaller degree of structural rearrange-
+ment of ECP-red when cycled between neutral (nonplanar
+conformation) and oxidized (planar conformation) states.
+The redox potentials for these polymers fall in the same
+potential range for similar thiophene-based polymers, such
+as 0.26 V versus Ag/Agþ for poly(3,4-dipropyloxythiophene)
+and0.39VversusAg/Agþ forpoly(3,4-dioctyloxythiophene).40
+The >150 mV higher redox potential for the orange polymer
+relative to red is attributed to the pendant group bulkiness
+and has been noted in similar disubstituted thiophene sys-
+tems in the literature, where, for example, poly(3,4-dibuto-
+xythiophene) has a 100 mV higher oxidation potential than
+poly(3-butoxy-4-methylthiophene).41 Whereas the 3- and
+4-substitutions of the electron-donating oxygen on the thio-
+phene leads to a reduced oxidation potential in relation to an
+alkyl-substituted polymer, disubstitution with bulky bran-
+ched alkoxy groups leads to increased steric interactions in
+the orange polymer resulting in a torqueing of the backbone,
+shortening the mean conjugation length and subsequently
+shifting the oxidation potential to a higher value. Random
+incorporation of 3,4-dimethoxythiophene with 3,4-bis-ethyl-
+hexyloxy thiophene in the red polymer relieves some of the
+steric strain, giving a longer mean conjugation in the polymer
+and a lower oxidation potential and is further seen in the
+optical results given later. As a preliminary test for electro-
+chromic utility, both polymers were subjected to repeated
+electrochemical cycling (200 scans), as is shown in the
+Supporting Information, and exhibited little change in redox
+properties.
+Spectroelectrochemistry. Films were spray-cast from solu-
+tions containing the polymer dissolved to a concentration of
+5 mg/mL in dichloromethane for ECP-orange and toluene
+for ECP-red. Spray-casting was performed until the desired
+absorption maximum was achieved (between 0.6 and 1.4 au).
+The films appeared homogeneous and even to the eye, as
+evident by the homogeneity in the photos in Figure 3.
+Spectroelectrochemistry was performed in situ by measur-
+ing the absorption spectrum of previously broken-in poly-
+mer films spray-cast onto ITO/glass slides with a Pt wire
+counter and Ag wire pseudo reference electrode (calibrated
+with the Fc/Fcþ standard redox couple, which is found to be
+-0.29 to -0.30 V relative to Ag/Agþ) in 0.2 M LiBTI/PC
+contained in a cuvette. During spectroelectrochemical mea-
+surement, the desired potential was applied to the film and
+held with the increments of each potential step being between
+10 and 20 mV. As can be seen in Figure 4A, ECP-orange has
+a λmax centered at 483 nm with an absorption onset at 607 nm
+corresponding to an optical bandgap of 2.04 eV. As each
+potential is stepped, the absorption in the NIR begins to
+increase, whereas that in the visible decreases, indicating the
+creation of lower energy polaron and bipolaron charge
+carriers at the expense of the π-to-π* transition. When fully
+oxidized, the polymer has a strong absorption in the NIR
+that tails into the visible, giving the polymer a highly
+transmissive yet faint blue color due to residual red light
+absorbance. A noteworthy feature of this polymer is the large
+optical change in both the visible and NIR between a small
+potential step of 30 mV when stepped from 0.39 and 0.42 V,
+with a contrast of 76.9% at 1650 nm. We speculate that this
+large change in optical absorption over a small voltage range
+may be due to a cooperative intramolecular domino effect
+Scheme 1. Synthesis of ECP-Orange (P1)
+Scheme 2. Synthesis of ECP-Red (P2)
+
+Article
+Macromolecules, Vol. 43, No. 10, 2010
+4463
+similar to the “twistons” described by Leclerc for the thermo-
+chromism of alkyl- and alkoxy-substituted thiophenes.42,43
+In the neutral state, the polymer exists in a nonplanar (less
+conjugated) form, and at initially low applied potentials, a
+low concentration of localized portions of the polymer chain
+become oxidized to a more planar (highly conjugated) form.
+However, as the applied potential is increased and a higher
+concentration of repeat units becomes oxidized, a coopera-
+tive mechanism comes into play where the twisting of these
+first repeat units to the more planar conformation induces a
+twisting of a larger number of neighboring units. This is in
+contrast with ECP-red, where the oxidation proceeds with a
+monotonic change in the optical transitions, as seen in
+Figure 4B for the spectroelectrochemical series of ECP-red.
+This polymer has a λmax in the neutral state of 525 nm and an
+absorption onset of 620 nm corresponding to a bandgap of
+2.0 eV with lower energy electronic transitions emerging on
+oxidation at the expense of the π-to-π* transition.
+Electrochromic Contrast and Switching Speed. The differ-
+ence in the ease with which the two polymers are oxidized is
+also evident in Figure 5A,B, which shows the change in
+transmittance measured as the rate of switching the polymer
+film, between fully oxidized and neutralized, is increased.
+Specifically, for ECP-orange, as the polymer is switched
+between the potentials of -0.73 and 0.57 V with a 30 s hold
+at each potential, the percent transmittance (%T) contrast is
+47.2%. As the time the oxidizing and reducing potentials are
+held is decreased to 10 s, the contrast decreases only slightly
+to 44.9% and subsequently to 42.6% for a 5 s hold, 13.6% for
+a 1 s hold, and 7.4% for a half second hold. As for ECP-red,
+when switched between -0.72 and 0.38 V versus Ag/Agþ,
+the contrast is 60.6% for a 30 s hold, 60.2% for 10 s, 59.9%
+for 5 s, 30.6% for 1 s, and 16.5% for half second hold. A
+direct comparison of the switching speeds for these two
+films can be made as the optical density of each polymer
+at λmax in the neutral state is the same. To allow direct
+comparison of the optical switching properties between
+several films, we utilize the measurement of optical den-
+sity rather than film thickness. This is because spray-cast
+polymer films are relatively rough with the measured thick-
+ness varying greatly across the films, rendering the deter-
+mination of average film thickness using conventional
+metrology methods difficult.39
+Figure 2. (A) CV and (B) DPV of a drop-cast film of ECP-orange from 1 mg/mL dichloromethane. (C) CV and (D) DPV of ECP-red drop-cast from
+1 mg/mL in toluene. Electrochemistry was performed in a 0.2 M LiBTI/PC electrolyte at a 0.02 cm2 Pt button electrode. Cyclic voltammetry carried out
+at a scan rate of 35 mV/s. The counter electrode was a Pt flag and the reference a Ag/Agþ (0.26 V versus SCE).
+Figure 3. Photographs of films of ECP-red and ECP-orange in either a
+fully neutralized or fully oxidized state. The far left column is of ECP-
+orange of increasing optical density proceeding down the column (0.59,
+0.98, and 1.2 au). The second column is of the same polymer films in the
+fully oxidized state. The third column is of the fully oxidized state of
+films of ECP-red (increasing optical density down the column, 0.30,
+0.98, and 1.6 au) and the far right column is of the neutralized ECP-red
+films. The polymers were spray-cast onto ITO/glass (7  50 mm2) and
+switched in 0.2 M LiBTI/PC while illuminated from behind with a D50
+light source.
+
+4464
+Macromolecules, Vol. 43, No. 10, 2010
+Dyer et al.
+An additional factor in switching times is how quickly the
+polymers can reach a full contrast during steady-state mea-
+surements. The steady-state switching speed is typically
+represented as the time required for the polymer to reach
+95% of full contrast when switched from neutral (highly
+absorptive) to fully oxidized (highly transmissive).44 The
+value of 95% is chosen as the human eye is relatively insen-
+sitive to the final 5% of a color change with little discerned
+between 95 and 100% of a full optical contrast. The time to
+reach 95% of a full optical contrast (t95) when switched from
+fully neutralized to fully oxidized for films of varying optical
+density of both ECP-orange and ECP-red is given in Table 1.
+Not surprisingly, the time required for a film of ECP-orange
+to reach 95% of a full optical contrast ranges from 1.5 to 3.5
+times longer than that for ECP-red, depending on the optical
+density. We attribute the slower switching speeds and longer
+t95 for ECP-orange, relative to ECP-red, to the more densely
+packed films for ECP-orange, leading to counterion diffu-
+sion in and out of the film to be hindered, slowing the charge
+balancing of the redox sites within the polymer film.
+Colorimetry. Whereas optical spectroscopy measurements
+of conjugated electroactive polymers convey important
+information about the electronic transitions and how those
+change as a function of redox chemistry, they do not yield
+significant information about the color of the polymer
+film and how that color is perceived by the human eye.
+Figure 4. Spectroelectrochemistry of spray-cast films of (A) ECP-orange at the potentials of -0.23, 0.37, 0.38, 0.39, 0.40, 0.41, 0.42, 0.43, 0.44, 0.45,
+0.46, 0.47, 0.49, 0.51, 0.53, 0.55, and 0.57 V versus Ag/Agþ and (B) ECP-red at the potentials of -0.72, -0.22, -0.02, 0.03, 0.08, 0.10, 0.12, 0.14, 0.16,
+0.18, 0.20, 0.22, 0.24, 0.26, 0.28, 0.30, 0.32, 0.34, and 0.36 V versus Ag/Agþ. Measurements were performed in 0.2 M LiBTI/PC of films spray-cast onto
+ITO/glass electrodes. The arrow shows the direction of increasing potential.
+Figure 5. Continuous monitoring of the change in percent transmittance at λmax during switching of (A) a spray-cast film of ECP-orange (with an
+optical density of 0.98 au) between the potentials of -0.73 and 0.57 V and (B) a spray-cast film of ECP-red (with an optical density of 0.98 au) between
+the potentials of -0.72 and 0.38 V. All potentials are referenced versus Ag/Agþ in an electrolyte of 0.2 M LiBTI/PC.
+Table 1. Optical Properties (Spectroscopic and Colorimetric) for Films of Increasing Optical Density of ECP-Orange and ECP-Red
+polymer
+optical density (au)
+λmax (nm)a
+Δ%Tb
+Δ%Yc
+L*a*b* neutral
+L*a*b* oxidized
+t95 (s)d
+orange
+0.59
+485
+52.1
+16.3%
+82, 29, 38
+90, -2, -3
+3.90
+0.98
+483
+48.2
+16.1%
+72, 42, 53
+81, -2, -7
+5.32
+1.2
+485
+47.4
+17.6%
+68, 46, 56
+80, -3, -9
+7.14
+red
+0.30
+529
+37.7
+27.9%
+81, 25, 0
+94, -1, 1
+1.10
+0.98
+525
+60.4
+41.4%
+60, 49, 9
+87, -2, 1
+2.30
+1.6
+523
+59.8
+38.4%
+48, 56, 17
+79, -2, 1
+4.90
+a In the fully neutralized state. b Difference between steady-state transmittance measured at fully oxidized and fully neutral states. c Difference in
+steady-state relative percent luminance measured at fully oxidized and fully neutral states. d Time to reach 95% of full optical contrast between
+neutralized and fully oxidized states.
+
+Article
+Macromolecules, Vol. 43, No. 10, 2010
+4465
+An additional important characterization tool for electro-
+chromic materials is that of colorimetry, where the color of
+the material is represented quantitatively, allowing for effec-
+tive comparison of the color of a material as it is switched in
+addition to comparison between various electrochromic
+materials.45-48 While there are many methods to quantify
+and represent color, one of the most widely applicable to
+measuring color of materials illuminated by a standard light
+source is the 1976 CIE LAB (or L*a*b*) with the value of L*
+representing how light versus dark the measured material is,
+the value a* representing how red versus green, and b*
+representing how yellow versus blue the material is, as
+plotted for several ECPs in Figure 1. In this work, we mea-
+sured the CIE 1931 Yxy values using a Minolta CS-100
+colorimeter as the polymer film is illuminated from behind
+(transmission measurement method) with a standard D50
+light source with the CIE LAB values calculated using
+methods standardized by CIE.45,47,48
+The Yxy values are measured in situ as each potential is
+applied across the polymer film that was spray-cast onto an
+ITO electrode and immersed in an electrolyte-filled cuvette.
+From these measurements, the L*, a*, and b* values are
+calculated for each applied potential. Figure 6A (ECP-
+orange) and Figure 6B (ECP-red) give the a*b* values plotted
+for each applied potential for three varied thicknesses (optical
+density) of polymer film. In addition, the values for fully
+neutralized and fully oxidized polymer films are given in
+Table 1. As can be seen in Figure 6A, ECP-orange has a color
+near equidistant between red and yellow in the neutral state
+and follows a linear path to the origin of the plot as the
+polymer becomes oxidized and transmissive. As is expected,
+the film with the highest optical density has the most saturated
+color in the neutral state, but a transmissive oxidized state
+with the highest amount of residual light-blue color, whereas
+the film with the lowest optical density has the least saturated
+neutral state and most color-neutral oxidized transmissive
+state. Similar to the spectroelectrochemistry for ECP-orange,
+a large color change occurs over a small applied voltage range.
+As shown in Figure 6B, the film of ECP-red with the
+highest optical density has a highly saturated red color in the
+neutral state but has a slight contribution of yellow when
+compared with the polymer film with the lowest optical
+density. As increasing positive potentials are applied to the
+polymer films, the a* value decreases with both the a* and b*
+values close to 0 for the fully oxidized polymer, indicating a
+near colorless transmissive state. As can be seen in Figure 6B
+and in Table 1, whereas the intensity of red, given by more
+positive a* values, is higher for the film with the highest
+optical density and lower for that with the lowest optical
+density, there is little affect on the oxidized state with all three
+film having nearly the same near colorless state.
+When considering the color of a material, the luminance
+(lightness or darkness) is also an important measurement
+given that the measured transmittance is the linear response
+of a photodetector to changes in the intensity of light,
+whereas luminance is weighted to the response of the human
+eye and is therefore more sensitive to perceptions in changes
+in the brightness of a sample.48 The percent luminance is
+most commonly measured relative to a background and
+given by the relative percent luminance, %Y = 100(Y/Yn).
+The percent luminance measured at each applied potential is
+plotted for several thicknesses of ECP-orange (Figure 7A)
+and ECP-red (Figure 7B) in addition to luminance change
+(Δ%Y) values in Table 1. It is not unexpected that the %Y
+contrast for the polymers is less than the %T contrast with
+the change in luminance nearly 1.5 times less than the change
+in transmittance for ECP-red and nearly three times less for
+ECP-orange. This can be understood by comparing the
+spectrum of ECP-red, which peaks at ∼525 nm, to that of
+orange, which peaks at ∼484 nm, and how well they overlap
+with the photopic luminosity function that peaks at 555 nm
+and is used in the calculation of luminance.45
+Perspective
+The field of conjugated ECPs has seen a growing interest,
+especially with the availability of commercially available forms of
+the solution processable PEDOT. However, the availability of
+fully solution processable polymers exhibiting a variety of colors
+in the neutral state remains limited. Recent efforts with the
+introduction of donor-acceptor concepts has made available
+polymers that switch from blue, turquoise, green, and even black
+to transmissive with the hue in the neutral state tunable through
+synthetic methodologies. Much attention has been focused
+toward the necessity for red, green, and blue materials to allow
+for additive color displays where the ECP would act as a color
+filter for a white backlight. If full color displays are desired where
+the ECP is an active colorant, such as would be in subtractive
+color displays, then a trichromatic set of polymers of either cyan,
+magenta, yellow or red, yellow, blue, is necessary. As the palette
+of colors available for ECPs widens, so does their opportunity for
+Figure 6. CIE 1976a*b*values at increasingappliedpotentials forfilmsofvaryingoptical densityof(A) ECP-orange at the potentialsof-0.77,-0.27,
+-0.02, 0.03, 0.08, 0.13, 0.15, 0.17, 0.19, 0.21, 0.23, 0.25, 0.27, 0.29, 0.31, 0.33, 0.35, 0.37, 0.39, 0.41, 0.43, 0.45, 0.47, 0.49, 0.51, and 0.53 V versus Ag/Agþ
+(film A = 0.59 au, film B = 0.98 au, andfilmC = 1.2 au) and (B) ECP-red atthe potentials of-0.79, -0.29, -0.19, -0.14, -0.09, -0.07, -0.05, -0.03,
+-0.01, 0.01, 0.03, 0.05, 0.07, 0.09, 0.11, 0.13, 0.15, 0.17, 0.19, 0.21, 0.23, 0.25, 0.27, 0.29, and 0.31 V versus Ag/Agþ (film A = 0.3 au, film B = 0.98 au,
+and film C = 1.6 au). Measurements were performed in 0.2 M LiBTI/PC of films spray-cast onto ITO/glass electrodes. The arrow shows the direction
+of increasing potential.
+
+4466
+Macromolecules, Vol. 43, No. 10, 2010
+Dyer et al.
+application. Here we extend the color palette of transmissive-
+switching polymers beyond the green, turquoise, blue, magenta,
+and black that are available now to polymers that are red and
+orange, nearly completing the color wheel, as shown in Figure 8.
+Experimental Section
+Materials and Methods. Lithium bis(trifluoromethane)sulfo-
+nimide (LiBTI) (>95%, Fluka) was used as received. PC
+(anhydrous, 99.7%, Sigma-Aldrich) was used as received and
+stored under Argon. 3,4-Dimethoxythiophene was purchased
+from AK Scientific and used as received. 1H NMR spectra were
+collected on a 300 MHz Varian VXR or a Unity Inova 500 MHz
+using CDCl3. Gel permeation chromatography (GPC) was
+performed using a Waters Associates GPCV2000 liquid chro-
+matography system with its internal differential refractive index
+detector (DRI) at 40 C, using either two Waters Styragel
+HR-5E columns (10 μm PD, 7.8 mm i.d., 300 mm length) or a
+Polymer Laboratories PLgel Mixed-C (5 μm, 300  7.5 mm) and
+a PL mixed-C guard (5 μm, 50  7.5 mm) with HPLC grade
+THF as the mobile phase at a flow rate of 1.0 mL/min. Injections
+were made at 0.05 to 0.07% w/v sample concentration using a
+220.5 μL injection volume. Retention times were calibrated
+against narrow molecular weight polystyrene standards (Polymer
+Laboratories, Amherst, MA).
+Electrochemistry. Electrochemical measurements were per-
+formed using a three-electrode cell with a platinum wire or a Pt
+flag as the counter electrode, Ag/Agþ reference electrode, or a
+silver wire pseudoreference electrode calibrated using a 5 mM
+solution of Fc/Fcþ in 0.2 M LiClO4 acetonitrile (ACN) electro-
+lyte. The working electrode was either a platinum button
+(0.02 cm2) purchased from Bioanalytical Systems or an ITO-coated
+glass slide (7  50  0.7 mm, sheet resistance, Rs 8-12 Ω/sq)
+purchased from Delta Technologies. An EG&G Princeton
+Applied Research model 273A potentiostat/galvanostat was
+used under the control of Corrware software. The electrolyte
+solution was purged with argon before electrochemical mea-
+surements performed.
+Spectroscopy and Colorimetry. Absorption spectra were per-
+formed using a Varian Cary 500 UV-vis/NIR spectrophoto-
+meter. In situ colorimetric measurements were performed using
+a Minolta CS100 colorimeter in transmission mode with a
+GraphicLite LiteGuard II standard D50 light source. The light
+source and the sample to be measured were placed in a color
+viewing booth. The interior of the light booth is coated with a
+standard gray neutral 8 (GTI Graphic Technology, Inc.) matte
+latex enamel (equivalent to Munsell N8) to allow for accurate
+assessment of color of the sample during measurement. Photo-
+graphy was performed in the same light booth using a FujiFilm
+FinePix S7000 at a shutter speed of 1/160 s, f-stop of f/4,
+aperture value of f/4.0, ISO of 200, and focal length of 18 mm.
+The photograph file-type was JPEG, and the files were cropped
+to only the polymer film to exclude extraneous background
+using Photoshop. No additional alterations to the files were
+performed.
+Synthesis.
+3,4-(2-Ethylhexyloxy)-thiophene. The synthesis
+of this monomer was reported previously,35 and has been
+modified as follows: In a round-bottomed flask, 3,4-dimethoxy-
+thiophene (33.4 g, 0.23 mol), 2-ethylhexanol (80 g, 0.61 mol),
+and p-toulenesulfonic acid monohydrate (4.4 g, 0.023 mol) were
+combined in toluene (1000 mL). The flask was equipped with a
+simple distillation head and heated initially to 110 C. Under a
+mild flow of nitrogen, the temperature was adjusted to allow for
+a slow distillation of methanol. The reaction was monitored by
+TLC. After 7 h, the reaction was allowed to cool. The organics
+were washed with saturated sodium bicarbonate solution and
+dried (MgSO4). The solvent was stripped and the residue was
+distilled, giving the product as a colorless oil: (65 g, 83%) bp
+133-35 @ 0.15 mm Hg. δH (500 MHz, CDCl3): 6.18 (s, 2H),
+3.87 (d, J = 6.0 Hz, 4H), 1.78 (m, 2H), 1.30-1.56 (m, 16H), 0.95
+(t, J = 7 Hz, 12H).
+Poly{3,4-di(2-ethylhexyloxy)thiophene} (ECP-Orange). In a
+round-bottomed flask, iron(III) chloride (1.43 g, 14.68 mmol)
+was dissolved in ethyl acetate (10 mL) and stirred under ambient
+atmosphere. 3,4-Di(2-ethylhexyloxy)thiophene (1 g, 2.94 mmol)
+was dissolved in ethyl acetate (10 mL) and added to the stirred
+solution of iron(III) chloride. The reaction mixture immedia-
+tely turned dark green and was stirred overnight at room
+temperature. Methanol (80 mL) was added, and the mixture
+was stirred for 5 min. The doped polymer was collected by
+suction filtration and washed with methanol (2  20 mL). The
+doped polymer was suspended in chloroform (50 mL), and
+hydrazine monohydrate (2 mL) was added dropwise, effecting
+Figure 7. Relative percent luminance as a function of increasing applied potential for (A) ECP-orange (film A = 0.59 au, film B = 0.98 au, film C = 1.2 au)
+and (B) ECP-red (film A = 0.30 au, film B = 0.98 au, film C = 1.6 au) of spray-cast films on ITO/glass. Measurements were performed in
+0.2 M LiBTI/PC.
+Figure 8. Color wheel of films sequentially spray-cast through a sha-
+dow mask of (clockwise from botton right) ECP-red in this manuscript,
+ECP-orange in this manuscript, ECP-green described in ref 31, ECP-
+turqoise described in ref 31, ECP-blue described in ref 34, ECP-purple
+described in ref 27, and ECP-black at the center described in ref 35.
+
+Article
+Macromolecules, Vol. 43, No. 10, 2010
+4467
+a change in color of the mixture to light-orange/brown, and
+stirred for 5 min. The mixture was concentrated to ca. 10 mL and
+precipitated into stirred methanol (100 mL), and the mixture
+was stirred for 5 min. The polymer was collected, dissolved in
+chloroform (10 mL), filtered, and reprecipitated into methanol
+(100 mL). The orange polymer was collected by suction filtra-
+tion and dried in vacuo. Polymer yield was 0.45 g (45%). GPC
+(THF vs PS standards): Mw ca. 145-274 kDa, Mn ca. 115-153
+kDa, PDI = 1.27 to 1.79; δH (300 MHz, CDCl3) 3.92 (br, 4H),
+1.77 (br, 2H), 1.56-1.28 (br m, 18H), 0.88 (br, 12H).
+Poly{3,4-di(2-ethylhexyloxy)thiophene-co-3,4-di(methoxy)-
+thiophene} (ECP-Red). Iron(III) chloride (5.73 g, 35.32 mmol)
+was dissolved in ethyl acetate (20 mL) and stirred under ambient
+atmosphere. 3,4-Di(2-ethylhexyloxy)thiophene (1.04 g, 3.05
+mmol) and 3,4-dimethoxythiophene (0.44 g, 3.05 mmol) were
+dissolved together in ethyl acetate (10 mL) and added to the
+stirred solution of iron(III) chloride. The reaction mixture
+immediately turned dark green and was stirred overnight at
+room temperature. The mixture was concentrated to ca. 5 mL,
+methanol (40 mL) was added, and the mixture was stirred for
+5 min. The doped polymer was collected by suction filtration
+and washed with methanol until the washings were clear. The
+doped polymer was suspended in chloroform (100 mL) and
+hydrazine monohydrate (2 mL) was added dropwise, effecting a
+change in color of the mixture to deep red, and the solution was
+stirred for 5 min. The mixture was concentrated to ca. 20 mL and
+precipitated into stirred methanol (100 mL), and the mixture
+was stirred for 5 min. The polymer was collected, dissolved in
+chloroform (10 mL), filtered, and reprecipitated into methanol
+(100 mL). The red polymer was collected by suction filtration
+and dried in vacuo. Polymer yield was 0.31 g (21%). GPC (THF
+vs PS standards): Mw ca. 35-49 kDa, Mn ca. 11-16 kDa,
+PDI = 2.12-4.38; δH (300 MHz, CDCl3) 3.98 (br, 10H),
+2.10-1.20 (br, 18H), 0.89 (br, 12H).
+Acknowledgment. We thank BASF for funding and thank
+Ms. Emily Thompson for technical assistance during the assem-
+bly of this manuscript.
+Supporting Information Available: Additional electroche-
+mical data including break-in electrochemical scans for ECP-
+orange, cycling stability for both ECP-orange and ECP-red, and
+1H NMR spectra and GPC traces for both polymers This
+material is available free of charge via the Internet at http://
+pubs.acs.org.
+References and Notes
+(1) Rosseinsky, D. R.; Mortimer, R. J. Adv. Mater. 2001, 13, 783.
+(2) Monk, P. M. S.; Mortimer, R. J.; Rosseinsky, D. R. Electrochro-
+mism and Electrochromic Devices; 1st ed.; Cambridge University
+Press: Cambridge, U.K., 2007.
+(3) Baetens, R.; Jelle, B. P.; Gustavsen, A. Sol. Energy Mater. Sol.
+Cells 2010, 94, 87.
+(4) Granqvist, C. G. Adv. Sci. Technol. 2008, 55, 205.
+(5) Somani, P. R.; Radhakrishnan, S. Mater. Chem. Phys. 2003, 77, 117.
+(6) Mortimer, R. J.; Dyer, A. L.; Reynolds, J. R. Displays 2006, 27, 2.
+(7) Andersson, P.; Forchheimer, R.; Tehrani, P.; Berggren, M. Adv.
+Funct. Mater. 2007, 17, 3074.
+(8) Dyer, A. L.; Reynolds, J. R. Electrochromism of Conjugated
+Conducting Polymers. In Handbook of Conducting Polymers, 3rd
+ed.; CRC Press: Boca Raton, FL, 2007; Vol. 1, Chapter 20.
+(9) Granqvist, C. G.; Lansaker, P. C.; Mlyuka, N. R.; Niklasson,
+G. A.; Avenda~no, E. Sol. Energy Mater. Sol. Cells 2009, 93, 2032.
+(10) Beaujuge, P. M.; Reynolds, J. R. Chem. Rev. 2010, 110, 268.
+(11) Tshibaka, T.; Ulliel Roche, I.; Dufresne, S.; Lubell, W. D.; Skene,
+W. G. J. Org. Chem. 2009, 74, 9497.
+(12) Bourgeaux, M.; Skene, W. G. J. Org. Chem. 2007, 72, 8882.
+(13) Dufresne, S.; Bourgeaux, M.; Skene, W. G. J. Mater. Chem. 2007,
+17, 1166.
+(14) Galand, E. M.; Mwaura, J. K.; Argun, A. A.; Abboud, K. A.;
+McCarley, T. D.; Reynolds, J. R. Macromolecules 2006, 39, 7286.
+(15) Irvin, D. J.; Reynolds, J. R. Polym. Adv. Technol. 1998, 9, 260.
+(16) Irvin, J. A.; Schwendeman, I.; Lee, Y.; Abboud, K. A.; Reynolds,
+J. R. J. Polym. Sci., Part A: Polym. Chem. 2001, 39, 2164.
+(17) Sotzing, G. A.; Reddinger, J. L.; Katritzky, A. R.; Soloducho, J.;
+Musgrave, R.; Reynolds, J. R.; Steel, P. J. Chem. Mater. 1997, 9,
+1578.
+(18) Walczak, R. M.; Reynolds, J. R. Adv. Mater. 2006, 18, 1121.
+(19) Steckler, T. T.; Zhang, X.; Hwang, J.; Honeyager, R.; Ohira, S.;
+Zhang, X.-H.; Grant, A.; Ellinger, S.; Odom, S. A.; Sweat, D.;
+Tanner, D. B.; Rinzler, A. G.; Barlow, S.; Bredas, J.-L.; Kippelen,
+B.; Marder, S. R.; Reynolds, J. R. J. Am. Chem. Soc. 2009, 131,
+2824.
+(20) Zhang, X.; Steckler, T. T.; Dasari, R. R.; Ohira, S.; Potscavage,
+W. J.; Tiwari, S. P.; Coppee, S.; Ellinger, S.; Barlow, S.; Bredas,
+J.-L.; Kippelen, B.; Reynolds, J. R.; Marder, S. R. J. Mater. Chem.
+2010, 20, 123.
+(21) Koyuncu, S.; Zafer, C.; Sefer, E.; Koyuncu, F. B.; Demic, S.; Kaya,
+I.; Ozdemir, E.; Icli, S. Synth. Met. 2009, 159, 2013.
+(22) Kirchmeyer, S.; Reuter, K. J. Mater. Chem. 2005, 15, 2077.
+(23) Beaupre, S.; Breton, A.-C.; Dumas, J.; Leclerc, M. Chem. Mater.
+2009, 21, 1504.
+(24) DuBois, C. J.; Abboud, K. A.; Reynolds, J. R. J. Phys. Chem. B
+2004, 108, 8550.
+(25) Groenendaal, L. B.; Jonas, F.; Freitag, D.; Pielartzik, H.;
+Reynolds, J. R. Adv. Mater. 2000, 12, 481.
+(26) Cirpan, A.; Argun, A. A.; Grenier, C. R. G.; Reeves, B. D.;
+Reynolds, J. R. J. Mater. Chem. 2003, 13, 2422.
+(27) Reeves, B. D.; Grenier, C. R. G.; Argun, A. A.; Cirpan, A.;
+McCarley, T. D.; Reynolds, J. R. Macromolecules 2004, 37, 7559.
+(28) Gunbas, G. E.; Durmus, A.; Toppare, L. Adv. Funct. Mater. 2008,
+18, 2026.
+(29) Tarkuc, S.; Udum, Y. A.; Toppare, L. Polymer 2009, 50, 3458.
+(30) Beaujuge, P. M.; Ellinger, S.; Reynolds, J. R. Adv. Mater. 2008, 20,
+2772.
+(31) Beaujuge, P. M.; Vasilyeva, S. V.; Ellinger, S.; McCarley, T. D.;
+Reynolds, J. R. Macromolecules 2009, 42, 3694.
+(32) University of Florida Research Foundation. United States Trade-
+mark 77483639, SPRAYDOT, Conjugated Polymer-Based Spray
+Coating for Coloring and Decorating Electrode Surfaces and
+Devices, May 27, 2008.
+(33) Reeves, B. D.; Unur, E.; Ananthakrishnan, N.; Reynolds, J. R.
+Macromolecules 2007, 40, 5344.
+(34) Amb, C. M.; Beaujuge, P. M.; Reynolds, J. R. Adv. Mater. 2010,
+22, 724.
+(35) Beaujuge, P. M.; Ellinger, S.; Reynolds, J. R. Nat. Mater. 2008, 7,
+795.
+(36) Leclerc, M.; Martinez Diaz, F.; Wegner, G. Makromol. Chem.
+1989, 190, 3105.
+(37) Wang, Y.; Lucht, B. L.; Euler, W. B. Polym. Prepr. 2002, 43, 1160.
+(38) Yang, C.; Orfino, F. P.; Holdcroft, S. Macromolecules 1996, 29,
+6510.
+(39) Mortimer, R. J.; Graham, K. R.; Grenier, C. R. G.; Reynolds, J. R.
+ACS Appl. Mater. Interfaces 2009, 1, 2269.
+(40) Szkurlat, A.; Palys, B.; Mieczkowski, J.; Skompska, M. Electro-
+chim. Acta 2003, 48, 3665.
+(41) Daoust, G.; Leclerc, M. Macromolecules 1991, 24, 455.
+(42) Leclerc, M. Adv. Mater. 199, 11, 1491.
+(43) Leclerc, M.; Frechette, M.; Bergeron, J.-Y.; Ranger, M.; Levesque,
+I.; Faid, K. Macromol. Chem. Phys. 1996, 197, 2077.
+(44) Gaupp, C. L.; Welsh, D. M.; Rauh, R. D.; Reynolds, J. R. Chem.
+Mater. 2002, 14, 3964.
+(45) Schanda, J. D. Colorimetry. In Handbook of Applied Photometry,
+DeCusatis, D. C., Ed.; Optical Society of America: New York, 1998.
+(46) Wyszecki, G.; Stiles, W. S. Color Science: Concepts and Methods,
+Quantitative Data and Formulae, 2nd ed.; John Wiley and Sons, Inc:
+New York, 1982.
+(47) CIE Publ. No. 15.2. Colorimetry, 1986.
+(48) Thompson, B. C.; Schottland, P.; Zong, K.; Reynolds, J. R. Chem.
+Mater. 2000, 12, 1563.
+

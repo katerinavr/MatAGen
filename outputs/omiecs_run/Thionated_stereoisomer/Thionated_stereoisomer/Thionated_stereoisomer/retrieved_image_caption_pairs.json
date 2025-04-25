@@ -1,0 +1,348 @@
+{
+  "records": [
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_1_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_1_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_1_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_1_img_2_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "N/A",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_1_img_3_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "Fig. 1. (a) Reported PDI-based small molecular mixed conductors. (b) Synthesis of gPDI and 2S-gPDI. Conditions: (1) propionic acid, 140 °C, 12 h; (2) Lawson’s reagent, toluene, 12 h.",
+      "caption": "Synthesis of gPDI and 2S-gPDI. Conditions: (1) propionic acid, 140 °C, 12 h; (2) Lawson’s reagent, toluene, 12 h.",
+      "caption_summary": [
+        "Synthesis",
+        "Conditions",
+        "Reagents"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_3_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "Fig. 1. (a) Reported PDI-based small molecular mixed conductors. (b) Synthesis of gPDI and 2S-gPDI. Conditions: (1) propionic acid, 140 °C, 12 h; (2) Lawson’s reagent, toluene, 12 h.",
+      "caption": "Reported PDI-based small molecular mixed conductors.",
+      "caption_summary": [
+        "PDI-based",
+        "small molecular",
+        "mixed conductors"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_3_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "Fig. 2. (a) Characteristics of UV–vis absorption spectra in dilute solutions and thin film state. (b) Calculated HOMO and LUMO energy levels diagrams. The differential absorption spectra of (c) gPDI and (d) 2S-gPDI scanned between 0.2 and −0.4 V versus Ag/AgCl and 0.1 M NaClaq solution was used as the supporting electrolyte. (e) The change in the polaron absorption of two small molecules with increasing doping potential.",
+      "caption": "The differential absorption spectra of gPDI scanned between 0.2 and −0.4 V versus Ag/AgCl and 0.1 M NaClaq solution was used as the supporting electrolyte.",
+      "caption_summary": [
+        "Differential absorption",
+        "gPDI",
+        "electrolyte"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_4_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "Fig. 2. (a) Characteristics of UV–vis absorption spectra in dilute solutions and thin film state. (b) Calculated HOMO and LUMO energy levels diagrams. The differential absorption spectra of (c) gPDI and (d) 2S-gPDI scanned between 0.2 and −0.4 V versus Ag/AgCl and 0.1 M NaClaq solution was used as the supporting electrolyte. (e) The change in the polaron absorption of two small molecules with increasing doping potential.",
+      "caption": "The differential absorption spectra of 2S-gPDI scanned between 0.2 and −0.4 V versus Ag/AgCl and 0.1 M NaClaq solution was used as the supporting electrolyte.",
+      "caption_summary": [
+        "Differential absorption",
+        "Electrochemistry",
+        "PDI"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_4_img_1_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "Fig. 2. (a) Characteristics of UV–vis absorption spectra in dilute solutions and thin film state. (b) Calculated HOMO and LUMO energy levels diagrams. The differential absorption spectra of (c) gPDI and (d) 2S-gPDI scanned between 0.2 and −0.4 V versus Ag/AgCl and 0.1 M NaClaq solution was used as the supporting electrolyte. (e) The change in the polaron absorption of two small molecules with increasing doping potential.",
+      "caption": "Calculated HOMO and LUMO energy levels diagrams.",
+      "caption_summary": [
+        "HOMO",
+        "LUMO",
+        "energy levels"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_4_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "Fig. 2. (a) Characteristics of UV–vis absorption spectra in dilute solutions and thin film state. (b) Calculated HOMO and LUMO energy levels diagrams. The differential absorption spectra of (c) gPDI and (d) 2S-gPDI scanned between 0.2 and −0.4 V versus Ag/AgCl and 0.1 M NaClaq solution was used as the supporting electrolyte. (e) The change in the polaron absorption of two small molecules with increasing doping potential.",
+      "caption": "Characteristics of UV–vis absorption spectra in dilute solutions and thin film state.",
+      "caption_summary": [
+        "UV–vis spectroscopy"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_4_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "Fig. 2. (a) Characteristics of UV–vis absorption spectra in dilute solutions and thin film state. (b) Calculated HOMO and LUMO energy levels diagrams. The differential absorption spectra of (c) gPDI and (d) 2S-gPDI scanned between 0.2 and −0.4 V versus Ag/AgCl and 0.1 M NaClaq solution was used as the supporting electrolyte. (e) The change in the polaron absorption of two small molecules with increasing doping potential.",
+      "caption": "The change in the polaron absorption of two small molecules with increasing doping potential.",
+      "caption_summary": [
+        "Polaron absorption",
+        "Doping potential",
+        "Small molecules"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_4_img_1_e.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "Fig. 3. 2D-GIWAXS patterns of (a) gPDI and (b) 2S-gPDI thin films and the corresponding line-cut profiles along the in-plane and out-of-plane directions of (c) gPDI and (d) 2S-gPDI thin films. Tapping-mode AFM images of (e) gPDI and (f) 2S-gPDI thin films.",
+      "caption": "2D-GIWAXS patterns of gPDI thin films",
+      "caption_summary": [
+        "2D-GIWAXS",
+        "gPDI",
+        "thin films"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_5_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "Fig. 3. 2D-GIWAXS patterns of (a) gPDI and (b) 2S-gPDI thin films and the corresponding line-cut profiles along the in-plane and out-of-plane directions of (c) gPDI and (d) 2S-gPDI thin films. Tapping-mode AFM images of (e) gPDI and (f) 2S-gPDI thin films.",
+      "caption": "Corresponding line-cut profiles along the in-plane and out-of-plane directions of gPDI thin films",
+      "caption_summary": [
+        "gPDI",
+        "thin films",
+        "line-cut profiles"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_5_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "Fig. 3. 2D-GIWAXS patterns of (a) gPDI and (b) 2S-gPDI thin films and the corresponding line-cut profiles along the in-plane and out-of-plane directions of (c) gPDI and (d) 2S-gPDI thin films. Tapping-mode AFM images of (e) gPDI and (f) 2S-gPDI thin films.",
+      "caption": "Tapping-mode AFM images of 2S-gPDI thin films",
+      "caption_summary": [
+        "AFM",
+        "thin films",
+        "gPDI"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_5_img_1_f.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "Fig. 3. 2D-GIWAXS patterns of (a) gPDI and (b) 2S-gPDI thin films and the corresponding line-cut profiles along the in-plane and out-of-plane directions of (c) gPDI and (d) 2S-gPDI thin films. Tapping-mode AFM images of (e) gPDI and (f) 2S-gPDI thin films.",
+      "caption": "2D-GIWAXS patterns of 2S-gPDI thin films",
+      "caption_summary": [
+        "2D-GIWAXS",
+        "thin films",
+        "2S-gPDI"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_5_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "Fig. 3. 2D-GIWAXS patterns of (a) gPDI and (b) 2S-gPDI thin films and the corresponding line-cut profiles along the in-plane and out-of-plane directions of (c) gPDI and (d) 2S-gPDI thin films. Tapping-mode AFM images of (e) gPDI and (f) 2S-gPDI thin films.",
+      "caption": "Corresponding line-cut profiles along the in-plane and out-of-plane directions of 2S-gPDI thin films",
+      "caption_summary": [
+        "Thin films",
+        "Line-cut profiles",
+        "2S-gPDI"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_5_img_1_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "Fig. 3. 2D-GIWAXS patterns of (a) gPDI and (b) 2S-gPDI thin films and the corresponding line-cut profiles along the in-plane and out-of-plane directions of (c) gPDI and (d) 2S-gPDI thin films. Tapping-mode AFM images of (e) gPDI and (f) 2S-gPDI thin films.",
+      "caption": "Tapping-mode AFM images of gPDI thin films",
+      "caption_summary": [
+        "AFM",
+        "gPDI",
+        "thin films"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_5_img_1_e.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "Fig. 4. Typical output curves of (a) gPDI and (b) 2S-gPDI OECTs. Transfer curves with the corresponding transconductance progressions at VDS = 0.4 V for (c) gPDI and (d) 2S-gPDI OECTs. (e) Plots of the transconductance against channel geometry and operation parameters to extract the associated μC*. (f) Comparison of the electron mobility and volumetric capacitance of both molecules.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_6_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "Fig. 4. Typical output curves of (a) gPDI and (b) 2S-gPDI OECTs. Transfer curves with the corresponding transconductance progressions at VDS = 0.4 V for (c) gPDI and (d) 2S-gPDI OECTs. (e) Plots of the transconductance against channel geometry and operation parameters to extract the associated μC*. (f) Comparison of the electron mobility and volumetric capacitance of both molecules.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_6_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "Fig. 4. Typical output curves of (a) gPDI and (b) 2S-gPDI OECTs. Transfer curves with the corresponding transconductance progressions at VDS = 0.4 V for (c) gPDI and (d) 2S-gPDI OECTs. (e) Plots of the transconductance against channel geometry and operation parameters to extract the associated μC*. (f) Comparison of the electron mobility and volumetric capacitance of both molecules.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_6_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "Fig. 4. Typical output curves of (a) gPDI and (b) 2S-gPDI OECTs. Transfer curves with the corresponding transconductance progressions at VDS = 0.4 V for (c) gPDI and (d) 2S-gPDI OECTs. (e) Plots of the transconductance against channel geometry and operation parameters to extract the associated μC*. (f) Comparison of the electron mobility and volumetric capacitance of both molecules.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_6_img_1_e.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "Fig. 4. Typical output curves of (a) gPDI and (b) 2S-gPDI OECTs. Transfer curves with the corresponding transconductance progressions at VDS = 0.4 V for (c) gPDI and (d) 2S-gPDI OECTs. (e) Plots of the transconductance against channel geometry and operation parameters to extract the associated μC*. (f) Comparison of the electron mobility and volumetric capacitance of both molecules.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_6_img_1_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "Fig. 4. Typical output curves of (a) gPDI and (b) 2S-gPDI OECTs. Transfer curves with the corresponding transconductance progressions at VDS = 0.4 V for (c) gPDI and (d) 2S-gPDI OECTs. (e) Plots of the transconductance against channel geometry and operation parameters to extract the associated μC*. (f) Comparison of the electron mobility and volumetric capacitance of both molecules.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_6_img_1_f.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_7_img_1_f.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_7_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_7_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_7_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_7_img_1_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_7_img_1_e.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_7_img_1_g.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "Fig. 6. (a) Schematic illustration of the facile soft contact lamination method used to evaluate mixed conductors for stretchable electronics. Note that the stretched films have two different transfer situations: parallel or perpendicular to the charge-transport direction, namely parallel or perpendicular device. (b and c) The OECTs’ transfer curves of gPDI film at a strain range from 0 % to 50 % in the case of (b) parallel and (c) perpendicular devices. (d and e) The OECTs’ transfer curves of 2S-gPDI film at a strain range from 0 % to 50 % in the case of (d) parallel and (e) perpendicular devices. (f and g) The corresponding μC* retention of both molecule films at different strain in a direction (f) parallel and (g) perpendicular to the charge-transporting direction. (h) Schematics showing the change of small molecular mixed conductors with different packing orientation under strain.",
+      "caption": "The OECTs’ transfer curves of gPDI film at a strain range from 0 % to 50 % in the case of perpendicular devices.",
+      "caption_summary": [
+        "OECTs",
+        "transfer curves",
+        "strain"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_8_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "Fig. 6. (a) Schematic illustration of the facile soft contact lamination method used to evaluate mixed conductors for stretchable electronics. Note that the stretched films have two different transfer situations: parallel or perpendicular to the charge-transport direction, namely parallel or perpendicular device. (b and c) The OECTs’ transfer curves of gPDI film at a strain range from 0 % to 50 % in the case of (b) parallel and (c) perpendicular devices. (d and e) The OECTs’ transfer curves of 2S-gPDI film at a strain range from 0 % to 50 % in the case of (d) parallel and (e) perpendicular devices. (f and g) The corresponding μC* retention of both molecule films at different strain in a direction (f) parallel and (g) perpendicular to the charge-transporting direction. (h) Schematics showing the change of small molecular mixed conductors with different packing orientation under strain.",
+      "caption": "The corresponding μC* retention of both molecule films at different strain in a direction parallel to the charge-transporting direction.",
+      "caption_summary": [
+        "Charge transport",
+        "Strain",
+        "Retention"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_8_img_1_f.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "Fig. 6. (a) Schematic illustration of the facile soft contact lamination method used to evaluate mixed conductors for stretchable electronics. Note that the stretched films have two different transfer situations: parallel or perpendicular to the charge-transport direction, namely parallel or perpendicular device. (b and c) The OECTs’ transfer curves of gPDI film at a strain range from 0 % to 50 % in the case of (b) parallel and (c) perpendicular devices. (d and e) The OECTs’ transfer curves of 2S-gPDI film at a strain range from 0 % to 50 % in the case of (d) parallel and (e) perpendicular devices. (f and g) The corresponding μC* retention of both molecule films at different strain in a direction (f) parallel and (g) perpendicular to the charge-transporting direction. (h) Schematics showing the change of small molecular mixed conductors with different packing orientation under strain.",
+      "caption": "The OECTs’ transfer curves of gPDI film at a strain range from 0 % to 50 % in the case of parallel devices.",
+      "caption_summary": [
+        "OECTs",
+        "transfer curves",
+        "strain"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_8_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "Fig. 6. (a) Schematic illustration of the facile soft contact lamination method used to evaluate mixed conductors for stretchable electronics. Note that the stretched films have two different transfer situations: parallel or perpendicular to the charge-transport direction, namely parallel or perpendicular device. (b and c) The OECTs’ transfer curves of gPDI film at a strain range from 0 % to 50 % in the case of (b) parallel and (c) perpendicular devices. (d and e) The OECTs’ transfer curves of 2S-gPDI film at a strain range from 0 % to 50 % in the case of (d) parallel and (e) perpendicular devices. (f and g) The corresponding μC* retention of both molecule films at different strain in a direction (f) parallel and (g) perpendicular to the charge-transporting direction. (h) Schematics showing the change of small molecular mixed conductors with different packing orientation under strain.",
+      "caption": "Schematic illustration of the facile soft contact lamination method used to evaluate mixed conductors for stretchable electronics. Note that the stretched films have two different transfer situations: parallel or perpendicular to the charge-transport direction, namely parallel or perpendicular device.",
+      "caption_summary": [
+        "Soft contact lamination",
+        "Mixed conductors",
+        "Stretchable electronics"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_8_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "Fig. 6. (a) Schematic illustration of the facile soft contact lamination method used to evaluate mixed conductors for stretchable electronics. Note that the stretched films have two different transfer situations: parallel or perpendicular to the charge-transport direction, namely parallel or perpendicular device. (b and c) The OECTs’ transfer curves of gPDI film at a strain range from 0 % to 50 % in the case of (b) parallel and (c) perpendicular devices. (d and e) The OECTs’ transfer curves of 2S-gPDI film at a strain range from 0 % to 50 % in the case of (d) parallel and (e) perpendicular devices. (f and g) The corresponding μC* retention of both molecule films at different strain in a direction (f) parallel and (g) perpendicular to the charge-transporting direction. (h) Schematics showing the change of small molecular mixed conductors with different packing orientation under strain.",
+      "caption": "The OECTs’ transfer curves of 2S-gPDI film at a strain range from 0 % to 50 % in the case of parallel devices.",
+      "caption_summary": [
+        "OECTs",
+        "transfer curves",
+        "strain"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_8_img_1_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "Fig. 6. (a) Schematic illustration of the facile soft contact lamination method used to evaluate mixed conductors for stretchable electronics. Note that the stretched films have two different transfer situations: parallel or perpendicular to the charge-transport direction, namely parallel or perpendicular device. (b and c) The OECTs’ transfer curves of gPDI film at a strain range from 0 % to 50 % in the case of (b) parallel and (c) perpendicular devices. (d and e) The OECTs’ transfer curves of 2S-gPDI film at a strain range from 0 % to 50 % in the case of (d) parallel and (e) perpendicular devices. (f and g) The corresponding μC* retention of both molecule films at different strain in a direction (f) parallel and (g) perpendicular to the charge-transporting direction. (h) Schematics showing the change of small molecular mixed conductors with different packing orientation under strain.",
+      "caption": "The OECTs’ transfer curves of 2S-gPDI film at a strain range from 0 % to 50 % in the case of perpendicular devices.",
+      "caption_summary": [
+        "OECTs",
+        "transfer curves",
+        "strain"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_8_img_1_e.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    },
+    {
+      "full_caption": "Fig. 6. (a) Schematic illustration of the facile soft contact lamination method used to evaluate mixed conductors for stretchable electronics. Note that the stretched films have two different transfer situations: parallel or perpendicular to the charge-transport direction, namely parallel or perpendicular device. (b and c) The OECTs’ transfer curves of gPDI film at a strain range from 0 % to 50 % in the case of (b) parallel and (c) perpendicular devices. (d and e) The OECTs’ transfer curves of 2S-gPDI film at a strain range from 0 % to 50 % in the case of (d) parallel and (e) perpendicular devices. (f and g) The corresponding μC* retention of both molecule films at different strain in a direction (f) parallel and (g) perpendicular to the charge-transporting direction. (h) Schematics showing the change of small molecular mixed conductors with different packing orientation under strain.",
+      "caption": "The corresponding μC* retention of both molecule films at different strain in a direction perpendicular to the charge-transporting direction.",
+      "caption_summary": [
+        "μC* retention",
+        "strain",
+        "charge-transport"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Thionated_stereoisomer\\Thionated_stereoisomer\\Thionated_stereoisomer\\images_folder\\page_8_img_1_g.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Thionated_stereoisomer\\Thionated_stereoisomer"
+    }
+  ]
+}

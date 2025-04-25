@@ -1,0 +1,973 @@
+ARTICLES
+PUBLISHED ONLINE: 4 AUGUST 2013 | DOI: 10.1038/NMAT3722
+A general relationship between disorder,
+aggregation and charge transport in
+conjugated polymers
+Rodrigo Noriega1†‡, Jonathan Rivnay2†‡, Koen Vandewal2, Felix P. V. Koch3, Natalie Stingelin3,4,
+Paul Smith3, Michael F. Toney5 and Alberto Salleo2*
+Conjugated polymer chains have many degrees of conformational freedom and interact weakly with each other, resulting
+in complex microstructures in the solid state. Understanding charge transport in such systems, which have amorphous and
+ordered phases exhibiting varying degrees of order, has proved difﬁcult owing to the contribution of electronic processes
+at various length scales. The growing technological appeal of these semiconductors makes such fundamental knowledge
+extremely important for materials and process design. We propose a uniﬁed model of how charge carriers travel in conjugated
+polymer ﬁlms. We show that in high-molecular-weight semiconducting polymers the limiting charge transport step is trapping
+caused by lattice disorder, and that short-range intermolecular aggregation is sufﬁcient for efﬁcient long-range charge
+transport. This generalization explains the seemingly contradicting high performance of recently reported, poorly ordered
+polymers and suggests molecular design strategies to further improve the performance of future generations of organic
+electronic materials.
+S
+ystematic progress in materials engineering is best guided by
+a fundamental understanding of the impact of structure—
+from atomic to microstructural and mesoscopic scales—on
+functional properties. Structural control at the appropriate length
+scales combined with knowledge of basic physical processes have
+given rise to engineering breakthroughs and rational design of new
+materials. For instance, the understanding of how chain alignment
+and degree of crystallinity control the mechanical properties of
+polymers led to the development of fibres with specific strengths
+exceeding that of steel. Recently, the potential to combine low-cost
+manufacturing and mechanical robustness while simultaneously
+engineering optoelectronic properties has spurred great interest
+in semiconducting polymers1. Consequently, devices based on
+organic semiconductors have reached significant milestones, such
+as ∼10% solar power conversion efficiencies2 and electron and hole
+mobilities exceeding 1 cm2 V−1 s−1 (refs 3,4). In contrast with other
+semiconductors, there is no commonly accepted, widely applicable
+model of charge transport in semiconducting polymers. Depending
+on the materials, models used to describe charge transport
+in organic semiconductors include band transport, hopping or
+multiple trapping and release1. Except for dynamic localization5,
+most of these models have been adapted from the study of
+inorganic semiconductors, where atoms are strongly localized on
+their equilibrium lattice sites. In contrast, conjugated polymers
+are weakly bonded macromolecules with numerous degrees of
+conformational freedom, resulting in microstructures varying from
+completely amorphous to crystalline. Typical crystalline packing
+in semicrystalline conjugated polymers involves ordered lamellae
+1Department of Applied Physics, Stanford University, Stanford, California 94305, USA, 2Department of Materials Science and Engineering, Stanford,
+California 94305, USA, 3Department of Materials, ETH Zurich, Zurich 8093, Switzerland, 4Department of Materials and Centre of Plastic Electronics,
+Imperial College London, London SW7 2AZ, UK, 5Stanford Synchrotron Radiation Lightsource (SSRL), SLAC National Accelerator Laboratory, Menlo Park,
+California 94025, USA. †These authors contributed equally to this work. ‡Present addresses: Department of Chemistry, University of California Berkeley,
+94720, USA (R.N.); Department of Bioelectronics, Ecole Nationale Supérieure des Mines, CMP-EMSE, MOC, 13541 Gardanne, France (J.R.).
+*e-mail: asalleo@stanford.edu
+composed of co-facially stacked molecules that exhibit strong
+π-orbital overlap (Supplementary Fig. S1).
+Based on the observation that inorganic polycrystalline semi-
+conductors often transport charge better than their amorphous
+analogues, much of the progress in the design of semiconducting
+polymers was made by pursuing polycrystalline-like microstruc-
+tures. However, recent polymers based on increasingly complex
+monomers3,6–13 seem to refute old paradigms exploited to attain
+high mobility, such as those involving regioregularity, texture, or
+crystallinity10,14–16. More significantly, highly disordered or even
+seemingly amorphous polymers now perform as well as semicrys-
+talline materials4,10.
+The interplay between microstructure and electrical properties
+in conjugated polymers is far from being clearly articulated.
+This difficulty originates from these materials’ intermediate
+location on the order–disorder scale. Materials that are between
+(poly)crystalline and amorphous are, in general, poorly understood.
+In this manuscript, we place in a common context both new
+data and literature data by applying characterization principles
+that allow a ranking of conjugated polymers according to
+their degree of structural disorder. All materials for which
+there exist relevant data, when processed into their highest-
+performing microstructure, exhibit a large amount of lattice
+disorder irrespective of their chemistry or overall degree of
+crystallinity. Structural disorder is linked to electronic localization
+within molecular stacks and gives rise to electronic traps, which
+limit charge transport in high-mobility conjugated polymers.
+This powerful simplification reveals a general structure–property
+1038
+NATURE MATERIALS | VOL 12 | NOVEMBER 2013 | www.nature.com/naturematerials
+© 2013 Macmillan Publishers Limited. All rights reserved
+
+NATURE MATERIALS DOI: 10.1038/NMAT3722
+ARTICLES
+a
+b
+c
+Figure 1 | Microstructure of conjugated polymer ﬁlms. a–c, Schematics of the microstructure of a semicrystalline polymer ﬁlm, for example P3HT (a),
+disordered aggregates (b) and a completely amorphous ﬁlm (c). Note the coexistence of ordered (darker shadowed areas) and spaghetti-like amorphous
+regions. This microstructure is similar to the concept of fringed micelles. If the molecular weight is high enough and there is a large enough density of
+ordered material, long polymer chains (highlighted in red) can connect ordered regions without a signiﬁcant loss of conjugation, greatly improving charge
+transport.
+relationship relating order at the segmental level to transport at the
+device scale. A survey of over ten years of literature data confirms
+the generality of these concepts.
+Charge transport and the importance of aggregates
+The
+microstructure
+of
+high-molecular-weight
+poly(3-hexyl-
+thiophene), P3HT—a model semicrystalline conjugated polymer—
+exhibits a continuous variation in order parameters17,18 where
+semi-ordered and amorphous ‘spaghetti-like’ regions coexist;
+long polymer chains are responsible for the connectivity between
+adjacent crystallites (Fig. 1a)19. Semi-ordered regions may be
+comprised of large domains with three-dimensional long-range
+periodicity (crystallites) or smaller domains with short-range
+ordering of a few molecular units (aggregates, which may also be
+identified as fringed micelles; Fig. 1b).
+In such a heterogeneous microstructure, the ordered regions
+are largely responsible for charge transport because charges
+must overcome an energy barrier to move from ordered to
+amorphous regions. Indeed, owing to its reduced conjugation
+length, the amorphous fraction of regio-regular P3HT (RR-
+P3HT) has a larger bandgap compared to the aggregates and
+we find no evidence of energetic overlap of electronic states
+in amorphous and ordered P3HT regions (Supplementary Fig.
+S2). This energetic offset hinders carrier migration into the
+amorphous regions, and makes it energetically and statistically
+favourable for charges at the order/disorder interface to migrate
+back into the ordered regions. Because, in principle, this offset
+could be reduced by polaronic effects, we test our hypothesis
+by studying blends of regio-random P3HT (RRa-P3HT) with
+controlled amounts of RR-P3HT nanofibrils (see Methods)20. Even
+for a low concentration of aggregates (∼10% by volume), at
+current densities comparable to those encountered in electronic
+devices, the electroluminescence spectra resemble that of RR-
+P3HT (Fig. 2, and Supplementary Figs S3 and S4). Consequently,
+transported charges recombine within fibrils. Thus, at realistic
+current densities, charge carriers remain confined in the ordered
+regions of a heterogeneous microstructure when such ordered
+regions are spatially close enough to form an interconnected
+network through tie-molecules.
+This conclusion may be challenged by the oft-encountered
+assumption, based on calorimetric measurements, that semicrys-
+talline polymer films have a low degree of crystallinity. However,
+these measurements systematically underestimate the amount of
+ordered material (Supplementary Fig. S5). In P3HT, we assess
+that such an underestimation is approximately a factor of two,
+with the aggregate volume fraction in P3HT films near ∼40–50%
+(refs 21,22). Hence, in high-mobility polymers the fraction of
+the film comprised of ordered material is sufficiently large to be
+interconnected by bridging polymer chains, creating a network that
+sustains efficient charge transport. Such networks of crystallites
+have been previously observed in conjugated polymers21,23.
+The nature of the connections between aggregates is poorly
+understood and should be the subject of further study. Nevertheless,
+we are able to make a few qualitative considerations. Polymer chains
+are semiflexible24,25—that is, rigid at length scales comparable
+to their persistence length and flexible at larger length scales.
+If the spacing between neighbouring crystallites is only a few
+persistence lengths, a chain that exits one ordered region and enters
+1.0
+a
+b
+1.0
+EL:1 mA
+PL
+EL:2 mA
+EL: 1, 2, 3, 4, 
+5, 7.5, 10, 15, 
+20, 30 mA
+RR
+RRa
+0.5
+0.5
+0.0
+0.0
+550
+600
+650
+700
+Wavelength (nm)
+750
+800
+850
+Normalized intensity
+Normalized intensity
+Figure 2 | Photo-physical characterization of pre-aggregated P3HT
+ﬁbril:amorphous-blend ﬁlms. a, Reference electroluminescence spectra
+from pure RR and RRa P3HT. Vertical dashed lines are the
+electroluminescence peak positions for the amorphous, and 0-0, 0-1
+aggregate transitions of the pristine ﬁlms, respectively.
+b, Photoluminescence spectrum (dotted) showing the signature of
+aggregated and amorphous material, along with electroluminescence
+spectra for increasing values of current in the devices made with ﬁlms of
+10% pre-aggregated RR-P3HT. Unlike the photoluminescence spectrum,
+the low-current (typical of normal device application) electroluminescence
+spectra show only emission from aggregates, indicating that it is due
+exclusively to recombination within the aggregates and not to exciton
+energy transfer to the aggregates before recombination. Only at large
+current densities does the blue-shifted spectral feature from RRa-P3HT
+appear, indicating emission from the disordered matrix.
+NATURE MATERIALS | VOL 12 | NOVEMBER 2013 | www.nature.com/naturematerials
+1039
+© 2013 Macmillan Publishers Limited. All rights reserved
+
+ARTICLES
+NATURE MATERIALS DOI: 10.1038/NMAT3722
+104
+a
+b
+c
+d
+e
+f
+g
+h
+103
+g = 0.5%
+g = 2%
+g = 5%
+g = 10%
+DOS
+LRMS/d
+102
+101
+102
+101
+100
+0
+2
+4
+E/t0
+E/t0
+E/t0
+E/t0
+E/t0
+6
+8
+104
+103
+102
+101
+0
+2
+4
+6
+8
+104
+103
+102
+101
+0
+2
+4
+6
+8
+0
+2
+4
+6
+8
+E/t0
+0
+2
+4
+6
+8
+E/t0
+102
+101
+100
+102
+101
+100
+102
+101
+kT
+100
+0
+2
+4
+6
+8
+104
+103
+102
+101
+0
+2
+4
+6
+8
+E/t0
+0
+2
+4
+6
+8
+Figure 3 | Modelling of the electronic effects of energetic and structural disorder. a–d, DOS of 1D stacks with different amounts of lattice disorder (g) and
+Gaussian energetic disorder (of width σ). We show the cases of an almost perfect lattice (g = 0.5%; a), a lattice with a small amount of disorder
+(g = 2%; b), a moderately paracrystalline lattice (g = 5%; c), and a strongly disordered lattice (g = 10%; d). The widths of the probability distribution of
+on-site energies increase as indicated by the arrow in a in the sequence 0, 50, 100 and 200 meV. The energy coordinate is normalized by the inter-site
+transfer integral at equilibrium, t0 = 150 meV. e–h, Localization length (that is, the root mean square spatial extent) for each of the eigenstates of the
+disordered Hamiltonian, normalized by the inter-site distance d, plotted versus the state’s energy. No energetic disorder was included, and the amounts of
+paracrystalline disorder are the same as a–d. The box depicts the localization length of states in a perfect stack (red horizontal line: complete
+delocalization) and the band edge in the absence of disorder (dashed line). States with a normalized localization length <2 are considered completely
+localized. The magnitude of kT at room temperature is indicated in h.
+another should not suffer large bends in its backbone and should
+retain significant conjugation. Such a chain segment, although
+not part of any aggregate, provides an efficient charge transport
+pathway between ordered regions and acts as a tie-molecule (see
+Supplementary Text). Hence, in high-molecular-weight polymers,
+transport occurs through an interconnected network of ordered
+regions. The amorphous fraction of the film does not participate in
+transport; therefore, the structural properties of the ordered regions
+govern charge transport in the film. Local mobility measurements
+in high-molecular-weight P3HT confirm that mobility is limited by
+transport in these nanoscale aggregates26, and scanning-probe field-
+effect measurements show no barrier for charge transport between
+aggregates27. These and our findings demonstrate experimentally
+that the electrical connection between aggregates is not a rate-
+limiting step in the transport process for conjugated polymers of
+sufficiently high molecular weight.
+Effect of disorder on the electronic structure of aggregates
+As charges in semicrystalline polymers reside in the ordered regions
+of the film, the effect of structural imperfections in these regions on
+their electronic properties must be understood. Structural disorder
+gives rise to energetic disorder—that is, variations in the energy
+levels across the material—and also affects intermolecular charge
+transfer integrals. Disorder-induced localization is a well-known
+occurrence in condensed matter28,29. Semiconducting polymers,
+however, require the understanding of charge transport in
+intermediate disorder regimes. Structural disorder in an imperfect
+crystal is described by the paracrystallinity model as random
+fluctuations in lattice spacings. This disorder is quantitatively
+measured by the paracrystallinity parameter g, which is the standard
+deviation of local static lattice fluctuations normalized by the
+average value of the lattice spacing30. Interestingly, paracrystallinity
+describes the local structure of amorphous silicon more accurately
+than previously accepted models31.
+The strongest electronic coupling in a polymer is along its back-
+bone, but intermolecular transport is necessary in a typical device as
+no individual chain can provide macroscopic transport. Disorder in
+the π-stacks of organic semiconductors is most relevant to transport
+because this direction supports rate-limiting intermolecular charge
+transfers. Paracrystallinity in the π-stacks causes the creation
+of deep tails of electronic states extending into the materials’
+bandgap with a characteristic energy breadth proportional to g 2
+(ref. 32). To compare the effects of structural and energetic disorder
+on electronic structure, we use a tight-binding model where an
+aggregate is modelled as a 1D π-stack of molecules (Methods and
+Supplementary Text). Including variations in the molecular energy
+levels as well as fluctuations in the intermolecular charge transfer
+integral yields results useful for qualitative comparisons.
+In the case of negligible paracrystallinity, the density of states
+(DOS) of the 1D π-stack depends on the amount of on-site
+disorder generating a Gaussian tail of states extending into the
+bandgap (Fig. 3a). Typical π-stacks of conjugated polymers exhibit
+moderate amounts of paracrystalline disorder (g ≥5%; see below).
+Under these conditions, the DOS of the aggregate is hardly
+affected by on-site disorder and is determined by the amount of
+paracrystallinity (Fig. 3c,d).
+Our model neglects dynamic effects, which were included
+in a recent study33
+of charge transport in poly(2,5-bis(3-
+tetradecylthiophen-2-yl)thieno[3,2,-b]thiophene) (PBTTT), where
+the authors suggested that dynamic fluctuations and polarization-
+induced charge stabilization lead to further DOS broadening.
+Fluctuations of electronic couplings, however, occur on a very
+fast timescale and must be time-averaged before studying charge
+transfer
+events. Although our treatment includes no time
+1040
+NATURE MATERIALS | VOL 12 | NOVEMBER 2013 | www.nature.com/naturematerials
+© 2013 Macmillan Publishers Limited. All rights reserved
+
+NATURE MATERIALS DOI: 10.1038/NMAT3722
+ARTICLES
+dependence, static cumulative disorder is significant in these
+materials.
+Dynamic disorder will induce further fluctuations
+around the static positions, but these refinements do not qualita-
+tively alter our conclusions.
+The spatial extent of the calculated wavefunctions for the
+disordered stack (Fig. 3e–h) shows that disorder-induced states that
+lie deeper into the DOS tail are increasingly localized. Even states
+within the originally ‘delocalized band’ become more localized with
+increasing paracrystallinity. In the limit of large positional disorder
+(g ∼10%), the distinction between band and tail disappears: a
+single broad distribution of localized states with a monotonically
+decreasing DOS extends into the bandgap, reproducing well-known
+results of electronic structure theory of amorphous materials34,35.
+In the intermediate paracrystallinity regime (g ∼3–7%) we observe
+a coexistence of localized and delocalized states, indicating that in
+paracrystalline aggregates charge is transported by a mechanism
+where mobile charge is temporarily trapped in localized states, akin
+to multiple trapping and release1,36.
+Measuring paracrystallinity in conjugated polymers
+Using X-ray diffraction peak-shape analysis (details in Supplemen-
+tary Text) we quantify paracrystallinity in polymer crystallites to
+determine whether this disorder dominates their DOS. In PBTTT,
+a polymer considered to exhibit an exceptional degree of order37,
+we find a highly anisotropic lattice disorder. In the lamellar stack-
+ing direction, glam = 2.6% owing to side chain interdigitation38,39.
+Long-range lamellar order however does not translate to order in
+the π-stacks, where gπ =7.3%, a value close to that of an amorphous
+stack. Thus, we conclude that the DOS of a PBTTT π-stack is
+dictated by paracrystalline disorder.
+The low amount of paracrystalline disorder measured in a small
+molecule film and its small anisotropy (Fig. 4 and Supplementary
+Table S1) shows that organic solids are not inherently disordered
+in spite of their weak intermolecular forces. Conversely, the
+distinguishing feature of polymers is the pronounced disorder in
+the π-stacking direction. To observe this transition, we use thin
+films of P3HT with chain lengths of 8 to >2,000 monomers (Mn
+from 1.33 to >350 kg mol−1), and perform single-peak estimations
+of the π-stacking disorder (Supplementary Text and Figs S6, S7).
+When starting from an oligomer and adding monomers to form a
+high-molecular-weight polymer, paracrystallinity in the π-stacking
+direction is initially low (comparable to that in polycrystalline films
+of small molecules) and rises until the incremental effect of adding
+monomers vanishes and paracrystallinity becomes independent of
+molecule length (Fig. 4a).
+Although P3HT represents a model system, we also explored
+paracrystallinity in the π-stacking direction of other high-mobility
+polymers. We collect π-stacking data from over 30 literature
+cases (Fig. 4a), where conjugated polymers were processed with
+common solvents and casting techniques. It is apparent that
+high-molecular-weight semicrystalline polymer semiconductors
+exhibit a surprisingly common level of minimum lattice disorder
+(g ∼6–8%). In the direction where intermolecular charge transfer
+occurs, all high-mobility high-molecular-weight polymers are
+closer to being amorphous (g ∼10–20%) than crystalline (g <1%),
+irrespective of the degree of order in the lamellar stacking direction.
+The universal dependence of paracrystalline disorder on molecular
+weight indicates that chain folding and entanglements are probable
+sources of defects40. Side-chain conformational disorder may also
+disrupt the backbone packing arrangement, leading to an intrinsic
+level of disorder common to all conjugated polymers.
+A simultaneous comparison of the effect of molecular weight
+on disorder and on mobility (Fig. 4) is a strong indication that
+charge transport is linked to lattice disorder. When the molecular
+weight of P3HT is high enough such that its lattice disorder
+becomes independent of chain length, the carrier mobility is also
+0
+0
+100
+10¬2
+10¬4
+10¬6
+Mobility,   FET (cm2 V¬1 s¬1)
+TIPS-Pn, full fit
+5
+10
+Paracrystallinity estimate, ~g (%)
+15
+100
+200
+Degree of polymerization
+300
+1,000
+MW study
+MW study
+Si-PCPDTTBT (r)
+P(NDI-T2) (s)
+CDT-BTZ (t)
+PII2T [C, Si] (h)
+DPP-BT [C, Se] (i)
+(l),
+(m),
+(o)
+(p)
+(q)
+(n),
+(a)
+Anneal study
+full fit,
+PCPDTBT (d)
+PTB1(f)
+PDVT(g)
+PII2T [C, Si] (h)
+DPP-BT [C, Se] (i)
+PT(MEEM) (j)
+BBL∗ (k)
+P(NDI-T2) (e)
+(b)
+P3HT
+P3HT
+PBTTT
+PQT (c)
+(a)
+1,500
+0
+100
+200
+Degree of polymerization
+300
+1,000 1,500
+μ
+a
+b
+Figure 4 | Chain length effects on paracrystallinity and charge transport.
+a, The π-stacking paracrystallinity in ﬁlms of polymeric semiconductors of
+different molecular weight (MW), plotted as a function of degree of
+polymerization. Semicrystalline materials (P3HT, PBTTT, PQT) are shown in
+shades of red. Poorly ordered high performing materials are shown in black.
+Others are shown in grey. Open symbols are estimates, solid symbols are
+derived from a full analysis. As a comparison, cumulative disorder in
+polycrystalline triisopropylsilyl pentacene (TIPS-Pn) is far smaller than that
+of PBTTT and, importantly, shows signiﬁcantly less anisotropy
+(Supplementary Table S1). b, Mobility as a function of molecular weight for
+a variety of semiconducting polymers. P3HT is shown in red with different
+symbols referring to different studies. Other high-performing materials are
+shown in black. For the complete list of references see Supplementary Text.
+remarkably independent of chain length. The link between these
+two fundamentally different properties is particularly striking, as
+the turn-over point is the same for both (chains with 50–100
+monomers for P3HT) and agrees with recent yield and mobility
+measurements of photogenerated charges41. Our findings remain
+valid, irrespective of whether interface or bulk measurements are
+considered (see Supplementary Text). Similar improvements in
+mobility with increasing molecular weight have been observed
+in other polymers11,42.
+The effect of molecular weight on charge transport in semicrys-
+talline polymers is subject to an intrinsic and general trade-off. Long
+chains provide electrical connectivity between ordered regions,
+allowing efficient charge transport, but also result in higher struc-
+tural disorder. In the low-molecular-weight connectivity-limited
+regime, mobility rises quickly as average chain length increases43.
+Eventually, the mobility plateaus as a function of molecular weight
+when enough connectivity is provided for charge to move through
+the paracrystalline regions (see Supplementary Text). Thus, in
+high-molecular-weight polymers charge transport is strongly en-
+hanced by the connectivity of the ordered regions (crystallites and
+aggregates) but limited by lattice disorder in these regions once
+sufficient connectivity is established.
+The spread in mobility values is significant, showing that no
+single microstructural feature is entirely responsible for electronic
+NATURE MATERIALS | VOL 12 | NOVEMBER 2013 | www.nature.com/naturematerials
+1041
+© 2013 Macmillan Publishers Limited. All rights reserved
+
+ARTICLES
+NATURE MATERIALS DOI: 10.1038/NMAT3722
+performance. Differences in morphology arise from variations
+in processing conditions and polydispersity, which contribute to
+the variability in charge carrier mobility. Despite these factors,
+the fundamental transport-limiting mechanism and its causal
+connection to paracrystallinity is preserved.
+Paracrystallinity governs charge transport
+In ‘classic’ (that is, designed to exhibit a noticeable degree of
+crystallinity and extended π–π stacking) semicrystalline conjugated
+polymers, paracrystalline disorder in the crystallites limits charge
+transport via the introduction of traps. The level of lattice disorder
+in the π-stacking direction measured in all high-molecular-weight
+polymers corresponds to the regime where localized and delocalized
+states in the aggregates coexist, giving rise to trapping-limited
+transport, as experimentally observed in field effect transistors
+(FET) and in local mobility measurements26. In FETs, the difference
+in energy between the populated traps and the mobile states
+manifests itself in the activation energy for transport and its
+dependence on charge density (gate voltage). Hence, the greater the
+disorder, the deeper the traps and the larger the activation energy.
+In
+Fig. 5,
+we
+gather
+activation
+energies
+derived
+from
+temperature-dependent FET measurements, and trap depth/tail
+widths derived from modelling electrical transport both from
+the literature and from this work. These data were collected
+from samples spanning a range of mobility, materials purity,
+device preparation, surface treatments and geometry. In spite of
+such variety of materials and conditions, a consistent behaviour
+emerges. Transport in common thiophene-based semicrystalline
+polymers—for example, P3HT, poly[5,5′-bis(3-alkyl-2-thienyl)-2,
+2′-bithiophene] (PQT), PBTTT—has an average 72 ± 24 meV
+activation energy. In comparison, completely amorphous ma-
+terials show a significantly higher average activation energy
+∼230±100 meV. It is interesting to examine new high-performance
+polymers, which do not seem to belong in either category. Examples
+of these materials are copolymers based on more complex moieties,
+such as naphthalene-diimides (PNDI-T2), diketopyrrolopyrroles
+with sulphur and selenium (DPP-BT, DSePP-BT), and carbazoles
+(PCDTBT), but also newer materials such as isoindigo copoly-
+mers and indacenodithiophene-based polymers. These materials
+have mobilities comparable to those of semicrystalline polymers
+(µFET ∼1 cm2 V−1 s−1), but at first glance, morphologically, they
+are closer to the amorphous materials family. Indeed their disorder
+is higher than that of semicrystalline polymers, as evidenced by
+lower diffracted intensities, fewer observable diffraction peaks,
+and/or the large breadth of their π-stacking peak. These new
+high-mobility polymers exhibit activation energies and trap
+breadths of 76±33 meV: similar to those of ‘classic’ semicrystalline
+polymers and significantly lower than the mean value observed for
+amorphous conjugated polymers. Many of these new reportedly
+‘amorphous’ materials have at least enough short-range order to
+result in detectable diffraction in synchrotron XRD experiments
+(Supplementary Fig. S8). Though polymers in this new class are
+seemingly disordered, they exhibit the tell-tale signs of aggregation
+in their solid-state optical absorption spectra, namely the presence
+of a resolvable vibronic progression near the absorption edge22.
+Short-range order in the form of aggregates is sufficient to support
+efficient intermolecular charge transfer. Because charges have a
+short scattering mean free path in the π-stacks—on the order of a
+nanometre36—they are mostly affected by such short-range order.
+Disordered crystallites larger than a scattering length bring hardly
+any additional benefit for charge transport. In conjugated polymers,
+crystallinity—no matter how low—is a sign that the polymer chains
+have a tendency to form stacked aggregates with a paracrystallinity
+that can be estimated by the width of the π-stacking XRD peak.
+This collection of interconnected aggregates enables high mobilities
+in high-molecular-weight polymers despite the consistently large
+'Classic'
+semicrystalline
+Amorphous
+Activation energy or trap breadth (meV)
+Aggregating
+PBTTT
+PQT
+P3HT
+PSSS
+PBDN
+DPP-BT
+SeDPP-BT
+PCDTBT
+F8T2
+PTAA
+PPVs
+RRa-P3HT
+Poorly
+ordered
+Amorphous
+Semi- 
+crystalline
+P(NDI-T2)
+0
+100
+200
+300
+400
+500
+Figure 5 | Activation energy for transport in semiconducting polymers.
+Activation energies obtained from FET data from this work, and from the
+literature (dash), as well as trap depth/tail widths derived from device
+modelling (cross) for traditional classic semicrystalline materials (red),
+new high performers that are found to be poorly ordered (black), and
+completely amorphous materials (blue). Data (84 values for 13 different
+materials) are binned by material (for the complete list of references see
+Supplementary Text). The averages and standard deviations from the
+respective groups are shown for semicrystalline, poorly ordered, and
+amorphous materials on the right panel.
+paracrystalline disorder in the π-stacking direction and weak
+diffracted intensities.
+Molecular stacking, even with only short-range order, makes
+aggregating materials fundamentally different from truly amor-
+phous polymers. Assuming an exponential dependence of the
+intermolecular transfer integral t on separation x, t = t0e−βx, the
+prefactor t0 and wavefunction overlap decay length (1/β) govern
+the extent to which lattice disorder affects charge transport. The
+newer high-mobility polymers can tolerate nanometre-scale disor-
+der owing to their structure at the ångström-scale. For example,
+increasing t0 by reducing the π–π stacking distance causes aggre-
+gates to be electronically less sensitive to large amounts of disorder,
+increasing the threshold beyond which paracrystallinity-induced
+states severely affect transport. Similarly, reducing β by design-
+ing materials with orbitals having larger overlaps or favourable
+symmetries reduces the effect of positional disorder on charge
+transport. Some of these factors are probably at work in recently
+reported high-mobility polymers. The optimization of side-chains
+to increase solubility leads to a reduced intermolecular π-stacking
+distance in diketopyrrolopyrrole-furan and isoindigo-based poly-
+mers. Using large and planar fused-ring aromatic cores increases
+the overlapping area between adjacent π-stacked units, making
+the aggregates less sensitive to positional disorder12,13. Therefore,
+tuning the molecular design to improve packing and orbital shape,
+orientation and symmetry may contribute to making transport in
+aggregates—where charge is confined—less sensitive to π-stacking
+disorder, thereby preserving efficient device-scale charge transport.
+These considerations separate polymeric semiconductors into
+two classes. In one class we have truly amorphous materials,
+lacking any long-range order and characterized by broad, featureless
+amorphous X-ray scattering halos. Charge transport in these truly
+amorphous materials is limited by hopping between localized states
+in a broad DOS. Such a transport mode is restricted to mobilities
+<0.1 cm2 V−1 s−1 and is subject to large activation energies44. In the
+second class are materials that can form interconnected aggregates
+exhibiting at least short-range order, with transport in field-effect
+devices described by a multiple trapping and release mechanism.
+1042
+NATURE MATERIALS | VOL 12 | NOVEMBER 2013 | www.nature.com/naturematerials
+© 2013 Macmillan Publishers Limited. All rights reserved
+
+NATURE MATERIALS DOI: 10.1038/NMAT3722
+ARTICLES
+The difference between aggregating materials families is the distance
+over which aggregation persists: semi-crystalline materials exhibit
+relatively long range order (several to 10 s of nanometres in the π-
+stacking direction as derived from the coherence length) and strong
+X-ray scattering, whereas weakly scattering polymers can be ordered
+in some crystallographic directions (alkyl-stacking) but remain
+largely disordered in the π-stacking direction (Supplementary Fig.
+S8). Even though these semi-amorphous materials are strongly
+disordered in their π-stacks, their ability to form aggregates allows
+locally efficient intermolecular charge transport. Such short-range
+order at the segmental level is sufficiently pervasive in the thin-film
+microstructures to provide effective pathways for charge transport.
+Aggregating polymers of high molecular weight, whether very
+weakly diffracting or truly semicrystalline, belong to the same class,
+where the disorder in the intermolecular π-stacking direction is
+consistently high in all conjugated polymers and induces traps in
+the DOS, which are transport-limiting.
+Implications for high-mobility semiconducting polymers
+Understanding charge transport in conjugated semicrystalline
+polymers has proved to be a challenging problem owing to the
+unusual range of disorder they exhibit. These materials are not well-
+ordered, yet they are not amorphous either. By bringing together
+data from years of research in conjunction with new insights,
+we formulate a link between the molecular- and micro-structure
+of high-mobility semiconducting polymers and their macroscopic
+electrical properties. These insights uncover strong similarities
+within seemingly diverse families of conjugated polymers and
+allow us to formulate a unified transport model. We find that,
+in the π-stacking direction, the lowest observed amount of
+lattice disorder in all high-performance—and necessarily high
+molecular weight—polymers is unexpectedly large and remarkably
+independent of material. The unifying requirement for high
+carrier mobility is the presence of interconnected aggregates, even
+if they are small and disordered. The key to designing high-
+mobility polymers is not in increasing crystallinity but rather
+in increasing their tolerance to an inevitably large amount of
+disorder within the aggregates by allowing more efficient intra-
+and intermolecular charge transport/transfer at the segmental level.
+The fundamental relationship presented here between short-range
+order in π-aggregates, aggregate connectivity, and macroscopic
+charge transport provides input for the design of new optoelectronic
+polymers with the potential to usher in technological successes
+comparable to those obtained with high-strength polymers. More
+broadly, we provide a general framework for understanding how
+to take advantage of intermediate order at different length scales to
+control the macroscopic properties of semicrystalline polymers, be
+they optical, electrical or mechanical.
+Methods
+Sample preparation. Samples for structural determination and TFT measurements
+were prepared on native oxide silicon and 200 nm thermal oxide silicon,
+respectively. Substrates were sonicated in acetone and isopropyl alcohol before
+drying with nitrogen and undergoing ultraviolet ozone treatment (20 min). Raw
+materials were used as received from Merck Chemicals (TIPS-Pn, P3HT), Polyera
+(N2200, and derivatives), Imperial College London (P3HT, PBTTT), and ETH
+Zurich (P3HT, P3HT-oligomers). Films were spin cast from ∼10 mg ml−1 solutions
+at 1,000–1,500; if used for electro-optical testing film formation was performed in
+a N2 glove box (<1 ppm O2). The samples in the P3HT molecular weight series
+were cast from toluene, whereas other films (TIPS-Pn, P3HT, P[NDI2OD-T2],
+PBTTT) were cast from dichlorobenzene. Directional samples of PBTTT were cast
+as previously described45.
+Photo-physical characterization. For electroluminescence (EL) and
+photoluminescence (PL) studies, we prepared solution blends of RRa-P3HT
+(Mw = 90 kDa, Mn = 30 kDa) and pre-aggregated RR-P3HT (regio-regularity
+∼97%, Mw = 105 kDa, Mn = 60 kDa). Starting solutions of RR- and RRa-P3HT in
+dichlorobenzene (DCB, 30 mg ml−1) were dissolved at 80 ◦C overnight. To vary
+the amount of aggregated material in the films, the starting solutions of RR- and
+RRa-P3HT in DCB were diluted with ethylacetate (2:1 DCB:EtOAc solvent ratio)
+to form the stock solutions for pre-aggregated and amorphous materials, which
+were then mixed in 1:1 and 1:9 ratios. Films made from these solutions were spun
+cast onto ITO/PEDOT substrates and Ca/Al electrodes were evaporated to form
+devices with an area of 0.1 cm2. The EL and PL spectra for these devices were
+collected using a cooled CCD camera and corrected for the spectrometer response.
+PL experiments used a pump beam from a 535 nm diode laser. The driving voltage
+for the diodes used in the EL measurements was provided by a Keithley 2400
+power source. All these measurements and sample preparation were performed
+in an inert atmosphere.
+Electrical characterization. For devices used for electrical characterization,
+substrates were first treated with an octadecyltrichlorosilane (OTS) self-assembled
+monolayer before casting of semiconducting polymer. The top 100 nm Au source
+and drain contacts were evaporated on dry films. Thin-film transistor devices were
+characterized in a vacuum probe station evacuated to 10−4 mbar. The TFT charge
+carrier mobility was extracted in the saturation regime (Vd =−60 V).
+X-ray characterization. X-ray scattering was performed at the Stanford
+Synchrotron Radiation Lightsource (SSRL) on beamlines 7-2 (high-resolution
+grazing incidence), 2-1 (high-resolution specular), and 11-3 (2D scattering with an
+area detector, MAR345 image plate, at grazing incidence). The incident energy was
+8 keV for beamlines 7-2 and 2-1, and 12.7 keV for beamline 11-3. The diffracted
+beam was collimated with 1 milliradian Soller slits for high-resolution in-plane
+scattering and with two 1 mm slits for specular diffraction. For both grazing
+incidence experiments, the incidence angle was slightly larger than the critical
+angle, ensuring that we sampled the full film depth. All X-ray measurements were
+performed in a helium-filled chamber to minimize beam damage and reduce air
+scattering. Data are expressed as a function of the scattering vector q=4π∗sin(θ)/λ,
+where θ is half the scattering angle and λ is the wavelength of the incident radiation.
+Here, qxy (qz) is the component of the scattering vector parallel (perpendicular) to
+the substrate. Only high-resolution measurements were employed for extraction
+of peak parameters and analysis of paracrystalline disorder. Details of the peak
+shape analysis, and resulting estimates and their justification can be found in the
+Supplementary Information and in ref. 46.
+Simulations. The model from ref. 32 is simplified to a one-dimensional disordered
+stack made up of Ns sites. A tight-binding Hamiltonian is employed to describe
+transport through this system, with on-site energies εi and nearest neighbour
+transfer integrals ti. In the matrix form of the Hamiltonian, the main diagonal
+reflects the on-site energies and the off-diagonal terms reflect inter-site couplings.
+To first order, we treat the observed fluctuation in lattice parameter within
+the crystalline regions only as a distribution of intermolecular separations,
+neglecting details of molecular orientation and correlations. Energetic disorder
+was introduced by selecting the on-site energies from a probability distribution
+of a given width; structural disorder is modelled by varying the coupling between
+neighbours as ti = t0e−βxi, where the bond fluctuations xi due to lattice disorder
+modify the transfer integral at equilibrium t0 with an exponential decay with
+characteristic length 1/β. The transfer integral was parametrized according to
+values previously obtained for PBTTT (ref. 32). Solving for the eigenfunctions
+and eigenvalues of the Hamiltonian yields the states of the system and their
+energies, respectively.
+Received 18 January 2013; accepted 25 June 2013; published online
+4 August 2013
+References
+1.
+Klauk, H. Organic Electronics II: More Materials and Applications (Wiley-VCH,
+2012).
+2.
+He, Z. et al. Enhanced power-conversion efficiency in polymer solar cells using
+an inverted device structure. Nature Photon. 6, 593–597 (2012).
+3.
+Chen, H. et al. Highly π-extended copolymers with diketopyrrolopyrrole
+moieties for high-performance field-effect transistors. Adv. Mater. 24,
+4618–4622 (2012).
+4.
+Facchetti, A. π-conjugated polymers for organic electronics and photovoltaic
+cell applications. Chem. Mater. 23, 733–758 (2010).
+5.
+McMahon, D. P. & Troisi, A. Organic semiconductors: Impact of disorder at
+different timescales. ChemPhysChem 11, 2067–2074 (2010).
+6.
+Chen, Z. et al. High-performance ambipolar diketopyrrolopyrrole-thieno[3,2-
+b]thiophene copolymer field-effect transistors with balanced hole and electron
+mobilities. Adv. Mater. 24, 647–652 (2012).
+7.
+Jung, J. W., Liu, F., Russell, T. P. & Jo, W. H. A high mobility conjugated
+polymer based on dithienothiophene and diketopyrrolopyrrole for organic
+photovoltaics. Energy Environ. Sci. 5, 6857–6861 (2012).
+8.
+Kronemeijer, A. J. et al. A selenophene-based low-bandgap donor–
+acceptor polymer leading to fast ambipolar logic. Adv. Mater. 24,
+1558–1565 (2012).
+NATURE MATERIALS | VOL 12 | NOVEMBER 2013 | www.nature.com/naturematerials
+1043
+© 2013 Macmillan Publishers Limited. All rights reserved
+
+ARTICLES
+NATURE MATERIALS DOI: 10.1038/NMAT3722
+9.
+McCulloch, I. et al. Design of semiconducting indacenodithiophene polymers
+for high performance transistors and solar cells. Acc. Chem. Res. 45,
+714–722 (2012).
+10. Zhang, W. et al. Indacenodithiophene semiconducting polymers
+for high-performance, air-stable transistors. J. Am. Chem. Soc. 132,
+11437–11439 (2010).
+11. Tsao, H. N. et al. Ultrahigh mobility in polymer field-effect transistors by
+design. J. Am. Chem. Soc. 133, 2605–2612 (2012).
+12. Mei, J., Kim, D. H., Ayzner, A. L., Toney, M. F. & Bao, Z. Siloxane-terminated
+solubilizing side chains: Bringing conjugated polymer backbones closer and
+boosting hole mobilities in thin-film transistors. J. Am. Chem. Soc. 133,
+20130–20133 (2011).
+13. Yiu, A. T. et al. Side-chain tunability of furan-containing low-band-gap
+polymers provides control of structural order in efficient solar cells. J. Am.
+Chem. Soc. 134, 2180–2185 (2012).
+14. Sirringhaus, H. et al. Two-dimensional charge transport in self-organized,
+high-mobility conjugated polymers. Nature 401, 685–688 (1999).
+15. McMahon, D. P. et al. Relation between microstructure and charge
+transport in polymers of different regioregularity. J. Phys. Chem. C 115,
+19386–19393 (2011).
+16. Rivnay, J. et al. Unconventional face-on texture and exceptional in-plane order
+of a high mobility n-type polymer. Adv. Mater. 22, 4359–4363 (2010).
+17. Watts, B., Schuettfort, T. & McNeill, C. R. Mapping of domain orientation
+and molecular order in polycrystalline semiconducting polymer films with soft
+x-ray microscopy. Adv. Funct. Mater. 21, 1122–1131 (2011).
+18. Collins, B. A. et al. Polarized X-ray scattering reveals non-crystalline
+orientational ordering in organic films. Nature Mater. 11, 536–543 (2012).
+19. Grevin, B., Rannou, P., Renaud, P., Pron, A. & Travers, J-P. Scanning
+tunneling microscopy investigations of self-organized poly(3-hexylthiophene)
+two-dimensional polycrystals. Adv. Mater. 15, 881–884 (2003).
+20. Scharsich, C. et al. Control of aggregate formation in poly(3-hexylthiophene)
+by solvent, molecular weight, and synthetic method. J. Polym. Sci. B 50,
+442–453 (2012).
+21. Zen, A. et al. Effect of molecular weight on the structure and crystallinity of
+poly(3-hexylthiophene). Macromolecules 39, 2162–2171 (2006).
+22. Clark, J., Chang, J-F., Spano, F. C., Friend, R. H. & Silva, C. Determining
+exciton bandwidth and film microstructure in polythiophene films using linear
+absorption spectroscopy. Appl. Phys. Lett. 94, 163306 (2009).
+23. Takacs, C. J. et al. Remarkable order of a high-performance polymer. Nano Lett.
+13, 2522–2527 (2013).
+24. McCulloch, B. et al. Polymer chain shape of poly(3-alkylthiophenes) in solution
+using small-angle neutron scattering. Macromolecules 46, 1899–1907 (2013).
+25. Spakowitz, A. J. & Wang, Z-G. Exact results for a semifexible polymer chain in
+an aligning field. Macromolecules 37, 5814–5823 (2004).
+26. Pingel, P. et al. Temperature-resolved local and macroscopic charge carrier
+transport in thin P3HT layers. Adv. Funct. Mater. 20, 2286–2295 (2010).
+27. Bolsée, J-C., Oosterbaan, W. D., Lutsen, L., Vanderzande, D. & Manca, J.
+The importance of bridging points for charge transport in webs of conjugated
+polymer nanofibers. Adv. Funct. Mater. 23, 862–869 (2013).
+28. Kondov, S. S., McGehee, W. R., Zirbel, J. J. & DeMarco, B. Three-dimensional
+Anderson localization of ultracold matter. Science 334, 66–68 (2011).
+29. Gomez-Navarro, C. et al. Tuning the conductance of single-walled carbon
+nanotubes by ion irradiation in the Anderson localization regime. Nature
+Mater. 4, 534–539 (2005).
+30. Hindeleh, A. M. & Hosemann, R. Paracrystals representing the physical state
+of matter. J. Phys. C 21, 4155–4170 (1988).
+31. Treacy, M. M. J. & Borisenko, K. B. The local structure of amorphous silicon.
+Science 335, 950–953 (2012).
+32. Rivnay, J. et al. Structural origin of gap states in semicrystalline polymers and
+the implications for charge transport. Phys. Rev. B 83, 121306 (2011).
+33. Poelking, C. et al. Characterization of charge-carrier transport in semicrystalline
+polymers: Electronic couplings, site energies, and charge-carrier dynamics
+in poly(bithiophene-alt-thienothiophene) [PBTTT]. J. Phys. Chem. C 117,
+1633–1640 (2013).
+34. Baldo, M. A., Soos, Z. G. & Forrest, S. R. Local order in amorphous organic
+molecular films. Chem. Phys. Lett. 347, 297–303 (2001).
+35. Pasveer, W. F. et al. Unified description of charge-carrier mobilities in
+disordered semiconducting polymers. Phys. Rev. Lett. 94, 206601 (2005).
+36. Street, R. A., Northrup, J. E. & Salleo, A. Transport in polycrystalline polymer
+thin-film transistors. Phys. Rev. B 71, 165202 (2005).
+37. Zhang, X. et al. In-plane liquid crystalline texture of high-performance
+thienothiophene copolymer thin films. Adv. Funct. Mater. 20,
+4098–4106 (2010).
+38. Kline, R. J. et al. Critical role of side-chain attachment density on the order and
+device performance of polythiophenes. Macromolecules 40, 7960–7965 (2007).
+39. Cho, E. et al. Three-dimensional packing structure and electronic properties
+of biaxially oriented poly(2,5-bis(3-alkylthiophene-2-yl)thieno-[3,2-
+b]thiophene) films. J. Am. Chem. Soc. 134, 6177–6190 (2012).
+40. Brinkmann, M. & Rannou, P. Molecular weight dependence of chain
+packing and semicrystalline structure in oriented films of regioregular
+poly(3-hexylthiophene) revealed by high-resolution transmission electron
+microscopy. Macromolecules 42, 1125–1130 (2009).
+41. Reid, O. G. et al. The influence of solid-state microstructure on the origin and
+yield of long-lived photogenerated charge in neat semiconducting polymers.
+J. Polym. Sci. B 50, 27–37 (2012).
+42. Tong, M. et al. Higher molecular weight leads to improved photoresponsivity,
+charge transport and interfacial ordering in a narrow bandgap semiconducting
+polymer. Adv. Funct. Mater. 20, 3959–3965 (2010).
+43. Kline, R. J. et al. Dependence of regioregular poly(3-hexylthiophene) film
+morphology and field-effect mobility on molecular weight. Macromolecules 38,
+3312–3319 (2005).
+44. Troisi, A. The speed limit for sequential charge hopping in molecular materials.
+Org. Electron. 12, 1988–1991 (2011).
+45. DeLongchamp, D. M. et al. Controlling the orientation of terraced nanoscale
+ribbons of a poly(thiophene) semiconductor. ACS Nano 3, 780–787 (2009).
+46. Rivnay, J., Noriega, R., Kline, R. J., Salleo, A. & Toney, M. F. Quantitative
+analysis of lattice disorder and crystallite size in organic semiconductor thin
+films. Phys. Rev. B 84, 045203 (2011).
+Acknowledgements
+We thank G. Rumbles for his comments in the preparation of this manuscript. We
+gratefully thank A. Facchetti and Z. Chen (Polyera, Skokie, IL), and I. McCulloch
+and M. Heeney (Imperial College, London) for supplying materials (P[NDI2OD-T2],
+P3HT, and PBTTT). This work is supported by the Center for Advanced Molecular
+Photovoltaics Award No. KUS-C1-015-21 made by King Abdullah University of
+Science and Technology (KAUST) (R.N., J.R., K.V., A.S.), and NSF (J.R., A.S.). N.S.
+acknowledges support by a European Research Council (ERC) Starting Independent
+Researcher Fellowship under the grant agreement No. 279587. Portions of this research
+were carried out at the Stanford Synchrotron Radiation Lightsource, a national user
+facility operated by Stanford University on behalf of the US Department of Energy, Office
+of Basic Energy Sciences.
+Author contributions
+A.S., J.R. and R.N. conceived the research. J.R., R.N., K.V. and F.P.V.K. prepared samples
+for optoelectronic and structural measurements. J.R. and R.N. carried out the XRD
+experiments and analysed the data. R.N. and K.V. performed the electrical and optical
+measurements. R.N. performed the simulations. M.F.T., P.S. and N.S. assisted with data
+interpretation. R.N., J.R. and A.S. wrote the manuscript and all authors participated in
+manuscript preparation and editing.
+Additional information
+Supplementary information is available in the online version of the paper. Reprints and
+permissions information is available online at www.nature.com/reprints. Correspondence
+and requests for materials should be addressed to A.S.
+Competing ﬁnancial interests
+The authors declare no competing financial interests.
+1044
+NATURE MATERIALS | VOL 12 | NOVEMBER 2013 | www.nature.com/naturematerials
+© 2013 Macmillan Publishers Limited. All rights reserved
+

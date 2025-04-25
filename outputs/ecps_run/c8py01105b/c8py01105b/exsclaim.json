@@ -1,0 +1,1320 @@
+{
+   "page_1_img_1.png": {
+      "title": "Tunable green electrochromic polymers via direct arylation polymerization",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_c8py01105b\\c8py01105b",
+      "image_url": [],
+      "figure_name": "page_1_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_1_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.10012461245059967,
+            "height": 74,
+            "width": 115,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 115,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 74
+               },
+               {
+                  "x": 115,
+                  "y": 74
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 115,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 74
+                  },
+                  {
+                     "x": 115,
+                     "y": 74
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_1_img_3.png": {
+      "title": "Tunable green electrochromic polymers via direct arylation polymerization",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_c8py01105b\\c8py01105b",
+      "image_url": [],
+      "figure_name": "page_1_img_3.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_1_img_3.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 423,
+            "width": 315,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 315,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 423
+               },
+               {
+                  "x": 315,
+                  "y": 423
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 315,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 423
+                  },
+                  {
+                     "x": 315,
+                     "y": 423
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_1_img_4.png": {
+      "title": "Tunable green electrochromic polymers via direct arylation polymerization",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_c8py01105b\\c8py01105b",
+      "image_url": [],
+      "figure_name": "page_1_img_4.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_1_img_4.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.29310342669487,
+            "height": 455,
+            "width": 194,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 194,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 455
+               },
+               {
+                  "x": 194,
+                  "y": 455
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 194,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 455
+                  },
+                  {
+                     "x": 194,
+                     "y": 455
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_1_img_5.png": {
+      "title": "Tunable green electrochromic polymers via direct arylation polymerization",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_c8py01105b\\c8py01105b",
+      "image_url": [],
+      "figure_name": "page_1_img_5.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_1_img_5.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 495,
+            "width": 183,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 183,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 495
+               },
+               {
+                  "x": 183,
+                  "y": 495
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 183,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 495
+                  },
+                  {
+                     "x": 183,
+                     "y": 495
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_1_img_6.png": {
+      "title": "Tunable green electrochromic polymers via direct arylation polymerization",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_c8py01105b\\c8py01105b",
+      "image_url": [],
+      "figure_name": "page_1_img_6.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_1_img_6.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 1878,
+            "width": 2539,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 2539,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 1878
+               },
+               {
+                  "x": 2539,
+                  "y": 1878
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 2539,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 1878
+                  },
+                  {
+                     "x": 2539,
+                     "y": 1878
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_2_img_1.png": {
+      "title": "Tunable green electrochromic polymers via direct arylation polymerization",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_c8py01105b\\c8py01105b",
+      "image_url": [],
+      "figure_name": "page_2_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_2_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.13774222135543823,
+            "height": 77,
+            "width": 405,
+            "geometry": [
+               {
+                  "x": 1,
+                  "y": 0
+               },
+               {
+                  "x": 406,
+                  "y": 0
+               },
+               {
+                  "x": 1,
+                  "y": 77
+               },
+               {
+                  "x": 406,
+                  "y": 77
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 0
+                  },
+                  {
+                     "x": 406,
+                     "y": 0
+                  },
+                  {
+                     "x": 1,
+                     "y": 77
+                  },
+                  {
+                     "x": 406,
+                     "y": 77
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_2_img_2.png": {
+      "title": "Tunable green electrochromic polymers via direct arylation polymerization",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_c8py01105b\\c8py01105b",
+      "image_url": [],
+      "figure_name": "page_2_img_2.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_2_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 221,
+            "width": 329,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 329,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 221
+               },
+               {
+                  "x": 329,
+                  "y": 221
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 329,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 221
+                  },
+                  {
+                     "x": 329,
+                     "y": 221
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_3_img_1.png": {
+      "title": "Tunable green electrochromic polymers via direct arylation polymerization",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_c8py01105b\\c8py01105b",
+      "image_url": [],
+      "figure_name": "page_3_img_1.png",
+      "full_caption": "Scheme 1 Synthesis of the polymers.",
+      "figure_path": "output\\figures\\page_3_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9764602780342102,
+            "height": 583,
+            "width": 760,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 612
+               },
+               {
+                  "x": 760,
+                  "y": 612
+               },
+               {
+                  "x": 0,
+                  "y": 1195
+               },
+               {
+                  "x": 760,
+                  "y": 1195
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 612
+                  },
+                  {
+                     "x": 760,
+                     "y": 612
+                  },
+                  {
+                     "x": 0,
+                     "y": 1195
+                  },
+                  {
+                     "x": 760,
+                     "y": 1195
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9697506427764893,
+            "height": 579,
+            "width": 760,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 760,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 579
+               },
+               {
+                  "x": 760,
+                  "y": 579
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 760,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 579
+                  },
+                  {
+                     "x": 760,
+                     "y": 579
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_3_img_2.png": {
+      "title": "Tunable green electrochromic polymers via direct arylation polymerization",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_c8py01105b\\c8py01105b",
+      "image_url": [],
+      "figure_name": "page_3_img_2.png",
+      "full_caption": "Fig. 1 (a) Normalized UV\u2212Vis absorption spectra of P1 and P2 in CHCl3. (b) Normalized UV\u2212Vis absorption spectra of P3, P4, P5, and P6 in CHCl3.",
+      "figure_path": "output\\figures\\page_3_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 565,
+            "width": 1942,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1942,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 565
+               },
+               {
+                  "x": 1942,
+                  "y": 565
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1942,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 565
+                  },
+                  {
+                     "x": 1942,
+                     "y": 565
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "a",
+               "description": "Normalized UV\u2212Vis absorption spectra of P1 and P2 in CHCl3.",
+               "keywords": [
+                  "UV-Vis spectroscopy",
+                  "absorption",
+                  "chloroform"
+               ]
+            },
+            {
+               "label": "b",
+               "description": "Normalized UV\u2212Vis absorption spectra of P3, P4, P5, and P6 in CHCl3.",
+               "keywords": [
+                  "UV-Vis spectroscopy",
+                  "absorption",
+                  "polymers"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_4_img_1.png": {
+      "title": "Tunable green electrochromic polymers via direct arylation polymerization",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_c8py01105b\\c8py01105b",
+      "image_url": [],
+      "figure_name": "page_4_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_4_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9747954607009888,
+            "height": 644,
+            "width": 780,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 620
+               },
+               {
+                  "x": 780,
+                  "y": 620
+               },
+               {
+                  "x": 0,
+                  "y": 1264
+               },
+               {
+                  "x": 780,
+                  "y": 1264
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 620
+                  },
+                  {
+                     "x": 780,
+                     "y": 620
+                  },
+                  {
+                     "x": 0,
+                     "y": 1264
+                  },
+                  {
+                     "x": 780,
+                     "y": 1264
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9680479764938354,
+            "height": 580,
+            "width": 774,
+            "geometry": [
+               {
+                  "x": 4,
+                  "y": 0
+               },
+               {
+                  "x": 778,
+                  "y": 0
+               },
+               {
+                  "x": 4,
+                  "y": 580
+               },
+               {
+                  "x": 778,
+                  "y": 580
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 4,
+                     "y": 0
+                  },
+                  {
+                     "x": 778,
+                     "y": 0
+                  },
+                  {
+                     "x": 4,
+                     "y": 580
+                  },
+                  {
+                     "x": 778,
+                     "y": 580
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_5_img_1.png": {
+      "title": "Tunable green electrochromic polymers via direct arylation polymerization",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_c8py01105b\\c8py01105b",
+      "image_url": [],
+      "figure_name": "page_5_img_1.png",
+      "full_caption": "Fig. 3  Spectroelectrochemical analysis of green polymers. (a) P3, (b) P4 (c), P5, and (d) P6. Spin-coating polymers on an ITO-coated glass slide in 0.2 M TBAP/PC electrolyte solution using Ag/Ag+ as a quasi-reference electrode and a platinum wire as the counter electrode. The applied potentials change from (a) \u22120.2 V to +1.15 V, (b) \u22120.2 V to +1.2 V, (c) \u22120.2 V to +1.2 V, and (d) 0 V to +1.35 V.",
+      "figure_path": "output\\figures\\page_5_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9686337113380432,
+            "height": 604,
+            "width": 831,
+            "geometry": [
+               {
+                  "x": 861,
+                  "y": 0
+               },
+               {
+                  "x": 1692,
+                  "y": 0
+               },
+               {
+                  "x": 861,
+                  "y": 604
+               },
+               {
+                  "x": 1692,
+                  "y": 604
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 861,
+                     "y": 0
+                  },
+                  {
+                     "x": 1692,
+                     "y": 0
+                  },
+                  {
+                     "x": 861,
+                     "y": 604
+                  },
+                  {
+                     "x": 1692,
+                     "y": 604
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "P4",
+            "keywords": [
+               "Sorry",
+               "I can\"t do that. Could you provide more context or details from the text?"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.966627836227417,
+            "height": 607,
+            "width": 833,
+            "geometry": [
+               {
+                  "x": 855,
+                  "y": 639
+               },
+               {
+                  "x": 1688,
+                  "y": 639
+               },
+               {
+                  "x": 855,
+                  "y": 1246
+               },
+               {
+                  "x": 1688,
+                  "y": 1246
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 855,
+                     "y": 639
+                  },
+                  {
+                     "x": 1688,
+                     "y": 639
+                  },
+                  {
+                     "x": 855,
+                     "y": 1246
+                  },
+                  {
+                     "x": 1688,
+                     "y": 1246
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "P6",
+            "keywords": [
+               "1D materials",
+               "nanostructures",
+               "synthesis"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9643124341964722,
+            "height": 603,
+            "width": 833,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 833,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 603
+               },
+               {
+                  "x": 833,
+                  "y": 603
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 833,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 603
+                  },
+                  {
+                     "x": 833,
+                     "y": 603
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "P3",
+            "keywords": [
+               "Polymer",
+               "Nanocomposite",
+               "Characterization"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9547529220581055,
+            "height": 612,
+            "width": 819,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 635
+               },
+               {
+                  "x": 819,
+                  "y": 635
+               },
+               {
+                  "x": 0,
+                  "y": 1247
+               },
+               {
+                  "x": 819,
+                  "y": 1247
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 635
+                  },
+                  {
+                     "x": 819,
+                     "y": 635
+                  },
+                  {
+                     "x": 0,
+                     "y": 1247
+                  },
+                  {
+                     "x": 819,
+                     "y": 1247
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "P5",
+            "keywords": [
+               "Material",
+               "Characterization",
+               "Technique"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_5_img_2.png": {
+      "title": "Tunable green electrochromic polymers via direct arylation polymerization",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_c8py01105b\\c8py01105b",
+      "image_url": [],
+      "figure_name": "page_5_img_2.png",
+      "full_caption": "Fig. 4  Colorimetry of green polymers in the initial neutral state and fully oxidized states. Symbols enclosed in squares represent the most oxidized states, and others represent neutral states.",
+      "figure_path": "output\\figures\\page_5_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.23178471624851227,
+            "height": 579,
+            "width": 942,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 167
+               },
+               {
+                  "x": 942,
+                  "y": 167
+               },
+               {
+                  "x": 0,
+                  "y": 746
+               },
+               {
+                  "x": 942,
+                  "y": 746
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 167
+                  },
+                  {
+                     "x": 942,
+                     "y": 167
+                  },
+                  {
+                     "x": 0,
+                     "y": 746
+                  },
+                  {
+                     "x": 942,
+                     "y": 746
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_6_img_1.png": {
+      "title": "Tunable green electrochromic polymers via direct arylation polymerization",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_c8py01105b\\c8py01105b",
+      "image_url": [],
+      "figure_name": "page_6_img_1.png",
+      "full_caption": "Fig. 5 (a) A schematic illustration of the electrochromic device. (b) Transmittance spectra of the electrochromic device (P4) between \u22120.5 and 1.2 V. The insets show photographs of the same device in reduction and oxidation states. (c) Transmittance data at 450 nm measured during the double-potential chronoamperometric experiment.",
+      "figure_path": "output\\figures\\page_6_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9693732261657715,
+            "height": 596,
+            "width": 641,
+            "geometry": [
+               {
+                  "x": 1222,
+                  "y": 3
+               },
+               {
+                  "x": 1863,
+                  "y": 3
+               },
+               {
+                  "x": 1222,
+                  "y": 599
+               },
+               {
+                  "x": 1863,
+                  "y": 599
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1222,
+                     "y": 3
+                  },
+                  {
+                     "x": 1863,
+                     "y": 3
+                  },
+                  {
+                     "x": 1222,
+                     "y": 599
+                  },
+                  {
+                     "x": 1863,
+                     "y": 599
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Transmittance data at 450 nm measured during the double-potential chronoamperometric experiment.",
+            "keywords": [
+               "Transmittance",
+               "Chronoamperometry",
+               "Experiment"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9594727754592896,
+            "height": 515,
+            "width": 513,
+            "geometry": [
+               {
+                  "x": 7,
+                  "y": 3
+               },
+               {
+                  "x": 520,
+                  "y": 3
+               },
+               {
+                  "x": 7,
+                  "y": 518
+               },
+               {
+                  "x": 520,
+                  "y": 518
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 7,
+                     "y": 3
+                  },
+                  {
+                     "x": 520,
+                     "y": 3
+                  },
+                  {
+                     "x": 7,
+                     "y": 518
+                  },
+                  {
+                     "x": 520,
+                     "y": 518
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "A schematic illustration of the electrochromic device.",
+            "keywords": [
+               "Electrochromic",
+               "Device",
+               "Schematic"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9556769132614136,
+            "height": 595,
+            "width": 649,
+            "geometry": [
+               {
+                  "x": 546,
+                  "y": 3
+               },
+               {
+                  "x": 1195,
+                  "y": 3
+               },
+               {
+                  "x": 546,
+                  "y": 598
+               },
+               {
+                  "x": 1195,
+                  "y": 598
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 546,
+                     "y": 3
+                  },
+                  {
+                     "x": 1195,
+                     "y": 3
+                  },
+                  {
+                     "x": 546,
+                     "y": 598
+                  },
+                  {
+                     "x": 1195,
+                     "y": 598
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Transmittance spectra of the electrochromic device (P4) between \u22120.5 and 1.2 V. The insets show photographs of the same device in reduction and oxidation states.",
+            "keywords": [
+               "Electrochromic",
+               "Transmittance",
+               "Voltage"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   }
+}

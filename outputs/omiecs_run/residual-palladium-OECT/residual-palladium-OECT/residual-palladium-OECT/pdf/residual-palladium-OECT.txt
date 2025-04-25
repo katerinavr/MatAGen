@@ -1,0 +1,1268 @@
+Article
+https://doi.org/10.1038/s41467-022-35573-y
+The effect of residual palladium on the
+performance of organic electrochemical
+transistors
+Sophie Griggs
+1, Adam Marks1, Dilara Meli
+2, Gonzague Rebetez3,
+Olivier Bardagot
+3, Bryan D. Paulsen4, Hu Chen5,6, Karrie Weaver
+7,
+Mohamad I. Nugraha
+8,9, Emily A. Schafer4, Joshua Tropp4,
+Catherine M. Aitchison1, Thomas D. Anthopoulos
+8, Natalie Banerji3,
+Jonathan Rivnay
+4,10 & Iain McCulloch
+1,5
+Organic electrochemical transistors are a promising technology for bioelec-
+tronic devices, with applications in neuromorphic computing and healthcare.
+The active component enabling an organic electrochemical transistor is the
+organic mixed ionic-electronic conductor whose optimization is critical for
+realizing high-performing devices. In this study, the inﬂuence of purity and
+molecular weight is examined for a p-type polythiophene and an n-type
+naphthalene diimide-based polymer in improving the performance and safety
+of organic electrochemical transistors. Our preparative GPC puriﬁcation
+reduced the Pd content in the polymers and improved their organic electro-
+chemical transistor mobility by ~60% and 80% for the p- and n-type materials,
+respectively. These ﬁndings demonstrate the paramount importance of
+removing residual Pd, which was concluded to be more critical than optimi-
+zation of a polymer’s molecular weight, to improve organic electrochemical
+transistor performance and that there is readily available improvement in
+performance and stability of many of the reported organic mixed ionic-
+electronic conductors.
+Organic mixed ionic-electronic conductors (OMIECs) are materials
+capable of conducting both ionic and electronic charge carriers, and
+operate via volumetric-electronic coupling rather than an interfacial
+regime1. These properties enable efﬁcient charge storage and signal
+transduction, making OMIECs applicable to a plethora of applications,
+including
+thermoelectric
+generators2,3,
+actuators4,5,
+inverters6,
+sensors7–9, light-emitting electrochemical cells10,11, and batteries12–14.
+OMIECs are also employed as the channel material in organic elec-
+trochemical transistors (OECTs) on account of their low operational
+voltages and ability to transduce and amplify an ionic signal into a
+readable electronic output15. This, combined with the biological com-
+patibility conferred by organic materials, renders OECTs a promising
+technology for sensing applications in healthcare settings16, as well as
+in neuromorphic computing17,18.
+Received: 4 July 2022
+Accepted: 12 December 2022
+Check for updates
+1Department of Chemistry, Chemistry Research Laboratory, University of Oxford, Oxford OX1 3TA, UK. 2Department of Materials Science and Engineering,
+Northwestern University, Evanston, IL 60208, USA. 3Department of Chemistry, Biochemistry and Pharmaceutical Sciences (DCBP), University of Bern,
+Freiestrasse 3, 3012 Bern, Switzerland. 4Department of Biomedical Engineering, Northwestern University, Evanston, IL 60208, USA. 5KAUST Solar Center
+(KSC), King Abdullah University of Science and Technology (KAUST), Thuwal 23955-6900, Saudi Arabia. 6Great Bay University, 523808 Dongguan, China.
+7Department of Earth System Science, Stanford University, Stanford, CA 94305, USA. 8Physical Sciences and Engineering Division (PSE), KAUST Solar Center
+(KSC), King Abdullah University of Science and Technology (KAUST), Thuwal 23955-6900, Saudi Arabia. 9Research Center for Advanced Materials, National
+Research and Innovation Agency (BRIN), South Tangerang, Banten 15314, Indonesia. 10Simpson Querrey Institute, Northwestern University, Chicago, IL 60611,
+USA.
+e-mail: iain.mcculloch@chem.ox.ac.uk
+Nature Communications|        (2022) 13:7964 
+1
+1234567890():,;
+1234567890():,;
+
+Typically, OECTs are comprised of an OMIEC channel, separating
+a source and a drain electrode, coupled to a gate electrode through an
+electrolyte (Supplementary Fig. 1). Application of a gate voltage (VG)
+drives ions from the electrolyte into the OMIEC. These compensate
+electronic charges in the channel, which in turn modulates the OMIEC
+channel conductivity. Channel currents driven by an applied source-
+drain bias are sensitive to the gate-induced channel conductance
+modulation, thus allowing for gate signals to be transduced and
+ampliﬁed. This difference between the three-dimensional nature of
+OECTs and the interfacial operation of organic thin ﬁlm transistors
+(OTFTs)19 presents new challenges to current understanding and
+indicates that previous assumptions on the similarity of OTFTs and
+OECTs may not hold true3.
+The performance of OECT devices is typically evaluated by
+examining the steady-state electrical performance, which can be
+represented by the maximum transconductance (gm) achieved in
+devices, calculated from:
+gm = μC* Wd
+L
+V TH  V g
+
+
+ð1Þ
+where μ is the electronic charge carrier mobility, C* is the volumetric
+capacitance, W, d, and L are the channel width, depth and length
+respectively, VTH is the threshold voltage and Vg is the gate voltage20.
+Transconductance is a direct measure of an OECT’s ability to amplify a
+signal, which can be critical for certain applications, such as in bio-
+sensing, where a small ionic ﬂuctuation can betransduced into a larger,
+readable electronic output. Equation (1) highlights the dependence of
+gm on both material properties (μC*) and device geometry (Wd/L). As
+an alternative ﬁgure-of-merit to gm for understanding the performance
+of an OECT and to allow for direct material comparisons, the product
+μC*
+is
+commonly
+employed
+instead,
+to
+eliminate
+geometry
+dependence21. Other important parameters when considering the
+application of an OECT include the ON/OFF ratio and the switching
+speed. The ON/OFF ratio, similar to an OFET, refers to the ratio of the
+maximum Id recorded at a particular VD, and the Id measured in the OFF
+state. Ideal transistors exhibit a low ON resistance and extremely high
+OFF resistance, which result in a high ON/OFF ratio. A low number (i.e.,
+a high OFF current) is indicative of current leakage or ambient doping
+of the semiconductor material. Alternatively, a low mobility (i.e., a low
+ON current) would also result in a low ON/OFF ratio, thus maximizing
+the charge carrier mobility is critical for meaningful device applica-
+tions beyond achieving the highest possible μC*. The switching speed
+is also critical when considering oscillations in brain activity, for
+example,
+which
+can
+occur
+on
+frequencies
+in
+the
+range
+of
+0.5–200 Hz15,22. Currently, OECTs are able to achieve switching speeds
+in the microsecond timescales.
+One factor that has been demonstrated to inﬂuence the perfor-
+mance of organic semiconducting polymers is the molecular weight.
+Typically in the ﬁeld of organic transistors and molecular weight stu-
+dies, the number average molecular weight, Mn is the most widely
+reported23–28. Mn is deﬁned as the total weight of the polymer divided
+by the total number of polymer chains, and the dispersity (Ð) is a
+measure of the distribution of the molecular weight within a sample,
+with a Ð of one being optimal and indicating all polymer chains are of
+equal length. Information on the methods of measuring molecular
+weight and their respective advantages and limitations are detailed in
+the Supplementary Information.
+Many studies have been carried out on the relationship between
+charge carrier mobility in OTFTs and the molecular weight of the
+organic semiconducting layer, arising from mainly morphological
+factors29–33. Less is known about the inﬂuence of molecular weight in
+OECT devices that mostly differ from OTFTs by the swelling and bulk
+doping of the active layer due to ion penetration/expulsion. The
+dependence of OTFT performance on the molecular weight of the
+active semiconductor has typically focused on poly(3-hexylthiophene)
+(P3HT), where both individual batches and blends of different mole-
+cular weights have been examined30,31,33,34. Longer polymer chains,
+occurring in higher molecular weight batches, act as tie chains, con-
+necting crystalline domains and maximizing charge carrier mobilities.
+This was conﬁrmed by blending low and high molecular weight bat-
+ches of P3HT in varying percentages, until a plateau was reached in the
+OTFT mobility31. Without the addition of higher molecular weight
+polymer chains to act as tie chains, the frequency and prominence of
+the grain boundaries between crystalline regions force charges to
+move by unfavorable hopping events, severely limiting the charge
+carrier mobility29. Based on OTFT studies, a decrease in the electronic
+mobility might be expected with lower molecular weight but studies
+using blended systems demonstrated that more favorable morphol-
+ogy can arise from an intermediate molecular weight35. Although this
+has been shown for ladder-type polymers36, conventional OECT
+materials, such as polythiophene or naphthalenediimide (NDI)-based
+polymers, have a less rigid structure. Thus, the link between molecular
+weight of ladder-type polymers and OECT performance cannot be
+translated directly to other OMIECs and the relationship between
+OECT performance and OMIEC molecular weight has not been
+decoupled yet.
+Additionally, the puriﬁcation of OMIEC polymers is rarely con-
+sidered. The vast majority of OMIEC conjugated polymers are syn-
+thesized using Pd-mediated cross-coupling conditions19,24,25,28,37,38 and
+these materials are typically only puriﬁed by simple Soxhlet extraction
+in numerous solvents, which removes limited amounts of residual
+metal impurities. Speciﬁcally, Stille polymerizations make use of
+around 3000–5000 ppm of Pd, and while Soxhlet extraction can
+reduce levels by an order of magnitude, this may not be sufﬁcient to
+maximize performance39. These levels have been shown to impact OPV
+applications40, as residual metals, such as palladium (Pd), may act as a
+charge sink, trapping mobile charges and reducing charge transport
+properties39,41. Alternatively, Pd can act as a co-catalyst to facilitate
+charge transfer and catalyze redox reactions of ambient species (i.e., in
+the operation conditions used in OECT but not OTFT applications)42,
+including the oxygen reduction reaction (ORR), which generates toxic
+hydrogen peroxide, making impure OMIECs unsuitable for bioelec-
+tronic applications.
+Herein, we present an investigation into the impact of purity (the
+level of residual Pd) and molecular weight of the most common p-type
+and n-type backbones (polythiophene and NDI, respectively, Fig. 1a) on
+the OECT performance. These were prepared by standard Stille poly-
+merizations, using 2 mol% Pd catalyst (which equates to ~3000 ppm
+for p(g4T2-TT) and ~4,900 ppm for p(C6g3NDI-T)), and the different
+molecular weights were obtained by preparative GPC (Fig. 1b, c), which
+conveniently offers the ability to narrow Ð whilst simultaneously
+removing residual metal impurities. The optoelectronic properties,
+OECT performance, and structural properties using grazing incidence
+wide-angle X-ray scattering (GIWAXS) of four molecular weight frac-
+tions of Ð < 2 (Table 1) of polymers p(g4T2-TT) and p(C6g3NDI-T) were
+studied and compared to the unpuriﬁed polymer (i.e., the polymer
+after standard Soxhlet procedure but pre-fractionation). In particular,
+the impact of purity on the OECT performance was probed (Fig. 1).
+This study utilizes an alternative method for OMIEC puriﬁcation,
+by more thoroughly removing by-products than only using traditional
+Soxhlet puriﬁcation. Preparative GPC is also particularly useful for
+studying the impact of molecular weight as any batch-to-batch varia-
+tions are removed. One batch is simply divided into several fractions of
+lower dispersity instead of synthesizing new batches through different
+reaction conditions, making this the most comprehensive method for
+comparing molecular weights.
+Article
+https://doi.org/10.1038/s41467-022-35573-y
+Nature Communications|        (2022) 13:7964 
+2
+
+Results and discussion
+Material synthesis
+The synthetic routes to p(g4T2-TT) and p(C6g3NDI-T) are shown in
+Supplementary Figs. 2–5. Monomer 13,13’-((5,5’-dibromo-[2,2’-bithio-
+phene]-3,3’-diyl)bis(oxy))bis(2,5,8,11-tetraoxatridecane) (g4T2Br2) was
+synthesized through a modiﬁed literature procedure, by utilizing a
+copper(I) iodide catalyst to decorate the 3,3’-dibromo-2,2’-bithiophene
+core with tetraethylene glycolated side chains, followed by a typical
+bromination using N-bromosuccinimide to generate the monomer in a
+56% yield (Supplementary Fig. 6)43. Alternatively, 4,9-dibromo-2,7-
+di(2,5,8,11-tetraoxaheptadecan-17-yl)benzo[lmn][3,8]phenanthroline-
+1,3,6,8(2H,7H)-tetraone (C6g3NDI-Br2) was prepared from 2,6-dibro-
+monaphthalene-1,4,5,8-tetracarboxylic dianhydride (NDA-Br2) using a
+single step procedure, by treating NDA-Br2 with 2,5,8,11-tetra-
+oxaheptadecan-17-amine (Supplementary Fig. 7)24. Lastly, both p(g4T2-
+TT) and p(C6g3NDI-T) were synthesized via Stille polymerization
+reactions of g4T2Br2 or C6g3NDI-Br2 respectively, with equimolar
+quantities of the appropriate stannylated thiophene derivative (Sup-
+plementary Figs. 8 and 9). Each polymer was initially puriﬁed using the
+traditional Soxhlet puriﬁcation method. While this has been docu-
+mented as a method for separating molecular weights44, the dis-
+advantage is that fractions eluting later will likely have a higher purity
+than those eluted ﬁrst. Furthermore, none of these polymers were
+soluble in the Soxhlet solvents used prior to chloroform, so the dis-
+persity could not be reduced by this method. Instead, we employed
+preparative GPC to separate a single batch of polymer into four
+molecular weight fractions, such that each fraction contained
+approximately the same amount of material, with the ﬁrst fraction
+collected (fraction 1) being of highest molecular weight (Fig. 1b, c).
+Preparative GPC can also be viewed as an additional method of pur-
+iﬁcation, as remaining impurities (typically Pd from the catalyst) are of
+different molecular weight than any polymer chains, thus are dis-
+carded before or after the elution of the polymer.
+Materials’ properties
+Analytical GPC was employed to estimate the molecular weights of the
+two series of polymers and their weight fractions, with dimethylfor-
+mamide and chloroform as eluent for p(g4T2-TT) and p(C6g3NDI-T),
+respectively. The measurements were conducted at 40 °C with respect
+to polystyrene standards. The values obtained are summarized in
+Table 1. It should be noted that despite glycolated polymers often
+Table 1 | Summary of the two polymer series’ physical and
+optoelectronic properties
+Polymer
+Mn (kDa)
+[Ð]a
+Eg,opt
+(eV)b
+λmax, sol
+(nm)c
+EA
+(eV)d
+IP
+(eV)d
+p(g4T2-TT)
+Unpuriﬁed
+83.3 [1.36]
+1.67
+610
+–
+4.23
+F1
+180.1 [1.30]
+–
+4.24
+F2
+107.9 [1.12]
+–
+4.25
+F3
+61.3 [1.25]
+–
+4.24
+F4
+18.4 [1.15]
+–
+4.26
+Recombined
+90.6 [1.28]
+p(C6g3NDI-T)
+Unpuriﬁed
+42.4 [2.13]
+1.65
+323, 540
+4.19
+–
+F1
+211.0 [1.95]
+4.18
+–
+F2
+99.8 [1.34]
+4.18
+–
+F3
+46.2 [1.67]
+4.17
+–
+F4
+17.6 [1.48]
+4.19
+–
+Recombined
+61.2 [1.92]
+aNumber-average molecular weight (Mn) and dispersity (Ð) measured by GPC vs polystyrene
+standards in dimethylformamide for p(g4T2-TT) or chloroform for p(C6g3NDI-T) at 40 °C.
+bOptical band gap estimated from thin ﬁlm UV-Vis absorption onset.
+cPeak wavelength obtained from solution UV-Vis absorption spectra in chloroform.
+dCalculated from the onset of the cyclic voltammogram of polymer thin ﬁlms on glassy carbon
+electrode with 0.1 M tetrabutylammonium hexaﬂuorophosphate as the supporting electrolyte
+using a platinum counter electrode and a silver/silver chloride reference electrode (Supple-
+mentary Fig. 13).
+Fig. 1 | Chemical structures and fractionation traces of the two investigated
+polymer. a Chemical structures of p(g4T2-TT) and p(C6g3NDI-T). The preparative
+gel permeation chromatography trace for b p(g4T2-TT) and c p(C6g3NDI-T)
+showing the second cycle, where the polymer is collected into four separate
+fractions, F1–4.
+Article
+https://doi.org/10.1038/s41467-022-35573-y
+Nature Communications|        (2022) 13:7964 
+3
+
+exhibiting a bimodal distribution from GPC19,25, these polymers, par-
+ticularly once fractionated, showed ideal unimodal traces (Supple-
+mentary Figs. 10–12). This is expected, as the preparative GPC used for
+fractionation relies upon the same size exclusion method as the
+analytical GPC.
+The two series’ optoelectronic properties are summarized in
+Table 1. Cyclic voltammetry (CV) in 0.1 M tetrabutylammonium hexa-
+ﬂuorophosphate (TBAPF6) in acetonitrile was used to determine the
+ionization potential (IP) of p(g4T2-TT), which remained unchanged
+across the fractions at ~4.25 eV, providing an estimate for the highest
+occupied molecular orbital (HOMO) (Supplementary Fig. 13a)45. The
+electron afﬁnity (EA) of p(C6g3NDI-T) also showed no signiﬁcant var-
+iation at ~4.18 eV and provided an estimate for the lowest unoccupied
+molecular orbital (LUMO) (Supplementary Fig. 13b). Each polymer
+exhibited partly reversible discrete reduction or oxidation behavior.
+Due to the relatively narrow electrochemical stability window of the
+electrolyte, the EA for p(g4T2-TT) and IP for p(C6g3NDI-T) could not be
+accessed using this method.
+The UV-Vis absorption spectra of the polymers in solution and
+as thin ﬁlms are presented in Supplementary Figs. 14 and 15,
+respectively. p(g4T2-TT) showed a characteristic absorption proﬁle
+as seen in previous reports of similar polymers46, where the λmax
+(≈600 nm) is attributed to the π–π* transition (HOMO-LUMO tran-
+sition), while the small lower energy band (≈950 nm) is most likely
+attributed to ambient-induced polarons. As observed previously,
+both bands for p(C6g3NDI-T) were blue-shifted to higher energy
+compared to p(g4T2-TT), with the π–π* transition ≈345 nm and the
+peak ≈600 nm attributed to the intramolecular charge transfer
+(ICT) from the electron-rich bithiophene units to the electron-
+deﬁcient NDI units24,47,48. In the UV-Vis absorbance spectra in solu-
+tion of p(g4T2-TT) (Supplementary Fig. 14a), no band at ∼950 nm is
+observed, conﬁrming its attribution to doping by ambient species in
+the solid-state. The normalized UV-Vis data supported the uni-
+formity noted by CV for each polymer series, providing almost
+identical spectra across the molecular weights, which is unsurpris-
+ing, given that no impact on the bandgap is expected above the
+effective conjugation limit. The subtle differences observed in the
+vibrionic structure for p(g4T2-TT) and the shift of the ICT band for
+p(C6g3NDI-T) indicated that different packing may be induced by
+the change in molecular weight (more clearly indicated in Supple-
+mentary Information, Supplementary Fig. 16).
+Inductively coupled plasma mass spectrometry (ICP-MS) was
+employed to calculate the concentration of residual palladium con-
+taminants in each fraction (Table 2), which originates from the Pd-
+based catalysts required for Stille polymerizations. In both polymers,
+the levels of palladium observed before preparative GPC fractionation
+were on the same order of magnitude, at 1769 and 1176 ppm, for the
+p-type and n-type polymers, respectively. For both OMIEC polymers,
+this data demonstrated the impact of preparative GPC fractionation on
+purity, whereby all fractions contained less Pd than the unpuriﬁed
+fractions, with a decrease of between 54 and 97% in Pd levels observed.
+This translated to Pd levels as low as 39 and 73 ppm, validating pre-
+parative GPC as a consistent method for puriﬁcation.
+To investigate the impact of fractionation (reduced dispersity
+and reduced concentration of Pd) on the polymer microstructure,
+grazing incidence wide-angle X-ray scattering (GIWAXS) measure-
+ments were carried out. The line-cuts of the as-spun thin ﬁlms are
+displayed in Fig. 2 and the 2D GIWAXS patterns and peak parameters
+are included in the Supplementary Information (Supplementary
+Figs. 17 and 18). p(g4T2-TT) compared well to previously reported
+glycolated polythiophene derivatives28,43, presenting an edge-on
+orientation. To quantitatively interpret the GIWAXS data, pseudo-
+Voigt peak ﬁts were used to extract disorder associated coherence
+lengths in the backbone and lamellar directions. The unpuriﬁed
+p-type polymer had a poorly resolved π-stack compared to the four
+fractions, which may be because of the larger Ð (Table 1). Notably,
+after fractionation, the in-plane π-stack contracted by 0.05–0.09 Å
+and displayed longer coherence lengths (narrower diffraction peaks)
+in the backbone direction compared to the unpuriﬁed polymer
+(Supplementary Fig. 17). p(g4T2-TT) showed evidence of two orders
+of out-of-plane lamellar scattering, with the fractions showing
+expanded lamellar spacing and a reduction in the coherence length
+in the lamellar direction of 10–25%.
+Contrastingly, p(C6g3NDI-T) showed a face-on orientation, in
+agreement with previously reported NDI polymers19,49. The (010) out-
+of-plane π-stack scattering displayed broad and relatively weak peaks
+due to scattering arising from a small number of chains stacked
+together, which can usually be attributed to a high degree of
+Table 2 | Steady-state OECT performance of polymers
+Polymer
+Conc. of Pd [ppm]a
+µOECT [cm2 V−1 s−1]b
+C* [F cm−3]c
+[μC*] [F V−1 cm−1 s−1]d
+gm’ [S cm−1]e
+p(g4T2-TT)
+Unpuriﬁed
+1769
+3.13 ± 0.52
+120 ± 9
+374 ± 67
+295 ± 57
+F2
+370
+5.31 ± 2.65
+246 ± 21
+1308 ± 662
+838 ± 438
+F1
+323
+5.65 ± 0.19
+123 ± 15
+694 ± 87
+494 ± 17
+F3
+157
+6.53 ± 0.065
+308 ± 20
+2008 ± 130
+1457 ± 6
+F4
+73
+8.53 ± 0.40
+114 ± 14
+972 ± 127
+626 ± 38
+F3 + Pd2(dba)3
+2157
+3.02 ± 0.26
+287 ± 18
+860 ± 56
+602 ± 21
+Recombinedf
+236
+4.75 ± 1.12
+123 ± 17
+451 ± 124
+231 ± 56
+p(C6g3NDI-T)
+Unpuriﬁed
+1176
+1.02 × 10−3 ± 3.79 × 10−4
+222 ± 79
+0.227 ± 0.117
+0.055 ± 0.021
+F4
+540
+2.26 × 10−3 ± 2.53 × 10−4
+250 ± 78
+0.563 ± 0.188
+0.164 ± 0.018
+F1
+197
+3.57 × 10−3 ± 2.94 × 10−4
+129 ± 55
+0.461 ± 0.202
+0.127 ± 0.017
+F3
+112
+6.06 × 10−4 ± 1.58 × 10−4
+521 ± 160
+0.316 ± 0.127
+0.095 ± 0.024
+F2
+39
+5.34 × 10−3 ± 3.40 × 10−4
+306 ± 127
+1.632 ± 0.688
+0.155 ± 0.020
+F2 + Pd2(dba)3
+2039
+1.10 × 10−3 ± 1.52 × 10−4
+124 ± 26
+0.136 ± 0.0341
+0.029 ± 0.003
+Recombinedf
+198
+1.96 × 10−3 ± 2.25 × 10−4
+257 ± 101
+0.503 ± 0.205
+0.110 ± 0.012
+aCalculated from inductively coupled plasma mass spectrometry (ICP-MS, detailed in the SI).
+bOECT mobility calculated from the transistor saturation µC* product using the respective C* values.
+cC* values extracted from Randles circuit ﬁts from electrochemical impedance curves of the polymers coated on Au electrodes in 0.1 M aqueous NaCl solution.
+d[μC*] calculated for the highest performing channel from the slope of gm with known channel dimensions and applied bias.
+ePeak OECT transconductance normalized by thickness.
+fFormed by combining a mass ratio of 1:1.32:0.16:1 of F1:F2:F3:F4 for p(g4T2-TT), which resulted in Mn = 90.6 kDa and a mass ratio of 1:1.4:1.4:1 of F1:F2:F3:F4 for p(C6g3NDI-T), which resulted in
+Mn = 61.2 kDa. All measurements are an average across 6 devices.
+Article
+https://doi.org/10.1038/s41467-022-35573-y
+Nature Communications|        (2022) 13:7964 
+4
+
+paracrystalline disorder50. A trend in π-π stacking distance was
+observed, with a small expansion in the out-of-plane d-spacing with
+increasing Mn. This also corresponds to the bathochromic shift
+observed in the ICT band in the UV-Vis absorption spectra with
+decreasing molecular weight, indicating subtle differences in packing
+(Supplementary Fig. 16b). Previous results have shown that for NDI-T2
+backbones, two different packing conﬁgurations are possible, namely
+Form I and Form II51. Form I occurs where the NDI motif aligns with an
+NDI from a neighboring chain through cofacial registration, resulting
+in double the backbone periodicity, whilst in a Form II conﬁguration
+the NDI unit aligns with a bithiophene unit51. For p(C6g3NDI-T), the
+(001) in-plane backbone spacing of 19.6–20.0 Å was consistent with
+the length of an NDI-T repeat length, thus it can be assumed that
+predominantly Form I stacking was present.
+The electrochemical activity of both series of polymers was fur-
+ther investigated in 0.1 M NaCl aqueous electrolyte through CV and
+spectroelectrochemical measurements. Aqueous CV (Supplementary
+Fig. 19) indicated that both polymers at all molecular weights were
+reversibly doped and de-doped. All fractions of p(g4T2-TT) showed
+comparable oxidation onset potentials of ≈−0.1 V versus Ag/AgCl. The
+same is true for p(C6g3NDI-T), where similar reduction onsets of
+≈−0.1 V versus Ag/AgCl were recorded. Their doping mechanisms were
+further explored by spectroelectrochemical measurements, con-
+ducted in the same electrolyte. As shown in Fig. 3, Fig. 2a and Sup-
+plementary Figs. 20a and 21a, all fractions of p(g4T2-TT) were partially
+doped under ambient conditions and require a negative potential to
+fully de-dope the ﬁlms, as indicated by the negative oxidation onset
+potential. Progressive charging to +0.2 V versus Ag/AgCl showed a
+gradual bleaching of the π-π* peak, with a simultaneous appearance of
+a new absorption peak at ≈950 nm, which was attributed to the for-
+mation
+of
+the
+polymer’s
+polaron,
+as
+described
+in
+previous
+literature28,52. Beyond +0.3 V, this peak began to decrease in intensity
+and a new peak at higher wavelengths appeared, which is ascribed to
+the formation of bipolaronic species. Finally, the applied voltage was
+returned to the initial value of −0.2 V and all fractions of the polymer
+resumed their original de-doped UV-Vis absorption spectra, indicating
+good reversibility, with no polymer degradation, in aqueous media.
+The n-type polymer, p(C6g3NDI-T), was charged between 0.0 and
+−0.8 V versus Ag/AgCl (Fig. 3, Fig. 2b, and Supplementary Figs. 20b and
+21b), and all fractions showed a fully de-doped state at 0 V. Generally,
+Fig. 2 | Two-dimensional grazing incidence wide angle X-ray scattering. GIWAXS
+line cuts of as-cast thin ﬁlms of the unpuriﬁed and four fractions of the two poly-
+mers. showing a in-plane (qr) and b out-of-plane (qz) line cuts of each fraction of
+p(g4T2-TT) and c in-plane and d out-of-plane line cuts of each fraction of
+p(C6g3NDI-T).
+Fig. 3 | Spectroelectrochemical measurements for the highest performing
+fraction of each polymer. UV-Vis absorption measurements recorded whilst
+applying a voltage vs Ag/AgCl using a 0.1 M NaCl aqueous degassed electrolyte,
+with potential steps of 0.1 V. a Fraction 3 of p(g4T2-TT) between −0.2 and +0.8 V vs
+Ag/AgCl and b fraction 2 of p(C6g3NDI-T) between 0 and −0.8 V. The unpuriﬁed and
+other fractions for each polymer are shown in Supplementary Fig. 20.
+Article
+https://doi.org/10.1038/s41467-022-35573-y
+Nature Communications|        (2022) 13:7964 
+5
+
+by charging at −0.8 V, the ICT band intensity decreases, while two new
+absorption features appear at ≈480 nm and ≈790 nm. They are
+assigned to transitions to the S1 and S2 states, which are dominated by
+π-π* and ICT, as suggested by literature47. Notably, all fractions dis-
+played a large doping extent, which was reversible, as shown by a
+return to the fully de-doped polymer UV-Vis absorption spectrum
+when charging is returned to the initial value. From the consistent UV,
+CV and spectroelectrochemical data across all fractions of the two
+polymers, it was concluded that the degree of doping remains con-
+stant, and not dependent on the molecular weight or the degree of
+purity in both cases.
+Organic electrochemical transistor performance
+OECT devices were fabricated and the electrical performance mea-
+sured for each fraction, in order to elucidate the impact of the palla-
+dium. The devices were fabricated according to the procedure
+described in the Methods section, with a device geometry of
+W = 100 µm and L = 10 µm. All devices were operated in accumulation
+mode, and data was obtained without any post-processing treatments
+(see Supplementary Figs. 22–25 for output, transfer and transcon-
+ductance curves) and Table 2 summarizes the OECT parameters.
+The impact of Pd impurities on the OECT performance was
+ﬁrstly evaluated by comparing the Pd concentrations in each frac-
+tion, measured by ICP-MS, to the charge carrier mobilities (Table 2).
+Across F1-4 of both materials, where Pd concentrations are reduced,
+the charge carrier mobility is increased in seven out of eight cases
+(Table 2). We propose that the origins of these observations arise
+from the Pd(0) nanoclusters, formed from the molecular Pd cross-
+coupling catalyst during the polymerization reactions40,53,54. Such
+species may be able to act as catalysts for ORR due to the favorable
+energetic offsets55. For example, the LUMO of p(C6g3NDI-T) has an
+energy of approximately −4.18 eV, considerably higher than the −5.1
+to −5.2 eV work function of Pd56,57, meaning that both the electron
+transfer from the polymer electron polaron to Pd and the ORR itself
+are energetically favorable, leading to polaron annihilation. This
+mechanism of charge transfer explains why the n-type polymer
+observes a signiﬁcant increase in mobility upon the removal of Pd.
+When mobile electrons are transferred to the Pd(0) nanoclusters to
+catalyze the ORR, the electron mobility is reduced. It should be
+noted that this reaction is only possible in aqueous conditions, such
+as those used in OECT operation. Additionally, ORR can also gen-
+erate hydrogen peroxide, which is biologically toxic, hindering any
+application as a safe bioelectronic sensor58. Interestingly the
+mobility of the p-type material was observed to be negatively
+affected by higher palladium levels, albeit by a smaller factor than
+the n-type (twofold decrease compared to ﬁvefold). There are no
+accessible oxidation reactions in this case that could be driven by
+the hole polaron energies. Impedance measurements on p-type
+polymers with similar energy levels to p(g4T2-TT) have previously
+indicated that increased Pd content can cause increased electrical
+resistance41. It is possible that the presence of Pd nanoclusters in the
+OECT polymer thin ﬁlms creates local distortions in the semi-
+conductor microstructure, and a subsequent increase in energetic
+disorder, leading to a reduction in mobility observed40,41,59.
+In addition to containing differing concentrations of palladium,
+each sample however also differed in both molecular weight and dis-
+persity. To decouple the inﬂuence of these parameters on the OECT
+charge carrier mobilities, all GPC fractions for each polymer were
+recombined and the OECT characteristics were measured (see
+recombined rows in Table 2, Fig. 4c, d, and Supplementary Figs. 26 and
+27). In this way, any effects arising from the molecular weight varia-
+tions or reduced dispersities of the fractionated batches are elimi-
+nated. Furthermore, the physical form of Pd is representative of that
+present in the unpuriﬁed polymers (i.e., nanoclusters vs molecular Pd).
+The impact of puriﬁcation appears to offer a greater improvement for
+p(C6g3NDI-T) than p(g4T2-TT). More speciﬁcally, there is a 92%
+increase in electron mobility from 1.02 × 10−3 to 1.96 × 10−3 cm2 V−1 s−1
+for p(C6g3NDI-T), compared to ~50% increase in hole mobility for
+p(g4T2-TT), from 3.13 to 4.75 cm2 V−1 s−1, where both have comparable
+levels of Pd, at around 200 ppm. The recombined batches of both
+polymers show comparable C* values to the unpuriﬁed batches,
+resulting in increases to μC* from 0.227 to 0.503 F V−1 cm−1 s−1 for
+Fig. 4 | OECT transfer and transconductance characteristics before and after
+the reintroduction of Pd and comparing the unpuriﬁed and recombined bat-
+ches of each polymer. The OECT transfer and transconductance characteristics for
+a fraction 3 of p(g4T2-TT) before and after the reintroduction of 2000 ppm of Pd
+and b fraction 2 of p(C6g3NDI-T) before and after the reintroduction of 2000 ppm
+of Pd. Transfer and transconductance characteristics for c unpuriﬁed and recom-
+bined p(g4T2-TT) and d unpuriﬁed and recombined p(C6g3NDI-T). All measure-
+ments are an average across 6 devices. Id refers to the drain current, Vg is the gate
+voltage and gm is the transconductance.
+Article
+https://doi.org/10.1038/s41467-022-35573-y
+Nature Communications|        (2022) 13:7964 
+6
+
+p(C6g3NDI-T) and from 374 to 451 F V−1 cm−1 s−1 for p(g4T2-TT). Notably
+the recombined batches of both polymers show a lower performance
+than most of the fractions. This can be explained by the GIWAXS data
+(Fig. 2 and Supplementary Figs. 17 and 18), where fractionation resul-
+ted in both a decrease in π-π stacking distance and an increase in
+coherence length, both of which would be expected to result in an
+increase in charge carrier mobility.
+To further explore the causal relationship between the con-
+centration of Pd and the OECT performance, we reintroduced 2000
+ppm of Pd back into the highest performing fraction, in the form of the
+Pd2(dba)3 catalyst. The OECT characteristics were remeasured (Fig. 4a,
+b). For fraction 3 of p(g4T2-TT), this resulted in lower performance,
+with hole mobility decreasing from 6.53 to 3.02 cm2 V−1 s−1 (Fig. 4a and
+Supplementary Fig. 28). For fraction 2 of p(C6g3NDI-T), the reintro-
+duction of Pd also resulted in the mobility decreasing from 5.34 × 10−3
+to 1.10 × 10−3 cm2 V−1 s−1 (Fig. 4b and Supplementary Fig. 29). The p-type
+polymer observed a smaller decrease than the n-type polymer, which is
+consistent with the relative differences observed between the unpur-
+iﬁed and remixed sample measurements.
+Ionic impurities in thienothiophene-based polymers have pre-
+viously been shown to also have little impacton charge carrier mobility
+in OFET devices60. To explore this correlation in our polymers, the
+unpuriﬁed and highest OECT performance fraction of each polymer
+were tested in a top gate/bottom contact OTFT and compared, (the
+output and transfer characteristics for which can found in Supple-
+mentary Figs. 30 and 31). The n-type polymer, p(C6g3NDI-T), displayed
+low output currents, which resulted in poor electron mobilities of
+1.7 × 10−4 and 6.0 × 10−5 cm2 V−1 s−1 for the unpuriﬁed and fraction 2,
+respectively. Interestingly, the unpuriﬁed batch exhibits an order of
+magnitude greater electron mobility than the fractionated batch,
+supporting previous observations that material purity has little impact
+on OTFT performance. Instead, it is possible that the higher molecular
+weights present in the unpuriﬁed batch led to more favorable mor-
+phology, which is a dominant effect for OTFT performance. The hole
+transporting polymer, p(g4T2-TT), displayed conducting properties
+with no current modulation, so no mobility was able to be extracted.
+For the p(g4T2-TT) series, the thickness normalized transcon-
+ductance increased to a peak of 1457 S cm−1 for fraction 3 (con-
+centration of Pd = 157 ppm), then decreased as the Mn further
+increases. A similar trend is observed for p(C6g3NDI-T), where the
+highest normalized transconductance was observed for fraction 2
+(concentration of Pd = 39 ppm), at 0.155 S cm−1. Interestingly, for
+both series, all values of the fractions were larger than that of the
+unfractionated batch, which is likely to be caused by the increased
+charge carrier mobility. [μC*] was calculated using Eq. (1), where the
+same trends were observed, with the p-type increasing from 694 to
+1308 to 2008 F V−1 cm−1 s−1, a very high OECT performance23,28,61,62,
+then decreasing to 972 F V−1 cm−1 s−1 (Fig. 5a). p(C6g3NDI-T) also
+mimicked the thickness normalized transconductance, with fraction
+2 (the lowest concentration of Pd, at 39 ppm) providing the maximal
+[μC*] value at a polymer-best 1.632 F V−1 cm−1 s−1 (Fig. 5b).
+These trends were further probed by performing electro-
+chemical impedance spectroscopy (EIS) to determine the volu-
+metric capacitance at offset potentials of 0 to −0.8 V and 0.3 to
+0.8 V against Ag/AgCl, for p- and n-type devices, respectively, with a
+0.1 M NaCl(aq) electrolyte (see Supplementary Figs. 32 and 33). For
+p(g4T2-TT), C* increased from 114 F cm−3 to reach a peak for fraction
+3 of 308 F cm−3, before decreasing by ~60%. A similar observation
+was made for p(C6g3T2-T), where again fraction 3 provides the
+optimal C* of 521 F cm−3. Both trends were supported by the doping
+efﬁciency seen by spectroelectrochemical measurements, whereby
+the π-π* transition in each case was normalized to one and the peak
+associated with the polaron was plotted against each voltage
+(Supplementary Fig. 21).
+It is expected that this trend is observed due to the microstructure
+of fraction 3 providing the optimal arrangement to promote ionic
+miscibility3. As it is known that the microstructure is inﬂuenced by the
+molecular weight31,33, and it is therefore suggested that the molecular
+weight of fraction 3 is optimal for a high C* value. As documented in
+literature, a high C* value may indicate that whilst a polymer is able to
+accommodate compensatory ions, this results in a disruption to the
+microstructure, leading to a decreased mobility28,63. This can be par-
+tially observed for both polymer series, for example, fraction 3 of
+p(C6g3NDI-T) had the highest C* value, but the lowest μOECT despite
+lower concentration of electron trapping Pd. This demonstrates that a
+ﬁne balance between μOECT and C* is required to maximize OMIEC
+performance in OECTs, which can evidently be inﬂuenced by polymer
+molecular weight. Whilst molecular weight may to some extent impact
+OECT performance (evaluated by gm and [μC*]), both polymer series
+indicate that the palladium concentration has more inﬂuence.
+Another critical aspect of OECT performance is the operational
+stability of devices. Device stability was measured by cycling the gate
+potential and recording the drain current over 30 min. Generally, it was
+observed that the stability of the polymer was improved when the Pd
+content was reduced, with the fractionated materials exhibiting better
+stability than the unpuriﬁed batches (Supplementary Figs. 34 and 35).
+Numerically, this translates to a change in drain current of 7% for one
+of the puriﬁed fractions of p(C6g3NDI-T), compared to a 36% change
+for the unpuriﬁed batch (Fig. 6). Similarly, the stability of the p-type
+polymer improved from a 66% change in drain current for the
+unpuriﬁed batch, to a change of 28% for fraction 2 (Fig. 6). This gen-
+erates hydrogen peroxide in a two-electron process, which is likely
+detrimental to OECT performance and can cause degradation of both
+the OMIEC and the electrodes58,64. This therefore indicates that the
+purity of the polymer plays a role in determining both OECT perfor-
+mance and stability.
+Fig. 5 | Comparing concentration ofPdand the molecular weightwiththe OECT
+performance. a μOECT as a function of Pd content in ppm for p(g4T2-TT) and
+p(C6g3NDI-T) and b [μC*] as a function of Mn for p(g4T2-TT) and p(C6g3NDI-T),
+whereby the dashed line indicates the performance of the polymer pre-
+fractionation. The error bars are the standard deviation of the data set and µOECT is
+the calculated OECT mobility.
+Article
+https://doi.org/10.1038/s41467-022-35573-y
+Nature Communications|        (2022) 13:7964 
+7
+
+To summarize, this study explores the inﬂuence of polymer purity
+and molecular weight on the two most common polymer backbones
+for OECT applications, a p-type polythiophene and an n-type NDI
+material. These materials employed preparative GPC as a puriﬁcation
+technique for polymers, fractionating a single polymer batch into four
+batches. By studying the optoelectronic properties using UV-Vis
+absorption, CV and spectroelectrochemical measurements, the struc-
+tural properties using GIWAXS and the OECT characteristics, the
+impact of OMIEC purity on the OECT performance of polymers p(g4T2-
+TT) and p(C6g3NDI-T) was examined.
+To better understand the trend in performance observed across a
+range of palladium concentrations, particularly the charge carrier
+mobility, OECT devices were fabricated and measured. We found that
+the reduced palladium signiﬁcantly improved the OECT performance,
+arising mainly from an increase in mobility (of ~60% and 80% for the p-
+and n-type, respectively), when comparing the unpuriﬁed fractions
+with the puriﬁed fractions. We hypothesize that residual Pd arranges in
+nanoclusters, which act to trap charges and as a co-catalyst for ORR,
+reducing OMIEC stability. These ﬁndings were further veriﬁed by
+reintroducing 2,000 ppm of Pd into the highest performing fraction of
+each polymer, which saw signiﬁcant decreases in the OECT mobilities.
+These observations highlight the importance of synthetic pur-
+iﬁcation of any semiconducting polymer to be employed in an ambi-
+ent, aqueous environment. For a valid comparison between OMIECs
+and to derive accurate structure-property relationships, this work
+indicates that Pd levels must be as low as possible. As this observation
+applies to both p- and n-type materials, proper puriﬁcation of new and
+existing OMIECs will enhance understanding of OMIECs and improve
+OECT performance, and preparative GPC offers a versatile method to
+achieve this.
+Methods
+Materials’ characterization
+Column chromatography was performed on silica gel from VWR Sci-
+entiﬁc, using the indicated solvents. Thin layer chromatography was
+performed on Silicagel 60 F254 plates purchased from Merck. 1H and
+13C NMR spectra were recorded on a Bruker AV-400 spectrometer at
+298 K, with chemical shifts (δ) are expressed in parts per million (ppm)
+downﬁeld from tetramethylsilane (TMS). Deuterated solvents were
+purchased from Sigma Aldrich. Electrospray (ES-ToF) mass spectro-
+metry was performed using a Micromass LCT Premier. Recycling pre-
+parative HPLC was performed using a LaboACE LC-5060 instrument
+with a separation line containing a 4HH column. The polymers were
+injected as 5 mg mL−1 solutions in chloroform and collected at intervals
+such that each fraction was approximately one quarter of the material
+injected, then the solvent removed in vacuo. For OECT characteristics
+where palladium was reintroduced to the best performing fractions,
+2,000 ppm of Pd2(dba)3 was dissolved in 5 mg mL−1 solution of the
+polymer in chloroform. For OECT characteristics where fractions 1–4
+were recombined, this was done so in a mass ratio of 1:1.4:1.4:1 for
+F1:F2:F3:F4 in order to replicate the original molecular weight proﬁle,
+and solutions of 5 mg mL−1 were used for spin coating the devices. For
+measurements requiring thin ﬁlms (UV-vis absorption, spectro-
+electrochemical measurements, grazing incidence wide-angle X-ray
+scattering, electrochemical impedance spectroscopy and transistor
+properties), these were formed by spin coating 50 µL of 5 mg mL−1
+polymer solutions onto cleaned glass, silicon wafers, ITO or transistor
+substrates and allowed to air dry. Grazing incidence wide-angle X-ray
+scattering (GIWAXS) was conducted at the Advanced Photon Source
+(APS) at Argonne National Laboratory using an incident beam energy
+of 10.92 keV and an incident angle of 0.14°. Raw scattering data were
+processed using GIXSGUI65 and analyzed using a custom MATLAB
+script. For inductively coupled plasma mass spectrometry (ICP-MS)
+measurements, element concentrations were determined based on
+dry polymer weight. Samples were digested in TraceMetal® grade
+concentrated nitric acid under elevated temperature (200 °C) and
+pressure in ﬂuoropolymer pressure vessels in a CEM MARS5 micro-
+wave digestion system. Digested samples were diluted with 2% v/v
+nitric acid prior to analysis to target an estimated 1–100 µg/L in the
+analytical solution. Analysis was performed on an Agilent 8900 ICP-MS
+attached to an Agilent SPS-4 autosampler. The sample introduction
+system also includes a standard Scott double pass cooled spray
+chamber operated at 2 °C, a 2.5 mm i.d. Agilent glass torch, and a
+200 µL/min Micromist nebulizer. The ICP-MS was ﬁtted with standard
+Fig. 6 | OECT stability measurements in 0.1 M NaCl aqueous electrolyte. Probing stability by cycling Vg and recording Id over 30 min. The graphs indicate the percentage
+decrease in drain current (Id) for a unpuriﬁed p(g4T2-TT), b F2 of p(g4T2-TT), c unpuriﬁed p(C6g3NDI-T), and d F2 of p(C6g3NDI-T).
+Article
+https://doi.org/10.1038/s41467-022-35573-y
+Nature Communications|        (2022) 13:7964 
+8
+
+nickel cones and operated in no gas mode. Beforeanalysis, allsolutions
+were further diluted by 50% by teeing in an internal standard solution
+of 2 µg/L platinum and rhodium (High Purity Standards) prepared with
+2% v/v nitric acid to correct for instrumental drift. Procedural blanks
+were run in parallel with samples and averaged 14 ng contributing to
+less than 2% of the analytical signal and are regarded as negligible.
+Reproducibility is estimated to be 2.8% RSD from repeated analyses
+(n = 11) over 2 analytical sessions of an in-house QC sample prepared
+from a polymer of know Pd composition.
+Electrochemical characterization
+UV-Vis absorption spectra were recorded on UV-1601 (λmax 1100 nm)
+UV-VIS Shimadzu UV-Vis spectrometers. Solution UV-Vis absorption
+spectroscopy was conducted on chloroform solutions with a polymer
+concentration of 0.006 mg mL−1. UV-Vis absorption spectra were also
+recorded for thin ﬁlms of the polymers on glass substrates. Cyclic
+voltammetry was performed employing an Autolab PGSTAT101 with a
+standard three-electrode conﬁguration, including polymer-coated
+glassy carbon rod as the working electrode, a platinum wire as the
+counter electrode and an Ag/AgCl wire electrode as the reference
+electrode. The polymer was drop cast onto the glassy carbon electrode
+from 5 mg mL−1 solutions and allowed to air dry before each mea-
+surement. The supporting electrolyte employed was a 0.1 М tetra-
+butylammonium hexaﬂuorophosphate in acetonitrile solution or 0.1 M
+aqueous NaCl solution and was degassed for 30 min before use. The
+scan rate was 0.1 V s−1 and the second and third scans are displayed in
+each ﬁgure herein. Spectroelectrochemical measurements were
+obtained from thin ﬁlms of the polymer on ITO glass slides with the
+corresponding semiconductor. This was then connected in the same
+three-electrode conﬁguration as for the cyclic voltammetry experi-
+ment and placed within a cuvette holder. The resulting electro-
+chemical setup was then conﬁgured to reside inside the UV-1800
+Shimadzu UV-Vis spectrometer previously employed for determining
+the optical properties of the polymers.
+Transistor fabrication and characterization
+OECT substrates were fabricated following previously reported pho-
+tolithographic techniques46. The OECT devices featured gold contacts
+making up a channel with width = 100 µm and length = 10 µm. To
+mitigate the problems with the parylene lift-off with p-type polymers,
+the substrates underwent a pre-deposition surface treatment to pro-
+mote adhesion of the polymer ﬁlm to the channels and electrodes66.
+The polymer solutions (5 mg mL−1) were deposited by spin-coating at
+1000 rpm and 500 rpm for the p- and n-type polymers, respectively,
+for 45 s before air drying and peeling off the sacriﬁcial parylene layer.
+Transistor properties were measured using an aqueous 0.1 М NaCl
+solution as the supporting electrolyte and an Ag/AgCl pellet electrode
+as the gate electrode and presented data is an average across 6 devices.
+Output and transfer characteristics, as well as stability measurements
+were recorded by connecting OECTs to an IviumStat potentiostat. Data
+was recorded through custom built LabVIEW software. Electrochemical
+impedance spectroscopy was performed using the same potentiostat,
+employing 600 µm × 600 µm polymer coated gold electrodes as the
+working electrode, with an Ag/AgCl pellet electrode as the gate elec-
+trode. For electrochemical impedance spectroscopy experiments a
+frequency range between 100 kHz to 1 Hz and an AC amplitude of
+10 mV over a DC voltage above the threshold for the polymer. All OFET
+ﬁlms were prepared and characterized under a nitrogen atmosphere.
+Borosilicate substrates were cleaned by sequential ultrasonication in a
+dilute Extran 300 detergent solution and deionized water for 30 min
+each. Then the substrates were cleaned with acetone and isopropyl
+alcohol by ultrasonication for 10 min each. As source-drain electrodes,
+35 nm of Au with 5 nm of Al as the sticking layer was thermally eva-
+porated at 2 × 10−6 mbar. The substrates with patterned Au/Al
+source–drain contacts were subjected to a UV-ozone treatment step
+for 20 min. The channel width and length of the transistors were
+1000 μm/40 μm. Before the ﬁlm deposition, the polymers were dis-
+solved in anhydrous chloroform. The solutions were kept under stir-
+ring on a hot plate at room temperature for overnight. As gate
+dielectric, the mixture of Cytop (CTL-809M) and its solvent (CT-SOLV
+180) with a volume ratio of 2:1 was spin-coated at 1200 rpm for 60 s.
+The Cytop ﬁlm was then thermally annealed at 50 °C for 2 h before the
+deposition of Al as a gate electrode. The electrical characteristics of the
+OTFTs were monitored by a probe station placed in an N2-ﬁlled glove
+box that is connected to an Agilent B1500A semiconductor parameter
+analyzer. The saturation-regime mobility (μsat) of the transistor was
+determined using the equation μsat = 2L=WCiðdId
+1=2
+dV g Þ
+2
+, where Id is the
+source–drain current, Ci is the capacitance per unit area, L is the
+channel length, W is the channel width, and Vg is the gate voltage.
+Data availability
+The authors declare that the data supporting the ﬁndings of this study
+are available within the paper and its Supplementary Information ﬁles.
+Additional data are available from the corresponding author upon
+request. The data acquired at the University of Bern that support the
+results of this study are available as open access in BORIS at https://doi.
+org/10.48620/183.
+References
+1.
+Paulsen, B. D., Tybrandt, K., Stavrinidou, E. & Rivnay, J. Organic
+mixed ionic–electronic conductors. Nat. Mater. 19, 13–26 (2020).
+2.
+Chen, H. et al. Acene ring size optimization in fused lactam poly-
+mers enabling high n-type organic thermoelectric performance. J.
+Am. Chem. Soc. 143, 260–268 (2021).
+3.
+Marks, A. et al. Synthetic nuances to maximize n-type organic
+electrochemical transistor and thermoelectric performance in
+fused lactam polymers. J. Am. Chem. Soc. 144, 4642–4656 (2022).
+4.
+Melling, D., Martinez, J. G. & Jager, E. W. H. Conjugated polymer
+actuators and devices: progress and opportunities. Adv. Mater. 31,
+1808210 (2019).
+5.
+Li, K. et al. Lattice-contraction triggered synchronous electro-
+chromic actuator. Nat. Commun. 9, 4798 (2018).
+6.
+Rashid, R. B. et al. Ambipolar inverters based on cofacial vertical
+organic electrochemical transistor pairs for biosignal ampliﬁcation.
+Sci. Adv. 7, eabh1055 (2021).
+7.
+Guo, K. et al. Rapid single-molecule detection of COVID-19 and
+MERS antigens via nanobody-functionalized organic electro-
+chemical transistors. Nat. Biomed. Eng. 5, 666–677 (2021).
+8.
+Romele, P. et al. Multiscale real time and high sensitivity ion
+detection with complementary organic electrochemical transistors
+ampliﬁer. Nat. Commun. 11, 3743 (2020).
+9.
+Marks, A., Griggs, S., Gasparini, N. & Moser, M. Organic electro-
+chemical transistors: an emerging technology for biosensing. Adv.
+Mater. Interfaces 9, 2102039 (2022).
+10.
+Lundberg, P. et al. Thermally activated delayed ﬂuorescence with
+7% external quantum efﬁciency from a light-emitting electro-
+chemical cell. Nat. Commun. 10, 5307 (2019).
+11.
+Tang, S. et al. Design rules for light-emitting electrochemical cells
+delivering bright luminance at 27.5 percent external quantum efﬁ-
+ciency. Nat. Commun. 8, 1190 (2017).
+12.
+Tan, S. T. M. et al. Redox-active polymers designed for the circular
+economy of energy storage devices. ACS Energy Lett. 6,
+3450–3457 (2021).
+13.
+Moia, D. et al. Design and evaluation of conjugated polymers with
+polar side chains as electrode materials for electrochemical energy
+storage in aqueous electrolytes. Energy Environ. Sci. 12,
+1349–1357 (2019).
+14.
+Wang, H. et al. Energy storing bricks for stationary PEDOT super-
+capacitors. Nat. Commun. 11, 3882 (2020).
+Article
+https://doi.org/10.1038/s41467-022-35573-y
+Nature Communications|        (2022) 13:7964 
+9
+
+15.
+Rivnay, J. et al. Organic electrochemical transistors. Nat. Rev. Mater.
+3, 17086 (2018).
+16.
+Pappa, A. M. et al. Direct metabolite detection with an n-type
+accumulation mode organic electrochemical transistor. Sci. Adv. 4,
+eaat0911 (2018).
+17.
+van de Burgt, Y. et al. A non-volatile organic electrochemical device
+as a low-voltage artiﬁcial synapse for neuromorphic computing.
+Nat. Mater. 16, 414–418 (2017).
+18.
+Gkoupidenis, P., Koutsouras, D. A. & Malliaras, G. G. Neuromorphic
+device architectures with global connectivity through electrolyte
+gating. Nat. Commun. 8, 15448 (2017).
+19.
+Giovannitti, A. et al. The role of the side chain on the performance of
+n-type conjugated polymers in aqueous electrolytes. Chem. Mater.
+30, 2945–2953 (2018).
+20. Bernards, D. A. & Malliaras, G. G. Steady-state and transient beha-
+vior of organic electrochemical transistors. Adv. Funct. Mater. 17,
+3538–3544 (2007).
+21.
+Inal, S., Malliaras, G. G. & Rivnay, J. Benchmarking organic mixed
+conductors. Nat. Commun. 8, 1767 (2017).
+22. Khodagholy, D. et al. In vivo recordings of brain activity using
+organic transistors. Nat. Commun. 4, 1575 (2013).
+23. Hallani, R. K. et al. Regiochemistry-driven organic electrochemical
+transistor performance enhancement in ethylene glycol-
+functionalized polythiophenes. J. Am. Chem. Soc. 143,
+11007–11018 (2021).
+24. Ohayon, D. et al. Inﬂuence of side chains on the n-type organic
+electrochemical transistor performance. ACS Appl. Mater. Inter-
+faces 13, 4253–4266 (2021).
+25. Maria, I. P. et al. The effect of alkyl spacers on the mixed ionic‐
+electronic conduction properties of n‐type polymers. Adv. Funct.
+Mater. 31, 2008718 (2021).
+26. Chen, X. et al. n‐Type rigid semiconducting polymers bearing oli-
+go(ethylene glycol) side chains for high‐performance organic
+electrochemical transistors. Angew. Chem. Int. Ed. 60,
+9368–9373 (2021).
+27.
+Moser, M. et al. Controlling electrochemically induced volume
+changes in conjugated polymers by chemical design: from theory
+to devices. Adv. Funct. Mater. 31, 2100723 (2021).
+28. Moser, M. et al. Side chain redistribution as a strategy to boost
+organic electrochemical transistor performance and stability. Adv.
+Mater. 32, 1–6 (2020).
+29. Kline, R. J., McGehee, M. D., Kadnikova, E. N., Liu, J. & Fréchet, J. M. J.
+Controlling the ﬁeld-effect mobility of regioregular polythiophene
+by changing the molecular weight. Adv. Mater. 15,
+1519–1522 (2003).
+30. Brinkmann, M. & Rannou, P. Molecular weight dependence of chain
+packing and semicrystalline structure in oriented ﬁlms of regiore-
+gular poly(3-hexylthiophene) revealed by high-resolution trans-
+mission electron microscopy. Macromolecules 42,
+1125–1130 (2009).
+31.
+Fratini, S., Nikolka, M., Salleo, A., Schweicher, G. & Sirringhaus, H.
+Charge transport in high-mobility conjugated polymers and mole-
+cular semiconductors. Nat. Mater. 19, 491–502 (2020).
+32. Shin, Y. H. et al. Synthesis and aggregation behavior of a glycolated
+naphthalene diimide bithiophene copolymer for application in low-
+level n-doped organic thermoelectrics. Macromolecules 53,
+5158–5168 (2020).
+33. Koch, F. P. V. et al. The impact of molecular weight on micro-
+structure and charge transport in semicrystalline polymer
+semiconductors–poly(3-hexylthiophene), a model study. Prog.
+Polym. Sci. 38, 1978–1989 (2013).
+34. Gu, K. et al. Assessing the Huang-Brown description of tie chains for
+charge transport in conjugated polymers. ACS Macro Lett. 7,
+1333–1338 (2018).
+35. Liu, F. et al. Molecular weight dependence of the morphology in
+P3HT:PCBM solar cells. ACS Appl. Mater. Interfaces 6,
+19876–19887 (2014).
+36. Wu, H. et al. Inﬂuence of molecular weight on the organic elec-
+trochemical transistor performance of ladder‐type conjugated
+polymers. Adv. Mater. 34, 2106235 (2022).
+37. Giovannitti, A. et al. N-type organic electrochemical transistors with
+stability in water. Nat. Commun. 7, 13066 (2016).
+38. Maria, I. P. et al. Enhancing the backbone coplanarity of n-type
+copolymers for higher electron mobility and stability in organic
+electrochemical transistors. Chem. Mater. https://doi.org/10.1021/
+ACS.CHEMMATER.2C01552 (2022).
+39. Kosco, J. et al. The effect of residual palladium catalyst con-
+tamination on the photocatalytic hydrogen evolution activity of
+conjugated polymers. Adv. Energy Mater. 8, 1802181 (2018).
+40. Bracher, C. et al. The effect of residual palladium catalyst on the
+performance and stability of PCDTBT:PC70BM organic solar cells.
+Org. Electron. 27, 266–273 (2015).
+41.
+Troshin, P. A. et al. Impedance measurements as a simple tool to
+control the quality of conjugated polymers designed for photo-
+voltaic applications. Adv. Funct. Mater. 20, 4351–4357 (2010).
+42. Shao, M. Palladium-based electrocatalysts for hydrogen oxidation
+and oxygen reduction reactions. J. Power Sources 196,
+2433–2444 (2011).
+43. Nielsen, C. B. et al. Molecular design of semiconducting polymers
+for high-performance organic electrochemical transistors. J. Am.
+Chem. Soc. 138, 10252–10259 (2016).
+44. Liu, J., Loewe, R. S. & McCullough, R. D. Employing MALDI-MS on
+poly(alkylthiophenes): analysis of molecular weights, molecular
+weight distributions, end-group structures, and end-group mod-
+iﬁcations. Macromolecules 32, 5777–5785 (1999).
+45. Zhan, C. G., Nichols, J. A. & Dixon, D. A. Ionization potential, electron
+afﬁnity, electronegativity, hardness, and electron excitation energy:
+molecular properties from density functional theory orbital ener-
+gies. J. Phys. Chem. A 107, 4184–4195 (2003).
+46. Giovannitti, A. et al. Controlling the mode of operation of organic
+transistors through side-chain engineering. Proc. Natl Acad. Sci.
+USA 113, 12017–12022 (2016).
+47. Jeong, D. et al. High‐performance n‐type organic electrochemical
+transistors enabled by aqueous solution processing of amphiphili-
+city‐driven polymer assembly. Adv. Funct. Mater. 32,
+2111950 (2022).
+48. Zhang, L. et al. Conjugated polymers based on thiazole ﬂanked
+naphthalene diimide for unipolar n-type organic ﬁeld-effect tran-
+sistors. Chem. Mater. 30, 8343–8351 (2018).
+49. Savva, A. et al. Solvent engineering for high‐performance n‐type
+organic electrochemical transistors. Adv. Electron. Mater. 5,
+1900249 (2019).
+50. Noriega, R. et al. A general relationship between disorder, aggre-
+gation and charge transport in conjugated polymers. Nat. Mater. 12,
+1038–1044 (2013).
+51.
+Brinkmann, M. et al. Segregated versus mixed interchain stacking in
+highly oriented ﬁlms of naphthalene diimide bithiophene copoly-
+mers. ACS Nano 6, 10319–10326 (2012).
+52. Moser, M. et al. Propylene and butylene glycol: new alternatives to
+ethylene glycol in conjugated polymers for bioelectronic applica-
+tions. Mater. Horiz. 9, 973–980 (2022).
+53. Sachs, M. et al. Tracking charge transfer to residual metal clusters in
+conjugated polymers for photocatalytic hydrogen evolution. J. Am.
+Chem. Soc. 142, 14574–14587 (2020).
+54. Krebs, F. C., Nyberg, R. B. & Jørgensen, M. Inﬂuence of residual
+catalyst on the properties of conjugated polyphenylenevinylene
+materials: palladium nanoparticles and poor electrical perfor-
+mance. Chem. Mater. 16, 1313–1318 (2004).
+Article
+https://doi.org/10.1038/s41467-022-35573-y
+Nature Communications|        (2022) 13:7964 
+10
+
+55. Tian, X., Lu, X. F., Xia, B. Y. & Lou, X. W. Advanced electrocatalysts
+for the oxygen reduction reaction in energy conversion technolo-
+gies. Joule 4, 45–68 (2020).
+56. Michaelson, H. B. The work function of the elements and its peri-
+odicity. J. Appl. Phys. 48, 4729–4733 (1977).
+57. Gu, D., Dey, S. K. & Majhi, P. Effective work function of Pt, Pd, and Re
+on atomic layer deposited HfO2. Appl. Phys. Lett. 89,
+082907 (2006).
+58. Giovannitti, A. et al. Energetic control of redox‐active polymers
+toward safe organic bioelectronic materials. Adv. Mater. 32,
+1908047 (2020).
+59. Nikiforov, M. P. et al. Detection and role of trace impurities in high-
+performance organic solar cells. Energy Environ. Sci. 6,
+1513–1520 (2013).
+60. Björklund, N. et al. The effects of metal impurities in poly[(2,5-bis(3-
+decylthiophen-2-yl)thieno[2,3-b]thiophene] on ﬁeld-effect transis-
+tor properties. Org. Electron. 10, 215–221 (2009).
+61.
+Moser, M. et al. Polaron delocalization in donor–acceptor polymers
+and its impact on organic electrochemical transistor performance.
+Angew. Chem. Int. Ed. 60, 7777–7785 (2021).
+62. Kim, Y. et al. Strain‐engineering induced anisotropic crystallite
+orientation and maximized carrier mobility for high‐performance
+microﬁber‐based organic bioelectronic devices. Adv. Mater. 33,
+2007550 (2021).
+63. Savva, A. et al. Inﬂuence of water on the performance of organic
+electrochemical transistors. Chem. Mater. 31, 927–937 (2019).
+64. Szumska, A. A. et al. Reversible electrochemical charging of n-type
+conjugated polymer electrodes in aqueous electrolytes. J. Am.
+Chem. Soc. 143, 14795–14805 (2021).
+65. Jiang, Z. GIXSGUI: a MATLAB toolbox for grazing-incidence X-ray
+scattering data visualization and reduction, and indexing of buried
+three-dimensional periodic nanostructured ﬁlms. J. Appl. Crystal-
+logr. 48, 917–926 (2015).
+66. Bi, X., Crum, B. P. & Li, W. Super hydrophobic parylene-C produced
+by consecutive O2 and SF6 plasma treatment. J. Microelectromech.
+Syst. 23, 628–635 (2014).
+Acknowledgements
+S.G., A.M., C.M.A., I.M., D.M., and J.R. acknowledge ﬁnancial support
+from KAUST Ofﬁce of Sponsored Research CRG10. S.G., A.M., C.M.A.,
+and I.M. acknowledge funding by EU Horizon2020 grant agreement no.
+952911, BOOSTER, grant agreement no. 862474, RoLA-FLEX, and grant
+agreement no. 101007084 CITYSOLAR, as well as EPSRC Projects EP/
+T026219/1 and EP/W017091/1. A CC-BY licence is applied to the AAM
+arising from this submission, in accordance with the grant’s open access
+conditions. J.R. and E.A.S. gratefully acknowledges funding support
+from Sloan under award no. FG-2019-12046. B.D.P. and J.R. acknowl-
+edge support from the National Science Foundation grant no. NSF DMR‐
+1751308. D.M. and E.A.S. utilized the Keck-II facility of Northwestern
+University’s NUANCE Center and the Northwestern University Micro/
+Nano Fabrication Facility (NUFAB), which are both partially supported by
+Soft and Hybrid Nanotechnology Experimental (SHyNE) Resource (NSF
+ECCS‐1542205), the Materials Research Science and Engineering Center
+(NSF DMR‐1720139), the State of Illinois, and Northwestern University.
+Additionally, the Keck-II facility is partially supported by the International
+Institute for Nanotechnology (IIN); the Keck Foundation; and the State of
+Illinois, through the IIN. D.M. and B.D.P. used resources of the Advanced
+Photon Source, a U.S. Department of Energy (DOE) Ofﬁce of Science
+User Facility operated for the DOE Ofﬁce of Science by Argonne National
+Laboratory under Contract No. DE-AC02-06CH11357. J.T. acknowledges
+ﬁnancial support from a US Ofﬁce for Naval Research, ONR YIP (N00014-
+20-1-2777). Special thanks to J. Strzalka for beam line support. N.B., G.R.,
+and O.B. thank the European Research Council (ERC) for supporting this
+research by a Starting Grant (No. 714586, OSIRIS) and acknowledge
+NCCR-MUST, a research instrument of the Swiss National Science
+Foundation, as well as the University of Bern. M.I.N. and T.D.A. would like
+to acknowledge the King Abdullah University of Science and Technol-
+ogy (KAUST) Ofﬁce of Sponsored Research (OSR) under Award No.:
+OSR-2018-CARF/CCF-3079, and OSR-2019-CRG8-4095 for the funding.
+Author contributions
+S.G. synthesized the monomers, conducted preparative GPC of the
+polymers and wrote the manuscript, A.M. synthesized the polymers and
+performed cyclic voltammetry measurements, D.M. performed OECT
+characterization, G.R. and O.B. performed UV-Vis spectroscopy and
+spectroelectrochemical measurements, B.D.P. performed GIWAXS
+measurements and assisted with the analysis, H.C. performed GPC
+measurements, K.W. performed ICP-MS measurements and analysis,
+M.I.N. performed OTFT measurements and analysis, E.A.S. fabricated
+the OECT substrates and assisted with OECT analysis, J.T. analyzed
+the GIWAXS data, C.M.A. cowrote the manuscript, T.D.A. led the
+OTFT measurements, N.B. managed the optical measurements, J.R.
+managed the OECT and GIWAXS measurements and provided project
+direction and I.M. managed the project and assisted with writing the
+manuscript.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Supplementary information The online version contains
+supplementary material available at
+https://doi.org/10.1038/s41467-022-35573-y.
+Correspondence and requests for materials should be addressed to Iain
+McCulloch.
+Peer review information Nature Communications thanks Ludvig Edman
+and the other anonymous reviewer(s) for their contribution to the peer
+review of this work.
+Reprints and permissions information is available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to jur-
+isdictional claims in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as
+long as you give appropriate credit to the original author(s) and the
+source, provide a link to the Creative Commons license, and indicate if
+changes were made. The images or other third party material in this
+article are included in the article’s Creative Commons license, unless
+indicated otherwise in a credit line to the material. If material is not
+included in the article’s Creative Commons license and your intended
+use is not permitted by statutory regulation or exceeds the permitted
+use, you will need to obtain permission directly from the copyright
+holder. To view a copy of this license, visit http://creativecommons.org/
+licenses/by/4.0/.
+© The Author(s) 2022
+Article
+https://doi.org/10.1038/s41467-022-35573-y
+Nature Communications|        (2022) 13:7964 
+11
+

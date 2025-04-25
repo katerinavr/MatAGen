@@ -1,0 +1,1084 @@
+{
+   "page_1_img_1.png": {
+      "title": "Influence of Water on the Performance of Organic Electrochemical Transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT&Water_review\\OECT&Water_review",
+      "image_url": [],
+      "figure_name": "page_1_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_1_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 461,
+            "width": 969,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 969,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 461
+               },
+               {
+                  "x": 969,
+                  "y": 461
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 969,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 461
+                  },
+                  {
+                     "x": 969,
+                     "y": 461
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_4_img_1.png": {
+      "title": "Influence of Water on the Performance of Organic Electrochemical Transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT&Water_review\\OECT&Water_review",
+      "image_url": [],
+      "figure_name": "page_4_img_1.png",
+      "full_caption": "Figure 1. (a) Applied potential waveform as a function of time. Square-shaped dopings are applied for 60 s and range from 0.1 to 0.5 V. Each with a dedoping potential of 0 V lasting for 120 s in between each doping pulse. (b) Changes in the mass of the films when doped in four electrolytes with increasing concentrations. (c) Zoom-in schematic representation of p(g2T-TT)-NaCl(aq) system in the EQCM-D chamber during doping in low and high concentration electrolyte solutions. Bottom: the number of water molecules injected into the films at the end of the doping pulse and remaining in the film upon the subsequent dedoping pulse applied at 0 V as a function of NaCl concentration.",
+      "figure_path": "output\\figures\\page_4_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9157227277755737,
+            "height": 419,
+            "width": 528,
+            "geometry": [
+               {
+                  "x": 57,
+                  "y": 199
+               },
+               {
+                  "x": 585,
+                  "y": 199
+               },
+               {
+                  "x": 57,
+                  "y": 618
+               },
+               {
+                  "x": 585,
+                  "y": 618
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 57,
+                     "y": 199
+                  },
+                  {
+                     "x": 585,
+                     "y": 199
+                  },
+                  {
+                     "x": 57,
+                     "y": 618
+                  },
+                  {
+                     "x": 585,
+                     "y": 618
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Changes in the mass of the films when doped in four electrolytes with increasing concentrations.",
+            "keywords": [
+               "Mass change",
+               "Electrolytes",
+               "Doping"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.8574113845825195,
+            "height": 183,
+            "width": 582,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 11
+               },
+               {
+                  "x": 582,
+                  "y": 11
+               },
+               {
+                  "x": 0,
+                  "y": 194
+               },
+               {
+                  "x": 582,
+                  "y": 194
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 11
+                  },
+                  {
+                     "x": 582,
+                     "y": 11
+                  },
+                  {
+                     "x": 0,
+                     "y": 194
+                  },
+                  {
+                     "x": 582,
+                     "y": 194
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Applied potential waveform as a function of time. Square-shaped dopings are applied for 60 s and range from 0.1 to 0.5 V. Each with a dedoping potential of 0 V lasting for 120 s in between each doping pulse.",
+            "keywords": [
+               "Electrochemical",
+               "Doping",
+               "Potential"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.6151123046875,
+            "height": 430,
+            "width": 402,
+            "geometry": [
+               {
+                  "x": 598,
+                  "y": 1
+               },
+               {
+                  "x": 1000,
+                  "y": 1
+               },
+               {
+                  "x": 598,
+                  "y": 431
+               },
+               {
+                  "x": 1000,
+                  "y": 431
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 598,
+                     "y": 1
+                  },
+                  {
+                     "x": 1000,
+                     "y": 1
+                  },
+                  {
+                     "x": 598,
+                     "y": 431
+                  },
+                  {
+                     "x": 1000,
+                     "y": 431
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Zoom-in schematic representation of p(g2T-TT)-NaCl(aq) system in the EQCM-D chamber during doping in low and high concentration electrolyte solutions. Bottom: the number of water molecules injected into the films at the end of the doping pulse and remaining in the film upon the subsequent dedoping pulse applied at 0 V as a function of NaCl concentration.",
+            "keywords": [
+               "Doping",
+               "Electrolyte",
+               "Water molecules"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.5455041527748108,
+            "height": 352,
+            "width": 407,
+            "geometry": [
+               {
+                  "x": 593,
+                  "y": 270
+               },
+               {
+                  "x": 1000,
+                  "y": 270
+               },
+               {
+                  "x": 593,
+                  "y": 622
+               },
+               {
+                  "x": 1000,
+                  "y": 622
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 593,
+                     "y": 270
+                  },
+                  {
+                     "x": 1000,
+                     "y": 270
+                  },
+                  {
+                     "x": 593,
+                     "y": 622
+                  },
+                  {
+                     "x": 1000,
+                     "y": 622
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_5_img_1.png": {
+      "title": "Influence of Water on the Performance of Organic Electrochemical Transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT&Water_review\\OECT&Water_review",
+      "image_url": [],
+      "figure_name": "page_5_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_5_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9737748503684998,
+            "height": 483,
+            "width": 598,
+            "geometry": [
+               {
+                  "x": 5,
+                  "y": 397
+               },
+               {
+                  "x": 603,
+                  "y": 397
+               },
+               {
+                  "x": 5,
+                  "y": 880
+               },
+               {
+                  "x": 603,
+                  "y": 880
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 5,
+                     "y": 397
+                  },
+                  {
+                     "x": 603,
+                     "y": 397
+                  },
+                  {
+                     "x": 5,
+                     "y": 880
+                  },
+                  {
+                     "x": 603,
+                     "y": 880
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9642372727394104,
+            "height": 397,
+            "width": 600,
+            "geometry": [
+               {
+                  "x": 4,
+                  "y": 1
+               },
+               {
+                  "x": 604,
+                  "y": 1
+               },
+               {
+                  "x": 4,
+                  "y": 398
+               },
+               {
+                  "x": 604,
+                  "y": 398
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 4,
+                     "y": 1
+                  },
+                  {
+                     "x": 604,
+                     "y": 1
+                  },
+                  {
+                     "x": 4,
+                     "y": 398
+                  },
+                  {
+                     "x": 604,
+                     "y": 398
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9568984508514404,
+            "height": 480,
+            "width": 603,
+            "geometry": [
+               {
+                  "x": 1,
+                  "y": 889
+               },
+               {
+                  "x": 604,
+                  "y": 889
+               },
+               {
+                  "x": 1,
+                  "y": 1369
+               },
+               {
+                  "x": 604,
+                  "y": 1369
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 889
+                  },
+                  {
+                     "x": 604,
+                     "y": 889
+                  },
+                  {
+                     "x": 1,
+                     "y": 1369
+                  },
+                  {
+                     "x": 604,
+                     "y": 1369
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_6_img_1.png": {
+      "title": "Influence of Water on the Performance of Organic Electrochemical Transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT&Water_review\\OECT&Water_review",
+      "image_url": [],
+      "figure_name": "page_6_img_1.png",
+      "full_caption": "Figure 3. (a) Out-of-plane (qz) and in-plane (qy) X-ray scattering lineouts for the (200) and (010) peaks, respectively, of p(g2T-TT) films doped with Na[ClO4] 10 mM (black lines) and Na[ClO4] 1 M (green lines). Numbers in parentheses correspond to different conditions of the polymer: (1) dry, as-cast, (2) immersed in electrolyte, (3) doped at 0.5 V vs VOC, and (4) subsequently dedoped at VOC. Asterisks denote position of scattering peaks after lattice distortion induced by electrochemical doping. Dashed lines correspond to center of scattering peaks. (b) Lattice spacing values of the \u03c0\u2013\u03c0 stacking and lamellar distances extracted from fitting peak diffraction positions of the (010) and (200) peaks, respectively. Error bars in lattice spacing correspond to propagated error from peak fitting.",
+      "figure_path": "output\\figures\\page_6_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9454547762870789,
+            "height": 924,
+            "width": 1033,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 2
+               },
+               {
+                  "x": 1033,
+                  "y": 2
+               },
+               {
+                  "x": 0,
+                  "y": 926
+               },
+               {
+                  "x": 1033,
+                  "y": 926
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 2
+                  },
+                  {
+                     "x": 1033,
+                     "y": 2
+                  },
+                  {
+                     "x": 0,
+                     "y": 926
+                  },
+                  {
+                     "x": 1033,
+                     "y": 926
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Out-of-plane (qz) and in-plane (qy) X-ray scattering lineouts for the (200) and (010) peaks, respectively, of p(g2T-TT) films doped with Na[ClO4] 10 mM (black lines) and Na[ClO4] 1 M (green lines). Numbers in parentheses correspond to different conditions of the polymer: (1) dry, as-cast, (2) immersed in electrolyte, (3) doped at 0.5 V vs VOC, and (4) subsequently dedoped at VOC. Asterisks denote position of scattering peaks after lattice distortion induced by electrochemical doping. Dashed lines correspond to center of scattering peaks.",
+            "keywords": [
+               "X-ray scattering",
+               "doping",
+               "polymer"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9233661890029907,
+            "height": 922,
+            "width": 553,
+            "geometry": [
+               {
+                  "x": 1031,
+                  "y": 0
+               },
+               {
+                  "x": 1584,
+                  "y": 0
+               },
+               {
+                  "x": 1031,
+                  "y": 922
+               },
+               {
+                  "x": 1584,
+                  "y": 922
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 1031,
+                     "y": 0
+                  },
+                  {
+                     "x": 1584,
+                     "y": 0
+                  },
+                  {
+                     "x": 1031,
+                     "y": 922
+                  },
+                  {
+                     "x": 1584,
+                     "y": 922
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Lattice spacing values of the \u03c0\u2013\u03c0 stacking and lamellar distances extracted from fitting peak diffraction positions of the (010) and (200) peaks, respectively. Error bars in lattice spacing correspond to propagated error from peak fitting.",
+            "keywords": [
+               "Diffraction",
+               "Lattice spacing",
+               "Error analysis"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_7_img_1.png": {
+      "title": "Influence of Water on the Performance of Organic Electrochemical Transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT&Water_review\\OECT&Water_review",
+      "image_url": [],
+      "figure_name": "page_7_img_1.png",
+      "full_caption": "Figure 4. (a) Molecular structure of p(g2T-TT) showing the distribution of charge, with increasing electron density from blue to red. (b) Characteristic Raman spectrum of p(g2T-TT) film recorded in air. The peaks labeled with A, B, and C are attributed to C\u2550C stretching, thiophenethiophene core (\u22481406 cm\u22121), C\u2550C symmetric stretching (\u22481448 cm\u22121), and C\u2550C/C\u2212C asymmetric stretching/ shrinking (\u22481494 cm\u22121), respectively. The region between ca. 1000 and 1300 cm\u22121 is mainly due to the side chains. (c) Changes in the Raman spectra of identically prepared films during doping in NaCl(aq) 10 mM (black lines) and NaCl(aq) 1 M (green lines). The spectra were recorded after the film was dry, i.e., air (1), immersed in electrolyte (2), doped at \u22120.5 V vs Ag/AgCl (3), and subsequently dedoped at Voc (4).",
+      "figure_path": "output\\figures\\page_7_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9593036770820618,
+            "height": 447,
+            "width": 472,
+            "geometry": [
+               {
+                  "x": 527,
+                  "y": 250
+               },
+               {
+                  "x": 999,
+                  "y": 250
+               },
+               {
+                  "x": 527,
+                  "y": 697
+               },
+               {
+                  "x": 999,
+                  "y": 697
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 527,
+                     "y": 250
+                  },
+                  {
+                     "x": 999,
+                     "y": 250
+                  },
+                  {
+                     "x": 527,
+                     "y": 697
+                  },
+                  {
+                     "x": 999,
+                     "y": 697
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Changes in the Raman spectra of identically prepared films during doping in NaCl(aq) 10 mM (black lines) and NaCl(aq) 1 M (green lines). The spectra were recorded after the film was dry, i.e., air (1), immersed in electrolyte (2), doped at \u22120.5 V vs Ag/AgCl (3), and subsequently dedoped at Voc (4).",
+            "keywords": [
+               "Raman spectroscopy",
+               "doping",
+               "electrolyte"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.585326611995697,
+            "height": 447,
+            "width": 506,
+            "geometry": [
+               {
+                  "x": 5,
+                  "y": 249
+               },
+               {
+                  "x": 511,
+                  "y": 249
+               },
+               {
+                  "x": 5,
+                  "y": 696
+               },
+               {
+                  "x": 511,
+                  "y": 696
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 5,
+                     "y": 249
+                  },
+                  {
+                     "x": 511,
+                     "y": 249
+                  },
+                  {
+                     "x": 5,
+                     "y": 696
+                  },
+                  {
+                     "x": 511,
+                     "y": 696
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.21297654509544373,
+            "height": 247,
+            "width": 955,
+            "geometry": [
+               {
+                  "x": 40,
+                  "y": 0
+               },
+               {
+                  "x": 995,
+                  "y": 0
+               },
+               {
+                  "x": 40,
+                  "y": 247
+               },
+               {
+                  "x": 995,
+                  "y": 247
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 40,
+                     "y": 0
+                  },
+                  {
+                     "x": 995,
+                     "y": 0
+                  },
+                  {
+                     "x": 40,
+                     "y": 247
+                  },
+                  {
+                     "x": 995,
+                     "y": 247
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Molecular structure of p(g2T-TT) showing the distribution of charge, with increasing electron density from blue to red.",
+            "keywords": [
+               "Molecular structure",
+               "Electron density",
+               "p(g2T-TT)"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "b",
+               "description": "Characteristic Raman spectrum of p(g2T-TT) film recorded in air. The peaks labeled with A, B, and C are attributed to C\u2550C stretching, thiophene-thiophene core (\u22481406 cm\u22121), C\u2550C symmetric stretching (\u22481448 cm\u22121), and C\u2550C/C\u2212C asymmetric stretching/shrinking (\u22481494 cm\u22121), respectively. The region between ca. 1000 and 1300 cm\u22121 is mainly due to the side chains.",
+               "keywords": [
+                  "Raman spectroscopy",
+                  "p(g2T-TT)",
+                  "C\u2550C stretching"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_8_img_1.png": {
+      "title": "Influence of Water on the Performance of Organic Electrochemical Transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT&Water_review\\OECT&Water_review",
+      "image_url": [],
+      "figure_name": "page_8_img_1.png",
+      "full_caption": "Figure 6. Schematic representation of an OECT channel composed of p(g2T-TT) and gated with an Ag/AgCl electrode immersed in NaCl(aq) solutions with different ion concentrations. The magnified region depicts the polymer\u2212electrolyte interface and the differences in the swelling behavior of the film in low- and high-concentration electrolyte.",
+      "figure_path": "output\\figures\\page_8_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.11550893634557724,
+            "height": 916,
+            "width": 918,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 918,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 916
+               },
+               {
+                  "x": 918,
+                  "y": 916
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 918,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 916
+                  },
+                  {
+                     "x": 918,
+                     "y": 916
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_8_img_2.png": {
+      "title": "Influence of Water on the Performance of Organic Electrochemical Transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT&Water_review\\OECT&Water_review",
+      "image_url": [],
+      "figure_name": "page_8_img_2.png",
+      "full_caption": "Figure 5. Gate voltage dependence of the (a) drain current (ID) and (b) transconductance of OECTs comprising p(g2T-TT) in the channel (W = 100 \u03bcm, L = 10 \u03bcm, d = 120 nm). The devices are measured in NaCl(aq) solutions of varying ion concentrations at VG = \u22120.5 V. (c) Hole mobility (\u03bcOECT) of p(g2T-TT) film as a function of NaCl(aq) concentration, calculated from the bandwidth measurements performed at VG = VD = \u22120.5 V as shown in Figure S13a. The error bars are derived from four different OECT channels measured at each concentration. (d) Response time of the OECTs (\u03c4OECT) as a function of NaCl concentration measured at VG = VD = \u22120.5 V.",
+      "figure_path": "output\\figures\\page_8_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9800776243209839,
+            "height": 380,
+            "width": 478,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 317
+               },
+               {
+                  "x": 478,
+                  "y": 317
+               },
+               {
+                  "x": 0,
+                  "y": 697
+               },
+               {
+                  "x": 478,
+                  "y": 697
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 317
+                  },
+                  {
+                     "x": 478,
+                     "y": 317
+                  },
+                  {
+                     "x": 0,
+                     "y": 697
+                  },
+                  {
+                     "x": 478,
+                     "y": 697
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Hole mobility (\u03bcOECT) of p(g2T-TT) film as a function of NaCl(aq) concentration, calculated from the bandwidth measurements performed at VG = VD = \u22120.5 V as shown in Figure S13a. The error bars are derived from four different OECT channels measured at each concentration.",
+            "keywords": [
+               "Hole mobility",
+               "NaCl concentration",
+               "OECT"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9754253029823303,
+            "height": 315,
+            "width": 475,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 475,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 315
+               },
+               {
+                  "x": 475,
+                  "y": 315
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 475,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 315
+                  },
+                  {
+                     "x": 475,
+                     "y": 315
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Gate voltage dependence of the drain current (ID) and transconductance of OECTs comprising p(g2T-TT) in the channel (W = 100 \u03bcm, L = 10 \u03bcm, d = 120 nm). The devices are measured in NaCl(aq) solutions of varying ion concentrations at VG = \u22120.5 V.",
+            "keywords": [
+               "OECTs",
+               "transconductance",
+               "ion concentration"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9711623191833496,
+            "height": 375,
+            "width": 490,
+            "geometry": [
+               {
+                  "x": 508,
+                  "y": 322
+               },
+               {
+                  "x": 998,
+                  "y": 322
+               },
+               {
+                  "x": 508,
+                  "y": 697
+               },
+               {
+                  "x": 998,
+                  "y": 697
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 508,
+                     "y": 322
+                  },
+                  {
+                     "x": 998,
+                     "y": 322
+                  },
+                  {
+                     "x": 508,
+                     "y": 697
+                  },
+                  {
+                     "x": 998,
+                     "y": 697
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9630393385887146,
+            "height": 320,
+            "width": 489,
+            "geometry": [
+               {
+                  "x": 507,
+                  "y": 0
+               },
+               {
+                  "x": 996,
+                  "y": 0
+               },
+               {
+                  "x": 507,
+                  "y": 320
+               },
+               {
+                  "x": 996,
+                  "y": 320
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 507,
+                     "y": 0
+                  },
+                  {
+                     "x": 996,
+                     "y": 0
+                  },
+                  {
+                     "x": 507,
+                     "y": 320
+                  },
+                  {
+                     "x": 996,
+                     "y": 320
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Response time of the OECTs (\u03c4OECT) as a function of NaCl concentration measured at VG = VD = \u22120.5 V.",
+            "keywords": [
+               "OECTs",
+               "Response time",
+               "NaCl concentration"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   }
+}

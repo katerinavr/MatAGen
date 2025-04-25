@@ -1,0 +1,3 @@
+OPENAI_API_KEY = "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"
+anthropic_api_key = "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"
+mem0_key= "m0-BfsNljYpGwwD3vWg2pxlikZhLLeMmky2WShLjfKz"

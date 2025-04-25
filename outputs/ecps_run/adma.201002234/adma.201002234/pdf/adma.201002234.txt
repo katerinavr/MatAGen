@@ -1,0 +1,407 @@
+© 2010 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+Adv. Mater. 2010, 22, 4949–4953
+4949
+www.advmat.de
+www.MaterialsViews.com
+COMMUNICATION
+wileyonlinelibrary.com
+ By  Pengjie  Shi ,  Chad M.  Amb ,  Eric P.  Knott ,  Emily J.  Thompson ,  David Y.  Liu , 
+ Jianguo  Mei ,  Aubrey L.  Dyer ,  and  John R.  Reynolds * 
+ Broadly Absorbing Black to Transmissive Switching 
+Electrochromic Polymers 
+ [∗]  P.  Shi ,  Dr. C. M.  Amb ,  E. P.  Knott ,  E. J.  Thompson ,  D. Y.  Liu ,  J.  Mei , 
+ Dr. A. L.  Dyer ,  Prof. J. R.  Reynolds  
+The George and Josephine Butler Polymer Research Laboratory
+Department of Chemistry
+Center for Macromolecular Science and Engineering
+University of Florida
+Gainesville, Florida 32611 (USA)
+ E-mail:  reynolds@chem.uﬂ .edu 
+ DOI: 10.1002/adma.201002234 
+ Non-emissive electrochromic devices (ECDs), which can be 
+operated under a wide range of viewing and lighting conditions, 
+are especially attractive in applications that include smart win-
+dows, displays, electronic paper and mirrors. [ 1–4 ] Consequently, 
+the processability, ﬂ exibility, high optical contrast, rapid redox 
+switching and long-term stability of easily oxidized conjugated 
+polymers has made them desired materials for various reﬂ ec-
+tive/transmissive ECDs. [ 5–7 ] Although many polymeric elec-
+trochromes which are colored (red and orange, [ 8 ] green, [ 9–11 ] 
+magenta/purple, [ 12 ] and blue [ 13–17 ] ) in the neutral state and 
+highly transmissive in the oxidized state have been investi-
+gated, there are only two black-to-transmissive electrochromic 
+polymers (ECPs) reported to date. [ 18 , 19 ] This is due to the com-
+plexity in inducing a polymer absorption spectrum which 
+absorbs evenly over the entire visible spectrum (400–750 nm) 
+in the fully neutralized state, while effectively bleaching out in 
+the same region in the fully oxidized state. 
+ In order to create conjugated polymers with neutral state 
+colors of blue, green or black, the materials’ optically estimated 
+band gap must be lower than 1.75 eV. The “donor-acceptor” 
+(DA) [ 20–22 ]  approach has successfully been utilized to achieve 
+these low-gap polymers for organic photovoltaics, [ 23–26 ] ﬁ eld-
+effect transistors [ 27 , 28 ] and light emitting diodes. [ 29 ] DA type 
+polymers generally show two distinct optical absorption bands, 
+which can be modulated as a function of the composition of 
+donor and acceptor moieties in the main chain. [ 30–32 ] The tuning 
+of the dual-band absorption character of DA type polymers pro-
+vides an elegant method of modifying spectral characteristics to 
+achieve desired colors. 
+ In recent work, we reported the synthesis and characteriza-
+tion of the ﬁ rst black-to-transmissive switching polymeric elec-
+trochrome based on the donor-acceptor approach. [ 18 ] We showed 
+that by variation of the relative contribution of electron-rich and 
+-poor moieties in the polymer backbone, the two-band absorp-
+tion in the visible spectrum could be controlled. In addition, 
+using a particular feed ratio of two different monomers, the dis-
+crete absorption bands merged into a broad absorption across 
+the entire visible spectrum. The spray-cast polymer thin ﬁ lm 
+exhibited a deep black neutral state and attained a highly trans-
+missive state when fully oxidized. Due to the synthetic com-
+plexity of the polymer, which involved the synthesis and chro-
+matographic separation of DAD trimers, and which may limit 
+reproducible large-scale production of the material, we desired 
+to develop a method that would lead to polymer batches with 
+highly reproducible absorption spectra and an efﬁ cient, scalable 
+and consistent polymerization process. 
+ As illustrated by  Figure  1a , we demonstrate a facile syn-
+thetic approach to access black-to-transmissive electrochromic 
+polymers via a random transition-metal mediated coupling 
+poly merization. In the speciﬁ c instance reported here, we use 
+a Stille polymerization; however the method could be applied 
+to many other transition-metal mediated reactions that include 
+Suzuki, Negishi, and Kumada couplings. Under the most 
+common Stille polymerization conditions, two monomers (typi-
+cally an aryl distannane and an aryl dihalide) are cross-coupled 
+using palladium catalysis to produce polymers with pre-deter-
+mined Ar-Ar ′ couplings. [ 33–35 ] In this approach, we desired to 
+incorporate a random mixture of donor and acceptor heterocy-
+cles in order achieve a black polymer by utilizing more than 
+two monomeric species in the polymerizations. [ 36 , 37 ] In order 
+to simulate the ratio of electron-rich to electron-poor heterocy-
+cles determined in our previous work, we chose to randomly 
+polymerize both 2,5-dibromo- and 2,5-tributylstannyl-2-ethyl-
+hexyloxy-substituted 3,4-propylenedioxythiophene (ProDOT-
+(CH 2 OEtHx) 2 ) with 4,7-dibromo-2,1,3-benzothiadiazole (BTD) 
+in different feed ratios. In an optimization of the feed ratio, ﬁ ve 
+random broadly absorbing copolymers ( ECP-1 through  ECP-5 ) 
+were produced, with number average molecular weights (M n ) 
+around 10 to 15 kDa and polydispersities ranging from 1.3 to 
+1.6 after fractionation (see Supporting Information, Table S1). 
+ The UV-visible absorption spectra of the polymers in chlo-
+roform are shown in Figure  1 b. A broad spectral absorption 
+is evident ranging from approximately 400 nm to greater than 
+700 nm for each polymer. Unlike the spectra of typical donor-
+acceptor polymers, which generally have two distinct absorp-
+tion bands, the spectra of polymers  ECP-1  to  ECP-5 show a 
+“merging” of the short- and long-wavelength optical transitions, 
+and no obvious peak to peak window is observed. As expected, 
+ ECP-1 exhibits the lowest intensity of the short-wavelength 
+absorption at 461 nm due to its relatively low concentration of 
+electron-rich moiety. Considering the reduced absorption of 
+blue and green light (400–580 nm), as well as an absence of far-
+red light absorption from 700 to 750 nm, it is reasonable that 
+the solution of  ECP-1 gives a midnight blue color. By increasing 
+the relative amount of ProDOT-(CH 2 OEtHx) 2 repeat unit, the 
+
+4950
+www.advmat.de
+www.MaterialsViews.com
+© 2010 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+Adv. Mater. 2010, 22, 4949–4953
+COMMUNICATION
+wileyonlinelibrary.com
+the spectra in the solid state compared to solutions for all ﬁ ve 
+polymers. The signiﬁ cant extension of absorption into the far 
+red region is important as it leads to a more pure black color of 
+the ﬁ lms. As determined from the onset of their neutral-state 
+lower-energy optical transition, the polymers give a relatively 
+low band gap ranging from 1.6–1.7 eV. 
+ Figure  2a shows the full spectroelectrochemical behavior 
+of an  ECP-3 ﬁ lm. The ﬁ lm was redox cycled to a stable and 
+reproducible switch prior to the analysis, and then elec-
+trochemically oxidized from  − 0.25 to  + 0.35 V vs. Fc/Fc  +  (in 
+25 mV steps). Upon oxidization of the polymer, the broad 
+absorption in the visible region is depleted, and a polaronic 
+transition in the near-IR (800–1200 nm) arises, and then 
+falls as a bipolaronic transition further in the NIR appears. 
+When fully oxidized, the generated bipolaronic absorption 
+peaks beyond 1600 nm, which allows effective bleaching of 
+the visible absorption, and a remarkably high level of trans-
+missivity to the human eye. In order to further accentuate the 
+optical changes that occur upon oxidation, the electrochromic 
+response is shown in terms of transmissivity across just the 
+visible region in Figure  2 b from 350 nm to 750 nm. For a ﬁ lm 
+of  ECP-3 in its neutral state, a nearly ﬂ at transmittance proﬁ le 
+at 20% from 450 nm to 700 nm is observed. In contrast, when 
+the ﬁ lm is fully oxidized, the transmittance increases to above 
+60% through most of the visible region. The electrochromic 
+contrast (as percent transmittance change,  Δ % T ) is as high as 
+difference in intensity between the two absorption bands is 
+reduced. At a speciﬁ c point where the donor/acceptor ratio is 
+approximately 7 to 1, the intensities of the two bands are bal-
+anced, and homogenous absorptions across most of the visible 
+spectrum (450–650 nm) are observed for  ECP-3 and  ECP-4 . Not 
+surprisingly, solutions of  ECP-3 and  ECP-4 show a similar dark-
+purple-black color due to the lack of absorption in the far blue 
+and red regions. Accordingly, the absorption of  ECP-5 shows 
+a higher intensity of the high energy transition (530 nm) than 
+its low energy transition (572 nm) with a further increase of 
+the donor concentration, and the solution of  ECP-5 exhibits a 
+bright purple color due to the increased reﬂ ection/transmission 
+of red light. 
+ Two additional syntheses of polymer  ECP-3  were under 
+taken to demonstrate successful repeatability. The generated 
+polymers  ECP-3-s1  and  ECP-3-s2 are consistent with  ECP-3 
+in terms of molecular weight (M n ), PDI and solution absorp-
+tion (see Supporting Information, Table S1 and Figure S1). As 
+expected, by controlling the feed ratio of the monomers, we 
+were able to effectively manipulate the absorption pattern of 
+the polymers. 
+ Thin ﬁ lms of each polymer were then spray-cast onto 
+indium tin oxide (ITO) coated glass slides from toluene solu-
+tion (2 mg mL  − 1 ). The visible absorption spectra of the ﬁ lms 
+shown in Figure  1 c exhibit a broadening of the long wavelength 
+absorption with little to no change at the higher energy end of 
+b)
+a)
+c)  
+S
+SnBu3
+Bu3Sn
+O
+O
+O
+R
+O
+R
+N
+S
+N
+Pd2(dba)3, P(o-tolyl)3
+toluene
+S
+O
+O
+O
+R
+O
+R
+m
+n
+N
+S
+N
+Br
+Br
+S
+O
+O
+O
+R
+O
+R
+Br
+Br
+R=2-ethylhexyl
+S
+O
+O
+O
+R
+O
+R
+p
+Monomer Ratios:    1                                     x                                 y      (x+y=1)
+ Figure  1 .  a ) Reaction scheme for the Stille polymerization of three monomers.  b ) Solution absorption of Polymer  ECP-1 (monomers ratio: x  = 0.6, y  = 0.4), 
+ ECP-2 (x  = 0.7, y  = 0.3),  ECP-3 (x  = 0.75, y  = 0.25),  ECP-4 (x  = 0.76, y  = 0.24) and  ECP-5 (x  = 0.8, y  = 0.2) in chloroform. The inset shows the various 
+colors obtained across the polymer series.  c ) Normalized ﬁ lm absorption of Polymer  ECP-1 ,  ECP-2 ,  ECP-3 ,  ECP-4 and  ECP-5 (the ﬁ lms were spray-cast 
+onto ITO-coated glass from toluene (2 mg mL  − 1 ). 
+ 15214095, 2010, 44, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.201002234 by Argonne National Laboratory, Wiley Online Library on [26/09/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+4951
+www.advmat.de
+www.MaterialsViews.com
+© 2010 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+Adv. Mater. 2010, 22, 4949–4953
+COMMUNICATION
+wileyonlinelibrary.com
+with the visible absorption spectra of  ECP-3 thin ﬁ lm as a small 
+amount of red and slightly more blue light is transmitted by 
+the polymer. In comparison, the fully oxidized polymer ﬁ lms 
+exhibit high  L  ∗  values from 82 to 92 with smaller  a  ∗  and  b  ∗  
+values, which demonstrates that this polymer is able to reach a 
+highly transmissive near colorless state as deﬁ ned by the  L  ∗  a  ∗  b  ∗  
+color coordinates. 
+ Given that the speed at which electrochromic materials 
+change color states is important in display-type devices, the 
+ﬁ lm switching rate was examined by monitoring the transmit-
+tance change at a single wavelength (EC contrast,  Δ % T ) as a 
+function of time by applying square-wave potential steps for 
+periods of 10, 2 and 1 s. As shown in Figure  2 d, a transmittance 
+change (monitored at 540 nm) as high as 47% is recorded at 
+the longer switch time (10 s), and decreasing the switch time to 
+48% at 555 nm, the wavelength at which the human eye has 
+greatest sensitivity.  
+ To evaluate the color changes of the ECPs occurring on elec-
+trochemical switching (on the basis of the “Commission Inter-
+nationale de l’Eclairage” 1976  L  ∗  a  ∗  b  ∗  color standards), three 
+ ECP-3 ﬁ lms with varying thicknesses were subjected to colori-
+metric analysis. Figure  2 c shows the determined CIE 1976  L  ∗  
+values as a function of applied voltage that gives an indication 
+of relative brightness of the ﬁ lm as it is oxidized while illumi-
+nated from behind (transmission mode) with a standard D50 
+simulated daytime light source. In their neutral state, the 
+poly mer ﬁ lms exhibit  L  ∗  values from 46 for the thickest ﬁ lm to 
+75 for the thinnest ﬁ lm. Importantly, the ﬁ lm with absorption 
+maximum of 1.1 a.u. displays a deep black color with  a  ∗  and 
+ b  ∗  values as low as 3 and  − 11. This observation is consistent 
+ Figure  2 .  a ) Spectroelectrochemistry of  ECP-3 . The ﬁ lms were spray-cast onto ITO-coated glass from toluene (2 mg mL  − 1 ). Electrochemical oxida-
+tion of the ﬁ lms was carried out in 0.1 M lithium bistriﬂ uoromethanesulfonamide (LiBTI)/propylene carbonate (PC) solution, supporting electrolyte 
+using a silver wire as a quasi reference electrode (calibrated against Fc/Fc  +  ), and a platinum wire as the counter electrode. The applied potential was 
+increased in 25 mV steps from  − 0.25 to  + 0.35 V vs. Fc/Fc  +  .  b ) Electrochromic response in terms of transmissivity in the visible region (replotted from 
+Figure  2 a).  c ) Lightness ( L  ∗  ) as a function of applied potential for spray-coated  ECP-3 .  L  ∗  a  ∗  b  ∗  values of fully neutral and oxidized states are reported 
+for the ﬁ lms. Photographs are of the fully neutral (left) and fully oxidized ﬁ lms (right).  d ) Square-wave potential-step chronoabsorptometry of  ECP-3 
+spray-coated on ITO (monitored at 540 nm,  − 0.72 to  + 0.48 V vs. Fc/Fc  +  in 0.1 M LiBTI/PC electrolyte solution). The step times (10 s, 2 s and 1 s) are 
+indicated on the ﬁ gure. 
+ 15214095, 2010, 44, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.201002234 by Argonne National Laboratory, Wiley Online Library on [26/09/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+4952
+www.advmat.de
+www.MaterialsViews.com
+© 2010 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+Adv. Mater. 2010, 22, 4949–4953
+COMMUNICATION
+wileyonlinelibrary.com
+reported to date. In addition, the random Stille polymerization 
+was shown to be highly repeatable between different runs. The 
+resulting polymers show a high optical contrast, rapid redox 
+switching and long-term redox stability and have been incor-
+porated into both window-type and display-type electrochromic 
+devices. 
+ Supporting Information 
+ Supporting Information is available from the Wiley Online Library or 
+from the author. 
+ Acknowledgements 
+ We gratefully acknowledge funding of this work by the AFOSR (FA9550–
+09-1–0320), the ONR (N00014–08-1–0928), and BASF. We appreciate 
+discussions with Dr. Svetlana Vasilyeva. 
+  Received: June 20, 2010 
+ Revised: July 13, 2010 
+Published online: August 27, 2010 
+1 s, is reduced to 42%, only a 5% loss. As stability to repeated 
+redox switching is also essential to the practical utilization of 
+these materials in EC devices, the EC contrast ( Δ % T at 540 nm) 
+of a ﬁ lm was monitored while repeated square-wave potential 
+steps of 1.5 s (complete cycle is 3 s, switching between  − 0.72 to 
+ + 0.48 V vs. Fc/Fc  +  ) for 18,000 cycles (Figure S2) were applied. 
+The polymer exhibits a continuous switching stability with 
+only a decrease of 8% in electrochromic contrast over this time 
+period. 
+ To further reinforce the utility of these polymers, we have 
+demonstrated black-to-transmissive switching in an absorptive/
+transmissive window-type electrochromic device. Using the 
+device structure as detailed in Figure S3, the polymer  ECP-3 
+was utilized as the actively switching material at the working 
+electrode, and a minimally color-changing polymer (N-alkyl 
+substituted poly(3,4-propylenedioxypyrrole)), which is similar 
+to that previously described by our group, [ 38 ] was used as the 
+charge-balancing material at the counter electrode. As shown in 
+ Figure  3 , the transmittance spectra of the device in both the dark 
+state and transmissive state were measured across the visible 
+region from 400 to 750 nm. Higher transmittance in the blue 
+region is observed when the polymer is in the oxidized state 
+giving a highly transmissive light blue color. Conversely, when 
+the polymer is neutralized at a device cell potential of  − 0.6 V, 
+the transmittance decreases to a near featureless spectral proﬁ le 
+with the device having a contrast of  ∼ 40% at 555 nm. Addition-
+ally, an absorptive/reﬂ ective display-type device was constructed 
+utilizing polymer  ECP-3 as the active electrochrome as detailed 
+in the Supporting Information. 
+ In conclusion, precise control of the absorption spectra of 
+conjugated polymers was achieved by simply varying monomer 
+feed ratios in a random Stille polymerization. This approach 
+produced black-to-transmissive polymer electrochromes with 
+the most broad and uniform visible absorption that have been 
+ Figure  3 .  Transmittance spectra of ECD in extreme states of highly 
+absorptive (at an applied cell voltage of  − 0.6 V) and highly transmissive 
+(at an applied cell voltage of  + 1.6 V). The insets show photographs of the 
+same device in both states. 
+ [ 1 ]  P. M. S.  Monk ,  R. J.  Mortimer ,  D. R.  Rosseinsky ,   Electrochromism and 
+Electrochromic Devices  ,  Cambridge University Press :  Cambridge, UK 
+ 2007 . 
+ [ 2 ]  A. L.  Dyer ,  J. R.  Reynolds , in   Handbook of Conducting Polymer  , 3rd 
+ed. (Eds:  T.  Skotheim ,  J. R.  Reynolds ),  CRC Press, Taylor & Francis 
+Group ,  Boca Raton, FL  2007 ; Vol.  1 , Chapter 20. 
+ [ 3 ]  P. M.  Beaujuge ,  J. R.  Reynolds ,  Chem. Rev.  2010 ,  110 ,  268 . 
+ [ 4 ]  G.  Sonmez ,  Chem. Commun.  2005 ,  42 ,  5251 . 
+ [ 5 ]  D. R.  Rosseinsky ,  R. J.  Mortimer ,  Adv. Mater.  2001 ,  13 ,  783 . 
+ [ 6 ]  A. A.  Argun ,  A.  Cirpan ,  J. R.  Reynolds ,  Adv. Mater.  2003 ,  15 ,  1338 . 
+ [ 7 ]  C. A.  Cutler ,  M.  Bouguettaya ,  T. S.  Kang ,  J. R.  Reynolds ,  Macromol-
+ecules  2005 ,  38 ,  3068 . 
+ [ 8 ]  A. L.  Dyer ,  M. R.  Craig ,  J. E.  Babiarz ,  K.  Kiyak ,  J. R.  Reynolds ,  Macro-
+molecules  2010 ,  43 ,  4460 . 
+ [ 9 ]  A.  Durmus ,  G. E.  Gunbas ,  P.  Camurlu ,  L.  Toppare ,  Chem. Commun. 
+ 2007 ,  31 ,  3246 . 
+ [ 10 ]  G. E.  Gunbas ,  A.  Durmus ,  L.  Toppare ,  Adv. Mater.  2008 ,  20 ,  691 . 
+ [ 11 ]  P. M.  Beaujuge ,  S.  Ellinger ,  J. R.  Reynolds ,  Adv. Mater.  2008 ,  20 , 
+ 2772 . 
+ [ 12 ]  B. D.  Reeves ,  C. R.  Grenier ,  A. A.  Argun ,  A.  Cirpan ,  T. D.  McCarley , 
+ J. R.  Reynolds ,  Macromolecules  2004 ,  37 ,  7559 . 
+ [ 13 ]  M.  Li ,  Y.  Sheynin ,  A.  Patra ,  M.  Bendikov ,  Chem. Mater.  2009 ,  21 , 
+ 2482 . 
+ [ 14 ]  A.  Balan ,  G.  Gunbas ,  A.  Durmus ,  L.  Toppare ,  Chem. Mater.  2008 , 
+ 20 ,  7510 . 
+ [ 15 ]  M. A.  Invernale ,  V.  Seshadri ,  D. M. D.  Mamangun ,  Y.  Ding , 
+ J.  Filloramo ,  G. A  Sotzing ,  Chem. Mater.  2009 ,  21 ,  3332 . 
+ [ 16 ]  C.-G.  Wu ,  M.-I.  Lu ,  S.-J.  Chang ,  C.-S.  Wei ,  Adv. Funct. Mater.  2007 , 
+ 17 ,  1063 . 
+ [ 17 ]  C. M.  Amb ,  P. M.  Beaujuge ,  J. R.  Reynolds ,  Adv. Mater.  2010 ,  22 , 
+ 724 . 
+ [ 18 ]  P. M.  Beaujuge ,  S.  Ellinger ,  J. R.  Reynolds ,  Nat. Mater.  2008 ,  7 ,  795 . 
+ [ 19 ]  M.  Icli ,  M.  Pamuk ,  F.  Algi ,  A. M.  Onal ,  A.  Cihaner ,  Org. Elec.  2010 , 
+ 11 ,  1255 . 
+ [ 20 ]  E. E.  Havinga ,  W.  Hoeve ,  H.  Wynberg ,  Polym. Bull.  1992 ,  29 ,  119 . 
+ [ 21 ]  E. E.  Havinga ,  W.  Hoeve ,  H.  Wynberg ,  Synth. Met.  1993 ,  55 , 
+ 299 . 
+ [ 22 ]  H. A. M.  van Mullekom ,  J. A. J. M.  Vekemans ,  E. E.  Havinga , 
+ E. W.  Meijer ,  Mater. Sci. Eng. R.  2001 ,  32 ,  1 . 
+ 15214095, 2010, 44, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.201002234 by Argonne National Laboratory, Wiley Online Library on [26/09/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+4953
+www.advmat.de
+www.MaterialsViews.com
+© 2010 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+Adv. Mater. 2010, 22, 4949–4953
+COMMUNICATION
+wileyonlinelibrary.com
+ [ 30 ]  U.  Salzner ,  J. Phys. Chem. B  2002 ,  106 ,  9214 . 
+ [ 31 ]  U.  Salzner ,  M. E.  Kose ,  J. Phys. Chem. B  2002 ,  106 ,  9221 . 
+ [ 32 ]  O.  Karalt ,  S.  Durdagˇi ,  U.  Salzner ,  J. Mol. Model.  2006 ,  12 , 
+ 687 . 
+ [ 33 ]  D. A. P.  Delnoye ,  R. P.  Sybesma ,  J. A. J. M.  Vekemans ,  E. W.  Meijer , 
+ J. Am. Chem. Soc.  1996 ,  118 ,  8717 . 
+ [ 34 ]  Y.  Zou ,  J.  Hou ,  C.  Yang ,  Y.  Li ,  Macromolecules  2006 ,  39 ,  8889 . 
+ [ 35 ]  W.  Yue ,  Y.  Zhao ,  H.  Tian ,  D.  Song ,  Z.  Xie ,  D.  Yan ,  Y.  Geng ,  F.  Wang  , 
+ Macromolecules  2009 ,  42 ,  6510 . 
+ [ 36 ]  Q.  Peng ,  K.  Park ,  T.  Lin ,  M.  Durstock ,  L.  Dai ,  J. Phys. Chem. B  2008 , 
+ 112 ,  2801 . 
+ [ 37 ]  C.-H.  Chen ,  C.-H.  Hsieh ,  M.  Dubosc ,  Y.-J.  Cheng ,  C.-S.  Hsu , 
+ Macromolecules  2010 ,  43 ,  697 . 
+ [ 38 ]  R. M.  Walczak ,  J. R.  Reynolds ,  Adv. Mater.  2006 ,  18 ,  1121 . 
+ [ 23 ]  A.  Dhanabalan ,  J.  L. J. van Dongen ,  J.  K. J. van Duren ,  H. M.  Janssen , 
+ P.  A. van Hal ,  R. A. J.  Janssen ,  Macromolecules  2001 ,  34 ,  2495 . 
+ [ 24 ]  B. C.  Thompson ,  Y.-G.  Kim ,  T. D.  McCarley ,  J. R.  Reynolds ,  J. Am. 
+Chem. Soc.  2006 ,  128 ,  12714 . 
+ [ 25 ]  S.  Günes ,  H.  Neugebauer ,  N.  Serdar Sariciftci ,  Chem. Rev.  2007 , 
+ 107 ,  1324 . 
+ [ 26 ]  Y.-J.  Cheng ,  S.-H.  Yang ,  C.-S.  Hsu ,  Chem. Rev.  2009 ,  109 ,  5868 . 
+ [ 27 ]  T.  Kono ,  D.  Kumaki ,  J.-I.  Nishida ,  T.  Sakanoue ,  M.  Kakita ,  H.  Tada , 
+ S.  Tokito ,  Y.  Yamashita ,  Chem. Mater.  2007 ,  19 ,  1218 . 
+ [ 28 ]  R.  Ponce Ortiz ,  A.  Facchetti ,  T. J.  Marks ,  J.  Casado ,  M. Z.  Zgierski , 
+ M.  Kozaki ,  V.  Hernández ,  J.  T. López Navarrete ,  Adv. Funct. Mater. 
+ 2009 ,  19 ,  386 . 
+ [ 29 ]  S.  Beaupré ,  P.-L.  T. Boudreault ,  M.  Leclerc ,  Adv. Mater.  2010 ,  22 , 
+ E1 . 
+ 15214095, 2010, 44, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.201002234 by Argonne National Laboratory, Wiley Online Library on [26/09/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+

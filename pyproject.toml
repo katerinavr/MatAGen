@@ -1,0 +1,92 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"] 
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "matagen"  
+version = "0.1.0" 
+description = "Multimodal materials science mining agents using AutoGen."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" } # License specified by user
+keywords = ["autogen", "materials science", "multimodal", "scraping", "llm", "panel"]
+authors = [
+    { name = "Katerina Vriza", email = "kvriza@gmail.com" },
+    # Add others if applicable
+]
+classifiers = [ # Standard classifiers for PyPI (https://pypi.org/classifiers/)
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License", # Matches license specified
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Topic :: Scientific/Engineering :: Image Processing",
+    "Topic :: Text Processing :: Markup :: HTML",
+]
+
+dependencies = [
+    "pyautogen>=0.2.0",   
+    "openai>=1.0.0,<2.0.0", 
+    "anthropic>=0.20.0",
+    "pymupdf",            
+    "pandas>=2.2.0,<3.0.0", 
+    "pillow>=11.0.0,<12.0.0",
+    "numpy==1.24.3",
+    "scipy>=1.11.0",     
+    "scikit-image>=0.20.0",
+    "easyocr>=1.7.0",     
+    "opencv-python-headless>=4.8.0", 
+    "requests>=2.30.0",  
+    "PyYAML>=6.0.0",     
+    "docker>=7.0.0",     
+    "python-dotenv>=1.0.0",
+    "beautifulsoup4>=4.12.0",  # For HTML parsing
+    ]
+
+[project.optional-dependencies]
+ui = [
+    "panel>=1.4.0",       # Version from freeze was 1.6.2
+    "bokeh>=3.4.0",       # Version from freeze was 3.7.2
+    "mmcv-full==1.3.4",
+    # python-dotenv is now in core if needed by config module
+    # Add table extraction libs if/when PDF processing is added to UI
+    # "tabula-py",
+    # "camelot-py[cv]",
+]
+dev = [
+    "pytest",             # For running tests in tests/
+    "ruff",               # Modern linter/formatter
+    "pip-tools",          # Useful for syncing requirements.txt / pyproject.toml
+    "ipykernel",          # For running notebooks if needed
+    #"matagen[ui]",        # Include the 'ui' dependencies when installing 'dev' extras
+]
+
+[project.urls]
+Homepage = "https://github.com/katerinavr/DataMiningAgents"
+Repository = "https://github.com/katerinavr/DataMiningAgents"
+# Documentation = "..." # TODO: Add if available
+
+
+[tool.setuptools.packages.find]
+where = ["src"]  # Look for packages under the 'src' directory
+
+
+[tool.ruff]
+line-length = 88
+select = [
+    "E",  # pycodestyle errors
+    "F",  # pyflakes
+    "W",  # pycodestyle warnings
+    "I",  # isort
+    "UP", # pyupgrade
+    "B",  # flake8-bugbear
+]
+ignore = [
+    "E501", # Line too long (often needed)
+]
+
+[tool.ruff.format]
+quote-style = "double"

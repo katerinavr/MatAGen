@@ -1,0 +1,1238 @@
+{
+   "page_1_img_1.png": {
+      "title": "Materials in Organic Electrochemical Transistors for Bioelectronic Applications: Past, Present, and Future",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT_review\\OECT_review",
+      "image_url": [],
+      "figure_name": "page_1_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_1_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.8593845963478088,
+            "height": 326,
+            "width": 1092,
+            "geometry": [
+               {
+                  "x": 72,
+                  "y": 1007
+               },
+               {
+                  "x": 1164,
+                  "y": 1007
+               },
+               {
+                  "x": 72,
+                  "y": 1333
+               },
+               {
+                  "x": 1164,
+                  "y": 1333
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 72,
+                     "y": 1007
+                  },
+                  {
+                     "x": 1164,
+                     "y": 1007
+                  },
+                  {
+                     "x": 72,
+                     "y": 1333
+                  },
+                  {
+                     "x": 1164,
+                     "y": 1333
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.6716529130935669,
+            "height": 261,
+            "width": 1182,
+            "geometry": [
+               {
+                  "x": 14,
+                  "y": 1370
+               },
+               {
+                  "x": 1196,
+                  "y": 1370
+               },
+               {
+                  "x": 14,
+                  "y": 1631
+               },
+               {
+                  "x": 1196,
+                  "y": 1631
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 14,
+                     "y": 1370
+                  },
+                  {
+                     "x": 1196,
+                     "y": 1370
+                  },
+                  {
+                     "x": 14,
+                     "y": 1631
+                  },
+                  {
+                     "x": 1196,
+                     "y": 1631
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.5455704927444458,
+            "height": 912,
+            "width": 1085,
+            "geometry": [
+               {
+                  "x": 73,
+                  "y": 74
+               },
+               {
+                  "x": 1158,
+                  "y": 74
+               },
+               {
+                  "x": 73,
+                  "y": 986
+               },
+               {
+                  "x": 1158,
+                  "y": 986
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 73,
+                     "y": 74
+                  },
+                  {
+                     "x": 1158,
+                     "y": 74
+                  },
+                  {
+                     "x": 73,
+                     "y": 986
+                  },
+                  {
+                     "x": 1158,
+                     "y": 986
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_2_img_1.png": {
+      "title": "Materials in Organic Electrochemical Transistors for Bioelectronic Applications: Past, Present, and Future",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT_review\\OECT_review",
+      "image_url": [],
+      "figure_name": "page_2_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_2_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.12251568585634232,
+            "height": 44,
+            "width": 223,
+            "geometry": [
+               {
+                  "x": 2,
+                  "y": 0
+               },
+               {
+                  "x": 225,
+                  "y": 0
+               },
+               {
+                  "x": 2,
+                  "y": 44
+               },
+               {
+                  "x": 225,
+                  "y": 44
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 2,
+                     "y": 0
+                  },
+                  {
+                     "x": 225,
+                     "y": 0
+                  },
+                  {
+                     "x": 2,
+                     "y": 44
+                  },
+                  {
+                     "x": 225,
+                     "y": 44
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_3_img_1.png": {
+      "title": "Materials in Organic Electrochemical Transistors for Bioelectronic Applications: Past, Present, and Future",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT_review\\OECT_review",
+      "image_url": [],
+      "figure_name": "page_3_img_1.png",
+      "full_caption": "Figure 1. Total number of citations of publications including the term \u201cbioelectronics\u201d from 1999 to 2017. Data obtained from Web of Science.",
+      "figure_path": "output\\figures\\page_3_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 853,
+            "width": 1000,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1000,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 853
+               },
+               {
+                  "x": 1000,
+                  "y": 853
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1000,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 853
+                  },
+                  {
+                     "x": 1000,
+                     "y": 853
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_3_img_2.png": {
+      "title": "Materials in Organic Electrochemical Transistors for Bioelectronic Applications: Past, Present, and Future",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT_review\\OECT_review",
+      "image_url": [],
+      "figure_name": "page_3_img_2.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_3_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.13871818780899048,
+            "height": 530,
+            "width": 403,
+            "geometry": [
+               {
+                  "x": 9,
+                  "y": 0
+               },
+               {
+                  "x": 412,
+                  "y": 0
+               },
+               {
+                  "x": 9,
+                  "y": 530
+               },
+               {
+                  "x": 412,
+                  "y": 530
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 9,
+                     "y": 0
+                  },
+                  {
+                     "x": 412,
+                     "y": 0
+                  },
+                  {
+                     "x": 9,
+                     "y": 530
+                  },
+                  {
+                     "x": 412,
+                     "y": 530
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_3_img_3.png": {
+      "title": "Materials in Organic Electrochemical Transistors for Bioelectronic Applications: Past, Present, and Future",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT_review\\OECT_review",
+      "image_url": [],
+      "figure_name": "page_3_img_3.png",
+      "full_caption": "Figure 1. Total number of citations of publications including the term \u201cbioelectronics\u201d from 1999 to 2017. Data obtained from Web of Science.",
+      "figure_path": "output\\figures\\page_3_img_3.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 532,
+            "width": 414,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 414,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 532
+               },
+               {
+                  "x": 414,
+                  "y": 532
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 414,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 532
+                  },
+                  {
+                     "x": 414,
+                     "y": 532
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_3_img_4.png": {
+      "title": "Materials in Organic Electrochemical Transistors for Bioelectronic Applications: Past, Present, and Future",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT_review\\OECT_review",
+      "image_url": [],
+      "figure_name": "page_3_img_4.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_3_img_4.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 532,
+            "width": 414,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 414,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 532
+               },
+               {
+                  "x": 414,
+                  "y": 532
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 414,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 532
+                  },
+                  {
+                     "x": 414,
+                     "y": 532
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_4_img_1.png": {
+      "title": "Materials in Organic Electrochemical Transistors for Bioelectronic Applications: Past, Present, and Future",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT_review\\OECT_review",
+      "image_url": [],
+      "figure_name": "page_4_img_1.png",
+      "full_caption": "Figure 2. Device architecture and operating principle for a) a depletion mode OECT based on PEDOT:PSS in its unbiased state, i) with hole flow toward the drain electrode, and ii) reduced hole flow toward the drain electrode upon application of a positive gate voltage; b) an accumulation mode OECT using a p-type channel material i) in its unbiased state, ii) after electrochemically doping the channel by the application of a negative gate voltage, and iii) with hole flow toward the drain electrode upon application of a negative potential at both the drain and gate electrode.",
+      "figure_path": "output\\figures\\page_4_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9420388340950012,
+            "height": 707,
+            "width": 1501,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 765
+               },
+               {
+                  "x": 1501,
+                  "y": 765
+               },
+               {
+                  "x": 0,
+                  "y": 1472
+               },
+               {
+                  "x": 1501,
+                  "y": 1472
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 765
+                  },
+                  {
+                     "x": 1501,
+                     "y": 765
+                  },
+                  {
+                     "x": 0,
+                     "y": 1472
+                  },
+                  {
+                     "x": 1501,
+                     "y": 1472
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.886176347732544,
+            "height": 706,
+            "width": 1500,
+            "geometry": [
+               {
+                  "x": 1,
+                  "y": 0
+               },
+               {
+                  "x": 1501,
+                  "y": 0
+               },
+               {
+                  "x": 1,
+                  "y": 706
+               },
+               {
+                  "x": 1501,
+                  "y": 706
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 0
+                  },
+                  {
+                     "x": 1501,
+                     "y": 0
+                  },
+                  {
+                     "x": 1,
+                     "y": 706
+                  },
+                  {
+                     "x": 1501,
+                     "y": 706
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_5_img_1.png": {
+      "title": "Materials in Organic Electrochemical Transistors for Bioelectronic Applications: Past, Present, and Future",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT_review\\OECT_review",
+      "image_url": [],
+      "figure_name": "page_5_img_1.png",
+      "full_caption": "Figure 3. a) Spectroelectrochemistry of electropolymerized PEDOT on ITO glass in an organic electrolyte upon the application of a voltage from \u22121.0 V to +1.0 V in 0.1 V increments and b) mechanistic explanation of the electrochemical doping/dedoping process.",
+      "figure_path": "output\\figures\\page_5_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.7539684176445007,
+            "height": 744,
+            "width": 800,
+            "geometry": [
+               {
+                  "x": 949,
+                  "y": 1
+               },
+               {
+                  "x": 1749,
+                  "y": 1
+               },
+               {
+                  "x": 949,
+                  "y": 745
+               },
+               {
+                  "x": 1749,
+                  "y": 745
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 949,
+                     "y": 1
+                  },
+                  {
+                     "x": 1749,
+                     "y": 1
+                  },
+                  {
+                     "x": 949,
+                     "y": 745
+                  },
+                  {
+                     "x": 1749,
+                     "y": 745
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Mechanistic explanation of the electrochemical doping/dedoping process",
+            "keywords": [
+               "Electrochemical",
+               "Doping",
+               "Mechanism"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.5118459463119507,
+            "height": 757,
+            "width": 913,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 2
+               },
+               {
+                  "x": 913,
+                  "y": 2
+               },
+               {
+                  "x": 0,
+                  "y": 759
+               },
+               {
+                  "x": 913,
+                  "y": 759
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 2
+                  },
+                  {
+                     "x": 913,
+                     "y": 2
+                  },
+                  {
+                     "x": 0,
+                     "y": 759
+                  },
+                  {
+                     "x": 913,
+                     "y": 759
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Spectroelectrochemistry of electropolymerized PEDOT on ITO glass in an organic electrolyte upon the application of a voltage from \u22121.0 V to +1.0 V in 0.1 V increments",
+            "keywords": [
+               "Spectroelectrochemistry",
+               "PEDOT",
+               "ITO"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_6_img_1.png": {
+      "title": "Materials in Organic Electrochemical Transistors for Bioelectronic Applications: Past, Present, and Future",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT_review\\OECT_review",
+      "image_url": [],
+      "figure_name": "page_6_img_1.png",
+      "full_caption": "Figure 4. Chemical structures of the various early OECT channel materials.",
+      "figure_path": "output\\figures\\page_6_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.1548587530851364,
+            "height": 357,
+            "width": 589,
+            "geometry": [
+               {
+                  "x": 911,
+                  "y": 0
+               },
+               {
+                  "x": 1500,
+                  "y": 0
+               },
+               {
+                  "x": 911,
+                  "y": 357
+               },
+               {
+                  "x": 1500,
+                  "y": 357
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 911,
+                     "y": 0
+                  },
+                  {
+                     "x": 1500,
+                     "y": 0
+                  },
+                  {
+                     "x": 911,
+                     "y": 357
+                  },
+                  {
+                     "x": 1500,
+                     "y": 357
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_7_img_1.png": {
+      "title": "Materials in Organic Electrochemical Transistors for Bioelectronic Applications: Past, Present, and Future",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT_review\\OECT_review",
+      "image_url": [],
+      "figure_name": "page_7_img_1.png",
+      "full_caption": "Figure 5. Representative chemical structures of PEDOT and various PEDOT derivatives including PEDOT:PSS and alternative polyanions.",
+      "figure_path": "output\\figures\\page_7_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 523,
+            "width": 1501,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1501,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 523
+               },
+               {
+                  "x": 1501,
+                  "y": 523
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1501,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 523
+                  },
+                  {
+                     "x": 1501,
+                     "y": 523
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "a",
+               "description": "Representative chemical structures of PEDOT",
+               "keywords": [
+                  "PEDOT:PSS",
+                  "chemical structure",
+                  "polymer"
+               ]
+            },
+            {
+               "label": "b",
+               "description": "Various PEDOT derivatives including PEDOT:PSS",
+               "keywords": [
+                  "PEDOT derivatives",
+                  "conductivity",
+                  "polymers"
+               ]
+            },
+            {
+               "label": "c",
+               "description": "Alternative polyanions",
+               "keywords": [
+                  "Polyanions",
+                  "Materials",
+                  "Chemistry"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_8_img_1.png": {
+      "title": "Materials in Organic Electrochemical Transistors for Bioelectronic Applications: Past, Present, and Future",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT_review\\OECT_review",
+      "image_url": [],
+      "figure_name": "page_8_img_1.png",
+      "full_caption": "Figure 6. Chemical structures of the various conjugated polyelectrolytes used as OECT channel materials.",
+      "figure_path": "output\\figures\\page_8_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 351,
+            "width": 1501,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1501,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 351
+               },
+               {
+                  "x": 1501,
+                  "y": 351
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1501,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 351
+                  },
+                  {
+                     "x": 1501,
+                     "y": 351
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_9_img_1.png": {
+      "title": "Materials in Organic Electrochemical Transistors for Bioelectronic Applications: Past, Present, and Future",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT_review\\OECT_review",
+      "image_url": [],
+      "figure_name": "page_9_img_1.png",
+      "full_caption": "Figure 7. Chemical structures of the various p-type glycolated semiconducting polymers used as OECT channel materials.",
+      "figure_path": "output\\figures\\page_9_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 738,
+            "width": 1501,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1501,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 738
+               },
+               {
+                  "x": 1501,
+                  "y": 738
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1501,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 738
+                  },
+                  {
+                     "x": 1501,
+                     "y": 738
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_11_img_1.png": {
+      "title": "Materials in Organic Electrochemical Transistors for Bioelectronic Applications: Past, Present, and Future",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT_review\\OECT_review",
+      "image_url": [],
+      "figure_name": "page_11_img_1.png",
+      "full_caption": "Figure 8. Chemical structures of the various n-type semiconducting polymers used as OECT channel materials.",
+      "figure_path": "output\\figures\\page_11_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 557,
+            "width": 1501,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1501,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 557
+               },
+               {
+                  "x": 1501,
+                  "y": 557
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1501,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 557
+                  },
+                  {
+                     "x": 1501,
+                     "y": 557
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_12_img_1.png": {
+      "title": "Materials in Organic Electrochemical Transistors for Bioelectronic Applications: Past, Present, and Future",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT_review\\OECT_review",
+      "image_url": [],
+      "figure_name": "page_12_img_1.png",
+      "full_caption": "Figure 9. Ionization potentials and onset of oxidation of various p-type OECT channel materials. The gray shaded region indicates the onset of water oxidation at 25 \u00b0C and pH = 7, relative to a Ag/AgCl reference electrode. All ionization potentials are given relative to vacuum and potentials relative to a Ag/AgCl reference electrode based on a potential of 4.67 eV relative to vacuum; exact values against Fc/Fc+ may vary slightly. The onset of oxidation for the p-type OECT channel materials have been measured employing water as the solvent and NaCl/H2O as the electrolyte.",
+      "figure_path": "output\\figures\\page_12_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.2554592192173004,
+            "height": 863,
+            "width": 1273,
+            "geometry": [
+               {
+                  "x": 1,
+                  "y": 0
+               },
+               {
+                  "x": 1274,
+                  "y": 0
+               },
+               {
+                  "x": 1,
+                  "y": 863
+               },
+               {
+                  "x": 1274,
+                  "y": 863
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 0
+                  },
+                  {
+                     "x": 1274,
+                     "y": 0
+                  },
+                  {
+                     "x": 1,
+                     "y": 863
+                  },
+                  {
+                     "x": 1274,
+                     "y": 863
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   }
+}

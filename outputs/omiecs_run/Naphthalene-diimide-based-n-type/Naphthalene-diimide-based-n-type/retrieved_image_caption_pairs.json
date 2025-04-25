@@ -1,0 +1,174 @@
+{
+  "records": [
+    {
+      "full_caption": "Fig. 1 Scanning electron microscopy (SEM) images of gNDI-Br2 thin films with different concentrations. (a) 5 mg mL−1, (b) 20 mg mL−1, (c) 50 mg mL−1, (d) 100 mg mL−1.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type\\images_folder\\page_4_img_2_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type"
+    },
+    {
+      "full_caption": "Fig. 1 Scanning electron microscopy (SEM) images of gNDI-Br2 thin films with different concentrations. (a) 5 mg mL−1, (b) 20 mg mL−1, (c) 50 mg mL−1, (d) 100 mg mL−1.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type\\images_folder\\page_4_img_2_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type"
+    },
+    {
+      "full_caption": "Fig. 1 Scanning electron microscopy (SEM) images of gNDI-Br2 thin films with different concentrations. (a) 5 mg mL−1, (b) 20 mg mL−1, (c) 50 mg mL−1, (d) 100 mg mL−1.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type\\images_folder\\page_4_img_2_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type"
+    },
+    {
+      "full_caption": "Fig. 2 (a) Illustration of gNDI-Br2 crystal structure (b) GIWAXS patterns of the gNDI-Br2 thin film. (c) Line cuts of out-of-plane qz direction, and (d) in-plane qr of gNDI-Br2.",
+      "caption": "Line cuts of out-of-plane qz direction",
+      "caption_summary": [
+        "X-ray diffraction"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type\\images_folder\\page_5_img_2_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type"
+    },
+    {
+      "full_caption": "Fig. 2 (a) Illustration of gNDI-Br2 crystal structure (b) GIWAXS patterns of the gNDI-Br2 thin film. (c) Line cuts of out-of-plane qz direction, and (d) in-plane qr of gNDI-Br2.",
+      "caption": "GIWAXS patterns of the gNDI-Br2 thin film",
+      "caption_summary": [
+        "GIWAXS",
+        "thin film",
+        "gNDI-Br2"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type\\images_folder\\page_5_img_2_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type"
+    },
+    {
+      "full_caption": "Fig. 2 (a) Illustration of gNDI-Br2 crystal structure (b) GIWAXS patterns of the gNDI-Br2 thin film. (c) Line cuts of out-of-plane qz direction, and (d) in-plane qr of gNDI-Br2.",
+      "caption": "Line cuts of in-plane qr of gNDI-Br2",
+      "caption_summary": [
+        "Line cuts",
+        "in-plane",
+        "gNDI-Br2"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type\\images_folder\\page_5_img_2_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type"
+    },
+    {
+      "full_caption": "Fig. 2 (a) Illustration of gNDI-Br2 crystal structure (b) GIWAXS patterns of the gNDI-Br2 thin film. (c) Line cuts of out-of-plane qz direction, and (d) in-plane qr of gNDI-Br2.",
+      "caption": "Illustration of gNDI-Br2 crystal structure",
+      "caption_summary": [
+        "Crystal structure",
+        "gNDI-Br2"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type\\images_folder\\page_5_img_2_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type"
+    },
+    {
+      "full_caption": "Fig. 3 (a) Solution cyclic voltammetry of gNDI-Br2 in acetonitrile. (b) Ultra-violet photoelectron spectroscopy of gNDI-Br2 thin film. (c) UV–vis spectrum of the thin-film gNDI-Br2. (d) Spectroelectrochemical measurement of the gNDI-Br2.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type\\images_folder\\page_6_img_2_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type"
+    },
+    {
+      "full_caption": "Fig. 3 (a) Solution cyclic voltammetry of gNDI-Br2 in acetonitrile. (b) Ultra-violet photoelectron spectroscopy of gNDI-Br2 thin film. (c) UV–vis spectrum of the thin-film gNDI-Br2. (d) Spectroelectrochemical measurement of the gNDI-Br2.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type\\images_folder\\page_6_img_2_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type"
+    },
+    {
+      "full_caption": "Fig. 3 (a) Solution cyclic voltammetry of gNDI-Br2 in acetonitrile. (b) Ultra-violet photoelectron spectroscopy of gNDI-Br2 thin film. (c) UV–vis spectrum of the thin-film gNDI-Br2. (d) Spectroelectrochemical measurement of the gNDI-Br2.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type\\images_folder\\page_6_img_2_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type"
+    },
+    {
+      "full_caption": "Fig. 3 (a) Solution cyclic voltammetry of gNDI-Br2 in acetonitrile. (b) Ultra-violet photoelectron spectroscopy of gNDI-Br2 thin film. (c) UV–vis spectrum of the thin-film gNDI-Br2. (d) Spectroelectrochemical measurement of the gNDI-Br2.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type\\images_folder\\page_6_img_2_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type"
+    },
+    {
+      "full_caption": "Fig. 4 (a) Impedance and (b) phase angle Bode plot of gNDI-Br2 from the electrochemical impedance spectroscopy.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type\\images_folder\\page_7_img_2_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type"
+    },
+    {
+      "full_caption": "Fig. 4 (a) Impedance and (b) phase angle Bode plot of gNDI-Br2 from the electrochemical impedance spectroscopy.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type\\images_folder\\page_7_img_2_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type"
+    },
+    {
+      "full_caption": "Fig. 5 (a) The chemical structure of gNDI-Br2 and its electrochemical reduction reaction scheme with metal ions. (b) Microscopic image of a 50 mg mL−1 gNDI-Br2-based OECT with channel width (W) of 1081 μm, length (L) of 10 μm, and thickness (d) of 1.3 μm. (c), (d) Output characteristics of the n-type gNDI-Br2 (50 mg mL−1) OECT measured with 100 mM NaCl electrolyte and Ag/AgCl gate electrode and transfer and transconductance curve at VD = 0.8 V. (e), (f) Output characteristics of the n-type gNDI-Br2 (100 mg mL−1) OECT measured with 100 mM NaCl electrolyte and Ag/AgCl gate electrode and transfer and transconductance curve at VD = 0.8 V.",
+      "caption": "Output characteristics of the n-type gNDI-Br2 (50 mg mL−1) OECT measured with 100 mM NaCl electrolyte and Ag/AgCl gate electrode and transfer and transconductance curve at VD = 0.8 V.",
+      "caption_summary": [
+        "n-type OECT",
+        "NaCl electrolyte",
+        "Ag/AgCl electrode"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type\\images_folder\\page_8_img_2_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type"
+    },
+    {
+      "full_caption": "Fig. 5 (a) The chemical structure of gNDI-Br2 and its electrochemical reduction reaction scheme with metal ions. (b) Microscopic image of a 50 mg mL−1 gNDI-Br2-based OECT with channel width (W) of 1081 μm, length (L) of 10 μm, and thickness (d) of 1.3 μm. (c), (d) Output characteristics of the n-type gNDI-Br2 (50 mg mL−1) OECT measured with 100 mM NaCl electrolyte and Ag/AgCl gate electrode and transfer and transconductance curve at VD = 0.8 V. (e), (f) Output characteristics of the n-type gNDI-Br2 (100 mg mL−1) OECT measured with 100 mM NaCl electrolyte and Ag/AgCl gate electrode and transfer and transconductance curve at VD = 0.8 V.",
+      "caption": "Output characteristics of the n-type gNDI-Br2 (50 mg mL−1) OECT measured with 100 mM NaCl electrolyte and Ag/AgCl gate electrode and transfer and transconductance curve at VD = 0.8 V.",
+      "caption_summary": [
+        "OECT",
+        "electrolyte",
+        "transconductance"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type\\images_folder\\page_8_img_2_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type"
+    },
+    {
+      "full_caption": "Fig. 5 (a) The chemical structure of gNDI-Br2 and its electrochemical reduction reaction scheme with metal ions. (b) Microscopic image of a 50 mg mL−1 gNDI-Br2-based OECT with channel width (W) of 1081 μm, length (L) of 10 μm, and thickness (d) of 1.3 μm. (c), (d) Output characteristics of the n-type gNDI-Br2 (50 mg mL−1) OECT measured with 100 mM NaCl electrolyte and Ag/AgCl gate electrode and transfer and transconductance curve at VD = 0.8 V. (e), (f) Output characteristics of the n-type gNDI-Br2 (100 mg mL−1) OECT measured with 100 mM NaCl electrolyte and Ag/AgCl gate electrode and transfer and transconductance curve at VD = 0.8 V.",
+      "caption": "Output characteristics of the n-type gNDI-Br2 (100 mg mL−1) OECT measured with 100 mM NaCl electrolyte and Ag/AgCl gate electrode and transfer and transconductance curve at VD = 0.8 V.",
+      "caption_summary": [
+        "n-type OECT",
+        "NaCl electrolyte",
+        "Ag/AgCl electrode"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type\\images_folder\\page_8_img_2_f.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type"
+    },
+    {
+      "full_caption": "Fig. 5 (a) The chemical structure of gNDI-Br2 and its electrochemical reduction reaction scheme with metal ions. (b) Microscopic image of a 50 mg mL−1 gNDI-Br2-based OECT with channel width (W) of 1081 μm, length (L) of 10 μm, and thickness (d) of 1.3 μm. (c), (d) Output characteristics of the n-type gNDI-Br2 (50 mg mL−1) OECT measured with 100 mM NaCl electrolyte and Ag/AgCl gate electrode and transfer and transconductance curve at VD = 0.8 V. (e), (f) Output characteristics of the n-type gNDI-Br2 (100 mg mL−1) OECT measured with 100 mM NaCl electrolyte and Ag/AgCl gate electrode and transfer and transconductance curve at VD = 0.8 V.",
+      "caption": "Output characteristics of the n-type gNDI-Br2 (100 mg mL−1) OECT measured with 100 mM NaCl electrolyte and Ag/AgCl gate electrode and transfer and transconductance curve at VD = 0.8 V.",
+      "caption_summary": [
+        "n-type OECT",
+        "NaCl electrolyte",
+        "Ag/AgCl gate"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type\\images_folder\\page_8_img_2_e.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type"
+    },
+    {
+      "full_caption": "Fig. 5 (a) The chemical structure of gNDI-Br2 and its electrochemical reduction reaction scheme with metal ions. (b) Microscopic image of a 50 mg mL−1 gNDI-Br2-based OECT with channel width (W) of 1081 μm, length (L) of 10 μm, and thickness (d) of 1.3 μm. (c), (d) Output characteristics of the n-type gNDI-Br2 (50 mg mL−1) OECT measured with 100 mM NaCl electrolyte and Ag/AgCl gate electrode and transfer and transconductance curve at VD = 0.8 V. (e), (f) Output characteristics of the n-type gNDI-Br2 (100 mg mL−1) OECT measured with 100 mM NaCl electrolyte and Ag/AgCl gate electrode and transfer and transconductance curve at VD = 0.8 V.",
+      "caption": "Microscopic image of a 50 mg mL−1 gNDI-Br2-based OECT with channel width (W) of 1081 μm, length (L) of 10 μm, and thickness (d) of 1.3 μm.",
+      "caption_summary": [
+        "Microscopic image",
+        "OECT",
+        "gNDI-Br2"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type\\images_folder\\page_8_img_2_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type"
+    },
+    {
+      "full_caption": "Fig. 5 (a) The chemical structure of gNDI-Br2 and its electrochemical reduction reaction scheme with metal ions. (b) Microscopic image of a 50 mg mL−1 gNDI-Br2-based OECT with channel width (W) of 1081 μm, length (L) of 10 μm, and thickness (d) of 1.3 μm. (c), (d) Output characteristics of the n-type gNDI-Br2 (50 mg mL−1) OECT measured with 100 mM NaCl electrolyte and Ag/AgCl gate electrode and transfer and transconductance curve at VD = 0.8 V. (e), (f) Output characteristics of the n-type gNDI-Br2 (100 mg mL−1) OECT measured with 100 mM NaCl electrolyte and Ag/AgCl gate electrode and transfer and transconductance curve at VD = 0.8 V.",
+      "caption": "The chemical structure of gNDI-Br2 and its electrochemical reduction reaction scheme with metal ions.",
+      "caption_summary": [
+        "Chemical structure",
+        "Electrochemical reduction",
+        "Metal ions"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type\\images_folder\\page_8_img_2_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Naphthalene-diimide-based-n-type\\Naphthalene-diimide-based-n-type"
+    }
+  ]
+}

@@ -1,6 +1,11 @@
 # folders
 tmp_folder
 test_folder
+custom_tools/external_tools/exsclaim/exsclaim/figures/checkpoints
+backup
+checkpoints
+src/matagen/exsclaim
+src/matagen/custom_tools_drop
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

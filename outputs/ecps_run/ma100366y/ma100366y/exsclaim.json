@@ -1,0 +1,739 @@
+{
+   "page_2_img_1.png": {
+      "title": "acs_ma_ma-2010-00366y 1..8",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_ma100366y\\ma100366y",
+      "image_url": [],
+      "figure_name": "page_2_img_1.png",
+      "full_caption": "Figure 1. CIE 1976 LAB color plot with the a*b* values for recently published solution processable conjugated polymers reported by our group. The polymers represented here were chosen such that their oxidized, transmissive state have a*b* values less than \u00b15, indicating a near colorless oxidized state. L*a*b* values are reported in the literature for ECP-purple, ECP-black, ECP-blue, ECP-turquoise, and ECP-green.",
+      "figure_path": "output\\figures\\page_2_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.1056932732462883,
+            "height": 884,
+            "width": 1197,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1197,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 884
+               },
+               {
+                  "x": 1197,
+                  "y": 884
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1197,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 884
+                  },
+                  {
+                     "x": 1197,
+                     "y": 884
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_4_img_1.png": {
+      "title": "acs_ma_ma-2010-00366y 1..8",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_ma100366y\\ma100366y",
+      "image_url": [],
+      "figure_name": "page_4_img_1.png",
+      "full_caption": "Figure 3. Photographs of films of ECP-red and ECP-orange in either a neutralized or fully oxidized state. The far left column is of ECP-orange of increasing optical density proceeding down the column (0.59, 0.98, and 1.2 au). The second column is of the same polymer films in the fully oxidized state. The third column is of the fully oxidized state of films of ECP-red (increasing optical density down the column, 0.30, 0.98, and 1.6 au) and the far right column is of the neutralized ECP-red films. The polymers were spray-cast onto ITO/glass (7 \u00d7 50 mm2) and switched in 0.2 M LiBTI/PC while illuminated from behind with a D50 light source.",
+      "figure_path": "output\\figures\\page_4_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.41919639706611633,
+            "height": 280,
+            "width": 164,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 164,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 280
+               },
+               {
+                  "x": 164,
+                  "y": 280
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 164,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 280
+                  },
+                  {
+                     "x": 164,
+                     "y": 280
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.15210264921188354,
+            "height": 284,
+            "width": 163,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 163,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 284
+               },
+               {
+                  "x": 163,
+                  "y": 284
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 163,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 284
+                  },
+                  {
+                     "x": 163,
+                     "y": 284
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": [
+            {
+               "label": {
+                  "geometry": [
+                     {
+                        "x": 615,
+                        "y": 295
+                     },
+                     {
+                        "x": 615,
+                        "y": 317
+                     },
+                     {
+                        "x": 695,
+                        "y": 317
+                     },
+                     {
+                        "x": 695,
+                        "y": 295
+                     }
+                  ],
+                  "text": "20.0 um",
+                  "label_confidence": 0.018193909898400307,
+                  "box_confidence": 0.9802567362785339,
+                  "nm": 20000.0
+               },
+               "geometry": [
+                  {
+                     "x": 590,
+                     "y": 280
+                  },
+                  {
+                     "x": 590,
+                     "y": 287
+                  },
+                  {
+                     "x": 708,
+                     "y": 287
+                  },
+                  {
+                     "x": 708,
+                     "y": 280
+                  }
+               ],
+               "confidence": 0.9172528982162476,
+               "length": 117,
+               "label_line_distance": 542.25
+            }
+         ]
+      },
+      "caption_delimiter": 0
+   },
+   "page_5_img_1.png": {
+      "title": "acs_ma_ma-2010-00366y 1..8",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_ma100366y\\ma100366y",
+      "image_url": [],
+      "figure_name": "page_5_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_5_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 609,
+            "width": 1528,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1528,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 609
+               },
+               {
+                  "x": 1528,
+                  "y": 609
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1528,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 609
+                  },
+                  {
+                     "x": 1528,
+                     "y": 609
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_5_img_2.png": {
+      "title": "acs_ma_ma-2010-00366y 1..8",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_ma100366y\\ma100366y",
+      "image_url": [],
+      "figure_name": "page_5_img_2.png",
+      "full_caption": "Figure 4. Spectroelectrochemistry of spray-cast films of (A) ECP-orange at the potentials of \u22120.23, 0.37, 0.38, 0.39, 0.40, 0.41, 0.42, 0.43, 0.44, 0.45, 0.46, 0.47, 0.49, 0.51, 0.53, 0.55, and 0.57 V versus Ag/Ag+ and (B) ECP-red at the potentials of \u22120.72, \u22120.22, \u22120.02, 0.03, 0.08, 0.10, 0.12, 0.14, 0.16, 0.18, 0.20, 0.22, 0.24, 0.26, 0.28, 0.30, 0.32, 0.34, and 0.36 V versus Ag/Ag+. Measurements were performed in 0.2 M LiBTI/PC of films spray-cast onto ITO/glass electrodes. The arrow shows the direction of increasing potential.",
+      "figure_path": "output\\figures\\page_5_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 785,
+            "width": 2089,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 2089,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 785
+               },
+               {
+                  "x": 2089,
+                  "y": 785
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 2089,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 785
+                  },
+                  {
+                     "x": 2089,
+                     "y": 785
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "A",
+               "description": "ECP-orange at the potentials of \u22120.23, 0.37, 0.38, 0.39, 0.40, 0.41, 0.42, 0.43, 0.44, 0.45, 0.46, 0.47, 0.49, 0.51, 0.53, 0.55, and 0.57 V versus Ag/Ag+",
+               "keywords": [
+                  "Electrochemistry",
+                  "Potentials",
+                  "Ag/Ag+"
+               ]
+            },
+            {
+               "label": "B",
+               "description": "ECP-red at the potentials of \u22120.72, \u22120.22, \u22120.02, 0.03, 0.08, 0.10, 0.12, 0.14, 0.16, 0.18, 0.20, 0.22, 0.24, 0.26, 0.28, 0.30, 0.32, 0.34, and 0.36 V versus Ag/Ag+",
+               "keywords": [
+                  "Electrochemistry",
+                  "Potentials",
+                  "Ag/Ag+"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_6_img_1.png": {
+      "title": "acs_ma_ma-2010-00366y 1..8",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_ma100366y\\ma100366y",
+      "image_url": [],
+      "figure_name": "page_6_img_1.png",
+      "full_caption": "Figure 6. CIE 1976 a*b* values at increasing applied potentials for films of varying optical density of (A) ECP-orange at the potentials of \u22120.77, \u22120.27, \u22120.02, 0.03, 0.08, 0.13, 0.15, 0.17, 0.19, 0.21, 0.23, 0.25, 0.27, 0.29, 0.31, 0.33, 0.35, 0.37, 0.39, 0.41, 0.43, 0.45, 0.47, 0.49, 0.51, and 0.53 V versus Ag/Ag+ (film A = 0.59 au, film B = 0.98 au, and film C = 1.22 au) and (B) ECP-red at the potentials of \u22120.79, \u22120.29, \u22120.19, \u22120.14, \u22120.09, \u22120.07, \u22120.05, \u22120.03, \u22120.01, 0.01, 0.03, 0.05, 0.07, 0.09, 0.11, 0.13, 0.15, 0.17, 0.19, 0.21, 0.23, 0.25, 0.27, 0.29, and 0.31 V versus Ag/Ag+ (film A = 0.33 au, film B = 0.98 au, and film C = 1.6 au). Measurements were performed in 0.2 M LiBTI/PC of films spray-cast onto ITO/glass electrodes. The arrow shows the direction of increasing potential.",
+      "figure_path": "output\\figures\\page_6_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.5973050594329834,
+            "height": 533,
+            "width": 727,
+            "geometry": [
+               {
+                  "x": 750,
+                  "y": 0
+               },
+               {
+                  "x": 1477,
+                  "y": 0
+               },
+               {
+                  "x": 750,
+                  "y": 533
+               },
+               {
+                  "x": 1477,
+                  "y": 533
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 750,
+                     "y": 0
+                  },
+                  {
+                     "x": 1477,
+                     "y": 0
+                  },
+                  {
+                     "x": 750,
+                     "y": 533
+                  },
+                  {
+                     "x": 1477,
+                     "y": 533
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "ECP-orange at the potentials of \u22120.77, \u22120.27, \u22120.02, 0.03, 0.08, 0.13, 0.15, 0.17, 0.19, 0.21, 0.23, 0.25, 0.27, 0.29, 0.31, 0.33, 0.35, 0.37, 0.39, 0.41, 0.43, 0.45, 0.47, 0.49, 0.51, and 0.53 V versus Ag/Ag+ (film A = 0.59 au, film B = 0.98 au, and film C = 1.22 au)",
+            "keywords": [
+               "Electrochemistry",
+               "Potentials",
+               "Film"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "B",
+               "description": "ECP-red at the potentials of \u22120.79, \u22120.29, \u22120.19, \u22120.14, \u22120.09, \u22120.07, \u22120.05, \u22120.03, \u22120.01, 0.01, 0.03, 0.05, 0.07, 0.09, 0.11, 0.13, 0.15, 0.17, 0.19, 0.21, 0.23, 0.25, 0.27, 0.29, and 0.31 V versus Ag/Ag+ (film A = 0.33 au, film B = 0.98 au, and film C = 1.6 au)",
+               "keywords": [
+                  "Electrochemistry",
+                  "Potentials",
+                  "Films"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_7_img_1.png": {
+      "title": "acs_ma_ma-2010-00366y 1..8",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_ma100366y\\ma100366y",
+      "image_url": [],
+      "figure_name": "page_7_img_1.png",
+      "full_caption": "Figure 8. Color wheel of films sequentially spray-cast through a shadow mask of (clockwise from bottom right) ECP-red in this manuscript, ECP-orange in this manuscript, ECP-green described in ref 31, ECP-turquoise described in ref 31, ECP-blue described in ref 34, ECP-purple described in ref 27, and ECP-black at the center described in ref 35.",
+      "figure_path": "output\\figures\\page_7_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.22987374663352966,
+            "height": 289,
+            "width": 433,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 433,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 289
+               },
+               {
+                  "x": 433,
+                  "y": 289
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 433,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 289
+                  },
+                  {
+                     "x": 433,
+                     "y": 289
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_7_img_2.png": {
+      "title": "acs_ma_ma-2010-00366y 1..8",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_ma100366y\\ma100366y",
+      "image_url": [],
+      "figure_name": "page_7_img_2.png",
+      "full_caption": "Figure 7. Relative percent luminance as a function of increasing applied potential for (A) ECP-orange (film A = 0.59 au, film B = 0.98 au, film C = 1.2 au) and (B) ECP-red (film A = 0.30 au, film B = 0.98 au, film C = 1.6 au) of spray-cast films on ITO/glass. Measurements were performed in 0.2 M LiBTI/PC.",
+      "figure_path": "output\\figures\\page_7_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.11976782232522964,
+            "height": 683,
+            "width": 811,
+            "geometry": [
+               {
+                  "x": 1,
+                  "y": 0
+               },
+               {
+                  "x": 812,
+                  "y": 0
+               },
+               {
+                  "x": 1,
+                  "y": 683
+               },
+               {
+                  "x": 812,
+                  "y": 683
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 0
+                  },
+                  {
+                     "x": 812,
+                     "y": 0
+                  },
+                  {
+                     "x": 1,
+                     "y": 683
+                  },
+                  {
+                     "x": 812,
+                     "y": 683
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "ECP-orange (film A = 0.59 au, film B = 0.98 au, film C = 1.2 au)",
+            "keywords": [
+               "ECP",
+               "film",
+               "absorbance"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.11948470026254654,
+            "height": 684,
+            "width": 809,
+            "geometry": [
+               {
+                  "x": 837,
+                  "y": 0
+               },
+               {
+                  "x": 1646,
+                  "y": 0
+               },
+               {
+                  "x": 837,
+                  "y": 684
+               },
+               {
+                  "x": 1646,
+                  "y": 684
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 837,
+                     "y": 0
+                  },
+                  {
+                     "x": 1646,
+                     "y": 0
+                  },
+                  {
+                     "x": 837,
+                     "y": 684
+                  },
+                  {
+                     "x": 1646,
+                     "y": 684
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "ECP-red (film A = 0.30 au, film B = 0.98 au, film C = 1.6 au) of spray-cast films on ITO/glass. Measurements were performed in 0.2 M LiBTI/PC.",
+            "keywords": [
+               "Spray-cast",
+               "ITO/glass",
+               "LiBTI/PC"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.11109595000743866,
+            "height": 683,
+            "width": 809,
+            "geometry": [
+               {
+                  "x": 837,
+                  "y": 0
+               },
+               {
+                  "x": 1646,
+                  "y": 0
+               },
+               {
+                  "x": 837,
+                  "y": 683
+               },
+               {
+                  "x": 1646,
+                  "y": 683
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 837,
+                     "y": 0
+                  },
+                  {
+                     "x": 1646,
+                     "y": 0
+                  },
+                  {
+                     "x": 837,
+                     "y": 683
+                  },
+                  {
+                     "x": 1646,
+                     "y": 683
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   }
+}

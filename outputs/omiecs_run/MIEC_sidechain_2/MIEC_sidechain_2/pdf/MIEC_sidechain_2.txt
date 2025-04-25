@@ -1,0 +1,1417 @@
+Complex Relationship between Side-Chain Polarity, Conductivity,
+and Thermal Stability in Molecularly Doped Conjugated Polymers
+Ban Xuan Dong, Christian Nowak, Jonathan W. Onorato, Tengzhou Ma, Jens Niklas, Oleg G. Poluektov,
+Garrett Grocke, Mark F. DiTusa, Fernando A. Escobedo, Christine K. Luscombe, Paul F. Nealey,
+and Shrayesh N. Patel*
+Cite This: Chem. Mater. 2021, 33, 741−753
+Read Online
+ACCESS
+Metrics & More
+Article Recommendations
+*
+sı
+Supporting Information
+ABSTRACT: Molecularly doped conjugated polymers with polar side chains are
+an emerging class of conducting materials exhibiting enhanced and thermally stable
+conductivity. Here, we study the electronic conductivity (σ) and the corresponding
+thermal stability of two polythiophene derivatives comprising oligoethylene glycol
+side chains: one having oxygen attached to the thiophene ring (poly(3-
+(methoxyethoxyethoxy)thiophene) (P3MEET)) and the other having a methylene
+spacer
+between
+the
+oxygen
+and
+the
+thiophene
+ring
+(poly(3-
+(methoxyethoxyethoxymethyl)thiophene) (P3MEEMT)). Thin ﬁlms were
+vapor-doped with ﬂuorinated derivatives of tetracyanoquinodimethane (FnTCNQ,
+n = 4, 2, 1) to determine the role of dopant strength (electron aﬃnity) in
+maximum achievable σ. Speciﬁcally, when vapor doping with F4TCNQ, P3MEET achieved a substantially higher σ of 37.1 ± 10.1 S/
+cm compared to a σ of 0.82 ± 0.06 S/cm for P3MEEMT. Structural characterization using a combination of X-ray and optical
+spectroscopy reveals that the higher degree of conformational order of polymer chains in the amorphous domain upon doping with
+F4TCNQ in P3MEET is a major contributing factor for the higher σ of P3MEET. Additionally, vapor-doped P3MEET exhibited
+superior thermal stability compared to P3MEEMT, highlighting that the presence of polar side chains alone does not ensure higher
+thermal stability. Molecular dynamics simulations indicate that the dopant−side-chain nonbond energy is lower in the
+P3MEET:F4TCNQ mixture, suggesting more favorable dopant−side-chain interaction, which is a factor in improving the thermal
+stability of a polymer/dopant pair. Our results reveal that additional factors such as polymer ionization energy and side-chain−
+dopant interaction should be taken into account for the design of thermally stable, highly conductive polymers.
+1. INTRODUCTION
+Conjugated polymers (CPs) have long played a vital role in
+advancing the organic electronics ﬁeld owing to their solution
+processability, mechanical ﬂexibility, and the tunability of their
+optical and electrical properties via facile molecular design/
+synthesis strategies.1−6 In many applications such as organic
+ﬁeld-eﬀect transistors (OFETs) or organic photovoltaics
+(OPVs), doping CPs with molecular dopants has been
+increasingly explored to ﬁll traps, improve charge injection,
+and improve carrier mobility, which in total improves device
+performance.7−11 For organic thermoelectrics, doping is of
+particular importance since the physical properties of a
+thermoelectric material such as electronic conductivity,
+Seebeck coeﬃcient, and thermal conductivity strongly depend
+on carrier concentration.12−14 As such, it is critical to explore
+strategies that can improve both the doping eﬃciency and
+electrical performance for the long-term viability of organic
+electronic and organic thermoelectric applications.
+Doping CPs is usually performed via the addition of
+molecular dopants to either oxidize (p-type doping) or reduce
+(n-type doping) the conjugated backbone. One of the most
+common strategies to improve electronic conductivity (σ) is
+through the doping method. Sequential doping methods in
+which prefabricated polymer thin ﬁlms are exposed to the
+dopant in the vapor or solution phase15−21 have been shown to
+give superior σ compared to the solution coprocessing
+method22,23 in which the samples are cast from mixed
+polymer/dopant solutions. The enhanced performance in
+samples doped by sequential methods is largely due to the
+preservation of the underlying structure of the CPs, whereas in
+the solution coprocessing method, the aggregation of the
+doped polymers in solution before casting generally results in
+ﬁlms with poor quality and low σ. For example, sequential
+doping of CPs such as poly(3-hexylthiophene) (P3HT)17,19 or
+poly[2,5-bis(3-tetradecylthiophen-2-yl)thieno[3,2-b]-
+thiophene] (PBTTT)24,25 with a small molecule acceptor
+2,3,5,6-tetraﬂuoro-7,7,8,8-tetracyanoquinodimethane
+Received:
+October 27, 2020
+Revised:
+December 16, 2020
+Published: January 6, 2021
+Article
+pubs.acs.org/cm
+© 2021 American Chemical Society
+741
+https://dx.doi.org/10.1021/acs.chemmater.0c04153
+Chem. Mater. 2021, 33, 741−753
+Downloaded via UNIV OF CHICAGO on June 30, 2021 at 23:48:59 (UTC).
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+(F4TCNQ) can result in values of σ several orders of
+magnitude higher than the solution coprocessing method. In
+addition to changing the doping method, σ can be enhanced
+by processing ﬁlms with a high degree of crystallinity,20,26
+controlling crystallite orientation,27 or using polymers with
+intrinsically higher carrier mobility.24,28,29 Recently, using a
+combination of the sequential doping method and crystallite
+orientation control, Brinkmann and co-workers achieved a σ of
+2 × 105 S/cm in aligned PBTTT, a record conductivity for
+modern solution-processable semiconducting polymers.30
+While considerable eﬀorts have been made to signiﬁcantly
+improve the σ of molecularly doped CPs, a certain drawback is
+their thermally unstable conductivity. It has been reported that
+F4TCNQ-doped organic semiconductors are thermally un-
+stable, and σ signiﬁcantly decreases when the samples are
+heated above 90 °C through the sublimation-mediated loss of
+F4TCNQ either in an inert or ambient air environment.31,32
+Therefore, to enable the use of molecularly doped CPs in
+applications operating at elevated temperatures, as is the case
+for thermoelectrics, eﬀorts must also be devoted to circum-
+venting the thermal stability issue of the polymer and dopant
+pair. To date, a handful of reports directly addressing the
+thermal stability issues of doped CPs have been published. Li
+et al. showed that by encapsulating doped samples, the
+sublimation of F4TCNQ can be signiﬁcantly suppressed even
+upon heating to 100 °C.33 Yamashita et al. exchanged the
+F4TCNQ−anion in F4TCNQ-doped PBTTT with anions
+provided by an ionic liquid solvent and observed a signiﬁcant
+enhancement in σ and thermal stability in the case of exchange
+with hydrophobic closed-shell anions.34 One potentially
+important approach that is being increasingly used is polar
+side-chain engineering. Several reports31,35,36 demonstrated the
+use of polythiophene derivatives bearing oligoethylene glycol
+polar side chains to achieving high conductivity up to 100 S/
+cm upon doping with F4TCNQ and high thermal stability up
+to 150 °C, even in air. While these studies have shown the role
+of polar side chains in improving the thermal stability of
+electronic conductivity for molecularly doped polymers, a
+fundamental question on the nature of the enhancement
+remains: is it simply the presence of side chains with a polar
+character that enhances stability or whether other additional
+factors are in play?
+To explore this question, we synthesize two polythiophene
+derivatives, poly(3-(methoxyethoxyethoxy)thiophene)
+(P3MEET) and poly(3-(methoxyethoxyethoxymethyl)-
+thiophene) (P3MEEMT) (Figure 1a), and measure σ and
+their thermal stability after vapor doping with ﬂuorinated
+derivatives of tetracyanoquinodimethane (FnTCNQ, n = 4, 2,
+1). While both polymers have polar oligoethylene glycol polar
+side chains, the key diﬀerence between them is that the oxygen
+is directly attached to the thiophene rings in P3MEET, while
+its analogue P3MEEMT has a methylene spacer between the
+oxygen and the thiophene ring. In the ﬁrst part of the paper, we
+report on the measured σ of both polymers after vapor doping
+FnTCNQ and the connection between the ionization energy
+(IE) of the polymer and the varying electron aﬃnity (EA) of
+the dopants. Despite possessing almost identical side-chain
+chemistry, P3MEET exhibits room-temperature σ as high as 37
+S/cm upon doping with F4TCNQ vapor, which is ca. 50 times
+higher than those of F4TCNQ-doped P3MEEMT samples. In
+the second part of the paper, we investigate the origin of the
+observed higher electronic conductivity of P3MEET:F4TCNQ
+through a combination of X-ray scattering and molecular
+spectroscopy techniques (UV−vis−near-infrared (NIR), elec-
+tron paramagnetic resonance (EPR), and Raman) comple-
+mented with molecular dynamics (MD) simulations. The
+analysis reveals the role of charge carrier concentration and
+conformational order of the polymers as factors in enhancing
+σ. In the third and ﬁnal part of the paper, we report on the
+thermal stability of σ of vapor-doped thin ﬁlms. P3MEET
+exhibits superior thermal stability with all three dopants
+compared to P3MEEMT despite both containing oligo-
+ethylene glycol polar side chains. This diﬀerence in thermal
+stability highlights that the presence of polar side chains alone
+does not impart stability in electronic conductivity at elevated
+temperatures and thus other factors may be in play.
+2. RESULTS AND DISCUSSION
+2.1. Chemistry and Optical Spectra of P3MEET and
+P3MEEMT. Both P3MEET and P3MEEMT are synthesized
+using Kumada catalyst transfer polymerization (KCTP), as
+shown in the Supporting Information (SI) and detailed in our
+previous publication.37 The molecular weights (Mn) are 9.2
+and 11.2 kg/mol, the dispersity (Đ) values are 1.4 and 1.5, and
+the regioregularity (RR) values are 95 and 94% for P3MEET
+and P3MEEMT, respectively. The similarities between Mn, Đ,
+and RR of both polymers imply that any diﬀerences arising
+from the two polymers will most likely originate from the
+diﬀerence in side-chain chemistry. Thin ﬁlms of ca. 50 nm of
+P3MEET and P3MEEMT were fabricated by spin-casting
+polymer solutions in chloroform and acetonitrile, respectively.
+The absorption spectra of P3MEET and P3MEEMT thin ﬁlms
+are shown in Figure 1b. In the case of P3MEET, having the
+oxygen atom right next to the polythiophene backbone results
+in a marked red shift of the main absorption feature compared
+to P3MEEMT. This shift is due to the electron-donating ability
+of the oxygen atom to the thiophene core, which reduces the
+Figure 1. (a) Chemical structures of P3MEET and P3MEEMT. (b)
+Normalized UV−vis absorption spectra of undoped/neat P3MEET
+and P3MEEMT thin ﬁlms fabricated by the spin-casting method.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://dx.doi.org/10.1021/acs.chemmater.0c04153
+Chem. Mater. 2021, 33, 741−753
+742
+
+ionization energy (IE) and lowers the band gap of P3MEET,
+similar to previous observations in the literature.35,38 Notably,
+we observe the signature of polaron absorption peaks in neat
+P3MEET across several batches that we synthesized, as
+indicated by the red arrows in Figure 1b. The same feature
+is absent in P3MEEMT, even though both polymers were
+synthesized and handled in almost identical ways. The
+appearance of the polaron peak in the neat P3MEET thin
+ﬁlm indicates that P3MEET is “intrinsically” charged. This
+observation most likely originates from the low ionization
+energy of P3MEET, which makes this polymer prone to
+oxidation from ambient air during the synthesis and handling
+processes. This leads to higher “intrinsic” carrier concentration
+and conductivity, as will be discussed in the next section.
+2.2. Electronic Conductivity of Films Vapor Doped
+with Fluorinated Derivatives of TCNQ. Cyclic voltamme-
+try (CV) was used to quantify the approximate ionization
+energies (IEs) of both P3MEEMT and P3MEET thin ﬁlms
+(Figure S2a). The IE of P3MEET is 4.92 eV and the IE of
+P3MEEMT is 5.45 eV. The electronic conductivity (σ) of
+P3MEET and P3MEEMT thin ﬁlms were controlled through
+the addition of ﬂuorinated derivatives of tetracyanoquinodi-
+methane molecular dopant molecules. These include 2,3,5,6-
+tetraﬂuoro-7,7,8,8-tetracyanoquinodimethane (F4TCNQ), 2,5-
+diﬂuoro-7,7,8,8-tetracyanoquinodimethane (F2TCNQ), and 2-
+ﬂuoro-7,7,8,8-tetracyanoquinodimethane (F1TCNQ), where
+the ﬂuorination level controls the electron aﬃnity (EA).
+Solution CV measurements quantiﬁed approximate EA values
+for F4TCNQ, F2TCNQ, and F1TCNQ to be 5.25 eV, 5.1 eV,
+and 5.01 eV, respectively (Figure S2b). Expectedly, the EA
+decreases with decreasing ﬂuorination level.39 The IEs of
+P3MEET and P3MEEMT, together with the chemical
+structures and EAs of the three dopants, are shown in Figure
+2a.
+To introduce molecular dopants into the host polymer, the
+vapor doping method was employed where one ﬁrst casts a
+thin ﬁlm and then inﬁltrates the dopant from the vapor phase,
+as illustrated in Figure 2b. After 20 min of doping, the dopant
+is found to fully penetrate through the ﬁlm thickness for both
+polymers, as demonstrated by the grazing-incidence wide-angle
+X-ray scattering (GIWAXS) depth proﬁle experiments (Figure
+S6). The details of the vapor doping process are provided in
+Section 4. The lateral, in-plane σ of both polymers as a
+function of FnTCNQ (n = 4, 2, and 1) vapor doping time is
+shown in Figure 2c. Upon vapor doping with FnTCNQ, the σ
+of P3MEET and P3MEEMT signiﬁcantly increases and levels
+out at ca. 10 min. The plateau σ of P3MEET is 37.1 ± 10.1,
+24.9 ± 0.8, and 20.1 ± 0.2 S/cm for F4TCNQ, F2TCNQ, and
+F1TCNQ vapor-doped ﬁlms, respectively. While the σ of
+P3MEET slightly increases with the ﬂuorination level of the
+dopant, it is notable that σ is within the same order of
+magnitude. For reference, the σ of P3MEET:F4TCNQ is
+comparable to the σ of F4TCNQ-doped p(g42T-T), a
+polythiophene derivative bearing polar tetraethylene glycol
+side chains as reported by Kroon et al.35 For P3MEEMT, the
+plateau σ is 0.82 ± 0.06 and 1.6 × 10−3 S/cm for F4TCNQ and
+F2TCNQ vapor-doped ﬁlms, respectively, while the σ of
+F1TCNQ vapor-doped was too low to be measured (within
+experimental limitations). Overall, P3MEEMT exhibits sub-
+stantially lower σ compared to P3MEET. Moreover, the σ of
+P3MEEMT increases signiﬁcantly with the ﬂuorination level of
+the dopant, which is in stark contrast to P3MEET.
+The trends in σ for vapor-doped polymers can be further
+explained through the comparison between the IE of the
+polymer and the EA of the dopant. As a ﬁrst approximation,
+one can take the diﬀerence IE −EA to determine the
+propensity of charge transfer between the polymer and the
+dopant. IE −EA < 0 indicates that electron transfer is
+energetically favorable, while IE −EA > 0 indicates that
+electron transfer is energetically prohibitive. This comparison
+suggests that all three dopants are energetically favorable for
+charge transfer with P3MEET, which is consistent with σ being
+within the same order of magnitude with all three dopants. On
+the other hand, the greater than 0 diﬀerence between IE and
+EA suggests that all three dopants are energetically prohibitive
+for charge transfer with P3MEEMT. Despite this, measurable
+electronic conduction was observed with F4TCNQ and
+F2TCNQ vapor-doped ﬁlms of P3MEEMT. These results
+highlight that considering the diﬀerence between IE and EA as
+the charge-transfer driving force is only an approximation and
+that other factors must also be considered. For instance, recent
+evidence suggests that the EA of a p-type molecular dopant
+strongly depends on the molecular host due to intermolecular
+electrostatic interactions.40 Moreover, it is important to note
+that the values of IE and EA are sensitive to the experimental
+Figure 2. (a) Ionization energies (IEs) of P3MEET and P3MEEMT
+together with the electron aﬃnities (EAs) of the three dopants
+F1TCNQ, F2TCNQ, and F4TCNQ used in this work. (b) Schematic
+representation of the vapor doping process. (c) Electronic
+conductivity of both polymers as a function of vapor doping time.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://dx.doi.org/10.1021/acs.chemmater.0c04153
+Chem. Mater. 2021, 33, 741−753
+743
+
+methods (cyclic voltammetry or photoelectron spectroscopy)
+or computational methods employed, and thus, the reported
+values
+are
+merely
+estimations.
+The
+results
+of
+P3MEEMT:FnTCNQ presented here reiterates that point. In
+the next section, we only focused on F4TCNQ for all
+subsequent experiments, as it is shown to be the most eﬃcient
+dopant for both P3MEET and P3MEEMT.
+2.3. UV−Vis−NIR and EPR Spectroscopy Reveal the
+Extent of F4TCNQ Doping. To study the extent of doping
+and the charge carrier generation process, UV−vis−NIR
+absorption spectroscopy was performed as a function of
+F4TCNQ doping time for P3MEET and P3MEEMT, as shown
+in Figure 3a,b, respectively. After vapor doping, we observe
+changes in the intensity of multiple relevant absorption peaks,
+as indicated by the arrows in Figure 3a,b. For both polymers,
+the intensities of the absorption peaks of neutral F4TCNQ (ca.
+390 nm), F4TCNQ anions (ca. 700 nm), and polaron (ca.
+2500 nm) increase, whereas the primary polymer absorption
+peak decreases (ca. 490 nm for P3MEEMT and ca. 640 nm for
+P3MEET). The appearance of the F4TCNQ anion absorption
+peak is indicative of the integer charge transfer (ICT) doping
+mechanism.41−43 As discussed earlier, polaron peaks were
+observed in neat P3MEET thin ﬁlms. The absorption feature
+of neat F4TCNQ most likely originates from the excess
+amount of vapor dopant either within the polymer ﬁlm or
+accumulated on top of the ﬁlm after extended doping.
+Although the general trend is similar for both polymers, we
+observe some diﬀerences between P3MEET and P3MEEMT.
+The intensity of the polaron absorption peak in P3MEET
+gradually increases up until 20 min and slightly decreases at 30
+min of doping. The polaron peak of P3MEEMT, on the other
+hand, is found to saturate faster after several minutes of doping.
+Since the intensity of the polaron peak indicates the degree of
+ionization of the polymer backbone, this observation indicates
+a higher degree of doping in P3MEET compared to that in
+P3MEEMT, which is in good agreement with higher σ in
+P3MEET. We attempted to deconvolute the absorption
+spectra to individual absorption peaks for a more rigorous
+assessment of doping level absorption peaks.35,42 Peak
+deconvolution proved to be diﬃcult since strong peak
+overlapping
+in
+our
+F4TCNQ-doped
+P3MEET
+and
+P3MEEMT systems prevented us from ﬁnding an accurate
+solution for the ﬁt. However, since the polaron peak near 2500
+nm is suﬃciently far away from other absorption peaks, we
+qualitatively conclude that the doping eﬃciency is slightly
+higher in P3MEET.
+The spin concentration was measured using electron
+paramagnetic resonance (EPR) spectroscopy to approximate
+the charge carrier concentration F4TCNQ-doped P3MEET
+and P3MEEMT. The continuous-wave (CW) X-band EPR
+spectra for P3MEET and P3MEEMT thin ﬁlms vapor doped
+with F4TCNQ are shown in Figure S7. The spin concentration
+of each sample was calculated through double integration of
+the EPR spectrum, and the volume of the measured ﬁlm
+(Figure 3c). The spin concentration of neat P3MEET is (2.1 ±
+0.4) × 1018 cm−3, which is about an order of magnitude higher
+than the spin concentration (1.3 ± 0.3) × 1017 cm−3 of
+P3MEEMT. The higher initial spin concentration for neat
+P3MEET is consistent with the observation of polaron
+formation through UV−vis−NIR. After vapor doping with
+F4TCNQ, the spin concentration increases for both polymers.
+At 10 min, the maximum spin concentration of P3MEET is
+(1.6 ± 0.3) × 1020 cm−3, which is 45% higher than the
+maximum spin concentration (1.1 ± 0.2) × 1020 cm−3 of
+P3MEEMT. This diﬀerence suggests better F4TCNQ doping
+eﬃciency in P3MEET.
+The electronic conductivity σ is a function of charge carrier
+concentration n and carrier mobility μ according to σ = qnμ,
+where q = 1.6 × 10−19 C is the elementary charge. Therefore,
+the diﬀerence in conductivity between the two polymers may
+Figure 3. Evolution of UV−vis−NIR absorption spectra as a function of F4TCNQ doping time for (a) P3MEET and (b) P3MEEMT. (c) Carrier
+(spin) concentration calculated from EPR spectra (see the SI) as a function of F4TCNQ doping time for both polymers. (d) Estimated carrier
+mobility from carrier (spin) concentration and conductivity as a function of F4TCNQ doping time.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://dx.doi.org/10.1021/acs.chemmater.0c04153
+Chem. Mater. 2021, 33, 741−753
+744
+
+originate from the diﬀerences in n and μ. As shown in Figure
+3d, the estimation of apparent charge mobility (μ) was
+calculated as a function of F4TCNQ doping time using the
+measured value of σ (Figure 2c) and spin concentration
+(Figure 3c) as the value for n. For the neat ﬁlms, μ for
+P3MEET is (1.63 ± 0.42) × 10−5 cm2/(V s), which is higher
+than μ = (5.73 ± 1.65) × 10−6 cm2/(V s) for P3MEEMT,
+whereas in the saturation regime, the carrier mobility is
+signiﬁcantly higher in P3MEET (1.57 ± 0.53 cm2/(V s) in
+P3MEET vs (6.07 ± 1.30) × 10−2 cm2/(V s) in P3MEEMT in
+fully doped samples).
+Note that the carrier concentration does not strictly scale
+linearly with electronic conductivity probably due to the
+presence of density of states in disordered polymeric
+semiconductors, which gives rise to mobile and immobile
+carriers.44,45 The total amount of carriers measured by EPR
+thus does not necessarily reﬂect the amount of mobile carriers
+that contribute to conductivity. Moreover, in addition to the
+carriers generated from polarons on the polymers, there are
+also other types of paramagnetic species that could be detected
+by EPR such as “intrinsic” carrier concentration or F4TCNQ
+radical anion.36 It is possible that these types of carriers do not
+contribute equally to charge transport. Distinguishing the
+diﬀerent transport mechanisms for these types of carriers is out
+of scope for this study.
+2.4. GIWAXS and MD Simulations Show Changes in
+Local Ordering upon Vapor Doping. To characterize the
+inﬂuence of vapor doping on the local order, grazing-incidence
+wide-angle X-ray scattering (GIWAXS) was performed on
+P3MEET:F4TCNQ and P3MEEMT:F4TCNQ thin ﬁlms.
+Shown in Figure 4a−d are two-dimensional (2D) GIWAXS
+images of P3MEET and P3MEEMT before and after doping
+with F4TCNQ for 10 min. Two-dimensional GIWAXS images
+of ﬁlms doped at diﬀerent times can be found in the SI (Figure
+S3). The scattering patterns of neat P3MEET and P3MEEMT
+appear qualitatively similar and show relevant reﬂections from
+side-chain stacking (100) and π−π stacking (010) scattering
+planes. These reﬂections also appear in both the horizontal and
+vertical directions, indicating a mixed face-on/edge-on
+orientation of polymer crystallites. Additionally, the weak
+higher-order scattering reﬂections and diﬀuse scattering
+indicate a microstructure of aggregate and disordered domains.
+After vapor doping with F4TCNQ, the 2D GIWAXS images of
+both polymers appear qualitatively similar to the neat ﬁlms.
+One noticeable diﬀerence is the appearance of new diﬀraction
+spots (indicated by red arrows) for the P3MEEMT sample
+arising from the accumulation of neutral F4TCNQ on the
+surface of the polymer ﬁlm. Notably, despite the weakly
+aggregated
+microstructure,
+the
+conductivity
+of
+P3MEET:F4TCNQ is high.
+To provide a more quantitative picture of the structural
+evolution upon vapor doping with F4TCNQ, the relative
+degree of crystallinity (rDoC) was estimated using a partial
+pole ﬁgure construction method on the (100) reﬂection, as
+shown in Figure S4 and described elsewhere.37,46,47 For each
+vapor-doped sample, the rDoC is normalized to the rDoC of
+the neat thin ﬁlm. Shown in Figure 4e is the normalized rDoC
+of P3MEET and P3MEEMT as a function of F4TCNQ vapor
+doping time. For both polymers, the inﬁltration of F4TCNQ is
+found to decrease the rDoC of both polymers. After 20 min of
+doping, the rDoC of P3MEET is ca. 13% compared to that of
+the neat sample, whereas the rDoC of P3MEEMT is ca. 20%.
+Here, it is worth noting that for the same vapor doping time,
+the estimated rDoC of P3MEEMT samples is always higher
+than P3MEET, indicating that the addition of F4TCNQ vapor
+to P3MEET has a stronger impact on the polymer crystallinity
+as compared to P3MEEMT. The lower rDoC of P3MEET
+samples indicates that the change in crystallinity upon
+introducing the vapor dopant is likely not the origin of the
+higher σ in P3MEET compared to P3MEEMT.26
+To further compare the inﬂuence of side-chain chemistry on
+the polymer−dopant interaction, the side-chain distance d100 =
+2π/q100 was calculated as a function of F4TCNQ doping time
+(Figure 4f). The value of d100 of both polymers increases due
+to the intercalation of the F4TCNQ anion into the side-chain
+region of the aggregate domains, which has been previously
+observed in other polythiophene-based polymers.20,26,43 For
+P3MEEMT, d100 increases initially from 1.89 to 2.04 nm but
+plateaus beyond ca. 10 min of doping. The side-chain distance
+of neat P3MEET is 1.42 nm, which is smaller than P3MEEMT
+as expected. Upon introducing F4TCNQ, the P3MEET side-
+chain distance continuously increases, with the largest distance
+of 1.83 nm occurring after 20 min of doping.
+Figure 4. (a−d) Representative GIWAXS patterns of P3MEET and
+P3MEEMT before and after doping with F4TCNQ for 10 min.
+GIWAXS patterns of the polymers at other doping times are shown in
+the SI. The red arrows indicate diﬀraction signals of F4TCNQ crystals.
+Evolution of (e) relative degree of crystallinity (rDoC), (f) side-chain
+distance, (g) π-stacking distance, and (h) crystallite coherence length
+(CCL) along the π-stacking direction upon vapor doping with
+F4TCNQ.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://dx.doi.org/10.1021/acs.chemmater.0c04153
+Chem. Mater. 2021, 33, 741−753
+745
+
+Since electronic transport in conjugated polymers strongly
+depends on π−π interaction between polymer chains, we
+investigate the π-stacking distance d010 and crystallite
+coherence length (CCL) along the π-stacking direction of
+both polymers upon doping. As shown in Figure 4g, for both
+polymers, d010 is found to decrease upon doping. The decrease
+in the π-stacking distance upon doping is also a widely
+observed phenomenon for electrochemically and molecularly
+doped conjugated polymers.26,43,48−51 While the intercalation
+of F4TCNQ into the π-stacks was suggested in early
+studies,17,43,52 recent experimental evidence has questioned
+this hypothesis due to the weak localization of polaron and the
+lack of X-ray diﬀraction signals from F4TCNQ-conjugated
+segment cocrystals.26 Additionally, the change in π−π spacing
+was not observed upon blending conjugated polymers with
+redox nonactive species such as TCNQ or LiTFSI,37 implying
+that reduction of the π-stacking distance is not due to the
+expansion in the side-chain direction but rather relating to the
+doping process itself. Therefore, it has been proposed that
+doping-induced polaron delocalization between adjacent
+chains leads to attractive forces that reduce π−π spacing
+between adjacent chains.53 It would thus follow that d010
+decreases upon doping for both P3MEET and P3MEEMT.
+The ﬁnal plateau π-stacking distance is lower in P3MEET
+compared to that in P3MEEMT, which arises from diﬀerences
+in the degree of ionization of the conjugated backbone.
+The CCL along the π-stacking direction as calculated from
+the full width at half-maximum using the Scherrer equation is
+shown in Figure 4h. While there is no clear trend of CCL as a
+function of F4TCNQ doping time, the CCL of P3MEEMT is
+always higher than that of P3MEET. The CCL of P3MEEMT
+corresponds to an average of ∼7 π-stacking units, whereas the
+average π-stacking units in P3MEET is ∼5. This observation
+suggests that P3MEEMT possesses higher degree of order in
+the π-stacking direction, consistent with prior observations
+from diﬀerential scanning calorimetry (DSC) measurements
+that indicate that P3MEEMT is more crystalline than
+P3MEET.37,54 The lower π−π CCL of P3MEET samples
+also indicates that the diﬀerence in CCL of the two polymers is
+likely not the origin of the higher σ in P3MEET compared to
+that in P3MEEMT.
+To gather additional details of the polymer crystallite−
+dopant interaction, we employ MD simulations to investigate
+the neutral dopant distribution within P3MEET and
+P3MEEMT crystallites. A complete description of our
+computational methods is given in the SI. Here, we speciﬁcally
+look to see how each P3MEET and P3MEEMT crystalline
+system responds to the addition of neutral F4TCNQ. We note
+that a rigorous investigation of semicrystalline polymer/dopant
+interactions should involve a study on a system with (i)
+coexisting crystalline and amorphous domains and (ii) ionized
+species (polarons and dopant anions) generated by the
+F4TCNQ dopant, whose electrostatic interactions will be
+diﬀerent from those in neutral polymer/neutral dopant
+systems. Unfortunately, simulations involving coexisting
+crystal−amorphous phases and ionized species entail very
+challenging undertakings, which are beyond the scope of this
+work. Nevertheless, we expect that the results from this MD
+investigation of the polymer crystallite/neutral dopant
+interaction can still provide insight into some of the underlying
+reasons for the diﬀerences in electrical performances of
+P3MEET and P3MEEMT as discussed below and elsewhere
+in this work.
+To simulate crystalline systems of P3MEET and
+P3MEEMT, we follow our previously described procedures,
+which used the initial conﬁguration equivalent to the
+crystalline structure of poly(3-hexylthiophene) (P3HT)
+(isomorph I) except that the crystals of both P3MEET and
+P3MEEMT were expanded to accommodate the longer side
+chains.37 We then perform reverse coarse-graining to generate
+all-atom conﬁgurations from equilibrated coarse-graining
+conﬁgurations and subsequently add neutral F4TCNQ at
+diﬀerent concentrations of NF4TCNQ. Here, NF4TCNQ is the
+number of F4TCNQ molecules per repeating monomer unit.
+Additional details of the simulation can be found in the SI and
+also in our previous publication.37 The chemical representa-
+tions of both polymers and F4TCNQ are shown in Figure 5a.
+Figure 5b provides representative snapshots of the P3MEET−
+F4TCNQ crystalline system at concentration NF4TCNQ =
+0.0625. The corresponding snapshot of the P3MEEMT−
+F4TCNQ system appears qualitatively similar and thus is not
+shown. Importantly, F4TCNQ is found to be well dispersed
+within the P3MEET crystalline matrix, residing exclusively
+within the side-chain region. No F4TCNQ is found between
+the π-stacks, consistent with our conclusion from GIWAXS
+experimental data. We show in Figure 5c the evolution of
+crystallite width along the side-chain spacing distance as a
+function of F4TCNQ concentration. For both P3MEET and
+Figure 5. (a) Representation of P3MEET, P3MEEMT, and F4TCNQ chemical structures used in MD simulations. (b) Exemplary snapshot of
+F4TCNQ molecules dispersed within a crystalline domain of P3MEET at a concentration NF4TCNQ = 0.0625. The snapshot of the P3MEEMT−
+F4TCNQ structure appears similar and thus is not shown. (c) MD simulation results of crystallite width along the side-chain direction as a function
+of F4TCNQ concentration.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://dx.doi.org/10.1021/acs.chemmater.0c04153
+Chem. Mater. 2021, 33, 741−753
+746
+
+P3MEEMT systems, we observe that the side-chain spacing
+distance calculated from our MD simulations monotonically
+increases with increasing neutral F4TCNQ loading, in clear
+contrast with the experimental data shown in Figure 4f. This
+behavior is expected as our model only consists of the
+crystalline phase so that the extra added amount of F4TCNQ
+cannot escape into the amorphous phase like the real system
+and is bound to swell the crystal.
+2.5. Raman Spectroscopy Reveals That Extent of
+Conformational Order Controls the Limits of Electronic
+Conductivity. Since GIWAXS measurement is only sensitive
+to ordered domains, information about the amorphous domain
+before and after doping is not visible by GIWAXS. Considering
+charge carriers must traverse both aggregate (crystalline) and
+disordered domains, the amorphous fraction in both P3MEET
+and P3MEEMT should also play a large role in dictating the
+limits of macroscopic conductivity. To gain insight into chain
+conformation in the amorphous domain upon doping, we
+performed Raman spectroscopy on vapor-doped P3MEET and
+P3MEEMT thin ﬁlms. To probe the amorphous part of the
+samples, the excitation wavelength was selected to be in
+resonance with the amorphous fraction of the thin ﬁlm,55,56
+i.e., 532 nm for P3MEET and 473 nm for P3MEEMT. The
+selection of appropriate wavelength was based on the UV−vis
+absorption spectra of both the solution and thin ﬁlm, as
+depicted and explained in Figure S9.
+The normalized Raman spectra of neat and vapor-doped
+P3MEET and P3MEEMT thin ﬁlms are shown in Figure 6a,b,
+respectively. The peak at 1445 cm−1 for P3MEET and the peak
+at 1466 cm−1 for P3MEEMT correspond to the intraring
+symmetric CC vibrational modes. Here, the Raman spectra
+were normalized by the intensity of this primary CC
+vibrational mode. Additionally, the peak at 1381 cm−1 for
+P3MEET and the weak peak near 1380 cm−1 for P3MEEMT
+correspond to the intraring C−C vibrational mode. Upon
+closer inspection, besides the main peak near 1445 cm−1,
+P3MEET’s symmetric CC vibration mode also consists of a
+small shoulder near 1416 cm−1, as indicated by the red arrows
+in Figure 6a. As reported for P3HT, a decrease in the
+wavenumber of the CC mode arises from neutral polymer
+chains with increased conformational order (i.e., stiﬀer and
+more planar chains).55,57 In turn, the vibrational mode at 1416
+cm−1 in P3MEET likely arises from the stiﬀening of disordered
+polymer chains in the amorphous regime, whereas the
+vibrational mode at 1445 cm−1 corresponds to polymer chains
+with a relatively higher degree of conformational order. As a
+note of reminder, neat P3MEET exhibits polaron formation.
+Therefore, we attribute the red shift of the main CC
+vibration peak in neat P3MEET compared to neat P3MEEMT
+(note that the dashed lines in Figure 6a,b are placed at the
+same position for ease of comparison) and together with the
+appearance of a shoulder near 1416 cm−1 to the increased
+planarity of the polaronic (quinoidal) molecular structure. This
+is further emphasized by an increase in the relative intensity of
+the vibrational mode at 1416 cm−1 in P3MEET after vapor
+doping with F4TCNQ where the concentration of polarons
+increases.
+With respect to P3MEEMT, we observe a red shift of the
+broad peak at 1466 cm−1, where the shift could stem from the
+planarization of the polymer backbone upon increasing
+polaron concentration. However, the ﬁnal peak position of
+P3MEEMT at 10 min of doping is 1461 cm−1, which is still
+higher in wavenumber compared to that of P3MEET,
+indicating a lower degree of backbone planarization in
+P3MEEMT. Additionally, a similar shoulder near 1416 cm−1
+is not observed in P3MEEMT after doping, suggesting the
+ineﬃcient doping of the amorphous part of P3MEEMT
+compared to amorphous P3MEET. This diﬀerence could be
+explained by considering the energy mismatch between the
+polymers and F4TCNQ. Due to its highly disordered structure,
+the amorphous part of the semicrystalline conjugated polymers
+possesses a lower value of IE, rendering it more diﬃcult for p-
+type charge transfer to occur between the disorded polymer
+chains and molecular dopants. Therefore, while charge transfer
+can occur between the polymer crystallite and F4TCNQ in
+P3MEEMT, a similar process is not likely to happen in the
+amorphous regime. In contrast, due to its low IE, charge
+transfer can still occur between amorphous P3MEET and
+F4TCNQ, evident by the stiﬀening of the polymer chains in
+the amorphous domain as demonstrated by Raman measure-
+ments here. Therefore, stiﬀer polymer chains in the amorphous
+domain permitting higher mobility coupled with the higher
+carrier concentration accounts for the higher conductivity of
+P3MEET:F4TCNQ compared to that of P3MEEMT:F4TCNQ
+thin ﬁlms.
+2.6. Thermal Stability of Polymer/Dopant Pairs. In
+addition to high conductivity, the utility of molecularly doped
+conjugated polymers depends on the polymer’s ability to
+maintain its conductivity at elevated temperatures. Thus, in the
+ﬁnal set of experiments, we investigate the thermal stability of
+vapor-doped polymer thin ﬁlms in argon and air by measuring
+the temporal stability of the conductivity at a suﬃciently
+elevated temperature of 130 °C. Shown in Figure 7a is the
+evolution of conductivity of F4TCNQ vapor-doped ﬁlms (10
+Figure 6. Raman spectra of (a) P3MEET and (b) P3MEEMT at diﬀerent F4TCNQ doping times. The arrows in (a) denote the Raman signal from
+stiﬀened amorphous chains. The vertical dashed lines in both plots are placed at the same Raman shift for ease of peak position comparison.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://dx.doi.org/10.1021/acs.chemmater.0c04153
+Chem. Mater. 2021, 33, 741−753
+747
+
+min) of P3MEET, P3MEEMT, and P3HT as a function of
+heating time in an argon glovebox. As shown in Figure 7a, after
+15 min of heating at 130 °C, the P3MEET:F4TCNQ sample
+exhibits only a 1% decrease in conductivity, whereas the
+P3MEEMT:F4TCNQ sample exhibits 8 orders of magnitude
+drop in conductivity. For comparison to a nonpolar side chain,
+we included an F4TCNQ-doped P3HT sample, which showed
+a 75% drop in conductivity after 15 min of annealing and is
+thus more thermally stable than P3MEEMT:F4TCNQ. These
+results emphasize that only adding polar character to the side
+chain does not impart thermal stability of the conductivity and
+can in fact reduce the stability. With respect to other molecular
+dopants, P3MEET vapor doped with F2TCNQ and F1TCNQ
+yielded a similar level of thermal stability to F4TCNQ-doped
+ﬁlms, as demonstrated in Figure 7b. Upon closer examination
+(see the inset of Figure 7b), we found decreases of 4 and 9% in
+conductivity for P3MEET:F2TCNQ and P3MEET:F1TCNQ,
+respectively. These numbers are very close to the thermal
+stability of the P3MEET:F4TCNQ sample (showed a 1% drop
+in conductivity under identical conditions) and substantially
+higher than P3MEEMT:F4TCNQ and P3HT:F4TCNQ
+samples. These results indicate that the thermal stability is
+insensitive to the magnitude of diﬀerences between the IE and
+EA with F2TCNQ and F1TCNQ and consistent with the fact
+that F2TCNQ and F1TCNQ are eﬃcient dopants for
+P3MEET.
+To further demonstrate the superior thermal stability of
+P3MEET:F4TCNQ, heating experiments were performed in an
+ambient
+air
+environment.
+The
+conductivity
+of
+P3MEET:F4TCNQ exhibited a decrease of ca. 6% at 130 °C
+after 15 min (Figure S8). Additionally, the conductivity
+decreased ca. 0.5, 9, and 11% after heating at 100, 150, and 180
+°C, respectively (Figure S8). The superior thermal stability of
+P3MEET:F4TCNQ in air is similar to the results of Kroon et
+al., where the same oligoethylene glycol side chains bearing
+polythiophene, p(g42T-T):F4TCNQ, was shown to have much
+better thermal stability compared to P3HT:F4TCNQ.31,35 The
+authors suggested that the thermal stability of p(g42T-
+T):F4TCNQ originated from the enhanced “binding” between
+the oligoethylene glycol side chain and F4TCNQ. However,
+despite possessing a nearly identical side chain to P3MEET,
+the P3MEEMT:F4TCNQ ﬁlm shows much inferior thermal
+stability. Moreover, the P3MEEMT:F4TCNQ ﬁlm exhibits less
+stability
+to
+purely
+aliphatic-side-chain-containing
+P3HT:F4TCNQ ﬁlms. In air, the conductivity of
+P3MEEMT:F4TCNQ decreases by almost 9 orders of
+magnitude only after 5 min of annealing. Indeed, there has
+been a recent report showing that bearing a polar side chain is
+not necessarily responsible for the enhanced thermal stability
+of molecularly doped CPs.58 These results suggest additional
+factors are responsible for the improved thermal stability in
+thiophene-based polymers bearing polar sides chains such as
+our P3MEET and reported p(g42T-T):F4TCNQ-doped
+samples.
+To determine whether the decrease in conductivity upon
+heating was from the sublimation of dopant molecules, we
+performed thermogravimetric analysis (TGA) experiments on
+neat P3MEET and P3MEEMT, F4TCNQ powder, and
+P3MEET and P3MEEMT samples blended with ca. 25 wt %
+F4TCNQ. As seen in Figure 7c, neat P3MEET and P3MEEMT
+show almost identical TGA proﬁles, with the majority of
+weight loss occurring at temperatures above 350 °C due to the
+degradation of the polymers. On the other hand, F4TCNQ
+shows an onset of weight loss around 200 °C arising from the
+sublimation of F4TCNQ.20 For the P3MEEMT:F4TCNQ
+blend, we observe an early onset of weight loss at 100 °C. The
+weight loss likely arises from the sublimation of F4TCNQ
+molecules after returning to their neutral state due to the
+instability of the charge state of the P3MEEMT:F4TCNQ
+blend. The lower sublimation temperature of F4TCNQ in the
+blend arises from diﬀerences in the sublimation behavior of a
+powder and when embedded in a polymer matrix. Overall, the
+return to the neutral state and sublimation of F4TCNQ leads
+to a decrease in the conductivity of P3MEET:F4TCNQ when
+heating at elevated temperatures. In stark contrast, the
+P3MEET:F4TCNQ blend shows superior thermal stability
+where the weight loss occurs within the 300−400 °C range.
+Figure 7. (a) Electronic conductivity of F4TCNQ-doped P3MEET,
+P3MEEMT, and P3HT as a function of isothermal annealing time at
+130 °C in argon. (b) Electronic conductivity of F4TCNQ-, F2TCNQ-,
+and F1TCNQ-doped P3MEET as a function of isothermal annealing
+time at 130 °C in argon. The conductivity was measured on ﬁlms
+deposited atop interdigitated electrode (IDE) devices. The inset
+ﬁgure shows the zoom-in plot of the same thermal stability data. (c)
+Thermogravimetric analysis (TGA) data of P3MEET, P3MEEMT,
+and F4TCNQ together with P3MEEMT and P3MEET samples
+blended with ca. 25 wt % F4TCNQ. The dashed line represents this
+25 wt % from F4TCNQ.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://dx.doi.org/10.1021/acs.chemmater.0c04153
+Chem. Mater. 2021, 33, 741−753
+748
+
+The lack of weight loss near the sublimation temperature of
+neutral F4TCNQ indicates that P3MEET:F4TCNQ remains in
+the charged state. Therefore, the charged species (P3MEET
+positive polarons and F4TCNQ anions) exhibit higher thermal
+stability compared to the neutral molecules and thus allows for
+stable conductivity when heated at elevated temperatures.
+Multiple factors likely explain the diﬀerence in thermal
+stability of P3MEET:F4TCNQ and P3MEEMT:F4TCNQ
+pairs. One possible explanation for this behavior is the shift
+in the ionization energy of P3MEET compared to that of
+P3MEEMT, which not only facilitates the doping process but
+in turn hinders dedoping due to the large oﬀset between IE of
+P3MEET and EA of F4TCNQ. In other words, the electron-
+donating ability of the oxygen directly attached to the
+thiophene ring in P3MEET stabilizes the polaron upon
+doping, enhancing the stability of the P3MEET:F4TCNQ
+system. Alternatively, another possible explanation relates to
+the side-chain segmental mobility. In our previous publication,
+using a combination of experimental and simulation results, we
+showed that the insertion of a methyl spacer in the P3MEEMT
+side chain resulted in a marked enhancement in side-chain
+segmental mobility compared to P3MEET.37 We suspect that
+the higher side-chain segmental mobility in P3MEEMT not
+only facilitates diﬀusion of molecular dopants into the ﬁlm
+during doping but also accelerates the dedoping process at
+elevated temperatures.
+One ﬁnal possible explanation could be the favorable
+interaction between the P3MEET side chain and F4TCNQ
+as suggested by MD simulations below, which will eventually
+lead to the slower evaporation rate of F4TCNQ and thus
+superior thermal stability of the P3MEET:F4TCNQ system.
+Using the same MD simulation system demonstrated in Figure
+5, we look further into the response of each polymer−dopant
+to F4TCNQ loading. Shown in Figure 8 is the energy of
+interaction, Eint, between the polymers and F4TCNQ,
+normalized to the amount of F4TCNQ loaded into the system.
+As seen in Figure 8, until a critical loading of F4TCNQ into the
+system, Eint for P3MEET is found to be equal to or lower than
+Eint for P3MEEMT. This indicates that P3MEET more
+favorably interacts with F4TCNQ and as such should have a
+lower chemical potential. We hypothesize this favorable
+interaction between the dopant and the side chain in
+P3MEET imparts polymer/dopant miscibility and hence
+enhances the thermal stability of the P3MEET:F4TCNQ
+system.
+3. CONCLUSIONS
+In conclusion, we investigated the role of polar side-chain
+chemistry in molecular doping eﬃciency, conductivity, and
+thermal stability through two polythiophene derivatives,
+P3MEET and P3MEEMT, upon doping with the molecular
+dopants F1TCNQ, F2TCNQ, and F4TCNQ. Both polymers
+possessed oligoethylene glycol polar side chains with their only
+diﬀerence being a methyl spacer between the oxygen and the
+thiophene in P3MEEMT. The values of σ are within the same
+order of magnitude for all three ﬂuorinated dopants for the
+P3MEET polymer, while σ of P3MEEMT decreases
+signiﬁcantly with the decreasing ﬂuorination level of dopants,
+consistent with the polymer−dopant energy level mismatch as
+suggested by CV measurements. Despite the similarity in their
+chemical structures, P3MEET exhibited much higher elec-
+tronic conductivity upon vapor doping with FnTCNQ and
+superior thermal stability compared to that of P3MEEMT.
+Using a combination of experimental and MD simulation
+approaches, we showed that the enhanced conductivity in
+P3MEET compared to P3MEEMT likely originated from
+better doping eﬃciency of the dopant in P3MEET and higher
+degree of conformational order of polymer chains in the
+amorphous domain. Meaning, eﬃcient doping in P3MEET led
+to higher carrier concentration and the further stiﬀening of
+polymer chains in the amorphous domain provides for a higher
+charge carrier mobility. Though the doping eﬃciency diﬀer-
+ences appear clear, the reason for the variation in enhanced
+thermal stability in P3MEET:FnTCNQ could originate from
+several factors. First, the low IE imparted from the placement
+of the oxygen atom next to the thiophene core could stabilize
+the polaron formed upon doping, thus hindering the dedoping
+process. Second, the low segmental mobility of the side chain
+in P3MEET might result in the slow diﬀusion of F4TCNQ and
+consequently slower sublimation rate. Finally, the favorable
+side-chain-dopant interaction could enhance the intermixing
+between P3MEET:FnTCNQ pairs and their thermal stability.
+While additional work is needed to decipher the exact
+mechanism of enhanced thermal stability in doped P3MEET,
+our data suggested that in contrast to previous beliefs, the use
+of a polar side-chain alone is not suﬃcient to achieve high
+conductivity and thermal stability in molecularly doped CPs.
+Future design of side chains for high performing materials
+should take into consideration factors such as side-chain
+segmental mobility, side-chain−dopant interaction, and the
+inﬂuence of dopants on the semicrystalline structure of the
+polymers.
+4. EXPERIMENTAL SECTION
+4.1.
+Materials
+and
+Sample
+Preparation.
+Poly(3-
+(methoxyethoxyethoxy)thiophene) (P3MEET) and poly(3-
+(methoxyethoxyethoxymethyl)thiophene) (P3MEEMT) were synthe-
+sized by ﬁrst synthesizing the monomers 2,5-dibromo-3-
+(methoxyethoxyethoxy)thiophene [3MEET] and 2,5-dibromo-3-
+(methoxyethoxyethoxymethyl)thiophene [3MEEMT] and then poly-
+merizing using Kumada catalyst transfer polymerization (KCTP).
+Additional synthetic details are provided in our previous publication37
+and in the Supporting Information.
+All substrates used in this study were cleaned by ultrasonication in
+acetone and 2-propanol for 15 min in each solvent, followed by
+ozone−plasma treatment for 3 min. Grazing-incidence wide-angle X-
+ray scattering (GIWAXS) and spectroscopic ellipsometry measure-
+ments were performed on ﬁlms deposited on Si substrates with 1.5
+nm of native SiO2. UV−vis spectroscopy, electron paramagnetic
+resonance (EPR), and four-point probe conductivity measurements
+Figure 8. MD simulation results of side-chain/F4TCNQ nonbond
+energy Eint as a function of F4TCNQ to monomer ratio.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://dx.doi.org/10.1021/acs.chemmater.0c04153
+Chem. Mater. 2021, 33, 741−753
+749
+
+were performed on ﬁlms deposited on quartz substrates. Electronic
+conductivity measurements were also performed on ﬁlms deposited
+atop custom-fabricated interdigitated gold electrodes (IDEs) on Si
+substrates possessing 1000 nm of thermally grown SiO2.
+Solutions of P3MEET and P3MEEMT were prepared by dissolving
+the materials in anhydrous chloroform and anhydrous acetonitrile,
+respectively, at a concentration of 10 mg/mL and stirring overnight
+before being ﬁltered through a 0.45 μm ﬁlter. The solutions were then
+spin-casted under an argon atmosphere onto the prepared substrates
+at 2000 rpm for 2 min. Film thicknesses of all samples in this study
+were kept at ca. 50 nm, as conﬁrmed by spectroscopic ellipsometry
+measurements.
+4.2. Vapor Doping Procedure for Molecular Dopants. Vapor
+doping of FnTCNQ (n = 1, 2, 4) was performed using the previously
+described procedure.24 In brief, polymer thin ﬁlms were vapor-doped
+with FnTCNQ in an argon-ﬁlled glovebox. Approximately 5 mg of
+dopant was placed in a glass cylinder (diameter, ∼5 cm; height, ∼4.5
+cm), and then, the glass cylinder was inserted into a preheated
+stainless steel container for at least 30 min on top of a hotplate. Due
+to the diﬀerence in sublimation temperature of each dopant, the
+temperature of the hotplate was set to 220, 200, and 180 °C for
+F4TCNQ, F2TCNQ, and F1TCNQ, respectively. During the vapor
+doping process, the thin ﬁlm sample was placed upside down above
+the glass jar. The sample was kept at a constant temperature of 50 °C
+during the doping process using a custom-built thermoelectric
+module.
+4.3. Electronic Conductivity Calculation. Electronic conduc-
+tivity was measured either using the four-point probe method (for
+conductivity above 10−3 S/cm) or IDEs (for conductivity below 10−3
+S/cm). Four-point probe conductivity gold contacts had a channel
+length of 0.2 mm and a channel width of 1 mm. Four-point probe
+conductivity measurements were performed using a custom-designed
+probe station in an argon glovebox. Voltage and current measure-
+ments were performed using a Keithley 2400 source measure unit and
+a Keithley 6221 precision current source. A constant current was
+applied to the outer contacts, and the resultant steady-state voltage
+response was recorded from the inside contacts. The resistance (R;
+Ω) of the sample was extracted from the slope of the VI sweep using
+Ohm’s law (V = IR).
+IDE conductivity measurements were performed by applying the
+DC measurement method to samples fabricated atop IDE devices.
+The extracted resistance R was then used to calculate the sample
+conductivity σ according to the following equation
+R
+d
+l N
+h
+1
+(
+1)
+σ =
+−
+Here, d = 8 μm is the separation distance between electrode contacts,
+l = 1000 μm is the electrode length, N = 160 is the number of
+electrodes, and h is the ﬁlm thickness.
+4.4. Grazing-Incidence Wide-Angle X-ray Scattering (GI-
+WAXS). GIWAXS measurements were performed at beamline 8-ID-E
+of the Advanced Photon Source, Argonne National Laboratory with
+10.86 keV (λ = 0.11416 nm) synchrotron radiation. Samples were
+enclosed and measured inside a low vacuum chamber (10−3 mbar) to
+minimize concerns about radiation damage as well as to prevent
+extraneous scattering from ambient air. The measurement time was
+chosen to be 10 s/frame. For each sample, three data sets were taken
+from three adjacent spots on the sample and then summed to enhance
+the signal-to-noise ratio. In our work, the samples were tilted at an
+angle of incidence of 0.14° with respect to the incoming beam. This
+angle was chosen to be above the estimated critical angle of the
+sample (ca. 0.13°) but below the critical angle of the Si substrates (ca.
+0.17°). The scattering signal was recorded with a Pilatus 1MF pixel
+array detector (pixel size = 172 μm) positioned 228 mm from the
+sample. Each data set was stored as a 981 × 1043 32-bit tiﬀimage
+with a 20-bit dynamic range. The Pilatus detector has rows of inactive
+pixels at the border between detector modules. To ﬁll these gaps, after
+each measurement, the detector was moved to a new vertical direction
+and the measurement on each spot was repeated; then, the gaps were
+ﬁlled by combining the data from two detector positions. The signals
+were reshaped and output as intensity maps in qz vs qr
+q
+q
+(
+)
+x
+y
+2
+2
+=
++
+space. We also performed detector nonuniformity,
+detection eﬃciency, the polarization eﬀect, and solid-angle variation
+for each image. Vertical linecuts were performed as a function of
+intensity along the qz direction. All of the GIWAXS data processing
+and extraction were executed using the GIXSGUI package for
+MATLAB.59
+We calculated the side-chain distance, π-stacking distance in
+P3MEET, and π-stacking in P3MEEMT by analyzing vertical linecuts
+of GIWAXS patterns but calculated the side-chain distance in
+P3MEEMT by analyzing horizontal linecuts of GIWAXS patterns.
+This was due to the more favorable in-plane orientation of the
+P3MEEMT side chain, which gave rise to a stronger side-chain
+diﬀraction signal in horizontal linecuts compared to vertical linecuts.
+Each linecut was subjected to an empirical baseline subtraction before
+ﬁtting with a Voigt function to compute the peak position and side-
+chain or π-stacking distance according to d = 2π/q.
+4.5. UV−Vis−NIR Absorption Spectroscopy. The UV−vis−
+NIR absorption spectroscopy measurements were performed using a
+Shimadzu UV-3600 Plus UV−vis−NIR dual-beam spectrophotometer
+at the Soft Matter Characterization Facility (SMCF) at the University
+of Chicago.
+4.6. Electron Paramagnetic Resonance (EPR) Spectroscopy.
+Continuous-wave (CW) X-band (9−10 GHz) EPR experiments were
+carried out with a Bruker ELEXSYS II E500 EPR spectrometer
+(Bruker Biospin, Rheinstetten, Germany), equipped with a TE102
+rectangular EPR resonator (Bruker ER 4102ST). Measurements were
+performed at room temperature (T = 295 K). Thin ﬁlms on the
+substrate with dimensions 2 mm × 15 mm2 were placed in the EPR
+quartz tubes with 4 mm i.d. For spin quantiﬁcation, a single crystal of
+CuSO4·H2O with known spin concentration was used as a reference
+sample. Spin quantiﬁcations were done by comparing double integrals
+of the experimental and reference EPR signals. For EPR measure-
+ment, we estimate a relative error of ca. 20% for each sample due to
+variations from experimental conditions.
+4.7. Raman Spectroscopy. Raman spectroscopy experiments
+were performed under ambient conditions using a Horiba LabRAM
+HR Evolution NIR confocal Raman microscope housed in Chicago
+Materials Research Center. Raman spectra of neat and doped
+P3MEET and P3MEEMT thin ﬁlms were collected using a 100×
+objective at three diﬀerent excitation wavelengths, 633, 532, and 473
+nm. The spatial resolution of each measurement is dependent on the
+numerical aperture of the microscope objective, the wavelength of the
+laser used, and the pinhole size of the confocal imaging mode. In our
+conﬁgurations, the spatial resolution of each Raman spectrum is
+calculated to be less than 1 mm. Laser power and accumulation time
+were set to 1% and 20 s to minimize local heating and material
+degradation.
+4.8. Thermogravimetric Analysis (TGA). Polymer/dopant
+blends for TGA analysis were prepared by mixing P3MEET and
+P3MEEMT solution with F4TCNQ solution and then the mixed
+solution was freeze-dried to remove the solvents. P3MEET was
+dissolved in chloroform, whereas P3MEEMT and F4TCNQ were
+dissolved in acetonitrile. TGA measurements were using a discovery
+thermogravimetric analyzer at the Soft Mater Characterization Facility
+(SMCF) at the University of Chicago. All TGA samples were
+measured under a constant ﬂow of N2 gas and a heating rate of 10
+°C/min.
+■ASSOCIATED CONTENT
+*
+sı Supporting Information
+The Supporting Information is available free of charge at
+https://pubs.acs.org/doi/10.1021/acs.chemmater.0c04153.
+Synthesis details of P3MEET and P3MEEMT; CV data
+of P3MEET, P3MEEMT, F1TCNQ, F2TCNQ, and
+F4TCNQ; additional GIWAXS data, including raw
+GIWAXS images of F4TCNQ-doped samples, pole
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://dx.doi.org/10.1021/acs.chemmater.0c04153
+Chem. Mater. 2021, 33, 741−753
+750
+
+ﬁgure analysis, linecuts of GIWAXS images before and
+after doping with F4TCNQ; linecuts of GIWAXS images
+at diﬀerent X-ray incidence angles; raw EPR spectra;
+thermal stability data in ambient air at diﬀerent
+temperatures; solution/solid-state absorption spectra of
+P3MEET and P3MEEMT; and MD simulation details
+(PDF)
+■AUTHOR INFORMATION
+Corresponding Author
+Shrayesh N. Patel −Pritzker School of Molecular Engineering,
+University of Chicago, Chicago, Illinois 60637, United
+States;
+orcid.org/0000-0003-3657-827X;
+Email: shrayesh@uchicago.edu
+Authors
+Ban Xuan Dong −Pritzker School of Molecular Engineering,
+University of Chicago, Chicago, Illinois 60637, United
+States;
+orcid.org/0000-0002-2873-5207
+Christian Nowak −School of Chemical and Biomolecular
+Engineering, Cornell University, Ithaca, New York 14953,
+United States
+Jonathan W. Onorato −Department of Materials Science and
+Engineering, University of Washington, Seattle, Washington
+98195, United States;
+orcid.org/0000-0003-1349-8277
+Tengzhou Ma −Pritzker School of Molecular Engineering,
+University of Chicago, Chicago, Illinois 60637, United
+States;
+orcid.org/0000-0002-9116-5518
+Jens Niklas −Chemical Sciences and Engineering Division,
+Argonne National Laboratory, Lemont, Illinois 60439,
+United States;
+orcid.org/0000-0002-6462-2680
+Oleg G. Poluektov −Chemical Sciences and Engineering
+Division, Argonne National Laboratory, Lemont, Illinois
+60439, United States;
+orcid.org/0000-0003-3067-9272
+Garrett Grocke −Pritzker School of Molecular Engineering,
+University of Chicago, Chicago, Illinois 60637, United
+States;
+orcid.org/0000-0001-8661-5038
+Mark F. DiTusa −Pritzker School of Molecular Engineering,
+University of Chicago, Chicago, Illinois 60637, United States
+Fernando A. Escobedo −School of Chemical and
+Biomolecular Engineering, Cornell University, Ithaca, New
+York 14953, United States;
+orcid.org/0000-0002-4722-
+9836
+Christine K. Luscombe −Department of Materials Science
+and Engineering, Department of Chemistry, and Molecular
+Engineering & Sciences Institute, University of Washington,
+Seattle, Washington 98195, United States;
+orcid.org/
+0000-0001-7456-1343
+Paul F. Nealey −Pritzker School of Molecular Engineering,
+University of Chicago, Chicago, Illinois 60637, United
+States;
+orcid.org/0000-0003-3889-142X
+Complete contact information is available at:
+https://pubs.acs.org/10.1021/acs.chemmater.0c04153
+Notes
+The authors declare no competing ﬁnancial interest.
+■ACKNOWLEDGMENTS
+This work was supported by NSF DMREF Award number
+1922259. This research used resources of the Advanced
+Photon Source, an Oﬃce of Science User Facility operated for
+the U.S. Department of Energy (DOE) by Argonne National
+Laboratory under Contract no. DE-AC02-06CH11357. The
+EPR work was supported by the U.S. Department of Energy
+(DOE), Oﬃce of Basic Energy Sciences, Division of Chemical
+Sciences, Geosciences, and Biosciences, under Contract no.
+DE-AC-02-06CH11357. Part of this work was carried out at
+the Soft Matter Characterization Facility of the University of
+Chicago. This work made use of the Pritzker Nanofabrication
+Facility, which receives partial support from the SHyNE
+Resource, a node of the National Science Foundation’s
+National Nanotechnology Coordinated Infrastructure (NSF
+ECCS-2025633).
+■REFERENCES
+(1) Borsenberger, P. M.; Weiss, D. S. Organic Photoreceptors for
+Xerography; CRC Press: New York, 1998; pp 1−755.
+(2) Geffroy, B.; le Roy, P.; Prat, C. Organic Light-Emitting Diode
+(OLED) Technology: Materials, Devices and Display Technologies.
+Polym. Int. 2006, 55, 572−582.
+(3) Müllen, K.; Scherf, U. Organic Light Emitting Devices: Synthesis,
+Properties and Applications; Wiley: New York, 2006; pp 1−410.
+(4) Sirringhaus, H. 25th Anniversary Article: Organic Field-Effect
+Transistors: The Path Beyond Amorphous Silicon. Adv. Mater. 2014,
+26, 1319−1335.
+(5) Günes, S.; Neugebauer, H.; Sariciftci, N. S. Conjugated Polymer-
+Based Organic Solar Cells. Chem. Rev. 2007, 107, 1324−1338.
+(6) Kroon, R.; Lenes, M.; Hummelen, J. C.; Blom, P. W. M.; de
+Boer, B. Small Bandgap Polymers for Organic Solar Cells (Polymer
+Material Development in the Last 5 Years). Polym. Rev. 2008, 48,
+531−582.
+(7) Loiudice, A.; Rizzo, A.; Biasiucci, M.; Gigli, G. Bulk
+Heterojunction versus Diffused Bilayer: The Role of Device
+Geometry in Solution p-Doped Polymer-Based Solar Cells. J. Phys.
+Chem. Lett. 2012, 3, 1908−1915.
+(8) Zhang, Y.; Zhou, H.; Seifter, J.; Ying, L.; Mikhailovsky, A.;
+Heeger, A. J.; Bazan, G. C.; Nguyen, T.-Q. Molecular Doping
+Enhances Photoconductivity in Polymer Bulk Heterojunction Solar
+Cells. Adv. Mater. 2013, 25, 7038−7044.
+(9) Yan, H.; Manion, J. G.; Yuan, M.; García de Arquer, F. P.;
+McKeown, G. R.; Beaupré, S.; Leclerc, M.; Sargent, E. H.; Seferos, D.
+S. Increasing Polymer Solar Cell Fill Factor by Trap-Filling with F4-
+TCNQ at Parts Per Thousand Concentration. Adv. Mater. 2016,
+6491−6496.
+(10) Lu, G.; Blakesley, J.; Himmelberger, S.; Pingel, P.; Frisch, J.;
+Lieberwirth, I.; Salzmann, I.; Oehzelt, M.; Di Pietro, R.; Salleo, A.;
+et al. Moderate Doping Leads to High Performance of Semi-
+conductor/Insulator Polymer Blend Transistors. Nat. Commun. 2013,
+4, No. 1588.
+(11) Lüssem, B.; Keum, C. M.; Kasemann, D.; Naab, B.; Bao, Z.;
+Leo, K. Doped Organic Transistors. Chem. Rev. 2016, 116, 13714−
+13751.
+(12) Bubnova, O.; Crispin, X. Towards Polymer-Based Organic
+Thermoelectric Generators. Energy Environ. Sci. 2012, 5, 9345−9362.
+(13) Russ, B.; Glaudell, A.; Urban, J. J.; Chabinyc, M. L.; Segalman,
+R. A. Organic Thermoelectric Materials for Energy Harvesting and
+Temperature Control. Nat. Rev. Mater. 2016, 1, No. 16050.
+(14) Patel, S. N.; Chabinyc, M. L. Anisotropies and the
+Thermoelectric Properties of Semiconducting Polymers. J. Appl.
+Polym. Sci. 2017, 134, No. 44403.
+(15) Kang, K.; Watanabe, S.; Broch, K.; Sepe, A.; Brown, A.;
+Nasrallah, I.; Nikolka, M.; Fei, Z.; Heeney, M.; Matsumoto, D.; et al.
+2D Coherent Charge Transport in Highly Ordered Conducting
+Polymers Doped by Solid State Diffusion. Nat. Mater. 2016, 15, 896−
+902.
+(16) Jacobs, I. E.; Aasen, E. W.; Oliveira, J. L.; Fonseca, T. N.; et al.
+Comparison of Solution-Mixed and Sequentially Doping-Induced
+Aggregation on Film Morphology. J. Mater. Chem. C 2016, 4, 3454−
+3466.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://dx.doi.org/10.1021/acs.chemmater.0c04153
+Chem. Mater. 2021, 33, 741−753
+751
+
+(17) Scholes, D. T.; Hawks, S. A.; Yee, P. Y.; Wu, H.; Lindemuth, J.
+R.; Tolbert, S. H.; Schwartz, B. J. Overcoming Film Quality Issues for
+Conjugated Polymers Doped with F4TCNQ by Solution Sequential
+Processing: Hall Effect, Structural, and Optical Measurements. J. Phys.
+Chem. Lett. 2015, 6, 4786−4793.
+(18) Patel, S. N.; Javier, A. E.; Beers, K. M.; Pople, J. A.; Ho, V.;
+Segalman, R. A.; Balsara, N. P. Morphology and Thermodynamic
+Properties of a Copolymer with an Electronically Conducting Block:
+Poly(3-Ethylhexylthiophene)-Block-Poly(Ethylene Oxide). Nano Lett.
+2012, 12, 4901−4906.
+(19) Lim, E.; Peterson, K. A.; Su, G. M.; Chabinyc, M. L.
+Thermoelectric Properties of Poly(3-Hexylthiophene) (P3HT)
+Doped with 2,3,5,6-Tetrafluoro-7,7,8,8-Tetracyanoquinodimethane
+(F4TCNQ) by Vapor-Phase Infiltration. Chem. Mater. 2018, 30,
+998−1010.
+(20) Hynynen, J.; Kiefer, D.; Yu, L.; Kroon, R.; Munir, R.; Amassian,
+A.; Kemerink, M.; Müller, C. Enhanced Electrical Conductivity of
+Molecularly P-Doped Poly(3-Hexylthiophene) through Understand-
+ing the Correlation with Solid-State Order. Macromolecules 2017, 50,
+8140−8148.
+(21) Dong, B. X.; Liu, Z.; Misra, M.; Strzalka, J.; Niklas, J.;
+Poluektov, O.; Escobedo, F. A.; Ober, C. K.; Nealey, P. F.; Patel, S. N.
+Structure Control of a π-Conjugated Oligothiophene-Based Liquid
+Crystal for Enhanced Mixed Ion/Electron Transport Characteristics.
+ACS Nano 2019, 13, 7665−7675.
+(22) Gao, J.; Stein, B. W.; Thomas, A. K.; Garcia, J. A.; Yang, J.; Kirk,
+M. L.; Grey, J. K. Enhanced Charge Transfer Doping Efficiency in J-
+Aggregate Poly(3-Hexylthiophene) Nanofibers. J. Phys. Chem. C
+2015, 119, 16396−16402.
+(23) Salzmann, I.; Heimel, G.; Oehzelt, M.; Winkler, S.; Koch, N.
+Molecular Electrical Doping of Organic Semiconductors: Fundamen-
+tal Mechanisms and Emerging Dopant Design Rules. Acc. Chem. Res.
+2016, 49, 370−378.
+(24) Patel, S. N.; Glaudell, A. M.; Peterson, K. A.; Thomas, E. M.;
+O’Hara, K. A.; Lim, E.; Chabinyc, M. L. Morphology Controls the
+Thermoelectric Power Factor of a Doped Semiconducting Polymer.
+Sci. Adv. 2017, 3, No. e1700434.
+(25) Ma, T.; Dong, B. X.; Grocke, G. L.; Strzalka, J.; Patel, S. N.
+Leveraging Sequential Doping of Semiconducting Polymers to Enable
+Functionally Graded Materials for Organic Thermoelectrics. Macro-
+molecules 2020, 53, 2882−2892.
+(26) Scholes, D. T.; Yee, P. Y.; Lindemuth, J. R.; Kang, H.; Onorato,
+J.; Ghosh, R.; Luscombe, C. K.; Spano, F. C.; Tolbert, S. H.; Schwartz,
+B. J. The Effects of Crystallinity on Charge Transport and the
+Structure of Sequentially Processed F4TCNQ-Doped Conjugated
+Polymer Films. Adv. Funct. Mater. 2017, 27, No. 1702654.
+(27) Hamidi-Sakr, A.; Biniek, L.; Bantignies, J. L.; Maurin, D.;
+Herrmann, L.; Leclerc, N.; Lévêque, P.; Vijayakumar, V.;
+Zimmermann, N.; Brinkmann, M. A Versatile Method to Fabricate
+Highly In-Plane Aligned Conducting Polymer Films with Anisotropic
+Charge Transport and Thermoelectric Properties: The Key Role of
+Alkyl Side Chain Layers on the Doping Mechanism. Adv. Funct.
+Mater. 2017, 27, No. 1700173.
+(28) Glaudell, A. M.; Cochran, J. E.; Patel, S. N.; Chabinyc, M. L.
+Impact of the Doping Method on Conductivity and Thermopower in
+Semiconducting Polythiophenes. Adv. Energy Mater. 2015, 5,
+No. 1401072.
+(29) Schlitz, R. A.; Brunetti, F. G.; Glaudell, A. M.; Miller, P. L.;
+Brady, M. A.; Takacs, C. J.; Hawker, C. J.; Chabinyc, M. L. Solubility-
+Limited Extrinsic n-Type Doping of a High Electron Mobility
+Polymer for Thermoelectric Applications. Adv. Mater. 2014, 26,
+2825−2830.
+(30) Vijayakumar, V.; Zhong, Y.; Untilova, V.; Bahri, M.; Herrmann,
+L.; Biniek, L.; Leclerc, N.; Brinkmann, M. Bringing Conducting
+Polymers to High Order: Toward Conductivities beyond 10 5 S Cm
+−1 and Thermoelectric Power Factors of 2 MW m −1 K −2. Adv.
+Energy Mater. 2019, No. 1900266.
+(31) Li, J.; Rochester, C. W.; Jacobs, I. E.; Aasen, E. W.; Friedrich,
+S.; Stroeve, P.; Moulé, A. J. The Effect of Thermal Annealing on
+Dopant Site Choice in Conjugated Polymers. Org. Electron. 2016, 33,
+23−31.
+(32) Li, J.; Rochester, C. W.; Jacobs, I. E.; Friedrich, S.; Stroeve, P.;
+Riede, M.; Moulé, A. J. Measurement of Small Molecular Dopant
+F4TCNQ and C60F36 Diffusion in Organic Bilayer Architectures.
+ACS Appl. Mater. Interfaces 2015, 7, 28420−28428.
+(33) Li, J.; Koshnick, C.; Diallo, S. O.; Ackling, S.; Huang, D. M.;
+Jacobs, I. E.; Harrelson, T. F.; Hong, K.; Zhang, G.; Beckett, J.; et al.
+Quantitative Measurements of the Temperature-Dependent Micro-
+scopic and Macroscopic Dynamics of a Molecular Dopant in a
+Conjugated Polymer. Macromolecules 2017, 50, 5476−5489.
+(34) Yamashita, Y.; Tsurumi, J.; Ohno, M.; Fujimoto, R.; Kumagai,
+S.; Kurosawa, T.; Okamoto, T.; Takeya, J.; Watanabe, S. Efficient
+Molecular Doping of Polymeric Semiconductors Driven by Anion
+Exchange. Nature 2019, 572, 634−638.
+(35) Kroon, R.; Kiefer, D.; Stegerer, D.; Yu, L.; Sommer, M.; Müller,
+C. Polar Side Chains Enhance Processability, Electrical Conductivity,
+and Thermal Stability of a Molecularly p-Doped Polythiophene. Adv.
+Mater. 2017, 29, No. 1700930.
+(36) Kiefer, D.; Kroon, R.; Hofmann, A. I.; Sun, H.; Liu, X.;
+Giovannitti, A.; Stegerer, D.; Cano, A.; Hynynen, J.; Yu, L.; et al.
+Double Doping of Conjugated Polymers with Monomer Molecular
+Dopants. Nat. Mater. 2019, 18, 149−155.
+(37) Dong, B. X.; Nowak, C.; Onorato, J. W.; Strzalka, J.; Escobedo,
+F. A.; Luscombe, C. K.; Nealey, P. F.; Patel, S. N. Influence of Side-
+Chain Chemistry on Structure and Ionic Conduction Characteristics
+of Polythiophene Derivatives: A Computational and Experimental
+Study. Chem. Mater. 2019, 31, 1418−1429.
+(38) Nielsen, C. B.; Giovannitti, A.; Sbircea, D. T.; Bandiello, E.;
+Niazi, M. R.; Hanifi, D. A.; Sessolo, M.; Amassian, A.; Malliaras, G.
+G.; Rivnay, J.; et al. Molecular Design of Semiconducting Polymers
+for High-Performance Organic Electrochemical Transistors. J. Am.
+Chem. Soc. 2016, 138, 10252−10259.
+(39) Hu, P.; Du, K.; Wei, F.; Jiang, H.; Kloc, C. Crystal Growth,
+HOMO-LUMO Engineering, and Charge Transfer Degree in
+Perylene-FxTCNQ (x = 1, 2, 4) Organic Charge Transfer Binary
+Compounds. Cryst. Growth Des. 2016, 16, 3019−3027.
+(40) Li, J.; Duchemin, I.; Roscioni, O. M.; Friederich, P.; Anderson,
+M.; Da Como, E.; Kociok-Köhn, G.; Wenzel, W.; Zannoni, C.;
+Beljonne, D.; et al. Host Dependence of the Electron Affinity of
+Molecular Dopants. Mater. Horiz. 2019, 6, 107−114.
+(41) Méndez, H.; Heimel, G.; Winkler, S.; Frisch, J.; Opitz, A.;
+Sauer, K.; Wegner, B.; Oehzelt, M.; Röthel, C.; Duhm, S.; et al.
+Charge-Transfer Crystallites as Molecular Electrical Dopants. Nat.
+Commun. 2015, 6, No. 8560.
+(42) Wang, C.; Duong, D. T.; Vandewal, K.; Rivnay, J.; Salleo, A.
+Optical Measurement of Doping Efficiency in Poly(3-Hexylthio-
+phene) Solutions and Thin Films. Phys. Rev. B: Condens. Matter Mater.
+Phys. 2015, 91, No. 085205.
+(43) Jacobs, I. E.; Aasen, E. W.; Oliveira, J. L.; Fonseca, T. N.;
+Roehling, J. D.; Li, J.; Zhang, G.; Augustine, M. P.; Mascal, M.;
+Moulé, A. J. Comparison of Solution-Mixed and Sequentially
+Processed P3HT:F4TCNQ FFlms: Effect of Doping-Induced
+Aggregation on Film Morphology. J. Mater. Chem. C 2016, 4,
+3454−3466.
+(44) Coehoorn, R.; Pasveer, W.; Bobbert, P.; Michels, M. Charge-
+Carrier Concentration Dependence of the Hopping Mobility in
+Organic Materials with Gaussian Disorder. Phys. Rev. B 2005, 72,
+No. 155206.
+(45) Li, A.; Dong, B. X.; Green, P. Influence of Morphological
+Disorder on In- and Out-of-Plane Charge Transport in Conjugated
+Polymer Films. MRS Commun. 2015, 5, 593−598.
+(46) Dong, B. X.; Li, A.; Strzalka, J.; Stein, G. E.; Green, P. F.
+Molecular Organization in MAPLE-Deposited Conjugated Polymer
+Thin Films and the Implications for Carrier Transport Characteristics.
+J. Polym. Sci., Part B: Polym. Phys. 2017, 55, 39−48.
+(47) Hammond, M. R.; Kline, R. J.; Herzing, A. A.; Richter, L. J.;
+Germack, D. S.; Ro, H.-W.; Soles, C. L.; Fischer, D. A.; Xu, T.; Yu, L.;
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://dx.doi.org/10.1021/acs.chemmater.0c04153
+Chem. Mater. 2021, 33, 741−753
+752
+
+et al. Molecular Order in High-Efficiency Polymer/Fullerene Bulk
+Heterojunction Solar Cells. ACS Nano 2011, 5, 8248−8257.
+(48) Thomas, E. M.; Brady, M. A.; Nakayama, H.; Popere, B. C.;
+Segalman, R. A.; Chabinyc, M. L. X-Ray Scattering Reveals Ion-
+Induced Microstructural Changes During Electrochemical Gating of
+Poly(3-Hexylthiophene). Adv. Funct. Mater. 2018, No. 1803687.
+(49) Thelen, J. L.; Wu, S. L.; Javier, A. E.; Srinivasan, V.; Balsara, N.
+P.; Patel, S. N. Relationship between Mobility and Lattice Strain in
+Electrochemically Doped Poly(3-Hexylthiophene). ACS Macro Lett.
+2015, 4, 1386−1391.
+(50) Guardado, J. O.; Salleo, A. Structural Effects of Gating Poly(3-
+Hexylthiophene) through an Ionic Liquid. Adv. Funct. Mater. 2017,
+27, No. 1701791.
+(51) Jacobs, I. E.; Cendra, C.; Harrelson, T. F.; Bedolla Valdez, Z. I.;
+Faller, R.; Salleo, A.; Moulé, A. J. Polymorphism Controls the Degree
+of Charge Transfer in a Molecularly Doped Semiconducting Polymer.
+Mater. Horiz. 2018, 5, 655−660.
+(52) Müller, L.; Nanova, D.; Glaser, T.; Beck, S.; Pucci, A.; Kast, A.
+K.; Schröder, R. R.; Mankel, E.; Pingel, P.; Neher, D.; et al. Charge-
+Transfer-Solvent Interaction Predefines Doping Efficiency in p-Doped
+P3HT Films. Chem. Mater. 2016, 28, 4432−4439.
+(53) Liu, W.; Müller, L.; Ma, S.; Barlow, S.; Marder, S. R.; Kowalsky,
+W.; Köhn, A.; Lovrincic, R. The Origin of the π-π Spacing Change
+upon Doping of Semiconducting Polymers. J. Phys. Chem. C 2018,
+27983.
+(54) Schmode, P.; Savva, A.; Kahl, R.; Ohayon, D.; Meichsner, F.;
+Dolynchuk, O.; Thurn-Albrecht, T.; Inal, S.; Thelakkat, M. The Key
+Role of Side Chain Linkage in Structure Formation and Mixed
+Conduction of Ethylene Glycol Substituted Polythiophenes. ACS
+Appl. Mater. Interfaces 2020, 12, 13029−13039.
+(55) Chew, A. R.; Ghosh, R.; Shang, Z.; Spano, F. C.; Salleo, A.
+Sequential Doping Reveals the Importance of Amorphous Chain
+Rigidity in Charge Transport of Semi-Crystalline Polymers. J. Phys.
+Chem. Lett. 2017, 8, 4974−4980.
+(56) Tsoi, W. C.; James, D. T.; Kim, J. S.; Nicholson, P. G.; Murphy,
+C. E.; Bradley, D. D. C.; Nelson, J.; Kim, J. S. The Nature of In-Plane
+Skeleton Raman Modes of P3HT and Their Correlation to the
+Degree of Molecular Order in P3HT:PCBM Blend Thin Films. J. Am.
+Chem. Soc. 2011, 133, 9834−9843.
+(57) Lim, E.; Glaudell, A. M.; Miller, R.; Chabinyc, M. L. The Role
+of Ordering on the Thermoelectric Properties of Blends of
+Regioregular and Regiorandom Poly(3-Hexylthiophene). Adv. Elec-
+tron. Mater. 2019, No. 1800915.
+(58) Finn, P.; Jacobs, I. E.; Armitage, J.; Wu, R.; Paulsen, B.; Freeley,
+M.; Palma, M.; Rivnay, J.; Sirringhaus, H.; Nielsen, C. Effect of Polar
+Side Chains on Neutral and P-Doped Polythiophene. J. Mater. Chem.
+C 2020, 16216.
+(59) Jiang, Z. GIXSGUI: A MATLAB Toolbox for Grazing-
+Incidence X-Ray Scattering Data Visualization and Reduction, and
+Indexing of Buried Three-Dimensional Periodic Nanostructured
+Films. J. Appl. Crystallogr. 2015, 48, 917−926.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://dx.doi.org/10.1021/acs.chemmater.0c04153
+Chem. Mater. 2021, 33, 741−753
+753
+

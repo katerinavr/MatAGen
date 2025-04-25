@@ -1,0 +1,959 @@
+{
+   "page_1_img_1.png": {
+      "title": "Bioderived Radical Polymers for Sustainable Energy Storage Materials",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Bioderived_Radical_Polymers\\Bioderived_Radical_Polymers",
+      "image_url": [],
+      "figure_name": "page_1_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_1_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.5467801690101624,
+            "height": 227,
+            "width": 303,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 330
+               },
+               {
+                  "x": 303,
+                  "y": 330
+               },
+               {
+                  "x": 0,
+                  "y": 557
+               },
+               {
+                  "x": 303,
+                  "y": 557
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 330
+                  },
+                  {
+                     "x": 303,
+                     "y": 330
+                  },
+                  {
+                     "x": 0,
+                     "y": 557
+                  },
+                  {
+                     "x": 303,
+                     "y": 557
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_1_img_2.png": {
+      "title": "Bioderived Radical Polymers for Sustainable Energy Storage Materials",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Bioderived_Radical_Polymers\\Bioderived_Radical_Polymers",
+      "image_url": [],
+      "figure_name": "page_1_img_2.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_1_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 397,
+            "width": 299,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 299,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 397
+               },
+               {
+                  "x": 299,
+                  "y": 397
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 299,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 397
+                  },
+                  {
+                     "x": 299,
+                     "y": 397
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_2_img_1.png": {
+      "title": "Bioderived Radical Polymers for Sustainable Energy Storage Materials",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Bioderived_Radical_Polymers\\Bioderived_Radical_Polymers",
+      "image_url": [],
+      "figure_name": "page_2_img_1.png",
+      "full_caption": "Figure 1. (a) Synthetic scheme showing the progression from the monomer, \u03b2-myrcene, to poly(myrcene-epoxide) (PME) via epoxidation, and the ring opening addition of hydroxy-TEMPO (H-TEMPO) using the organobase catalyst DBU to create the PME-H-TEMPO species (PME-TEMPO) via free radical polymerization (FR). (b) Representative 1H NMR spectra of PBM, PME, and PME-TEMPO. (c) Representative SEC chromatograms showing that the number-average diameter of the material increases at each synthetic step.",
+      "figure_path": "output\\figures\\page_2_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9423617124557495,
+            "height": 837,
+            "width": 1005,
+            "geometry": [
+               {
+                  "x": 8,
+                  "y": 569
+               },
+               {
+                  "x": 1013,
+                  "y": 569
+               },
+               {
+                  "x": 8,
+                  "y": 1406
+               },
+               {
+                  "x": 1013,
+                  "y": 1406
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 8,
+                     "y": 569
+                  },
+                  {
+                     "x": 1013,
+                     "y": 569
+                  },
+                  {
+                     "x": 8,
+                     "y": 1406
+                  },
+                  {
+                     "x": 1013,
+                     "y": 1406
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Representative 1H NMR spectra of PBM, PME, and PME-TEMPO.",
+            "keywords": [
+               "NMR",
+               "PBM",
+               "PME"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.8458057045936584,
+            "height": 839,
+            "width": 971,
+            "geometry": [
+               {
+                  "x": 979,
+                  "y": 568
+               },
+               {
+                  "x": 1950,
+                  "y": 568
+               },
+               {
+                  "x": 979,
+                  "y": 1407
+               },
+               {
+                  "x": 1950,
+                  "y": 1407
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 979,
+                     "y": 568
+                  },
+                  {
+                     "x": 1950,
+                     "y": 568
+                  },
+                  {
+                     "x": 979,
+                     "y": 1407
+                  },
+                  {
+                     "x": 1950,
+                     "y": 1407
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Representative SEC chromatograms showing that the number-average diameter of the material increases at each synthetic step.",
+            "keywords": [
+               "SEC",
+               "diameter",
+               "synthesis"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.14632189273834229,
+            "height": 560,
+            "width": 1945,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1945,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 560
+               },
+               {
+                  "x": 1945,
+                  "y": 560
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1945,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 560
+                  },
+                  {
+                     "x": 1945,
+                     "y": 560
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Synthetic scheme showing the progression from the monomer, \u03b2-myrcene, to poly(myrcene-epoxide) (PME) via epoxidation, and the ring opening addition of hydroxy-TEMPO (H-TEMPO) using the organobase catalyst DBU to create the PME-H-TEMPO species (PME-TEMPO) via free radical polymerization (FR).",
+            "keywords": [
+               "Epoxidation",
+               "Polymerization",
+               "Catalyst"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_4_img_1.png": {
+      "title": "Bioderived Radical Polymers for Sustainable Energy Storage Materials",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Bioderived_Radical_Polymers\\Bioderived_Radical_Polymers",
+      "image_url": [],
+      "figure_name": "page_4_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_4_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 736,
+            "width": 836,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 836,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 736
+               },
+               {
+                  "x": 836,
+                  "y": 736
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 836,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 736
+                  },
+                  {
+                     "x": 836,
+                     "y": 736
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": null,
+                  "geometry": [
+                     {
+                        "x": 151,
+                        "y": 119
+                     },
+                     {
+                        "x": 151,
+                        "y": 126
+                     },
+                     {
+                        "x": 227,
+                        "y": 126
+                     },
+                     {
+                        "x": 227,
+                        "y": 119
+                     }
+                  ],
+                  "confidence": 0.7047447562217712,
+                  "length": 76,
+                  "label_line_distance": -1
+               }
+            ],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_4_img_2.png": {
+      "title": "Bioderived Radical Polymers for Sustainable Energy Storage Materials",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Bioderived_Radical_Polymers\\Bioderived_Radical_Polymers",
+      "image_url": [],
+      "figure_name": "page_4_img_2.png",
+      "full_caption": "Figure 2. Representative cyclic voltammograms (CVs) of FR, FRL, and RAFT PME-TEMPO species showing the oxidation and reduction reactions of the TEMPO radical. An electrolyte solution of 0.1 M tetrabutylammonium hexafluorophosphate (TBAPF6) in acetonitrile was used with scan rates of 50 mV s\u22121 and a polymer concentration of 10 mg mL\u22121.",
+      "figure_path": "output\\figures\\page_4_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 752,
+            "width": 920,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 920,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 752
+               },
+               {
+                  "x": 920,
+                  "y": 752
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 920,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 752
+                  },
+                  {
+                     "x": 920,
+                     "y": 752
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_5_img_1.png": {
+      "title": "Bioderived Radical Polymers for Sustainable Energy Storage Materials",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Bioderived_Radical_Polymers\\Bioderived_Radical_Polymers",
+      "image_url": [],
+      "figure_name": "page_5_img_1.png",
+      "full_caption": "Figure 4. Electrical conductivity of (a) FRL-75, (b) FRL-100, (c) FR-100, and (d) FR-150 PME-TEMPO materials with increasing Li salt loadings at a frequency of 10^6 Hz as a function of temperature.",
+      "figure_path": "output\\figures\\page_5_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.3774624168872833,
+            "height": 775,
+            "width": 1003,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 2
+               },
+               {
+                  "x": 1003,
+                  "y": 2
+               },
+               {
+                  "x": 0,
+                  "y": 777
+               },
+               {
+                  "x": 1003,
+                  "y": 777
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 2
+                  },
+                  {
+                     "x": 1003,
+                     "y": 2
+                  },
+                  {
+                     "x": 0,
+                     "y": 777
+                  },
+                  {
+                     "x": 1003,
+                     "y": 777
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "FRL-75",
+            "keywords": [
+               "Polymer",
+               "Characterization",
+               "FRL-75"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.22879236936569214,
+            "height": 773,
+            "width": 932,
+            "geometry": [
+               {
+                  "x": 1006,
+                  "y": 0
+               },
+               {
+                  "x": 1938,
+                  "y": 0
+               },
+               {
+                  "x": 1006,
+                  "y": 773
+               },
+               {
+                  "x": 1938,
+                  "y": 773
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 1006,
+                     "y": 0
+                  },
+                  {
+                     "x": 1938,
+                     "y": 0
+                  },
+                  {
+                     "x": 1006,
+                     "y": 773
+                  },
+                  {
+                     "x": 1938,
+                     "y": 773
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "FRL-100",
+            "keywords": [
+               "Material",
+               "Characterization",
+               "FRL-100"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.21785002946853638,
+            "height": 874,
+            "width": 930,
+            "geometry": [
+               {
+                  "x": 1008,
+                  "y": 780
+               },
+               {
+                  "x": 1938,
+                  "y": 780
+               },
+               {
+                  "x": 1008,
+                  "y": 1654
+               },
+               {
+                  "x": 1938,
+                  "y": 1654
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 1008,
+                     "y": 780
+                  },
+                  {
+                     "x": 1938,
+                     "y": 780
+                  },
+                  {
+                     "x": 1008,
+                     "y": 1654
+                  },
+                  {
+                     "x": 1938,
+                     "y": 1654
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "FR-150 PME-TEMPO materials with increasing Li salt loadings at a frequency of 10^6 Hz as a function of temperature.",
+            "keywords": [
+               "Li salt",
+               "frequency",
+               "temperature"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.1458582878112793,
+            "height": 867,
+            "width": 1005,
+            "geometry": [
+               {
+                  "x": 2,
+                  "y": 785
+               },
+               {
+                  "x": 1007,
+                  "y": 785
+               },
+               {
+                  "x": 2,
+                  "y": 1652
+               },
+               {
+                  "x": 1007,
+                  "y": 1652
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 2,
+                     "y": 785
+                  },
+                  {
+                     "x": 1007,
+                     "y": 785
+                  },
+                  {
+                     "x": 2,
+                     "y": 1652
+                  },
+                  {
+                     "x": 1007,
+                     "y": 1652
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "FR-100",
+            "keywords": [
+               "Polymer",
+               "Flame-retardant",
+               "Testing"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_6_img_1.png": {
+      "title": "Bioderived Radical Polymers for Sustainable Energy Storage Materials",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Bioderived_Radical_Polymers\\Bioderived_Radical_Polymers",
+      "image_url": [],
+      "figure_name": "page_6_img_1.png",
+      "full_caption": "Figure 5. Ionic conductivity of (a) FRL-75, (b) FRL-100, (c) FR-100, and (d) FR-150 PME-TEMPO materials with increasing Li salt loadings at a frequency of 10 Hz as a function of temperature.",
+      "figure_path": "output\\figures\\page_6_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.8491232991218567,
+            "height": 779,
+            "width": 942,
+            "geometry": [
+               {
+                  "x": 997,
+                  "y": 0
+               },
+               {
+                  "x": 1939,
+                  "y": 0
+               },
+               {
+                  "x": 997,
+                  "y": 779
+               },
+               {
+                  "x": 1939,
+                  "y": 779
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 997,
+                     "y": 0
+                  },
+                  {
+                     "x": 1939,
+                     "y": 0
+                  },
+                  {
+                     "x": 997,
+                     "y": 779
+                  },
+                  {
+                     "x": 1939,
+                     "y": 779
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "FRL-100",
+            "keywords": [
+               "FRL-100",
+               "material properties",
+               "characterization"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.41237175464630127,
+            "height": 774,
+            "width": 996,
+            "geometry": [
+               {
+                  "x": 4,
+                  "y": 1
+               },
+               {
+                  "x": 1000,
+                  "y": 1
+               },
+               {
+                  "x": 4,
+                  "y": 775
+               },
+               {
+                  "x": 1000,
+                  "y": 775
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 4,
+                     "y": 1
+                  },
+                  {
+                     "x": 1000,
+                     "y": 1
+                  },
+                  {
+                     "x": 4,
+                     "y": 775
+                  },
+                  {
+                     "x": 1000,
+                     "y": 775
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "FRL-75",
+            "keywords": [
+               "Polymer",
+               "Characterization",
+               "FRL-75"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.31520727276802063,
+            "height": 860,
+            "width": 927,
+            "geometry": [
+               {
+                  "x": 1011,
+                  "y": 776
+               },
+               {
+                  "x": 1938,
+                  "y": 776
+               },
+               {
+                  "x": 1011,
+                  "y": 1636
+               },
+               {
+                  "x": 1938,
+                  "y": 1636
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 1011,
+                     "y": 776
+                  },
+                  {
+                     "x": 1938,
+                     "y": 776
+                  },
+                  {
+                     "x": 1011,
+                     "y": 1636
+                  },
+                  {
+                     "x": 1938,
+                     "y": 1636
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "FR-150 PME-TEMPO materials with increasing Li salt loadings at a frequency of 10 Hz as a function of temperature.",
+            "keywords": [
+               "Li salt",
+               "frequency",
+               "temperature"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.13398125767707825,
+            "height": 853,
+            "width": 1008,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 783
+               },
+               {
+                  "x": 1008,
+                  "y": 783
+               },
+               {
+                  "x": 0,
+                  "y": 1636
+               },
+               {
+                  "x": 1008,
+                  "y": 1636
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 783
+                  },
+                  {
+                     "x": 1008,
+                     "y": 783
+                  },
+                  {
+                     "x": 0,
+                     "y": 1636
+                  },
+                  {
+                     "x": 1008,
+                     "y": 1636
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "FR-100",
+            "keywords": [
+               "Polymer",
+               "Characterization",
+               "FR-100"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   }
+}

@@ -1,0 +1,597 @@
+
+2002748  (1 of 6)
+© 2020 The Authors. Published by Wiley-VCH GmbH
+www.advmat.de
+Communication
+Side Chain Redistribution as a Strategy to Boost Organic 
+Electrochemical Transistor Performance and Stability
+Maximilian Moser,* Tania Cecilia Hidalgo, Jokubas Surgailis, Johannes Gladisch, 
+Sarbani Ghosh, Rajendar Sheelamanthula, Quentin Thiburce, Alexander Giovannitti, 
+Alberto Salleo, Nicola Gasparini, Andrew Wadsworth, Igor Zozoulenko, Magnus Berggren, 
+Eleni Stavrinidou, Sahika Inal, and Iain McCulloch*
+DOI: 10.1002/adma.202002748
+absence of any insulating polyelectrolyte 
+component improving their volumetric 
+capacitance, and v) their excellent com-
+patibility with enzymes allowing for 
+direct detection of biologically relevant 
+metabolites.[7,19]
+Several molecular design strategies 
+have been employed to boost the per-
+formance of glycolated semiconductors 
+for OECTs, including: changing the EG 
+chain length,[20] using mixed alkyl/EG 
+solubilizing chains[17,21] and altering the 
+aromatic moieties in the conjugated back-
+bone.[4,11,12,18,22] The success of these strategies is typically evalu-
+ated by comparing the OECT steady-state performance, which 
+is accomplished by assessing the maximum transconductance 
+(gm) that can be achieved in devices[23]
+m
+TH
+G
+µ
+(
+)
+=
+−
+∗
+g
+C Wd
+L
+V
+V
+	
+(1)
+where μ is the electronic charge carrier mobility, C* is the volu-
+metric capacitance, W, d, and L are the channel width, depth, 
+A series of glycolated polythiophenes for use in organic electrochemical 
+transistors (OECTs) is designed and synthesized, differing in the distribution 
+of their ethylene glycol chains that are tethered to the conjugated backbone. 
+While side chain redistribution does not have a significant impact on the 
+optoelectronic properties of the polymers, this molecular engineering strategy 
+strongly impacts the water uptake achieved in the polymers. By careful opti-
+mization of the water uptake in the polymer films, OECTs with unprecedented 
+steady-state performances in terms of [μC*] and current retentions up to 98% 
+over 700 electrochemical switching cycles are developed.
+Organic electrochemical transistors (OECTs) are bioelectronic 
+devices that have received considerable recent interest due to 
+their ability to track biological activity.[1–10] Among the classes 
+of channel materials developed for OECTs, ethylene glycol 
+(EG)-functionalized organic semiconductors are particularly 
+attractive due to: i) their high OECT performance, rivalling that 
+of poly(3,4-ethylenedioxythiophene) (PEDOT) analog bench-
+marks,[11–13] ii) the general lack of post-processing treatments 
+and solvent additives required to achieve maxi­mum OECT per-
+formance,[14,15] iii) their facile synthetic tunability,[11,16–18] iv) the 
+The ORCID identification number(s) for the author(s) of this article 
+can be found under https://doi.org/10.1002/adma.202002748.
+M. Moser, Dr. N. Gasparini, Dr. A. Wadsworth
+Department of Chemistry and Center for Plastic Electronics
+Imperial College London
+London W12 0BZ, UK
+E-mail: maximilian.moser13@imperial.ac.uk
+T. C. Hidalgo, J. Surgailis, Prof. S. Inal
+Organic Bioelectronics Laboratory
+Biological Sciences and Engineering Division
+King Abdullah University of Science and Technology (KAUST)
+Thuwal 23955-6900, Saudi Arabia
+J. Gladisch, Dr. S. Ghosh, Prof. I. Zozoulenko, Prof. M. Berggren,  
+Prof. E. Stavrinidou
+Laboratory of Organic Electronics
+Department of Science and Technology
+Linköping University
+Norrköping SE-60174, Sweden
+J. Gladisch, Prof. I. Zozoulenko, Prof. M. Berggren, Prof. E. Stavrinidou
+Department of Science and Technology
+Wallenberg Wood Science Center
+Linköping University
+Norrköping SE-60174, Sweden
+Dr. R. Sheelamanthula, Prof. I. McCulloch
+Physical Science and Engineering Division
+King Abdullah University of Science and Technology (KAUST)
+Thuwal 23955-6900, Saudi Arabia
+E-mail: iain.mcculloch@kaust.edu.sa
+Dr. Q. Thiburce, Dr. A. Giovannitti, Prof. A. Salleo
+Department of Materials Science and Engineering
+Stanford University
+Stanford, CA 94305, USA
+Prof. I. McCulloch
+Department of Chemistry
+University of Oxford
+Oxford OX1 3TA, UK
+© 2020 The Authors. Published by Wiley-VCH GmbH. This is an open  
+access article under the terms of the Creative Commons Attribution  
+License, which permits use, distribution and reproduction in any medium, 
+provided the original work is properly cited.
+Adv. Mater. 2020, 32, 2002748
+
+© 2020 The Authors. Published by Wiley-VCH GmbH
+2002748  (2 of 6)
+www.advmat.de
+www.advancedsciencenews.com
+and length, respectively, VTh is the threshold voltage, and VG is 
+the gate voltage.
+As highlighted in Equation  (1), the gm depends on both 
+material ([μC*]) and device geometry dependent terms (Wd/L). 
+A more representative performance comparison of different 
+channel materials is thus accomplished by comparison of 
+[μC*].[13] Currently, the highest [μC*] recorded for glycolated 
+semiconductors is 261 F cm−1 V−1 s−1 for p(g2T-TT),[12,13] while 
+the highest [μC*] reported for any OECT channel material is 
+490 F cm−1 V−1 s−1 for Crys-P.[15]
+Although OECT steady-state performance is obviously of 
+crucial importance, an equally significant but often overlooked 
+parameter, is device stability, with few studies focusing on the 
+operational stability of the materials during operation.[16,22,24,25] 
+This aspect is however particularly relevant for the application 
+of OECTs as ion and biomolecule sensors and implantable brain 
+signal recorders.[5–7,9] Among the various high performance 
+channel materials, the current benchmark, p(g2T-TT), has 
+demon­strated devices retaining only 75% of their initial current 
+(ID/ID,0) after ≈700 doping/dedoping cycles (2 h of constant elec-
+trochemical cycling), hence highlighting the need for more stable 
+materials for the commercialization of OECT technologies.[12]
+With these considerations in mind, we herein outline a 
+new molecular design strategy, by which we successfully 
+improved both device performance and operational stability. 
+In fact, we report [μC*] values of 522 and 496 F V−1 cm−1 s−1 
+and corresponding (ID/ID,0) retentions of 87% and 98% after 
+≈700 doping/dedoping cycles (2 h of constant electrochemical 
+cycling) for two of our polymers.
+The polymer series investigated was derived from the pre-
+viously reported p(gT2) homopolymer (from here onwards 
+referred to as p(g3T2)).[26,27] Next, the EG length on one bith-
+iophene moiety was increased by one repeat unit and simul-
+taneously decreased by one on the successive bithiophene 
+moiety (from here onward referred to as “side chain redistri-
+bution”), affording the alternating diethylene-tetraethylene 
+glycol polymer, p(g2T2-g4T2). Further redistributions in the 
+side chains led to the alternating monoethylene–pentaethylene 
+glycol, p(g1T2-g5T2), and the alternating methoxy-hexaethylene 
+glycol, p(g0T2-g6T2), polymers. The polymers’ structures are 
+shown in Figure 1a. Note that the average number of EG repeat 
+units per polymer repeat unit remained constant across the 
+series in this design strategy. An average of three EG units per 
+thiophene ring was selected to ensure good polymer solubility. 
+Moreover, we envisaged that an alkoxy substituent on each 
+thiophene ring could be beneficial towards device stability as: 
+i) the lone pair of electrons of the oxygen atom directly conju-
+gated to the aromatic backbone can donate electron density via 
+resonance, thus lowering the polymers’ ionization potential (IP) 
+and stabilizing the charged polymer species and ii) the added 
+steric bulk from the substituent, should shield the conjugated 
+backbone from interfering chemical species.
+The synthesis of the polymers involved: i) transetherifica-
+tion of 3-methoxythiophene with the corresponding EG chain,  
+ii) homocoupling of the resulting 3-substituted thiophene, 
+and iii) functionalization of the bithiophene coupling partner 
+to enable subsequent Stille crosscoupling polymerization. A 
+detailed account of the synthetic procedures can be found in 
+the Supporting Information.
+The electrochemical properties of the polymers were char-
+acterized by cyclic voltammetry, UV–vis spectroscopy, and 
+spectroelectrochemistry. Details regarding the experimental 
+set-up are located in the Supporting Information. The polymers’ 
+onset of oxidation in organic (Eox,org) and aqueous (Eox,aq) media, 
+IPs, maximum absorption wavelength in solution (λmax,soln) and 
+film (λmax,film), and optical gap (Eg,opt) are summarized in Table 1.
+Figure S1 (Supporting Information) illustrates that each 
+polymer can be electrochemically switched, reversibly, in 
+organic and aqueous media. The presence of two cathodic 
+peaks also indicates that the polymers can be oxidized twice 
+within the given potential range, consistent with previous 
+reports on glycolated polythiophenes.[18,27] As seen in Table 1 the 
+Figure 1.  a) Chemical structures of polymers investigated. Spectroelectrochemistry of b) p(g3T2), c) p(g2T2-g4T2), d) p(g1T2-g5T2), and  
+e) p(g0T2-g6T2) employing a 0.1 m NaCl(aq) electrolyte.
+Adv. Mater. 2020, 32, 2002748
+
+© 2020 The Authors. Published by Wiley-VCH GmbH
+2002748  (3 of 6)
+www.advmat.de
+www.advancedsciencenews.com
+polymers’ Eox,org and Eox,aq was −0.20 ± 0.10 V, showing that side 
+chain redistribution had little effect on the polymers’ electronic 
+properties. This was further confirmed by UV–vis spectroscopy 
+(Figure S2, Supporting Information), where no significant dif-
+ferences were found across the polymer series, both in solution 
+and thin film. For each polymer, λmax,film was bathochromi-
+cally shifted compared to its λmax,soln. Moreover, in the solid 
+state each polymer displayed 0–0 and 0–1 vibronic peaks of 
+comparable magnitude, thus not only indicating increased 
+molecular ordering, but also suggesting similar degrees of 
+order in the solid state. This hypothesis was further reflected 
+in the grazing-incidence wide-angle X-ray scattering (GIWAXS) 
+data recorded for as-cast samples of the various polymers 
+(Figure S3, Supporting Information), whereby each polymer 
+preferentially assumed an edge-on orientation, while featuring 
+three-orders of lamellar scattering and no significant π–π  
+stacking.
+The polymers’ doping mechanism was investigated by spec-
+troelectrochemistry.[28] No significant differences were observed 
+when conducting the measurements in aqueous or organic 
+media (Figure  1b–e and Figure S4, Supporting Information). 
+As shown in Figure 1b–e and Figure S4 (Supporting Informa-
+tion), each polymer was partially doped under ambient condi-
+tions, requiring a negative potential to fully dedope the films. 
+Progressively increasing the voltage to +0.2  V resulted in the 
+gradual depression of the π–π* peak (highest occupied mole-
+cular orbital (HOMO)–lowest unoccupied molecular orbital 
+(LUMO) transition) with the concomitant appearance of an 
+absorption feature at ≈1050  nm, which was attributed to the 
+polymers’ polaron.[29] Further increasing the potential to +0.5 V 
+decreased the intensity of this absorption feature which could 
+be explained by the possible formation of an even longer wave-
+length absorbing feature, related to the formation of polaronic/
+bipolaronic species of the polymers.[29,30] Inversion of the 
+potential to −0.5  V was employed to test the reversibility of 
+the doping process. The optical signature of the polymers was 
+fully restored in both media, indicating no polymer degradation 
+when cycling the polymers within the given limits. The revers-
+ible and stable electrochemical charging of the films suggests 
+that these polymers are ideal candidates as cathodes for energy 
+applications[31] or electrochromic display applications, such as 
+smart windows.[32]
+Microscale OECTs were fabricated for each polymer. Full 
+details of the OECT fabrication process can be found in the 
+Supporting Information. Devices were operated using a 0.1 m 
+NaCl(aq) electrolyte and an Ag/AgCl pellet as gate electrode.
+As shown in Figure  2, all devices could be operated in 
+enhancement mode with the devices’ VTh exactly mirroring the 
+polymers’ Eox,aq order. [μC*] was calculated from Equation (1). 
+To the best of our knowledge the [μC*] for p(g2T2-g4T2) and 
+p(g1T2-g5T2) are currently the highest reported for any OECT 
+channel material.[13,15] Note that these [μC*] values were 
+obtained without any postprocessing treatments, often required 
+for other high-performance channel materials.[14,15]
+To better understand the performance difference across the 
+polymers, we individually compared the results incurred for C* 
+and μOECT. C* values were recorded with electrochemical imped-
+ance spectroscopy (EIS) at the VG incurring the maximum gm 
+and fit to a Rs(Rp||C) circuit.[12] A good fit between theoretical 
+and experimental values was observed (Figure S5, Supporting 
+Information). As seen from Table  2 the C* increased from  
+156 ± 1 F cm−3 for p(g3T2) to 187 ± 8 F cm−3 for p(g2T2-g4T2), 
+while further side chain redistributions resulted in decreased C*  
+of 133 ± 3 and 74 ± 4 F cm−3 for p(g1T2-g5T2) and p(g0T2-g6T2), 
+respectively. Given the absence of any differences in the 
+anticipated doping levels of the polymers as suggested by 
+spectroelectrochemistry, we conducted electrochemical quartz 
+crystal microbalance with dissipation monitoring (EQCM-D) 
+studies to investigate the swelling properties of the films and 
+discuss the differing C* of the polymers. EQCM-D was used to 
+quantify the changes in mass and viscoelasticity from the influx 
+of ions and water into the organic semiconductor.[20,26,33]
+Figure S7 (Supporting Information) shows that each polymer 
+displayed significant passive swelling upon electrolyte exposure 
+in the absence of an applied bias, with the polymers swelling 
+on average by 50 ± 15%.  Passive swelling was attributed to 
+the diffusion of ions and water into the films.[26] Subsequent 
+doping of the polymers by applying +0.5  V increased their 
+volume beyond their passively swollen state, which was attrib-
+uted to the additional uptake of ions and water into the charged 
+films.[26] Notably, significant differences in the active swelling 
+were recorded, with p(g3T2), p(g2T2-g4T2), p(g1T2-g5T2),  
+and p(g0T2-g6T2) incurring volume increases of 249%, 168%, 
+10%, and 4%, respectively. In line with previous studies,  
+the polymers’ decreased active swelling upon going from 
+p(g2T2-g4T2) to p(g1T2-g5T2) and p(g0T2-g6T2) explained 
+the corresponding decrease in C* (Figure  2d).[20] Conversely, 
+p(g3T2)’s smaller C* compared to p(g2T2-g4T2) was attrib-
+uted to p(g3T2)’s additional swelling not actually contributing 
+to any additional anion uptake, but only water (Figure 2e).[20] 
+From a mechanistic standpoint, we speculate that the differ-
+ence in active swelling observed across our polymer series can 
+be attributed to the different abilities of the individual EG-
+functionalized bithiophene units to take up and stabilize water 
+molecules in their doped state. Specifically, our understanding 
+is based on the idea that increasing the EG chain length on 
+the individual bithiophene units increases their hydrophilicity 
+and ability to take up and stabilize water molecules in their 
+doped state. Consequently, we anticipate the 3,3′-dimethoxy-
+2,2′-bithiophene moiety (g0T2) to be the least able to stabi-
+lize injected water molecules, while progressively increasing 
+the number of EG repeat units to one (g1T2), to two (g2T2), 
+etc., leads to a progressively increased water molecule uptake. 
+Nonetheless, there appears to be a nonlinear positive relation-
+ship between EG side chain length and water molecule uptake, 
+Table 1.  Polymers’ optoelectronic properties.
+Polymer
+Eox,org  
+[V]a)
+Eox,aq  
+[V]b)
+IP  
+[eV]
+λmax,soln  
+[nm]c)
+λmax,film  
+[nm]d)
+Eg,opt  
+[eV]e)
+p(g3T2)
+−0.20
+−0.18
+4.46
+577
+641,−696
+1.65
+p(g2T2-g4T2)
+−0.20
+−0.17
+4.46
+581
+642,−709
+1.64
+p(g1T2-g5T2)
+−0.16
+−0.24
+4.50
+586
+636,−699
+1.65
+p(g0T2-g6T2)
+−0.23
+−0.30
+4.43
+591
+654,−705
+1.64
+a)0.1 m solution of TBA PF6 in acetonitrile used as electrolyte; b)0.1 m NaCl(aq) used 
+as electrolyte; c)Measured in chloroform; d)λmax,film recorded while applying −0.5 V; 
+e)Calculated from the onset of absorption.
+Adv. Mater. 2020, 32, 2002748
+
+© 2020 The Authors. Published by Wiley-VCH GmbH
+2002748  (4 of 6)
+www.advmat.de
+www.advancedsciencenews.com
+with the relationship seemingly becoming weaker for any addi-
+tional increases in the EG chain length after reaching three 
+EG repeat units. This hypothesis corroborates the findings for 
+an alternative polymer system, in which an initial doubling 
+of the EG side chain content in the polymers under evalua-
+tion resulted in a ≈600% increase in the active swelling, while  
+further doubling the EG chain content only resulted in  
+a ≈50% increase in the active swelling.[20]
+Given the strong dependence of the electronic transport on 
+the swelling of materials,[33] the polymers’ electronic mobility 
+trend was also explained with EQCM-D findings. p(g3T2) fea-
+tured the lowest mobility of 0.90 ± 0.10 cm2 V−1 s−1, while redis-
+tributing the EG chains increased μOECT, with p(g2T2-g4T2),  
+p(g1T2-g5T2), and p(g0T2-g6T2) incurring mobilities of  
+1.72 ± 0.31, 2.61 ± 0.30, and 2.95 ± 0.37 cm2 V−1 s−1, respectively. 
+Note how the increase closely correlates to the inverse of their 
+active swelling, i.e., the polymers exhibiting the least swelling 
+also attained the highest mobility (Figure  2d). A progressive 
+decrease in the hydration level of the glycolated semiconductors 
+thus explains the increased mobility.[33]
+From the chronoamperometry measurements conducted 
+during our EQCM-D studies we were also able to calculate the 
+diffusion coefficient of Cl− ions in our polymers (Figure S8, 
+Supporting Information); full details of the calculations can be 
+found in the Supporting Information. As shown in Figure S8 
+(Supporting Information), our results indicate that increasing 
+the water uptake in polymer films enhanced ion diffusivity, 
+thus agreeing with previous literature findings, which have 
+shown faster ionic motion to occur in polymer films with a 
+higher degree of hydration[34,35]
+Lastly, we investigated the OECTs’ operational stability 
+(Figure 3) by switching the devices “on” and “off” for 5 s each 
+and measuring the (ID/ID,0) over ≈700 doping/dedoping cycles 
+(2 h of constant electrochemical cycling). While there is cur-
+rently no standard defining the “on” state of the polymers, we 
+herein suggest that the “on” state of the polymer should be the 
+Table 2.  Steady-state OECT performance summary.
+Polymer
+d  
+[nm]
+gm  
+[mS]
+C*a)  
+[F cm−3]
+μOECTb)  
+[cm2 V−1 s−1]
+VTh  
+[V]
+[μC*]c)  
+[F V−1 cm−1 s−1]
+On/off
+p(g3T2)
+75
+8.9 ± 1.0
+156 ± 1
+0.90 ± 0.10
++0.03
+161
+105
+p(g2T2-g4T2)
+45
+6.5 ± 1.6
+187 ± 8
+1.72 ± 0.31
++0.02
+522
+105
+p(g1T2-g5T2)
+65
+10.2 ± 1.2
+133 ± 3
+2.61 ± 0.30
++0.10
+496
+105
+p(g0T2-g6T2)
+70
+8.1 ± 1.0
+74 ± 4
+2.95 ± 0.37
++0.18
+302
+105
+a)Values calculated from EIS curves fit to an Rs(Rp||C) circuit; b)Calculated from the transistor saturation mobility using the respective C* values; c)Calculated for the highest 
+performing channel from the slope of gm as a function of (Wd/L)(VTh − VG).
+Figure 2.  a) Output curves of the various polymers with a VD sweep rate of 0.60 V s−1. b) Transfer and c) corresponding transconductance curves of 
+the various polymers with a VG sweep rate of 0.60 V s−1. d) Dependence of the polymers’ C* and μOECT on their active swelling. e) Concentration of 
+chloride ions and water molecules taken up by polymers during in-situ doping using a 0.1 m NaCl(aq) electrolyte and applying +0.5 V.
+Adv. Mater. 2020, 32, 2002748
+
+© 2020 The Authors. Published by Wiley-VCH GmbH
+2002748  (5 of 6)
+www.advmat.de
+www.advancedsciencenews.com
+point affording the maximum transconductance. Consequently, 
+the applied VG and VD potentials were those that incurred the 
+maximum transconductance.
+Despite the polymers’ similar energy levels, their operational 
+stability varied significantly (Figure  3). While p(g3T2) only 
+retained 15% of its initial current, p(g2T2-g4T2), p(g1T2-g5T2), 
+and p(g0T2-g6T2) showed much improved ID/ID,0 of 87%, 98%, 
+and 98%, therefore also exceeding the 75% ID/ID,0 of the bench-
+mark, p(g2T-TT).[12] Comparing the operational stability data 
+with the swelling properties of the various polymers highlighted 
+a strong inverse relationship between the polymers’ degree of 
+active swelling and their operational stabilities. Given the sim-
+ilar morphological features of the polymers in their dry as cast 
+state and comparable degrees of passive swelling, we attributed 
+the increased stability of the polymers with the lowest degree of 
+active swelling to the significantly larger volumetric expansion 
+during OECT cycling, which is likely to lead to increased mor-
+phological changes that are detrimental to OECT performance.
+In conclusion, we have developed a molecular design strategy 
+based on the redistribution of the pendant EG chains in a series 
+of polythiophenes for OECT applications. While this strategy 
+did not considerably impact the polymers’ optoelectronic prop-
+erties, it significantly impacted their swelling capabilities and 
+consequently also their OECT steady-state performance and 
+stability. Importantly, the development of p(g2T2-g4T2) and 
+p(g1T2-g5T2), demonstrated unprecedented [μC*] values of 496 
+and 522 F V−1 cm−1 s−1 and current retentions of 87% and 98% 
+over ≈700 electrochemical switching cycles, respectively, pre-
+senting a significant advancement in OECT channel materials.
+Supporting Information
+Supporting Information is available from the Wiley Online Library or 
+from the author.
+Acknowledgements
+The authors acknowledge generous funding from KAUST for financial 
+support. The research reported in this publication was supported by 
+funding from King Abdullah University of Science and Technology 
+Office of Sponsored Research (OSR) under award nos. OSR-2018-
+CARF/CCF-3079, OSR-2015-CRG4-2572, and OSR-4106 CPF2019. The 
+authors acknowledge EC FP7 Project SC2 (610115), EC H2020 (643791), 
+and EPSRC Projects EP/G037515/1, EP/M005143/1, and EP/L016702/1. 
+J.G., S.G., I.Z., M.B., and E.S. acknowledge funding from Knut and 
+Alice Wallenberg Foundation, The Wallenberg Wood Science Center 
+(KAW 2018.0452) and the Swedish Government Strategic Research 
+Area in Materials Science on Advanced Functional Materials at 
+Linköping University (Faculty Grant SFO-Mat-LiU No. 2009-00971). The 
+computations were performed on resources provided by the Swedish 
+National Infrastructure for Computing (SNIC) at NSC and HPC2N. A.G. 
+and A.S. acknowledge funding from the TomKat Center for Sustainable 
+Energy at Stanford University.
+Conflict of Interest
+The authors declare no conflict of interest.
+Keywords
+bioelectronics, 
+ethylene-glycol-functionalized 
+polymers, 
+mixed  
+ionic–electronic conduction, organic electrochemical transistors
+Received: April 23, 2020
+Revised: July 2, 2020
+Published online: August 5, 2020
+[1]	 J.  Rivnay, S.  Inal, A.  Salleo, R. M.  Owens, M.  Berggren, 
+G. G. Malliaras, Nat. Rev. Mater. 2018, 3, 17086.
+[2]	 X. Strakosas, M. Bongo, R. M. Owens, J. Appl. Polym. Sci. 2015, 132, 
+41735.
+[3]	 R. M. Owens, G. G. Malliaras, MRS Bull. 2010, 35, 449.
+[4]	 M. Moser, J. F. Ponder, A. Wadsworth, A. Giovannitti, I. McCulloch, 
+Adv. Funct. Mater. 2019, 29, 1807033.
+[5]	 D.  Khodagholy, T.  Doublet, P.  Quilichini, M.  Gurfinkel, P.  Leleux, 
+A.  Ghestem, E.  Ismailova, T.  Hervé, S.  Sanaur, C.  Bernard, 
+G. G. Malliaras, Nat. Commun. 2013, 4, 1575.
+[6]	 A. M.  Pappa, V. F.  Curto, M.  Braendlein, X.  Strakosas, 
+M. J.  Donahue, M.  Fiocchi, G. G.  Malliaras, R. M.  Owens, Adv. 
+Healthcare Mater. 2016, 5, 2295.
+[7]	 A. M.  Pappa, D.  Ohayon, A.  Giovannitti, I. P.  Maria, A.  Savva, 
+I. Uguz, J. Rivnay, I. McCulloch, R. M. Owens, S. Inal, Sci. Adv. 2018, 
+4, eaat0911.
+[8]	 C. Liao, C. Mak, M. Zhang, H. L. W. Chan, F. Yan, Adv. Mater. 2015, 
+27, 676.
+Figure 3.  a–d) Operational stabilities of p(g3T2) (a), p(g2T2-g4T2) (b), 
+p(g1T2-g5T2) (c), and p(g0T2-g6T2) (d) over 2 h continuous electro-
+chemical cycling.
+Adv. Mater. 2020, 32, 2002748
+
+© 2020 The Authors. Published by Wiley-VCH GmbH
+2002748  (6 of 6)
+www.advmat.de
+www.advancedsciencenews.com
+[9]	 J. Rivnay, M. Ramuz, P. Leleux, A. Hama, M. Huerta, R. M. Owens, 
+Appl. Phys. Lett. 2015, 106, 043301.
+[10]	 A. Campana, T. Cramer, D. T. Simon, M. Berggren, F. Biscarini, Adv. 
+Mater. 2014, 26, 3874.
+[11]	 C. B. Nielsen, A. Giovannitti, D. T. Sbircea, E. Bandiello, M. R. Niazi, 
+D. A. Hanifi, M. Sessolo, A. Amassian, G. G. Malliaras, J. Rivnay, 
+I. McCulloch, J. Am. Chem. Soc. 2016, 138, 10252.
+[12]	 A.  Giovannitti, D. T.  Sbircea, S.  Inal, C. B.  Nielsen, E.  Bandiello, 
+D. A. Hanifi, M. Sessolo, G. G. Malliaras, I. McCulloch, J. Rivnay, 
+Proc. Natl. Acad. Sci. USA 2016, 113, 12017.
+[13]	 S. Inal, G. G. Malliaras, J. Rivnay, Nat. Commun. 2017, 8, 1767.
+[14]	 J.  Rivnay, S.  Inal, B. A.  Collins, M.  Sessolo, E.  Stavrinidou, 
+X.  Strakosas, C.  Tassone, D. M.  Delongchamp, G. G.  Malliaras, 
+Nat. Commun. 2016, 7, 11287.
+[15]	 S. M. Kim, C. H. Kim, Y. Kim, N. Kim, W. J. Lee, E. H. Lee, D. Kim, 
+S. Park, K. Lee, J. Rivnay, M. H. Yoon, Nat. Commun. 2018, 9, 3858.
+[16]	 A.  Giovannitti, C. B.  Nielsen, D. T.  Sbircea, S.  Inal, M.  Donahue, 
+M. R. Niazi, D. A. Hanifi, A. Amassian, G. G. Malliaras, J. Rivnay, 
+I. McCulloch, Nat. Commun. 2016, 7, 13066.
+[17]	 Y. Wang, E. Zeglio, H. Liao, J. Xu, F. Liu, Z. Li, I. P. Maria, D. Mawad, 
+A. Herland, I. Mcculloch, W. Yue, Chem. Mater. 2019, 31, 9797.
+[18]	 L. R. Savagian, A. M. Österholm, J. F. Ponder, K. J. Barth, J. Rivnay, 
+J. R. Reynolds, Adv. Mater. 2018, 30, 1804647.
+[19]	 D.  Ohayon, G.  Nikiforidis, A.  Savva, A.  Giugni, S.  Wustoni, 
+T. Palanisamy, X. Chen, I. P. Maria, E. Di Fabrizio, P. M. F. J. Costa, 
+I. McCulloch, S. Inal, Nat. Mater. 2020, 19, 456.
+[20]	 A.  Savva, R.  Hallani, C.  Cendra, J.  Surgailis, T. C.  Hidalgo, 
+S. Wustoni, R. Sheelamanthula, X. Chen, M. Kirkus, A. Giovannitti, 
+A. Salleo, I. McCulloch, S. Inal, Adv. Funct. Mater. 2020, 30, 1907657.
+[21]	 A.  Giovannitti, I. P.  Maria, D.  Hanifi, M. J.  Donahue, D.  Bryant, 
+K. J.  Barth, B. E.  Makdah, A.  Savva, D.  Moia, M.  Zetek, 
+P. R. F.  Barnes, O. G.  Reid, S.  Inal, G.  Rumbles, G. G.  Malliaras, 
+J. Nelson, J. Rivnay, I. McCulloch, Chem. Mater. 2018, 30, 2945.
+[22]	 A. Giovannitti, R. B. Rashid, Q. Thiburce, B. D. Paulsen, C. Cendra, 
+K. Thorley, D. Moia, J. T. Mefford, D. Hanifi, D. Weiyuan, M. Moser, 
+A. Salleo, J. Nelson, I. McCulloch, J. Rivnay, Adv. Mater. 2020, 32, 
+1908047.
+[23]	 D. A. Bernards, G. G. Malliaras, Adv. Funct. Mater. 2007, 17, 3538.
+[24]	 E. Zeglio, M. M. Schmidt, M. Thelakkat, R. Gabrielsson, N. Solin, 
+O. Inganäs, Chem. Mater. 2017, 29, 4293.
+[25]	 H. Sun, M. Vagin, S. Wang, X. Crispin, R. Forchheimer, M. Berggren, 
+S. Fabiano, Adv. Mater. 2018, 30, 1704916.
+[26]	 J.  Gladisch, E.  Stavrinidou, S.  Ghosh, A.  Giovannitti, M.  Moser, 
+I. Zozoulenko, I. McCulloch, M. Berggren, Adv. Sci. 2020, 7, 1901144.
+[27]	 D. Moia, A. Giovannitti, A. A. Szumska, I. P. Maria, E. Rezasoltani, 
+M.  Sachs, M.  Schnurr, P. R. F.  Barnes, I.  McCulloch, J.  Nelson, 
+Energy Environ. Sci. 2019, 12, 1349.
+[28]	 S. Garreau, G. Louarn, J. P. Buisson, G. Froyer, S. Lefrant, Macro-
+molecules 1999, 32, 6807.
+[29]	 I.  Zozoulenko, A.  Singh, S. K.  Singh, V.  Gueskine, X.  Crispin, 
+M. Berggren, ACS Appl. Polym. Mater. 2019, 1, 83.
+[30]	 S.  Ghosh, V.  Gueskine, M.  Berggren, I. V.  Zozoulenko, J. Phys. 
+Chem. C 2019, 123, 15467.
+[31]	 J. F. Mike, J. L. Lutkenhaus, J. Polym. Sci., Part B: Polym. Phys. 2013, 
+51, 468.
+[32]	 R. J. Mortimer, A. L. Dyer, J. R. Reynolds, Displays 2006, 27, 2.
+[33]	 A.  Savva, C.  Cendra, A.  Giugni, B.  Torre, J.  Surgailis, D.  Ohayon, 
+A.  Giovannitti, I.  McCulloch, E.  Di Fabrizio, A.  Salleo, J.  Rivnay, 
+S. Inal, Chem. Mater. 2019, 31, 927.
+[34]	 S.  Inal, J.  Rivnay, A. I.  Hofmann, I.  Uguz, M.  Mumtaz, 
+D.  Katsigiannopoulos, C.  Brochon, E.  Cloutet, G.  Hadziioannou, 
+G. G.  Malliaras, J. Polym. Sci., Part B: Polym. Phys. 2016, 54, 
+147.
+[35]	 E.  Stavrinidou, P.  Leleux, H.  Rajaona, D.  Khodagholy, J.  Rivnay, 
+M.  Lindau, S.  Sanaur, G. G.  Malliaras, Adv. Mater. 2013, 25, 
+4488.
+Adv. Mater. 2020, 32, 2002748
+

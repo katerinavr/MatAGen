@@ -1,0 +1,268 @@
+{
+  "records": [
+    {
+      "full_caption": "Scheme 1. (A) Conventional approach of pre-polymerization side-chain functionalization on conjugated polymers, and the associated limitations. (B) “Graft-onto-polymer” synthesis strategy by post-polymerization functionalization (GOP-PPF) using nucleophilic aromatic substitution (SNAr) reaction to functionalize the side chains of the conjugated polymers. (C) EG functionalized PIMECs synthesized by post-polymerization functionalization. Reaction conditions: (i) toluene, p-TsOH, 2-(2-methoxyethoxy)ethanol, 110 °C, 6 h; (ii) NBS, anhydrous DCM, 0 °C, 2 h; (iii) Ni(COD)2, COD, bpy, THF; (iv) n-BuLi, Me3SnCl, THF, −78 °C; (v) Pd2(dba)3, P(o-tol)3, toluene, 110 °C, 24 h. Post-polymerization condition: NaOH, chlorobenzene:DMF (3:1), 120 °C, 48 h.",
+      "caption": "Scheme 1. (A) Conventional approach of pre-polymerization side-chain functionalization on conjugated polymers, and the associated limitations. (B) “Graft-onto-polymer” synthesis strategy by post-polymerization functionalization (GOP-PPF) using nucleophilic aromatic substitution (SNAr) reaction to functionalize the side chains of the conjugated polymers. (C) EG functionalized PIMECs synthesized by post-polymerization functionalization. Reaction conditions: (i) toluene, p-TsOH, 2-(2-methoxyethoxy)ethanol, 110 °C, 6 h; (ii) NBS, anhydrous DCM, 0 °C, 2 h; (iii) Ni(COD)2, COD, bpy, THF; (iv) n-BuLi, Me3SnCl, THF, −78 °C; (v) Pd2(dba)3, P(o-tol)3, toluene, 110 °C, 24 h. Post-polymerization condition: NaOH, chlorobenzene:DMF (3:1), 120 °C, 48 h.",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\aqueous-based\\aqueous-based\\images_folder\\page_2_img_1_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based"
+    },
+    {
+      "full_caption": "Fig. 1 (a) Normalized UV−vis−NIR absorption spectra in films and (b) cyclic voltammograms of the polymer films in 0.1 M tetrabutylammonium hexafluorophosphate (n-Bu4NPF6) acetonitrile solution at a scan rate of 50 mV s−1, using Ag/AgCl as a reference electrode. (c) Contact angle measurements.",
+      "caption": "Cyclic voltammograms of the polymer films in 0.1 M tetrabutylammonium hexafluorophosphate (n-Bu4NPF6) acetonitrile solution at a scan rate of 50 mV s−1, using Ag/AgCl as a reference electrode",
+      "caption_summary": [
+        "Cyclic voltammetry",
+        "polymer films",
+        "electrochemistry"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\aqueous-based\\aqueous-based\\images_folder\\page_4_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based"
+    },
+    {
+      "full_caption": "Fig. 1 (a) Normalized UV−vis−NIR absorption spectra in films and (b) cyclic voltammograms of the polymer films in 0.1 M tetrabutylammonium hexafluorophosphate (n-Bu4NPF6) acetonitrile solution at a scan rate of 50 mV s−1, using Ag/AgCl as a reference electrode. (c) Contact angle measurements.",
+      "caption": "Normalized UV−vis−NIR absorption spectra in films",
+      "caption_summary": [
+        "UV−vis−NIR",
+        "absorption",
+        "films"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\aqueous-based\\aqueous-based\\images_folder\\page_4_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based"
+    },
+    {
+      "full_caption": "Fig. 1 (a) Normalized UV−vis−NIR absorption spectra in films and (b) cyclic voltammograms of the polymer films in 0.1 M tetrabutylammonium hexafluorophosphate (n-Bu4NPF6) acetonitrile solution at a scan rate of 50 mV s−1, using Ag/AgCl as a reference electrode. (c) Contact angle measurements.",
+      "caption": "Contact angle measurements",
+      "caption_summary": [
+        "Contact angle",
+        "measurements",
+        "surface analysis"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\aqueous-based\\aqueous-based\\images_folder\\page_4_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based"
+    },
+    {
+      "full_caption": "Fig. 2 (a) CV measurements of PMIECs in 0.1 M aqueous NaCl solution from −0.3 V to 0.7 V at a scan rate of 50 mV s−1 with low O2 concentration (1000 cycles). The red circle represents the 1st cycle. (b) Galvanostatic charge–discharge plots recorded at 1.0 A g−1.",
+      "caption": "CV measurements of PMIECs in 0.1 M aqueous NaCl solution from −0.3 V to 0.7 V at a scan rate of 50 mV s−1 with low O2 concentration (1000 cycles). The red circle represents the 1st cycle.",
+      "caption_summary": [
+        "CV measurements",
+        "PMIECs",
+        "NaCl solution"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\aqueous-based\\aqueous-based\\images_folder\\page_5_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based"
+    },
+    {
+      "full_caption": "Fig. 2 (a) CV measurements of PMIECs in 0.1 M aqueous NaCl solution from −0.3 V to 0.7 V at a scan rate of 50 mV s−1 with low O2 concentration (1000 cycles). The red circle represents the 1st cycle. (b) Galvanostatic charge–discharge plots recorded at 1.0 A g−1.",
+      "caption": "Galvanostatic charge–discharge plots recorded at 1.0 A g−1.",
+      "caption_summary": [
+        "Charge-discharge",
+        "galvanostatic",
+        "electrochemistry"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\aqueous-based\\aqueous-based\\images_folder\\page_5_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based"
+    },
+    {
+      "full_caption": "Fig. 2 (a) CV measurements of PMIECs in 0.1 M aqueous NaCl solution from −0.3 V to 0.7 V at a scan rate of 50 mV s−1 with low O2 concentration (1000 cycles). The red circle represents the 1st cycle. (b) Galvanostatic charge–discharge plots recorded at 1.0 A g−1.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\aqueous-based\\aqueous-based\\images_folder\\page_5_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based"
+    },
+    {
+      "full_caption": "Fig. 2 (a) CV measurements of PMIECs in 0.1 M aqueous NaCl solution from −0.3 V to 0.7 V at a scan rate of 50 mV s−1 with low O2 concentration (1000 cycles). The red circle represents the 1st cycle. (b) Galvanostatic charge–discharge plots recorded at 1.0 A g−1.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\aqueous-based\\aqueous-based\\images_folder\\page_5_img_1_e.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based"
+    },
+    {
+      "full_caption": "Fig. 2 (a) CV measurements of PMIECs in 0.1 M aqueous NaCl solution from −0.3 V to 0.7 V at a scan rate of 50 mV s−1 with low O2 concentration (1000 cycles). The red circle represents the 1st cycle. (b) Galvanostatic charge–discharge plots recorded at 1.0 A g−1.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\aqueous-based\\aqueous-based\\images_folder\\page_5_img_1_f.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based"
+    },
+    {
+      "full_caption": "Fig. 2 (a) CV measurements of PMIECs in 0.1 M aqueous NaCl solution from −0.3 V to 0.7 V at a scan rate of 50 mV s−1 with low O2 concentration (1000 cycles). The red circle represents the 1st cycle. (b) Galvanostatic charge–discharge plots recorded at 1.0 A g−1.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\aqueous-based\\aqueous-based\\images_folder\\page_5_img_1_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based"
+    },
+    {
+      "full_caption": "Fig. 3 (a–c) CV measurements of g2T2-g8T2, g2T2-g8T4 and g2T2-g8T6 in 0.1 M aqueous NaCl solution from −0.3 V to 0.7 V at a series of scan rates with low O2 concentration; (d) peak currents against the square roots of the scan rates.",
+      "caption": "CV measurements of g2T2-g8T4 in 0.1 M aqueous NaCl solution from −0.3 V to 0.7 V at a series of scan rates with low O2 concentration",
+      "caption_summary": [
+        "CV measurements",
+        "aqueous NaCl",
+        "scan rates"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\aqueous-based\\aqueous-based\\images_folder\\page_6_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based"
+    },
+    {
+      "full_caption": "Fig. 3 (a–c) CV measurements of g2T2-g8T2, g2T2-g8T4 and g2T2-g8T6 in 0.1 M aqueous NaCl solution from −0.3 V to 0.7 V at a series of scan rates with low O2 concentration; (d) peak currents against the square roots of the scan rates.",
+      "caption": "peak currents against the square roots of the scan rates",
+      "caption_summary": [
+        "Electrochemistry",
+        "Scan Rate",
+        "Peak Currents"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\aqueous-based\\aqueous-based\\images_folder\\page_6_img_1_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based"
+    },
+    {
+      "full_caption": "Fig. 3 (a–c) CV measurements of g2T2-g8T2, g2T2-g8T4 and g2T2-g8T6 in 0.1 M aqueous NaCl solution from −0.3 V to 0.7 V at a series of scan rates with low O2 concentration; (d) peak currents against the square roots of the scan rates.",
+      "caption": "CV measurements of g2T2-g8T2 in 0.1 M aqueous NaCl solution from −0.3 V to 0.7 V at a series of scan rates with low O2 concentration",
+      "caption_summary": [
+        "CV measurements",
+        "aqueous NaCl",
+        "low O2 concentration"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\aqueous-based\\aqueous-based\\images_folder\\page_6_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based"
+    },
+    {
+      "full_caption": "Fig. 3 (a–c) CV measurements of g2T2-g8T2, g2T2-g8T4 and g2T2-g8T6 in 0.1 M aqueous NaCl solution from −0.3 V to 0.7 V at a series of scan rates with low O2 concentration; (d) peak currents against the square roots of the scan rates.",
+      "caption": "CV measurements of g2T2-g8T6 in 0.1 M aqueous NaCl solution from −0.3 V to 0.7 V at a series of scan rates with low O2 concentration",
+      "caption_summary": [
+        "CV measurements",
+        "aqueous NaCl",
+        "scan rates"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\aqueous-based\\aqueous-based\\images_folder\\page_6_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based"
+    },
+    {
+      "full_caption": "Fig. 4 (a, d), (b, e) and (c, f) Output curves, and transfer and transconductance characteristics for g2T2-gBT2, g2T2-gBT4 and g2T2-gBT6-based OECTs, respectively.",
+      "caption": "Transfer and transconductance characteristics for g2T2-gBT2-based OECTs.",
+      "caption_summary": [
+        "OECTs",
+        "transconductance",
+        "g2T2-gBT2"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\aqueous-based\\aqueous-based\\images_folder\\page_7_img_1_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based"
+    },
+    {
+      "full_caption": "Fig. 4 (a, d), (b, e) and (c, f) Output curves, and transfer and transconductance characteristics for g2T2-gBT2, g2T2-gBT4 and g2T2-gBT6-based OECTs, respectively.",
+      "caption": "Output curves for g2T2-gBT4-based OECTs.",
+      "caption_summary": [
+        "OECTs",
+        "g2T2-gBT4",
+        "Output Curves"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\aqueous-based\\aqueous-based\\images_folder\\page_7_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based"
+    },
+    {
+      "full_caption": "Fig. 4 (a, d), (b, e) and (c, f) Output curves, and transfer and transconductance characteristics for g2T2-gBT2, g2T2-gBT4 and g2T2-gBT6-based OECTs, respectively.",
+      "caption": "Output curves for g2T2-gBT2-based OECTs.",
+      "caption_summary": [
+        "OECTs",
+        "g2T2-gBT2",
+        "output curves"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\aqueous-based\\aqueous-based\\images_folder\\page_7_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based"
+    },
+    {
+      "full_caption": "Fig. 4 (a, d), (b, e) and (c, f) Output curves, and transfer and transconductance characteristics for g2T2-gBT2, g2T2-gBT4 and g2T2-gBT6-based OECTs, respectively.",
+      "caption": "Transfer and transconductance characteristics for g2T2-gBT4-based OECTs.",
+      "caption_summary": [
+        "OECTs",
+        "transconductance",
+        "g2T2-gBT4"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\aqueous-based\\aqueous-based\\images_folder\\page_7_img_1_e.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based"
+    },
+    {
+      "full_caption": "Fig. 4 (a, d), (b, e) and (c, f) Output curves, and transfer and transconductance characteristics for g2T2-gBT2, g2T2-gBT4 and g2T2-gBT6-based OECTs, respectively.",
+      "caption": "Output curves for g2T2-gBT6-based OECTs.",
+      "caption_summary": [
+        "OECTs",
+        "Output Curves",
+        "g2T2-gBT6"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\aqueous-based\\aqueous-based\\images_folder\\page_7_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based"
+    },
+    {
+      "full_caption": "Fig. 4 (a, d), (b, e) and (c, f) Output curves, and transfer and transconductance characteristics for g2T2-gBT2, g2T2-gBT4 and g2T2-gBT6-based OECTs, respectively.",
+      "caption": "Transfer and transconductance characteristics for g2T2-gBT6-based OECTs.",
+      "caption_summary": [
+        "OECTs",
+        "transconductance",
+        "g2T2-gBT6"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\aqueous-based\\aqueous-based\\images_folder\\page_7_img_1_f.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based"
+    },
+    {
+      "full_caption": "Fig. 5 GIWAXS patterns of the oxidized polymer films for (a and d) g2T2-gBT2, (b and e) g2T2-gBT4 and (c and f) g2T2-gBT6, and corresponding line-cut profiles along the in-plane (qxy) and out-of-plane (qz) directions.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\aqueous-based\\aqueous-based\\images_folder\\page_8_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based"
+    },
+    {
+      "full_caption": "Fig. 5 GIWAXS patterns of the oxidized polymer films for (a and d) g2T2-gBT2, (b and e) g2T2-gBT4 and (c and f) g2T2-gBT6, and corresponding line-cut profiles along the in-plane (qxy) and out-of-plane (qz) directions.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\aqueous-based\\aqueous-based\\images_folder\\page_8_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based"
+    },
+    {
+      "full_caption": "Fig. 5 GIWAXS patterns of the oxidized polymer films for (a and d) g2T2-gBT2, (b and e) g2T2-gBT4 and (c and f) g2T2-gBT6, and corresponding line-cut profiles along the in-plane (qxy) and out-of-plane (qz) directions.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\aqueous-based\\aqueous-based\\images_folder\\page_8_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based"
+    },
+    {
+      "full_caption": "Fig. 5 GIWAXS patterns of the oxidized polymer films for (a and d) g2T2-gBT2, (b and e) g2T2-gBT4 and (c and f) g2T2-gBT6, and corresponding line-cut profiles along the in-plane (qxy) and out-of-plane (qz) directions.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\aqueous-based\\aqueous-based\\images_folder\\page_8_img_1_e.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based"
+    },
+    {
+      "full_caption": "Fig. 5 GIWAXS patterns of the oxidized polymer films for (a and d) g2T2-gBT2, (b and e) g2T2-gBT4 and (c and f) g2T2-gBT6, and corresponding line-cut profiles along the in-plane (qxy) and out-of-plane (qz) directions.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\aqueous-based\\aqueous-based\\images_folder\\page_8_img_1_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based"
+    },
+    {
+      "full_caption": "Fig. 5 GIWAXS patterns of the oxidized polymer films for (a and d) g2T2-gBT2, (b and e) g2T2-gBT4 and (c and f) g2T2-gBT6, and corresponding line-cut profiles along the in-plane (qxy) and out-of-plane (qz) directions.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\aqueous-based\\aqueous-based\\images_folder\\page_8_img_1_f.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based"
+    },
+    {
+      "full_caption": "Fig. 6 (a) Polymer film swelling extent corresponding to the wet state with no potential bias (passive swelling) and electrochemical doping at +0.7 V versus Ag/AgCl (active swelling). (b) Concentration of Cl− ions and H2O molecule density in the polymer films oxidized at +0.7 V in aqueous solution.",
+      "caption": "Polymer film swelling extent corresponding to the wet state with no potential bias (passive swelling) and electrochemical doping at +0.7 V versus Ag/AgCl (active swelling).",
+      "caption_summary": [
+        "Polymer",
+        "Swelling",
+        "Electrochemical"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\aqueous-based\\aqueous-based\\images_folder\\page_9_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based"
+    },
+    {
+      "full_caption": "Fig. 6 (a) Polymer film swelling extent corresponding to the wet state with no potential bias (passive swelling) and electrochemical doping at +0.7 V versus Ag/AgCl (active swelling). (b) Concentration of Cl− ions and H2O molecule density in the polymer films oxidized at +0.7 V in aqueous solution.",
+      "caption": "Concentration of Cl− ions and H2O molecule density in the polymer films oxidized at +0.7 V in aqueous solution.",
+      "caption_summary": [
+        "Polymer oxidation",
+        "Chloride ions",
+        "Water density"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\aqueous-based\\aqueous-based\\images_folder\\page_9_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_aqueous-based\\aqueous-based"
+    }
+  ]
+}

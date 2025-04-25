@@ -1,0 +1,180 @@
+{
+  "records": [
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS\\PEDOT-PSS\\PEDOT-PSS\\images_folder\\page_1_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS\\PEDOT-PSS"
+    },
+    {
+      "full_caption": "Figure 1. Electrostatic self-assembly and gelation of PEDOT:PSS in presence of ionic additives (A) The chemical structure of PEDOT:PSS and Li-TFSI salt. (B) Viscosity and electrical resistance of PEDOT:PSS:Li-TFSI solution with 40 wt % Li-TFSI as a function of time. (C) A picture taken from three PEDOT:PSS:Li-TFSI solutions at different aging times in vials to reveal effects of aging on viscosity and flow behavior. (D and E) MD simulations of PEDOT:PSS and PEDOT:PSS:Li-TFSI including snapshots at equilibrium, schematics of RDF analysis with annotated first peak position of polymer and additives with PEDOT at the center, and average PSS end-to-end distance. (F) Density distribution of PEDOT components along z axis of computational box for neat PEDOT:PSS (blue) and PEDOT:PSS:Li-TFSI (orange) simulations. (G) Schematic of cryogenic sample preparation by vitrification and blotting of PEDOT:PSS and PEDOT:PSS:Li-TFSI solutions. (H and J) Cryo-EM images of PEDOT:PSS. (I and J) Cryo-EM images of solutions of PEDOT:PSS:Li-TFSI aged for 12 h and 4 days, respectively. The higher density of fibers observed in aged salt solutions compared to neat PEDOT:PSS and the increase in fibril density as a function of aging time in (H–J) are consistent with the decrease in electrical resistance and increase in viscosity of salt solutions in (B). Inset of (H–J): schematic showing the electrostatic destabilization effects of salt addition to PEDOT:PSS core-shell colloids and proposed conformational changes from core-shell structure to an elongated structure, leading to salt-mediated colloidal self-assembly of long-chain PSS (green) and short chain PEDOT (red) into an interconnected network of aggregates, which manifest macroscopically into gelation and electrical conductivity of the solution.",
+      "caption": "Schematic of cryogenic sample preparation by vitrification and blotting of PEDOT:PSS and PEDOT:PSS:Li-TFSI solutions.",
+      "caption_summary": [
+        "Cryogenic",
+        "Vitrification",
+        "PEDOT:PSS"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS\\PEDOT-PSS\\PEDOT-PSS\\images_folder\\page_5_img_1_g.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS\\PEDOT-PSS"
+    },
+    {
+      "full_caption": "Figure 1. Electrostatic self-assembly and gelation of PEDOT:PSS in presence of ionic additives (A) The chemical structure of PEDOT:PSS and Li-TFSI salt. (B) Viscosity and electrical resistance of PEDOT:PSS:Li-TFSI solution with 40 wt % Li-TFSI as a function of time. (C) A picture taken from three PEDOT:PSS:Li-TFSI solutions at different aging times in vials to reveal effects of aging on viscosity and flow behavior. (D and E) MD simulations of PEDOT:PSS and PEDOT:PSS:Li-TFSI including snapshots at equilibrium, schematics of RDF analysis with annotated first peak position of polymer and additives with PEDOT at the center, and average PSS end-to-end distance. (F) Density distribution of PEDOT components along z axis of computational box for neat PEDOT:PSS (blue) and PEDOT:PSS:Li-TFSI (orange) simulations. (G) Schematic of cryogenic sample preparation by vitrification and blotting of PEDOT:PSS and PEDOT:PSS:Li-TFSI solutions. (H and J) Cryo-EM images of PEDOT:PSS. (I and J) Cryo-EM images of solutions of PEDOT:PSS:Li-TFSI aged for 12 h and 4 days, respectively. The higher density of fibers observed in aged salt solutions compared to neat PEDOT:PSS and the increase in fibril density as a function of aging time in (H–J) are consistent with the decrease in electrical resistance and increase in viscosity of salt solutions in (B). Inset of (H–J): schematic showing the electrostatic destabilization effects of salt addition to PEDOT:PSS core-shell colloids and proposed conformational changes from core-shell structure to an elongated structure, leading to salt-mediated colloidal self-assembly of long-chain PSS (green) and short chain PEDOT (red) into an interconnected network of aggregates, which manifest macroscopically into gelation and electrical conductivity of the solution.",
+      "caption": "Density distribution of PEDOT components along z axis of computational box for neat PEDOT:PSS (blue) and PEDOT:PSS:Li-TFSI (orange) simulations.",
+      "caption_summary": [
+        "Density distribution",
+        "PEDOT:PSS",
+        "Li-TFSI"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS\\PEDOT-PSS\\PEDOT-PSS\\images_folder\\page_5_img_1_f.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS\\PEDOT-PSS"
+    },
+    {
+      "full_caption": "Figure 1. Electrostatic self-assembly and gelation of PEDOT:PSS in presence of ionic additives (A) The chemical structure of PEDOT:PSS and Li-TFSI salt. (B) Viscosity and electrical resistance of PEDOT:PSS:Li-TFSI solution with 40 wt % Li-TFSI as a function of time. (C) A picture taken from three PEDOT:PSS:Li-TFSI solutions at different aging times in vials to reveal effects of aging on viscosity and flow behavior. (D and E) MD simulations of PEDOT:PSS and PEDOT:PSS:Li-TFSI including snapshots at equilibrium, schematics of RDF analysis with annotated first peak position of polymer and additives with PEDOT at the center, and average PSS end-to-end distance. (F) Density distribution of PEDOT components along z axis of computational box for neat PEDOT:PSS (blue) and PEDOT:PSS:Li-TFSI (orange) simulations. (G) Schematic of cryogenic sample preparation by vitrification and blotting of PEDOT:PSS and PEDOT:PSS:Li-TFSI solutions. (H and J) Cryo-EM images of PEDOT:PSS. (I and J) Cryo-EM images of solutions of PEDOT:PSS:Li-TFSI aged for 12 h and 4 days, respectively. The higher density of fibers observed in aged salt solutions compared to neat PEDOT:PSS and the increase in fibril density as a function of aging time in (H–J) are consistent with the decrease in electrical resistance and increase in viscosity of salt solutions in (B). Inset of (H–J): schematic showing the electrostatic destabilization effects of salt addition to PEDOT:PSS core-shell colloids and proposed conformational changes from core-shell structure to an elongated structure, leading to salt-mediated colloidal self-assembly of long-chain PSS (green) and short chain PEDOT (red) into an interconnected network of aggregates, which manifest macroscopically into gelation and electrical conductivity of the solution.",
+      "caption": "A picture taken from three PEDOT:PSS:Li-TFSI solutions at different aging times in vials to reveal effects of aging on viscosity and flow behavior.",
+      "caption_summary": [
+        "PEDOT:PSS",
+        "aging",
+        "viscosity"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS\\PEDOT-PSS\\PEDOT-PSS\\images_folder\\page_5_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS\\PEDOT-PSS"
+    },
+    {
+      "full_caption": "Figure 1. Electrostatic self-assembly and gelation of PEDOT:PSS in presence of ionic additives (A) The chemical structure of PEDOT:PSS and Li-TFSI salt. (B) Viscosity and electrical resistance of PEDOT:PSS:Li-TFSI solution with 40 wt % Li-TFSI as a function of time. (C) A picture taken from three PEDOT:PSS:Li-TFSI solutions at different aging times in vials to reveal effects of aging on viscosity and flow behavior. (D and E) MD simulations of PEDOT:PSS and PEDOT:PSS:Li-TFSI including snapshots at equilibrium, schematics of RDF analysis with annotated first peak position of polymer and additives with PEDOT at the center, and average PSS end-to-end distance. (F) Density distribution of PEDOT components along z axis of computational box for neat PEDOT:PSS (blue) and PEDOT:PSS:Li-TFSI (orange) simulations. (G) Schematic of cryogenic sample preparation by vitrification and blotting of PEDOT:PSS and PEDOT:PSS:Li-TFSI solutions. (H and J) Cryo-EM images of PEDOT:PSS. (I and J) Cryo-EM images of solutions of PEDOT:PSS:Li-TFSI aged for 12 h and 4 days, respectively. The higher density of fibers observed in aged salt solutions compared to neat PEDOT:PSS and the increase in fibril density as a function of aging time in (H–J) are consistent with the decrease in electrical resistance and increase in viscosity of salt solutions in (B). Inset of (H–J): schematic showing the electrostatic destabilization effects of salt addition to PEDOT:PSS core-shell colloids and proposed conformational changes from core-shell structure to an elongated structure, leading to salt-mediated colloidal self-assembly of long-chain PSS (green) and short chain PEDOT (red) into an interconnected network of aggregates, which manifest macroscopically into gelation and electrical conductivity of the solution.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS\\PEDOT-PSS\\PEDOT-PSS\\images_folder\\page_5_img_1_e.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS\\PEDOT-PSS"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS\\PEDOT-PSS\\PEDOT-PSS\\images_folder\\page_9_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS\\PEDOT-PSS"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS\\PEDOT-PSS\\PEDOT-PSS\\images_folder\\page_9_img_1_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS\\PEDOT-PSS"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS\\PEDOT-PSS\\PEDOT-PSS\\images_folder\\page_9_img_1_h.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS\\PEDOT-PSS"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS\\PEDOT-PSS\\PEDOT-PSS\\images_folder\\page_9_img_1_f.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS\\PEDOT-PSS"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS\\PEDOT-PSS\\PEDOT-PSS\\images_folder\\page_9_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS\\PEDOT-PSS"
+    },
+    {
+      "full_caption": "Figure 3. Microstructure of insoluble thin films (A–C) Energy-filtered transmission microscopy (EFTEM) thickness map images of PEDOT:PSS films showing (A) neat PEDOT:PSS and PEDOT:PSS:Li-TFSI films made after 6 h (B) and 4 days (C) aging, respectively. (D) Thin-film conductivity of PEDOT:PSS and PEDOT:PSS:Li-TFSI with respect to aging; films have not been treated with water. The inset shows the Nyquist plot of the solid film made from a 4-day-aged solution, confirming the conductivity is purely electronic in nature, lacking ionic transport. (E–L) Dominant crystal structures present in thin films (E–H) and (I–L) corresponding high-angle annular dark-field scanning transmission electron microscopy (HAADF-STEM) of neat PEDOT:PSS, ESA-processed PEDOT:PSS, post-water-treated, and water-swollen thin films. The addition of Li-TFSI promotes PEDOT-rich crystalline structures and PSS-rich aggregates, visually observed by high-intensity regions. Water treatment causes rich PEDOT structures to transition to co-crystals, and the microstructure displays a higher density of fibers without amorphous PSS regions. Cryo-STEM images of films submerged in water (hydrated) show the presence of swollen co-crystal structures, and interconnectivity of the fibers is maintained. Scale bar denotes 200 nm.",
+      "caption": "Energy-filtered transmission microscopy (EFTEM) thickness map images of PEDOT:PSS films showing PEDOT:PSS:Li-TFSI films made after 4 days aging.",
+      "caption_summary": [
+        "EFTEM",
+        "PEDOT:PSS",
+        "aging"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS\\PEDOT-PSS\\PEDOT-PSS\\images_folder\\page_10_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS\\PEDOT-PSS"
+    },
+    {
+      "full_caption": "Figure 3. Microstructure of insoluble thin films (A–C) Energy-filtered transmission microscopy (EFTEM) thickness map images of PEDOT:PSS films showing (A) neat PEDOT:PSS and PEDOT:PSS:Li-TFSI films made after 6 h (B) and 4 days (C) aging, respectively. (D) Thin-film conductivity of PEDOT:PSS and PEDOT:PSS:Li-TFSI with respect to aging; films have not been treated with water. The inset shows the Nyquist plot of the solid film made from a 4-day-aged solution, confirming the conductivity is purely electronic in nature, lacking ionic transport. (E–L) Dominant crystal structures present in thin films (E–H) and (I–L) corresponding high-angle annular dark-field scanning transmission electron microscopy (HAADF-STEM) of neat PEDOT:PSS, ESA-processed PEDOT:PSS, post-water-treated, and water-swollen thin films. The addition of Li-TFSI promotes PEDOT-rich crystalline structures and PSS-rich aggregates, visually observed by high-intensity regions. Water treatment causes rich PEDOT structures to transition to co-crystals, and the microstructure displays a higher density of fibers without amorphous PSS regions. Cryo-STEM images of films submerged in water (hydrated) show the presence of swollen co-crystal structures, and interconnectivity of the fibers is maintained. Scale bar denotes 200 nm.",
+      "caption": "Energy-filtered transmission microscopy (EFTEM) thickness map images of PEDOT:PSS films showing neat PEDOT:PSS.",
+      "caption_summary": [
+        "EFTEM",
+        "PEDOT:PSS",
+        "Thickness"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS\\PEDOT-PSS\\PEDOT-PSS\\images_folder\\page_10_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS\\PEDOT-PSS"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS\\PEDOT-PSS\\PEDOT-PSS\\images_folder\\page_13_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS\\PEDOT-PSS"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS\\PEDOT-PSS\\PEDOT-PSS\\images_folder\\page_13_img_1_e.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS\\PEDOT-PSS"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS\\PEDOT-PSS\\PEDOT-PSS\\images_folder\\page_13_img_1_g.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS\\PEDOT-PSS"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS\\PEDOT-PSS\\PEDOT-PSS\\images_folder\\page_13_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS\\PEDOT-PSS"
+    },
+    {
+      "full_caption": "Figure 5. Mixed conductor hierarchical microstructures and OECT operation Schematic summarizing composition, nanocrystalline structure, and micro-interconnected morphology findings of thin films. (A) Neat PEDOT:PSS is a mixed conductor containing co-crystal structures; however, it lacks a long-range fibril network and suffers from poor mixed transport and is susceptible to water solubility. (B) ESA-processed mixed conductor results in fibrils of co-crystal phases networked over a long range. (C) These are maintained after water treatment and significant removal of ionic additive. (D) The fibril structures are observed to swell but maintain percolation pathways during water hydration enabling mixed conduction. (E) Schematic showing the effect of ESA on OECT performance where the percolated network of co-crystal phases maintains pathways for facile hole transport, while the co-crystal fibrils promote efficient ion-to-electronic coupling. Note: to reduce clutter, PEDOT contiguity was not visualized along conducting pathways.",
+      "caption": "These are maintained after water treatment and significant removal of ionic additive.",
+      "caption_summary": [
+        "Water treatment",
+        "Ionic removal",
+        "Additive."
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS\\PEDOT-PSS\\PEDOT-PSS\\images_folder\\page_15_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS\\PEDOT-PSS"
+    },
+    {
+      "full_caption": "Figure 5. Mixed conductor hierarchical microstructures and OECT operation Schematic summarizing composition, nanocrystalline structure, and micro-interconnected morphology findings of thin films. (A) Neat PEDOT:PSS is a mixed conductor containing co-crystal structures; however, it lacks a long-range fibril network and suffers from poor mixed transport and is susceptible to water solubility. (B) ESA-processed mixed conductor results in fibrils of co-crystal phases networked over a long range. (C) These are maintained after water treatment and significant removal of ionic additive. (D) The fibril structures are observed to swell but maintain percolation pathways during water hydration enabling mixed conduction. (E) Schematic showing the effect of ESA on OECT performance where the percolated network of co-crystal phases maintains pathways for facile hole transport, while the co-crystal fibrils promote efficient ion-to-electronic coupling. Note: to reduce clutter, PEDOT contiguity was not visualized along conducting pathways.",
+      "caption": "Neat PEDOT:PSS is a mixed conductor containing co-crystal structures; however, it lacks a long-range fibril network and suffers from poor mixed transport and is susceptible to water solubility.",
+      "caption_summary": [
+        "PEDOT:PSS",
+        "mixed conductor",
+        "solubility"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS\\PEDOT-PSS\\PEDOT-PSS\\images_folder\\page_15_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS\\PEDOT-PSS"
+    },
+    {
+      "full_caption": "Figure 5. Mixed conductor hierarchical microstructures and OECT operation Schematic summarizing composition, nanocrystalline structure, and micro-interconnected morphology findings of thin films. (A) Neat PEDOT:PSS is a mixed conductor containing co-crystal structures; however, it lacks a long-range fibril network and suffers from poor mixed transport and is susceptible to water solubility. (B) ESA-processed mixed conductor results in fibrils of co-crystal phases networked over a long range. (C) These are maintained after water treatment and significant removal of ionic additive. (D) The fibril structures are observed to swell but maintain percolation pathways during water hydration enabling mixed conduction. (E) Schematic showing the effect of ESA on OECT performance where the percolated network of co-crystal phases maintains pathways for facile hole transport, while the co-crystal fibrils promote efficient ion-to-electronic coupling. Note: to reduce clutter, PEDOT contiguity was not visualized along conducting pathways.",
+      "caption": "Schematic showing the effect of ESA on OECT performance where the percolated network of co-crystal phases maintains pathways for facile hole transport, while the co-crystal fibrils promote efficient ion-to-electronic coupling. Note: to reduce clutter, PEDOT contiguity was not visualized along conducting pathways.",
+      "caption_summary": [
+        "OECT",
+        "co-crystal",
+        "transport"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS\\PEDOT-PSS\\PEDOT-PSS\\images_folder\\page_15_img_1_e.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS\\PEDOT-PSS"
+    },
+    {
+      "full_caption": "Figure 5. Mixed conductor hierarchical microstructures and OECT operation Schematic summarizing composition, nanocrystalline structure, and micro-interconnected morphology findings of thin films. (A) Neat PEDOT:PSS is a mixed conductor containing co-crystal structures; however, it lacks a long-range fibril network and suffers from poor mixed transport and is susceptible to water solubility. (B) ESA-processed mixed conductor results in fibrils of co-crystal phases networked over a long range. (C) These are maintained after water treatment and significant removal of ionic additive. (D) The fibril structures are observed to swell but maintain percolation pathways during water hydration enabling mixed conduction. (E) Schematic showing the effect of ESA on OECT performance where the percolated network of co-crystal phases maintains pathways for facile hole transport, while the co-crystal fibrils promote efficient ion-to-electronic coupling. Note: to reduce clutter, PEDOT contiguity was not visualized along conducting pathways.",
+      "caption": "The fibril structures are observed to swell but maintain percolation pathways during water hydration enabling mixed conduction.",
+      "caption_summary": [
+        "Fibril structures",
+        "Swelling",
+        "Mixed conduction"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\PEDOT-PSS\\PEDOT-PSS\\PEDOT-PSS\\images_folder\\page_15_img_1_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_PEDOT-PSS\\PEDOT-PSS"
+    }
+  ]
+}

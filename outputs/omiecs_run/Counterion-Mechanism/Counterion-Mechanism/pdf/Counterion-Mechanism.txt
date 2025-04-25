@@ -1,0 +1,1133 @@
+RESEARCH ARTICLE
+www.advancedscience.com
+New Chemical Dopant and Counterion Mechanism for
+Organic Electrochemical Transistors and Organic Mixed
+Ionic–Electronic Conductors
+Vianna N. Le, Joel H. Bombile, Gehan S. Rupasinghe, Kyle N. Baustert, Ruipeng Li,
+Iuliana P. Maria, Maryam Shahi, Paula Alarcon Espejo, Iain McCulloch,
+Kenneth R. Graham, Chad Risko, and Alexandra F. Paterson*
+Organic mixed ionic–electronic conductors (OMIECs) have varied
+performance requirements across a diverse application space. Chemically
+doping the OMIEC can be a simple, low-cost approach for adapting
+performance metrics. However, complex challenges, such as identifying new
+dopant materials and elucidating design rules, inhibit its realization. Here,
+these challenges are approached by introducing a new n-dopant,
+tetrabutylammonium hydroxide (TBA-OH), and identifying a new design
+consideration underpinning its success. TBA-OH behaves as both a chemical
+n-dopant and morphology additive in donor acceptor co-polymer
+naphthodithiophene diimide-based polymer, which serves as an electron
+transporting material in organic electrochemical transistors (OECTs). The
+combined eﬀects enhance OECT transconductance, charge carrier mobility,
+and volumetric capacitance, representative of the key metrics underpinning
+all OMIEC applications. Additionally, when the TBA+ counterion adopts an
+“edge-on” location relative to the polymer backbone, Coulombic interaction
+between the counterion and polaron is reduced, and polaron delocalization
+increases. This is the ﬁrst time such mechanisms are identiﬁed in
+doped-OECTs and doped-OMIECs. The work herein therefore takes the ﬁrst
+steps toward developing the design guidelines needed to realize chemical
+doping as a generic strategy for tailoring performance metrics in OECTs and
+OMIECs.
+V. N. Le, G. S. Rupasinghe, M. Shahi, P. Alarcon Espejo, A. F. Paterson
+Department of Chemical and Materials Engineering
+Department of Electrical Engineering
+Centre for Applied Energy Research
+University of Kentucky
+Lexington, KY 40506, USA
+E-mail: alexandra.paterson@uky.edu
+The ORCID identiﬁcation number(s) for the author(s) of this article
+can be found under https://doi.org/10.1002/advs.202207694
+© 2023 The Authors. Advanced Science published by Wiley-VCH GmbH.
+This is an open access article under the terms of the Creative Commons
+Attribution License, which permits use, distribution and reproduction in
+any medium, provided the original work is properly cited.
+DOI: 10.1002/advs.202207694
+1. Introduction
+Organic mixed ionic–electronic conductors
+(OMIECs) are a novel and emergent, yet
+complex class of organic electronic mate-
+rials. OMIECs have unique electronic and
+dynamic structural properties, arising from
+their ability to couple and simultaneously
+transport ionic and electronic charges.
+These intrinsic properties are attracting in-
+terest for technologies spanning bioelec-
+tronics and medical devices,[1,2] neuromor-
+phic applications and computing,[3–10,11] as
+well as energy storage, biological and chem-
+ical sensing,[12] displays, light emission,
+and printed circuits.[13] This diverse appli-
+cation space is well-suited to organic elec-
+tronics: Along with low-cost, large area,
+and solution-processible qualities, a key
+beneﬁt of organic electronic materials is
+their range of chemical structures. In
+stark contrast to inorganic semiconductors
+and solid conductors, organic electronic
+materials oﬀer “make-to-order” electronics
+with the electronic and mechanical prop-
+erties needed to realize the impressively
+broad OMIEC application space. However,
+despite this important advantage, to-date
+J. H. Bombile, C. Risko
+Department of Chemistry
+and Centre for Applied Energy Research
+University of Kentucky
+Lexington, KY 40506, USA
+K. N. Baustert, K. R. Graham
+Department of Chemistry
+University of Kentucky
+Lexington, KY 40506, USA
+R. Li
+Brookhaven National Lab
+Upton, NY 11973, USA
+I. P. Maria, I. McCulloch
+Department of Chemistry
+Chemistry Research Laboratory
+University of Oxford
+Oxford OX1 3TA, UK
+Adv. Sci. 2023, 10, 2207694
+© 2023 The Authors. Advanced Science published by Wiley-VCH GmbH
+2207694 (1 of 11)
+
+www.advancedsciencenews.com
+www.advancedscience.com
+OMIEC research has predominantly focused on a single ma-
+terial,
+poly(3,4-ethylenedioxythiophene):polystyrene
+sulfonate
+(PEDOT:PSS),[14,15] which is infamous for its unalterable struc-
+ture and poor control of ionic and electronic components.[16]
+To move beyond PEDOT:PSS and fulﬁll the aforementioned
+application space, OMIECs with versatile performance metrics
+are needed. By using the organic electrochemical transistor
+(OECT) as a tool to benchmark OMIEC parameters,[17] chem-
+ical synthesis has been shown to be one successful approach
+for modifying OMIEC performance metrics.[18] For example,
+single-component, homogenous donor–acceptor copolymers are
+making excellent progress,[19–21] including working in operat-
+ing regimes beyond PEDOT:PSS depletion mode, such as accu-
+mulation mode operation for low power applications, and with
+both electron transporting and ambipolar characteristics for logic
+circuits.[21–23] Another approach is to use materials or device engi-
+neering strategies.[24] For example, the following have been iden-
+tiﬁed for altering OMIEC operation/performance as measured
+in OECTs: blending materials,[25,26] solvent engineering,[27] in-
+terface modiﬁcation,[28–30] and more recently, doping of the bulk
+active layer during the fabrication steps.[31] The latter chemical
+or molecular doping is of interest for a number of reasons: i)
+Doping has been critical to the success of silicon electronics and
+is widely used for traditional organic semiconductors and their
+devices.[32,33] ii) The simplicity of the technique, i.e., admixing
+a dopant solution with a host polymer solution, is scalable and
+ﬁts within the low-cost, solution-processed framework of organic
+electronics. iii) Preliminary ﬁndings show molecular doping im-
+proves OECT transconductance (gm), charge carrier mobility (μ)
+and volumetric capacitance (C*),[31] suggesting chemical doping
+has the potential to inﬂuence key ﬁgures of merit underpinning
+a variety of OMIEC applications.[13]
+If doping has the potential to impact OMIEC-based electronics
+in the same way doping revolutionized silicon technologies, how
+can it be realized as a generic strategy for OECTs and OMIECs?
+Key reasons that doping is unexploited in OMIECs include a lack
+of identiﬁed dopants that operate in air and water, and lack of
+design guidelines. Here, we use electron transporting OECTs
+to approach these challenges. We ﬁnd the Brønsted-base, tetra-
+butylammonium hydroxide (TBA-OH), successfully operates as
+both a morphology-changing additive and a chemical n-dopant,
+to enhance key performance metrics in donor–acceptor copoly-
+mer naphthodithiophene diimide (pNDTI-TT) OECTs. In terms
+of morphology-changing additive, we ﬁnd the presence of TBA-
+OH may contribute to preserving structural integrity in organic
+layers that have been exposed to electrolyte. In terms of a chem-
+ical n-doping, the OH−behaves as an anion transfer/exchange
+n-dopant and improves gm, C*, and μ. Finally, we identify a pre-
+ferred “edge-on” location for the TBA+ counterion that reduces its
+Coulombic interaction with the polaron, to enhance the polaron
+delocalization. Overall, a new chemical dopant and new design
+rule are identiﬁed for doped-OECTs and doped-OMIECs.
+I. McCulloch
+King Abdullah University of Science and Technology
+KAUST Solar Centre
+Thuwal 23955-6900, Saudi Arabia
+2. Results
+2.1. A New Chemical n-dopant for Organic Electrochemical
+Transistors and Organic Mixed Ionic-Electronic Conductors
+We opted to identify a new chemical n-dopant, because n-
+type OMIECs typically have lower performance than p-type
+OMIECs,[21] and balanced performance is important for comple-
+mentary technologies.[34] Direct charge transfer n-dopants have
+high lying highest occupied molecular orbitals (HOMO), i.e., low
+ionization energies, to donate electrons to the lowest unoccupied
+molecular orbital (LUMO) of the host.[32–35] This makes direct
+charge transfer n-dopants reactive in oxygen and air and, in gen-
+eral, makes it extremely challenging to identify stable n-dopants
+for organic semiconductors. For OECTs, it is more challenging
+because OECTs should demonstrate operation in aqueous elec-
+trolytes, for their intended use in bioelectronic systems. Addi-
+tionally, OMIEC LUMOs are often shallow (≈−4 eV), to avoid
+reduction reactions in water.[36] One option to bypass this in-
+stability is to use a charge-transfer salt/dopant salt.[37–40] Anion-
+induced doping mechanisms have successfully demonstrated
+stable n-doping in polymers operating in ambient, aqueous envi-
+ronments; speciﬁcally, tetra-n-butylammonium ﬂuoride (TBAF)
+was found to behave as an n-dopant in naphthalene diimide
+(NDI)-based OMIECs.[31] We therefore identiﬁed a material that
+was likely to undergo similar anion mechanisms. We selected
+the OH-anion in the Brønsted-base TBA-OH (Figure 1a), because
+Kim et al. showed that it will undergo/initiate anion-induced n-
+doping mechanisms in NDI-based organic thin-ﬁlm transistors
+(OTFTs).[40] TBA-OH is also an attractive option because it is
+low-cost and commercially available. Next, we chose a compati-
+ble host for the TBA-OH. The host organic layer is an important
+consideration for doped-organic semiconductors (OSCs) because
+the diverse chemical structures have made doping harder to real-
+ize generally, compared to inorganics, in addition to poor organic
+doping eﬃciencies, doping technique variation, and morphology
+changes.[41–44] Based on the aforementioned success of TBA-OH
+in NDI-based OTFTs,[40] we chose a recently developed, n-type
+donor–acceptor copolymer, with a thiophene-annulated deriva-
+tive of NDI as the acceptor unit, naphthodithiophene diimide
+(pNDTI-TT) (Figure 1b),[45] as the host OMIEC. We note that both
+materials are highly soluble, and therefore suited to the simple,
+cost-eﬀective solution-doping technique that will be used in this
+work.[40]
+OECTs were then used to explore the systematic impact
+of TBA-OH in pNDTI-TT at diﬀerent doping concentrations
+(Figure 1c–g). The importance of this experiment is several
+fold: i) Transistors are exceptional tools for exploring funda-
+mental eﬀects of doping on charge transport, as well as iden-
+tifying new dopant materials;[43] ii) OECTs are used to bench-
+mark OMIEC performance metrics,[17] iii) OECTs are popu-
+lar, practical devices, identiﬁed as fundamental building blocks
+for advanced electronics, body–machine interfaces, drug deliv-
+ery, smart textiles, bioelectronics, adaptive healthcare, and neu-
+romorphic computing;[16,46–49] iv) doping beneﬁts transistors,
+as is evident from traditional ﬁeld-eﬀect transistors, by ﬁlling
+traps, enabling threshold voltage control, minimizing contact
+resistance, increasing measured mobility, and improving bias
+stress stability.[33,41,44] Two solutions containing TBA-OH and
+Adv. Sci. 2023, 10, 2207694
+© 2023 The Authors. Advanced Science published by Wiley-VCH GmbH
+2207694 (2 of 11)
+ 21983844, 2023, 27, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/advs.202207694 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+www.advancedscience.com
+Figure 1. Chemical structure of a) tetrabutylammonium hydroxide (TBA-OH) and b) naphthodithiophene diimide (pNDTI-TT), used as the n-type donor–
+acceptor copolymer acceptor unit. c) Schematic of a top-gate bottom-contact OECT used in this work, indicating that the pNDTI-TT:TBA-OH system is
+used as the organic mixed ionic–electronic conductor active layer. d) Backward sweep transfer characteristics of pNDTI-TT:TBA-OH OECTs with 0, 20, 40,
+400 mol%, with an additional, highly doped system are included at 1:1. Statistical variation of e) threshold voltage (VT), f) oﬀ-current (IOFF), and g) peak
+transconductance (gm), with systematically varied quantities of TBA-OH, taken over six devices each. VT has been extracted from the relationship between
+√ID and VG. The shift in VT and gradual improvement in gm and IOFF—that worsen again at very high dopant concentrations—indicate that TBA-OH
+successfully n-dopes the pNDTI-TT. Although the key performance metrics are improved in the best-performing 400 mol% system, (e)–(g) show a large
+deviation in the 400 mol% data set. The latter highlights an important point about device uniformity challenges with disordered, solution-processed
+polymers, and more so for OECT active layers transporting ions and swelling when exposed to electrolyte. Figure S3 in the Supporting Information
+conﬁrms the impact of the dopant at 400 mol%: we fabricated an additional six OECTs, on diﬀerent days and with pNDTI-TT synthesized in a diﬀerent
+batch, to compare the pristine pNDTI-TT with the best-performing pNDTI-TT:TBA-OH (400 mol%).
+pNDTI-TT, dissolved in methanol (as purchased) and chloro-
+form, respectively, were admixed, at varying concentrations of
+TBA-OH to the total molar mass of the pNDTI-TT: 0, 20, 40,
+400 molar percentage (mol%). A further highly doped solution at
+1:1 solution volume ratio was included to conﬁrm/explore dop-
+ing trends on transistor performance.[50] The TBA-OH concen-
+trations were chosen to give a broad overview of the impact TBA-
+OH has on OECT device performance, as well as to identify the
+optimum dopant concentration. To normalize any possible ag-
+gregation eﬀects arising from the minor solvent blend, exactly
+the same quantities of methanol and chloroform were used in
+each solution, regardless of the TBA-OH concentration.[41,42,50–54]
+The solutions were left overnight in a nitrogen-ﬁlled glovebox
+and spin-coated into OECT structures with 600 and 30 μm chan-
+nel lengths and widths, respectively. The ﬁlm thicknesses were
+measured in the OECT channels using either atomic force mi-
+croscopy (AFM) or a Dektak proﬁlometer. 1 m NaCl(aq.) was used
+as an electrolyte with Ag/AgCl gate electrodes. For each system,
+at least six OECTs were fabricated and tested, to give statisti-
+cal trends that account for the natural variation in OECT de-
+vice uniformity. Figure 1c–g and Figures S1 and S2 in the Sup-
+porting Information show the systematic trend TBA-OH has on
+pNDTI-TT OECTs. The trends shown are a textbook represen-
+tation of doped transistors: The threshold voltage (VT) shifts to-
+ward zero at the best-performing concentration (400 mol%) and
+increases again at 1:1; the oﬀ-current (IOFF) gradually increases
+and is highly pronounced at 1:1; and the on-current (ION) grad-
+ually increases before decreasing again at 1:1. Above the best-
+performing 400 mol%, there are likely adverse scattering eﬀects
+between charge carriers and dopant molecules, as well as disrup-
+tion to the morphological structure that explains the reduction
+in performance at 1:1. Importantly, we ﬁnd that TBA-OH indeed
+impacts gm (Figure 1g and Figure S1a, Supporting Information),
+μ (Figure S1b, Supporting Information), and C* (Figure S1d,e,
+Supporting Information).
+Although key performance metrics are improved in the best-
+performing 400 mol% system, there is a large deviation in the 400
+mol% data set (Figure 1e–g). The latter highlights the importance
+of device uniformity in disordered, solution-processed polymers,
+and even more so for OECT active layers transporting ions and
+swelling in electrolyte. To verify the impact of the TBA-OH at 400
+mol%, we fabricated an additional six OECTs, with a newly syn-
+thesized batch of pNDTI-TT, comparing pristine pNDTI-TT with
+the best-performing pNDTI-TT:TBA-OH (400 mol%). Figure S3
+Adv. Sci. 2023, 10, 2207694
+© 2023 The Authors. Advanced Science published by Wiley-VCH GmbH
+2207694 (3 of 11)
+ 21983844, 2023, 27, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/advs.202207694 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+www.advancedscience.com
+Table 1. pNDTI-TT:TBA-OH OECT performance metrics. The performance metrics in the table are averaged over six devices. The mobility value is taken
+from the transconductance.
+System
+Performance metrics
+Polymer
+TBA-OH [mol%]
+gm [μS]
+VT [V]
+C* [F cm−3]
+μ [cm2 V−1 s−1]
+μC*
+ION [A]
+IOFF [A]
+NDTI
+0
+4.79 ± 1.1
+0.22
+151.33
+9.83 × 10−4
+0.149
+8.29 × 10−7
+1.13 × 10−9
+400
+43.1 ± 2.1
+0.21
+589.76
+3.36 × 10−3
+1.983
+1.13 × 10−5
+1.38 × 10−8
+Table 2. Figures of merit—the transconductance (gm) and the μC* product—compared to published values for other n-type OECTs in the literature. Each
+gm is normalized (S cm−1) for the three channel dimensions, channel width (W), length (L), and thickness (d), where the values used are taken from the
+literature and reported in the table. The μC* products are extracted from gm, except in ref. [55] where the μC* product is calculated with the saturation μ
+extracted from √ID versus VG. Biasing conditions used to report the ﬁgures of merit are listed.
+Material system
+gm normalized for W,
+d, and L [S cm−1]
+μC* [F cm−1 V−1 s−1]
+Channel geometry:
+L, W [μm]
+Film thickness [nm]
+Biasing conditions [V]
+Reference
+NDTI:TBA-OH (400 mol%)
+0.454
+1.98
+30, 600
+47
+VD = 0.6 VVG = 0 to 0.6 V
+This work
+p(gNDI-gT2)
+0.013
+0.06
+10, 100
+55
+VD = 0.6 VVG = 0 to 0.6 V
+[56]
+p(C3-gNDI-gT2)
+0.034
+0.13
+10, 100
+57
+VD = 0.6 VVG = 0 to 0.6 V
+[56]
+p(C6-gNDI-gT2)
+0.037
+0.16
+10, 100
+46
+VD = 0.6 VVG = 0 to 0.6 V
+[56]
+P-90:TBAF (40 mol%)
+0.091
+0.03
+10, 100
+116
+VD = 0.6 VVG = 0 to 0.6 V
+[57]
+P-100:TBAF (40 mol%)
+0.154
+N/A
+10, 100
+50
+VD = 0.6 VVG = 0 to 0.6 V
+[57]
+BBL
+0.3
+0.65
+20, 39 000
+180
+VD = 0.7 VVG = 0 to 0.7 V
+[58]
+BBL
+0.8
+1.99
+10, 100
+80
+VD = 0.7 VVG = −0.1 to 0.6 V
+[59]
+PgNaN
+0.212
+0.65
+10, 100
+1500
+VD = 0.4 VVG = 0 to 0.4 V
+[55]
+PgNgN
+0.007
+0.05
+10, 100
+500
+VD = 0.4 VVG = 0 to 0.4 V
+[55]
+PBFDO
+1970
+180
+1000, 1000
+56
+VD = 0.6 VVG = −0.5 to 0.6 V
+[60]
+in the Supporting Information and Table 1 show the addition
+of TBA-OH improves OECT gm by up to 9×, from 4.8 μS to a
+maximum 43.1 μS, when compared to the pristine system. Fur-
+thermore, μ increases from 9.8 ×10−4 to 3.4 ×10−3, C* increases
+from 151.3 to 589.8 F cm−3, and the μC* product extracted from
+the OECTs increases by >13×, from 0.15 to 2.0 F cm−1 V−1 s−1.
+The increase in μ may occur because the TBA-OH donates addi-
+tional charge carriers to the pNDTI-TT. On the one hand, these
+additional carriers act to ﬁll trap states (evidence for this is that
+VT shifts with the addition of dopant). On the other hand, addi-
+tional carriers impact bulk charges on the polymer ﬁlm, which
+in turn draws in additional ions.[31] C* may be improved be-
+cause the TBA-OH increases charge carrier density and hence
+capacitance; additionally, we see a gradual reduction in the thin-
+ﬁlm thickness with increasing TBA-OH concentrations,[42,54]
+from 65.5 nm in the pristine system to 30.1 nm in pNDTI-
+TT:TBA-OH (400 mol%) (Table S1, Supporting Information).
+C* is therefore likely increased because of these combined ef-
+fects. Table 2 compares normalized gm for the best-performing
+pNDTI-TT:TBA-OH (400 mol%) to other n-type systems in the
+literature. We ﬁnd that the best-performing pNDTI-TT:TBA-OH
+(400 mol%) OECTs have the third highest transconductance for
+all n-type OECTs reported to-date. Overall, this highlights the
+remarkable eﬀectiveness of the TBA-OH for signiﬁcantly en-
+hancing key performance metrics,[13] via a simple processing
+technique.
+To conﬁrm that n-doping is indeed occurring with the addi-
+tion of TBA-OH, we used ultraviolet photoelectron spectroscopy
+(UPS) and electron paramagnetic resonance (EPR) spectroscopy.
+UPS was used to identify TBA-OH as an n-dopant for OTFTs
+by Kim et al., who measured a Fermi level shift toward the
+conduction band,[40] while EPR has been used to detect Lewis
+acid doping in semiconductors.[31,42,54,61–64] The UPS results are
+shown in Figure 2a and Figure S4a in the Supporting Informa-
+tion. The work function decreases from 4.4 eV in the pristine (0
+mol%) system to 4.1 eV for the best-performing (400 mol%) TBA-
+OH:NDTI system (Figure 2a), which is a characteristic behavior
+of n-type doping.[65] Considering that the band gap of pNDTI-TT
+is 1.30 eV,[45] a 0.3 eV shift in the work function and a 0.1 eV shift
+in the HOMO onset away from the Fermi energy (Figure S4a,
+Supporting Information) provide strong evidence that pNDTI-TT
+is n-doped by TBA-OH. The EPR results provide further evidence
+that pNDTI-TT is n-doped by TBA-OH. Here, Figure 2b shows a
+pronounced increase in the EPR signal indicating that TBA-OH
+generates unpaired electrons in pNDTI-TT.[42] We attribute this
+phenomena to the OH−anion, as supported by studies showing
+how anion/cations can transfer from Lewis acids, Lewis bases,
+and Brønsted-bases to behave as p- or n-dopants in various or-
+ganic semiconductor families.[40,66–69] Indeed, n-doping can in-
+crease the measured μ closer to that of the intrinsic material
+μ, and increase the number of charge carriers for charge stor-
+age/C*, which in turn improve the μC* product and therefore
+gm. In the case of TBA-OH:NDTI, the OH−anion transfers from
+the TBA-OH and produces a hydroxide-polymer segment, which
+in turn releases an electron to a hydroxide-free polymer seg-
+ment, and by doing so acts as an n-dopant.[31,40,66–69] We therefore
+Adv. Sci. 2023, 10, 2207694
+© 2023 The Authors. Advanced Science published by Wiley-VCH GmbH
+2207694 (4 of 11)
+ 21983844, 2023, 27, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/advs.202207694 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+www.advancedscience.com
+Figure 2. a) UPS showing the secondary electron cut-oﬀregion with and without 400% TBA-OH (h𝜈= 10.2 eV). b) EPR spectra showing a signiﬁcant
+increase in signal intensity with the addition of the TBA-OH to pNDTI-TT, as compared to pNDTI-TT without any TBA-OH.
+suggest the following reaction mechanism for TBA-OH and
+pNDTI-TT
+[TBA −OH] →TBA++OH−
+(1)
+OH−+P →[P −OH]−
+(2)
+[P −OH]−+P →[P −OH] + P−
+(3)
+P−+TBA+ →[TBA+−P−]
+(4)
+[TBA −OH] +2P →[TBA+−P−]+[ P −OH]
+(5)
+where the chemical equation for electrochemical doping with hy-
+drated cations (C+) and charge carriers (e−), in the presence of the
+aforementioned, two-step chemical doping, is as follows
+pNDTI −TT0 + C+ + [pNDTI −TT : OH]−
+→[pNDTI −TT : OH]0 + pNDTI −TT−+ C+
+(6)
+and the pNDTI-TT-hydroxide is assumed to be decomposed.[70]
+2.2. Chemical Dopants Behave as Morphology Directing
+Additives
+Another potentially lucrative, yet complex, feature of doped or-
+ganic systems is that the dopant may simultaneously behave as
+a morphology directing additive. Dopant-directed morphology
+modiﬁcations in other chemically doped organic systems have
+been found to be beneﬁcial for charge transport.[42,54] In the case
+of OECTs, the performance may also be enhanced if the dopant-
+directed morphology modiﬁcation enables more balanced ionic
+and electronic charge transport.[71] Therefore, to explore the im-
+pact of TBA-OH on morphology in the pNDTI-TT thin ﬁlms, we
+used grazing-incidence wide-angle X-ray scattering (GIWAXS)
+and AFM, to compare pristine pNDTI-TT to the best-performing
+pNDTI-TT:TBA-OH (400 mol%). To account for any subsequent
+changes in morphology that occur because of swelling, we also
+compared the pristine and 400 mol% systems after they had been
+exposed to the 0.1 m NaCl electrolyte. The exposed ﬁlms may be
+better representative of the morphology during OECT operation,
+when compared to the dry ﬁlms. Figure 3 and Figures S5 and S6
+in the Supporting Information show the GIWAXS results. We
+ﬁnd both pristine and best-performing doped microstructures
+are similar before they are exposed to electrolyte, with 𝜋–𝜋stack-
+ing of pNDTI-TT (d = 0.35 nm) occurring primarily in the out-of-
+plane direction, and lamellar stacking (d = 2.8 nm) of pNDTI-TT
+in the in-plane direction. After the ﬁlms are exposed to electrolyte,
+the pristine system has structure features and in-plane peaks at
+d = 0.82 and 0.41 nm (ﬁrst and second ordering, respectively)
+perpendicular to the lamellar backbones (Figure S6c, Support-
+ing Information). The presence of these subtle features suggest
+there is higher crystallinity in the pristine system after exposure
+to electrolyte, when compared to the best-performing pNDTI-
+TT:TBA-OH (400 mol%). In both pristine and pNDTI-TT:TBA-
+OH (400 mol%), the orientation becomes more isotropic after
+exposure to electrolyte, and the dominant lamellar stacking di-
+rection shifts from favoring in-plane stacking to slightly favoring
+out-of-plane stacking. The d-spacing of the 𝜋–𝜋stacking remains
+the same as the system that has not been exposed to electrolyte.
+After electrolyte exposure, the pristine 0 mol% system out-of-
+plane lamellar spacing increases from 2.6 to 4.6 nm, whereas
+the pNDTI-TT:TBA-OH (400 mol%) maintains a d-spacing of
+2.6 nm—about half the lattice of the pristine system. The pristine
+system also shows higher crystallinity with more ordering in the
+lamellar packing, and new in-plane structural features (d = 0.82
+and 0.41 nm, in Figure S6c, Supporting Information), whereas
+the pNDTI-TT:TBA-OH (400 mol%) has no in-plane features.
+The lack of in-plane features for the latter has previously been
+associated with high planarity and no preferential cofacial align-
+ment, which enables strong intermolecular 𝜋–𝜋interactions with
+tighter d-spacing.[45]
+The GIWAXS indicates a major backbone orientation change
+after exposure to electrolyte, in systems with and without TBA-
+OH, with the lamellar spacing in the TBA-OH-doped polymer
+half that of the pristine polymer. AFM imaging in Figure S7
+(Supporting Information), along with respective root mean
+square (RMS) data in Figure S8 (Supporting Information), fur-
+ther supports TBA-OH changing the pNDTI-TT morphology,
+and conﬁrming its role as a morphology additive. Figure S8 and
+Table S1 in the Supporting Information show that the presence
+Adv. Sci. 2023, 10, 2207694
+© 2023 The Authors. Advanced Science published by Wiley-VCH GmbH
+2207694 (5 of 11)
+ 21983844, 2023, 27, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/advs.202207694 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+www.advancedscience.com
+qxy (Å–1)
+qxy (Å–1)
+qxy (Å–1)
+qxy (Å–1)
+qz (Å–1)
+qz (Å–1)
+qz (Å–1)
+qz (Å–1)
+Figure 3. GIWAXS data for the pristine pNDTI-TT system (i.e., 0 mol% TBA-OH) thin ﬁlm, measured when a) not exposed to electrolyte and b) after
+exposure to 0.1 m NaCl electrolyte for 3 days. GIWAXS data for the best-performing pNDTI-TT doped with 400 mol% TBA-OH measured when c) not
+exposed to electrolyte and d) after exposing to 0.1 m NaCl electrolyte for 3 days.
+of TBA-OH in pNDTI-TT results in a decrease in overall ﬁlm
+thickness, and increase in surface roughness, indicating that dop-
+ing has a strong impact on the OMIEC layer and may cause the
+morphology to be denser and more aggregated. Dopant-directed
+morphology modiﬁcations may be beneﬁcial because they enable
+ions to infuse more easily into the polymer ﬁlm, resulting in eﬃ-
+cient/eﬀective electrochemical doping.[66] However, we note that
+disentangling the precise mechanism behind dopants as mor-
+phology additives, i.e., convoluted dopant–structure–property re-
+lationships, is extremely challenging. The complexity of this topic
+is well-documented for organic semiconductors,[42,54,73–75] and
+is more challenging in OMIECs, where electrolyte solvent and
+ions are present during device operation.[76,77] Figure S9 in the
+Supporting Information veriﬁes that the dopant-directed mor-
+phology modiﬁcations do not have a signiﬁcant impact on the
+pNDTI:TBA-OH (400 mol%) OECT operational stability. After
+applying a constant voltage (VG = VD = 0.4 V) for 2650 s, the
+pNDTI:TBA-OH (400 mol%) maintains a high current (≈2.4 μA)
+as compared to the pristine system (≈0.48 μA). The overall re-
+duction in ID is similar for both systems, with ID reducing by
+7.0% for the pristine polymer, compared to 7.6% in pNDTI:TBA-
+OH (400 mol%). We note that this system has excellent potential
+for further optimization in terms of stability and performance.
+The 400 mol% identiﬁed as the best-performing system here is
+dependent on host polymer, processing parameters, and solvent,
+where solvent choice can impact doping eﬃciency.[42,54] Addition-
+ally, the relatively high, best-performing doping concentration is
+attributed to the solution-doping technique used in this work that
+was chosen for its simplicity.[73,78]
+2.3. Identifying a New Counterion Mechanism for Doped
+Organic Electrochemical Transistors and Doped Organic Mixed
+Ionic-Electronic Conductors
+So far, the GIWAXS and AFM data indicate TBA-OH preferen-
+tially alters morphology, while the combined OECT, UPS, and
+EPR data provides strong evidence that TBA-OH is an excellent
+n-dopant for the pNDTI-TT OMIEC. However, the question aris-
+ing from the aforementioned reaction mechanism is: what hap-
+pens to the TBA+ counterion? Although unexplored in doped
+OECTs or OMIECs, the counterion created after chemical dop-
+ing in low dielectric constant organic semiconductors is known
+to impact electronic properties.[38,39,79–83] We therefore used den-
+sity functional theory (DFT) to further investigate the role of
+the TBA+ counterion, with the aim of establishing whether this
+should be considered as a design guideline/criterion for doped-
+OECTs and doped-OMIECs going forward. Figure 4 summarizes
+the results from the DFT calculations on single oligomers. We
+ﬁnd that the polaron charge distribution in pNDTI-TT is sub-
+stantially narrower with the TBA+ counterion, compared to with-
+out, where the full-widths at half-maximum are 9 and 12 back-
+bone double bonds, respectively. The polaron localization, in the
+presence of the counterion, is caused by the Coulomb interaction
+Adv. Sci. 2023, 10, 2207694
+© 2023 The Authors. Advanced Science published by Wiley-VCH GmbH
+2207694 (6 of 11)
+ 21983844, 2023, 27, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/advs.202207694 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+www.advancedscience.com
+Figure 4. Characteristics of doped pNDTI-TT oligomer obtained by DFT calculations: a) chain geometry of neutral state P, reduced state without coun-
+terion P−, and reduced state with counterion [TBA+-P−]; b) polaron charge distribution for P−and [TBA+-P−]; c) optical absorption spectrum for P,
+P−, and [TBA+-P−], the position of the polaron peak shown by the arrow reﬂects how strongly bound the polaron is; d) “edge” and “face” locations of
+TBA+ counterion relative to pNDTI-TT oligomer (chains truncated for clarity); the associated polaron charge distributions are shown in (e) and optical
+absorption spectra in (f). We note that, although there is no substantial, visible diﬀerence in the polaron delocalization, the shape of the polaron charge
+distribution is noticeably diﬀerent, as inﬂuenced by the position of the counterion relative to the pNDTI-TT unit where the polaron is centered, as shown
+in (e).
+between the polaron and the counterion, which yields a more
+stable/bound polaron. This is shown by the large blue shift in
+the main sub-gap polaron feature in the optical absorption spec-
+trum, of a reduced chain with and without a counterion presence
+(Figure 4c), where the polaron peak shifts by ≈1.2 eV when the
+counterion is present. Indeed, more bound polarons are more
+localized and their energy levels are more shifted compared to
+the frontier orbitals.[84] Optical transitions involving the pola-
+ronic states and the frontier orbitals can be observed by UV-vis-IR
+spectroscopy,[85] and the excitation energies associated with these
+transitions reﬂect the stability of the polaron. Interestingly, the
+DFT analysis also shows the position of the TBA+ relative to the
+polymer chain impacts the polaron characteristics: Polarons are
+less bound if the TBA+ is located at the edge of the conjugated
+backbone (“edge-on” location), compared to the face of the back-
+bone (“face-on” location), as supported by the substantial red shift
+(up to 0.25 eV) in the optical absorption spectrum (Figure 4f).
+This is rationalized by the longer counterion–polaron distance as-
+sociated with the edge-on location, which reduces the Coulomb
+interaction responsible for stabilizing the polaron. Given that
+lamellar spacing and 𝜋-stacking can keep the counterion fur-
+ther away from the polymer backbone, where the polaron is lo-
+cated, the Coulombic interactions between polarons and counte-
+rions are reduced in systems with more pronounced crystalline
+features.[81,86] The latter eﬀect is important for achieving high
+mobilities.[82,81] In this case, the GIWAXS indicates that pNDTI-
+TT containing TBA-OH has closer d-spacing as compared to pris-
+tine pNDTI-TT. This may result from the TBA+ being interca-
+lated between lamella stacks in the preferential edge-on location,
+which in turn may reduce the polymer swelling when exposed
+to electrolyte. Furthermore, TBA+ is a large counterion and may
+preferentially adopt the edge-on position with its center of mass
+further away, thereby reducing interactions with polarons. This
+preferential edge-on counterion position has not been reported
+before for chemical or molecular dopants in OECTs or OMIECs.
+Finally, we tested the general applicability of TBA-OH as an
+n-dopant by exploring its impact on OECTs in another host
+polymer. We chose naphthalene diimide (pNDI-TT) as a host
+(Figure S10a, Supporting Information), based on its likelihood to
+undergo the aforementioned reaction mechanism,[40] and tested
+OECTs with TBA-OH at 0, 40, 400 mol% and 1:1 volume ra-
+tio, to compare with pNDTI-TT. We note that pNDI-TT has
+lower intrinsic performance metrics than pristine pNDTI-TT in
+OECTs,[45] and this experiment is designed to explore system-
+atic changes in OECT or trends, not speciﬁc parameter values.
+Figure S10 in the Supporting Information shows the OECTs ex-
+hibit certain characteristic symbols of doped transistors: VT shift
+toward 0 V with the addition of TBA-OH, ION/OFF improvement,
+improvement in device uniformity. Additionally, thin-ﬁlm color
+changes at 1:1 (Figure S10b, Supporting Information), indicat-
+ing adducts/charge transfer complexes are formed between the
+TBA-OH (i.e., the OH−) and pNDI-TT.[54,62] However, although
+performance metrics (gm, C*, and μ) are changed, they are not
+enhanced eﬀectively as they were in pNDTI-TT (Figure S1c–h,
+Adv. Sci. 2023, 10, 2207694
+© 2023 The Authors. Advanced Science published by Wiley-VCH GmbH
+2207694 (7 of 11)
+ 21983844, 2023, 27, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/advs.202207694 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+www.advancedscience.com
+Supporting Information). One interesting consideration for the
+diﬀerences between these two systems is the rigid pNDTI-TT
+framework compared to pNDI-TT. pNDTI-TT is designed to have
+enhanced backbone coplanarity that makes it more eﬀective at
+preserving crystallite interconnectivity in aqueous electrolytes.
+Although the complexity of this is beyond the scope of this cur-
+rent study, it is possible that the crystallization retention sup-
+ports the counterions adopting the preferential edge-on location
+in pNDTI-TT. Backbone structure and glycolated sidechains—
+that provide space for the counterions to get too close to the
+conjugated backbone—may be further explored as optimizable
+variables, for producing successful, eﬀective doped-OECT and
+doped-OMIEC systems.
+3. Conclusions
+Overall, a new chemical n-dopant and design rule are iden-
+tiﬁed for n-type OECTs and OMIECs. We ﬁnd that TBA-OH
+enhances transconductance, mobility, and volumetric capaci-
+tance in pNDTI-TT OECTs, that are representative of key per-
+formance metrics underpinning a broad variety of OMIEC
+technologies/applications.[13] This is important because OMIECs
+need controllable with diverse performance metrics to move be-
+yond PEDOT:PSS and realize their broad application space. GI-
+WAXS and AFM show TBA-OH behaves as a morphology di-
+recting additive and the UPS and EPR show that TBA-OH be-
+haves as an n-dopant, with the OH−acting as an anion trans-
+fer n-dopant.[40] While the OECT data suggest a synergistic com-
+bination of n-doping and morphology modiﬁcations improves
+key performance metrics, we also show the dopant counterion
+(TBA+) location impacts polaron delocalization. Namely, if TBA+
+adopts an “edge-on” location relative to the conjugated backbone,
+polarons are less bound, compared to when TBA+ cations adopt a
+“face-on” location. This phenomenon is rationalized by increased
+polaron binding energy arising from the Coulomb interaction
+when the distance between the counterion and polaron is small,
+which acts to localize the polaron. We suggest the latter is a new
+design rule that should be considered as part of the development
+of doped-OECT and doped-OMIEC systems. In addition to intro-
+ducing a new dopant, this work is the ﬁrst elucidate design rules
+for doped-OMIECs to take a step toward realizing doping as a
+generic strategy for tailoring performance metrics in OECTs and
+OMIECs.
+4. Experimental Section
+Organic Solution Preparation:
+The pNDI-TT and pNDTI-TT polymer
+solutions were each prepared at 5 mg mL−1 concentration in chloroform.
+The TBA-OH solution was purchased from Sigma Aldrich in methanol at
+1 m concentration. The TBA-OH was added to the polymer so that the TBA-
+OH was present in the polymer solutions at molar percentage concentra-
+tions of 20, 40, and 400 mol%. Exactly the same quantity of methanol was
+present in each polymer solution (including the 0 mol% solution), regard-
+less of dopant concentration, to account for any residual solvent-blending
+eﬀects from using chloroform with a small quantity of methanol. Solvent-
+blend eﬀects are beyond the scope of this study. Additionally, a high doping
+concentration (1:1 volume ratio) was used to investigate trends in OECT
+performance with dopant concentration. After mixing and prior to deposi-
+tion, the solutions were left overnight in a nitrogen-ﬁlled glovebox.
+Organic
+Electrochemical
+Transistor
+Fabrication:
+Top-gate
+bottom-
+contact transistors were fabricated by patterning 10 nm metal Cr
+adhesion layer followed by 100 nm Au conduction layer on clean Boroﬂoat
+glass slides, using thermal evaporation, to serve as the source and drain
+electrodes with channel dimensions 600 μm width and 30 μm length. The
+electrode patterned substrates were subsequently cleaned in an ultrasonic
+bath with a Decon-90 soap and deionized water solution, then acetone,
+followed by isopropanol alcohol. The top surfaces of the substrates were
+activated by UV Ozone followed by O2 plasma to maximize the eﬀects
+of the adhesion promotor (3-(trimethoxysilyl)propyl methacrylate), prior
+to depositing a 2 μm layer of Parylene C on the substrates, using an
+SCS Labcoater 2. A 3 vol% microsoap solution was spin coated onto the
+Parylene C at 1800 rpm to encourage easy peeling of a second, 4 μm
+sacriﬁcial layer of Parylene C, which was used to pattern the polymer in
+the channel. The 600 μm width, 30 μm length channels were patterned
+by photolithography using SPR 220–7 photoresist, exposed to UV light
+using a Suss MA6 contact aligner and developed using MF-26 developer.
+The channel features for the devices were etched by O2 reactive ion
+etching (RIE) using a MARCH RIE system. Finally, the polymer thin ﬁlms
+were deposited by spin coating 70 μL of prepared doped-polymer or
+pristine-polymer solution on clean UV ozone-activated OECT substrates
+at 500 rpm for 15 s, followed by 700 rpm for 30 s. Finally, the sacriﬁcial
+top layer of Parylene C was peeled oﬀto pattern the polymer within the
+OECT channels.
+Organic Electrochemical Transistor Electrical Measurement and Analysis:
+The OECT current–voltage characteristics were measured in ambient con-
+ditions using a KEYSIGHT B2912A Precision Source/Measure Unit. A
+0.1 m aqueous NaCl solution was used as the electrolyte for the OECTs,
+with an Ag/AgCl gate electrode. The operational stability tests were car-
+ried out by ﬁxing VG and VD at 0.4 V, and applying both for 2650 s. The
+comparative output and transfer characteristics were normalized for their
+respective ﬁlm thicknesses to account for the eﬀects of channel thickness
+on the OECT current.[27] The threshold voltage was extracted from the re-
+lationship between √ID and gate voltage (i.e., √ID and VG), as measured
+from the transfer curves.
+Electrochemical Impedance Spectroscopy (EIS) and Capacitance Voltage:
+EIS was used to determine the thin-ﬁlm capacitance values. Impedance
+spectra were taken from 50 μm × 50 μm Au electrodes coated with the
+n-doped and pristine polymer thin ﬁlms, which functioned as the working
+electrodes in 0.1 m NaCl aqueous electrolyte solution. An Autolab poten-
+tiostat was used to take the measurements in ambient conditions, using
+a Ag/AgCl pellet as the reference electrode and a Pt wire as the counter
+electrode, with a 10 mV sine wave at frequencies from 1 × 105 to 0.1 Hz
+and a −0.5 V DC oﬀset potential. Cyclic voltammetry data were taken at a
+rate of 0.05 V s−1 for three cycles. The data analysis was then performed
+using Metrohm Autolab NOVA software. The capacitance was normalized
+by the ﬁlm volume to give volumetric capacitance.
+Thickness Measurements:
+A Dektak Proﬁlometer was used to measure
+ﬁlm thickness of the polymer thin ﬁlms in the OECT channels. The ﬁnal
+thickness value was taken as the average from three thickness measure-
+ments within the channel.
+Ultraviolet Photoelectron Spectroscopy:
+UPS measurements were per-
+formed using a PHI 5600 UHV system coupled with a hemispherical elec-
+tron energy analyzer and a multichannel detector with a 5.85 eV pass en-
+ergy. An Excitech H Lyman-𝛼lamp (E-lux 121, 10.2 eV emission) was used
+as the photon source with a 90° mirror (E-lux EEM Optical Module) and a
+dry oxygen purge through the beam path between 7 and 10 Torr. A negative
+5 V bias was applied to the samples during the measurements.
+Electron Paramagnetic Resonance:
+EPR spectra were recorded using
+a Bruker EMX PremiumX at room temperature, with 15 dB microwave
+attenuation, 100 kHz modulation frequency, and a modulation amplitude
+of 1.00 G. EPR polymer solution samples were prepared at a concen-
+tration of 10 mg mL−1 of pNDTI-TT polymer in chloroform. TBA-OH in
+methanol solution was added to the polymer to form a 400 mol% doped
+pNDTI-TT:TBA-OH solution. The same amount of methanol was added
+to the polymer solution to form the pristine sample. Both samples were
+left to rest for 24 h before EPR testing. EPR measurements were carried
+out at room temperature, with identical sample sizes and measurement
+Adv. Sci. 2023, 10, 2207694
+© 2023 The Authors. Advanced Science published by Wiley-VCH GmbH
+2207694 (8 of 11)
+ 21983844, 2023, 27, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/advs.202207694 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+www.advancedscience.com
+conditions, to ensure the observed signal increase was only attributed to
+the addition of the TBA-OH (Figure S4b, Supporting Information).
+Atomic Force Microscopy:
+Topographical information and surface
+roughness measurements were taken using a Cypher S atomic force mi-
+croscope operating in tapping mode. Thickness measurements were also
+taken using the AFM and measuring the polymer thin-ﬁlm in the channel.
+Data analysis was carried out using Igor Pro.
+Grazing-Incidence Wide-Angle X-ray Scattering (GIWAXS):
+Pristine and
+400 mol% TBA-OH-doped pNDTI-TT polymer solutions (5 mg mL−1 in
+chloroform) were spin coated onto silicon wafer substrates at 700 rpm.
+One set of pristine and doped polymer substrates was soaked in 0.1 m
+NaCl aqueous electrolyte solution for an extended amount of time (92 h).
+GIWAXS data were collected for doped and undoped polymer substrates
+allowed to soak in electrolyte and left in the original state. GIWAXS mea-
+surements were carried out at the 11-BM Complex Materials Scattering
+(CMS) beamline of the National Synchrotron Light Source II (NSLS-II),
+Brookhaven National Laboratory. X-rays with wavelength 0.0918 nm were
+shone onto the thin-ﬁlm samples at the incident angle of 0.10°. The scat-
+tering data were collected by Pilatus 800k detector located 260 mm away
+from the samples, which were calibrated by silver behenate. The measure-
+ments were performed in vacuum with the exposure time of 10 s to min-
+imize the air scattering. The data reduction and analysis were performed
+by SciAnalysis.
+Density Functional Theory Calculations:
+DFT calculations were per-
+formed for pNDTI-TT- and pNDI-TT-based oligomers of ﬁve repeat units
+each, with a long range corrected hybrid functional LC-𝜔HPBE, optimally
+tuned with respect to both the HOMO and LUMO, and 6-31G* basis set.
+The geometry was optimized for the neutral P and ionized P−oligomers,
+as well as the oligomer–counterion complex [TBA+-P−] to obtain the dis-
+tribution of the excess charge on the oligomer (polaron delocalization).
+Charge model 5 (CM5)[87] was used to derive the partial atomic charges.
+The optimized geometries were subsequently employed as the basis for
+time-dependent DFT calculations to obtain excitation energies and oscil-
+lator strengths, and an artiﬁcial broadening of 𝜎= 0.3 was applied to each
+peak to establish the optical absorption spectra. All calculations were per-
+formed using the Gaussian 16 Revision A.03 quantum chemical calcula-
+tion package.[88]
+Supporting Information
+Supporting Information is available from the Wiley Online Library or from
+the author.
+Acknowledgements
+V.N.L., G.S.R, M.S, and A.F.P thank the National Science Foundation
+(NSF) through cooperative agreement number 1849213 for ﬁnancial sup-
+port. K.N.B. and K.G. acknowledge support from the NSF through award
+1905734. J.H.B. and C.R. were supported by the Center for Soft PhotoElec-
+troChemical Systems, an Energy Frontier Research Center funded by DOE,
+Oﬃce of Science, BES under Award # DE-SC0023411 (density functional
+theory simulations). This research used CMS beamline of the National
+Synchrotron Light Source II, a U.S. Department of Energy (DOE) Oﬃce of
+Science User Facility operated for the DOE Oﬃce of Science by Brookhaven
+National Laboratory under Contract No. DE-SC0012704. Computing re-
+sources on the Lipscomb High Performance Computing Cluster were pro-
+vided by the University of Kentucky Information Technology Department
+and the Center for Computational Sciences (CCS). K. R. G. and K. N.
+B. gratefully acknowledge support from the National Science Foundation
+(DMR-1905734).
+Conﬂict of Interest
+The authors declare no conﬂict of interest.
+Data Availability Statement
+The data that support the ﬁndings of this study are available from the cor-
+responding author upon reasonable request.
+Keywords
+chemical doping, electron transporting, morphology additive, organic bio-
+electronics, organic electrochemical transistors, organic electronics, or-
+ganic mixed ionic–electronic conductors
+Received: February 24, 2023
+Revised: April 7, 2023
+Published online: July 19, 2023
+[1] D. Khodagholy, T. Doublet, P. Quilichini, M. Gurﬁnkel, P. Leleux,
+A. Ghestem, E. Ismailova, T. Hervé, S. Sanaur, C. Bernard, G. G.
+Malliaras, Nat. Commun. 2013, 4, 1575.
+[2] H. Wang, Q. Zhao, Z. Ni, Q. Li, H. Liu, Y. Yang, L. Wang, Y. Ran, Y.
+Guo, W. Hu, Y. Liu, Adv. Mater. 2018, 30, 1803961.
+[3] P. Gkoupidenis, D. A. Koutsouras, G. G. Malliaras, Nat. Commun.
+2017, 8, 15448.
+[4] Y. van de Burgt, E. Lubberman, E. J. Fuller, S. T. Keene, G. C. Faria,
+S. Agarwal, M. J. Marinella, A. Alec Talin, A. Salleo, Nat. Mater. 2017,
+16, 414.
+[5] E. J. Fuller, S. T. Keene, A. Melianas, Z. Wang, S. Agarwal, Y. Li, Y.
+Tuchman, C. D. James, M. J. Marinella, J. J. Yang, A. Salleo, A. A. Talin,
+Science 2019, 364, 570.
+[6] H. Ling, N. Wang, A. Yang, Y. Liu, J. Song, F. Yan, Adv. Mater. Technol.
+2019, 4, 1900471.
+[7] Z. Wang, L. Wang, Y. Wu, L. Bian, M. Nagai, R. Jv, L. Xie, H. Ling,
+Q. Li, H. Bian, M. Yi, N. Shi, X. Liu, W. Huang, Adv. Mater. 2021, 33,
+2104370.
+[8] Y. Yu, Q. Ma, H. Ling, W. Li, R. Ju, L. Bian, N. Shi, Y. Qian, M. Yi, L.
+Xie, W. Huang, Adv. Funct. Mater. 2019, 29, 1904602.
+[9] H. Bian, Y. Y. Goh, Y. Liu, H. Ling, L. Xie, X. Liu, Adv. Mater. 2021, 33,
+2006469.
+[10] J. Y. Gerasimov, R. Gabrielsson, R. Forchheimer, E. Stavrinidou, D. T.
+Simon, M. Berggren, S. Fabiano, Adv. Sci. 2019, 6, 1801339.
+[11] P. Gkoupidenis, N. Schaefer, B. Garlan, G. G. Malliaras, Adv. Mater.
+2015, 27, 7176.
+[12] M. Ghittorelli, L. Lingstedt, P. Romele, N. I. Cr˘aciun, Z. M. Kovács-
+Vajna, P. W. M. Blom, F. Torricelli, Nat. Commun. 2018, 9, 1441.
+[13] B. D. Paulsen, K. Tybrandt, E. Stavrinidou, J. Rivnay, Nat. Mater. 2020,
+19, 13.
+[14] J. Rivnay, R. M. Owens, G. G. Malliaras, Chem. Mater. 2014, 26, 679.
+[15] E. Zeglio, O. Inganäs, Adv. Mater. 2018, 30, 1800941.
+[16] A. Gumyusenge, Acc. Mater. Res. 2022, 3, 669.
+[17] S. Inal, G. G. Malliaras, J. Rivnay, Nat. Commun. 2017, 8, 1767.
+[18] L. R. Savagian, A. M. Österholm, J. F. Ponder, K. J. Barth, J. Rivnay, J.
+R. Reynolds, Adv. Mater. 2018, 30, 1804647.
+[19] A. Giovannitti, I. P. Maria, D. Haniﬁ, M. J. Donahue, D. Bryant, K. J.
+Barth, B. E. Makdah, A. Savva, D. Moia, M. Zetek, P. R. F. Barnes, O.
+G. Reid, S. Inal, G. Rumbles, G. G. Malliaras, J. Nelson, J. Rivnay, I.
+McCulloch, Chem. Mater. 2018, 30, 2945.
+[20] A. Giovannitti, C. B. Nielsen, D.-T. Sbircea, S. Inal, M. Donahue, M.
+R. Niazi, D. A. Haniﬁ, A. Amassian, G. G. Malliaras, J. Rivnay, I.
+McCulloch, Nat. Commun. 2016, 7, 13066.
+[21] M. Moser, J. F. Ponder Jr., A. Wadsworth, A. Giovannitti, I. McCulloch,
+Adv. Funct. Mater. 2019, 29, 1807033.
+Adv. Sci. 2023, 10, 2207694
+© 2023 The Authors. Advanced Science published by Wiley-VCH GmbH
+2207694 (9 of 11)
+ 21983844, 2023, 27, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/advs.202207694 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+www.advancedscience.com
+[22] B. Ding, G. Kim, Y. Kim, F. D. Eisner, E. Gutiérrez-Fernández, J.
+Martín, M.-H. Yoon, M. Heeney, Angew. Chem., Int. Ed. 2021, 60,
+19679.
+[23] E. Stein, O. Nahor, M. Stolov, V. Freger, I. M. Petruta, I. McCulloch,
+G. L. Frey, Nat. Commun. 2022, 13, 5548.
+[24] H. Shen, A. Abtahi, B. Lussem, B. W. Boudouris, J. Mei, ACS Appl.
+Electron. Mater. 2021, 3, 2434.
+[25] Z. S. Parr, R. B. Rashid, B. D. Paulsen, B. Poggi, E. Tan, M. Freeley,
+M. Palma, I. Abrahams, J. Rivnay, C. B. Nielsen, Adv. Electron. Mater.
+2020, 6, 2000215.
+[26] S. Yamamoto, G. G. Malliaras, ACS Appl. Electron. Mater. 2020, 2,
+2224.
+[27] A. Savva, D. Ohayon, J. Surgailis, A. F. Paterson, T. C. Hidalgo, X.
+Chen, I. P. Maria, B. D. Paulsen, A. J. Petty II, J. Rivnay, I. McCulloch,
+S. Inal, Adv. Electron. Mater. 2019, 5, 1900249.
+[28] S. T. M. Tan, G. Lee, I. Denti, G. LeCroy, K. Rozylowicz, A. Marks, S.
+Griggs, I. McCulloch, A. Giovannitti, A. Salleo, Adv. Mater. 2022, 34,
+2202359.
+[29] E. A. Schafer, R. Wu, D. Meli, J. Tropp, M. Moser, I. McCulloch, B. D.
+Paulsen, J. Rivnay, ACS Appl. Electron. Mater. 2022, 4, 1391.
+[30] A. F. Paterson, H. Faber, A. Savva, G. Nikiforidis, M. Gedda, T. C.
+Hidalgo, X. Chen, I. McCulloch, T. D. Anthopoulos, S. Inal, Adv. Mater.
+2019, 0, 1902291.
+[31] A. F. Paterson, A. Savya, S. Wustoni, L. Tsetseris, B. D. Paulsen, H.
+Faber, A. H. Emwas, X. Chen, G. Nikiforidis, T. C. Hidalgo, J. Rivnay,
+I. McCulloch, T. D. Anthopoulos, S. Inal, Nat. Commun. 2020, 11,
+3004.
+[32] B. Lüssem, M. Riede, K. Leo, Phys. Status Solidi A 2013, 210, 9.
+[33] O. D. Jurchescu, Nat. Mater. 2021, 20, 1458.
+[34] I. Isakov, A. F. Paterson, O. Solomeshch, N. Tessler, Q. Zhang, J. Li, X.
+Zhang, Z. Fei, M. Heeney, T. D. Anthopoulos, Appl. Phys. Lett. 2016,
+109, 263301.
+[35] I. Salzmann, G. Heimel, M. Oehzelt, S. Winkler, N. Koch, Acc. Chem.
+Res. 2016, 49, 370.
+[36] S. Griggs, A. Marks, H. Bristow, I. McCulloch, J. Mater. Chem. C 2021,
+9, 8099.
+[37] H. Mendez, G. Heimel, A. Opitz, K. Sauer, P. Barkowski, M. Oehzelt,
+J. Soeda, T. Okamoto, J. Takeya, J.-B. Arlin, J.-Y. Balandier, Y. Geerts,
+N. Koch, I. Salzmann, Angew. Chem., Int. Ed. 2013, 52, 7751.
+[38] Y. Yamashita, J. Tsurumi, M. Ohno, R. Fujimoto, S. Kumagai, T.
+Kurosawa, T. Okamoto, J. Takeya, S. Watanabe, Nature 2019, 572, 634.
+[39] I. E. Jacobs, Y. Lin, Y. Huang, X. Ren, D. Simatos, C. Chen, D. Tjhe,
+M. Statz, L. Lai, P. A. Finn, W. G. Neal, G. D’Avino, V. Lemaur, S.
+Fratini, D. Beljonne, J. Strzalka, C. B. Nielsen, S. Barlow, S. R. Marder,
+I. McCulloch, H. Sirringhaus, Adv. Mater. 2022, 34, 2102988.
+[40] J. Kim, D. Khim, K. J. Baeg, W. T. Park, S. H. Lee, M. Kang, Y. Y. Noh,
+D. Y. Kim, Adv. Funct. Mater. 2016, 26, 7886.
+[41] A. F. Paterson, N. D. Treat, W. Zhang, Z. Fei, G. Wyatt-Moon, H. Faber,
+G. Vourlias, P. A. Patsalas, O. Solomeshch, N. Tessler, M. Heeney, T.
+D. Anthopoulos, Adv. Mater. 2016, 28, 7791.
+[42] A. F. Paterson, L. Tsetseris, R. Li, A. Basu, H. Faber, A.-H. Emwas,
+J. Panidi, Z. Fei, M. R. Niazi, D. H. Anjum, M. Heeney, T. D.
+Anthopoulos, Adv. Mater. 2019, 31, 1900871.
+[43] B. Lüssem, C.-M. Keum, D. Kasemann, B. Naab, Z. Bao, K. Leo, Chem.
+Rev. 2016, 116, 13714.
+[44] Y. Xu, H. Sun, A. Liu, H.-H. Zhu, W. Li, Y.-F. Lin, Y.-Y. Noh, Adv. Mater.
+2018, 30, 1801830.
+[45] I. P. Maria, S. Griggs, R. B. Rashid, B. D. Paulsen, J. Surgailis, K.
+Thorley, V. N. Le, G. T. Harrison, C. Combe, R. Hallani, A. Giovannitti,
+A. F. Paterson, S. Inal, J. Rivnay, I. McCulloch, Chem. Mater. 2022, 34,
+8593.
+[46] Y. Lee, T.-W. Lee, Acc. Chem. Res. 2019, 52, 964.
+[47] A. Marks, S. Griggs, N. Gasparini, M. Moser, Adv. Mater. Interfaces
+2022, 9, 2102039.
+[48] F. Torricelli, D. Z. Adrahtas, Z. Bao, M. Berggren, F. Biscarini, A.
+Bonﬁglio, C. A. Bortolotti, C. D. Frisbie, E. Macchia, G. G. Malliaras,
+I. McCulloch, M. Moser, T.-Q. Nguyen, R. M. Owens, A. Salleo, A.
+Spanu, L. Torsi, Nat. Rev. Methods Primers 2021, 1, 66.
+[49] J. Rivnay, S. Inal, A. Salleo, R. M. Owens, M. Berggren, G. G. Malliaras,
+Nat. Rev. Mater. 2018, 3, 17086.
+[50] A. F. Paterson, Y.-H. Lin, A. D. Mottram, Z. Fei, M. R. Niazi, A. R.
+Kirmani, A. Amassian, O. Solomeshch, N. Tessler, M. Heeney, T. D.
+Anthopoulos, Adv. Electron. Mater. 2017, 4, 1700464.
+[51] H. H. Choi, Y. I. Rodionov, A. F. Paterson, J. Panidi, D. Saranin, N.
+Kharlamov, S. I. Didenko, T. D. Anthopoulos, K. Cho, V. Podzorov,
+Adv. Funct. Mater. 2018, 28, 1707105.
+[52] A. Basu, M. R. Niazi, A. D. Scaccabarozzi, H. Faber, Z. Fei, D. H.
+Anjum, A. F. Paterson, O. Boltalina, M. Heeney, T. D. Anthopoulos, J.
+Mater. Chem. C 2020, 8, 15368.
+[53] A. D. Scaccabarozzi, F. Scuratti, A. J. Barker, A. Basu, A. F.
+Paterson, Z. Fei, O. Solomeshch, A. Petrozza, N. Tessler, M.
+Heeney, T. D. Anthopoulos, M. Caironi, Adv. Electron. Mater. 2020, 6,
+2000539.
+[54] J. Panidi, A. F. Paterson, D. Khim, Z. Fei, Y. Han, L. Tsetseris, G.
+Vourlias, P. A. Patsalas, M. Heeney, T. D. Anthopoulos, Adv. Sci. 2018,
+5, 1700290, 1700290.
+[55] X. Chen, A. Marks, B. D. Paulsen, R. Wu, R. B. Rashid, H. Chen, M.
+Alsufyani, J. Rivnay, I. McCulloch, Angew. Chem., Int. Ed. 2021, 60,
+9368.
+[56] I. P. Maria, B. D. Paulsen, A. Savva, D. Ohayon, R. Wu, R. Hallani, A.
+Basu, W. Du, T. D. Anthopoulos, S. Inal, J. Rivnay, I. McCulloch, A.
+Giovannitti, Adv. Funct. Mater. 2021, 31, 2008718.
+[57] A. F. Paterson, A. Savva, S. Wustoni, L. Tsetseris, B. D. Paulsen, H.
+Faber, A. H. Emwas, X. Chen, G. Nikiforidis, T. C. Hidalgo, M. Moser,
+I. P. Maria, J. Rivnay, I. McCulloch, T. D. Anthopoulos, S. Inal, Nat.
+Commun. 2020, 11, 3004.
+[58] H. Sun, M. Vagin, S. Wang, X. Crispin, R. Forchheimer, M. Berggren,
+S. Fabiano, Adv. Mater. 2018, 30, 1704916.
+[59] J. Surgailis, A. Savva, V. Druet, B. D. Paulsen, R. Wu, A. Hamidi-Sakr,
+D. Ohayon, G. Nikiforidis, X. Chen, I. McCulloch, J. Rivnay, S. Inal,
+Adv. Funct. Mater. 2021, 31, 2010165.
+[60] H. Tang, Y. Liang, C. Liu, Z. Hu, Y. Deng, H. Guo, Z. Yu, A. Song,
+H. Zhao, D. Zhao, Y. Zhang, X. Guo, J. Pei, Y. Ma, Y. Cao, F. Huang,
+Nature 2022, 611, 271.
+[61] C. W. Koh, J. H. Heo, M. A. Uddin, Y. W. Kwon, D. H. Choi, S. H. Im,
+H. Y. Woo, ACS Appl. Mater. Interfaces 2017, 9, 43846.
+[62] J. Luo, J. Xia, H. Yang, L. Chen, Z. Wan, F. Han, H. A. Malik, X. Zhu,
+C. Jia, Energy Environ. Sci. 2018, 11, 2035.
+[63] P. Patrick, A. Malavika, K. Lisa, S. Robert, K. Felix, B. Jan, J. Silvia, N.
+Dieter, Adv. Electron. Mater. 2016, 2, 1600204.
+[64] T. L. Ye, J. H. Wang, W. B. Chen, Y. L. Yang, D. Q. He, ACS Appl. Mater.
+Interfaces 2017, 9, 17923.
+[65] X. Lin, B. Wegner, K. M. Lee, M. A. Fusella, F. Zhang, K. Moudgil, B.
+P. Rand, S. Barlow, S. R. Marder, N. Koch, A. Kahn, Nat. Mater. 2018,
+17, 204.
+[66] S. Guha, F. S. Goodson, S. Roy, L. J. Corson, C. A. Gravenmier, S.
+Saha, J. Am. Chem. Soc. 2011, 133, 15256.
+[67] S. Guha, S. Saha, J. Am. Chem. Soc. 2010, 132, 17674.
+[68] Y. Han, Z. Fei, Y.-H. Lin, J. Martin, F. Tuna, T. D. Anthopoulos, M.
+Heeney, npj Flexible Electron. 2018, 2, 11.
+[69] X. Zhao, D. Madan, Y. Cheng, J. Zhou, H. Li, S. M. Thon, A. E. Bragg,
+M. E. DeCoster, P. E. Hopkins, H. E. Katz, Adv. Mater. 2017, 29,
+1606928.
+[70] C. D. Weber, C. Bradley, M. C. Lonergan, J. Mater. Chem. A 2014, 2,
+303.
+[71] J. Rivnay, S. Inal, B. A. Collins, M. Sessolo, E. Stavrinidou, X.
+Strakosas, C. Tassone, D. M. Delongchamp, G. G. Malliaras, Nat.
+Commun. 2016, 7, 11287.
+Adv. Sci. 2023, 10, 2207694
+© 2023 The Authors. Advanced Science published by Wiley-VCH GmbH
+2207694 (10 of 11)
+ 21983844, 2023, 27, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/advs.202207694 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+www.advancedscience.com
+[72] A. Savva, R. Hallani, C. Cendra, J. Surgailis, T. C. Hidalgo, S. Wustoni,
+R. Sheelamanthula, X. Chen, M. Kirkus, A. Giovannitti, A. Salleo, I.
+McCulloch, S. Inal, Adv. Funct. Mater. 2020, 30, 1907657.
+[73] A. Mazaheripour, E. M. Thomas, R. A. Segalman, M. L. Chabinyc,
+Macromolecules 2019, 52, 2203.
+[74] S. N. Patel, A. M. Glaudell, K. A. Peterson, E. M. Thomas, K. A.
+O’Hara, E. Lim, M. L. Chabinyc, Sci. Adv. 2017, 3, e1700434.
+[75] P. Y. Yee, D. T. Scholes, B. J. Schwartz, S. H. Tolbert, J. Phys. Chem.
+Lett. 2019, 10, 4929.
+[76] A. Savva, C. Cendra, A. Giugni, B. Torre, J. Surgailis, D. Ohayon, A.
+Giovannitti, I. McCulloch, E. Di Fabrizio, A. Salleo, J. Rivnay, S. Inal,
+Chem. Mater. 2019, 31, 927.
+[77] C. Cendra, A. Giovannitti, A. Savva, V. Venkatraman, I. McCulloch, A.
+Salleo, S. Inal, J. Rivnay, Adv. Funct. Mater. 2019, 29, 1807034.
+[78] I. E. Jacobs, E. W. Aasen, J. L. Oliveira, T. N. Fonseca, J. D. Roehling, J.
+Li, G. Zhang, M. P. Augustine, M. Mascal, A. J. Moule, J. Mater. Chem.
+C 2016, 4, 3454.
+[79] Z. Liang, Y. Zhang, M. Souri, X. Luo, A. M. Boehm, R. Li, Y. Zhang, T.
+Wang, D.-Y. Kim, J. Mei, S. R. Marder, K. R. Graham, J. Mater. Chem.
+A 2018, 6, 16495.
+[80] K. N. Baustert, A. Abtahi, A. N. Ayyash, K. R. Graham, J. Polym. Sci.
+2022, 60, 602.
+[81] T. J. Aubry, K. J. Winchell, C. Z. Salamat, V. M. Basile, J. R. Lindemuth,
+J. M. Stauber, J. C. Axtell, R. M. Kubena, M. D. Phan, M. J. Bird, A. M.
+Spokoyny, S. H. Tolbert, B. J. Schwartz, Adv. Funct. Mater. 2020, 30,
+2001800.
+[82] T. J. Aubry, J. C. Axtell, V. M. Basile, K. J. Winchell, J. R. Lindemuth,
+T. M. Porter, J. Y. Liu, A. N. Alexandrova, C. P. Kubiak, S. H.
+Tolbert, A. M. Spokoyny, B. J. Schwartz, Adv. Mater. 2019, 31,
+1805647.
+[83] E. M. Thomas, K. A. Peterson, A. H. Balzer, D. Rawlings, N. Stingelin,
+R. A. Segalman, M. L. Chabinyc, Adv. Electron. Mater. 2020, 6,
+2000595.
+[84] J. H. Bombile, M. J. Janik, S. T. Milner, Phys. Chem. Chem. Phys. 2018,
+20, 317.
+[85] G. Heimel, ACS Cent. Sci. 2016, 2, 309.
+[86] E. M. Thomas, E. C. Davidson, R. Katsumata, R. A. Segalman, M. L.
+Chabinyc, ACS Macro Lett. 2018, 7, 1492.
+[87] A. V. Marenich, S. V. Jerome, C. J. Cramer, D. G. Truhlar, J. Chem.
+Theory Comput. 2012, 8, 527.
+[88] M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, M. A.
+Robb, J. R. Cheeseman, G. Scalmani, V. Barone, G. A. Petersson,
+H. Nakatsuji, X. Li, M. Caricato, A. V. Marenich, J. Bloino, B. G.
+Janesko, R. Gomperts, B. Mennucci, H. P. Hratchian, J. V. Ortiz, A.
+F. Izmaylov, J. L. Sonnenberg, D. Williams, F. Ding, F. Lipparini, F.
+Egidi, J. Goings, B. Peng, A. Petrone, T. Henderson, D. Ranasinghe,
+et al., Gaussian 16, Revision C.01, Gaussian, Inc., Wallingford, CT
+2016.
+Adv. Sci. 2023, 10, 2207694
+© 2023 The Authors. Advanced Science published by Wiley-VCH GmbH
+2207694 (11 of 11)
+ 21983844, 2023, 27, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/advs.202207694 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+

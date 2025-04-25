@@ -1,0 +1,68 @@
+{
+  "records": [
+    {
+      "full_caption": "Scheme 1. Synthesis of P3HT-PEO block copolymer. dppp = 1,3-bis(diphenylphosphino)propane.",
+      "caption": "dppp = 1,3-bis(diphenylphosphino)propane.",
+      "caption_summary": [
+        "Ligand",
+        "Phosphine",
+        "Coordination"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\P3HT-PEO_electrode\\P3HT-PEO_electrode\\P3HT-PEO_electrode\\images_folder\\page_1_img_4_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3HT-PEO_electrode\\P3HT-PEO_electrode"
+    },
+    {
+      "full_caption": "Scheme 1. Synthesis of P3HT-PEO block copolymer. dppp = 1,3-bis(diphenylphosphino)propane.",
+      "caption": "Synthesis of P3HT-PEO block copolymer.",
+      "caption_summary": [
+        "Polymer synthesis",
+        "Block copolymer",
+        "P3HT-PEO"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\P3HT-PEO_electrode\\P3HT-PEO_electrode\\P3HT-PEO_electrode\\images_folder\\page_1_img_4_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3HT-PEO_electrode\\P3HT-PEO_electrode"
+    },
+    {
+      "full_caption": "Scheme 1. Synthesis of P3HT-PEO block copolymer. dppp = 1,3-bis(diphenylphosphino)propane.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\P3HT-PEO_electrode\\P3HT-PEO_electrode\\P3HT-PEO_electrode\\images_folder\\page_1_img_4_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3HT-PEO_electrode\\P3HT-PEO_electrode"
+    },
+    {
+      "full_caption": "Figure 2. Conductivity measurements. Nyquist plot of the P3HT-PEO/ LiTFSI mixture sandwiched between nickel electrodes (−Z'' (imaginary) vs Z' (real) impedance). Red circles correspond to experimental data and the black curve corresponds to a fit using the proposed equivalent circuit comprising resistors and constant phase elements (CPE) shown in the left-hand inset. The right-hand inset shows the Ohm’s law fit of dc potentials (E, applied potential) vs steady-state current density (Jss). R1, R2, and R3 correspond to the resistance values of each semicircle relative to the origin. Qbulk = bulk capacitance, Qint = interfacial capacitance. See the Supporting Information for more details.",
+      "caption": "Figure 2. Conductivity measurements. Nyquist plot of the P3HT-PEO/ LiTFSI mixture sandwiched between nickel electrodes (−Z'' (imaginary) vs Z' (real) impedance). Red circles correspond to experimental data and the black curve corresponds to a fit using the proposed equivalent circuit comprising resistors and constant phase elements (CPE) shown in the left-hand inset. The right-hand inset shows the Ohm’s law fit of dc potentials (E, applied potential) vs steady-state current density (Jss). R1, R2, and R3 correspond to the resistance values of each semicircle relative to the origin. Qbulk = bulk capacitance, Qint = interfacial capacitance. See the Supporting Information for more details.",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\P3HT-PEO_electrode\\P3HT-PEO_electrode\\P3HT-PEO_electrode\\images_folder\\page_2_img_1_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3HT-PEO_electrode\\P3HT-PEO_electrode"
+    },
+    {
+      "full_caption": "Figure 3. a) SEM image of the cathode composed of P3HT-PEO/LiTFSI and LiFePO4; b) schematic of the battery construction.",
+      "caption": "Figure 3. a) SEM image of the cathode composed of P3HT-PEO/LiTFSI and LiFePO4; b) schematic of the battery construction.",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\P3HT-PEO_electrode\\P3HT-PEO_electrode\\P3HT-PEO_electrode\\images_folder\\page_2_img_2_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3HT-PEO_electrode\\P3HT-PEO_electrode"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\P3HT-PEO_electrode\\P3HT-PEO_electrode\\P3HT-PEO_electrode\\images_folder\\page_2_img_3_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3HT-PEO_electrode\\P3HT-PEO_electrode"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\P3HT-PEO_electrode\\P3HT-PEO_electrode\\P3HT-PEO_electrode\\images_folder\\page_2_img_3_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3HT-PEO_electrode\\P3HT-PEO_electrode"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "N/A",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\P3HT-PEO_electrode\\P3HT-PEO_electrode\\P3HT-PEO_electrode\\images_folder\\page_4_img_1_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3HT-PEO_electrode\\P3HT-PEO_electrode"
+    }
+  ]
+}

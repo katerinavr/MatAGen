@@ -1,0 +1,1442 @@
+{
+   "page_1_img_1.png": {
+      "title": "cm202117d 1..14",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_cm202117d\\cm202117d",
+      "image_url": [],
+      "figure_name": "page_1_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_1_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.13683663308620453,
+            "height": 458,
+            "width": 732,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 732,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 458
+               },
+               {
+                  "x": 732,
+                  "y": 458
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 732,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 458
+                  },
+                  {
+                     "x": 732,
+                     "y": 458
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": null,
+                  "geometry": [
+                     {
+                        "x": 219,
+                        "y": 269
+                     },
+                     {
+                        "x": 219,
+                        "y": 274
+                     },
+                     {
+                        "x": 241,
+                        "y": 274
+                     },
+                     {
+                        "x": 241,
+                        "y": 269
+                     }
+                  ],
+                  "confidence": 0.7014124393463135,
+                  "length": 21,
+                  "label_line_distance": -1
+               },
+               {
+                  "label": null,
+                  "geometry": [
+                     {
+                        "x": 147,
+                        "y": 378
+                     },
+                     {
+                        "x": 147,
+                        "y": 383
+                     },
+                     {
+                        "x": 169,
+                        "y": 383
+                     },
+                     {
+                        "x": 169,
+                        "y": 378
+                     }
+                  ],
+                  "confidence": 0.6669380068778992,
+                  "length": 22,
+                  "label_line_distance": -1
+               }
+            ],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_3_img_2.png": {
+      "title": "cm202117d 1..14",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_cm202117d\\cm202117d",
+      "image_url": [],
+      "figure_name": "page_3_img_2.png",
+      "full_caption": "Figure 2. Comparative solution optical absorbance spectra of DA-copolymers a) P1, P3, and P2 and b) P3, P6, and P5 in toluene. Spectrum of each system is normalized at the longer wavelength absorption maximum.",
+      "figure_path": "output\\figures\\page_3_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.4316156804561615,
+            "height": 792,
+            "width": 968,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 717
+               },
+               {
+                  "x": 968,
+                  "y": 717
+               },
+               {
+                  "x": 0,
+                  "y": 1509
+               },
+               {
+                  "x": 968,
+                  "y": 1509
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 717
+                  },
+                  {
+                     "x": 968,
+                     "y": 717
+                  },
+                  {
+                     "x": 0,
+                     "y": 1509
+                  },
+                  {
+                     "x": 968,
+                     "y": 1509
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.22562550008296967,
+            "height": 747,
+            "width": 963,
+            "geometry": [
+               {
+                  "x": 5,
+                  "y": 0
+               },
+               {
+                  "x": 968,
+                  "y": 0
+               },
+               {
+                  "x": 5,
+                  "y": 747
+               },
+               {
+                  "x": 968,
+                  "y": 747
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 5,
+                     "y": 0
+                  },
+                  {
+                     "x": 968,
+                     "y": 0
+                  },
+                  {
+                     "x": 5,
+                     "y": 747
+                  },
+                  {
+                     "x": 968,
+                     "y": 747
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_4_img_1.png": {
+      "title": "cm202117d 1..14",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_cm202117d\\cm202117d",
+      "image_url": [],
+      "figure_name": "page_4_img_1.png",
+      "full_caption": "Figure 4. DFT-computed frontier orbital topologies for a repeat unit composed of a) BTD electron-accepting core symmetrically functionalized with a) four DalkOT electron-rich heterocycles, as in P1, P2, and P3, and with b) four ProDOT electron-rich heterocycles, as in P6. A selected number of representative molecular orbitals, including HOMO-1, HOMO, LUMO, and LUMO+1 are illustrated. Calculations performed at the B3LYP/6-31G** level of theory.",
+      "figure_path": "output\\figures\\page_4_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.707324206829071,
+            "height": 548,
+            "width": 751,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 410
+               },
+               {
+                  "x": 751,
+                  "y": 410
+               },
+               {
+                  "x": 0,
+                  "y": 958
+               },
+               {
+                  "x": 751,
+                  "y": 958
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 410
+                  },
+                  {
+                     "x": 751,
+                     "y": 410
+                  },
+                  {
+                     "x": 0,
+                     "y": 958
+                  },
+                  {
+                     "x": 751,
+                     "y": 958
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "BTD electron-accepting core symmetrically functionalized with four DalkOT electron-rich heterocycles, as in P1, P2, and P3",
+            "keywords": [
+               "Electron-accepting",
+               "Functionalization",
+               "Heterocycles"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "b",
+               "description": "BTD electron-accepting core symmetrically functionalized with four ProDOT electron-rich heterocycles, as in P6",
+               "keywords": [
+                  "BTD",
+                  "ProDOT",
+                  "electron-accepting"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_4_img_2.png": {
+      "title": "cm202117d 1..14",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_cm202117d\\cm202117d",
+      "image_url": [],
+      "figure_name": "page_4_img_2.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_4_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 800,
+            "width": 774,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 774,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 800
+               },
+               {
+                  "x": 774,
+                  "y": 800
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 774,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 800
+                  },
+                  {
+                     "x": 774,
+                     "y": 800
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_6_img_1.png": {
+      "title": "cm202117d 1..14",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_cm202117d\\cm202117d",
+      "image_url": [],
+      "figure_name": "page_6_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_6_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 742,
+            "width": 906,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 906,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 742
+               },
+               {
+                  "x": 906,
+                  "y": 742
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 906,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 742
+                  },
+                  {
+                     "x": 906,
+                     "y": 742
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_8_img_1.png": {
+      "title": "cm202117d 1..14",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_cm202117d\\cm202117d",
+      "image_url": [],
+      "figure_name": "page_8_img_1.png",
+      "full_caption": "Figure 6. Spectroelectrochemistry of DA-copolymer a) P3, b) P5, c) P2, d) P6, e) P7, f) P8 (Spectra normalized at the polymer longer wavelength absorption maximum). Films were spray-cast onto ITO-coated glass from toluene or dichloromethane solutions (~2 mg mL\u22121). Electrochemical oxidation of the films was carried out in 0.1 M TBAP/PC supporting electrolyte using Ag/Ag+ as a quasi-reference electrode (all results were subsequently calibrated vs Fc/Fc+ for consistency with the rest of the manuscript) and a platinum wire as the counter electrode. The applied potential (reported against Fc/Fc+) was increased a) in 100 mV steps from \u22120.05 to +0.2 and in 50 mV steps from +0.25 to +0.3 and in 25 mV steps from +0.35 to +0.45, b) in 100 mV steps from \u22120.6 to 0.0 and in 50 mV steps from +0.05 to +0.6, c) in 100 mV steps from \u22120.5 to 0.0 and in 50 mV steps from +0.05 to +0.15 and in 20 mV steps from +0.175 to +0.55, d) in 100 mV steps from \u22120.4 to +0.3 and in 25 mV steps from +0.325 to +0.6, e) in 100 mV steps from \u22120.4 to +0.1 and in 50 mV steps from +0.15 to +0.80, f) in 100 mV steps from \u22120.4 to +0.2 and in 50 mV steps from +0.25 to +0.75.",
+      "figure_path": "output\\figures\\page_8_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9691666960716248,
+            "height": 820,
+            "width": 990,
+            "geometry": [
+               {
+                  "x": 1002,
+                  "y": 1487
+               },
+               {
+                  "x": 1992,
+                  "y": 1487
+               },
+               {
+                  "x": 1002,
+                  "y": 2307
+               },
+               {
+                  "x": 1992,
+                  "y": 2307
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 1002,
+                     "y": 1487
+                  },
+                  {
+                     "x": 1992,
+                     "y": 1487
+                  },
+                  {
+                     "x": 1002,
+                     "y": 2307
+                  },
+                  {
+                     "x": 1992,
+                     "y": 2307
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "P6",
+            "keywords": [
+               "1D materials",
+               "phosphorus",
+               "nanostructures"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9642304182052612,
+            "height": 818,
+            "width": 996,
+            "geometry": [
+               {
+                  "x": 1,
+                  "y": 1489
+               },
+               {
+                  "x": 997,
+                  "y": 1489
+               },
+               {
+                  "x": 1,
+                  "y": 2307
+               },
+               {
+                  "x": 997,
+                  "y": 2307
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 1489
+                  },
+                  {
+                     "x": 997,
+                     "y": 1489
+                  },
+                  {
+                     "x": 1,
+                     "y": 2307
+                  },
+                  {
+                     "x": 997,
+                     "y": 2307
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "P2",
+            "keywords": [
+               "Sorry",
+               "I can\"t assist with that request."
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.962334930896759,
+            "height": 812,
+            "width": 995,
+            "geometry": [
+               {
+                  "x": 996,
+                  "y": 721
+               },
+               {
+                  "x": 1991,
+                  "y": 721
+               },
+               {
+                  "x": 996,
+                  "y": 1533
+               },
+               {
+                  "x": 1991,
+                  "y": 1533
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 996,
+                     "y": 721
+                  },
+                  {
+                     "x": 1991,
+                     "y": 721
+                  },
+                  {
+                     "x": 996,
+                     "y": 1533
+                  },
+                  {
+                     "x": 1991,
+                     "y": 1533
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "P5",
+            "keywords": [
+               "Sorry",
+               "I can\"t assist with that request."
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9551755785942078,
+            "height": 808,
+            "width": 998,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 720
+               },
+               {
+                  "x": 998,
+                  "y": 720
+               },
+               {
+                  "x": 0,
+                  "y": 1528
+               },
+               {
+                  "x": 998,
+                  "y": 1528
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 720
+                  },
+                  {
+                     "x": 998,
+                     "y": 720
+                  },
+                  {
+                     "x": 0,
+                     "y": 1528
+                  },
+                  {
+                     "x": 998,
+                     "y": 1528
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "P3",
+            "keywords": [
+               "Polymer",
+               "Solar Cells",
+               "Efficiency"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "e",
+               "description": "P7",
+               "keywords": [
+                  "I\"m sorry",
+                  "but I cannot provide keywords without the text content. Could you please provide the text you would like summarized?"
+               ]
+            },
+            {
+               "label": "f",
+               "description": "P8",
+               "keywords": [
+                  "I\"m sorry",
+                  "but it seems there is no text provided for me to summarize. Could you please provide the text you would like me to summarize?"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_9_img_1.png": {
+      "title": "cm202117d 1..14",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_cm202117d\\cm202117d",
+      "image_url": [],
+      "figure_name": "page_9_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_9_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9668774008750916,
+            "height": 762,
+            "width": 901,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 786
+               },
+               {
+                  "x": 901,
+                  "y": 786
+               },
+               {
+                  "x": 0,
+                  "y": 1548
+               },
+               {
+                  "x": 901,
+                  "y": 1548
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 786
+                  },
+                  {
+                     "x": 901,
+                     "y": 786
+                  },
+                  {
+                     "x": 0,
+                     "y": 1548
+                  },
+                  {
+                     "x": 901,
+                     "y": 1548
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9202901721000671,
+            "height": 756,
+            "width": 901,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 901,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 756
+               },
+               {
+                  "x": 901,
+                  "y": 756
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 901,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 756
+                  },
+                  {
+                     "x": 901,
+                     "y": 756
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.45119521021842957,
+            "height": 757,
+            "width": 901,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 901,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 757
+               },
+               {
+                  "x": 901,
+                  "y": 757
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 901,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 757
+                  },
+                  {
+                     "x": 901,
+                     "y": 757
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_10_img_1.png": {
+      "title": "cm202117d 1..14",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_cm202117d\\cm202117d",
+      "image_url": [],
+      "figure_name": "page_10_img_1.png",
+      "full_caption": "Figure 8. Comparative spectra of relative luminance as a function of applied potential for spray-coated (a) polymers P3 and P5, b) P6 and P2, c) P8 and P7a. The legends indicate the absorbance of the deposited films (estimated at the longer wavelength absorption maximum) and give an indication of the thickness obtained on spraying. For color matching, L*a*b* values (in the sense of the Commission Internationale de l\u2019Eclairage 1976 L*a*b* color model) of fully neutral and oxidized states are reported for the films.",
+      "figure_path": "output\\figures\\page_10_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.931948184967041,
+            "height": 699,
+            "width": 807,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 1227
+               },
+               {
+                  "x": 807,
+                  "y": 1227
+               },
+               {
+                  "x": 0,
+                  "y": 1926
+               },
+               {
+                  "x": 807,
+                  "y": 1926
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 1227
+                  },
+                  {
+                     "x": 807,
+                     "y": 1227
+                  },
+                  {
+                     "x": 0,
+                     "y": 1926
+                  },
+                  {
+                     "x": 807,
+                     "y": 1926
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Comparative spectra of relative luminance as a function of applied potential for spray-coated polymers P6 and P2.",
+            "keywords": [
+               "Spectra",
+               "Luminance",
+               "Polymers"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.43280377984046936,
+            "height": 665,
+            "width": 807,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 594
+               },
+               {
+                  "x": 807,
+                  "y": 594
+               },
+               {
+                  "x": 0,
+                  "y": 1259
+               },
+               {
+                  "x": 807,
+                  "y": 1259
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 594
+                  },
+                  {
+                     "x": 807,
+                     "y": 594
+                  },
+                  {
+                     "x": 0,
+                     "y": 1259
+                  },
+                  {
+                     "x": 807,
+                     "y": 1259
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Comparative spectra of relative luminance as a function of applied potential for spray-coated polymers P3 and P5.",
+            "keywords": [
+               "Spectra",
+               "Luminance",
+               "Polymers"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.3971136808395386,
+            "height": 671,
+            "width": 807,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 591
+               },
+               {
+                  "x": 807,
+                  "y": 591
+               },
+               {
+                  "x": 0,
+                  "y": 1262
+               },
+               {
+                  "x": 807,
+                  "y": 1262
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 591
+                  },
+                  {
+                     "x": 807,
+                     "y": 591
+                  },
+                  {
+                     "x": 0,
+                     "y": 1262
+                  },
+                  {
+                     "x": 807,
+                     "y": 1262
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Comparative spectra of relative luminance as a function of applied potential for spray-coated polymers P8 and P7a. The legends indicate the absorbance of the deposited films (estimated at the longer wavelength absorption maximum) and give an indication of the thickness obtained on spraying. For color matching, L*a*b* values (in the sense of the Commission Internationale de l\u2019Eclairage 1976 L*a*b* color model) of fully neutral and oxidized states are reported for the films.",
+            "keywords": [
+               "Spectra",
+               "Luminance",
+               "Polymers"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_11_img_1.png": {
+      "title": "cm202117d 1..14",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_cm202117d\\cm202117d",
+      "image_url": [],
+      "figure_name": "page_11_img_1.png",
+      "full_caption": "Figure 9. Overview color matching diagram corresponding to the plots of relative luminance as a function of applied potential and film thickness described in Figure 8 for the spray-coated DA polymers. The associated a*/b* values (in the sense of the Commission Internationale de l\u2019Eclairage 1976 L*a*b* color model) of a) fully neutral states and b) fully oxidized states are reported for the respective films.",
+      "figure_path": "output\\figures\\page_11_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.521715521812439,
+            "height": 660,
+            "width": 801,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 801,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 660
+               },
+               {
+                  "x": 801,
+                  "y": 660
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 801,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 660
+                  },
+                  {
+                     "x": 801,
+                     "y": 660
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.22165696322917938,
+            "height": 659,
+            "width": 798,
+            "geometry": [
+               {
+                  "x": 1,
+                  "y": 0
+               },
+               {
+                  "x": 799,
+                  "y": 0
+               },
+               {
+                  "x": 1,
+                  "y": 659
+               },
+               {
+                  "x": 799,
+                  "y": 659
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 0
+                  },
+                  {
+                     "x": 799,
+                     "y": 0
+                  },
+                  {
+                     "x": 1,
+                     "y": 659
+                  },
+                  {
+                     "x": 799,
+                     "y": 659
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_12_img_1.png": {
+      "title": "cm202117d 1..14",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_cm202117d\\cm202117d",
+      "image_url": [],
+      "figure_name": "page_12_img_1.png",
+      "full_caption": "Figure 11. a) Relative luminance as a function of applied potential for an ECD device made of spray-coated DA polymer P6 and the minimally color-changing polymer (MCCP) at the counter-electrode. For color matching, L*a*b* values of fully neutral and oxidized states are reported for the film. b) Long-term switching of the same ECD device using P6 (monitored at 648 nm, 0 V \u2192 +2.2 V in 1 s intervals, complete cycle is 2 s).",
+      "figure_path": "output\\figures\\page_12_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.80869460105896,
+            "height": 737,
+            "width": 965,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 665
+               },
+               {
+                  "x": 965,
+                  "y": 665
+               },
+               {
+                  "x": 0,
+                  "y": 1402
+               },
+               {
+                  "x": 965,
+                  "y": 1402
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 665
+                  },
+                  {
+                     "x": 965,
+                     "y": 665
+                  },
+                  {
+                     "x": 0,
+                     "y": 1402
+                  },
+                  {
+                     "x": 965,
+                     "y": 1402
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Relative luminance as a function of applied potential for an ECD device made of spray-coated DA polymer P6 and the minimally color-changing polymer (MCCP) at the counter-electrode. For color matching, L*a*b* values of fully neutral and oxidized states are reported for the film.",
+            "keywords": [
+               "Luminance",
+               "ECD",
+               "Polymer"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.5041835904121399,
+            "height": 679,
+            "width": 954,
+            "geometry": [
+               {
+                  "x": 11,
+                  "y": 0
+               },
+               {
+                  "x": 965,
+                  "y": 0
+               },
+               {
+                  "x": 11,
+                  "y": 679
+               },
+               {
+                  "x": 965,
+                  "y": 679
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 11,
+                     "y": 0
+                  },
+                  {
+                     "x": 965,
+                     "y": 0
+                  },
+                  {
+                     "x": 11,
+                     "y": 679
+                  },
+                  {
+                     "x": 965,
+                     "y": 679
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "b",
+               "description": "Long-term switching of the same ECD device using P6 (monitored at 648 nm, 0 V \u2192 +2.2 V in 1 s intervals, complete cycle is 2 s).",
+               "keywords": [
+                  "Electrochromic",
+                  "Switching",
+                  "Monitoring"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_12_img_2.png": {
+      "title": "cm202117d 1..14",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_cm202117d\\cm202117d",
+      "image_url": [],
+      "figure_name": "page_12_img_2.png",
+      "full_caption": "Figure 10. Long-term switching of ProDOT (square) at P2 (monitored at 642 nm, \u22120.35 V \u2192 +0.50 V versus Fc/Fc+, square-wave potential steps of 2 s, complete cycle is 4 s) and b) (P6 monitored at 648 nm, \u22120.35 V \u2192 +0.50 V versus Fc/Fc+, square-wave potential steps of 2 s, complete cycle is 4 s), on ITO in an LiB/IT/PC solution.",
+      "figure_path": "output\\figures\\page_12_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.8325294256210327,
+            "height": 615,
+            "width": 806,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 565
+               },
+               {
+                  "x": 806,
+                  "y": 565
+               },
+               {
+                  "x": 0,
+                  "y": 1180
+               },
+               {
+                  "x": 806,
+                  "y": 1180
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 565
+                  },
+                  {
+                     "x": 806,
+                     "y": 565
+                  },
+                  {
+                     "x": 0,
+                     "y": 1180
+                  },
+                  {
+                     "x": 806,
+                     "y": 1180
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.38226255774497986,
+            "height": 573,
+            "width": 738,
+            "geometry": [
+               {
+                  "x": 3,
+                  "y": 0
+               },
+               {
+                  "x": 741,
+                  "y": 0
+               },
+               {
+                  "x": 3,
+                  "y": 573
+               },
+               {
+                  "x": 741,
+                  "y": 573
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 3,
+                     "y": 0
+                  },
+                  {
+                     "x": 741,
+                     "y": 0
+                  },
+                  {
+                     "x": 3,
+                     "y": 573
+                  },
+                  {
+                     "x": 741,
+                     "y": 573
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   }
+}

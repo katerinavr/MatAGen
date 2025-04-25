@@ -1,0 +1,376 @@
+0
+Operating Instructions
+NDJ Series Digital Viscometer
+Please read operating manual before installation and operation.
+Drawell International Technology Limited
+Shanghai Drawell Scientific Instrument Co.,Ltd
+Add : Suite 1506,Lane581 XiuChuan Rd.,PuDong New Area,Shanghai,China
+Tel: 0086 21 50966080
+Fax: 0086 21 50966080
+Web : www.drawell.com.cn
+Email : sales05@drawell.com.cn
+
+---
+1
+
+---
+2
+1.
+Main Technical Parameters
+*：K=1,000
+M=1,000,000
+2. Basic Structure and Operation Principle
+As shown in the following diagram, point A, spring, point B, axis and spindle rotate at a
+constant speed driven by the step motor. If the spindle is not resisted by liquid, Point A is in the same
+position with the pointer B. On the contrary, if the spindle is resisted by viscous liquid, the spring
+produces the torque and will repel or balance with the viscous resistance for reaching the balance at
+large. At this moment, by transmitting the angle difference between point A and Point B measured by
+the photoelectrical load cell to 16-bit microprocessor for data processing, the viscosity (mPa·s) will
+be displayed on LCD screen.
+3. Components
+Apparatus to be equipped
+3.1 digital viscosity meter
+1 pce
+Model
+NDJ-5S
+NDJ-8S
+Measuring Range
+（mPa·s）
+20～100K
+20～2M
+Rotating Speed
+(RPM)
+6，12，30，60
+0.3, 0.6, 1.5，3，6，12, 30, 60
+Spindles
+Spindles (Code L1,L2,L3,L4) are equipped with the product
+Spindle (Code L0) is an option
+Accuracy
+±1% full scale range in use
+Return Capacity
+±0.5% full scale range in use
+Power
+Power adapter(input:100～240V/50～60Hz,output: DC 12V/1A)
+
+---
+3
+3.2 ascending and falling rack
+1 set
+3.3 protective frame of spindle
+1 pce
+3.4 power adapter
+1 pce
+3.5 standard spindle (equipped according to the model)
+1 set
+3.6 spanner
+1 pce
+3.7 Seat and leveling feet
+1 set
+Options:
+3.8 Extreme low viscometer adapter (with one spindle L0)
+3.9 Small sample adapter (with spindle 21, 27, 28 and 29 each)
+3.10 Temperature-controlled heater (with spindle 21, 27, 28 and 29 each)
+3.11RTD temperature probe
+3.12 RS232 standard output interface
+3.13 Specially used printer
+4. Installation (Please refer to the Main Installing Chart)
+4.1 Take out the seat, ascending and descending rack, viscometer, spindle support and guard leg from
+the box and make sure no components is missing; If you purchase options, make sure no option
+is missing. The mental equipment case and other packages should be kept in good condition.
+In
+case there is some problems with the viscometer and should be returned to our company for
+maintenance, please package the viscometer and spindles with the referred specified equipment
+case properly before delivery. (There is no need to return the ascending and descending rack and
+the seat.)
+4.2 Screw the ascending and descending rack in the screw hole of the seat according to the diagram
+and then screw down the nut with the wrench.
+4.3 By running the knob of the ascending and descending rack, check the agility and self-locking
+capacity of the ascending and descending rack. If you find it too loosing or too tight, you can
+adjust the bolt on the back of the ascending and descending rack with the screw driver to make
+sure that it can either ascend or descend.
+It is preferable to screw it down more tightened so as
+to prevent the viscometer from going down after being installed.
+4.4 Install the viscometer on the ascending and descending rack and make it tight with the bolt. The
+bolt that is unscrewed under the apparatus and remove and place the cap properly for next use.
+The cap plays a role in protecting the joint screw.
+Therefore, the joint screw should be covered
+by the cap when the viscometer is not in use for a long period of time or during the
+transportation.
+4.5 By adjusting 2 leveling feet to make sure that the bubble is in the middle of the viscometer on the
+top. To avoid the slippery of the seat on the working desk, you can place three rubber pieces
+under three feet.
+4.6 If RTD temperature probe is available, please connect it to the interface accordingly.
+4.7 Make sure that the AC power switch at the rear of the viscometer is in the OFF position. Connect
+the power cord to the socket on the back panel of the instrument and plug it into the appropriate
+AC line (110～240V
+50～60Hz ).
+
+---
+4
+5. Function of keys
+Reset
+Reset the application program. Then terminate the step motor and the
+viscometer is in stand-by state.
+Print
+Timing
+Switch between printing and timing function. Set, confirm and start or
+cancel the printing function.
+Speed
+Selection of the motor rotating speed
+Spindle
+Select the desired spindle, and then set the spindle code with this key. The
+maximum range measured by this spindle under the current rotating speed
+will be displayed in this process.
+Run
+Start the motor to measure. And the viscometer is in working state.
+6. Description of screen display
+Select the spindle and set the appropriate spindle code as well as the rotating speed, then press
+the “Run” key. This will result in the following screen display:
+24.5 ℃
+60.0
+RPM
+52.1%
+5 2.1
+SP
+L1
+mPa·S
+“24.5℃” stands for the temperature measured by RTD temperature probe at ℃;
+“SP L1” stands for spindle Code.L1;
+“60.0 RPM” stands for the current rotating speed at 60 revolutions per minute;
+Before pressing the “Run” key, the screen will display 100, it is the maximum viscosity
+measured by spindle L1 at the speed of 60 RPM.
+After pressing the “Run” key, the screen will display “52.1 mPa·s” and “52.1 %”:
+“52.1 mPa·s” stands for the viscosity measured at mPa·s
+“52.1 %” stands for the mark of percentage meter, or called torque. The mark of the percentage
+meter between 20% and 90% is regarded as normal figures (for spindle Code.L0 the range is
+between 10% and 90%). The viscometer will alarm if it is beyond this range. As a result, the user
+should change the rotating speed or the spindle.
+7. Operation Steps (For items (1) and (2) please refer to the main installing chart)
+7.1 Make sure that the set-up steps have been finished.
+
+---
+5
+7.2 Install the guard leg of spindle on the viscometer (revolving clockwise for installing and
+anticlockwise for uninstalling with top-view method)
+7.3 Lift the motor shaft slightly with left hand and hold it firmly, then hold the upper part of the
+spindle with right hand and screw clockwise (from a top view) the spindle and the motor shaft to
+fix it.
+7.4 Switch on the viscometer by pressing the button on the left side of the rear, then the screen
+flashes, the mainframe is on standby and the step motor does not work.
+7.5 Input the spindle code, the displayed spindle code will be changed once the “Spindle” key is
+pressed and the code is circulated among L1→L2→L3→L4→L0.The input is over when the
+selected spindle code is displayed.
+7.6 Selecting the rotating speed: the displayed speed of the spindle will be changed once the “Speed”
+key is pressed and it is circulated among the speed level specified (e.g. 6.0→12.0→30.0→60.0).
+The selection of the rotating speed is over when the speed of the selected spindle is displayed.
+7.7 By revolving the knob of the ascending and descending rack, the viscometer will go down slowly
+and the spindle will be immersed into the liquid that will be measured until the mark of the
+spindle is in the same level with the liquid. And then adjust the position of the viscometer to the
+horizontal level.
+7.8 By pressing the “Run” key, the step motor start to work, then you can measure the viscosity and
+the torque of the spindle under the current rotating speed. If the liquid is non-Newtonian, the
+figures will change slowly.
+7.9 In the course of measurement, if you need to change the spindle, you can press the “Reset” key.
+At this moment, the motor stops and the viscometer is on standby. After the spindle is changed,
+you can continue to measure with the procedures from 7.5 to 7.8 mentioned above.
+7.10 Pressing “Print/Timing” key to perform printing or timing measurement function.
+7.10.1 Setting the time interval for printing
+You should select the time interval for printing firstly. After press the “Print/Timing” key , S：
+00：05 will be displayed. The time interval for printing will be changed once you press the
+“Print/Timing” key. 00：05→00：10→00：20→00：30→01：00→01：30→02：00→05：00→
+will be circulated.
+S ：00 ：05 stands for printing every 5 seconds, 00 ：10 stands for printing every 10
+seconds, ……05：00 stands for printing every 5 seconds. The rest result can be known by this
+way.
+When the time interval for printing on the screen is desired, the selection of the time interval
+for printing is over.
+After the printer is connected, press the “Print/Timing” key to start the printing.
+“on” will
+be printed out and the printing will be performed at the interval time set. To stop printing, press
+the “Print/Timing” key again, “off” will printed out and the printing stops.
+7.10.2 Setting timing measurement
+The timing measurement function has been added to series viscometers since the spindle,
+rotating speed and measurement time should be selected in measuring the “non Newton liquid”.
+The operator can set different measurement time according to the properties of the samples. The
+detailed procedure is given as follows:
+Switch on the power of the viscometer, press the “Print/Timing” key before it comes into
+the measurement state. Do not release the “Print/Timing” key until the LCD display has changed
+
+---
+6
+from “P:00:00” to “T:00:00”. Once press the “Print/Timing” key, the display will circulate
+among
+“T:00:00→T:00:10→T:00:30→T:01:00→T:02:00→T:03:00→T:04:00→T:05:00→T:10:00→T:1
+5:00→T:20:00→T:00:00”. It should be noted that “T:00:00” stands for no timing;“T:00:10”
+stands for ten-second measurement; “T:05:00” stands for five-minute measurement and so on.
+When the measurement time is displayed, it means that the setting has been completed
+automatically.
+Since the timing measurement has been selected and set, when the measurement time
+reaches a certain value for each measurement, the viscometer meter will stop measuring. And the
+LCD screen will display the current viscosity and be locked as well. This function provides the
+operators the convenience to record, compare and analyze the progress and result of the “non
+Newton liquid” measurement.
+In case that this function has to be cancelled, set the measurement time to “T:00:00” in the
+same procedures above.
+8. Cautions
+8.1 Be careful in installing and uninstalling the spindle. When installed and uninstalled, you should
+operate by uplifting the joint bolt slightly. Do not do it forcibly. The spindle should be placed
+vertically. And so as to protect it from being bended, it is important to prevent it from receiving a
+horizontal force.
+8.2 Do not place the installed viscometer upside down or on side of it especially when spindle is
+installed.
+8.3 Keep the screw thread and the side that connects the joint bolt with the spindle clean. The
+purpose of doing this is to prevent the rotating spindle from shaking, so as to ensure the accuracy
+of the measurement.
+8.4 Hold the viscometer in your hand when rising and falling in case that the structure of ascending
+and descending rack is too loose.
+8.5 Input the new spindle code if the spindle has been exchanged. The used spindle should be
+cleaned promptly and then put it back on the rack that collects spindles. To prevent the
+viscometer from being damaged, do not clean the spindle that is still on the viscometer and has
+not been uninstalled.
+8.6 When the liquid has been removed, the spindle as well as the guard leg should be cleaned and
+wiped up to avoid the inaccuracy of the measurement caused by the interblended liquid.
+8.7 Each viscometer has been equipped with its specified spindle. Do not interblend different
+spindles to use on viscometers of different types.
+8.8 Do not dismantle and adjust the spare parts inside the viscometer mainframe.
+8.9 When removing or transporting the viscometer, the joint screw should be covered by the cap and
+the bolt should be screwed down and be placed in the specified box.
+8.10 To prevent the installed spindle from being damaged, do not circumrotate it for long time when
+there is no liquid.
+8.11 Since most samples to be measured are “ non Newton liquid” and their viscosity values vary
+with the shear speed and the time, therefore, it is normal that their checking results vary when
+using different spindles and rotating speed. You can regulate the spindle, the rotating speed and
+
+---
+7
+the time to measure the non Newton liquid according to it characteristic. . For measure time
+setting, please refer to 7.10.2 above.
+9. How to reduce the inaccuracy of the measurement
+9.1 Use the basin with constant temperature to precisely control the temperature of the liquid to be
+measured.
+9.2 Make sure that the spindle and the protective frame have been cleaning before starting the
+measurement.
+9.3 Before starting the measurement, make sure that the spindle is placed in the center of the vessel
+and the liquid surface mark of the spindle level off the surface of liquid to be measured.
+9.4 Soak the spindle in the measured liquid for more than 10 minutes to get the same temperature for
+both, and then you can start the measurement.
+9.5 Stop the motor at the time when high speed measurement is switched to low speed measurement
+by pressing the reset key. Set the value for low-speed measurement but do not start the
+measurement at this moment.
+In case of the inaccuracy caused by the circumvolved inertia of
+the liquid, wait until the liquid surface turns out to be stationary, and then press the “Run” key.
+9.6 When measuring the low viscosity of the liquid, spindle Code.L1 should be selected, while
+measuring the high viscosity of the liquid, spindle Code.L4 should be chosen to do the
+measurement.
+9.7 The measuring time for the viscosity measured at low speed is relatively longer.
+9.8 During the measurement, to ascend or descend the viscometer, or to switch the spindle or the
+measured liquid will affect the horizontal situation of the viscometer. Therefore, it is necessary to
+check or adjust the level of the viscometer promptly.
+9.9 Detect the viscometer by using standard viscosity liquid regularly or when necessary. The
+purpose of doing this is to follow up its performance and working condition from time to time.
+(To select the proper standard viscosity liquid, please refer to the range of the viscosity
+commonly-measured liquid.)
+10. Sampling measurement for unknown viscosity
+How to measure the liquid or sample with unknown viscosity range is a challenge to lab
+operator. In this case, please perform the measurement according to the following principles and
+methods.
+10.1 The general principle for measurement: For the sample with high viscosity, you should choose
+the small size spindle (Code L3 and L4) and slow rotating speed. For the sample with low
+viscosity, you should choose the large size spindle (Code L1 and L2) and fast rotating speed.
+10.2 You should estimate the viscosity range of the sample to be measured. According to the
+principle, you should choose the spindle first and then choose the rotating speed. For example,
+when the spindle L1 is rotating at the speed of 60RPM，the full capacity displayed on the screen
+is 1000 mPa.s. And when the rotating speed is changed into 6RPM, the full capacity is 100mPa.s
+that is reduced 10 fold.
+10.3 In the case that you can not estimate the viscosity of the sample to be measured, you should try
+the spindle from small size to large size and the rotating speed from slow to fast. Then judge
+
+---
+8
+whether the choices of spindle and rotating speed are appropriate by the torque.
+10.4 When the sample is measured, the torque should between 20% and 90%. The viscosity
+measured within this range is the correct value. For Code L0 spindle, this torque range is
+between 10% and 90%. If it is not within this range, the viscometer will alarm, reminding the
+user to change the rotating speed and spindle. When is spindle is changed, the new spindle code
+should be input to the viscometer immediately, otherwise the measurement will be effected.
+11. Frequent problems and trouble shooting:
+Facts
+Possible Reasons
+Solutions
+The level bulb can NOT
+be adjusted to the center
+The slope of the working desk is large
+Put some rubber pieces under
+the seat to adjust the horizontal
+level
+The value is NOT
+accurate in measuring
+the Newton liquid
+Protective frame is not installed
+See Item 9.2
+The spindle used and the code displayed are not
+coherent
+See the main installing chart
+and Part 5
+The viscometer is not adjusted to horizontal
+level; or the level is changed due to other
+operations.
+See Items 7.7 and 9.8
+the surface of liquid is under the liquid surface
+mark of the spindle
+See Item 9.3
+Spindle is not installed properly
+See Item 8.3
+The spindle is not cleaned after last
+measurement
+See Item 8.6
+The spindle does not match the viscometer
+See Item 8.7
+The sample temperature varies in Measurement
+See Item 9.1 and Item 9.4
+Mechanical parts of the viscometer is aging or
+damaged
+See Item 9.9
+No display of temp
+RTD temperature probe is not equipped
+See Part 3
+Display of temp is
+abnormal
+RTD temperature probe is damaged
+Change a new one
+The probe and the viscometer is not connected
+properly
+Connect them again
+Measurement stops
+automatically
+Measurement time of the timing function is
+activated.
+See Item 7.10.2
+Viscometer alarm
+Exceed the measurement range (Torque should
+be within 20% and 90%. For spindle code L0,
+the range is from 10% to 90%.)
+Change the speed or spindle
+Value always varies in
+measurement
+The sample measured is non Newton liquid
+See Item 7.10.2 and Item 8.11
+The sample temperature varies in Measurement
+See Item 9.1 and Item 9.4
+Mechanical parts of the viscometer is aging or
+damaged
+See Item 9.9
+
+---
+9
+
+---
+Drawell International Technology Limited
+Shanghai Drawell Scientific Instrument Co.,Ltd
+Add : Suite 1506,Lane581 XiuChuan Rd.,PuDong New Area,Shanghai,China
+Tel: 0086 21 50966080
+Fax: 0086 21 50966080
+Web : www.drawell.com.cn
+Email : sales05@drawell.com.cn
+
+---

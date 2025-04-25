@@ -1,0 +1,1864 @@
+2110406  (1 of 18)
+© 2022 Wiley-VCH GmbH
+www.advmat.de
+Perspective
+Mixed Ionic–Electronic Conduction, a Multifunctional 
+Property in Organic Conductors
+Siew Ting Melissa Tan, Aristide Gumyusenge, Tyler James Quill, Garrett Swain LeCroy, 
+Giorgio Ernesto Bonacchini, Ilaria Denti, and Alberto Salleo*
+S. T. M. Tan, A. Gumyusenge, T. J. Quill, G. S. LeCroy, G. E. Bonacchini,  
+I. Denti, A. Salleo
+Department of Materials Science and Engineering
+Stanford University
+Stanford, CA 94305, USA
+E-mail: asalleo@stanford.edu
+G. E. Bonacchini
+Center for Nano Science and Technology @PoliMi
+Istituto Italiano di Tecnologia
+Via Giovanni Pascoli, 70/3, Milano 20133, Italy
+The ORCID identification number(s) for the author(s) of this article 
+can be found under https://doi.org/10.1002/adma.202110406.
+DOI: 10.1002/adma.202110406
+consumption and sensing as well as 
+high-energy-density batteries for energy 
+storage. Recently, interest in developing 
+systems that interface seamlessly with 
+the human body (e.g., wearables, brain–
+computer interfaces, and soft robots) has 
+driven the development of soft, organic, 
+and biomimetic materials that emulate 
+the functions of their inorganic counter-
+parts. Beyond emulation, these materials 
+are unique because they provide an oppor-
+tunity to embody such multifunctional 
+properties within the material itself, rather 
+than relying on device design. These mul-
+tifunctional properties are intrinsic to 
+organic mixed ionic electronic conductors 
+(OMIECs), that is, once synthesized and 
+processed, OMIECs can serve as the active 
+component of multiple devices (be it tran-
+sistors, sensors, energy-storage devices, 
+etc.), where essentially the material is the 
+device.
+OMIECs generally consist of a con-
+jugated backbone for electronic conduc-
+tion as well as sidechains to facilitate 
+ionic intercalation from the operational electrolyte and to aid 
+in solvation in processing solvents.[1] Organic chemistry pro-
+vides a large toolbox in the molecular design of the backbone, 
+side chains, and other additives, resulting in an almost infinite 
+design space for the corresponding materials properties: energy 
+levels, electronic and ionic conductivity, optical, volume, and 
+moduli. Additionally, one or more of these properties can be 
+modified during device operation, thereby transducing an input 
+(e.g., ionic) into an output (e.g., electronic), allowing OMIECs 
+to be used for a variety of applications including sensors, tran-
+sistors, optoelectronic devices, energy-storage electrodes, and 
+actuators. The multifunctionality of OMIECs is illustrated in 
+Figure 1 to highlight their versatility in design and their ability 
+to respond to a variety of stimuli.
+The underlying and unifying phenomena behind these prop-
+erty changes arise from the large modulation in electronic and 
+ionic charge density in the bulk of the OMIEC. This modula-
+tion in turn results in second-order effects such as modula-
+tions in electrochemical potential (electron energy levels), elec-
+tronic and ionic transport, capacitance, free volume, optical 
+bandgap, and modulus. Tuning these properties throughout the 
+bulk of the material enables new design parameters that were 
+previously untapped in traditional electronic devices where 
+Organic mixed ionic–electronic conductors (OMIECs) have gained recent 
+interest and rapid development due to their versatility in diverse applica-
+tions ranging from sensing, actuation and computation to energy harvesting/
+storage, and information transfer. Their multifunctional properties arise 
+from their ability to simultaneously participate in redox reactions as well as 
+modulation of ionic and electronic charge density throughout the bulk of 
+the material. Most importantly, the ability to access charge states with deep 
+modulation through a large extent of its density of states and physical volume 
+of the material enables OMIEC-based devices to display exciting new charac-
+teristics and opens up new degrees of freedom in device design. Leveraging 
+the infinite possibilities of the organic synthetic toolbox, this perspective 
+highlights several chemical and structural design approaches to modify 
+OMIECs’ properties important in device applications such as electronic and 
+ionic conductivity, color, modulus, etc. Additionally, the ability for OMIECs to 
+respond to external stimuli and transduce signals to myriad types of out-
+puts has accelerated their development in smart systems. This perspective 
+further illustrates how various stimuli such as electrical, chemical, and optical 
+inputs fundamentally change OMIECs’ properties dynamically and how these 
+changes can be utilized in device applications.
+1. Introduction
+“Smart systems” where sensing, logic, actuation, energy har-
+vesting/storage, and information transfer are performed locally 
+and autonomously have great potential in impacting major 
+sectors of society including the internet of things (IoT), health-
+care, and energy. Within the more traditional microelectronics 
+community, this need has led to the advancement of myriad 
+technologies such as microchips designed for low-power 
+Adv. Mater. 2022, 34, 2110406
+
+© 2022 Wiley-VCH GmbH
+2110406  (2 of 18)
+www.advmat.de
+www.advancedsciencenews.com
+typically electrical or optical modulation occurs at interfaces. 
+For instance, the ability to tune charge density throughout the 
+bulk results in large volumetric capacitances, activating thick-
+ness as a tunable parameter to optimize transconductance of 
+a transistor, in addition to channel width and length. Addition-
+ally, the permeability of chemical species throughout the bulk 
+improves reactivity for sensors and fuel cells without the need 
+for physical nanostructuring of scaffolding electrodes. Uniquely 
+to OMIECs, and hence the underlying theme of the current 
+discussion, this tunability can be achieved in a single mate-
+rial making the design and synthesis of novel OMIECs a hot 
+topic as of recent. Devices including organic electrochemical 
+transistors (OECTS),[2] electrochromic displays (ECDs),[3] actua-
+tors,[4] neuromorphic transistors,[5,6] bioelectronic devices,[7] 
+and more,[1,8] thus exploit such modulation in OMIECs for dif-
+ferent applications. With some of these technologies already 
+approaching commercialization,[9] a comprehensive under-
+standing of their operating mechanism is crucial to bridge the 
+disconnect that exists between the fields of molecular design 
+and synthesis, device physics, and device manufacturing.
+This perspective highlights the various approaches to tune 
+the ionic–electronic properties in OMIECs. We classify them 
+either as structural—chemical modifications during materials 
+design and preparation—or dynamic property changes during 
+device operation. We aim to showcase the uniqueness and rich-
+ness of these materials both chemically and technologically, as 
+a single material can be utilized in different device architec-
+tures owing to the functionality that is physically embedded in 
+its bulk and afforded via mixed ionic–electronic conduction. We 
+first discuss how structural tuning (such as polymer backbone 
+and sidechain engineering) can be used to co-design novel 
+materials for specific devices. This section aims to inspire syn-
+thetic and materials chemists to revisit design principles that 
+are crucial for marrying ionic and electronic conduction in a 
+single material system. We then provide an overview of how 
+the properties of a material are tuned during device opera-
+tion (dynamic tuning) to uncover the working mechanism for 
+each property change. Last, we discuss key property changes 
+in OMIECs as well as resulting technologies. Throughout this 
+perspective, we aim to provide an outlook on research opportu-
+nities on repurposing existing materials and/or designing new 
+materials and devices. We thus hope that this perspective will 
+inspire collaborations between materials and device engineers 
+as the multifunctional nature of OMIECs requires an equally 
+multidisciplinary team of chemists, materials scientists, as well 
+as electrical, chemical, and mechanical engineers to design 
+next generation materials and devices to fully harness their 
+potential.
+2. Structural Tuning
+Conjugated polymers are by far the most widely studied class of 
+OMIECs and will thus be the focus of our discussion. One can 
+simplistically assume that to design a high-performing OMIEC, 
+tethering ionically transporting sidechains onto existing excel-
+lent electron- (or hole-) transporting backbones (as represented 
+in Figure 2) would suffice. However, such a task has shown to 
+be more complex as ionic insertion, resulting in bulk swelling, 
+and concomitant property changes are rather complex and 
+warrant more careful materials considerations. Furthermore, 
+sidechains affect the self-assembly of the material, which in 
+turn determines its properties. To uncover the structural tun-
+ability of polymer mixed ionic–electronic conductors (MIECs), 
+we will discuss backbone and sidechains engineering as sepa-
+rate design strategies, but readers are reminded that in prac-
+tice, both from a synthetic and an engineering point of view, 
+these two cannot be decoupled especially at the microstructural 
+Adv. Mater. 2022, 34, 2110406
+Figure 1.  Multifunctional property tuning in OMIEC materials. The schematic illustrates how various device relevant properties can be dynamically 
+tuned or intentionally designed into the structure of the material as well as the mechanism by which the specific property is modulated. For example, 
+adjusting the electric potential of a device can dynamically alter the conductivity of an OMIEC by changing the charge carrier density in the material 
+(top left). On the other hand, substitution of different backbone moieties into the structure of the material will also alter the conductivity by changing 
+the carrier mobility in the OMIEC (top right). Similar relationships are shown for different dynamic and chemical (static) tuning methods and various 
+properties. The mechanisms by which properties are modulated are shown at the bottom of the schematic.
+ 15214095, 2022, 21, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202110406 by University Of Chicago Library, Wiley Online Library on [10/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+© 2022 Wiley-VCH GmbH
+2110406  (3 of 18)
+www.advmat.de
+www.advancedsciencenews.com
+level. We focus on homo- and copolymeric OMIECs as the dis-
+cussion on heterogenous blends. Other notable classes include 
+blends and copolymers of electronic and ionic conductors (e.g., 
+PEDOT:PSS).[1]
+2.1. Backbone Engineering
+Backbone engineering in polymer MIECs has benefited from 
+recent advances in polymer chemistry, wherein, for the past 
+four decades, major milestones have been reached in terms 
+of extending conjugation lengths, tuning charge carrier delo-
+calization as well as substituting heteroatoms along polymer 
+backbones. To uncover the design principles of OMIECs, let 
+us begin with a simplistic chemical structure of an all-acceptor 
+polymer such as a poly(alkoxythiophene) (PAT).[10] The conju-
+gated core consists of a thiophene ring, on which alkoxy groups 
+are anchored. The sulfur atom (heteroatom) allows tuning of 
+the electron density within the core. More (or less) electron-
+withdrawing atoms (O: furan, N: pyrrole, Se: selenophene) can 
+be used to tune electron densities, molecular planarity, and 
+π–π interactions. Though most of the reported polymer MIEC 
+structures are thiophene-based, heteroatom substitution is still 
+a viable route toward designing new OMIECs. For instance, 
+the backbone planarity afforded by increasing the radius of the 
+heteroatom has yet to be fully investigated in combination with 
+efficient ionic conduction. The energy distribution across the 
+ring allows different reactivities, which are commonly exploited 
+for polymerization and for aromatic substitutions at different 
+positions on the conjugated ring. Such reactivity can be utilized 
+for the synthesis of fused-ring systems,[10] an area that has yet 
+to mature in OMIECs. Molecular fine-tuning of the core unit 
+and the substituting groups constitutes a large field of study in 
+polymer chemistry beyond this discussion.
+A commonly studied example of PATs is poly(3,4-ethylenedi-
+oxythiophene) (PEDOT) where the building block is slightly elec-
+tron deficient due to the presence of oxygen atoms. More impor-
+tantly, the bridged substitution obviates the regio-irregularity 
+possibility (along with minimized twisting along the backbone), 
+making PEDOT and its derivatives one of most studied classes 
+of redox-active organic materials. Though the homopolymerized 
+and hole-transporting (or p-type) EDOT derivatives remain more 
+studied, the tunability presented by its simple yet rich structure 
+opens avenues for the design and synthesis of more complex 
+backbones. For instance, the copolymerization of the function-
+alized dioxythiophene unit with efficient charge-transporting 
+building blocks was recently shown to be an effective route 
+toward donor–acceptor polymers with excellent performance in 
+OECT devices.[11] Further tuning of electron affinity along the 
+conjugated core has also yielded electron-transporting polymer 
+MIECs (n-type polymers).[9,12–15] The most widely studied group 
+of n-type OMIECs consists of a naphthalenediimide (NDI) core, 
+which is often copolymerized with a more electron-donating 
+building block (e.g., unsubstituted thiophene). In such an 
+electron-depleted π-conjugated core, electrons have shown to 
+be effectively injected and delocalized along the polymer chain 
+especially when ionically conductive sidechains are utilized.[12,16] 
+The complementarity afforded by utilizing electron-transporting 
+poly­mers and hole-transporting counterparts has recently 
+become of great interest in OMIECs especially for polymer-based 
+energy storage.[13] Though n-type OMIECs remain underex-
+plored in comparison to their p-type counterparts, recent efforts 
+have demonstrated that outstanding device performances can 
+be realized especially via backbone fine-tuning. However, fur-
+ther efforts are still warranted on this front specially to address: 
+i) poor backbone planarity (commonly introduced by the bulky 
+NDI unit), ii) environmental instability found in most n-type 
+polymers, not to mention iii) boosting their electronic mobilities 
+which still lag behind those demonstrated in p-type counterparts. 
+The balance of electron density along the core thus remains a 
+key approach for controlled modulation of energy levels, the col-
+oration of the chromophores, as well as the molecular packing 
+for tunable ionic intercalation, some of the key tunable proper-
+ties in OMIECs which are discussed in later sections.
+2.2. Sidechain Engineering
+In polymer MIECs, sidechains play a key part in the unique 
+nature of these materials, that is, not only do they serve as 
+Adv. Mater. 2022, 34, 2110406
+Figure 2.  Schematic representation of two major structural considerations for designing a polymeric MIEC. For the sake of a simplified discussion, 
+ionic transport is attributed to sidechains and electronic transport to the conjugated backbone. In practice, sidechains serve as ion shuttles/hosts into 
+the film and concomitant charge generation and delocalization occur along and between conjugated backbones. Also shown is the energy diagram in 
+conjugated polymers showing the tunability of the energy bandgap via fine structural tuning of donor (D) and acceptor (A) units.
+ 15214095, 2022, 21, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202110406 by University Of Chicago Library, Wiley Online Library on [10/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+© 2022 Wiley-VCH GmbH
+2110406  (4 of 18)
+www.advmat.de
+www.advancedsciencenews.com
+solvating media for the electrolyte, but also as: i) molecular 
+shuttles for ionic species in and out of the bulk, and ii) key 
+components in the crystallization and packing of polymer 
+chains. As previously introduced, polar sidechains are com-
+monly utilized in OMIECs mostly to enable ionic intercala-
+tion (Figure 2). In some cases, sidechains have also been used 
+to directly dope the polymer backbone.[12,16] It is thus evident 
+that their design/selection is a key aspect in electrochemical 
+devices. Since sidechain engineering will impact several of the 
+properties that are impacted by backbone engineering, in the 
+later sections we will only discuss those properties that seem 
+less intuitive and those that are unique to sidechain modifica-
+tion. Recently, emerging mixed-ionic conducting polymers have 
+been designed without sidechains such as the ladder polymer  
+poly(benzimidazobenzophenanthroline). While this class of 
+materials is out of the scope of this perspective, readers are 
+directed to reviews by Torricelli et al.[8] and Che et al.[17]
+2.3. Chemical Doping
+When other synthetic approaches (e.g., backbone and side-chain 
+engineering) are undesirable, chemical doping of OMIECs can 
+be an effective method for altering the “native” state of the 
+material.[18] Common chemical dopants are small molecules 
+that are either highly electron-rich or electron-withdrawing to 
+facilitate electron-transfer reactions between the OMIEC and 
+dopant. For instance, electron-rich dopants with amine moi-
+eties such as 4-(2,3-dihydro-1,3-dimethyl-1H-benzimidazol-
+2-yl)-N,N-dimethylbenzenamine[19] 
+and 
+triaminomethane 
+derivatives[20] are highly effective electron donors to electron-
+conducting n-type OMIECs. Electron-deficient dopants such as 
+2,3,5,6-tetrafluoro-7,7,8,8-tetracyanoquinodimethane (F4TCNQ) 
+extract electrons from shallow highest occupied molecular 
+orbital (HOMO) p-type OMIECs, increasing hole concentration. 
+The resulting increase in charge density improves conductivity 
+for a variety of devices such as transistors and thermoelectric 
+devices (see Section  4.2.1). Additionally, the change in Fermi 
+level and electrochemical potential of electrons can alter the 
+OMIEC’s subsequent reactivity to other redox-active species 
+in the environment (see Section  3.2) as well as their optical 
+properties. This ability to alter the initial state of material pro-
+vides even more space to tune the properties of OMIECs for 
+a particular application, as the initial state (i.e., the position of 
+the Fermi level in the density-of-states) of an OMIEC can be 
+shifted such that the range of conditions over which an OMIEC 
+exhibits dynamic response in conductivity, color, and energy 
+levels can be tuned for an arbitrary range of stimuli.
+2.4. Processing & Additives
+OMIEC micro- and nanostructure (morphology) impacts all 
+aspects of material performance, including charge-carrier 
+mobility, kinetics of device operation, and mechanical/chemical 
+stability.[21] Broadly, the necessity of coupled ionic and charge-
+carrier motion in OMIECs is thought to require materials that 
+have largely disordered, amorphous regions that facilitate rapid 
+ion transport while simultaneously having well-connected, 
+ordered domains that facilitate charge-carrier transport. These 
+conflicting requirements have made it so that the optimal mor-
+phology for OMIECs is still an active area of research. Design 
+strategies highlight the vast number of tunable controls that 
+exist in both material synthesis and processing.[22,23]
+Control of the morphology and nanoscale interactions of 
+OMIECs not only dictates electronic properties, but also dictates 
+mechanical properties. In polymeric MIECs, mechanical prop-
+erties such as modulus, breaking strength, and elastic limit are 
+intimately linked to the size, distribution, and amount of crys-
+talline aggregates in the material. For example, controlling these 
+aggregates has led to the development of seemingly “rigid” (i.e., 
+high-modulus) polymer semiconductors that display remark-
+able flexibility and maintain electronic transport properties by 
+inducing nanoconfinement of the polymer and reducing aggre-
+gate size.[24] These developments have long-reaching applica-
+tions in biosensing, flexible thermoelectrics, and even artifi-
+cial skin.[25] This further shows that understanding material 
+microstructure is not only of fundamental interest, but is also 
+of immense practical importance, as microstructure impacts 
+properties seemingly as disparate as electronic and mechanical 
+properties. Such complexity in the microstructure of OMIECs 
+thus complicates the fundamental understanding of device 
+operation. During OMIEC operation in electrochemical tran-
+sistors for example, significant volume expansion occurs con-
+comitant with disruption to the ordered regions due to pen-
+etration of ions into the bulk during the volumetric charging 
+process.[26] Furthermore, the exact nature of interaction between 
+penetrating ions and the OMIEC is poorly understood. Recent 
+studies have suggested that glycolated sidechains in polymer 
+OMIECs can chelate around ionic species, leading to signifi-
+cant film morphology disruption.[27] Ultimately, design rules 
+governing the optimal morphology for OMIECs remain fertile 
+ground for investigation. It is expected that the future deploy-
+ment of operando and in situ characterization techniques will 
+facilitate the development of such design rules.[28] In particular, 
+techniques such as X-ray scattering combined with electro-
+chemical measurements could elucidate the complex dynamics 
+which arise during charging, many of which are still relatively 
+unknown. Additionally, spectroscopic techniques including vis-
+ible and infrared absorption spectroscopy and Raman spectros-
+copy provide insights into both ordered and disordered domains 
+of these materials, although detailed modeling is often required 
+to link these changes back to the OMIEC structure.
+3. Dynamic Tuning
+Dynamic changes in the properties of OMIECs enable them 
+to respond to and transduce external stimuli into a variety of 
+output signals. Changes in electronic and ionic charge density 
+are the unifying phenomena behind modulations in its electro-
+chemical potential, conductivity, color, modulus, and volume 
+as illustrated in Figure 3. Modulation in charge density can 
+be induced by a variety of external stimuli such as electrical 
+impulses, exposure to chemical species, or under the influ-
+ence of optical illumination. The increase in electronic charge 
+density on the conjugated backbone results in changes in elec-
+trochemical potential (Fermi level), conductivity, and optical 
+Adv. Mater. 2022, 34, 2110406
+ 15214095, 2022, 21, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202110406 by University Of Chicago Library, Wiley Online Library on [10/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+© 2022 Wiley-VCH GmbH
+2110406  (5 of 18)
+www.advmat.de
+www.advancedsciencenews.com
+bandgap. During operation, the OMIEC is typically immersed 
+in a medium containing solvated ions (solid or liquid electro-
+lyte). As the electronic charge density changes on the OMIEC’s 
+backbone, counterions are transported between the OMIECs’ 
+matrix and the electrolyte to ensure electroneutrality. This fur-
+ther influences the ionic conductivity, modulus, and volume 
+of the OMIEC. With the myriad sources of stimuli—electrical, 
+chemical, and optical—that modulate the charge density of 
+OMIECs, which subsequently result in a variety of changes in 
+materials properties, OMIECs can be utilized for a variety of 
+devices that comprise intelligent autonomous systems—sen-
+sors, energy harvesting/storage, logic, memory, actuation, and 
+communication.
+3.1. Electrical Stimuli
+OMIECs can be deposited on the surface of electrically conduc-
+tive planar substrates (such as in sensors, thermoelectrics,[29] 
+electrochromics,[30] and electrochemical actuators[31]) or as 
+a conductor between two electrodes (e.g., channel material 
+of transistors[2]). Sources of electrical inputs can range from 
+external electronic circuits (such as the operation of thermo-
+electrics, ion pumps,[32] transistors, electrochromics, and actua-
+tors) or from biological sources (such as single cells, tissues, 
+organs, and other physiological or aqueous environments). By 
+applying an electric field or potential on the OMIEC, electrons 
+or holes can be injected capacitively into the lowest unoccupied 
+molecular orbital (LUMO) or HOMO (n-type or p-type, respec-
+tively), thereby increasing the OMIEC’s charge density. Though 
+electrically stimulating OMIECs on different surfaces has been 
+widely shown, chemical and mechanical mismatch between the 
+softer (and often hydrated) OMIECs and common electrodes 
+remain major challenges. Engineering the Young’s modulus 
+of the materials, mitigating the corrosion and oxidation at 
+the metallic interfaces are crucial to ensuring better electrical 
+performances. This is thus a potential area of study for future 
+applications, especially for long-term implantation and biointer-
+facing. Bimetallic material or metallic alloys, carbon nanotubes, 
+graphite, and highly reactive biodegradable metallic fillers,[33–35] 
+among other strategies are potential electrode candidates.
+3.2. Chemical Stimuli
+Another common approach to tune the charge density of 
+OMIECs is via their interaction with chemical species in the 
+environment. OMIECs can interact with chemicals in a variety 
+of processes such as faradaic charge transfer from redox-active 
+molecules and capacitive interactions with ions. Instead of 
+applying an electric potential, charges can be accumulated in 
+the OMIEC via faradaic reactions from redox-active molecules 
+in the OMIECs’ environment. Depending on the relative electro-
+chemical potential of electrons on the OMIEC and the chemical 
+species, oxidizing or reducing agents can be utilized to extract 
+or inject electrons into the OMIEC. As noted above, applying a 
+potential on an OMIEC dynamically tunes the electrochemical 
+potential of electrons, thereby controlling the relative reactivity 
+of the OMIEC to the reactant. Judicious design of sidechains 
+on the OMIEC enables favorable interactions with molecules in 
+its environment. For instance, the recent development of polar 
+sidechains using glycol moieties enables the intercalation of 
+hydrophilic or polar species throughout the bulk of the OMIEC 
+electrode, allowing for volumetric reaction and charging.
+Achieving effective charge transfer between the analyte and 
+OMIEC requires appropriate alignment of the electrochemical 
+potential of electrons on the OMIEC electrode and the redox 
+species. Failure to do so may result in the subsequent transfer of 
+charges to other redox-active sinks in the environment, leading 
+to undesirable side reactions and products that may interfere 
+with the OMIEC’s operation. Electrons flow from a region of 
+higher to lower electrochemical potential. Hence, achieving 
+electron transfer from redox-active species to the OMIEC 
+requires the latter to have a deep LUMO (high electron affinity). 
+Alternatively, chemically p-doping the OMIEC to first deplete 
+the HOMO could subsequently allow the filling of the HOMO 
+by the redox-active species (see above for structural tuning). On 
+the other hand, electrons can be transferred from the HOMO 
+to the redox active analyte, thereby oxidizing the electrode. It 
+is challenging to utilize electron-conducting polymers with low-
+lying LUMOs for direct electron transfer as the high electron 
+energy in the LUMO may result in the subsequent loss of elec-
+trons to ambient oxidative species such as molecular oxygen.[36] 
+Due to their ability to volumetrically solvate ions from the oper-
+ational electrolyte, OMIECs are also ideal materials to detect the 
+concentration of ions in aqueous analytes. The OMIEC’s poten-
+tial varies logarithmically with the concentration of ions in 
+solution according to the Nernst equation. This potential can be 
+measured directly against a reference electrode or second-order  
+Adv. Mater. 2022, 34, 2110406
+Figure 3.  Dynamic tuning of OMIECs. The unifying phenomena under-
+lying changes in OMIECs’ properties are charge density. Accumulation 
+of electronic charges on the OMIEC’s backbone increases electronic car-
+rier density which results in changes to electrochemical potential (elec-
+tron energy levels), electronic conductivity, and color. The simultaneous 
+increase in compensating ion concentration reduces elastic modulus and 
+increases volume.
+ 15214095, 2022, 21, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202110406 by University Of Chicago Library, Wiley Online Library on [10/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+© 2022 Wiley-VCH GmbH
+2110406  (6 of 18)
+www.advmat.de
+www.advancedsciencenews.com
+effects resulting from this change in potential can be recorded 
+(such as electronic conductivity in OECTs). Therefore, OMIECs 
+are commonly used as electrodes for ionic sensors to detect 
+Na+, K +, Mg 2+, Ca2+, NH3+, and other ions commonly pre-
+sent in physiological solutions.[37,38] To ensure specificity, the 
+OMIEC can be functionalized with synthetic[38] or biological 
+membranes[39] that selectively allow some ions to permeate. 
+Furthermore, OMIECs can also be functionalized with ligands 
+that bind to non-redox active and neutral molecules where the 
+binding of these analytes could increase the impedance, optical 
+properties, or pH of the electrode.[40] The ability to function in 
+aqueous electrolytes and detect a variety of chemical inputs 
+makes OMIECs ideal material candidates in long-term health[41] 
+and environmental-monitoring devices.[42]
+The accumulation of holes by the oxidation of p-type 
+OMIECs or the accumulation of electrons by the reduction of 
+n-type OMIECs after exposure to redox-active species can result 
+in changes in electronic conductivity, such as in the channel of 
+an OECT.[43] When a chemically sensitive OMIEC gate is used, 
+the change in potentials on the gate are coupled capacitively to 
+the channel’s potential. Hence, chemical changes occurring on 
+the gate during sensing directly influence channel conductivity. 
+For instance, the presence of lactate secreted by cells grown on 
+an OMIEC gate resulted in amplified current signals across the 
+channel.[44] Caution should be taken when conducting these 
+faradaic reactions in the presence of applied electric fields in 
+electrochemical devices as they may affect the reaction rates 
+in unexpected ways and accelerate parasitic side reactions and 
+chemical degradation of the OMIEC.[45] An alternative approach 
+would be to separate the processes of chemical detection and 
+conductivity modulation.[46]
+On the other hand, during the sensing of ion concentration, 
+the intercalation of ions from the electrolyte increases the ionic 
+conductivity and volumetric capacitance of the OMIEC. This 
+reduces the OMIEC’s impedance, which can be measured by 
+electrochemical impedance spectroscopy. Simultaneously, the 
+change in potential of the OMIEC from ions in solution influ-
+ences the electronic charge density and hence conductivity of 
+the OMIEC. Therefore, electrolyte-gated transistors[8] are a 
+common architecture used to transduce these ionic concen-
+tration changes into drain-current modulations. Since these 
+ions are not redox-active within the potentials typically applied 
+in OMIEC-based devices (sub 1 V), these capacitive (or poten-
+tiometric) devices do not encounter issues faced by the fara-
+daic chemical sensors. Faradaic charging of the OMIEC in an 
+aqueous electrolyte results in simultaneous uptake of ions from 
+the electrolyte and swelling of the OMIEC material. Hence, 
+electrochemical actuators can be powered by OMIECs func-
+tionalized with enzymes to catalyze the reaction of metabolites 
+such as glucose, enabling self-powered artificial muscles.[47] 
+Harvesting energy from the environment to power soft actua-
+tors opens potential applications in smart stimuli-responsive 
+soft robots and microfluidic valves.
+3.3. Optical Illumination
+The conversion of optical stimuli into electrical signals has been 
+largely exploited for numerous applications, from biomedical 
+sensing to optical communication, imaging, night vision, 
+thermal efficiency analysis, and flexible optoelectronics.[48–51] 
+Compared to the above forms of stimulation (i.e., electrical and 
+chemical), utilizing optical illumination to dynamically tune the 
+properties of OMIECs in devices is yet to be explored. This opens 
+opportunities for investigating OMIEC-based analogs of typical 
+device configurations such as solar cells, phototransistors,[52] and 
+photodiodes for biocompatible and low-voltage operation.
+Moreover, besides these conventional electronic platforms, 
+light-sensitive OMIECs could potentially play a role in the 
+development of optoelectronic interfaces for neurostimulation. 
+Indeed, traditional hydrophobic organic electronic materials 
+have recently emerged as opto-bio actuators in both in vitro and 
+in vivo applications, where photoexcitation effectively modu-
+lates the biological activity of cells and tissues.[53–56] While the 
+physical and physiological mechanisms of stimulation in these 
+systems are often not fully elucidated,[57,58] the phototransduc-
+tion mechanism is generally associated with thermal effects, 
+charge-transfer reactions (Faradaic coupling), photochemical 
+phenomena, and capacitive coupling at the biotic/abiotic inter-
+faces.[59,60] In fact, a common strategy to increase photostimula-
+tion relies on materials configurations that maximize the effec-
+tive electrochemical surface, such as nanostructured planar 
+interfaces,[61,62] nanoparticles,[63] or hierarchical nanocrystals.[64] 
+This seems to suggest that although little is known on whether 
+OMIECs can play a role to further advance this emerging field, 
+their ability to establish strong capacitive couplings through 
+volumetric charging—along with their synthetic tunability 
+and biocompatibility, which mirrors that of traditional organic 
+semiconductors—should be taken into consideration for future 
+developments of optoelectronic biointerfaces.
+In 
+a 
+similar 
+way, 
+the 
+emergence 
+of 
+organic 
+photoelectrodes[65,66]in photocatalytic and photoelectrochem-
+ical applications can inform design strategies for OMIECs. 
+While these devices have conventionally utilized traditional 
+organic semiconductors that are hydrophobic, analogies can 
+be drawn to design OMIECs with photoactive properties. This 
+represents yet another opportunity for OMIECs, where their 
+intrinsic redox-activity could be further enhanced by means of 
+photocatalysis.
+4. OMIEC Property Changes
+Having provided an intuition on how different structural modi-
+fications and dynamic stimuli can be utilized to modulate the 
+properties of OMIECs, we shift our focus on understanding 
+the physical and chemical meaning of key property changes 
+and on discussing various device technologies enabled by such 
+changes. We discuss both chemical (static) and stimuli-respon-
+sive (dynamic) techniques for modulating energy levels, con-
+ductivity, coloration, and volume to demonstrate the utility of 
+OMIECs. For each property, we will cover mechanistic implica-
+tions which should be considered when employing such tuning 
+methods, and touch on the crossover between methods where 
+relevant. We will also discuss device demonstrations enabled by 
+each property change and highlight future research opportuni-
+ties with a special emphasis on modulating different properties 
+in a single material system.
+Adv. Mater. 2022, 34, 2110406
+ 15214095, 2022, 21, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202110406 by University Of Chicago Library, Wiley Online Library on [10/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+© 2022 Wiley-VCH GmbH
+2110406  (7 of 18)
+www.advmat.de
+www.advancedsciencenews.com
+4.1. Energy Levels
+4.1.1. Chemical Tuning of Energy Levels
+The location of the HOMO and LUMO (or valence and conduc-
+tion band) of an OMIEC is heavily influenced by the chemical 
+structure of the polymer backbone. More thorough summaries 
+of the synthetic approaches for tuning the energy levels of semi-
+conducting polymers are available elsewhere,[67] but useful intu-
+ition regarding tuning of the HOMO and LUMO levels can be 
+garnered by a simplistic particle-in-a-box analogy. The introduc-
+tion of electron-donating (or withdrawing groups) will increase 
+(or decrease) the HOMO and/or LUMO levels of the material 
+as shown in Figure  2. In this respect, the sidechains grafted 
+onto the polymer backbone will in fact affect the energy levels 
+in the material, as the substitution of alkyl versus glycol side-
+chains can introduce different resonance and inductive effects. 
+However, for efficient ionic transport, glycol sidechains (or a 
+blend of alkyl and glycol chains) are desired,[23,68] meaning that 
+most practical methods for energetic tuning include employing 
+different backbone moieties and heteroatom substitutions. Fur-
+ther energetic control can be achieved by adjusting the conjuga-
+tion length of the polymer and limiting the number of repeat 
+units over which the charge can delocalize—shorter conjuga-
+tion lengths will widen the bandgap. Conjugation length can be 
+limited via the insertion of conjugation breaks (e.g., thieno[2,3-
+b]thiophene) into the backbone of the polymer[69] or from intra-
+ring torsion due to steric effects[70] and extended by promoting 
+backbone planarity through the introduction of bridging units 
+or by non-covalent interactions between adjacent rings which 
+promote coplanarity.[71–73]
+Functionally, there are many situations where it is desirable 
+to synthetically tune the energy levels of an OMIEC, but they 
+largely revolve around adjusting the stability of charges, which 
+are injected onto the polymer backbone. In the field of organic 
+bioelectronics, p-type materials with an ionization potential 
+below 4.9 eV or n-types with an IP > 4 eV afford OMIECs stable 
+operation in water and other biocompatible environments by 
+avoiding parasitic side reactions.[12,36] The offset between the 
+HOMO of the cathode, and the LUMO of the anode also dictates 
+the operating potential of OMIEC-based polymer batteries.[13,74] 
+Analogous to electrochemical stability, the HOMO/LUMO 
+levels of OMIECs can also be tuned to optimize these materials 
+for catalysis or faradaic chemical reactions, where band height 
+and alignment is needed for reactions to proceed.[36]
+Chemical dopants can also be used to control the initial 
+energy levels of electrons in these material systems when 
+other synthetic approaches may be undesirable. The relative 
+electrochemical potential (energy level) of electrons on the 
+OMIEC with that of redox-active species in the environment 
+can result in charge-transfer reactions between the OMIEC 
+and the chemical species. These reactions may be desirable, 
+such as those used during chemical sensing (faradaic) of a 
+target analyte, or undesirable, such as the oxygen reduction 
+reaction (ORR) with ambient molecular oxygen. For instance, 
+to increase the stability of electrons to minimize ORR side 
+reactions, p-type dopants such as the high-electron-affinity 
+F4TCNQ that extract electrons from the HOMO of p-type 
+OMIECs can be added.
+Morphology also plays a crucial part in setting the energy 
+levels of OMIECs. Extensive work on conjugated polymers 
+has shown that the optical bandgap can be tuned by inducing 
+structural order/disorder in solid-state films via control of pro-
+cessing solvent, material molecular weight, and even device 
+temperature. This is largely due to the sensitivity of the 
+HOMO and LUMO energy levels to the effective conjugation 
+length in conjugated polymer OMIECs. Furthermore, this 
+sensitivity of the HOMO/LUMO levels to material microstruc-
+ture holds for a wide variety of polymeric materials, including 
+the prototypical polymer poly(3-hexylthiophene) (P3HT) and 
+more recent material developments in donor–acceptor copoly-
+mers.[75] The ability to correlate HOMO/LUMO levels with 
+microstructure provides a sensitive probe to understanding 
+structure, and the ability to control structure provides a pow-
+erful tool to tune material performance, with applications 
+ranging from ECDs/windows to novel sensors and thermo-
+electric devices.[76,77]
+4.1.2. Tuning Energy Levels Dynamically
+Besides the chemical approach of intrinsically changing the 
+location of an OMIEC’s energy levels, these can also be tuned 
+during device operation. This is exemplarily manifested when 
+OMIECs are utilized as energy-storage electrodes. During 
+charging, an external voltage is applied across the two elec-
+trodes, thereby injecting electrons in the LUMO of the n-type 
+conductor and holes into the p-type conductor. This increases 
+the electrochemical potential of electrons on the anode and 
+decreases that on the cathode, thus storing charges as poten-
+tial energy that can be released upon connection with a load. 
+Counterions from the operational electrolyte simultaneously 
+intercalate into the electrodes for electrostatic compensa-
+tion. As OMIECs are simultaneously redox-active and iono-
+electronically conductive, neither additives nor binders are 
+required unlike in conventional energy-storage technologies 
+(e.g., lithium-ion batteries). Furthermore, they can be oper-
+ated in safe aqueous electrolytes, enabling applications in 
+biological environments including implants, wearables, and 
+lab-on-chip devices making harvesting of chemical energy 
+from the environment realistic. The OMIECs’ sidechains fur-
+ther enable solvation in processing solvents, allowing the 
+extraction of the active materials from current collecting 
+electrodes at the device’s end of life followed by redeposition 
+onto fresh electrodes for a new lease of life. These properties 
+enable ease of recycling of OMIEC electrodes for the circular 
+economy of organic electronic technologies.[74] Additionally, 
+the energy levels can be modulated during the faradaic (charge 
+transfer) reactions we discussed above between OMIECs and 
+redox-active analytes. Such reactivity has recently enabled self-
+powered implants and wearable devices that obtain energy 
+from biological fluids,[78] an emerging field and a platform for 
+future studies on how electronics interface with living organ-
+isms. Besides the electrochemical approaches, illuminating the 
+OMIEC with pulses of light is also another route for exciting 
+electrons to higher energy levels to be subsequently transferred 
+to the desired oxidant such as in photoelectrochemical cells 
+used for sensing or water splitting.
+Adv. Mater. 2022, 34, 2110406
+ 15214095, 2022, 21, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202110406 by University Of Chicago Library, Wiley Online Library on [10/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+© 2022 Wiley-VCH GmbH
+2110406  (8 of 18)
+www.advmat.de
+www.advancedsciencenews.com
+4.2. Conductivity
+4.2.1. Chemical Tuning of Conductivity
+Strategies to increase the electronic conductivity of semi-
+conducting polymers predominantly rely on increasing the 
+charge carrier mobility of holes or electrons for p- and n-type 
+materials, respectively. High charge-carrier mobility is largely 
+enabled by charge delocalization along the polymer backbone 
+(intrachain transport) aided by chain-to-chain hopping (inter-
+chain hopping) when charge carriers meet chain ends or other 
+morphological traps (e.g., sharp kinks). Efficient charge delo-
+calization is commonly associated with backbone coplanarity, 
+conjugation length, narrow bandgaps, and high degree of 
+order between chains. Though such strategies are commonly 
+effective in other electronic devices such as organic field-effect 
+transistors (OFETs), their relationship with device performance 
+remains an emerging field of study in electrochemical devices. 
+Here, the polymer backbone must accommodate incoming ions 
+and their transport must be optimized concomitantly with elec-
+tronic transport.
+In OECT devices where electronic conductivity often serves 
+as an important figure of merit, a few of the aforementioned 
+backbone engineering strategies have shown to translate to 
+improved device performance. For instance, the effect of back-
+bone conformation on device performance was probed by 
+comparing a triethylene glycol (TEG)-bearing benzo[1,2-b:4,5-
+b′]dithiophene (BDT) homopolymer to its thiophene (T) and 
+2,2′-bithiophene (2T) copolymers.[79] BDT was selected to 
+afford a rather linear homopolymer while the copolymerization 
+tunes the backbone curvature. This strategy showed to result 
+in: i) tunable backbone orientation relative to the substrate, 
+ii) controllable ionization potentials, and iii) increased polymer 
+crystallinity, which ultimately translated to improved con-
+ductivity. In fact, a 100-fold increase in transconductance was 
+observed when the homopolymer was compared to the copo­
+lymer derivatives in respective OECT devices. Record-high per-
+formance could further be realized when electron-rich building 
+blocks were utilized to tune the sidechain distribution as well 
+as the film swelling. Other parameters include efficient polaron 
+delocalization along the polymer chain,[80] as well as operation 
+stability.[79] When designing novel OMIECs, the relationship 
+between the proposed structure and the resulting solid-state 
+behavior must be probed for combined electronic and ionic 
+transport. Demonstrating high carrier mobility (electronic 
+conductivity) alone becomes insufficient, especially if no new 
+insights are gained on how the ionic uptake into the polymer 
+bulk impacts the generation and delocalization of electronic 
+charges. Ideally, one should target the generation of many yet 
+highly mobile carriers in the bulk to achieve excellent modula-
+tion of an OMIEC.
+One of the unique hallmarks of OMIECs is volumetric 
+doping of the material, enabled by the large free volume of 
+polymers and ionically conductive sidechains, which facilitate 
+counterion motion throughout the bulk of the material.[1] It 
+is this ability to modulate the bulk conductivity that separates 
+OECTs from more conventional thin-film transistors and gives 
+rise to the large values of normalized transconductance, which 
+make these OMIEC materials attractive for many applications. 
+In this regard, the sidechains of the material do not contribute 
+to electronic conduction but are wholly responsible for the ionic 
+conduction and the volumetric doping of the material. The 
+most commonly employed strategy for engineering ionic con-
+ductivity into OMIECs is replacing the alkyl sidechains from 
+conventional organic semiconductors (OSCs) with polar oligo-
+ethylene glycol sidechains.[23] The choice of sidechains in poly-
+meric OMIECs has been shown to dramatically impact material 
+morphology and OMIEC performance. Specifically, the ubiqui-
+tous choice of glycolated sidechains generally leads to materials 
+with more disordered microstructures, improved ionic trans-
+port, and decreased electronic charge-carrier transport com-
+pared to analogous alkylated versions of the same materials.[23] 
+Furthermore, the design of glycolated sidechains can be tai-
+lored with different lengths, branching points, and densities to 
+simultaneously change ion and charge-carrier transport prop-
+erties.[23] More recently, it has been demonstrated that blends 
+of alkyl and glycol sidechains can be desirable for OMIECs, as 
+these sidechain blends can counterbalance electronic mobility, 
+device stability, self-assembly, and volumetric doping.[13,16,81] 
+As previously mentioned, the sidechains play a crucial role in 
+microstructure formation in OMIECs, and consequently, even 
+minute adjustments to sidechain length, polarity, or density can 
+lead to pronounced differences in resulting properties.
+Although less studied than in traditional organic semi-
+conductors, chemical doping of OMIECs can be employed to 
+enable highly tailored materials properties. Just as in more 
+conventional OSCs, doping of OMIECs typically involves redox 
+reactions between dopant molecules and the material, resulting 
+in a shift of the Fermi level. Such reactions will modulate the 
+carrier concentration in the material, resulting in a change in 
+conductivity. This allows one further control over the “native” 
+state of the material, where conductivity can be either enhanced 
+or diminished, depending on the specifics of the system. Such 
+strategies can be very useful in practical applications such as 
+biosensors, where aligning the peak transconductance of the 
+material to the electrochemical potential range of interest can 
+lead to improved response and sensitivity. Similarly, in many 
+electronics and bioelectronics applications, molecular dopants 
+have been used to shift the threshold voltage of devices, thereby 
+increasing the resistance of the material in its native state to 
+enable low power operation. An excellent example of changing 
+material conductivity was shown by the chemical de-doping of 
+PEDOT:PSS in which the operating mode of electrochemical 
+transistor devices was altered from depletion mode, where the 
+material is initially doped prior to stimulus, to enhancement 
+mode, where the material is initially de-doped.[18] Additionally, 
+increasing charge-carrier density and mobility is important for 
+increasing power factor and electronic conductivity in thermoe-
+lectric devices as shown in Figure 4. Recently, the incorporation 
+of polar glycol sidechains in OMIECs improved the solubility 
+of dopants in the OMIECs (for example F4TCNQ for p-type 
+polymers), lowering required dopant concentrations, thus mini-
+mizing the disruption of the OMIEC’s microstructure.[82]
+Though the relation between conductivity (both ionic and 
+electronic) and OMIEC morphology is a complex and still-
+evolving area of research, semiconducting polymers have shown 
+to perform efficiently thanks to the presence of tie-chains, that 
+is, less ordered regions can be bridged by long chains to enable 
+Adv. Mater. 2022, 34, 2110406
+ 15214095, 2022, 21, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202110406 by University Of Chicago Library, Wiley Online Library on [10/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+© 2022 Wiley-VCH GmbH
+2110406  (9 of 18)
+www.advmat.de
+www.advancedsciencenews.com
+efficient charge transport.[83,84] This behavior becomes a prom-
+ising venue for electron transport to be married with ionic 
+transport as the latter is favored in less ordered systems. Micro-
+structure engineering thus becomes important to realize mor-
+phologies that simultaneously favor ionic uptake and efficient 
+electron delocalization. The morphology of OMIECs is heavily 
+influenced through processing by choices of solvents, cosol-
+vents, material blend ratios, and processing post-treatments. 
+Extensive work on P3HT showed that the quality, size, and 
+number of ordered domains, and thus the resulting charge-
+carrier mobility, could all be controlled by careful selection of 
+the solvent/cosolvent.[85,86] A similar idea has been applied to 
+the prototypical OMIEC, PEDOT:PSS, where choice of cosolvent 
+and/or solvent additives for the aqueous PEDOT:PSS has been 
+extensively studied.[87,88] Aqueous PEDOT:PSS is commonly 
+mixed with a low volume fraction of ethylene glycol, as this is 
+thought to produce more well-connected ordered domains that 
+improve charge mobility while not disrupting ionic transport 
+significantly. Crosslinking agents and acid post-treatments to 
+PEDOT:PSS have also been explored as methods to tailor film 
+morphology and transport properties.[89,90] Ultimately, materials 
+chemical design (i.e., backbone and side-chain design) must be 
+studied alongside appropriate materials processing design, as 
+the resulting performance of OMIECs is closely linked to the 
+final material microstructure.
+4.2.2. Dynamically Tuned Conductivity
+The ability to dynamically tune the charge density throughout the 
+bulk of OMIECs results in large changes in their conductivity, 
+which has been exemplified by OECTs.[91,2] The electrical polari-
+zation of an OMIEC in presence of mobile ionic charges results 
+in significant modulations of the hole (or electron) carrier density  
+within the material. The unique mixed transport properties of 
+this class of polymers give rise to capacitive charging effects that 
+involve the entirety of the materials’ bulk, effectively establishing 
+volumetric capacitances ranging from few tens to hundreds of 
+F cm–3.[92,93] These remarkable capacitance values exceed those 
+displayed by electrical double-layers, as well as those achievable 
+with state-of-the-art high-permittivity dielectrics.[91] As a result, 
+charge-carrier density variations of many orders of magnitude are 
+obtained with sub-volt polarizations (exceeding 1020 cm–3),[94–96]  
+enabling low-powered switching devices.
+In efforts to unravel the complex relationship between mate-
+rials characteristics and device physics, and to fully under-
+stand the interplay between electronic and ionic transport in 
+OMIECs, OECTs serve as a starting point owing to the well-
+studied Bernard–Malliaras mode that describes OECT opera-
+tion. While the semi-quantitative nature of this classic model is 
+still of relevance, its ability to perform quantitative predictions 
+is typically restricted to low polarization voltages and low oper-
+ating frequencies. Recently, this model has become the founda-
+tion for more detailed descriptions of device operation, which 
+build upon a more accurate understanding of charge-transport 
+mechanisms and how they are affected by the microstructural 
+features of the OMIECs. For example, in OMIECs—as in most 
+organic semiconductors—the lack of long-range order limits 
+the electronic charge carriers to nanometric domains such as 
+crystallites and/or along the backbone of the polymer chains 
+and thermally activated hopping is needed for inter-chain and 
+inter-domain transport.[1] The quantum mechanical description 
+of these tunneling events indicates a strong dependence of the 
+hopping rate on the distance and the relative energy between 
+hopping locations, this rate being generally worse in systems 
+characterized by less dense sites—both in terms of space and 
+energy distributions. Given the stochastic assortment of hop-
+ping energies and distances, whose statistical distribution is 
+enclosed in the density of states (DOS) of the semiconductor, 
+not all charges exhibit the same mobility.[97,98] In OMIEC-based 
+devices such as OECTs, where the charge-carrier concentration 
+gradually increases with increasing polarization, holes (or elec-
+trons) tend to first populate low energy sites that are sparser, 
+where the hopping rate is lower, to then access more densely 
+packed states at higher energies, characterized by higher mobil-
+ities.[97,98] As the DOS is incrementally filled beyond the region 
+of optimal transport, the available states tend to become sparse 
+again, thus determining an inflection in the increase of the con-
+ductivity. Indeed, compared to conventional FETs, the charge 
+density reached in OECTs is much larger and therefore more 
+band filling may be noticeable. Friedlein et al. argue that, for this 
+reason, the polarization-controlled change in conductivity of the 
+OECT channel—also known as transconductance—displays a 
+characteristic bell-shape,[91] although other authors suggest that 
+this phenomenon can originate from a gate-dependent con-
+tact resistance.[99] In any case, this non-monotonic trend of the 
+transconductance has important consequences on the opera-
+tion of OECTs in real-life scenarios, particularly in biosensing 
+applications, where it is desirable for the device to be operated 
+in the voltage range that maximizes this figure of merit.[91,100]
+If we also take into account that ion motion within the 
+polymer bulk may heterogeneously alter the microstructure 
+of the OMIECs, thus affecting the energy landscape of the 
+Adv. Mater. 2022, 34, 2110406
+Figure 4.  Power factor versus electronic conductivity of PBTTT films 
+chemically doped with F4TCNQ (circles) and F2TCNQ (squares). Repro-
+duced with permission.[77] Copyright 2017, The Authors, published by 
+American Association for the Advancement of Science. Reprinted/adapted 
+from ref. [77] © The Authors, some rights reserved; exclusive licensee 
+American Association for the Advancement of Science. Distributed under 
+a CC BY-NC 4.0 license http://creativecommons.org/licenses/by-nc/4.0/.
+ 15214095, 2022, 21, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202110406 by University Of Chicago Library, Wiley Online Library on [10/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+© 2022 Wiley-VCH GmbH
+2110406  (10 of 18)
+www.advmat.de
+www.advancedsciencenews.com
+semiconductor (i.e., the DOS), the description just provided for 
+the charge-density-dependent mobility becomes more compli-
+cated.[101–104] In a general sense, investigating the contribution 
+of ionic transport to the OMIEC tunable conductivity is a non-
+trivial task. Ion-transport models are not only dependent on the 
+OMIECs properties, but also on the nature of the ionic species, 
+as well as on the characteristics of the liquid or solid electrolyte 
+matrix. While electrical and optical measurements can be used 
+to deconvolute the electronic and ionic contributions, and thus 
+selectively probe ion transport, they generally require either 
+dedicated experimental apparatuses or complex data interpreta-
+tion based on equivalent circuit models.[105,106] For a long time, 
+OECTs were considered an instrumental testbed for decoupling 
+ion and electron transport in OMIECs, following the general 
+depiction of ionic motions provided by the Bernard–Malliaras 
+model, where lateral ionic drift and/or diffusion are not con-
+templated. The Bernard–Malliaras representation has been 
+recently improved with more sophisticated 2D drift–diffusion 
+models, which account for ion and hole conductions both along 
+the channel of the OECT and its normal axis.[100,107–109] Further-
+more, increasing consideration is being devoted to quantifying 
+and modeling contact resistance effects in OECTs, again with 
+the goal of understanding how the energetic and microstruc-
+tural features of OMIECs affect charge injection and transport 
+in the material.[99,109–111]
+As evident from the above discussion, when reviewing the 
+electrical tuning of the conductivity in OMIECs it is inevitable 
+to refer continuously to the OECT. This pervasive electronic 
+device is in fact a unique tool for investigating these charge 
+modulation phenomena, while simultaneously being the device 
+platform that most benefits of these fundamental studies. 
+Nonetheless, two new families of OMIEC-based devices that 
+exploit the electrically tunable conductivity of this class of 
+materials have very recently emerged. OMIEC-based memory 
+devices on one side, and microwave metadevices on the other. 
+These promising technologies take the structure and the gen-
+eral idea of the OECT to tackle application scenarios that, until 
+very recently, were the prerogative of inorganic or carbon-based 
+non-organic materials. Recent notable examples of OMIEC-
+based neuromorphic devices present architectures that are very 
+similar to those of OECTs. These three-terminal devices com-
+prise a pre-synaptic and a post-synaptic electrode, both made 
+with OMIECs and electrically coupled through an electrolyte, 
+which are fundamentally equivalent to the gate and source–
+drain electrodes in OECTs, respectively. When a voltage is 
+applied to the pre-synaptic electrode, the conductive state of the 
+post-synaptic electrode is “written”—that is, fixed—at a prede-
+termined state, and subsequently measured—or “read”—by two 
+lateral electrodes. Unlike what happens in transistors, where 
+the measurement of the source–drain current and the biasing 
+of the device occur simultaneously, in these memristive devices 
+the “write” and “read” phases are temporally separated. Because 
+of their volumetric capacitance and mixed-transport charac-
+teristics, OMIECs are in fact able to store and stabilize large 
+amounts of electronic charge, which can be used to achieve fine 
+conductance tuning over a wide dynamic range, operating at 
+relatively high switching speeds and low power.[5,112,113] Besides 
+the notable performances of these organic devices even when 
+compared to other memristor technologies, these objects also 
+bear a remarkable potential toward the implementation of arti-
+ficial neural networks that can potentially integrate with living 
+matter.[114]
+The tunable conductivity in a common OMIEC was also 
+used to actively reconfigure conventional microwave struc-
+tures and metasurfaces operating in the sub-5 GHz as recently 
+demonstrated in recent work by Bonacchini et  al.[115] Even in 
+this case, the device structure bears many analogies to that of 
+common OECTs, where a static or quasi-static potential is used 
+to bias the device and tune the volumetric charge density of the 
+OMIEC. The mobile free carriers in the semiconductor are then 
+able to screen or dampen the high-frequency current oscilla-
+tions that are generated within the metallic resonant structures 
+by the impinging electromagnetic fields. In this configuration, 
+the large variations in conductivity effectively tune the complex 
+permittivity of the OMIEC throughout its volume, thus altering 
+the response of these photonic devices with performances that 
+are comparable to other state-of-the-art tuning strategies based 
+on free-charge carrier modulation. In fact, with respect to other 
+similar approaches based on either lumped elements (e.g., 
+varactor and pin diodes), or materials such as chemical vapor 
+deposited graphene and III-V compound semiconductors, the 
+relatively lower charge-carrier mobility in OMIECs is likely 
+compensated by the extremely large charge modulations, which 
+affect the entire volume of the tuning element rather than a 2D 
+layer. These results bear implications for both the advancement 
+of organic electronic materials and of metadevices at large. A 
+thorough microwave investigation of these materials has never 
+been undertaken, and it could provide new important insight 
+on the charge-transport properties of these polymer systems. 
+Moreover, unlike other tuning strategies, this OMIEC-based 
+approach allows the fabrication of metadevices on virtually 
+any substrate, including flexible and biocompatible ones, with 
+cost-effective and mass-scalable fabrication techniques. These 
+advantages could prove useful toward the development of new 
+wireless bioelectronic interfaces and enhance the pervasiveness 
+of large-area metadevice technologies.[116]
+Another promising yet relatively unexplored approach to tune 
+the conductivity of OMIECs is via the absorption of photons 
+leading to form electron–hole pairs, thereby increasing the 
+charge density and hence the conductivity in the material. The 
+physics of photostimulation in organic materials, along with 
+its use in organic optoelectronic technologies, is an ongoing 
+subject of study, which has been covered by excellent review 
+articles.[117–119] Interestingly, it has been shown that conven-
+tional hydrophobic organic semiconductors are able to support 
+charge photogeneration and extraction even when immersed 
+into aqueous environments. As discussed in Section 3.3, these 
+developments have led to remarkable progress in the fields of 
+bioelectronics—where organic photoactive films and nano-
+structures are used to elicit biological activity in living cells and 
+tissues—and of photocatalysis. For example, organic electrolytic 
+photocapacitors operating as photodiodes in water have been 
+shown by the groups of Lanzani and Głowacki.[51,54,120] From a 
+fundamental point of view, it is yet unclear whether hydrated 
+OMIECs are susceptible to similar optoelectronic processes, 
+and whether phenomena like exciton generation and separation 
+can occur within these mixed conductors, either by means of 
+electrical fields or through the realization of heterojunctions. 
+Adv. Mater. 2022, 34, 2110406
+ 15214095, 2022, 21, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202110406 by University Of Chicago Library, Wiley Online Library on [10/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+© 2022 Wiley-VCH GmbH
+2110406  (11 of 18)
+www.advmat.de
+www.advancedsciencenews.com
+For this reason, further attention should be dedicated to 
+exploring this dynamic tuning strategy in OMIECs.
+4.3. Color
+4.3.1. Chemically Tuned Coloration
+In OMIECs, optical changes in the material result from the 
+introduction of mid-bandgap energetic states to the doping 
+(oxidation or reduction) of the material. Key to the successful 
+use of these materials in electrochromic devices is the ability 
+to dope them over a large range in the bulk. ECDs are one 
+of the main applications that take advantage of the coloring/
+bleaching behavior of OMIECs. The molecular tunability of 
+conjugated polymers has been widely utilized to afford a mul-
+titude of colors. Noteworthy is the work by Prof. John Reynolds 
+(Figure 5), who, through fine tuning of the conjugated back-
+bones, has demonstrated that: i) the entire color wheel can be 
+designed and synthesized, ii) electrochromic polymers (ECPs) 
+can be readily solution-processed into large-area solid-state 
+electrochromic devices, and iii) the utility of such devices in 
+full-color bistable displays, energy-saving tinted windows, and 
+dimmable glasses, goggles, and visors.[3,121] To afford a myriad of 
+colorations as well as neutral gray, the donor–acceptor approach 
+is mainly utilized to tailor the absorption spectra of desired 
+polymers as illustrated in Figure  5. Common backbone engi-
+neering strategies include tuning the core heterocycle choice 
+(e.g., PEDOT), controlling the electron-rich/poor character, 
+modulating the steric strain, as well as copolymerization.[122,123] 
+Different chromophores can also be blended to afford hybrid 
+colors following the classical color mixing theory. Furthermore, 
+the appearance of a polymer film is impacted by other solid-
+state properties such as crystallinity and molecular anisotropy. 
+Electrochromics being one of the more mature OMIEC-based 
+technologies to date, key lessons can be borrowed by other 
+applications both from a materials and device viewpoint. How-
+ever, since ECDs are commonly large (in size) and do not nec-
+essarily need to operate at high speeds (switching times of 
+several seconds are often acceptable), charge kinetics ought to 
+be carefully considered when borrowing electrochromic mate-
+rial systems for other purposes. Some of existing challenges in 
+designing new ECPs include color complementarity (chromo-
+phore design) and environmental stability,[9] two aspects from 
+which other technologies discussed herein can benefit.
+Though not as intuitive as it is the case for backbone engi-
+neering, sidechains also play a role in the coloration of polymer 
+OMIECs. The exemplar structure PAT, once flanked with 
+branched and bulky sidechains such as ethylhexyloxy at the 3 
+and 4 positions, appears orange in its neutral state. The color 
+can be redshifted by replacing the branched sidechains with 
+the hexagonally linked and more electron-rich ethylenedioxy 
+to form PEDOT, which forms a blue film. This substitution 
+tunes the ionization potential and affords an energy bandgap 
+of 1.6 eV. In the case of 3,4-propylenedioxythiophene (ProDOT) 
+and dioxythiophene (DOT) and corresponding derivatives, side-
+chain branching has also shown to significantly tune the col-
+oration of these EC polymers.[126] Further design strategies on 
+utilizing sidechains to control color have been reviewed more 
+extensively elsewhere.[9,121] For the current discussion, the 
+readers are reminded that when designing/selecting sidechains 
+in OMIECs, their impact on film formation, crystallization, and 
+resulting absorption properties should be considered according 
+to intended applications.
+Chemical dopants can be introduced into OMIECs to modify 
+their coloration. For instance, electron-rich chemical dopants 
+such as 4(1,3 dimethyl-2,3-dihydro-1H-benzoimidazol-2-yl)
+phenyl)dimethylamine (N-DMBI)[127] or amines[18] can be used 
+to donate electrons into electron-deficient OMIECs. The injec-
+tion of electrons into the LUMO of n-type OMIECs increases 
+the optical bandgap of the OMIEC, thereby bleaching the 
+absorption of the backbone. Simultaneously, polarons are 
+formed with energy levels within the bandgap, which absorb 
+photons at lower energies in the IR. This results in an increase 
+in transparency of the OMIEC in the visible range. On the 
+other hand, electron-deficient dopants such as F4TCNQ can 
+be used to extract electrons from the HOMO of low ioniza-
+tion potential, typically p-type OMIECs. This also increases the 
+optical bandgap of the OMIEC and forms positive polarons. 
+Conversely, amines have been utilized to inject electrons into 
+the highly depleted HOMO of PEDOT:PSS. This results in the 
+reverse effect, the de-doping of the OMIEC, thereby turning the 
+polymer from an almost transparent film into darker shades 
+of blue in the visible region.[18] Controlling the transparency of 
+OMIECs in the visible region and their absorption in the IR 
+enables transparent yet thermally insulating windows. One 
+could also envision that by controlling the dopant concentration 
+in OMIEC solutions, different colored inks can be deposited 
+using a single OMIEC.
+Adv. Mater. 2022, 34, 2110406
+Figure 5.  Illustration of color control in OMIECs through both chemical 
+and dynamic tuning. Backbone and sidechain engineering strategies, a 
+multitude of colors can be synthesized and processed into films. Such 
+films can controllably exhibit a colored or bleached state (i.e., electro-
+chromism) upon electronically controlled ionic insertion and expulsion. 
+In the chemical structures, R stands for alkyl chains which can be either 
+linear or branched. Figure prepared based on data and information in 
+refs. [3], [124], and [125].
+ 15214095, 2022, 21, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202110406 by University Of Chicago Library, Wiley Online Library on [10/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+© 2022 Wiley-VCH GmbH
+2110406  (12 of 18)
+www.advmat.de
+www.advancedsciencenews.com
+4.3.2. Dynamically Tuned Coloration
+During the electrochemical (and more generally chemical) 
+doping of OMIECs, the color of the polymeric film changes, 
+thereby doping the polymeric film (as illustrated in Figure 5). 
+These changes can be induced by applying an electric poten-
+tial on the OMIEC or via redox-active molecules that inject 
+charges into the bulk of the polymer. Electrically induced color 
+changes have led to electrochromic devices that can be used 
+for smart windows.[128] The change in color is associated with 
+the formation of the polaron (charge defect) and bipolaron in 
+the film. The extent of color changes is a direct consequence 
+of doping effectiveness. Spectroelectrochemical experiments in 
+the visible,[13] NIR, and UV regions allow tracking the doping 
+level in situ by analyzing changes in the absorption spectra, 
+during electrochemical charging and discharging. The forma-
+tion of the polaron and the bipolaron is usually associated with 
+quenching of the main visible peak of the pristine polymer and 
+the formation of another peak in the NIR, and the spectra pre-
+sent isosbestic points.
+Another approach to change the perceived color of con-
+jugated polymers is to control the film thickness at the 
+nanoscale. Jonsson and co-workers proposed this novel 
+method by depositing PEDOT:tosylate on a metallic surface, 
+controlling film thickness by varying the UV exposure time 
+for vapor film polymerization.[129] This tunability of structural 
+color through light manipulation in conductive polymers has 
+made the materials appealing for optical coatings or multi-
+functional displays.
+4.4. Volume
+4.4.1. Tuning Volume Chemically
+The ability of a polymer material to accommodate ionic spe-
+cies into its bulk is an indicator of its performance in OMIEC 
+devices. Intuitively, a volumetric change will occur in the 
+polymer film during the charging and discharging of the 
+polymer film to compensate for the ionic flux which compen-
+sates the change in electronic carrier density. As previously 
+hinted, a balance between how much electrolyte embeds into 
+the film, the induced bulky swelling, and resulting property 
+changes constitutes the puzzle of how a given OMIEC func-
+tions. Relating the sidechain choice to ionic conductivity and 
+volumetric changes in a given electrolyte should thus always 
+be evaluated when benchmarking novel materials. On this 
+front, sidechains’ linkage position away from the backbone,[130] 
+their hydrophilicity,[22,131] and length[132] have been shown to 
+impact the swelling of the polymer film, and hence, electro-
+chemical performance of the device. Since these sidechain 
+engineering strategies are also known to impact polymer crys-
+tallinity and electronic conductivity, we believe this is one of 
+the areas of study for OMIECs that deserve more attention to 
+drive the field forward. Fortunately, several in situ characteri-
+zation techniques (e.g., moving front experiments, spectroelec-
+trochemistry, X-ray crystallography)[133] have recently shown 
+that these properties can be deconvoluted thus guiding new 
+material designs.
+4.4.2. Changing Volume Dynamically
+OMIECs oxidation and reduction processes can cause signifi-
+cant changes in the volume of the polymer. The migration of 
+the charged species inside the bulk of the OMIECs when 
+external stimuli are applied causes the polymer to swell and, 
+as the process is reversed, shrink. The expansion or contrac-
+tion movements of the material can be linear, volumetric, or 
+a bending movement.[134] Despite working at the low voltages 
+(<1  V),  electrochemically  driven changes occur up to 40% for 
+reversible OMIECs devices in the out of plane direction.
+The reversible nature of the shrinking and swelling charac-
+teristic of the changes in volume, light weight, as well as the 
+biocompatibility of the materials, allow OMIECs to be excellent 
+candidates to be used as actuators mimicking human muscle. 
+Electrochemically triggered OMIECs-based actuators are com-
+monly used for many applications, from the biomedical field (as 
+they work in aqueous at room-temperature environment, as the 
+body fluids) to soft robotics.[135] During the actuation process, 
+many different phenomena explain the reversible changes in 
+volume concur ions and solvent exchange between the polymer 
+and the electrolyte, as well as electrostatic repulsion between 
+similarly charged backbones and conformational changes of 
+the latter. Due to the slow kinetics of ion uptake, OMIECs actu-
+ators are relatively slow (maximum switching speed between 
+oxidized and reduced states is 1 Hz for films 1 µm thick).[135] 
+McCulloch and co-workers showed that reducing the length of 
+polymer sidechains allows the shorter chains to fill the voids 
+between polymeric chains, thus preventing ion intercalation 
+and reducing water intake, thus resulting in a smaller volume 
+swelling.[136] A way to increase the volume expansion up to 
+300% was found by Berggren and co-workers, by designing 
+structures that facilitate the intercalation of hydrated ions into 
+the OMIEC bulk.[137] In their work, carbon monofilaments were 
+coated with the OMIEC, promoting the OMIEC’s transition 
+between solid state and gel phase when oxidation-reduction 
+potentials are applied.
+In addition to electrical stimulation, volumetric swelling of 
+OMIECs can also be achieved by faradaic charge transfer reac-
+tions while immersed in an aqueous electrolyte. For instance, 
+electrochemical actuators can be powered by OMIECs func-
+tionalized with enzymes to catalyze the reaction of metabolites 
+such as glucose, enabling self-powered artificial muscles.[47] 
+Harvesting energy from the environment to power soft actua-
+tors opens potential venues in smart stimuli-responsive soft 
+robots and microfluidic valves.
+4.5. Modulus
+4.5.1. Tuning the Modulus Chemically
+Though organic materials are commonly considered “soft” 
+compared to inorganics, imparting mechanical deformability 
+in conjugated polymer thin films remains challenging. Engi-
+neering approaches are still required in order to mimic the flex-
+ibility and stretchability as found in nature (e.g., human skin). 
+The key challenge is to design materials that combine mechan-
+ical deformability with electronic performance. The backbone 
+Adv. Mater. 2022, 34, 2110406
+ 15214095, 2022, 21, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202110406 by University Of Chicago Library, Wiley Online Library on [10/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+© 2022 Wiley-VCH GmbH
+2110406  (13 of 18)
+www.advmat.de
+www.advancedsciencenews.com
+engineering strategies we discussed above for OMIECs, though 
+beneficial to the electronic conduction, tend to yield highly crys-
+talline and brittle polymers that are not suitable for applications 
+such as actuators and bioconformable electronics. Currently, 
+we find that little has been done on designing and processing 
+intrinsically deformable OMIECs, in part due to the widespread 
+use of PEDOT:PSS which is typically softened using addi-
+tives.[21,138,139] The study of mechanical properties in OMIECs 
+is thus regarded as a research opportunity to enable electronic 
+devices that can conform with biological tissues or functional 
+as soft actuators. For instance, conjugation break spacers 
+have been heavily studied and copolymerization of fully con-
+jugated blocks with spacer-bearing blocks are well understood 
+in FETs. We envision that these approaches will translate well 
+to polymer OMIECs along with other engineering approaches 
+such as nanoconfinement and molecular additives used to tune 
+the mechanical properties.[21,140–144]
+Similar to most properties of OMIECs, control of the mor-
+phology and nanoscale interactions of OMIECs can heavily 
+influence mechanical properties. In polymeric OMIECs, 
+mechanical properties such as modulus, breaking strength, and 
+elastic limit are intimately linked to the size, distribution, and 
+amount of crystalline aggregates in the material. For example, 
+controlling these aggregates has led to the development of 
+seemingly “rigid” (i.e., high modulus) polymer semiconductors 
+that display remarkable flexibility and maintain electronic trans-
+port properties by inducing nanoconfinement of the polymer 
+and reducing aggregate size.[24] These developments have long-
+reaching applications in biosensing, flexible thermoelectrics, 
+and even artificial skin.[25] This versatility further highlights 
+that understanding material microstructure is not only of fun-
+damental interest, but is also of immense practical importance, 
+as microstructure impacts properties seemingly as disparate as 
+electronic and mechanical properties. Such complexity in the 
+microstructure of OMIECs thus complicates the fundamental 
+understanding of device operation. During OMIEC operation 
+in electrochemical transistor applications for example, signifi-
+cant volume expansion occurs concomitant with disruption to 
+the ordered regions due to penetration of ions into the bulk 
+during the volumetric charging process.[26] Furthermore, the 
+exact nature of interaction between penetrating ions and the 
+OMIEC is poorly understood and perhaps beyond the scope of 
+this perspective. For a detailed overview on the current under-
+standing of microstructural changes during device operation, 
+readers are pointed to a recent review by Wu et al.[28]
+5. Closing Remarks
+The ability to simultaneously control the ionic, electronic, 
+and chemical properties of OMIECs throughout the bulk ren-
+ders them a multifunctional class of materials. For instance, a 
+single MIEC polymer has been utilized as a sensing electrode, 
+an OECT channel material, an energy-storage electrode, and 
+electrochemical actuators proving the potential of OMIECs to 
+enable the fabrication of a fully autonomous intelligent system 
+that utilizes a single material fashioned into specific varied 
+geometries for different device functions. Furthermore, such 
+multifunctionality of OMIECs promises a circular economy 
+of organic electronic devices. At the device’s end of life, the 
+functional OMIEC can be recovered and repurposed for a new 
+device (e.g., a battery electrode into an OECT channel). Judi-
+cious design of sidechains can enable the dissolution of the 
+OMIEC in solvents orthogonal to their operational electrolyte, 
+enabling the selective recovery of OMIECs. With increased 
+interest in understanding biospheres (soil, water, and air moni-
+toring) and biological systems (agriculture and healthcare), 
+materials that are designed to interface seamlessly with organic 
+and aqueous environments are desirable. The ability to derive 
+organic precursors for the synthesis of OMIECs from naturally 
+occurring sources as well as their ease in solution processibility 
+may allow OMIECs to aid in sustainability efforts and the pro-
+gress to achieving a circular economy of electronic devices.
+Desired properties can be achieved during initial synthesis 
+and processing where chemical design of the conjugated 
+backbone, sidechains, additives, processing solvents, and 
+other conditions provide several degrees of freedom to influ-
+ence the OMIECs’ chemistry and morphology. These param-
+eters, in addition to the existing parameters of conventional 
+device design such as device geometry, provide almost infi-
+nite possibilities in device functionalities. Furthermore, these 
+properties can be dynamically tuned via external stimuli such 
+as electrical fields and chemical species, allowing the OMIEC 
+to respond to a variety of environmental inputs and trans-
+duce these into outputs of disparate physical and chemical 
+natures.
+While organic synthesis provides an almost infinite toolbox 
+for designing OMIECs from their chemical structures all the 
+way to morphology, understanding how backbone and side-
+chain design, additives, and processing methods influence 
+polymer morphology, and hence second-order properties, 
+remains an open challenge in the field. Understanding these 
+structure–function relationships is imperative for designing 
+high-performance OMIEC-based devices. Additionally, it is 
+important to understand how OMIEC structure and properties 
+change dynamically in response to external stimuli. These can 
+be achieved by in-operando measurements such as in situ elec-
+trochemical grazing-incidence wide-angle X-ray dcattering and 
+spectroelectrochemistry which illuminate how the microstruc-
+ture and optical properties of OMIECs change under applied 
+voltages respectively. We envision that more in situ techniques 
+will be developed in future to probe other combinations of 
+input stimuli and OMIEC property changes to drive deeper 
+understanding of OMIEC operation under dynamic conditions. 
+Insights from these in situ experiments would then inform 
+design criteria for the synthetic design of chemical structure 
+and morphology of OMIECs.
+The gargantuan effort to design OMIECs, understand their 
+structure–property relationships, understand how these proper-
+ties modulate in response to external stimuli, and strategically 
+utilize OMIECs for various sensing, logic, actuation, energy 
+harvesting/storage, and communication applications requires 
+cross-disciplinary teams of chemists, physicists, material sci-
+entists, as well as bio-, chemical, electronic, computational, 
+and mechanical engineers. We hope that this perspective high-
+lights the potential of OMIECs in addressing salient challenges 
+in society such as energy, sustainability, healthcare, and the 
+Internet of Things.
+Adv. Mater. 2022, 34, 2110406
+ 15214095, 2022, 21, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202110406 by University Of Chicago Library, Wiley Online Library on [10/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+© 2022 Wiley-VCH GmbH
+2110406  (14 of 18)
+www.advmat.de
+www.advancedsciencenews.com
+Acknowledgements
+S.T.M.T. and A.S. gratefully acknowledge financial support from the 
+National Science Foundation, CBET Award# 1804915, DMR Award# 
+1808401, and from the Stanford Graduate Fellowship (Chevron 
+Fellowship). A.G. acknowledges support from a postdoctoral fellowship 
+from the Geballe Laboratory for Advanced Materials (GLAM) at Stanford 
+University. G.E.B. gratefully acknowledges support from the European 
+Union’s Horizon 2020 research and innovation programme under the 
+Marie Skłodowska-Curie grant agreement No. 838799 – LEAPh. T.J.Q. and 
+G.S.L. acknowledge the support from the National Science Foundation 
+Graduate Research Fellowship Program under grant DGE-1656518.
+Conflict of Interest
+The authors declare no conflict of interest.
+Keywords
+bioelectronics, conjugated polymers, mixed conductors, organic 
+electronics
+Received: December 21, 2021
+Revised: February 7, 2022
+Published online: April 18, 2022
+[1]	 B. D. Paulsen, K. Tybrandt, E. Stavrinidou, J. Rivnay, Nat. Mater. 
+2020, 19, 13.
+[2]	 J.  Rivnay, S.  Inal, A.  Salleo, R. M.  Owens, M.  Berggren,  
+G. G. Malliaras, Nat. Rev. Mater. 2018, 3, 17086.
+[3]	 P. M. Beaujuge, J. R. Reynolds, Chem. Rev. 2010, 110, 268.
+[4]	 D.  Melling, J. G.  Martinez, E. W. H.  Jager, Adv. Mater. 2019, 31, 
+1808210.
+[5]	 Y. van de Burgt, A. Melianas, S. T. Keene, G. Malliaras, A. Salleo, 
+Nat. Electron. 2018, 1, 386.
+[6]	 A.  Gumyusenge, A.  Melianas, S. T.  Keene, A.  Salleo, Annu. Rev. 
+Mater. Res. 2021, 51, 47.
+[7]	 T. Someya, Z. Bao, G. G. Malliaras, Nature 2016, 540, 379.
+[8]	 F.  Torricelli, D. Z.  Adrahtas, Z.  Bao, M.  Berggren, F.  Biscarini, 
+A.  Bonfiglio, C. A.  Bortolotti, C. D.  Frisbie, E.  Macchia,  
+G. G.  Malliaras, I.  McCulloch, M.  Moser, T.-Q.  Nguyen,  
+R. M.  Owens, A.  Salleo, A.  Spanu, L.  Torsi, Nat. Rev. Methods 
+Primers 2021, 1, 66.
+[9]	 X. Li, K. Perera, J. He, A. Gumyusenge, J. Mei, J. Mater. Chem. C 
+2019, 7, 12761.
+[10]	 L. Groenendaal, F. Jonas, D. Freitag, H. Pielartzik, J. R. Reynolds, 
+Adv. Mater. 2000, 12, 481.
+[11]	 X. Luo, H. Shen, K. Perera, D. T. Tran, B. W. Boudouris, J. Mei, ACS 
+Macro Lett. 2021, 10, 1061.
+[12]	 A. Giovannitti, C. B. Nielsen, D.-T. Sbircea, S. Inal, M. Donahue, 
+M. R. Niazi, D. A. Hanifi, A. Amassian, G. G. Malliaras, J. Rivnay, 
+I. McCulloch, Nat. Commun. 2016, 7, 13066.
+[13]	 D. Moia, A. Giovannitti, A. A. Szumska, I. P. Maria, E. Rezasoltani, 
+M.  Sachs, M.  Schnurr, P. R. F.  Barnes, I.  Mcculloch, J.  Nelson, 
+Energy Environ. Sci. 2019, 12, 1349.
+[14]	 J. Surgailis, A. Savva, V. Druet, B. D. Paulsen, R. Wu, A. Hamidi-
+Sakr, D. Ohayon, G. Nikiforidis, X. Chen, I. McCulloch, J. Rivnay, 
+S. Inal, Adv. Funct. Mater. 2021, 31, 2010165.
+[15]	 X. Chen, A. Marks, B. D. Paulsen, R. Wu, R. B. Rashid, H. Chen, 
+M. Alsufyani, J. Rivnay, I. McCulloch, Angew. Chem., Int. Ed. 2021, 
+60, 9368.
+[16]	 I. P. Maria, B. D. Paulsen, A. Savva, D. Ohayon, R. Wu, R. Hallani, 
+A. Basu, W. Du, T. D. Anthopoulos, S. Inal, J. Rivnay, I. McCulloch, 
+A. Giovannitti, Adv. Funct. Mater. 2021, 31, 2008718.
+[17]	 S. Che, L. Fang, Chem 2020, 6, 2558.
+[18]	 S. T. Keene, T. P. A. van der Pol, D. Zakhidov, C. H. L. Weijtens, 
+R. A. J. Janssen, A. Salleo, Y. van de Burgt, Adv. Mater. 2020, 32, 
+2000270.
+[19]	 D.  Kiefer, A.  Giovannitti, H.  Sun, T.  Biskup, A.  Hofmann, 
+M. Koopmans, C. Cendra, S. Weber, L. J. Anton Koster, E. Olsson, 
+J.  Rivnay, S.  Fabiano, I.  McCulloch, C.  Müller, ACS Energy Lett. 
+2018, 3, 278.
+[20]	 C. Y. Yang, Y. F. Ding, D. Huang, J. Wang, Z. F. Yao, C. X. Huang, 
+Y.  Lu, H. I.  Un, F. D.  Zhuang, J. H.  Dou, C.  an Di, D.  Zhu,  
+J. Y. Wang, T. Lei, J. Pei, Nat. Commun. 2020, 11, 3292.
+[21]	 J. W. Onorato, C. K. Luscombe, Mol. Syst. Des. Eng. 2019, 4, 310.
+[22]	 L. Q.  Flagg, C. G.  Bischak, J. W.  Onorato, R. B.  Rashid,  
+C. K. Luscombe, D. S. Ginger, J. Am. Chem. Soc. 2019, 141, 4345.
+[23]	 A.  Giovannitti, D.-T.  Sbircea, S.  Inal, C. B.  Nielsen, E.  Bandiello, 
+D. A. Hanifi, M. Sessolo, G. G. Malliaras, I. McCulloch, J. Rivnay, 
+Proc. Natl. Acad. Sci. USA 2016, 113, 12017 LP.
+[24]	 J. Xu, S. Wang, G. J. N. Wang, C. Zhu, S. Luo, L. Jin, X. Gu, S. Chen, 
+V. R. Feig, J. W. F. To, S. Rondeau-Gagné, J. Park, B. C. Schroeder, 
+C. Lu, J. Y. Oh, Y. Wang, Y. H. Kim, H. Yan, R. Sinclair, D. Zhou, 
+G. Xue, B. Murmann, C. Linder, W. Cai, J. B. H. Tok, J. W. Chung, 
+Z. Bao, Science 2017, 355, 59.
+[25]	 A. Chortos, J. Liu, Z. Bao, Nat. Mater. 2016, 15, 937.
+[26]	 R.  Giridharagopal, L. Q.  Flagg, J. S.  Harrison, M. E.  Ziffer, 
+J. Onorato, C. K. Luscombe, D. S. Ginger, Nat. Mater. 2017, 16, 737.
+[27]	 M.  Matta, R.  Wu, B. D.  Paulsen, A. J.  Petty, R.  Sheelamanthula, 
+I. McCulloch, G. C. Schatz, J. Rivnay, Chem. Mater. 2020, 32, 7301.
+[28]	 R. Wu, M. Matta, B. D. Paulsen, J. Rivnay, Chem. Rev. 2022, 122, 
+4493.
+[29]	 B. Russ, A. Glaudell, J. J. Urban, M. L. Chabinyc, R. A. Segalman, 
+Nat. Rev. Mater. 2016, 1, 16050.
+[30]	 J. Kawahara, P. A. Ersman, I. Engquist, M. Berggren, Org. Electron. 
+2012, 13, 469.
+[31]	 F. Hu, Y. Xue, J. Xu, B. Lu, Front. Rob. AI 2019, 6, 114.
+[32]	 M.  Jakešová, T. A.  Sjöström, V.  Đerek, D.  Poxson, M.  Berggren,  
+E. D. Głowacki, D. T. Simon, npj Flexible Electron. 2019, 3, 14.
+[33]	 B. Rivkin, C. Becker, F. Akbar, R. Ravishankar, D. D. Karnaushenko, 
+R. 
+Naumann, 
+A. 
+Mirhajivarzaneh, 
+M. 
+Medina-Sánchez, 
+D.  Karnaushenko, O. G.  Schmidt, Adv. Intell. Syst. 2021, 3, 
+2000238.
+[34]	 O. Kanoun, A. Bouhamed, R. Ramalingame, J. R. Bautista-Quijano, 
+D. Rajendran, A. Al-Hamry, Sensors 2021, 21, 341.
+[35]	 R. D.  Rodriguez, S.  Shchadenko, G.  Murastov, A.  Lipovka, 
+M.  Fatkullin, I.  Petrov, T. H.  Tran, A.  Khalelov, M.  Saqib,  
+N. E. Villa, V. Bogoslovskiy, Y. Wang, C. G. Hu, A. Zinovyev, W. Sheng,  
+J. J.  Chen, I.  Amin, E.  Sheremet, Adv. Funct. Mater. 2021, 31, 
+2008818.
+[36]	 A. Giovannitti, R. B. Rashid, Q. Thiburce, B. D. Paulsen, C. Cendra, 
+K.  Thorley, D.  Moia, J. T.  Mefford, D.  Hanifi, D.  Weiyuan, 
+M. Moser, A. Salleo, J. Nelson, I. McCulloch, J. Rivnay, Adv. Mater. 
+2020, 32, 1908047.
+[37]	 M.  Ghittorelli, L.  Lingstedt, P.  Romele, N. I.  Craˇciun,  
+Z. M.  Kovács-Vajna, P. W. M.  Blom, F.  Torricelli, Nat. Commun. 
+2018, 9, 1441.
+[38]	 S. T.  Keene, D.  Fogarty, R.  Cooke, C. D.  Casadevall, A.  Salleo, 
+O. Parlak, Adv. Healthcare Mater. 2019, 8, 1901321.
+[39]	 C.  Pitsalidis, A. M.  Pappa, M.  Porel, C. M.  Artim, G. C.  Faria,  
+D. D. Duong, C. A. Alabi, S. Daniel, A. Salleo, R. M. Owens, Adv. 
+Mater. 2018, 30, 1803130.
+[40]	 X. Zeng, K. Qu, A. Rehman, Acc. Chem. Res. 2016, 49, 1624.
+[41]	 X.  Strakosas, M.  Bongo, R. M.  Owens, J. Appl. Polym. Sci. 2015, 
+132, 41735.
+Adv. Mater. 2022, 34, 2110406
+ 15214095, 2022, 21, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202110406 by University Of Chicago Library, Wiley Online Library on [10/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+© 2022 Wiley-VCH GmbH
+2110406  (15 of 18)
+www.advmat.de
+www.advancedsciencenews.com
+[42]	 S.  Pirsa, Mater. Sci. Eng.: Concepts, Methodol., Tools, Appl. 2017, 
+1–3, 543.
+[43]	 A. Koklu, D. Ohayon, S. Wustoni, A. Hama, X. Chen, I. McCulloch, 
+S. Inal, Sens. Actuators, B 2021, 329, 129251.
+[44]	 G.  Méhes, A.  Roy, X.  Strakosas, M.  Berggren, E.  Stavrinidou,  
+D. T. Simon, Adv. Sci. 2020, 7, 2000641.
+[45]	 S. T. M.  Tan, S.  Keene, A.  Giovannitti, A.  Melianas, M.  Moser, 
+I. McCulloch, A. Salleo, J. Mater. Chem. C 2021, 9, 12148.
+[46]	 S. T. M. Tan, A. Giovannitti, A. Melianas, M. Moser, B. L. Cotts, 
+D.  Singh, I.  McCulloch, A.  Salleo, Adv. Funct. Mater. 2021, 31, 
+2010868.
+[47]	 F. Mashayekhi Mazar, J. G. Martinez, M. Tyagi, M. Alijanianzadeh, 
+A. P. F. Turner, E. W. H. Jager, Adv. Mater. 2019, 31, 1901677.
+[48]	 D. Ji, T. Li, J. Liu, S. Amirjalayer, M. Zhong, Z. Y. Zhang, X. Huang, 
+Z. Wei, H. Dong, W. Hu, H. Fuchs, Nat. Commun. 2019, 10, 12.
+[49]	 X. Huang, D. Ji, H. Fuchs, W. Hu, T. Li, ChemPhotoChem 2020, 4, 
+9.
+[50]	 D.  Ghezzi, M. R.  Antognazza, R.  Maccarone, S.  Bellani, 
+E. Lanzarini, N. Martino, M. Mete, G. Pertile, S. Bisti, G. Lanzani, 
+F. Benfenati, Nat. Photonics 2013, 7, 400.
+[51]	 D.  Rand, M.  Jakešová, G.  Lubin, I.  Vėbraitė, M.  David-Pur, 
+V. Đerek, T. Cramer, N. S. Sariciftci, Y. Hanein, E. D. Głowacki, Adv. 
+Mater. 2018, 30, 1707292.
+[52]	 B.  Kolodziejczyk, C. H.  Ng, X.  Strakosas, G. G.  Malliaras, 
+B. Winther-Jensen, Mater. Horiz. 2018, 5, 93.
+[53]	 J. F. Maya-Vetencourt, D. Ghezzi, M. R. Antognazza, E. Colombo, 
+M.  Mete, P.  Feyen, A.  Desii, A.  Buschiazzo, M.  Di Paolo, S.  Di 
+Marco, F.  Ticconi, L.  Emionite, D.  Shmal, C.  Marini, I.  Donelli, 
+G.  Freddi, R.  Maccarone, S.  Bisti, G.  Sambuceti, G.  Pertile, 
+G. Lanzani, F. Benfenati, Nat. Mater. 2017, 16, 681.
+[54]	 M. Jakešová, M. Silverå Ejneby, V. Đerek, T. Schmidt, M. Gryszel, 
+J.  Brask, R.  Schindl, D. T.  Simon, M.  Berggren, F.  Elinder,  
+E. D. Głowacki, Sci. Adv. 2019, 5, eaav5265.
+[55]	 M.  Silverå Ejneby, M.  Jakešová, J. J.  Ferrero, L.  Migliaccio, 
+I.  Sahalianov, Z.  Zhao, M.  Berggren, D.  Khodagholy, V.  Đerek,  
+J. N.  Gelinas, E. D.  Głowacki, Nat. Biomed. Eng. 2021,  
+https://doi.org/10.1038/s41551-021-00817-7.
+[56]	 G. Tullii, F. Gobbo, A. Costa, M. R. Antognazza, Adv. Sustainable 
+Syst. 2021, 5, 2100048.
+[57]	 F. Benfenati, G. Lanzani, Nat. Nanotechnol. 2021, 16, 1333.
+[58]	 D.  Palanker, E. D.  Głowacki, D.  Ghezzi, Nat. Nanotechnol. 2021, 
+16, 1330.
+[59]	 T.  Paltrinieri, L.  Bondi, V.  Đerek, B.  Fraboni, E.  Daniel Głowacki, 
+T. Cramer, T. Paltrinieri, L. Bondi, B. Fraboni, T. Cramer, V. Đerek, 
+E. D. Głowacki, Adv. Funct. Mater. 2021, 31, 2010116.
+[60]	 F.  Di Maria, F.  Lodola, E.  Zucchetti, F.  Benfenati, G.  Lanzani, 
+Chem. Soc. Rev. 2018, 47, 4757.
+[61]	 R. Wei, M. Gryszel, L. Migliaccio, E. D. Głowacki, J. Mater. Chem. 
+C 2020, 8, 10897.
+[62]	 F.  Milos, G.  Tullii, F.  Gobbo, F.  Lodola, F.  Galeotti, C.  Verpelli, 
+D.  Mayer, V.  Maybeck, A.  Offenhäusser, M. R.  Antognazza, ACS 
+Appl. Mater. Interfaces 2021, 13, 23438.
+[63]	 J. F.  Maya-Vetencourt, G.  Manfredi, M.  Mete, E.  Colombo, 
+M.  Bramini, S.  Di Marco, D.  Shmal, G.  Mantero, M.  Dipalo, 
+A. Rocchi, M. L. DiFrancesco, E. D. Papaleo, A. Russo, J. Barsotti, 
+C.  Eleftheriou, F.  Di Maria, V.  Cossu, F.  Piazza, L.  Emionite, 
+F.  Ticconi, C.  Marini, G.  Sambuceti, G.  Pertile, G.  Lanzani, 
+F. Benfenati, Nat. Nanotechnol. 2020, 15, 698.
+[64]	 M. Sytnyk, M. Jakešová, M. Litviňuková, O. Mashkov, D. Kriegner, 
+J.  Stangl, J.  Nebesářová, F. W.  Fecher, W.  Schöfberger,  
+N. S.  Sariciftci, R.  Schindl, W.  Heiss, E. D.  Głowacki, Nat. 
+Commun. 2017, 8, 91.
+[65]	 S.  Bellani, M. R.  Antognazza, F.  Bonaccorso, S.  Bellani, 
+F. Bonaccorso, G. Labs, M. R. Antognazza, Adv. Mater. 2019, 31, 
+1801446.
+[66]	 M. Gryszel, E. D. Głowacki, Chem. Commun. 2020, 56, 1705.
+[67]	 H.  Bronstein, C. B.  Nielsen, B. C.  Schroeder, I.  McCulloch, Nat. 
+Rev. Chem. 2020, 4, 66.
+[68]	 A.  Giovannitti, I. P.  Maria, D.  Hanifi, M. J.  Donahue, D.  Bryant, 
+K. J.  Barth, B. E.  Makdah, A.  Savva, D.  Moia, M.  Zetek,  
+P. R. F. Barnes, O. G. Reid, S. Inal, G. Rumbles, G. G. Malliaras, 
+J. Nelson, J. Rivnay, I. McCulloch, Chem. Mater. 2018, 30, 2945.
+[69]	 M.  Heeney, C.  Bailey, K.  Genevicius, M.  Shkunov, D.  Sparrowe, 
+S. Tierney, I. McCulloch, J. Am. Chem. Soc. 2005, 127, 1078.
+[70]	 M. R.  Andersson, O.  Thomas, W.  Mammo, M.  Svensson, 
+M. Theander, O. Inganäs, J. Mater. Chem. 1999, 9, 1933.
+[71]	 D. J. Crouch, P. J. Skabara, M. Heeney, I. McCulloch, D. Sparrowe, 
+S. J.  Coles, M. B.  Hursthouse, Macromol. Rapid Commun. 2008, 
+29, 1839.
+[72]	 I. McCulloch, C. Bailey, M. Giles, M. Heeney, I. Love, M. Shkunov, 
+D. Sparrowe, S. Tierney, Chem. Mater. 2005, 17, 1381.
+[73]	 Y. Wang, M. D. Watson, Macromolecules 2008, 41, 8643.
+[74]	 S. T. M.  Tan, T. J.  Quill, M.  Moser, G.  Lecroy, X.  Chen, Y.  Wu,  
+C. J.  Takacs, A.  Salleo, A.  Giovannitti, ACS Energy Lett. 2021, 6, 
+3450.
+[75]	 J. F.  Ponder Jr, H.  Chen, A. M. T.  Luci, S.  Moro, M.  Turano,  
+A. L. Hobson, G. S. Collier, L. M. A. Perdigão, M. Moser, W. Zhang, 
+G. Costantini, J. R. Reynolds, I. McCulloch, ACS Mater. Lett. 2021, 
+3, 1503.
+[76]	 R. J. Mortimer, K. R. Graham, C. R. G. Grenier, J. R. Reynolds, ACS 
+Appl. Mater. Interfaces 2009, 1, 2269.
+[77]	 S. N.  Patel, A. M.  Glaudell, K. A.  Peterson, E. M.  Thomas,  
+K. A. O’Hara, E. Lim, M. L. Chabinyc, Sci. Adv. 2017, 3, e1700434.
+[78]	 D.  Ohayon, G.  Nikiforidis, A.  Savva, A.  Giugni, S.  Wustoni, 
+T. Palanisamy, X. Chen, I. P. Maria, E. Di Fabrizio, P. M. F. J. Costa, 
+I. McCulloch, S. Inal, Nat. Mater. 2020, 19, 456.
+[79]	 C. B.  Nielsen, A.  Giovannitti, D.-T.  Sbircea, E.  Bandiello,  
+M. R. Niazi, D. A. Hanifi, M. Sessolo, A. Amassian, G. G. Malliaras, 
+J. Rivnay, I. McCulloch, J. Am. Chem. Soc. 2016, 138, 10252.
+[80]	 M.  Moser, A.  Savva, K.  Thorley, B. D.  Paulsen, T. C.  Hidalgo, 
+D.  Ohayon, H.  Chen, A.  Giovannitti, A.  Marks, N.  Gasparini, 
+A. Wadsworth, J. Rivnay, S. Inal, I. McCulloch, Angew. Chem., Int. 
+Ed. 2021, 60, 7777.
+[81]	 A.  Savva, R.  Hallani, C.  Cendra, J.  Surgailis, T. C.  Hidalgo, 
+S. Wustoni, R. Sheelamanthula, X. Chen, M. Kirkus, A. Giovannitti, 
+A.  Salleo, I.  McCulloch, S.  Inal, Adv. Funct. Mater. 2020, 30, 
+1907657.
+[82]	 D. Kiefer, R. Kroon, A. I. Hofmann, H. Sun, X. Liu, A. Giovannitti, 
+D.  Stegerer, A.  Cano, J.  Hynynen, L.  Yu, Y.  Zhang, D.  Nai,  
+T. F.  Harrelson, M.  Sommer, A. J.  Moulé, M.  Kemerink,  
+S. R.  Marder, I.  McCulloch, M.  Fahlman, S.  Fabiano, C.  Müller, 
+Nat. Mater. 2019, 18, 149.
+[83]	 R.  Noriega, J.  Rivnay, K.  Vandewal, F. P. V.  Koch, N.  Stingelin, 
+P. Smith, M. F. Toney, A. Salleo, Nat. Mater. 2013, 12, 1038.
+[84]	 K.  Gu, C. R.  Snyder, J.  Onorato, C. K.  Luscombe, A. W.  Bosse, 
+Y.-L. Loo, ACS Macro Lett. 2018, 7, 1333.
+[85]	 C.  Scharsich, R. H.  Lohwasser, M.  Sommer, U.  Asawapirom, 
+U. Scherf, M. Thelakkat, D. Neher, A. Köhler, J. Polym. Sci., Part B: 
+Polym. Phys. 2012, 50, 442.
+[86]	 R.  Steyrleuthner, M.  Schubert, I.  Howard, B.  Klaumünzer, 
+K. Schilling, Z. Chen, P. Saalfrank, F. Laquai, A. Facchetti, D. Neher, 
+J. Am. Chem. Soc. 2012, 134, 18303.
+[87]	 J.  Rivnay, S.  Inal, B. A.  Collins, M.  Sessolo, E.  Stavrinidou, 
+X.  Strakosas, C.  Tassone, D. M.  Delongchamp, G. G.  Malliaras, 
+Nat. Commun. 2016, 7, 11287.
+[88]	 S. K. M.  Jönsson, J.  Birgerson, X.  Crispin, G.  Greczynski, 
+W.  Osikowicz, A. W.  Denier van der Gon, W. R.  Salaneck, 
+M. Fahlman, Synth. Met. 2003, 139, 1.
+[89]	 D. A. Mengistie, M. A. Ibrahem, P.-C. Wang, C.-W. Chu, ACS Appl. 
+Mater. Interfaces 2014, 6, 2292.
+Adv. Mater. 2022, 34, 2110406
+ 15214095, 2022, 21, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202110406 by University Of Chicago Library, Wiley Online Library on [10/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+© 2022 Wiley-VCH GmbH
+2110406  (16 of 18)
+www.advmat.de
+www.advancedsciencenews.com
+[90]	 A.  Håkansson, S.  Han, S.  Wang, J.  Lu, S.  Braun, M.  Fahlman, 
+M. Berggren, X. Crispin, S. Fabiano, J. Polym. Sci., Part B: Polym. 
+Phys. 2017, 55, 814.
+[91]	 J. T. Friedlein, R. R. McLeod, J. Rivnay, Org. Electron. 2018, 63, 398.
+[92]	 S. Inal, G. G. Malliaras, J. Rivnay, Nat. Commun. 2017, 8, 1767.
+[93]	 I. Sahalianov, S. K. Singh, K. Tybrandt, M. Berggren, I. Zozoulenko, 
+RSC Adv. 2019, 9, 42498.
+[94]	 S. Wang, M. Ha, M. Manno, C. Daniel Frisbie, C. Leighton, Nat. 
+Commun. 2012, 3, 1210.
+[95]	 B. D. Paulsen, C. D. Frisbie, J. Phys. Chem. C 2012, 116, 3132.
+[96]	 C. M.  Proctor, J.  Rivnay, G. G.  Malliaras, J. Polym. Sci., Part B: 
+Polym. Phys. 2016, 54, 1433.
+[97]	 J. T. Friedlein, J. Rivnay, D. H. Dunlap, I. McCulloch, S. E. Shaheen, 
+R. R. McLeod, G. G. Malliaras, Appl. Phys. Lett. 2017, 111, 023301.
+[98]	 J. T. Friedlein, S. E. Shaheen, G. G. Malliaras, R. R. McLeod, Adv. 
+Electron. Mater. 2015, 1, 1500189.
+[99]	 V.  Kaphle, S.  Liu, A.  Al-Shadeedi, C. M.  Keum, B.  Lüssem, Adv. 
+Mater. 2016, 28, 8766.
+[100]	 D. Tu, S. Fabiano, Appl. Phys. Lett. 2020, 117, 080501.
+[101]	 C. Cendra, A. Giovannitti, A. Savva, V. Venkatraman, I. McCulloch, 
+A. Salleo, S. Inal, J. Rivnay, Adv. Funct. Mater. 2019, 29, 1807034.
+[102]	 B. D.  Paulsen, R.  Wu, C. J.  Takacs, H. G.  Steinrück, J.  Strzalka, 
+Q. Zhang, M. F. Toney, J. Rivnay, Adv. Mater. 2020, 32, 2003404.
+[103]	 T. J.  Quill, G.  LeCroy, A.  Melianas, D.  Rawlings, Q.  Thiburce, 
+R.  Sheelamanthula, C.  Cheng, Y.  Tuchman, S. T.  Keene, 
+I.  McCulloch, R. A.  Segalman, M. L.  Chabinyc, A.  Salleo, Adv. 
+Funct. Mater. 2021, 31, 2104301.
+[104]	 L. Q.  Flagg, C. G.  Bischak, R. J.  Quezada, J. W.  Onorato,  
+C. K. Luscombe, D. S. Ginger, ACS Mater. Lett. 2020, 2, 254.
+[105]	 M. Sheliakina, A. B. Mostert, P. Meredith, Adv. Funct. Mater. 2018, 
+28, 1805514.
+[106]	 E.  Stavrinidou, P.  Leleux, H.  Rajaona, D.  Khodagholy, J.  Rivnay, 
+M. Lindau, S. Sanaur, G. G. Malliaras, Adv. Mater. 2013, 25, 4488.
+[107]	 M. Z.  Szymanski, D.  Tu, R.  Forchheimer, IEEE Trans. Electron 
+Devices 2017, 64, 5114.
+[108]	 V. Kaphle, P. R. Paudel, D. Dahal, R. K. Radha Krishnan, B. Lüssem, 
+Nat. Commun. 2020, 11, 2515.
+[109]	 P. R. Paudel, V. Kaphle, D. Dahal, R. K. Radha Krishnan, B. Lüssem, 
+Adv. Funct. Mater. 2021, 31, 2004939.
+[110]	 F. Bonafè, F. Decataldo, B. Fraboni, T. Cramer, Adv. Electron. Mater. 
+2021, 7, 2100086.
+[111]	 A. F.  Paterson, H.  Faber, A.  Savva, G.  Nikiforidis, M.  Gedda,  
+T. C. Hidalgo, X. Chen, I. McCulloch, T. D. Anthopoulos, S. Inal, 
+Adv. Mater. 2019, 31, 1902291.
+[112]	 E. J.  Fuller, S. T.  Keene, A.  Melianas, Z.  Wang, S.  Agarwal, Y.  Li, 
+Y.  Tuchman, C. D.  James, M. J.  Marinella, J. J.  Yang, A.  Salleo,  
+A. A. Talin, Science 2019, 364, 570.
+[113]	 A.  Melianas, T. J.  Quill, G.  LeCroy, Y.  Tuchman, H. V.  Loo,  
+S. T.  Keene, A.  Giovannitti, H. R.  Lee, I. P.  Maria, I.  McCulloch, 
+A. Salleo, Sci. Adv. 2020, 6, eabb2958.
+[114]	 S. T. Keene, C. Lubrano, S. Kazemzadeh, A. Melianas, Y. Tuchman, 
+G.  Polino, P.  Scognamiglio, L.  Cinà, A.  Salleo, Y.  van de  Burgt, 
+F. Santoro, Nat. Mater. 2020, 19, 969.
+[115]	 G. E. Bonacchini, F. G. Omenetto, Nat. Electron. 2021, 4, 424.
+[116]	 Z. Li, X. Tian, C.-W. Qiu, J. S. Ho, Nat. Electron. 2021, 4, 382.
+[117]	 O. Ostroverkhova, Chem. Rev. 2016, 116, 13279.
+[118]	 K. J. Baeg, M. Binda, D. Natali, M. Caironi, Y. Y. Noh, Adv. Mater. 
+2013, 25, 4267.
+[119]	 C. Wang, X. Zhang, W. Hu, Chem. Soc. Rev. 2020, 49, 653.
+[120]	 M. R.  Antognazza, D.  Ghezzi, D.  Musitelli, M.  Garbugli, 
+G. Lanzani, Appl. Phys. Lett. 2009, 94, 243501.
+[121]	 C. M. Amb, A. L. Dyer, J. R. Reynolds, Chem. Mater. 2011, 23, 397.
+[122]	 C. K. Lo, D. E. Shen, J. R. Reynolds, Macromolecules 2019, 52, 6773.
+[123]	 D. T. Christiansen, A. L. Tomlinson, J. R. Reynolds, J. Am. Chem. 
+Soc. 2019, 141, 3859.
+[124]	 C. M.  Amb, A. L.  Dyer, J. R.  Reynolds, C. M.  Amb, A. L.  Dyer,  
+J. R. Reynolds, Chem. Mater. 2011, 23, 397.
+[125]	 A. L. Dyer, E. J. Thompson, J. R. Reynolds, ACS Appl. Mater. Inter-
+faces 2011, 3, 1787.
+[126]	 S. L. Pittelli, M. De Keersmaecker, J. F. Ponder Jr, A. M. Österholm, 
+M. A. Ochieng, J. R. Reynolds, J. Mater. Chem. C 2020, 8, 683.
+[127]	 O. Bardagot, C. Aumaître, A. Monmagnon, J. Pécaut, P.-A. Bayle, 
+R. Demadrille, Appl. Phys. Lett. 2021, 118, 203904.
+[128]	 C. W.  Chang-Jian, E. C.  Cho, S. C.  Yen, B. C.  Ho, K. C.  Lee,  
+J. H. Huang, Y. S. Hsiao, Dyes Pigm. 2018, 148, 465.
+[129]	 S. Chen, S. Rossi, R. Shanker, G. Cincotti, S. Gamage, P. Kühne, 
+V. Stanishev, I. Engquist, M. Berggren, J. Edberg, V. Darakchieva, 
+M. P. Jonsson, Adv. Mater. 2021, 33, 2102451.
+[130]	 P.  Schmode, A.  Savva, R.  Kahl, D.  Ohayon, F.  Meichsner, 
+O. Dolynchuk, T. Thurn-Albrecht, S. Inal, M. Thelakkat, ACS Appl. 
+Mater. Interfaces 2020, 12, 13029.
+[131]	 Y. Wang, E. Zeglio, H. Liao, J. Xu, F. Liu, Z. Li, I. Petruta Maria, 
+D. Mawad, A. Herland, I. McCulloch, W. Yue, Chem. Mater. 2019, 
+31, 9797.
+[132]	 M.  Moser, L. R.  Savagian, A.  Savva, M.  Matta, J. F.  Ponder, 
+T. Cecilia Hidalgo, D. Ohayon, R. Hallani, M. Reisjalali, A. Troisi, 
+A. Wadsworth, J. R. Reynolds, S. Inal, I. McCulloch, Chem. Mater. 
+2020, 32, 6618.
+[133]	 B. D.  Paulsen, A.  Giovannitti, R.  Wu, J.  Strzalka, Q.  Zhang, 
+J. Rivnay, C. J. Takacs, Small 2021, 17, 2103213.
+[134]	 L.  Bay, K.  West, P.  Sommer-Larsen, S.  Skaarup, M.  Benslimane, 
+Adv. Mater. 2003, 15, 310.
+[135]	 H.  Stoyanov, M.  Kollosche, S.  Risse, R.  Waché, G.  Kofod, Adv. 
+Mater. 2013, 25, 578.
+[136]	 M.  Moser, J.  Gladisch, S.  Ghosh, T. C.  Hidalgo, J. F.  Ponder, 
+R.  Sheelamanthula, Q.  Thiburce, N.  Gasparini, A.  Wadsworth, 
+A.  Salleo, S.  Inal, M.  Berggren, I.  Zozoulenko, E.  Stavrinidou, 
+I. McCulloch, Adv. Funct. Mater. 2021, 31, 2100723.
+[137]	 J.  Gladisch, E.  Stavrinidou, S.  Ghosh, A.  Giovannitti, M.  Moser, 
+I.  Zozoulenko, I.  McCulloch, M.  Berggren, Adv. Sci. 2020, 7, 
+1901144.
+[138]	 V. R.  Feig, H.  Tran, M.  Lee, Z.  Bao, Nat. Commun. 2018, 9, 
+2740.
+[139]	 S.  Savagatrup, E.  Chan, S. M.  Renteria-Garcia, A. D.  Printz,  
+A. V. Zaretski, T. F. O’Connor, D. Rodriquez, E. Valle, D. J. Lipomi, 
+Adv. Funct. Mater. 2015, 25, 427.
+[140]	 A.  Gumyusenge, D. T.  Tran, X.  Luo, G. M.  Pitch, Y.  Zhao,  
+K. A. Jenkins, T. J. Dunn, A. L. Ayzner, B. M. Savoie, J. Mei, Science 
+2018, 362, 1131.
+[141]	 A.  Gumyusenge, X.  Luo, H.  Zhang, G. M.  Pitch, A. L.  Ayzner, 
+J. Mei, ACS Appl. Polym. Mater. 2019, 1, 1778.
+[142]	 S. E. Root, S. Savagatrup, A. D. Printz, D. Rodriquez, D. J. Lipomi, 
+Chem. Rev. 2017, 117, 6467.
+[143]	 B.  Roth, S.  Savagatrup, N. V.  de  los Santos, O.  Hagemann,  
+J. E. Carlé, M. Helgesen, F. Livi, E. Bundgaard, R. R. Søndergaard, 
+F. C. Krebs, D. J. Lipomi, Chem. Mater. 2016, 28, 2363.
+[144]	 S.  Savagatrup, A. D.  Printz, T. F.  O’Connor, A. V.  Zaretski,  
+D. J. Lipomi, Chem. Mater. 2014, 26, 3028.
+Adv. Mater. 2022, 34, 2110406
+ 15214095, 2022, 21, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202110406 by University Of Chicago Library, Wiley Online Library on [10/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+© 2022 Wiley-VCH GmbH
+2110406  (17 of 18)
+www.advmat.de
+www.advancedsciencenews.com
+Siew Ting Melissa Tan earned her bachelor’s in engineering in materials science and engineering 
+with a specialization in nanotechnology from Nanyang Technological University, Singapore in 2018 
+where she was an Agency for Science, Technology and Research scholar, CN Yang scholar, and 
+Koh Boon Hwee scholar. She is currently pursuing a Ph.D. in materials science and engineering 
+at Stanford University with Prof. Alberto Salleo, supported by a Stanford Graduate Fellowship and 
+a National University of Singapore Development Grant. Her Ph.D. work focuses on the funda-
+mental understanding of organic mixed conductors for electrochemical devices, organic transis-
+tors, biosensors, and energy-storage devices.
+Aristide Gumyusenge received a B.S. in chemistry from Wofford College (2015), a Ph.D. in 
+chemistry from Purdue University (2019), and was the GLAM Postdoctoral Fellow at Stanford 
+University. In 2022, he joined MIT as an Assistant, where he holds the Merton C. Flemings 
+Career Development Professorship. His research interests are in semiconducting polymers, their 
+processing and characterization, and their unique role in future electronics. He has been selected 
+as a PMSE Future Faculty Scholar, the GLAM Postdoctoral Fellow, the MRS Arthur Nowick and 
+Graduate Student Gold Awardee, amongst other recognitions.
+Tyler James Quill is a doctoral candidate in the Materials Science and Engineering Department 
+at Stanford University. His research focuses on understanding the structure–property relations 
+in neuromorphic devices and artificial synapses based on organic mixed conductors. He is a 
+National Science Foundation graduate research fellow and a U.S. Department of Energy Office of 
+Science graduate research fellow.
+Garrett Swain LeCroy is a Ph.D. candidate at Stanford University working under the supervision 
+of Alberto Salleo. He graduated from Georgia Institute of Technology in 2018 with his B.S. in 
+materials science and engineering. He is interested in fundamental light–matter interactions in 
+disordered semiconductors and uses spectroscopy to study charge-transport properties. He is a 
+National Science Foundation graduate research fellow.
+Adv. Mater. 2022, 34, 2110406
+ 15214095, 2022, 21, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202110406 by University Of Chicago Library, Wiley Online Library on [10/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+© 2022 Wiley-VCH GmbH
+2110406  (18 of 18)
+www.advmat.de
+www.advancedsciencenews.com
+Giorgio E. Bonacchini received his Ph.D. from Politecnico di Milano, working at the Center for 
+Nano Science and Technology of the Istituto Italiano di Tecnologia. He then joined the Silklab at 
+Tufts University, where he developed the first demonstration of microwave metadevices based 
+on organic electrochemical transistors. As of July 2020, he has been a Marie Skłodowska-Curie 
+Actions Global Fellow working in the Salleo Group at Stanford University, where he is studying the 
+optoelectronic properties of organic semiconductors and mixed ion–electron conductors, with a 
+focus on the development of water-gated organic phototransistors and microwave metadevices.
+Ilaria Denti received her bachelor’s and master’s degree in physics at the Universita’ degli Studi 
+di Milano. She is currently finishing her Ph.D. in materials engineering at Politecnico di Milano 
+in the laboratory of Prof. Chiara Castiglioni. In 2019, during her Ph.D. she joined the laboratory of 
+Prof. Alberto Salleo as a visiting scholar at Stanford University, where she currently continues her 
+research activity. The main focus of her work is the use of vibrational spectroscopy to characterize 
+the charge defect (i.e., polarons) of doped semiconductive polymers, developing novel setups for 
+in situ characterization.
+Alberto Salleo is Professor of Materials Science and Department Chair at Stanford University. He 
+has a Ph.D. in materials science from UC Berkeley and was post-doc, then staff member at Xerox 
+PARC. In 2005 he joined the Materials Science and Engineering Department at Stanford as an 
+Assistant Professor. At Stanford, he won the NSF Career Award, the 3M Untenured Faculty Award, 
+the SPIE Early Career Award, and the Gores Award for Excellence in Teaching, Stanford’s highest 
+teaching award. He has been a Clarivate Highly Cited Researcher since 2015 and was elected to 
+the European Academy of Sciences in 2021.
+Adv. Mater. 2022, 34, 2110406
+ 15214095, 2022, 21, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202110406 by University Of Chicago Library, Wiley Online Library on [10/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+

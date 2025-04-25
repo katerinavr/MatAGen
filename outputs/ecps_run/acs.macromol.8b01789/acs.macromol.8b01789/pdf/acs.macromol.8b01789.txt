@@ -1,0 +1,880 @@
+A Fruitful Usage of a Dialkylthiophene Comonomer for Redox Stable
+Wide-Gap Cathodically Coloring Electrochromic Polymers
+Dylan T. Christiansen
+and John R. Reynolds*
+School of Chemistry and Biochemistry, School of Materials Science and Engineering, Center for Organic Photonics and Electronics,
+Georgia Tech Polymer Network, Georgia Institute of Technology, Atlanta, Georgia 30332, United States
+*
+S Supporting Information
+ABSTRACT: A series of conjugated polymers are prepared via
+direct heteroarylation polymerization with the goal of yielding
+wide-gap, yellow and orange switching to transmissive cathodi-
+cally coloring electrochromic polymers (ECPs). The polymers
+are based on repeat units of dialkylthiophene (DAT) in alterna-
+tion with dioxythiophenes (DOTs) with various side chains to
+induce diﬀering levels of inter-ring strain yielding 3,4-ethylene-
+dioxythiophene (DAT-EDOT), 3,4-propylenedioxythiophene
+(DAT-ProDOT), 3,4-(1,3-dimethylpropylene)dioxythiophene
+(DAT-DMP), and 3,4-dimethoxythiophene (DAT-DMOT)
+structured polymers. Examination of the optoelectronic proper-
+ties via UV−vis−NIR spectroscopy, diﬀerential pulse voltammetry, and spectroelectrochemistry shows that while increasing the
+inter-ring strain induced by the side chain of the DOT unit leads to an increased oxidation potential ranging from −122 to
++288 mV relative to Fc/Fc+, this does not decrease the accessibility of the extreme charge states. Through subtle steric interac-
+tions between the arylene units, neutral polymer colors were tunable from yellow to deep reds while maintaining transmissive
+oxidized states. These DAT-based polymers also show increased redox switching stability compared to that of previous gen-
+erations of wide-gap cathodically coloring ECPs that incorporate phenylene units with DAT-ProDOT and DAT-DMP ﬁlms
+showing minimal loss of electrochromic contrast over 1000 switches and a DAT-DMP device showing minimal contrast loss over
+10000 cycles. With these properties, these polymers have the ability for subtractive color mixing with other ECPs to create
+broadly absorbing, color neutral (black and brown) blends that are redox stable.
+■INTRODUCTION
+Redox-active conjugated polymers have structurally controlled
+optical properties with redox switching capabilities that make
+them attractive to study with reference to the application of
+electrochromism.1−9 Organic electrochromic polymers (ECPs)
+can be solution processed under ambient conditions and are
+lightweight and ﬂexible, while providing a ﬁne degree of struc-
+turally induced color control. The electrochromic performance
+of ECPs has undergone vast improvement over recent years
+due to an increased understanding of their fundamental electro-
+chemical and spectral/colorimetric properties, solution process-
+ing characteristics, thin ﬁlm morphologies, and interactions with
+electrodes.10−22
+The history of research in fully conjugated ECPs has yielded
+materials that span the entire color palette.23−29 These poly-
+mers can be spray cast to form vividly colored ﬁlms that upon
+oxidation become highly transmissive in the visible region.
+Recently, the approaches toward creating black-to-transmissive
+electrochromic polymeric materials have been either through
+the generation of broadly absorbing random copolymers or via
+subtractive color mixing of polymeric inks.30−37 The latter of
+the two approaches has, to date, allowed for ﬁner control, more
+accurate reproducibility, and higher contrast through the mixing
+of cyan, magenta, and yellow to create broadly absorbing ECP
+blends. One of the largest challenges to date with using the
+solution blending technique relates to the short switching
+lifetime of the yellow to clear switching polymer.38−44
+In order for an ECP to be yellow, it requires a high-energy
+optical absorption, between 380 and 550 nm in the colored state.
+To then exhibit a high visible light contrast during switching, a
+cathodically coloring ECP then requires its oxidized state to
+absorb in the near-infrared (>700 nm). ECPs we have developed
+that have these optical properties have historically used phenylene
+units in the backbone of the polymer, which oﬀer both a deep
+HOMO and a torsional strain that lowers π−π overlap along the
+backbone and widens the gap, relative to their all dioxythiophene
+counterparts. These phenylene-containing ECPs tend to have
+higher oxidation potentials than all thiophene polymers due to
+the larger energy of aromaticity relative to thiophene. These
+high oxidation potentials are hypothesized to be one of the
+causes of why yellow ECPs tend to have shorter switching
+lifetimes. Along with these high oxidation potentials there are
+open sites for reactivity of the radical cation states when the
+polymer is oxidized, leaving potential for nucleophilic attack
+Received:
+August 21, 2018
+Revised:
+October 9, 2018
+Published: November 9, 2018
+Article
+pubs.acs.org/Macromolecules
+Cite This: Macromolecules 2018, 51, 9250−9258
+© 2018 American Chemical Society
+9250
+DOI: 10.1021/acs.macromol.8b01789
+Macromolecules 2018, 51, 9250−9258
+Downloaded via ARGONNE NATL LABORATORY on September 26, 2024 at 20:35:20 (UTC).
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+and radical−radical coupling. To this end we sought an alter-
+native monomer to use in electron-rich cathodically coloring
+electrochromic polymers.
+Figure 1 shows some key polymers in the progression of
+designing soluble, yellow and orange electrochromic polymers
+leading to the design of the current generation. Starting with
+generation 1, ProDOT-Ph was the ﬁrst successful synthesis of a
+yellow to clear ECP using the phenylenes. When this material
+is sprayed into a ﬁlm onto an ITO working electrode and
+subjected to repeated potential square waves that oxidize and
+reduce the polymer, it shows instability to switching within the
+ﬁrst 10−20 cycles due to the high oxidation potential required
+to switch and the potential reactivity of the phenylene unit
+itself in the charged state.45 The design rationale for AcDOT2-Ph
+was to increase the electron-rich dioxythiophene content of the
+polymer to lower the oxidation potential and maintain the wide
+gap by using the increased inter-ring strain provided by the
+acyclic nature of the AcDOT unit. This polymer is slightly more
+stable than ProDOT-Ph showing signiﬁcant drops in contrast
+within the ﬁrst 100 redox cycles. The second-generation
+polymers were synthesized to attempt to address these issues
+by incorporating methoxy groups on the phenylene portion of
+the polymer to simultaneously lower the oxidation potential to
+switch and sterically block the open sites from nucleophilic
+attack and radical coupling.39 While AcDOT2-Ph(OMe)2 main-
+tains a vibrant yellow color, the increased strain imparted by the
+Ph(OMe)2 unit causes the polymer to have a high oxida-
+tion potential and only a marginal increase in redox stability.
+During redox switching, ProDOT2-Ph(OMe)2 lasts over 100
+cycles with no drop in contrast, but the decrease in strain red-
+shifts the absorbance λmax by 54 nm, leading to a red-orange
+polymer.
+To overcome the issues with the redox switching stability in
+wide-gap phenylene-containing ECPs, here we report on the
+use of a dialkylthiophene (DAT) incorporated into alternating
+copolymers with dioxythiophenes to achieve a wide optical
+gap. The DAT monomer synthesized and used for the genera-
+tion 3 study, speciﬁcally 3,4-dioctylthiophene, provides inter-
+ring strain with alkyl chains directly appended to the backbone
+helping the copolymers to reach wide optical gaps while
+blocking possible reactive sites for the radical cations. The
+octyl groups allow for the use of DOT monomers that do not
+have side chains and still yield soluble polymers than can be
+spray processed into thin ﬁlms for characterization and use.
+The DOT comonomers were designed to vary in the inter-ring
+strain they provide to the π-conjugated backbone of the sys-
+tem. We show that increasing inter-ring strain can be used to
+blue-shift the absorption of the polymers by over 70 nm to
+tune color between yellows, oranges, and reds. We also show
+that three of the copolymers show increased redox switching
+stability as ﬁlms in solution compared to previous wide-gap
+ECPs with minimal drops in contrast over 1000 cycles in elec-
+trolyte solution. Because of its lack of color shifting upon repeated
+redox cycling, the redox stability of DAT-DMP is investigated
+further in the construction of an encapsulated device contain-
+ing DAT-DMP and a charge-storing polymer separated by a gel
+electrolyte. After an initial equilibration period of 200 switches,
+this device shows a contrast loss of <5 Δ%T after 10000 cycles,
+which indicates a >81% retention of contrast overall.
+■RESULTS AND DISCUSSION
+Polymer Synthesis and Characterization. The synthetic
+approach to the monomer and polymer syntheses is shown in
+Scheme 1. Synthetic procedures, NMR spectra, elemental analyses,
+and GPC traces are located in the Supporting Information. Start-
+ing with commercially available 3,4-dibromothiophene, a Kumada
+coupling aﬀorded 2, followed by subsequent bromination with
+NBS to form the desired 2,5-dibromo-3,4-dioctylthiophene, 3.
+The synthetic scheme diverges from here where 3 can be used
+for direct heteroarylation polymerization with a dioxythio-
+phene monomer to prepare the alternating copolymers DAT-
+EDOT, DAT-ProDOT, DAT-DMP, and DAT-DMOT.46−48
+Comparisons of polymerization yields and GPC estimated
+molecular weights are collated in Table 1, and all GPC traces
+are shown in Figure S1. All of the polymers are soluble in
+toluene to at least 20 mg/mL, allowing for airbrush spray
+processing and drop casting for ﬁlm formation.
+Figure 1. Key polymers in the progression of designing soluble, wide-gap electrochromic polymers.
+Macromolecules
+Article
+DOI: 10.1021/acs.macromol.8b01789
+Macromolecules 2018, 51, 9250−9258
+9251
+
+Electrochemical and Optical Properties. For electro-
+chemical characterization, polymer ﬁlms were drop cast onto
+Pt button electrodes from 3 mg/mL solutions in CHCl3 to
+cover the electrode. Cyclic voltammetry (CV) and diﬀerential
+pulse voltammetry (DPV) were measured on ﬁlms of the poly-
+mers to gain insight into how the diﬀerent DOT comonomers
+aﬀected the electrochemical properties. Upon examining the
+electrochemical oxidation of the materials via DPV (Figure 2a),
+the onset of oxidation follows the trend of inter-ring strain
+imposed by the DOT comonomer (CV for polymers can be
+found in Figure S2). As inter-ring strain is increased from the
+least strained EDOT to the most strained DMOT, the resultant
+onset of oxidation (Eox) ranges from −122 to +288 mV relative
+to Fc/Fc+, giving a large window for tuning the desired optical
+switching potential (Eox values are collated in Table 2). These
+polymers all have Eox values below the polymers in the
+generation one wide-gap polymers (ProDOT-Ph and
+AcDOT2-Ph). Both DAT-EDOT and DAT-ProDOT have
+Eox values below that of the generation 2 polymers (ProDOT2-
+Ph(OMe)2 and AcDOT2-Ph(OMe)2) at −122 and 74 mV,
+respectively. The DAT-DMP and DAT-DMOT polymers’ Eox
+values fall between ProDOT2-Ph(OMe)2 and AcDOT2-Ph-
+(OMe)2 with 180 and 288 mV, respectively.
+For optical characterization, polymer ﬁlms were airbrush
+sprayed onto glass/ITO electrodes from 3 mg/mL solutions in
+toluene, and the ﬁlms subjected to 10 CV cycles before UV−
+vis spectra were measured. While DAT-ProDOT, DAT-DMP,
+and DAT-DMOT all formed smooth ﬁlms from this method,
+DAT-EDOT ﬁlms were consistently hazy, which is indicative
+of induced order during ﬁlm formation. Figure 2b shows the
+UV−vis spectra of the ﬁlms of the polymers after electro-
+chemical conditioning (UV−vis spectra of as-cast ﬁlms can be
+found in Figure S3 of the Supporting Information). The
+UV−vis absorption data are collated in Table 2 in order of
+Table 1. GPC Estimated Polymer Molecular Weights and
+Polymerization Yields
+polymer
+yield (%)
+Mn (kDa)
+Mw (kDa)
+Đ
+DAT-EDOT
+79
+61
+143
+2.3
+DAT-ProDOT
+81
+32
+81
+2.6
+DAT-DMP
+77
+25
+56
+2.2
+DAT-DMOT
+64
+37
+150
+4.1
+Figure 2. (a) Comparison of Eox acquired via DPV for polymers on Pt button electrode in 0.5 M TBAPF6/PC. Reference: −450 mV vs Fc/Fc+.
+(b) Neutral state spectra of DAT-EDOT, DAT-ProDOT, DAT-DMP, and DAT-DMOT on ITO-coated glass in 0.5 M TBAPF6/PC electrolyte
+solution after 10 CV electrochemical conditioning cycles. Films were sprayed to an absorbance of 1.00 ± 0.05 in the as-cast state to best compare the
+absorption and switching properties.49,50 Absorbance values are normalized due to the increase/decrease of absorbance upon ﬁlm break-in.
+Table 2. Optical and Electrochemical Properties of ECPs
+Studied
+polymer
+Eoxa (mV) vs Fc/Fc+
+λmaxb (nm)
+Egb,c (eV)
+DAT-DMOT
+288
+427
+2.10
+AcDOT2-Ph(OMe)2d
+330
+446
+2.38
+ProDOT-Phd
+451
+448
+2.44
+DAT-EDOT
+−122
+448
+1.88
+AcDOT2-Phd
+438
+464
+2.30
+DAT-DMP
+180
+466
+2.19
+DAT-ProDOT
+74
+500
+2.03
+ProDOT2-Ph(OMe)2d
+126
+500
+2.18
+aAs determined by DPV as the onset of the current for oxidation.
+bFor ﬁlms cast onto ITO-coated glass measured after 10 CV cycles
+listed in order of increasing wavelength. cBandgap determined by
+onset of light absorption. dValues from ref 38.
+Scheme 1. Synthetic Approach to Dialkylthiophene Monomer and Subsequent Direct Heteroarylation Polymerization
+Macromolecules
+Article
+DOI: 10.1021/acs.macromol.8b01789
+Macromolecules 2018, 51, 9250−9258
+9252
+
+increasing λmax, including the previous generation polymers. It
+is important to note that the λmax and Eg do not follow the
+same trend as there is varying absorption broadness between
+the diﬀerent polymers. This varying broadness manifests itself
+in the color of the polymer ﬁlms not correlating with λmax, as
+these polymers span the yellow−orange−red region. It should
+be noted that when comparing as-cast ﬁlms to conditioned
+ﬁlms, the polymers’ absorbances typically exhibit varying
+degrees of red-shifting and broadening. When a polymer ﬁlm is
+sprayed from a high vapor pressure solvent, it is deposited in a
+kinetically determined morphology as the solvent evaporates.49
+Upon electrochemical oxidation, the conjugated polymer must
+enter a more quinoid-like structure that causes its backbone to
+planarize and extend the eﬀective conjugation length of the
+chromophore. Upon reduction back to the neutral state, the
+polymer geometry retains a more planar geometry (relative to
+the as-cast ﬁlm) leading to a longer eﬀective conjugation length
+and red-shifted absorbance. This typical red-shifting upon
+cycling was not observed for DAT-DMP as its absorbance
+exhibited a small blue-shift of its onset of ∼5 nm.
+Spectroelectrochemistry and Color Properties. Spec-
+troelectrochemical measurements were performed on polymer
+ﬁlms sprayed on ITO glass in 0.5 M TBAPF6 in propylene
+carbonate with a platinum counter electrode and a Ag/AgCl
+reference electrode with results shown in Figure 3 along with
+photographs of the ﬁlms held at potential extremes dictated by
+the CV results. Optical contrast at λmax and the L*a*b* values
+are collated in Table 3. Upon electrochemical conditioning of
+electrochromic polymers, the UV−vis absorption often exhibits
+a characteristic red-shift of the absorbance as the polymer
+extends its eﬀective conjugation length in the charge neutral
+state.
+As a pristine ﬁlm, DAT-EDOT shown in Figure 3a absorbs
+with a λmax of 448 nm giving rise to the orange color of the
+material. As can be seen in the photography it can be noted
+that this polymer forms relatively hazy ﬁlms. Upon electro-
+chemical break-in, there is a red-shifting of the onset of
+Figure 3. Spectroelectrochemistry and photographs of (a) DAT-EDOT, (b) DAT-ProDOT, (c) DAT-DMP, and (d) DAT-DMOT. The applied
+potential was increased in 50 mV steps between the fully colored and bleached states in 0.5 M TBAPF6/PC. The arrows show the progression of
+the peak evolution as a function of increasing potential.
+Table 3. Color and Switching Properties of ECPs Studied
+L*, a*, b* color coordinatesb
+polymer
+Δ%Ta,b (at λmax)
+neutral state
+oxidized state
+DAT-EDOT
+58
+65, 24, 36
+83, −5, −8
+DAT-ProDOT
+63
+60, 68, 34
+86, −4, −8
+DAT-DMP
+65
+87, 23, 59
+90, −2, −4
+DAT-DMOT
+60
+82, 25, 62
+85, −1, −7
+ProDOT-Phc
+67
+87, 21, 73
+88, −1, −3
+AcDOT2-Phc
+51
+87, 9, 76
+87, 2, 4
+ProDOT2-Ph(OMe)2c
+70
+80, 47, 36
+91, −1, −1
+AcDOT2-Ph(OMe)2c
+59
+89, −4, 85
+81, −1, −1
+aDiﬀerence between steady-state transmittance measured at fully
+oxidized and fully neutral states (all ﬁlms sprayed to 10%T at λmax).
+bFor a ﬁlm cast onto ITO-coated glass. cValues from ref 38.
+Macromolecules
+Article
+DOI: 10.1021/acs.macromol.8b01789
+Macromolecules 2018, 51, 9250−9258
+9253
+
+absorbance with the appearance of a shoulder at 650 nm, but
+there is a drop in absorbance at λmax and a low intensity, broad
+absorbance between 600 and 1100 nm indicative of polaron
+trapping. This broad absorption gives rise to the observed
+muted pink color of the material. It is unknown whether this
+phenomenon is caused by either chemical or morphological
+diﬀerences from the other polymers. The trapping in DAT-
+EDOT is hypothesized to be due to the oxidation of this
+polymer causing the formation of local potential wells where
+the polaron is energetically trapped. Upon oxidation, the
+polaronic peak is still present, and leads to a fairly asymmetric
+tailing across the visible and a slightly blue hue remains
+compared to the other polymers. The as cast ﬁlm of DAT-
+ProDOT shown in Figure 3b absorbs with a λmax of 491 nm,
+thus giving rise to a vibrant orange color. Upon break-in this
+polymer exhibits an increase in absorbance along with the
+characteristic red-shifting to a λmax of 500 nm leading to a red
+colored polymer with no peaks indicating trapped polarons.
+Upon oxidation, this polymer’s spectrum is ﬂat across the
+visible giving a highly color neutral and transmissive state.
+DAT-DMP as a pristine ﬁlm, shown in Figure 3c, absorbs with
+a λmax of 466 nm. Upon break-in this spectrum exhibits a
+negligible blue-shift in onset with a λmax and observable color
+that remained unchanged as a vibrant orange is observed in
+both states. Note that this polymer also does not show any
+indication of trapped polarons. In the oxidized state this
+polymer shows the highest color neutrality with a spectrum
+that is ﬂat across the visible region. The as cast ﬁlm of DAT-
+DMOT, shown in Figure 3d, has the highest energy λmax of
+421 nm and a vibrant yellow color, which was expected due to
+the increased inter-ring strain compared to the other polymers.
+Upon break-in the red-shift caused by relief of ring strain can
+be observed with the color shifting to an orange. There is also a
+small amount of absorbance between 600 and 1000 nm
+indicative of slight polaron trapping. This polaronic absorption
+can be seen again in the oxidized state with slight increased
+tailing into the visible from the NIR similar to that of DAT-
+EDOT, and leading to a slightly blue hued transmissive state.
+Colorimetry utilizing the L*a*b* color space, where a*b*
+values correlate to the chroma or saturation of a color (note:
+−a* and +a* correspond to green and red and −b* and +b*
+correspond to blue and yellow, respectively) and L* depicts
+the lightness (a value of 0 would be black and 100 would be
+white), was used to demonstrate the control over colors in the
+neutral states. The a*b* color space results for the polymer
+ﬁlms under study are presented graphically in Figure 4. In the
+neutral state, after electrochemical break-in, the polymers had
+L* values ranging from 60 to 87, a* values ranging from 23 to
+68, and b* values ranging from 34 to 62, thus remaining in the
+yellow-orange-red color space similar to the color coordinates
+for the previous generations’ ECPs also shown in Figure 4.
+In the oxidized states, the transmissive forms had L* values
+increased to range from 83 to 90, with low a* values ranging from
+−5 to −1 and b* values ranging from −8 to −4. As the magni-
+tudes of a* and b* increase, the colors become more saturated,
+and as one traverses between color points, the hue changes.
+In this ﬁgure, the as-cast ﬁlms are represented in this graph
+by the encircled points while the rest of the points are
+postconditioning. Upon break-in the change in color
+coordinates is greatest for DAT-ProDOT and DAT-DMOT
+with a increase in a* and decrease in b* indicating a
+red-shifting absorbance, while DAT-EDOT and DAT-DMP
+do not exhibit this characteristic change in color coordinates.
+DAT-EDOT’s color coordinates move toward the origin upon
+break-in, showing a drastic decrease in color vibrancy caused
+by the apparent polaron trapping seen in the spectroelec-
+trochemistry. DAT-DMP’s color coordinates actually show a
+slight decrease in a* and increase in b* which can be explained
+by the slight blue-shift in the onset of absorbance of the ﬁlm
+upon break-in. This is observed as only a small shift in color of
+the material upon break-in (remaining orange), which allows
+for ease of predicting the polymer’s usefulness in color mixing.
+After the initial electrochemical break-in, all of the polymers
+lie within the desired yellow−orange−red color space (positive
+a* and positive b*), and upon electrochemical oxidation the
+color coordinates are shifted close to the origin, indicating
+color neutrality. In the neutral state, DAT-EDOT shows the
+least saturation of color with an L*a*b* of 65, 24, and 36 but
+does reach a highly transmissive oxidized state with an L*a*b*
+of 83, −5, −8, further evidence that polaron trapping is the
+cause of the loss of contrast as the oxidized state of the material
+is still highly transmissive. DAT-DMOT and DAT-DMP both
+show similar neutral state color coordinates of 82, 25, 62 and
+87, 23, 59, respectively. DAT-DMP does show a slightly more
+color neutral and transmissive oxidized state with color coor-
+dinates of 90, −2, −4 compared to 85, −1, −7 for DAT-DMOT.
+The polymer ﬁlm of DAT-ProDOT has a high a* with color
+coordinates at 60, 68, 34, giving rise to its vibrant orange-red
+color. This polymer still oxidizes to a highly transmissive and
+color neutral state with color coordinates of 86, −4, −8.
+The small structural changes allowed for varying inter-ring
+steric strain between these polymers and led to small, yet
+distinct changes in color. The human eye is sensitive to small
+changes in absorption, making this approach to color tuning
+advantageous. Increasing inter-ring steric strain causes blue-
+shifting absorbance at the cost of increasing oxidation poten-
+tial. This trade-oﬀmust be balanced when attempting to
+control color and redox activity.
+Figure 4. Colorimetric analysis of all the polymers. Plots of a*b* color
+coordinates at increasing applied potentials in 0.1 V steps from neutral
+(0 V vs Ag/AgCl) to fully oxidized states (1.0 V for DAT-EDOT, 1.0 V
+for DAT-ProDOT, 1.0 V for DAT-DMP, and 1.1 V for DAT-DMOT).
+Measurements were performed in 0.5 M TBAPF6/PC of ﬁlms spray-
+cast onto ITO/glass electrodes. The polymer neutral states are furthest
+from the origin, and the values track toward the origin as the polymer is
+oxidized to the bleached state. The encircled points indicate the a*b*
+coordinates of the as-cast/pristine polymer before electrochemical
+cycling. The points not connected by lines are the neutral state a*b*
+coordinates of the previous generations’ polymers.
+Macromolecules
+Article
+DOI: 10.1021/acs.macromol.8b01789
+Macromolecules 2018, 51, 9250−9258
+9254
+
+Film Switching Stability. Redox switching stability of
+these wide-gap systems has been one of the larger hurdles for
+obtaining useable materials, both as vibrant color switching
+ECPs and for creating high contrast black to transmissive poly-
+mer blends. To this end examining the contrast as a function of
+the number of switches gives a platform to compare materials.
+To examine the electrochemical redox stability of these poly-
+mers, ﬁlms of each were sprayed to 10%T on ITO glass, and
+the transmittance at λmax was monitored over the course of
+1000 repeated square-wave potential steps for 1000 cycles in
+0.5 M TBAPF6/PC electrolyte solution that had been
+thoroughly dried and degassed with argon. Figure 5 details the
+relationship between optical contrasts of the polymer ﬁlms as a
+function of the number of electrochemical switches (the %T at
+λmax was monitored over the course of the cycles and can be
+found in Figure S4). It should be noted that the experiment
+was started after an electrochemical break-in of 10 CV cycles to
+monitor the proper peak maxima.
+This break-in explains why DAT-EDOT has an initial
+contrast of only 53 Δ%T. The polymer shows signs of a large
+amount of polaron trapping after the ﬁrst electrochemical
+switch, as seen in the spectroelectrochemistry. The ﬁlm only
+loses more contrast over the course of the 1000 electrochemi-
+cal switches, ultimately dropping below 40 Δ%T. This polymer
+shows the most rapid decrease in contrast, which is attributed
+to the observations of polaron trapping, which becomes more
+pronounced over the course of repeated electrochemical cycl-
+ing. The other polymers all show initial contrasts above 60 Δ%T.
+DAT-DMOT shows an initial contrast of 64 Δ%T and over the
+course of the experiment only sees a slight drop in contrast to
+59 Δ%T on the ﬁnal switch. DAT-ProDOT shows an initial
+contrast of 65 Δ%T and maintains this contrast over the course
+of the experiment with no measurable loss. DAT-DMP shows
+an initial contrast of 63 Δ%T, and over the course of the
+experiment there is a slight increase in contrast in the ﬁrst few
+hundred switches that levels oﬀat 65 Δ%T. This indicates that
+there is a larger break-in period required for this polymer to
+reach an equilibrium state, but the ﬁlms retain a high contrast
+with minimal color change throughout. Especially important
+DAT-ProDOT, DAT-DMP, and DAT-DMOT all show signi-
+ﬁcant increases in ﬁlm switching stability compared to previous
+generations of wide-gap electrochromic polymers, with only
+ProDOT2-Ph(OMe)2 showing redox stability for up to 100
+switches.
+Device Fabrication and Switching Stability. With the
+results obtained and discussed above, DAT-DMP was iden-
+tiﬁed as the best candidate for further examination when consider-
+ing the use of these polymers as the high-energy absorption
+component to create black to transmissive switching ﬁlms.51
+DAT-EDOT is not as redox stable as the other materials, and
+DAT-ProDOT absorbs at too low an energy to serve this
+purpose. While both DAT-DMOT and DAT-DMP absorb the
+high energy portion of the spectrum, DAT-DMP does not shift
+in absorbance after redox cycling, making it the best candidate
+for further examination. To further probe the material’s redox
+stability, an electrochromic device was fabricated, and
+switching stability was tested over 10000 cycles. The device
+architecture and charge storage layer’s structure are detailed in
+Figure S5. The device construction involves airbrush spraying a
+ﬁlm of DAT-DMP from 3 mg/mL toluene solution onto glass/
+ITO with dimensions of 5 cm × 6 cm to an absorbance of
+1 and using poly(isobutylene) tape to create a double seal around
+the polymer active area and around the edge of the slide. On
+another glass/ITO slide another ﬁlm of minimally color changing
+polymer (MCCP) is air-brush sprayed to the same dimensions
+to act as a charge storage layer but with a thickness dictated by
+balancing the amount of charge stored by the electrochromic
+polymer.52 The MCCP slide is then immersed into 0.5 M
+TBAPF6/PC electrolyte solution in a three-electrode cell and
+oxidized for 10 s at 0.8 V relative to Ag/AgCl. Both slides are
+then brought into a glovebox with an argon atmosphere, and
+gel electrolyte (0.5 M TBAPF6 in 5% w/w PMMA in PC) is
+drop cast over the active area of the electrochromic polymer.
+The slide coated with the MCCP ﬁlm is placed on top and
+placed on a hot plate set to 90 °C to allow for the poly-
+(isobutylene) sealant to adhere. The device is cooled to room
+temperature before removing from the glovebox.
+Spectra for each 1000 switches can be found in Figure S6.
+There is minimal change in the spectra of the neutral state over
+the course of the experiment, indicating the color is not
+changing over the course of the cycles. The oxidized state
+spectra do show small decreases in transmittance at 380 and
+470 nm indicative of charge imbalance in the device and/or
+degradation of the MCCP as the decrease in absor-
+bance corresponds to absorbance from the DAT-DMP ﬁlm.
+A lack of charge in the charge storage layer, by either degrada-
+tion or imbalance relative to the amount of DAT-DMP, would
+cause the DAT-DMP layer to retain absorbance. The dis-
+appearance of the peak at 380 nm upon reduction indicates
+that the MCCP is not degrading to give rise to this peak. This
+peak is likely due to imbalance in the device. Figure 6 details
+the evolution of the transmittance at λmax in both the neutral
+and oxidized states every 1000 cycles. There is an initial
+200 cycles for device equilibration of the MCCP and ECP
+charge storages. After this device’s electrochemical condition-
+ing the oxidized state the device remains consistent over the
+course of 10000 switches, showing a drop in contrast of
+4.7 Δ%T. Most noteworthy is that the %T in the colored state
+Figure 5. Contrast loss of ECP ﬁlms measured relative to a glass/ITO
+background at λmax as a function of number of switches in 0.5 M
+TBAPF6/PC electrolyte solution with repeated square-wave potential
+steps for 1000 cycles. DAT-EDOT measured −0.5 to 1.0 V at 5 s
+steps, DAT-ProDOT measured from −0.5 to 1.0 V at 5 s steps, DAT-
+DMP measured from −0.5 to 1.0 V at 5 s steps, and DAT-DMOT
+measured from −0.5 to 1.1 V at 7 s steps.
+Macromolecules
+Article
+DOI: 10.1021/acs.macromol.8b01789
+Macromolecules 2018, 51, 9250−9258
+9255
+
+remains consistent over the course of the entire cycling period,
+indicating that the polymer electrochrome is redox stable in
+the encapsulated device over this cycling range.
+■CONCLUSION
+Here, we have reported on the structure−property relationships
+of wide-gap electrochromic polymers based on repeat units of
+electron-rich dioxythiophenes of varying steric bulk in alter-
+nation with dioctylthiophene. ECPs were obtained with yellow,
+orange, and red neutral states that switch to colorless oxidized
+states. The understanding of how small changes in structure
+allow control of absorption properties in this color space allows
+for a more informed approach to accessing yellow, orange, and
+red ECPs with a speciﬁc target hue in mind.
+We show that the synthetic eﬀort of incorporating dioctylth-
+iophene units in place of the phenylenes improves redox stabilities,
+lowers oxidation potentials, and allows for the use of DOTs
+without long side chains as comonomers while maintaining a
+wide optical gap and solution processability. However, with the
+EDOT system, the presence of trapped polarons causes a fast
+degradation of the colored state in an electrochemical cell.
+Moving to more strained systems allowed for tuning the color
+to a more orange hue, while maintaining low oxidation poten-
+tials and redox stabilities that last over 1000 switches as a ﬁlm in
+electrolyte solution. From this understanding, an absorptive/
+transmissive electrochromic device with DAT-DMP was made
+to show that there is minimal contrast loss over 10000 switches.
+This redox cycling stability is enhanced by 2 orders of magni-
+tude in number of cycles than previous generation wide-gap
+ECP-based devices. This approach could be adapted to other
+systems by incorporating moieties that block potential reactive
+sites on the polymer backbone to improve redox stability. The
+incorporation of the dioctylthiophenes in place of phenylene
+rings improved upon previous designs of high-bandgap ECPs,
+bringing the ﬁeld closer to having a full color palette of stable,
+high-performance ECPs.
+■EXPERIMENTAL SECTION
+Reagents and starting materials were purchased from commercial
+sources and used without further puriﬁcation, unless otherwise noted.
+THF, toluene, and propylene carbonate were all puriﬁed through a
+Bruker or Vacuum Atmospheres solvent puriﬁcation system. The
+synthetic procedures for new compounds and polymers as well as the
+corresponding NMR spectra can be found in the Supporting
+Information. The synthesis and characterization of PProDOT-
+Ph(OMe)2 (Mn = 16.6 kDa, Mw = 24.4 kDa, Đ = 1.5), PProDOT-
+Ph (Mn = 20.2 kDa, Mw = 34.4 kDa, Đ = 1.7), PAcDOT2-Ph(OMe)2
+(Mn = 24.1 kDa, Mw = 56.2 kDa, Đ = 2.3), and PAcDOT2-Ph (Mn =
+130.5 kDa, Mw = 468.2 kDa, Đ = 3.6) can be found in refs 37 and 38.
+All reactions were performed under an argon atmosphere unless
+otherwise mentioned.
+■ASSOCIATED CONTENT
+*
+S
+Supporting Information
+The Supporting Information is available free of charge on
+the ACS Publications website at DOI: 10.1021/acs.macro-
+mol.8b01789.
+Supplementary ﬁgures, experimental details, synthesis,
+and primary characterizations (PDF)
+■AUTHOR INFORMATION
+Corresponding Author
+*(J.R.R.) E-mail reynolds@chemistry.gatech.edu.
+ORCID
+Dylan T. Christiansen: 0000-0002-8673-5870
+John R. Reynolds: 0000-0002-7417-4869
+Notes
+The authors declare the following competing ﬁnancial
+interest(s): Electrochromic polymer technology developed at
+the Georgia Institute of Technology has been licensed to NXN
+Licensing. J.R.R. serves as a consultant to NXN Licensing.
+■ACKNOWLEDGMENTS
+Funding from the Air Force Oﬃce of Scientiﬁc Research
+(FA9550-18-1-0184) and NXN Licensing is greatly appre-
+ciated. The authors thank Augustus Lang for his help with ECP
+device construction.
+■REFERENCES
+(1) Mortimer, R. J.; Dyer, A. L.; Reynolds, J. R. Electrochromic
+Organic and Polymeric Materials for Display Applications. Displays
+2006, 27 (1), 2−18.
+(2) Argun, A. A.; Aubert, P.-H.; Thompson, B. C.; Schwendeman, I.;
+Gaupp, C. L.; Hwang, J.; Pinto, N. J.; Tanner, D. B.; MacDiarmid, A.
+G.; Reynolds, J. R. Multicolored Electrochromism in Polymers:
+Structures and Devices. Chem. Mater. 2004, 16 (23), 4401−4412.
+(3) Beaujuge, P. M.; Reynolds, J. R. Color Control in π-Conjugated
+Organic Polymers for Use in Electrochromic Devices. Chem. Rev.
+2010, 110 (1), 268−320.
+(4) Søndergaard, R. R.; Hösel, M.; Krebs, F. C. Roll-to-Roll
+Fabrication of Large Area Functional Organic Materials. J. Polym. Sci.,
+Part B: Polym. Phys. 2013, 51 (1), 16−34.
+(5) Granqvist, C. G. Electrochromics for Smart Windows: Oxide-
+Based Thin Films and Devices. Thin Solid Films 2014, 564, 1−38.
+(6) Cihaner, A.; Algı, F. An Electrochromic and Fluorescent
+Polymer Based on 1-(1-Naphthyl)-2, 5-Di-2-Thienyl-1H-Pyrrole. J.
+Electroanal. Chem. 2008, 614 (1−2), 101−106.
+(7) Xu, L.; Zhao, J.; Cui, C.; Liu, R.; Liu, J.; Wang, H.
+Electrosynthesis and Characterization of an Electrochromic Material
+from Poly (1, 4-Bis (2-Thienyl)-Benzene) and Its Application in
+Electrochromic Devices. Electrochim. Acta 2011, 56 (7), 2815−2822.
+(8) Mert, O.; Sahin, E.; Ertas, E.; Ozturk, T.; Aydin, E. A.; Toppare,
+L. Electrochromic Properties of Poly (Diphenyldithieno [3, 2-b; 2′,
+3′-d] Thiophene). J. Electroanal. Chem. 2006, 591 (1), 53−58.
+(9) Camurlu, P.; Cirpan, A.; Toppare, L. Conducting Polymers of
+Octanoic Acid 2-Thiophen-3-Yl-Ethyl Ester and Their Electrochromic
+Properties. Mater. Chem. Phys. 2005, 92 (2−3), 413−418.
+Figure 6. Transmittance of the transmissive and colored states
+measured relative to an air background at λmax versus number of
+switching cycles in DAT-DMP device with repeated square-wave
+potential steps for 10000 cycles measured −0.5 to +0.6 V at 5 s steps
+and pictures at 1000 and 10000 cycles.
+Macromolecules
+Article
+DOI: 10.1021/acs.macromol.8b01789
+Macromolecules 2018, 51, 9250−9258
+9256
+
+(10) Wheeler, D. L.; Rainwater, L. E.; Green, A. R.; Tomlinson, A. L.
+Modeling Electrochromic Poly-Dioxythiophene-Containing Materials
+through TDDFT. Phys. Chem. Chem. Phys. 2017, 19 (30), 20251−
+20258.
+(11) Diao, Y.; Shaw, L.; Bao, Z.; Mannsfeld, S. C. B. Morphology
+Control Strategies for Solution- Processed Organic Semiconductor
+Thin Fi Lms. Energy Environ. Sci. 2014, 7, 2145−2159.
+(12) Xu, C.; Zhao, J.; Yu, J.; Cui, C. Ethylenedioxythiophene
+Derivatized Polynapthalenes as Active Materials for Electrochromic
+Devices. Electrochim. Acta 2013, 96, 82−89.
+(13) Zheng, R.; Fan, Y.; Wang, Y.; Wan, Z.; Jia, C.; Weng, X.; Xie, J.;
+Deng, L. A Bifunctional Triphenylamine-Based Electrochromic
+Polymer with Excellent Self-Healing Performance. Electrochim. Acta
+2018, 286, 296−303.
+(14) Li, W.; Guo, Y.; Shi, J.; Yu, H.; Meng, H. Solution-Processable
+Neutral Green Electrochromic Polymer Containing Thieno [3, 2-b]
+Thiophene Derivative as Unconventional Donor Units. Macro-
+molecules 2016, 49 (19), 7211−7219.
+(15) He, B.; Neo, W. T.; Chen, T. L.; Klivansky, L. M.; Wang, H.;
+Tan, T.; Teat, S. J.; Xu, J.; Liu, Y. Low Bandgap Conjugated Polymers
+Based on a Nature-Inspired Bay-Annulated Indigo (BAI) Acceptor as
+Stable Electrochromic Materials. ACS Sustainable Chem. Eng. 2016, 4
+(5), 2797−2805.
+(16) Yu, H.; Shao, S.; Yan, L.; Meng, H.; He, Y.; Yao, C.; Xu, P.;
+Zhang, X.; Hu, W.; Huang, W. Side-Chain Engineering of Green
+Color Electrochromic Polymer Materials: Toward Adaptive Camou-
+flage Application. J. Mater. Chem. C 2016, 4 (12), 2269−2273.
+(17) Sezgin, M.; Ozay, O.; Koyuncu, S.; Ozay, H.; Baycan Koyuncu,
+F. A Neutral State Colorless Phosphazene/Carbazole Hybride
+Dendron and Its Electrochromic Device Application. Chem. Eng. J.
+2015, 274, 282−289.
+(18) Stalder, R.; Mavrinskiy, A.; Grand, C.; Imaram, W.; Angerhofer,
+A.; Pisula, W.; Müllen, K.; Reynolds, J. R. Electrochromic and Liquid
+Crystalline Polycarbonates Based on Telechelic Oligothiophenes.
+Polym. Chem. 2015, 6 (8), 1230−1235.
+(19) Christiansen, D. T.; Wheeler, D. L.; Tomlinson, A. L.;
+Reynolds, J. R. Electrochromism of Alkylene-Linked Discrete
+Chromophore Polymers with Broad Radical Cation Light Absorption.
+Polym. Chem. 2018, 9, 3055.
+(20) Padilla, J.; Seshadri, V.; Filloramo, J.; Mino, W. K.; Mishra, S.
+P.; Radmard, B.; Kumar, A.; Sotzing, G. A.; Otero, T. F. High
+Contrast Solid-State Electrochromic Devices from Substituted 3, 4-
+Propylenedioxythiophenes Using the Dual Conjugated Polymer
+Approach. Synth. Met. 2007, 157 (6−7), 261−268.
+(21) Liou, G.-S.; Lin, H.-Y. Synthesis and Electrochemical Properties
+of Novel Aromatic Poly (Amine−Amide) s with Anodically Highly
+Stable Yellow and Blue Electrochromic Behaviors. Macromolecules
+2009, 42 (1), 125−134.
+(22) Dey, T.; Invernale, M. A.; Ding, Y.; Buyukmumcu, Z.; Sotzing,
+G. A. Poly (3, 4-Propylenedioxythiophene) s as a Single Platform for
+Full Color Realization. Macromolecules 2011, 44 (8), 2415−2417.
+(23) Yen, H. J.; Chen, C. J.; Liou, G. S. Flexible Multi-Colored
+Electrochromic and Volatile Polymer Memory Devices Derived from
+Starburst Triarylamine-Based Electroactive Polyimide. Adv. Funct.
+Mater. 2013, 23 (42), 5307−5316.
+(24) Sönmez, G.; Schwendeman, I.; Schottland, P.; Zong, K.;
+Reynolds, J. R. N-Substituted Poly(3,4-Propylenedioxypyrrole)s:
+High Gap and Low Redox Potential Switching Electroactive and
+Electrochromic Polymers. Macromolecules 2003, 36 (3), 639−647.
+(25) Bulloch, R. H.; Kerszulis, J. A.; Dyer, A. L.; Reynolds, J. R. An
+Electrochromic Painter’s Palette: Color Mixing via Solution Co-
+Processing. ACS Appl. Mater. Interfaces 2015, 7, 1406−1412.
+(26) Özkut, M. I.; Algi, M. P.; Öztaş, Z.; Algi, F.; Önal, A. M.;
+Cihaner, A. Members of CMY Color Space: Cyan and Magenta
+Colored Polymers Based on Oxadiazole Acceptor Unit. Macro-
+molecules 2012, 45 (2), 729−734.
+(27) Sonmez, G.; Sonmez, H. B.; Shen, C. K. F.; Jost, R. W.; Rubin,
+Y.; Wudl, F. A Processable Green Polymeric Electrochromic.
+Macromolecules 2005, 38 (3), 669−675.
+(28) Yen, H.-J.; Liou, G.-S. Solution-Processable Triarylamine-Based
+Electroactive High Performance Polymers for Anodically Electro-
+chromic Applications. Polym. Chem. 2012, 3 (2), 255−264.
+(29) İçli, M.; Pamuk, M.; Algi, F.; Önal, A. M.; Cihaner, A. Donor−
+Acceptor Polymer Electrochromes with Tunable Colors and Perform-
+ance. Chem. Mater. 2010, 22 (13), 4034−4044.
+(30) Yen, H.-J.; Lin, K.-Y.; Liou, G.-S. Transmissive to Black
+Electrochromic Aramids with High Near-Infrared and Multicolor
+Electrochromism Based on Electroactive Tetraphenylbenzidine Units.
+J. Mater. Chem. 2011, 21 (17), 6230−6237.
+(31) Shi, P.; Amb, C. M.; Knott, E. P.; Thompson, E. J.; Liu, D. Y.;
+Mei, J.; Dyer, A. L.; Reynolds, J. R. Broadly Absorbing Black to
+Transmissive Switching Electrochromic Polymers. Adv. Mater. 2010,
+22 (44), 4949−4953.
+(32) Ding, G.; Cho, C. M.; Chen, C.; Zhou, D.; Wang, X.; Tan, A. Y.
+X.; Xu, J.; Lu, X. Black-to-Transmissive Electrochromism of Azulene-
+Based Donor−Acceptor Copolymers Complemented by Poly(4-
+Styrene Sulfonic Acid)-Doped Poly(3,4-Ethylenedioxythiophene).
+Org. Electron. 2013, 14 (11), 2748−2755.
+(33) Shin, H.; Kim, Y.; Bhuvana, T.; Lee, J.; Yang, X.; Park, C.; Kim,
+E. Color Combination of Conductive Polymers for Black Electro-
+chromism. ACS Appl. Mater. Interfaces 2012, 4 (1), 185−191.
+(34) Nguyen, W. H.; Barile, C. J.; McGehee, M. D. Small Molecule
+Anchored to Mesoporous ITO for High-Contrast Black Electro-
+chromics. J. Phys. Chem. C 2016, 120 (46), 26336−26341.
+(35) Abraham, S.; Mangalath, S.; Sasikumar, D.; Joseph, J.
+Transmissive-to-Black Electrochromic Devices Based on Cross-
+Linkable Tetraphenylethene-Diphenylamine Derivatives. Chem.
+Mater. 2017, 29 (23), 9877−9881.
+(36) Dyer, A. L.; Thompson, E. J.; Reynolds, J. R. Completing the
+Color Palette with Spray-Processable Polymer Electrochromics. ACS
+Appl. Mater. Interfaces 2011, 3 (6), 1787−1795.
+(37) Österholm, A. M.; Shen, D. E.; Kerszulis, J. A.; Bulloch, R. H.;
+Kuepfert, M.; Dyer, A. L.; Reynolds, J. R. Four Shades of Brown:
+Tuning of Electrochromic Polymer Blends toward High-Contrast
+Eyewear. ACS Appl. Mater. Interfaces 2015, 7 (3), 1413−1421.
+(38) Kerszulis, J. A.; Amb, C. M.; Dyer, A. L.; Reynolds, J. R. Follow
+the Yellow Brick Road: Structural Optimization of Vibrant Yellow-to-
+Transmissive Electrochromic Conjugated Polymers. Macromolecules
+2014, 47 (16), 5462−5469.
+(39) Cao, K.; Shen, D. E.; Österholm, A. M.; Kerszulis, J. A.;
+Reynolds, J. R. Tuning Color, Contrast, and Redox Stability in High
+Gap Cathodically Coloring Electrochromic Polymers. Macromolecules
+2016, 49 (22), 8498−8507.
+(40) Oguzhan, E.; Bilgili, H.; Koyuncu, F. B.; Ozdemir, E.; Koyuncu,
+S. A New Processable Donor−Acceptor Polymer Displaying Neutral
+State Yellow Electrochromism. Polymer 2013, 54 (23), 6283−6292.
+(41) İçli-Özkut, M.; Öztaş, Z.; Algi, F.; Cihaner, A. A Neutral State
+Yellow to Navy Polymer Electrochrome with Pyrene Scaffold. Org.
+Electron. 2011, 12 (9), 1505−1511.
+(42) Österholm, A. M.; Shen, D. E.; Gottfried, D. S.; Reynolds, J. R.
+Full Color Control and High-Resolution Patterning from Inkjet
+Printable Cyan/Magenta/Yellow Colored-to-Colorless Electrochro-
+mic Polymer Inks. Adv. Mater. Technol. 2016, 1 (4), 1600063.
+(43) Guan, S.; Elmezayyen, A. S.; Zhang, F.; Zheng, J.; Xu, C.
+Deterioration Mechanism of Electrochromic Poly (3, 4-(2, 2-
+Dimethylpropylenedioxy) Thiophene) Thin Films. J. Mater. Chem.
+C 2016, 4 (20), 4584−4591.
+(44) Bredas, J. L.; Street, G. B. Polarons, Bipolarons, and Solitons in
+Conducting Polymers. Acc. Chem. Res. 1985, 18 (10), 309−315.
+(45) Amb, C. M.; Kerszulis, J. A.; Thompson, E. J.; Dyer, A. L.;
+Reynolds, J. R. Propylenedioxythiophene (ProDOT)-Phenylene
+Copolymers Allow a Yellow-to-Transmissive Electrochrome. Polym.
+Chem. 2011, 2 (4), 812−814.
+(46) Estrada, L. A.; Deininger, J. J.; Kamenov, G. D.; Reynolds, J. R.
+Direct (Hetero) Arylation Polymerization: An Effective Route to 3, 4-
+Propylenedioxythiophene-Based Polymers with Low Residual Metal
+Content. ACS Macro Lett. 2013, 2 (10), 869−873.
+Macromolecules
+Article
+DOI: 10.1021/acs.macromol.8b01789
+Macromolecules 2018, 51, 9250−9258
+9257
+
+(47) Mercier, L. G.; Leclerc, M. Direct (Hetero) Arylation: A New
+Tool for Polymer Chemists. Acc. Chem. Res. 2013, 46 (7), 1597−
+1605.
+(48) Facchetti, A.; Vaccaro, L.; Marrocchi, A. Semiconducting
+Polymers Prepared by Direct Arylation Polycondensation. Angew.
+Chem., Int. Ed. 2012, 51 (15), 3520−3523.
+(49) Padilla, J.; Österholm, A. M.; Dyer, A. L.; Reynolds, J. R.
+Process Controlled Performance for Soluble Electrochromic Poly-
+mers. Sol. Energy Mater. Sol. Cells 2015, 140, 54−60.
+(50) Hassab, S.; Shen, D. E.; Österholm, A. M.; Da Rocha, M.; Song,
+G.; Alesanco, Y.; Viñuales, A.; Rougier, A.; Reynolds, J. R.; Padilla, J.
+A New Standard Method to Calculate Electrochromic Switching
+Time. Sol. Energy Mater. Sol. Cells 2018, 185, 54−60.
+(51) Savagian, L. R.; Österholm, A. M.; Shen, D. E.; Christiansen, D.
+T.; Kuepfert, M.; Reynolds, J. R. Conjugated Polymer Blends for High
+Contrast Black-to-Transmissive Electrochromism. Adv. Opt. Mater.
+2018, 6, 1800594.
+(52) Hassab, S.; Shen, D. E.; Österholm, A. M.; Reynolds, J. R.;
+Padilla, J. Exploring Unbalanced Electrode Configurations for
+Electrochromic Devices. J. Mater. Chem. C 2018, 6 (2), 393−400.
+Macromolecules
+Article
+DOI: 10.1021/acs.macromol.8b01789
+Macromolecules 2018, 51, 9250−9258
+9258
+

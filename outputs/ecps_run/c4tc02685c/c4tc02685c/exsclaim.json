@@ -1,0 +1,74 @@
+{
+   "page_2_img_1.png": {
+      "title": "Tuning the painter's palette: subtle steric effects on spectra and colour in conjugated electrochromic polymers",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_c4tc02685c\\c4tc02685c",
+      "image_url": [],
+      "figure_name": "page_2_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_2_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 1617,
+            "width": 880,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 880,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 1617
+               },
+               {
+                  "x": 880,
+                  "y": 1617
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 880,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 1617
+                  },
+                  {
+                     "x": 880,
+                     "y": 1617
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   }
+}

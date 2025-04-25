@@ -1,0 +1,705 @@
+import panel as pn
+import panel.chat # chat components
+import pandas as pd
+import io
+from PIL import Image
+import os
+import json
+import tempfile
+import time
+import asyncio
+import traceback
+import logging # Added import
+import fitz  # PyMuPDF for PDF text extraction
+from bs4 import BeautifulSoup # For HTML text extraction
+
+
+# --- Configure Logging ---
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+
+# --- Project Imports ---
+# --- Logging, Project Imports, Mocking (as before) ---
+logger = logging.getLogger(__name__)
+try:
+    from matagen.agents.multimodal_system import ModelConfig, MultimodalAnalysisSystem
+    # Assuming you might create a separate agent setup for chat Q&A
+    # from matagen.agents.text_analyzer import run_text_analysis_chat # Example import
+    from matagen.scraping.xml_scraper import html_scraper_tool
+    from matagen.scraping.pdf_scraper import pdf_scraper_tool
+    from matagen.scraping.journal_scraper import journal_scraper_tool
+    AUTOGEN_AVAILABLE = True
+    # Mock the text analysis function if agents aren't available
+    if 'run_text_analysis_chat' not in locals(): # Check if it was imported
+         async def mock_text_analysis_chat(user_query, context, api_key):
+              logger.warning("Using MOCK text analysis chat.")
+              await asyncio.sleep(2)
+              return f"Mock response to: '{user_query}'. Context length: {len(context)} chars."
+         run_text_analysis_chat = mock_text_analysis_chat # Assign mock
+
+except ImportError as e:
+    # ... (existing mock setup, potentially add mock for run_text_analysis_chat here too) ...
+    logger.error(f"Fatal: Could not import matagen modules: {e}. Mocking components.", exc_info=True)
+    AUTOGEN_AVAILABLE = False
+    # ... include mocks for ModelConfig, MultimodalAnalysisSystem, scrapers ...
+    async def mock_text_analysis_chat(user_query, context, api_key):
+         logger.warning("Using MOCK text analysis chat.")
+         await asyncio.sleep(2)
+         return f"Mock response to: '{user_query}'. Context length: {len(context)} chars."
+    run_text_analysis_chat = mock_text_analysis_chat
+
+# --- State Management (Simple Dictionary Approach) ---
+app_session_data = {
+    "extracted_text": {} # Key: filename, Value: extracted text content
+}
+
+
+# --- Panel App Code ---
+pn.extension('tabulator', 'notifications', 'jsoneditor')
+
+# --- Constants & Path Setup ---
+# Get paths relative to this script file location
+script_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.abspath(os.path.join(script_dir, "..")) # Assumes app.py is in ui/
+
+# Define output base directories relative to project root
+HTML_OUTPUT_BASE = os.path.join(project_root, "outputs", "html_runs")
+PDF_OUTPUT_BASE = os.path.join(project_root, "outputs", "pdf_runs")
+JOURNAL_OUTPUT_BASE = os.path.join(project_root, "outputs", "journal_runs")
+TEMP_UPLOAD_DIR = os.path.join(project_root, "temp_uploads") # Unified temp dir for uploads
+
+# Specific JSON path for HTML workflow (IF the backend relies on this fixed path)
+# Ideally, the backend tool should return data or the specific path it generated.
+HTML_FIXED_OUTPUT_JSON_PATH = os.path.join(HTML_OUTPUT_BASE, "retrieved_image_caption_pairs.json")
+
+# Create directories if they don't exist
+os.makedirs(HTML_OUTPUT_BASE, exist_ok=True)
+os.makedirs(PDF_OUTPUT_BASE, exist_ok=True)
+os.makedirs(JOURNAL_OUTPUT_BASE, exist_ok=True)
+os.makedirs(TEMP_UPLOAD_DIR, exist_ok=True)
+logger.info(f"Project Root: {project_root}")
+logger.info(f"Temporary Upload Directory: {TEMP_UPLOAD_DIR}")
+logger.info(f"PDF Output Base: {PDF_OUTPUT_BASE}")
+
+
+# --- UI Components ---
+# == Sidebar Components ==
+openai_key_input = pn.widgets.PasswordInput(
+    name="OpenAI API Key", placeholder="sk-...", width_policy='min'
+)
+anthropic_key_input = pn.widgets.PasswordInput(
+    name="Anthropic API Key", placeholder="sk-ant-...", width_policy='min'
+)
+
+sidebar = pn.Column(
+    pn.pane.Markdown("### API Configuration"),
+    openai_key_input,
+    anthropic_key_input,
+    width=320, 
+    height_policy='max',
+    styles={"border-right": "1px solid #ddd", "padding-right": "15px"}
+)
+
+
+# == Main Area Components ==
+
+# --- Processing Mode Selection ---
+HTML_MODE_OPTIONS = ['Text Only', 'Text and Image (Scraping)']
+PDF_MODE_OPTIONS = ['Text Only', 'Text and Image (Scraping)']
+
+html_mode_radio = pn.widgets.RadioButtonGroup(
+    name='HTML Processing Mode', options=HTML_MODE_OPTIONS, value=HTML_MODE_OPTIONS[1], # Default to scraping
+    button_type='default', orientation='vertical'
+)
+
+pdf_mode_radio = pn.widgets.RadioButtonGroup(
+    name='PDF Processing Mode', options=PDF_MODE_OPTIONS, value=PDF_MODE_OPTIONS[1], # Default to scraping
+    button_type='default', orientation='vertical'
+)
+
+# --- Action Area Widgets --- (Keep existing definitions)
+pdf_input = pn.widgets.FileInput(accept='.pdf', name='Upload PDF(s)', width_policy='max', multiple=True)
+process_pdf_button = pn.widgets.Button(name='Process PDF(s)', button_type='primary', disabled=True)
+
+html_input = pn.widgets.FileInput(accept='.html, .htm', name='Upload HTML', width_policy='max')
+process_html_button = pn.widgets.Button(name='Process HTML', button_type='primary', disabled=True)
+
+search_input = pn.widgets.TextInput(name='Search Keywords', placeholder='Enter keywords...', width_policy='max')
+search_button = pn.widgets.Button(name='Search Literature', button_type='primary', disabled=True)
+
+actions_bar = pn.Card(
+    pn.Row(
+        pn.Column(html_input, process_html_button, sizing_mode='stretch_width'),
+        pn.Column(pdf_input, process_pdf_button, sizing_mode='stretch_width'),
+        pn.Column(search_input, search_button, sizing_mode='stretch_width'),
+        sizing_mode='stretch_width'
+    ),
+    title="Actions",
+    sizing_mode='stretch_width'
+)
+
+# Status indicators
+status_text = pn.widgets.StaticText(value='Please enter API Keys and select an action.')
+progress_bar = pn.widgets.Progress(name='Progress', value=0, max=100, active=False, bar_color='info', width=200)
+status_bar = pn.Row(status_text, progress_bar, sizing_mode='stretch_width')
+
+# --- Chat Interface Components ---
+chat_feed = pn.chat.ChatFeed(height=500, auto_scroll_limit=100) # Area to display messages
+chat_input = pn.widgets.TextInput(placeholder="Ask questions about the extracted text...")
+send_button = pn.widgets.Button(name="Send", button_type='primary', icon='send')
+chat_spinner = pn.indicators.LoadingSpinner(value=False, width=30, height=30, align='center') # Thinking indicator
+
+chat_interface = pn.Column(
+    chat_feed,
+    pn.Row(chat_input, send_button),
+    chat_spinner,
+    sizing_mode='stretch_width',
+    visible=True
+)
+
+# Results Area (Tabs)
+summary_output = pn.pane.JSON({}, name='JSON Summary', depth=-1, theme='light', height=600, sizing_mode='stretch_width')
+text_output = pn.pane.Markdown("### Extracted Text (PDF)\n---", height=400, sizing_mode='stretch_width')
+# Make results areas scrollable
+image_output_col = pn.Column(pn.pane.Markdown("### Extracted Images\n---"), pn.GridBox(ncols=4), height=400,  sizing_mode='stretch_width')
+table_output_col = pn.Column(pn.pane.Markdown("### Extracted Tables\n---"), pn.Column(), height=400, sizing_mode='stretch_width') # Inner column for table widgets
+search_results_output = pn.pane.Markdown("### Search Results\n---", height=400, sizing_mode='stretch_width')
+
+results_tabs = pn.Tabs(
+    ("Summary", summary_output),
+    ("PDF Text", text_output),
+    ("PDF Images", image_output_col),
+    ("PDF Tables", table_output_col),
+    ("Search Results", search_results_output),
+    sizing_mode='stretch_width',
+    dynamic=False
+)
+
+# Group main area components
+main_content = pn.Column(
+    actions_bar,
+    status_bar,
+    pn.layout.Divider(),
+    results_tabs,
+    pn.layout.Divider(margin=(20, 0)), # Optional: Add another divider with margin
+    chat_interface,     # <--- ADD CHAT INTERFACE HERE, BELOW TABS
+    sizing_mode='stretch_width' # Main area stretches
+)
+
+# --- UI Input State Check Function ---
+def update_button_states(*events):
+    """Enable Process buttons only if keys and corresponding inputs are provided."""
+    if progress_bar.active: return
+
+    keys_present = bool(openai_key_input.value and anthropic_key_input.value)
+    html_file_present = html_input.value is not None
+    pdf_files_present = pdf_input.value is not None and isinstance(pdf_input.value, list) and len(pdf_input.value) > 0
+    search_terms_present = bool(search_input.value)
+    chat_input_present = bool(chat_input.value)
+    # Check if any text has been extracted and stored
+    text_context_present = bool(app_session_data["extracted_text"])
+
+    process_html_button.disabled = not (keys_present and html_file_present)
+    process_pdf_button.disabled = not (keys_present and pdf_files_present)
+    search_button.disabled = not (keys_present and search_terms_present)
+    # Enable Send button if keys, text input, AND extracted context are present
+    send_button.disabled = not (keys_present and chat_input_present and text_context_present)
+
+    # --- Update chat visibility ---
+    chat_interface.visible = text_context_present
+
+    # --- Update status text ---
+    if not keys_present:
+        status_text.value = "Ready. Please enter API Keys."
+    elif not text_context_present:
+         # Check if file/search is ready, but context isn't
+         if html_file_present or pdf_files_present or search_terms_present:
+              status_text.value = "Ready to process. Chat requires text extraction first."
+         else:
+              status_text.value = "Ready. Process HTML/PDF ('Text Only' mode) to enable chat."
+    elif html_file_present or pdf_files_present or search_terms_present:
+         ready_actions = []
+         if html_file_present: ready_actions.append("HTML")
+         if pdf_files_present: ready_actions.append("PDF(s)")
+         if search_terms_present: ready_actions.append("Search")
+         status_text.value = f"Ready for: {', '.join(ready_actions)}. Chat enabled."
+    else:
+         status_text.value = "Ready. Chat enabled. Upload file(s) or enter search keywords."
+
+
+# --- Callback Functions ---
+
+async def process_html_callback(event):
+    """Callback triggered when the Process HTML button is clicked."""
+    html_file_value = html_input.value
+    openai_key = openai_key_input.value
+    anthropic_key = anthropic_key_input.value
+
+    if html_file_value is None or not openai_key or not anthropic_key:
+        pn.state.notifications.error('Error: Missing file or API Key(s)!', duration=4000)
+        return
+
+    # --- Disable UI ---
+    process_html_button.disabled = True; process_pdf_button.disabled = True; search_button.disabled = True
+    html_input.disabled = True; pdf_input.disabled = True; search_input.disabled = True
+    openai_key_input.disabled = True; anthropic_key_input.disabled = True
+    status_text.value = 'Processing HTML started...'
+    progress_bar.active = True; progress_bar.value = 5
+    summary_output.object = {}; results_tabs.active = 0 # Clear and switch to summary
+
+    temp_html_file_path = None
+
+    try:
+        html_bytes = html_file_value
+        original_filename = html_input.filename if html_input.filename else "uploaded.html"
+
+        # 1. Save uploaded HTML temporarily
+        safe_filename = "".join(c for c in original_filename if c.isalnum() or c in ('.', '_')).rstrip()
+        # Save to unified temp dir
+        temp_html_file_path = os.path.join(TEMP_UPLOAD_DIR, f"html_{int(time.time())}_{safe_filename}")
+        with open(temp_html_file_path, 'wb') as temp_html:
+            temp_html.write(html_bytes)
+        abs_temp_html_path = os.path.abspath(temp_html_file_path)
+        status_text.value = f'Saved temporary HTML: {os.path.basename(abs_temp_html_path)}'
+        progress_bar.value = 10
+        logger.info(f"Temporary HTML file saved at: {abs_temp_html_path}")
+
+        # 2. Prepare AutoGen Task or Direct Tool Call
+        # ** OPTION A: Using AutoGen Agents (as before) **
+        # This requires agents configured to use 'Paper_Scraper' (or html tool name)
+        # and 'multimodal_image_agent', and relies on fixed output path.
+        task = f"""
+        Process the HTML file located at '{abs_temp_html_path}'.
+        First, use the appropriate tool to extract image-caption pairs from this HTML file, saving the results to '{HTML_FIXED_OUTPUT_JSON_PATH}'.
+        Then, use the 'multimodal_image_agent' tool to process the dataset within '{HTML_FIXED_OUTPUT_JSON_PATH}', classifying images and extracting metadata, updating the same file.
+        Respond with TERMINATE when finished.
+        """
+        progress_bar.value = 20
+        status_text.value = 'Initiating AutoGen processing...'
+        logger.info("Initiating AutoGen chat for HTML...")
+        logger.debug(f"AutoGen Task: {task}")
+        if not AUTOGEN_AVAILABLE: raise RuntimeError("AutoGen module not available.")
+        config = ModelConfig(openai_api_key=openai_key, anthropic_api_key=anthropic_key)
+        system = MultimodalAnalysisSystem(config)
+        chat_result = await system.initiate_chat(task)
+        logger.info(f"AutoGen chat finished. Result: {chat_result}")
+        # --- End Option A ---
+
+        # ** OPTION B: Calling the scraper tool directly (Simpler if AutoGen part isn't essential here) **
+        # This assumes html_scraper_tool returns the data or output path directly.
+        # Uncomment this section and comment out Option A if preferred.
+        # progress_bar.value = 20
+        # status_text.value = 'Initiating HTML scraping tool...'
+        # logger.info("Calling HTML scraper tool directly...")
+        # try:
+        #     # Assuming html_scraper_tool takes file path and api key, and returns data dict
+        #     # Modify html_scraper_tool to accept output_base_dir and return dict {json_data:...}
+        #     html_results = await asyncio.to_thread(
+        #         html_scraper_tool, # Assumes this function exists and is imported
+        #         folder=abs_temp_html_path, # Or modify tool to take file path directly
+        #         api_key=openai_key,
+        #         output_base_dir=HTML_OUTPUT_BASE # Pass base output dir
+        #     )
+        #     summary_data = html_results.get("json_data", {"error": "No JSON data returned"})
+        #     logger.info(f"HTML tool finished. Result: {summary_data}")
+        # except Exception as tool_exc:
+        #      logger.error(f"HTML scraper tool failed: {tool_exc}", exc_info=True)
+        #      raise # Re-raise to be caught by the main handler
+        # --- End Option B ---
+
+
+        progress_bar.value = 80
+        status_text.value = 'Processing complete. Reading summary...'
+
+        # 4. Read/Use JSON result
+        # If using Option A (AutoGen writing to fixed path):
+        if not os.path.exists(HTML_FIXED_OUTPUT_JSON_PATH):
+             logger.error(f"Output JSON file not found at {HTML_FIXED_OUTPUT_JSON_PATH}")
+             raise FileNotFoundError(f"Process did not create the expected HTML output file: {HTML_FIXED_OUTPUT_JSON_PATH}")
+        await asyncio.sleep(0.5)
+        with open(HTML_FIXED_OUTPUT_JSON_PATH, 'r', encoding='utf-8') as f:
+            summary_data = json.load(f)
+        logger.info(f"Successfully read HTML output JSON from {HTML_FIXED_OUTPUT_JSON_PATH}")
+
+        # If using Option B, summary_data is already assigned above.
+
+        # 5. Update UI
+        summary_output.object = summary_data
+        results_tabs.active = 0
+        status_text.value = f'HTML processing finished successfully for {original_filename}!'
+        pn.state.notifications.success('HTML processed!', duration=4000)
+
+    except Exception as e:
+        logger.error(f"Error during HTML processing: {e}", exc_info=True)
+        detailed_error = traceback.format_exc()
+        status_text.value = f'Error during HTML processing: {str(e)}'
+        pn.state.notifications.error(f'HTML Processing failed: {str(e)}. Check logs.', duration=6000)
+        summary_output.object = {"error": str(e), "details": detailed_error}
+    finally:
+        # 6. Cleanup Temp HTML file
+        if temp_html_file_path and os.path.exists(temp_html_file_path):
+            try: os.remove(temp_html_file_path) ; logger.info(f"Cleaned temp file: {temp_html_file_path}")
+            except Exception as clean_e: logger.warning(f"Failed to clean temp file {temp_html_file_path}: {clean_e}")
+        # --- Re-enable UI ---
+        openai_key_input.disabled = False; anthropic_key_input.disabled = False
+        html_input.disabled = False; pdf_input.disabled = False; search_input.disabled = False
+        progress_bar.active = False ; progress_bar.value = 0
+        update_button_states() # Reset button states
+
+async def process_pdf_callback(event):
+    """Callback triggered when the Process PDF button is clicked."""
+    pdf_files_value = pdf_input.value
+    openai_key = openai_key_input.value
+    anthropic_key = anthropic_key_input.value
+    selected_mode = pdf_mode_radio.value # Get selected mode
+
+    # Input validation (API keys might not be needed for text only)
+    if not pdf_files_value or not openai_key or not anthropic_key:
+        pn.state.notifications.error('Error: Missing PDF file(s) or API Key(s)!', duration=4000)
+        return
+
+    # --- Disable UI ---
+    process_html_button.disabled = True; process_pdf_button.disabled = True; search_button.disabled = True
+    html_input.disabled = True; pdf_input.disabled = True; search_input.disabled = True
+    openai_key_input.disabled = True; anthropic_key_input.disabled = True
+    # Adjust status message based on mode
+    status_text.value = f'Processing {len(pdf_files_value)} PDF file(s) ({selected_mode})...'
+    progress_bar.active = True; progress_bar.value = 5
+    # Clear previous results
+    summary_output.object = {}; text_output.object = "### Extracted Text (PDF)\n---"
+    image_grid = image_output_col[1]; table_col = table_output_col[1]
+    image_grid.objects = [] ; table_col.objects = []
+    results_tabs.active = 0 # Go to summary first
+
+    all_results_summary = []
+    all_extracted_text = "### Extracted Text (PDF)\n---\n"
+    all_image_panes = []
+    all_table_widgets = []
+    pdf_temp_file_paths = [] # Track temp files for deletion
+
+    try:
+        start_time = time.time()
+        total_files = len(pdf_files_value)
+
+        # Loop through each uploaded PDF
+        for i, pdf_bytes in enumerate(pdf_files_value):
+            # Handle filename
+            if isinstance(pdf_input.filename, list): original_filename = pdf_input.filename[i] if i < len(pdf_input.filename) else f"file_{i+1}.pdf"
+            else: original_filename = pdf_input.filename if total_files == 1 else f"{os.path.splitext(pdf_input.filename)[0]}_{i+1}.pdf"
+            base_filename = os.path.splitext(original_filename)[0]
+            current_file_num = i + 1
+            status_text.value = f'Processing PDF {current_file_num}/{total_files}: {original_filename} ({selected_mode})...'
+            progress_bar.value = int(5 + (i / total_files) * 90) # Update progress within loop
+
+            # 1. Save PDF to temporary file (needed for both modes)
+            with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf", dir=TEMP_UPLOAD_DIR, prefix=f"pdf_in_{int(time.time())}_") as temp_pdf:
+                temp_pdf.write(pdf_bytes)
+                pdf_temp_file_path = temp_pdf.name
+            pdf_temp_file_paths.append(pdf_temp_file_path)
+            abs_pdf_temp_path = os.path.abspath(pdf_temp_file_path)
+            logger.info(f"Saved temporary PDF [{current_file_num}/{total_files}]: {abs_pdf_temp_path}")
+
+            # Define unique output base for this specific PDF's run
+            safe_filename_base = "".join(c for c in base_filename if c.isalnum() or c in ('_', '-')).rstrip()
+            run_output_base = os.path.join(PDF_OUTPUT_BASE, f"{safe_filename_base}_{selected_mode.replace(' ','_')}_{int(time.time())}")
+            os.makedirs(run_output_base, exist_ok=True) # Ensure base dir exists for text output
+
+            # --- Execute based on selected mode ---
+            file_summary = {"filename": original_filename, "mode": selected_mode}
+
+            if selected_mode == 'Text Only':
+                logger.info(f"Starting PDF text extraction for {original_filename}")
+                extracted_text = ""
+                output_txt_path = None
+                try:
+                    # Use PyMuPDF (fitz) to extract text
+                    doc = fitz.open(abs_pdf_temp_path)
+                    for page_num in range(len(doc)):
+                        page = doc.load_page(page_num)
+                        extracted_text += page.get_text("text") + "\n---\n" # Add page separator
+                    doc.close()
+
+                    # Save extracted text to .txt file
+                    output_txt_filename = f"{base_filename}_text_only.txt"
+                    output_txt_path = os.path.join(run_output_base, output_txt_filename)
+                    with open(output_txt_path, 'w', encoding='utf-8') as txt_file:
+                        txt_file.write(extracted_text)
+
+                    logger.info(f"Successfully extracted text from {original_filename} and saved to: {output_txt_path}")
+                    file_summary["status"] = "Success (Text Only)"
+                    file_summary["output_text_file"] = output_txt_path
+                    file_summary["character_count"] = len(extracted_text)
+                    all_extracted_text += f"#### From: {original_filename}\n\n{extracted_text}\n\n" # Append to aggregated text
+
+                except Exception as text_exc:
+                    logger.error(f"Error during PDF text extraction for {original_filename}: {text_exc}", exc_info=True)
+                    file_summary["status"] = "Failed (Text Only)"
+                    file_summary["error"] = str(text_exc)
+                    all_extracted_text += f"#### From: {original_filename}\n\nERROR extracting text: {text_exc}\n\n"
+
+            elif selected_mode == 'Text and Image (Scraping)':
+                logger.info(f"Starting full PDF scraping for {original_filename}")
+                # Call the existing PDF Scraper Tool in a thread
+                if not AUTOGEN_AVAILABLE: raise RuntimeError("Matagen module not available.")
+                try:
+                    result_dict = await asyncio.to_thread(
+                         pdf_scraper_tool, # The refactored tool function
+                         pdf_file_path=abs_pdf_temp_path,
+                         output_base_dir=run_output_base, # Tool creates unique dir inside this
+                         api_key=openai_key,
+                    )
+                    file_summary["status"] = "Success (Scraping)"
+                    file_summary.update(result_dict) # Merge tool results into summary
+                    logger.info(f"Finished scraping '{original_filename}'. Outputs in: {result_dict.get('output_dir', 'N/A')}")
+
+                    # --- Process scraping results for UI ---
+                    json_data = result_dict.get("json_data", {})
+                    image_paths = result_dict.get("image_paths", [])
+                    # Add text if tool provides it (adjust key)
+                    tool_text = json_data.get("extracted_full_text", "")
+                    if tool_text: all_extracted_text += f"#### From: {original_filename} (Scraped)\n\n{tool_text}\n\n"
+                    # Add images
+                    for img_path in image_paths:
+                         try:
+                             # ... (image loading logic as before) ...
+                            with open(img_path, 'rb') as img_f: img_bytes = img_f.read()
+                            ext = os.path.splitext(img_path)[1].lower()
+                            img_pane = None
+                            if ext == ".png": img_pane = pn.pane.PNG(img_bytes, width=150, name=os.path.basename(img_path))
+                            elif ext in [".jpg", ".jpeg"]: img_pane = pn.pane.JPG(img_bytes, width=150, name=os.path.basename(img_path))
+                            if img_pane: all_image_panes.append(img_pane)
+                         except Exception as img_e: logger.error(f"Error loading image {img_path}: {img_e}")
+                    # Add tables if tool provides them (adjust key)
+                    extracted_tables_data = json_data.get("extracted_tables", [])
+                    for i, table_data in enumerate(extracted_tables_data):
+                        try:
+                            # ... (table creation logic as before) ...
+                            df = pd.DataFrame(table_data)
+                            table_widget = pn.widgets.Tabulator(df, pagination='local', page_size=10)
+                            all_table_widgets.append(pn.pane.Markdown(f"**Table {i+1} from {original_filename}**"))
+                            all_table_widgets.append(table_widget)
+                        except Exception as table_e: logger.error(f"Error creating table widget: {table_e}")
+
+                except Exception as scrape_exc:
+                    logger.error(f"Error during PDF scraping for {original_filename}: {scrape_exc}", exc_info=True)
+                    file_summary["status"] = "Failed (Scraping)"
+                    file_summary["error"] = str(scrape_exc)
+
+            # Append this file's summary to the overall list
+            all_results_summary.append(file_summary)
+        # --- End of loop through files ---
+
+        # --- Update UI with Aggregated Results ---
+        progress_bar.value = 95
+        status_text.value = "Aggregating results..."
+        await asyncio.sleep(0.1) # Brief pause for UI update
+
+        # --- Find index of the desired tab ---
+        desired_tab_name = "PDF Text" # Or "Summary", "PDF Images", etc.
+        try:
+            # Get the names of the panes/layouts within the Tabs object
+            tab_names = [pane.name for pane in results_tabs.objects]
+            # Find the index of the desired name
+            target_index = tab_names.index(desired_tab_name)
+            results_tabs.active = target_index
+            logger.info(f"Switched active tab to '{desired_tab_name}' (index {target_index}).")
+        except (ValueError, AttributeError) as e:
+            # Handle cases where .name attribute might be missing or name not found
+            logger.warning(f"Could not find tab named '{desired_tab_name}' to activate, defaulting to first tab. Error: {e}")
+            results_tabs.active = 0 # Default to the first tab (Summary)
+
+        summary_output.object = {"processed_files": all_results_summary}
+        text_output.object = all_extracted_text
+        image_grid.objects = all_image_panes
+        table_col.objects = all_table_widgets
+
+        # Decide which tab to show based on what was generated
+        if all_image_panes or all_table_widgets:
+             results_tabs.active = results_tabs.labels.index("PDF Images") # Or tables if preferred
+        elif all_extracted_text != "### Extracted Text (PDF)\n---\n":
+            active_tab_name = "Summary" # Default
+            if all_image_panes or all_table_widgets:
+                # Prioritize showing images/tables if they exist (adjust if desired)
+                active_tab_name = "PDF Images" # Or "PDF Tables"
+            elif all_extracted_text.strip() != "### Extracted Text (PDF)\n---": # Check if any text was actually added
+                active_tab_name = "PDF Text"
+
+            # --- THIS BLOCK REPLACES the line causing the error ---
+            try:
+                # Get the list of actual tab names from the Tab object's panes
+                tab_names = [pane.name for pane in results_tabs.objects]
+                # Find the index of the desired tab name
+                target_index = tab_names.index(active_tab_name)
+                # Set the active tab using the integer index
+                results_tabs.active = target_index
+                logger.info(f"Successfully activated tab: '{active_tab_name}' (index {target_index})")
+            except (ValueError, AttributeError) as e:
+                # Handle cases where the name isn't found or panes don't have .name
+                logger.warning(f"Could not find or activate tab '{active_tab_name}', defaulting to first tab. Error: {e}")
+                results_tabs.active = 0 # Default to the first tab (Summary)
+            #  results_tabs.active = results_tabs.labels.index("PDF Text")
+        else:
+             results_tabs.active = 0 # Default to summary
+
+        end_time = time.time()
+        status_text.value = f'PDF processing finished: {total_files} file(s) in {end_time - start_time:.2f}s!'
+        pn.state.notifications.success(f'{total_files} PDF(s) processed ({selected_mode})!', duration=4000)
+        progress_bar.value = 100
+
+    except Exception as e:
+        logger.error(f"Error during PDF processing callback: {e}", exc_info=True)
+        # ... (existing error handling) ...
+        detailed_error = traceback.format_exc()
+        status_text.value = f'Error during PDF processing: {str(e)}'
+        pn.state.notifications.error(f'PDF Processing failed: {str(e)}. Check logs.', duration=6000)
+        summary_output.object = {"error": str(e), "details": detailed_error, "processed_files_summary": all_results_summary}
+    finally:
+        progress_bar.value = 0
+        progress_bar.active = False
+        # Cleanup ALL temporary PDF files
+        logger.info(f"Cleaning up {len(pdf_temp_file_paths)} temporary PDF input file(s)...")
+        for path in pdf_temp_file_paths:
+            if path and os.path.exists(path):
+                try: os.remove(path)
+                except Exception as clean_e: logger.warning(f"Failed to clean temp PDF file {path}: {clean_e}")
+        # Re-enable UI
+        openai_key_input.disabled = False; anthropic_key_input.disabled = False
+        html_input.disabled = False; pdf_input.disabled = False; search_input.disabled = False
+        update_button_states()
+
+async def search_callback(event):
+    """Callback triggered when the Search Literature button is clicked."""
+    keywords = search_input.value
+    openai_key = openai_key_input.value
+    # anthropic_key might not be needed here unless journal_scraper uses it
+
+    if not keywords or not openai_key:
+        pn.state.notifications.error('Error: Search keywords and OpenAI Key required!', duration=4000)
+        return
+
+    # --- Disable UI ---
+    process_html_button.disabled = True; process_pdf_button.disabled = True; search_button.disabled = True
+    html_input.disabled = True; pdf_input.disabled = True; search_input.disabled = True
+    openai_key_input.disabled = True; anthropic_key_input.disabled = True
+    status_text.value = f'Searching literature for: "{keywords}"...'
+    progress_bar.active = True; progress_bar.value = 10
+    search_results_output.object = "### Search Results\n---\n*Searching...*"
+    results_tabs.active = results_tabs.labels.index("Search Results")
+
+    try:
+        start_time = time.time()
+        # --- Trigger Journal Scraper / Search Logic ---
+        if not AUTOGEN_AVAILABLE: raise RuntimeError("Matagen module not available.")
+
+        # Adjust tool arguments as needed
+        search_results = await asyncio.to_thread(
+            journal_scraper_tool,
+            # journal="all", # Or specific journal if UI allows
+            keywords=keywords,
+            api_key=openai_key
+            # output_base_dir=JOURNAL_OUTPUT_BASE # Pass if tool saves results
+        )
+        logger.info(f"Search finished. Result type: {type(search_results)}")
+        progress_bar.value = 90
+
+        # --- Display Results ---
+        # Adapt formatting based on the *actual* structure returned by journal_scraper_tool
+        formatted_results = f"### Search Results for: \"{keywords}\"\n---\n"
+        if isinstance(search_results, list) and len(search_results) > 0 and isinstance(search_results[0], dict):
+             formatted_results += f"Found {len(search_results)} potential results:\n\n"
+             for i, paper in enumerate(search_results):
+                 title = paper.get('title', 'No Title')
+                 link = paper.get('link', '#')
+                 snippet = paper.get('snippet', 'No snippet available.')
+                 # Basic formatting, adjust based on available fields
+                 formatted_results += f"{i+1}. **[{title}]({link})**\n"
+                 if 'authors' in paper: formatted_results += f"   *Authors: {', '.join(paper['authors'])}*\n"
+                 if 'journal' in paper: formatted_results += f"   *Journal: {paper['journal']}*\n"
+                 formatted_results += f"   > {snippet}\n\n"
+        elif isinstance(search_results, dict):
+             # Handle dictionary format if applicable
+             formatted_results += f"```json\n{json.dumps(search_results, indent=2)}\n```"
+        else:
+             # Handle unexpected format
+             formatted_results += f"Received unexpected result format:\n```\n{search_results}\n```"
+
+        search_results_output.object = formatted_results
+        end_time = time.time()
+        status_text.value = f"Search complete in {end_time - start_time:.2f}s."
+        pn.state.notifications.success('Search complete!', duration=4000)
+
+    except Exception as e:
+        logger.error(f"Error during literature search: {e}", exc_info=True)
+        detailed_error = traceback.format_exc()
+        status_text.value = f'Error during search: {str(e)}'
+        pn.state.notifications.error(f'Search failed: {str(e)}. Check logs.', duration=6000)
+        search_results_output.object = f"### Search Results\n---\n**Error:**\n```\n{str(e)}\n{detailed_error}\n```"
+    finally:
+        # --- Re-enable UI ---
+        progress_bar.active = False; progress_bar.value = 0
+        openai_key_input.disabled = False; anthropic_key_input.disabled = False
+        html_input.disabled = False; pdf_input.disabled = False; search_input.disabled = False
+        update_button_states() # Reset button states
+
+# --- Widget Linking ---
+# Link watchers to update_button_states function
+html_input.param.watch(update_button_states, 'value')
+pdf_input.param.watch(update_button_states, 'value') # Watch PDF input too
+openai_key_input.param.watch(update_button_states, 'value')
+anthropic_key_input.param.watch(update_button_states, 'value')
+search_input.param.watch(update_button_states, 'value') # Watch search input
+
+# Button clicks
+process_html_button.on_click(process_html_callback)
+process_pdf_button.on_click(process_pdf_callback)
+search_button.on_click(search_callback)
+
+
+# --- Arrange the Layout ---
+# Action Area using Tabs for cleaner separation
+actions_bar = pn.Card(
+    pn.Tabs(
+        ("HTML Processing", pn.Row(
+            pn.Column(html_input, process_html_button, sizing_mode='stretch_width', width_policy='max'),
+            pn.Spacer(width=20), # Add some space
+            html_mode_radio, # Place radio buttons next to it
+            sizing_mode='stretch_width'
+        )),
+        ("PDF Processing", pn.Row(
+            pn.Column(pdf_input, process_pdf_button, sizing_mode='stretch_width', width_policy='max'),
+            pn.Spacer(width=20),
+            pdf_mode_radio, # Place radio buttons next to it
+            sizing_mode='stretch_width'
+        )),
+        ("Literature Search", pn.Column(search_input, search_button, sizing_mode='stretch_width')),
+    ),
+    title="Actions",
+    sizing_mode='stretch_width'
+)
+
+# Group main area components
+main_content = pn.Column(
+    actions_bar,
+    status_bar, # Moved status bar here for better visibility
+    pn.layout.Divider(),
+    results_tabs,
+    sizing_mode='stretch_width' # Main area stretches
+)
+
+# Final Layout combining sidebar and main content
+app_layout = pn.Column(
+    pn.pane.Markdown("# MMatAGen: Multimodal Materials science mining AGents"),
+    pn.Row(
+        sidebar,
+        main_content,
+        sizing_mode='stretch_width' # Make the row stretch
+    ),
+    sizing_mode='stretch_width' # Make the outer column stretch
+)
+
+
+# Initial call to set button states correctly on load
+update_button_states()
+
+# To run: panel serve app.py --autoreload --show
+app_layout.servable(title="Document Analysis App")

@@ -1,0 +1,1320 @@
+{
+   "page_1_img_1.png": {
+      "title": "ma501080u 1..8",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_ma501080u\\ma501080u",
+      "image_url": [],
+      "figure_name": "page_1_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_1_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.5695123076438904,
+            "height": 297,
+            "width": 598,
+            "geometry": [
+               {
+                  "x": 1,
+                  "y": 0
+               },
+               {
+                  "x": 599,
+                  "y": 0
+               },
+               {
+                  "x": 1,
+                  "y": 297
+               },
+               {
+                  "x": 599,
+                  "y": 297
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 0
+                  },
+                  {
+                     "x": 599,
+                     "y": 0
+                  },
+                  {
+                     "x": 1,
+                     "y": 297
+                  },
+                  {
+                     "x": 599,
+                     "y": 297
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.262123167514801,
+            "height": 297,
+            "width": 113,
+            "geometry": [
+               {
+                  "x": 606,
+                  "y": 0
+               },
+               {
+                  "x": 719,
+                  "y": 0
+               },
+               {
+                  "x": 606,
+                  "y": 297
+               },
+               {
+                  "x": 719,
+                  "y": 297
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 606,
+                     "y": 0
+                  },
+                  {
+                     "x": 719,
+                     "y": 0
+                  },
+                  {
+                     "x": 606,
+                     "y": 297
+                  },
+                  {
+                     "x": 719,
+                     "y": 297
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_3_img_1.png": {
+      "title": "ma501080u 1..8",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_ma501080u\\ma501080u",
+      "image_url": [],
+      "figure_name": "page_3_img_1.png",
+      "full_caption": "Figure 1. Comparison of Eox acquired via DPV for polymers ProDOT-Ph, ProDOT-Fl, ProDOT-Cbz, and ProDOT2-Ph. Current has been normalized. Reference: 74 mV vs Fe/Fe+.",
+      "figure_path": "output\\figures\\page_3_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.12770721316337585,
+            "height": 710,
+            "width": 885,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 885,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 710
+               },
+               {
+                  "x": 885,
+                  "y": 710
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 885,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 710
+                  },
+                  {
+                     "x": 885,
+                     "y": 710
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Comparison of Eox acquired via DPV for polymers ProDOT-Ph, ProDOT-Fl, ProDOT-Cbz, and ProDOT2-Ph.",
+            "keywords": [
+               "Electrochemistry",
+               "Polymers",
+               "DPV"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "b",
+               "description": "Current has been normalized.",
+               "keywords": [
+                  "Data normalization"
+               ]
+            },
+            {
+               "label": "c",
+               "description": "Reference: 74 mV vs Fe/Fe+.",
+               "keywords": [
+                  "Electrochemistry",
+                  "Reference Electrode",
+                  "Iron"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_4_img_1.png": {
+      "title": "ma501080u 1..8",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_ma501080u\\ma501080u",
+      "image_url": [],
+      "figure_name": "page_4_img_1.png",
+      "full_caption": "Figure 2. Normalized UV\u2212vis\u2212NIR spectra of polymer solutions in chlorobenzene. Concentrations of solutions for spectra range from 0.05 to 0.02 mg/mL. Photographs of polymer solutions are inset and numbered: (A) ProDOT-Ph (1), ProDOT-F (2), ProDOT-Cbz (3), and ProDOT-Ph(MeO)2 (4). (B) R-ProDOT-Ph/Ph(MeO)2 (5), ProDOT-Py (6), ProDOT-Py(Ph)2 (7) and ProDOT-Py2 (8).",
+      "figure_path": "output\\figures\\page_4_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 1406,
+            "width": 1000,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1000,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 1406
+               },
+               {
+                  "x": 1000,
+                  "y": 1406
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1000,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 1406
+                  },
+                  {
+                     "x": 1000,
+                     "y": 1406
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_5_img_1.png": {
+      "title": "ma501080u 1..8",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_ma501080u\\ma501080u",
+      "image_url": [],
+      "figure_name": "page_5_img_1.png",
+      "full_caption": "Figure 5. Comparison between the transmittance (%) of the neutral and oxidized forms of ProDOT-Ph, ProDOT-Cbz, and R-ProDOT-Ph(PhMeO)2. Films were sprayed to an absorbance of \u223c1.0 (A) ProDOT-Ph at 0 mV, (B) ProDOT-Ph at 1150 mV, (C) ProDOT-Cbz at 0 mV, (D) ProDOT-Cbz at 1100 mV, (E) R-ProDOT-Ph(PhMeO)2 at 0 mV, and (F) R-ProDOT-Ph(PhMeO)2 at 950 mV.",
+      "figure_path": "output\\figures\\page_5_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.3512461483478546,
+            "height": 703,
+            "width": 980,
+            "geometry": [
+               {
+                  "x": 20,
+                  "y": 0
+               },
+               {
+                  "x": 1000,
+                  "y": 0
+               },
+               {
+                  "x": 20,
+                  "y": 703
+               },
+               {
+                  "x": 1000,
+                  "y": 703
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 20,
+                     "y": 0
+                  },
+                  {
+                     "x": 1000,
+                     "y": 0
+                  },
+                  {
+                     "x": 20,
+                     "y": 703
+                  },
+                  {
+                     "x": 1000,
+                     "y": 703
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "ProDOT-Ph at 0 mV",
+            "keywords": [
+               "ProDOT-Ph",
+               "electrochemistry",
+               "voltage"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "B",
+               "description": "ProDOT-Ph at 1150 mV",
+               "keywords": [
+                  "Electrochemistry",
+                  "Conducting Polymers",
+                  "ProDOT-Ph"
+               ]
+            },
+            {
+               "label": "C",
+               "description": "ProDOT-Cbz at 0 mV",
+               "keywords": [
+                  "Electrochemistry",
+                  "ProDOT-Cbz",
+                  "Voltage"
+               ]
+            },
+            {
+               "label": "D",
+               "description": "ProDOT-Cbz at 1100 mV",
+               "keywords": [
+                  "Electrochemistry",
+                  "ProDOT-Cbz",
+                  "Voltage"
+               ]
+            },
+            {
+               "label": "E",
+               "description": "R-ProDOT-Ph(PhMeO)2 at 0 mV",
+               "keywords": [
+                  "Electrochemistry",
+                  "ProDOT",
+                  "Voltage"
+               ]
+            },
+            {
+               "label": "F",
+               "description": "R-ProDOT-Ph(PhMeO)2 at 950 mV",
+               "keywords": [
+                  "Electrochemistry",
+                  "ProDOT",
+                  "Voltage"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_5_img_2.png": {
+      "title": "ma501080u 1..8",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_ma501080u\\ma501080u",
+      "image_url": [],
+      "figure_name": "page_5_img_2.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_5_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.13602608442306519,
+            "height": 614,
+            "width": 876,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 633
+               },
+               {
+                  "x": 876,
+                  "y": 633
+               },
+               {
+                  "x": 0,
+                  "y": 1247
+               },
+               {
+                  "x": 876,
+                  "y": 1247
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 633
+                  },
+                  {
+                     "x": 876,
+                     "y": 633
+                  },
+                  {
+                     "x": 0,
+                     "y": 1247
+                  },
+                  {
+                     "x": 876,
+                     "y": 1247
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_5_img_3.png": {
+      "title": "ma501080u 1..8",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_ma501080u\\ma501080u",
+      "image_url": [],
+      "figure_name": "page_5_img_3.png",
+      "full_caption": "Figure 3. Normalized neutral state spectra of cast polymer films on ITO-coated glass in 0.2 M LiBTI/PC electrolyte solution: (A) ProDOT-Ph, ProDOT-Fl, ProDOT-Cbz, and ProDOT-Ph(PhMeO)2; (B) R-ProDOT-Ph(PhMeO)2, ProDOT-Py, ProDOT-T2, and ProDOT-Ph.",
+      "figure_path": "output\\figures\\page_5_img_3.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.4408164918422699,
+            "height": 712,
+            "width": 914,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 914,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 712
+               },
+               {
+                  "x": 914,
+                  "y": 712
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 914,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 712
+                  },
+                  {
+                     "x": 914,
+                     "y": 712
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "ProDOT-Ph, ProDOT-Fl, ProDOT-Cbz, and ProDOT-Ph(PhMeO)2",
+            "keywords": [
+               "ProDOT derivatives"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "B",
+               "description": "R-ProDOT-Ph(PhMeO)2, ProDOT-Py, ProDOT-T2, and ProDOT-Ph",
+               "keywords": [
+                  "Conducting polymers",
+                  "ProDOT derivatives",
+                  "Material synthesis"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_6_img_1.png": {
+      "title": "ma501080u 1..8",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_ma501080u\\ma501080u",
+      "image_url": [],
+      "figure_name": "page_6_img_1.png",
+      "full_caption": "Figure 6. Chronoabsorptometry of ProDOT-Cbz measured at 445 nm from 0 to 1100 mV in an electrolyte solution.",
+      "figure_path": "output\\figures\\page_6_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.1698363721370697,
+            "height": 644,
+            "width": 793,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 1
+               },
+               {
+                  "x": 793,
+                  "y": 1
+               },
+               {
+                  "x": 0,
+                  "y": 645
+               },
+               {
+                  "x": 793,
+                  "y": 645
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 1
+                  },
+                  {
+                     "x": 793,
+                     "y": 1
+                  },
+                  {
+                     "x": 0,
+                     "y": 645
+                  },
+                  {
+                     "x": 793,
+                     "y": 645
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Chronoabsorptometry of ProDOT-Cbz measured at 445 nm from 0 to 1100 mV in an electrolyte solution.",
+            "keywords": [
+               "Chronoabsorptometry",
+               "ProDOT-Cbz",
+               "Electrolyte"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_6_img_2.png": {
+      "title": "ma501080u 1..8",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_ma501080u\\ma501080u",
+      "image_url": [],
+      "figure_name": "page_6_img_2.png",
+      "full_caption": "Figure 7. Colorimetry a* b* (CIE 1976 L* a* b* Color Space) color coordinates of a thin film of ProDOT-Cbz taken as a function of level of electrochemical oxidation (0\u22121100 mV, 50 mV steps). The film shown possesses an optical density of 0.8 au at 445 nm.",
+      "figure_path": "output\\figures\\page_6_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.8993357419967651,
+            "height": 543,
+            "width": 886,
+            "geometry": [
+               {
+                  "x": 6,
+                  "y": 170
+               },
+               {
+                  "x": 892,
+                  "y": 170
+               },
+               {
+                  "x": 6,
+                  "y": 713
+               },
+               {
+                  "x": 892,
+                  "y": 713
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 6,
+                     "y": 170
+                  },
+                  {
+                     "x": 892,
+                     "y": 170
+                  },
+                  {
+                     "x": 6,
+                     "y": 713
+                  },
+                  {
+                     "x": 892,
+                     "y": 713
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.7424842119216919,
+            "height": 162,
+            "width": 895,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 1
+               },
+               {
+                  "x": 895,
+                  "y": 1
+               },
+               {
+                  "x": 0,
+                  "y": 163
+               },
+               {
+                  "x": 895,
+                  "y": 163
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 1
+                  },
+                  {
+                     "x": 895,
+                     "y": 1
+                  },
+                  {
+                     "x": 0,
+                     "y": 163
+                  },
+                  {
+                     "x": 895,
+                     "y": 163
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_6_img_3.png": {
+      "title": "ma501080u 1..8",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_ma501080u\\ma501080u",
+      "image_url": [],
+      "figure_name": "page_6_img_3.png",
+      "full_caption": "Figure 8. Absorption spectra of ProDOT-Ph in the neutral (0 mV), intermediate (750 mV), and fully oxidized (1100 mV) states. CIE standard observers 2\u00b0, 10\u00b0, and 2\u00b0 are overlaid.",
+      "figure_path": "output\\figures\\page_6_img_3.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 642,
+            "width": 819,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 819,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 642
+               },
+               {
+                  "x": 819,
+                  "y": 642
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 819,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 642
+                  },
+                  {
+                     "x": 819,
+                     "y": 642
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_7_img_1.png": {
+      "title": "ma501080u 1..8",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_ma501080u\\ma501080u",
+      "image_url": [],
+      "figure_name": "page_7_img_1.png",
+      "full_caption": "Figure 10. Photographic comparison between ProDOT-Ph (left), ProDOT-Cl2 (middle), and R-ProDOT-Ph/Ph(MeO)2 (right). All three polymers were spray cast using a mask (~1 cm) onto a single sheet of ITO-coated glass using a clean piece of ITO-coated glass of equal size as a counter electrode.",
+      "figure_path": "output\\figures\\page_7_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9047664999961853,
+            "height": 355,
+            "width": 934,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 934,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 355
+               },
+               {
+                  "x": 934,
+                  "y": 355
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 934,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 355
+                  },
+                  {
+                     "x": 934,
+                     "y": 355
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 217,
+                           "y": 96
+                        },
+                        {
+                           "x": 217,
+                           "y": 107
+                        },
+                        {
+                           "x": 248,
+                           "y": 107
+                        },
+                        {
+                           "x": 248,
+                           "y": 96
+                        }
+                     ],
+                     "text": "6.0 A",
+                     "label_confidence": 0.046357475221157074,
+                     "box_confidence": 0.8696973323822021,
+                     "nm": 0.6
+                  },
+                  "geometry": [
+                     {
+                        "x": 210,
+                        "y": 111
+                     },
+                     {
+                        "x": 210,
+                        "y": 117
+                     },
+                     {
+                        "x": 257,
+                        "y": 117
+                     },
+                     {
+                        "x": 257,
+                        "y": 111
+                     }
+                  ],
+                  "confidence": 0.8179699182510376,
+                  "length": 46,
+                  "label_line_distance": 157.25
+               },
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 524,
+                           "y": 93
+                        },
+                        {
+                           "x": 524,
+                           "y": 103
+                        },
+                        {
+                           "x": 554,
+                           "y": 103
+                        },
+                        {
+                           "x": 554,
+                           "y": 93
+                        }
+                     ],
+                     "text": "6.0 A",
+                     "label_confidence": 0.07803576439619064,
+                     "box_confidence": 0.8555036783218384,
+                     "nm": 0.6
+                  },
+                  "geometry": [
+                     {
+                        "x": 516,
+                        "y": 109
+                     },
+                     {
+                        "x": 516,
+                        "y": 115
+                     },
+                     {
+                        "x": 565,
+                        "y": 115
+                     },
+                     {
+                        "x": 565,
+                        "y": 109
+                     }
+                  ],
+                  "confidence": 0.7651006579399109,
+                  "length": 49,
+                  "label_line_distance": 198.25
+               },
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 825,
+                           "y": 97
+                        },
+                        {
+                           "x": 825,
+                           "y": 106
+                        },
+                        {
+                           "x": 857,
+                           "y": 106
+                        },
+                        {
+                           "x": 857,
+                           "y": 97
+                        }
+                     ],
+                     "text": "6.0 A",
+                     "label_confidence": 0.04141070321202278,
+                     "box_confidence": 0.6551976799964905,
+                     "nm": 0.6
+                  },
+                  "geometry": [
+                     {
+                        "x": 818,
+                        "y": 112
+                     },
+                     {
+                        "x": 818,
+                        "y": 118
+                     },
+                     {
+                        "x": 870,
+                        "y": 118
+                     },
+                     {
+                        "x": 870,
+                        "y": 112
+                     }
+                  ],
+                  "confidence": 0.7158284783363342,
+                  "length": 52,
+                  "label_line_distance": 191.25
+               }
+            ],
+            "nm_height": 4.0,
+            "nm_width": 10.7,
+            "scale_label": "6.0 A",
+            "caption": "Photographic comparison between ProDOT-Ph (left), ProDOT-Cl2 (middle), and R-ProDOT-Ph/Ph(MeO)2 (right).",
+            "keywords": [
+               "ProDOT",
+               "comparison",
+               "materials"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.8197205662727356,
+            "height": 354,
+            "width": 933,
+            "geometry": [
+               {
+                  "x": 2,
+                  "y": 370
+               },
+               {
+                  "x": 935,
+                  "y": 370
+               },
+               {
+                  "x": 2,
+                  "y": 724
+               },
+               {
+                  "x": 935,
+                  "y": 724
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 2,
+                     "y": 370
+                  },
+                  {
+                     "x": 935,
+                     "y": 370
+                  },
+                  {
+                     "x": 2,
+                     "y": 724
+                  },
+                  {
+                     "x": 935,
+                     "y": 724
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 208,
+                           "y": 470
+                        },
+                        {
+                           "x": 208,
+                           "y": 480
+                        },
+                        {
+                           "x": 241,
+                           "y": 480
+                        },
+                        {
+                           "x": 241,
+                           "y": 470
+                        }
+                     ],
+                     "text": "6.0 A",
+                     "label_confidence": 0.05449787527322769,
+                     "box_confidence": 0.6330389380455017,
+                     "nm": 0.6
+                  },
+                  "geometry": [
+                     {
+                        "x": 202,
+                        "y": 487
+                     },
+                     {
+                        "x": 202,
+                        "y": 492
+                     },
+                     {
+                        "x": 253,
+                        "y": 492
+                     },
+                     {
+                        "x": 253,
+                        "y": 487
+                     }
+                  ],
+                  "confidence": 0.8218909502029419,
+                  "length": 51,
+                  "label_line_distance": 219.25
+               },
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 525,
+                           "y": 471
+                        },
+                        {
+                           "x": 525,
+                           "y": 483
+                        },
+                        {
+                           "x": 556,
+                           "y": 483
+                        },
+                        {
+                           "x": 556,
+                           "y": 471
+                        }
+                     ],
+                     "text": "65.0 A",
+                     "label_confidence": 0.11794546991586685,
+                     "box_confidence": 0.8579596877098083,
+                     "nm": 6.5
+                  },
+                  "geometry": [
+                     {
+                        "x": 516,
+                        "y": 487
+                     },
+                     {
+                        "x": 516,
+                        "y": 495
+                     },
+                     {
+                        "x": 567,
+                        "y": 495
+                     },
+                     {
+                        "x": 567,
+                        "y": 487
+                     }
+                  ],
+                  "confidence": 0.7862160801887512,
+                  "length": 51,
+                  "label_line_distance": 197.0
+               },
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 822,
+                           "y": 469
+                        },
+                        {
+                           "x": 822,
+                           "y": 479
+                        },
+                        {
+                           "x": 857,
+                           "y": 479
+                        },
+                        {
+                           "x": 857,
+                           "y": 469
+                        }
+                     ],
+                     "text": "65.0 A",
+                     "label_confidence": 0.09933359920978546,
+                     "box_confidence": 0.5732204914093018,
+                     "nm": 6.5
+                  },
+                  "geometry": [
+                     {
+                        "x": 816,
+                        "y": 484
+                     },
+                     {
+                        "x": 816,
+                        "y": 491
+                     },
+                     {
+                        "x": 869,
+                        "y": 491
+                     },
+                     {
+                        "x": 869,
+                        "y": 484
+                     }
+                  ],
+                  "confidence": 0.5678374171257019,
+                  "length": 52,
+                  "label_line_distance": 191.25
+               }
+            ],
+            "caption": "All three polymers were spray cast using a mask (~1 cm) onto a single sheet of ITO-coated glass using a clean piece of ITO-coated glass of equal size as a counter electrode.",
+            "keywords": [
+               "Polymers",
+               "Spray Casting",
+               "ITO Glass"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_7_img_2.png": {
+      "title": "ma501080u 1..8",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_ma501080u\\ma501080u",
+      "image_url": [],
+      "figure_name": "page_7_img_2.png",
+      "full_caption": "Figure 9. Colorimetry of all polymers with initial neutral state optical density of ~0.8 with the exception of ProDOT-Py and ProDOT2-Py (optical density of ~1.0). Squares represent neutral states, and circles represent the most oxidized states. ProDOT-Ph (black), ProDOT-F1 (red), ProDOT-OEt (green), ProDOT-Th(MeO)2 (blue), R-ProDOT-Ph/Ph(MeO)2 (orange), ProDOT2-Ph (pink), ProDOT-Py (brown), and ProDOT2-Py (dark cyan).",
+      "figure_path": "output\\figures\\page_7_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 771,
+            "width": 854,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 854,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 771
+               },
+               {
+                  "x": 854,
+                  "y": 771
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 854,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 771
+                  },
+                  {
+                     "x": 854,
+                     "y": 771
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   }
+}

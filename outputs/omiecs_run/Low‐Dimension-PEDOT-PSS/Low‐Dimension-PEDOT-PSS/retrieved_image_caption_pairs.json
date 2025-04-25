@@ -1,0 +1,111 @@
+{
+  "records": [
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Low‐Dimension-PEDOT-PSS\\Low‐Dimension-PEDOT-PSS\\images_folder\\page_1_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Low‐Dimension-PEDOT-PSS\\Low‐Dimension-PEDOT-PSS"
+    },
+    {
+      "full_caption": "Figure 1. Bottom contact—Top Gate (BC-TG) OECT in a) staggered or b) planar architectures. c) Microphotograph of OECT with 45% and 55% channel overlap with S&D electrodes, respectively (W = 25 μm; L = 2.2 μm; L* = 4 and 4.8 μm, respectively). The scale bar is worth 50 μm.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Low‐Dimension-PEDOT-PSS\\Low‐Dimension-PEDOT-PSS\\images_folder\\page_2_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Low‐Dimension-PEDOT-PSS\\Low‐Dimension-PEDOT-PSS"
+    },
+    {
+      "full_caption": "Figure 1. Bottom contact—Top Gate (BC-TG) OECT in a) staggered or b) planar architectures. c) Microphotograph of OECT with 45% and 55% channel overlap with S&D electrodes, respectively (W = 25 μm; L = 2.2 μm; L* = 4 and 4.8 μm, respectively). The scale bar is worth 50 μm.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Low‐Dimension-PEDOT-PSS\\Low‐Dimension-PEDOT-PSS\\images_folder\\page_2_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Low‐Dimension-PEDOT-PSS\\Low‐Dimension-PEDOT-PSS"
+    },
+    {
+      "full_caption": "Figure 1. Bottom contact—Top Gate (BC-TG) OECT in a) staggered or b) planar architectures. c) Microphotograph of OECT with 45% and 55% channel overlap with S&D electrodes, respectively (W = 25 μm; L = 2.2 μm; L* = 4 and 4.8 μm, respectively). The scale bar is worth 50 μm.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Low‐Dimension-PEDOT-PSS\\Low‐Dimension-PEDOT-PSS\\images_folder\\page_2_img_1_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Low‐Dimension-PEDOT-PSS\\Low‐Dimension-PEDOT-PSS"
+    },
+    {
+      "full_caption": "Figure 2. a) Typical output (IDS − VDS) curve for a planar PEDOT:PSS-based OECT (L = 11 μm, W = 50 μm). Gate voltages (VGS) are biased from 0 V to +0.6 V. b) μOECTC* product (right) and VGS at gm, max (left) as a function of channel length (L) for planar or staggered OECTs.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Low‐Dimension-PEDOT-PSS\\Low‐Dimension-PEDOT-PSS\\images_folder\\page_3_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Low‐Dimension-PEDOT-PSS\\Low‐Dimension-PEDOT-PSS"
+    },
+    {
+      "full_caption": "Figure 2. a) Typical output (IDS − VDS) curve for a planar PEDOT:PSS-based OECT (L = 11 μm, W = 50 μm). Gate voltages (VGS) are biased from 0 V to +0.6 V. b) μOECTC* product (right) and VGS at gm, max (left) as a function of channel length (L) for planar or staggered OECTs.",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Low‐Dimension-PEDOT-PSS\\Low‐Dimension-PEDOT-PSS\\images_folder\\page_3_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Low‐Dimension-PEDOT-PSS\\Low‐Dimension-PEDOT-PSS"
+    },
+    {
+      "full_caption": "Figure 3. Drain current (IDS) dynamic response according to a pulse Gate bias [ΔVGS = 0.6 V, Δt = 2 ms]: L = 3 μm; W = 25 μm; VDS = −0.4 V. a) Red and green lines represent fitted curves (exponential dependency) in forward and backward sweeps, respectively. b) Staggered or planar cut-off frequencies according to the channel length (L); W = 25 μm; VDS = −0.1 V; VGS = 0.6 V.",
+      "caption": "Red and green lines represent fitted curves (exponential dependency) in forward and backward sweeps, respectively.",
+      "caption_summary": [
+        "Fitted curves",
+        "Exponential dependency",
+        "Sweeps"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Low‐Dimension-PEDOT-PSS\\Low‐Dimension-PEDOT-PSS\\images_folder\\page_4_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Low‐Dimension-PEDOT-PSS\\Low‐Dimension-PEDOT-PSS"
+    },
+    {
+      "full_caption": "Figure 3. Drain current (IDS) dynamic response according to a pulse Gate bias [ΔVGS = 0.6 V, Δt = 2 ms]: L = 3 μm; W = 25 μm; VDS = −0.4 V. a) Red and green lines represent fitted curves (exponential dependency) in forward and backward sweeps, respectively. b) Staggered or planar cut-off frequencies according to the channel length (L); W = 25 μm; VDS = −0.1 V; VGS = 0.6 V.",
+      "caption": "Staggered or planar cut-off frequencies according to the channel length (L); W = 25 μm; VDS = −0.1 V; VGS = 0.6 V.",
+      "caption_summary": [
+        "Channel length",
+        "Cut-off frequencies",
+        "Voltage"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Low‐Dimension-PEDOT-PSS\\Low‐Dimension-PEDOT-PSS\\images_folder\\page_4_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Low‐Dimension-PEDOT-PSS\\Low‐Dimension-PEDOT-PSS"
+    },
+    {
+      "full_caption": "Figure 4. a) Transfer-Length Method (TLM) in the case of planar OECTs (Contact resistance RS/D at L = 0 μm and A = L+L0= 2.6 μm; Rcon; W = 0.8 Ω cm) as convergent point). Contact resistance (RS/D) according the Gate voltage (VGS) (at VDS = 0.1 V). b) The dependency of the contact resistance is fitted by an exponential dependency, as RS/D = A exp(B × VGS) + C (A, B, C constant parameters are regrouped in Table S1, Supporting Information).",
+      "caption": "The dependency of the contact resistance is fitted by an exponential dependency, as RS/D = A exp(B × VGS) + C (A, B, C constant parameters are regrouped in Table S1, Supporting Information).",
+      "caption_summary": [
+        "Contact resistance",
+        "Exponential dependency",
+        "Fitting"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Low‐Dimension-PEDOT-PSS\\Low‐Dimension-PEDOT-PSS\\images_folder\\page_5_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Low‐Dimension-PEDOT-PSS\\Low‐Dimension-PEDOT-PSS"
+    },
+    {
+      "full_caption": "Figure 4. a) Transfer-Length Method (TLM) in the case of planar OECTs (Contact resistance RS/D at L = 0 μm and A = L+L0= 2.6 μm; Rcon; W = 0.8 Ω cm) as convergent point). Contact resistance (RS/D) according the Gate voltage (VGS) (at VDS = 0.1 V). b) The dependency of the contact resistance is fitted by an exponential dependency, as RS/D = A exp(B × VGS) + C (A, B, C constant parameters are regrouped in Table S1, Supporting Information).",
+      "caption": "Transfer-Length Method (TLM) in the case of planar OECTs (Contact resistance RS/D at L = 0 μm and A = L+L0= 2.6 μm; Rcon; W = 0.8 Ω cm) as convergent point). Contact resistance (RS/D) according the Gate voltage (VGS) (at VDS = 0.1 V).",
+      "caption_summary": [
+        "Contact resistance",
+        "OECTs",
+        "TLM"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Low‐Dimension-PEDOT-PSS\\Low‐Dimension-PEDOT-PSS\\images_folder\\page_5_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Low‐Dimension-PEDOT-PSS\\Low‐Dimension-PEDOT-PSS"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Low‐Dimension-PEDOT-PSS\\Low‐Dimension-PEDOT-PSS\\images_folder\\page_6_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Low‐Dimension-PEDOT-PSS\\Low‐Dimension-PEDOT-PSS"
+    },
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Low‐Dimension-PEDOT-PSS\\Low‐Dimension-PEDOT-PSS\\images_folder\\page_6_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Low‐Dimension-PEDOT-PSS\\Low‐Dimension-PEDOT-PSS"
+    },
+    {
+      "full_caption": "Figure 5. Nonetheless, it is not physically relevant here since ΔL < 0. It does not explain thus the cut-off frequency saturation we observe in Figure 3b. Moreover, considering that Lconv is acting as an “extension length” in the channel resistance, for L < Lconv = 2.8 μm, electrode/OMIEC contact is dominating the dynamic response of the OECT. Indeed, below Lconv, cut-off frequency is starting to saturate for L < 3 μm, as observed in Figure 3b. Through an unprecedented approach, we experimentally prove here the importance to improve the OECTs micro-fabrication, as the layer-to-layer lithography alignment, according to the electrode/OMIEC contact properties. We corroborate that the nature or the morphology of the interfacial layers, their doping states as well as the influence of defects or disorder in such OMIECs are of paramount importance in setting the overall OECTs performances.",
+      "caption": "Figure 5. Nonetheless, it is not physically relevant here since ΔL < 0. It does not explain thus the cut-off frequency saturation we observe in Figure 3b. Moreover, considering that Lconv is acting as an “extension length” in the channel resistance, for L < Lconv = 2.8 μm, electrode/OMIEC contact is dominating the dynamic response of the OECT. Indeed, below Lconv, cut-off frequency is starting to saturate for L < 3 μm, as observed in Figure 3b. Through an unprecedented approach, we experimentally prove here the importance to improve the OECTs micro-fabrication, as the layer-to-layer lithography alignment, according to the electrode/OMIEC contact properties. We corroborate that the nature or the morphology of the interfacial layers, their doping states as well as the influence of defects or disorder in such OMIECs are of paramount importance in setting the overall OECTs performances.",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\Low‐Dimension-PEDOT-PSS\\Low‐Dimension-PEDOT-PSS\\images_folder\\page_7_img_1_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Low‐Dimension-PEDOT-PSS\\Low‐Dimension-PEDOT-PSS"
+    }
+  ]
+}

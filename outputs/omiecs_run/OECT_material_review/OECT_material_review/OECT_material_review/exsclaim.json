@@ -1,0 +1,1034 @@
+{
+   "page_1_img_1.png": {
+      "title": "Molecular design strategies for high\u2010performance organic electrochemical transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT_material_review\\OECT_material_review",
+      "image_url": [],
+      "figure_name": "page_1_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_1_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.8593845963478088,
+            "height": 326,
+            "width": 1092,
+            "geometry": [
+               {
+                  "x": 72,
+                  "y": 1007
+               },
+               {
+                  "x": 1164,
+                  "y": 1007
+               },
+               {
+                  "x": 72,
+                  "y": 1333
+               },
+               {
+                  "x": 1164,
+                  "y": 1333
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 72,
+                     "y": 1007
+                  },
+                  {
+                     "x": 1164,
+                     "y": 1007
+                  },
+                  {
+                     "x": 72,
+                     "y": 1333
+                  },
+                  {
+                     "x": 1164,
+                     "y": 1333
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.6716529130935669,
+            "height": 261,
+            "width": 1182,
+            "geometry": [
+               {
+                  "x": 14,
+                  "y": 1370
+               },
+               {
+                  "x": 1196,
+                  "y": 1370
+               },
+               {
+                  "x": 14,
+                  "y": 1631
+               },
+               {
+                  "x": 1196,
+                  "y": 1631
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 14,
+                     "y": 1370
+                  },
+                  {
+                     "x": 1196,
+                     "y": 1370
+                  },
+                  {
+                     "x": 14,
+                     "y": 1631
+                  },
+                  {
+                     "x": 1196,
+                     "y": 1631
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.5455704927444458,
+            "height": 912,
+            "width": 1085,
+            "geometry": [
+               {
+                  "x": 73,
+                  "y": 74
+               },
+               {
+                  "x": 1158,
+                  "y": 74
+               },
+               {
+                  "x": 73,
+                  "y": 986
+               },
+               {
+                  "x": 1158,
+                  "y": 986
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 73,
+                     "y": 74
+                  },
+                  {
+                     "x": 1158,
+                     "y": 74
+                  },
+                  {
+                     "x": 73,
+                     "y": 986
+                  },
+                  {
+                     "x": 1158,
+                     "y": 986
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_3_img_1.png": {
+      "title": "Molecular design strategies for high\u2010performance organic electrochemical transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT_material_review\\OECT_material_review",
+      "image_url": [],
+      "figure_name": "page_3_img_1.png",
+      "full_caption": "FIGURE 1 (A) Typical device structure of an OECT device. (B) Picture depicting the electrolyte/polymer interface of an EGOFET and having p-type (left) or n-type (right) polarity of operation. (C) Schematic illustration of the changes occurring in the electrolyte/polymer interface for OECTs working in depletion (top) and accumulation mode (middle for p-type and bottom for n-type). EGOFET, electrolyte-gated organic field effect transistor; OECT, organic electrochemical transistor",
+      "figure_path": "output\\figures\\page_3_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.12148382514715195,
+            "height": 167,
+            "width": 711,
+            "geometry": [
+               {
+                  "x": 824,
+                  "y": 1
+               },
+               {
+                  "x": 1535,
+                  "y": 1
+               },
+               {
+                  "x": 824,
+                  "y": 168
+               },
+               {
+                  "x": 1535,
+                  "y": 168
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 824,
+                     "y": 1
+                  },
+                  {
+                     "x": 1535,
+                     "y": 1
+                  },
+                  {
+                     "x": 824,
+                     "y": 168
+                  },
+                  {
+                     "x": 1535,
+                     "y": 168
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_5_img_1.png": {
+      "title": "Molecular design strategies for high\u2010performance organic electrochemical transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT_material_review\\OECT_material_review",
+      "image_url": [],
+      "figure_name": "page_5_img_1.png",
+      "full_caption": "FIGURE 2 Chemical structures of two small-molecule OECT materials: (A) P2E2 and P4E4,33 (B) C60-TEG.34 OECT, organic electrochemical transistor",
+      "figure_path": "output\\figures\\page_5_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 797,
+            "width": 1779,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1779,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 797
+               },
+               {
+                  "x": 1779,
+                  "y": 797
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1779,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 797
+                  },
+                  {
+                     "x": 1779,
+                     "y": 797
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "A",
+               "description": "P2E2 and P4E4,33",
+               "keywords": [
+                  "Polymer",
+                  "Synthesis",
+                  "Characterization"
+               ]
+            },
+            {
+               "label": "B",
+               "description": "C60-TEG.34",
+               "keywords": [
+                  "C60",
+                  "TEG",
+                  "Material"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_6_img_1.png": {
+      "title": "Molecular design strategies for high\u2010performance organic electrochemical transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT_material_review\\OECT_material_review",
+      "image_url": [],
+      "figure_name": "page_6_img_1.png",
+      "full_caption": "FIGURE 3 Polymerization methods used for OECT polymers. Ar stands for aromatic rings and R stands for side chains. OECT, organic electrochemical transistor",
+      "figure_path": "output\\figures\\page_6_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 1316,
+            "width": 1774,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1774,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 1316
+               },
+               {
+                  "x": 1774,
+                  "y": 1316
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1774,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 1316
+                  },
+                  {
+                     "x": 1774,
+                     "y": 1316
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_7_img_1.png": {
+      "title": "Molecular design strategies for high\u2010performance organic electrochemical transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT_material_review\\OECT_material_review",
+      "image_url": [],
+      "figure_name": "page_7_img_1.png",
+      "full_caption": "Figure 4. Chemical structures of the side chain engineering of second-generation semiconducting polymers for OECTs, (A) P3HT. (B) P3CPT.18 (C) P3MEEMT.20 (D) PTHS.35 (E) PTHS \u201cTMA\u201d-grad-P3HT.36 (F) p(a2T-TT) and p(g2T-TT).19 (G) p(gxT2-T).45 including g2T-T when x = 3. (H) p(gxT2-T2).46 OECTs, organic electrochemical transistors",
+      "figure_path": "output\\figures\\page_7_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 1482,
+            "width": 1776,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1776,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 1482
+               },
+               {
+                  "x": 1776,
+                  "y": 1482
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1776,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 1482
+                  },
+                  {
+                     "x": 1776,
+                     "y": 1482
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "A",
+               "description": "P3HT.",
+               "keywords": [
+                  "Polymer",
+                  "P3HT",
+                  "Material"
+               ]
+            },
+            {
+               "label": "B",
+               "description": "P3CPT.18",
+               "keywords": [
+                  "Insufficient information"
+               ]
+            },
+            {
+               "label": "C",
+               "description": "P3MEEMT.20",
+               "keywords": [
+                  "Polymer",
+                  "Electrolyte",
+                  "Conductivity"
+               ]
+            },
+            {
+               "label": "D",
+               "description": "PTHS.35",
+               "keywords": [
+                  "Polymer",
+                  "Synthesis",
+                  "Characterization"
+               ]
+            },
+            {
+               "label": "E",
+               "description": "PTHS \u201cTMA\u201d-grad-P3HT.36",
+               "keywords": [
+                  "Polymer",
+                  "Synthesis",
+                  "Characterization"
+               ]
+            },
+            {
+               "label": "F",
+               "description": "p(a2T-TT) and p(g2T-TT).19",
+               "keywords": [
+                  "Polymer",
+                  "Synthesis",
+                  "Characterization"
+               ]
+            },
+            {
+               "label": "G",
+               "description": "p(gxT2-T).45 including g2T-T when x = 3.",
+               "keywords": [
+                  "Material composition",
+                  "Chemical formula",
+                  "Variable substitution"
+               ]
+            },
+            {
+               "label": "H",
+               "description": "p(gxT2-T2).46",
+               "keywords": [
+                  "NMR",
+                  "polymer",
+                  "relaxation"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_9_img_1.png": {
+      "title": "Molecular design strategies for high\u2010performance organic electrochemical transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT_material_review\\OECT_material_review",
+      "image_url": [],
+      "figure_name": "page_9_img_1.png",
+      "full_caption": "Figure 5. Chemical structures of the backbone design of second-generation semiconducting polymers for OECTs. (A) XDOT-based polymers, including PEDOT:PSS, PEDOT:Tos and ProDOT(OE)-DMP. (B) BDT-based polymers. BDT, benzo[1,2-b:4,5-b']dithiophene; DMP, 2,2-dimethyl; OECTs, organic electrochemical transistors; PEDOT:PSS, poly(3,4-ethylenedioxythiophene) doped with poly(styrene sulfonate); PEDOT:Tos, poly(3,4-ethylenedioxythiophene) doped with tosylate; XDOT, 3,4-alkylenedioxythiophene",
+      "figure_path": "output\\figures\\page_9_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 675,
+            "width": 1779,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1779,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 675
+               },
+               {
+                  "x": 1779,
+                  "y": 675
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1779,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 675
+                  },
+                  {
+                     "x": 1779,
+                     "y": 675
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "A",
+               "description": "XDOT-based polymers, including PEDOT:PSS, PEDOT:Tos and ProDOT(OE)-DMP.",
+               "keywords": [
+                  "XDOT-based polymers"
+               ]
+            },
+            {
+               "label": "B",
+               "description": "BDT-based polymers. BDT, benzo[1,2-b:4,5-b']dithiophene; DMP, 2,2-dimethyl; OECTs, organic electrochemical transistors; PEDOT:PSS, poly(3,4-ethylenedioxythiophene) doped with poly(styrene sulfonate); PEDOT:Tos, poly(3,4-ethylenedioxythiophene) doped with tosylate; XDOT, 3,4-alkylenedioxythiophene",
+               "keywords": [
+                  "BDT-based polymers",
+                  "OECTs",
+                  "PEDOT"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_12_img_1.png": {
+      "title": "Molecular design strategies for high\u2010performance organic electrochemical transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT_material_review\\OECT_material_review",
+      "image_url": [],
+      "figure_name": "page_12_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_12_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 1481,
+            "width": 2109,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 2109,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 1481
+               },
+               {
+                  "x": 2109,
+                  "y": 1481
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 2109,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 1481
+                  },
+                  {
+                     "x": 2109,
+                     "y": 1481
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_13_img_1.png": {
+      "title": "Molecular design strategies for high\u2010performance organic electrochemical transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT_material_review\\OECT_material_review",
+      "image_url": [],
+      "figure_name": "page_13_img_1.png",
+      "full_caption": "Figure 7. Chemical structures of some n-type semiconducting polymers for OECTs, (A) BBL, (B) p(gNDI-gT2),37 (C) NDI-T2,68 from P-0 to P-100, including P-90. (D) PgNaN and PgNgN.38 BBL, poly(benzimidazobenzophenanthroline); NDI-T2, naphthalene-1,4,5,8-tetracarboxylic-diimide-bithiophene; OECTs, organic electrochemical transistors",
+      "figure_path": "output\\figures\\page_13_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 1382,
+            "width": 2096,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 2096,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 1382
+               },
+               {
+                  "x": 2096,
+                  "y": 1382
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 2096,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 1382
+                  },
+                  {
+                     "x": 2096,
+                     "y": 1382
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "A",
+               "description": "BBL",
+               "keywords": [
+                  "Polymer",
+                  "synthesis",
+                  "characterization"
+               ]
+            },
+            {
+               "label": "B",
+               "description": "p(gNDI-gT2),37",
+               "keywords": [
+                  "polymer",
+                  "characterization",
+                  "material"
+               ]
+            },
+            {
+               "label": "C",
+               "description": "NDI-T2,68 from P-0 to P-100, including P-90",
+               "keywords": [
+                  "Materials",
+                  "Characterization",
+                  "NDI-T2"
+               ]
+            },
+            {
+               "label": "D",
+               "description": "PgNaN and PgNgN.38",
+               "keywords": [
+                  "1D materials",
+                  "PgNaN",
+                  "PgNgN"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_14_img_1.png": {
+      "title": "Molecular design strategies for high\u2010performance organic electrochemical transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT_material_review\\OECT_material_review",
+      "image_url": [],
+      "figure_name": "page_14_img_1.png",
+      "full_caption": "FIGURE 8 Summary of OECT performances via (A) \u03bcC*/1/\u03c4, and (B) \u03bcC*/|Vth| plot for the polymers in Table 1. The polymers in the upper right corner of both images have better overall properties. The response speed is limited to 1\u2013105 Hz for OECTs and shows a large variation among polymers. Although the \u03bcC* value of many polymers is outstanding, the |Vth| of the device is unsatisfactory, which is more obvious in D\u2013A polymers. OECT, organic electrochemical transistor",
+      "figure_path": "output\\figures\\page_14_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 896,
+            "width": 2098,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 2098,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 896
+               },
+               {
+                  "x": 2098,
+                  "y": 896
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 2098,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 896
+                  },
+                  {
+                     "x": 2098,
+                     "y": 896
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_17_img_1.png": {
+      "title": "Molecular design strategies for high\u2010performance organic electrochemical transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT_material_review\\OECT_material_review",
+      "image_url": [],
+      "figure_name": "page_17_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_17_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 356,
+            "width": 272,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 272,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 356
+               },
+               {
+                  "x": 272,
+                  "y": 356
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 272,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 356
+                  },
+                  {
+                     "x": 272,
+                     "y": 356
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_17_img_2.png": {
+      "title": "Molecular design strategies for high\u2010performance organic electrochemical transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT_material_review\\OECT_material_review",
+      "image_url": [],
+      "figure_name": "page_17_img_2.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_17_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.1706874966621399,
+            "height": 355,
+            "width": 264,
+            "geometry": [
+               {
+                  "x": 8,
+                  "y": 0
+               },
+               {
+                  "x": 272,
+                  "y": 0
+               },
+               {
+                  "x": 8,
+                  "y": 355
+               },
+               {
+                  "x": 272,
+                  "y": 355
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 8,
+                     "y": 0
+                  },
+                  {
+                     "x": 272,
+                     "y": 0
+                  },
+                  {
+                     "x": 8,
+                     "y": 355
+                  },
+                  {
+                     "x": 272,
+                     "y": 355
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   }
+}

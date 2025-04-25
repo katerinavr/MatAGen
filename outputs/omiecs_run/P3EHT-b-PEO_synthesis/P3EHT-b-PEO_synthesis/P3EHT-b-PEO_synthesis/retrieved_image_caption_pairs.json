@@ -1,0 +1,84 @@
+{
+  "records": [
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\P3EHT-b-PEO_synthesis\\P3EHT-b-PEO_synthesis\\P3EHT-b-PEO_synthesis\\images_folder\\page_1_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3EHT-b-PEO_synthesis\\P3EHT-b-PEO_synthesis"
+    },
+    {
+      "full_caption": "Figure 1. (a) Synthetic scheme of P3EHT-b-PEO block copolymer. (b) SEC traces of homopolymers and P3EHT-b-PEO (see Supporting Information for more details).",
+      "caption": "Synthetic scheme of P3EHT-b-PEO block copolymer.",
+      "caption_summary": [
+        "Block copolymer",
+        "Synthesis",
+        "P3EHT-b-PEO"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\P3EHT-b-PEO_synthesis\\P3EHT-b-PEO_synthesis\\P3EHT-b-PEO_synthesis\\images_folder\\page_2_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3EHT-b-PEO_synthesis\\P3EHT-b-PEO_synthesis"
+    },
+    {
+      "full_caption": "Figure 1. (a) Synthetic scheme of P3EHT-b-PEO block copolymer. (b) SEC traces of homopolymers and P3EHT-b-PEO (see Supporting Information for more details).",
+      "caption": "SEC traces of homopolymers and P3EHT-b-PEO (see Supporting Information for more details).",
+      "caption_summary": [
+        "SEC",
+        "homopolymers",
+        "P3EHT-b-PEO"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\P3EHT-b-PEO_synthesis\\P3EHT-b-PEO_synthesis\\P3EHT-b-PEO_synthesis\\images_folder\\page_2_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3EHT-b-PEO_synthesis\\P3EHT-b-PEO_synthesis"
+    },
+    {
+      "full_caption": "Figure 3. (a) Heating scan and (b) cooling scan SAXS curves of P3EHT-b-PEO (r = 0). The inset in (a) is the full width half-maximum (fwhm) of the primary scattering peak vs T (temperature) marking the indication of order-disorder phase transition. The melt-state gyroid morphology (90 °C) is destroyed ('breakout') upon crystallization of the P3EHT block at 28 °C. The filled triangles denote peaks corresponding to the gyroid morphology, and the unfilled triangles denote peaks corresponding to the lamellar morphology. (c) Bright-field transmission electron microscopy (TEM) image of P3EHT-b-PEO (r = 0) shows that the 'breakout' morphology is lamellar at room temperature. Contrast arises from the higher electron density in the semicrystalline P3EHT (dark phase).",
+      "caption": "Bright-field transmission electron microscopy (TEM) image of P3EHT-b-PEO (r = 0) shows that the 'breakout' morphology is lamellar at room temperature. Contrast arises from the higher electron density in the semicrystalline P3EHT (dark phase).",
+      "caption_summary": [
+        "Bright-field TEM",
+        "lamellar morphology",
+        "semicrystalline P3EHT"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\P3EHT-b-PEO_synthesis\\P3EHT-b-PEO_synthesis\\P3EHT-b-PEO_synthesis\\images_folder\\page_4_img_1_c.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3EHT-b-PEO_synthesis\\P3EHT-b-PEO_synthesis"
+    },
+    {
+      "full_caption": "Figure 3. (a) Heating scan and (b) cooling scan SAXS curves of P3EHT-b-PEO (r = 0). The inset in (a) is the full width half-maximum (fwhm) of the primary scattering peak vs T (temperature) marking the indication of order-disorder phase transition. The melt-state gyroid morphology (90 °C) is destroyed ('breakout') upon crystallization of the P3EHT block at 28 °C. The filled triangles denote peaks corresponding to the gyroid morphology, and the unfilled triangles denote peaks corresponding to the lamellar morphology. (c) Bright-field transmission electron microscopy (TEM) image of P3EHT-b-PEO (r = 0) shows that the 'breakout' morphology is lamellar at room temperature. Contrast arises from the higher electron density in the semicrystalline P3EHT (dark phase).",
+      "caption": "Cooling scan SAXS curves of P3EHT-b-PEO (r = 0). The melt-state gyroid morphology (90 °C) is destroyed ('breakout') upon crystallization of the P3EHT block at 28 °C. The filled triangles denote peaks corresponding to the gyroid morphology, and the unfilled triangles denote peaks corresponding to the lamellar morphology.",
+      "caption_summary": [
+        "SAXS",
+        "gyroid",
+        "lamellar"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\P3EHT-b-PEO_synthesis\\P3EHT-b-PEO_synthesis\\P3EHT-b-PEO_synthesis\\images_folder\\page_4_img_1_b.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3EHT-b-PEO_synthesis\\P3EHT-b-PEO_synthesis"
+    },
+    {
+      "full_caption": "Figure 3. (a) Heating scan and (b) cooling scan SAXS curves of P3EHT-b-PEO (r = 0). The inset in (a) is the full width half-maximum (fwhm) of the primary scattering peak vs T (temperature) marking the indication of order-disorder phase transition. The melt-state gyroid morphology (90 °C) is destroyed ('breakout') upon crystallization of the P3EHT block at 28 °C. The filled triangles denote peaks corresponding to the gyroid morphology, and the unfilled triangles denote peaks corresponding to the lamellar morphology. (c) Bright-field transmission electron microscopy (TEM) image of P3EHT-b-PEO (r = 0) shows that the 'breakout' morphology is lamellar at room temperature. Contrast arises from the higher electron density in the semicrystalline P3EHT (dark phase).",
+      "caption": "Heating scan SAXS curves of P3EHT-b-PEO (r = 0). The inset in (a) is the full width half-maximum (fwhm) of the primary scattering peak vs T (temperature) marking the indication of order-disorder phase transition.",
+      "caption_summary": [
+        "SAXS",
+        "phase transition",
+        "temperature"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\P3EHT-b-PEO_synthesis\\P3EHT-b-PEO_synthesis\\P3EHT-b-PEO_synthesis\\images_folder\\page_4_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3EHT-b-PEO_synthesis\\P3EHT-b-PEO_synthesis"
+    },
+    {
+      "full_caption": "Figure 4. (a) Cooling run SAXS curves of P3EHT-b-PEO (r = 0.125). The lamellar morphology is retained after 12 h at 28 °C where P3EHT block fully crystallizes (confined crystallization). (b) Bright-field TEM image of P3EHT-b-PEO (r = 0.125) at room temperature indicating a high degree of crystallinity, with the higher electron density in the semicrystalline P3EHT (dark phase).",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\P3EHT-b-PEO_synthesis\\P3EHT-b-PEO_synthesis\\P3EHT-b-PEO_synthesis\\images_folder\\page_5_img_1_d.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3EHT-b-PEO_synthesis\\P3EHT-b-PEO_synthesis"
+    },
+    {
+      "full_caption": "Figure 4. (a) Cooling run SAXS curves of P3EHT-b-PEO (r = 0.125). The lamellar morphology is retained after 12 h at 28 °C where P3EHT block fully crystallizes (confined crystallization). (b) Bright-field TEM image of P3EHT-b-PEO (r = 0.125) at room temperature indicating a high degree of crystallinity, with the higher electron density in the semicrystalline P3EHT (dark phase).",
+      "caption": "Cooling run SAXS curves of P3EHT-b-PEO (r = 0.125). The lamellar morphology is retained after 12 h at 28 °C where P3EHT block fully crystallizes (confined crystallization).",
+      "caption_summary": [
+        "SAXS",
+        "lamellar morphology",
+        "crystallization"
+      ],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\P3EHT-b-PEO_synthesis\\P3EHT-b-PEO_synthesis\\P3EHT-b-PEO_synthesis\\images_folder\\page_5_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3EHT-b-PEO_synthesis\\P3EHT-b-PEO_synthesis"
+    }
+  ]
+}

@@ -1,0 +1,900 @@
+All Donor Electrochromic Polymers Tunable across the Visible
+Spectrum via Random Copolymerization
+Dylan T. Christiansen,†
+Shunsuke Ohtani,‡
+Yoshiki Chujo,‡ Aimée L. Tomlinson,§
+and John R. Reynolds*,†
+†School of Chemistry and Biochemistry, School of Materials Science and Engineering, Center for Organic Photonics and Electronics,
+and Georgia Tech Polymer Network, Georgia Institute of Technology, Atlanta, Georgia 30332, United States
+‡Department of Polymer Chemistry, Graduate School of Engineering, Kyoto University, Katsura, Nishikyo-ku, Kyoto 615-8510,
+Japan
+§Department of Chemistry/Biochemistry, University of North Georgia, Dahlonega, Georgia 30597, United States
+*
+S Supporting Information
+ABSTRACT: A series of conjugated, random terpolymers based on
+all donor repeat units are prepared via direct (hetero)arylation
+polymerization yielding cathodically colored electrochromic poly-
+mers that span the visible spectrum. The polymers are based on
+repeat units of a dialkylthiophene, a 3,4-propylenedioxythiophene,
+and dimers of 3,4-ethylenedioxythiophene. Using a tight feedback
+loop between computational and experimental chemistry, the colors
+of these polymers are controllably tuned to cover the visible
+spectrum by controlling the monomer ratios. Examinations via
+ultraviolet−visible−near-infrared spectroscopy, diﬀerential pulse
+voltammetry, spectroelectrochemistry, and colorimetry show that,
+while these systems can vary greatly in their spectral properties, their
+oxidation potentials are all low (<0.5 V vs Ag/AgCl). The color
+tunability allows for access to neutral state orange, red, pink, magenta, purple, and blue polymers of various hues with a* values
+ranging from 22 to 35 and b* values ranging from −44 to 45, while maintaining highly transmissive oxidized states. This
+approach allows access to a wide gamut of colors with only three monomers while aﬀording materials with low oxidation
+potentials and high contrast.
+■INTRODUCTION
+The history of research of fully conjugated cathodically colored
+electrochromic polymers (ECPs) has yielded materials that
+span the entire color palette.1−7 These polymers can be spray
+cast to form vividly colored ﬁlms that upon oxidation become
+highly transmissive in the visible region. Methods of creating
+the wide range of possible colors involve incorporating
+numerous monomers in well-deﬁned sequences. Random
+copolymerization has been used in many approaches as a
+means of accessing neutral colors such as brown and black in
+electrochromic polymers.8−12 With random copolymerization
+broad, low-energy (long wavelength) absorbances are often
+achieved by incorporating an electron-accepting moiety in the
+polymer backbone. The drawback of donor−acceptor systems
+is that they tend to have higher oxidation potentials caused by
+the accepting moiety, which limits optical memory (i.e.,
+bistability) in the oxidized form, thus making their usefulness
+in devices limited. A new approach that circumvents the
+challenges caused by incorporating electron acceptors into the
+main chain is developed in this work. When considering how
+to make color tunable systems without acceptors, it is
+important to understand the design of materials for speciﬁc
+regions of the color space (Figure 1a). All donor systems can
+cover three of the four regions shown here (wide, mid, and low
+gap), as green materials, having a highly negative b*, require
+dual absorption. The current state of the art all donor polymers
+were examined to develop an approach to make a color tunable
+system (Figure 1b).
+Yellow ECPs, which utilize 1,4-phenylene linkages, have
+historically suﬀered from high oxidation potentials and low
+redox stability over 100 switches, which is attributed to the
+open sites on the aryl ring leaving the materials susceptible to
+nucleophilic attack or radical−radical coupling.13,14 The
+incorporation of a dialkylthiophene (DAT) as a monomer of
+high redox stability in wide-gap electrochromic polymers has
+helped to overcome this challenge.15 For absorbing the middle
+of the spectrum, the homopolymer of 3,4-propylenedioxythio-
+pohene (ProDOT) with 2-ethyl-hexyloxy side chains oﬀers a
+high solubility and a low oxidation potential for switching as
+Special Issue: Jean-Luc Bredas Festschrift
+Received:
+April 1, 2019
+Revised:
+May 28, 2019
+Published: June 14, 2019
+Article
+pubs.acs.org/cm
+Cite This: Chem. Mater. 2019, 31, 6841−6849
+© 2019 American Chemical Society
+6841
+DOI: 10.1021/acs.chemmater.9b01293
+Chem. Mater. 2019, 31, 6841−6849
+Downloaded via ARGONNE NATL LABORATORY on September 26, 2024 at 20:27:06 (UTC).
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+well as a high contrast.16 This purple polymer also shows
+exemplary contrast, redox stability, and switching speed. For
+narrow-gap polymers, typically donor−acceptor systems are
+used. The drawbacks to these systems, as previously discussed,
+have been circumvented with the advent of a soluble poly(3,4-
+ethylenedioxythiophene) (PEDOT) analogue that covers the
+narrow-gap portion of the visible spectrum.17 In this polymer,
+the biEDOT portion of the polymer brings electron richness
+and planarity, narrowing the optical gap and covering the low-
+energy portion of the visible region.
+In this work, the combination of DAT, ProDOT, and
+biEDOT into random copolymers has been demonstrated to
+give broadly tunable electrochromic materials that span the
+visible spectrum (Figure 2). Using a tight feedback loop
+between theory and experiment, the ratios of these monomers
+are demonstrated to tune the absorbance of the resulting
+polymer, thus giving access to a wide range of colors in their
+neutral forms, while all being easily oxidized to highly
+transmissive states. Utilizing only these three monomers in
+diﬀerent ratios provides access to polymers that are orange,
+red, pink, magenta, purple, and blue, all of which can be
+oxidized to a highly transmissive form. Relative to the 1:1:1
+ratio, an increased DAT content blue-shifts the absorbance of
+the polymer and an increased biEDOT content red-shifts the
+absorbance, while ProDOT brings a high solubility and a low
+oxidation potential. As detailed in Figure 2, the nomenclature
+of the polymers discussed in this work will be determined by
+the ratio of the monomers in the polymerization reaction. For
+example, a random copolymerization that is two parts DAT (x)
+and one part each ProDOT (y) and biEDOT (z) is xyz211.
+■RESULTS AND DISCUSSION
+Quantum Chemical Calculations. To elucidate the
+impact on the number and identity of aryl ring incorporation
+on the color of these systems, density functional theory (DFT)
+is utilized. We have found that pairing the mPW1PBE
+functional with the cc-PVDZ basis set, while including
+dichloromethane through the conductor polarizable calculation
+model (CPCM), provides excellent correlation to experimental
+data.18−21 A set of multiheterocycle oligomers is chosen to
+Figure 1. (a) L*a*b* color space cross section and (b) all donor polymers used for inspiration that show tunability across the visible spectrum.
+Figure 2. Repeat unit structure of random copolymers and target polymer ratios that allow access to an array of colors that span the visible
+spectrum and oxidize to transmissive forms.
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.9b01293
+Chem. Mater. 2019, 31, 6841−6849
+6842
+
+model possible random copolymers with varying degrees of
+conjugation and ring strain and to assess their inﬂuence on the
+predicted color (a complete list of the structures studied is
+given in Figure S1, and their calculated frontier molecular
+orbitals are provided in Figure S2). For each system, the
+neutral geometry is optimized followed by a frequency
+calculation to ensure the most stable conﬁguration is produced.
+Time-dependent density functional theory (TD-DFT) calcu-
+lations were then applied to these structures to simulate the
+ultraviolet−visible (UV−vis) spectra and predict the color of
+these oligomers.
+An examination of the calculated HOMO−LUMO gaps
+provides direction with respect to the potential spectral breath,
+and the absorption tunability limits, which may be attained by
+the copolymers. As the strain along the backbone is increased
+by adding DAT units, the HOMO−LUMO gap is widened.
+Oligomers possessing the most DAT are particularly
+inﬂuenced by distortion from planarity causing a gap increase.
+The most twisted species (those that most deviate from the
+deﬁned 180° antiplanar geometry) are DPPD, DPDP, DEED,
+and DPDPDP with values as low as 128.3°, 156.9°, 136.9°, and
+46.8° and ﬁrst excited state gaps of 3.09, 2.98, 2.72, and 2.53
+eV, respectively (see Table 1). DPDPDP is the only 6-aryl
+group oligomer to be greatly impacted by inclusion of DAT as
+compared to PDEEDP, which possesses a ﬁrst excited state gap
+that is nearly 0.2 eV smaller. The remaining oligomers
+demonstrate that, as the conjugation is extended, the ﬁrst
+excited state gap is reduced as seen in EEPPEE and PEEPEE.
+The calculated UV−vis spectra of these systems provide
+visible peak maxima that vary from 401 to 560 nm, spanning a
+diﬀerence of nearly 160 nm. Of the 15 generated excited states,
+only three or four possess oscillator strengths of ≥0.1 (see
+Table S1). This observation shows that the absorptions are
+dominated by a small number of optical transitions of
+signiﬁcance. Aside from the locations of the peak maxima,
+there are no diﬀerences in the predicted peak shapes in the
+visible range as shown in Figure 3 (for more detailed
+comparisons, see Figures S3 and S4). In fact, members of
+the set of oligomers possessing ﬁve aryl groups produce nearly
+identical spectra and have peak maxima that diﬀer by only 24
+nm. The four- and six-aryl group structures are more impacted
+by torsion along the backbone and have ranges of 72 and 70
+nm, respectively.
+The simulated UV−vis spectra of these molecules also
+provide a means of estimating the color that may be produced
+in the CIE L*a*b* color space.22−24 Positive a* and b* values
+represent red and yellow, respectively, while the negative
+values indicate blue and green, respectively. As the magnitudes
+of a* and b* increase, the color becomes more saturated, and
+as one traverses between color points, the hue changes. L*
+depicts the lightness: a value of 0 would be black, and a value
+Table 1. Calculated First Excited State Gaps, Dihedral Angles, and Visible Excited State Wavelengths and Oscillator Strengths
+for the Target Oligomersa
+dihedral angles
+peak maximum
+oligomer
+Eg (eV)
+Ar1−Ar2
+Ar2−Ar3
+Ar3−Ar4
+Ar4−Ar5
+Ar5−Ar6
+λ (nm)
+f
+PEEP
+2.62
+179.7
+178.1
+179.7
+473.3
+1.60
+EEPEE
+2.38
+176.4
+178.7
+178.7
+176.4
+521.1
+2.03
+PEEPEE
+2.22
+179.3
+177.9
+179.0
+179.7
+178.5
+559.6
+2.48
+DEED
+2.72
+156.9
+179.7
+156.9
+456.6
+1.54
+EEDEE
+2.45
+178.3
+168.4
+168.4
+178.3
+506.4
+1.94
+EEPPEE
+2.23
+178.4
+179.2
+175.9
+179.2
+178.4
+556.7
+2.44
+DPPD
+3.09
+46.8
+175.6
+48.9
+401.3
+1.27
+PDPDP
+2.49
+169.1
+176.9
+176.9
+169.1
+497.4
+1.79
+PDEEDP
+2.35
+163.7
+163.0
+179.6
+163.0
+163.7
+528.6
+2.25
+DPDP
+2.98
+137.2
+160.9
+136.9
+416.2
+1.19
+DPDPD
+2.48
+178.6
+179.9
+179.9
+178.6
+500.8
+1.90
+DPDPDP
+2.53
+166.2
+179.1
+178.2
+169.9
+128.3
+489.9
+2.51
+aThe legend indicates how the structures and their corresponding dihedral angles are deﬁned.
+Figure 3. Calculated UV−vis−NIR absorbance of the model
+chromophores showing the limits of spectral breadth accessible for
+this approach. The side chains for each monomer have been reduced
+to avoid local energy minima caused by many degrees of free rotation
+of the alkyl chains.
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.9b01293
+Chem. Mater. 2019, 31, 6841−6849
+6843
+
+of 100 would be white. The L*, a*, and b* coordinates are
+translated to the RGB color space to display the predicted
+color of the oligomers (both sets of coordinates are listed in
+Table S2) and are indicated in Figure 4 along with their
+corresponding HOMO, LUMO, and ﬁrst excited state gap
+values. The predicted colors give a range of the color space that
+could be reached experimentally and show that these
+monomers have the potential to cover wide-gap, midgap, and
+narrow-gap absorptions.
+Polymer Synthesis and Characterization. The ap-
+proach to the polymer syntheses is shown in Scheme 1. The
+polymers were prepared via direct (hetero)arylation polymer-
+ization where the ratios of the monomers allow for tuning the
+color. The stoichiometry is balanced by using the proper
+proportions of ProDOT and ProDOT-Br2 such that the aryl
+bond carbon−bromide:carbon−hydrogen ratio is equal to 1.
+The polymerizations were carried out under an argon
+atmosphere over 24 h followed by precipitation into methanol,
+followed by puriﬁcation via Soxhlet extraction, during which
+they were washed with methanol, acetone, hexanes, and
+chloroform. The chloroform fraction was retained and
+underwent palladium and potassium scavenging before being
+reprecipitated, ﬁltered, and dried to aﬀord the desired product.
+Polymerization yields were all ≥67%, and GPC-estimated
+molecular weights were all ≥10 kDa, relative to a polystyrene
+standard. These molecular weights show that the polymers are
+above the eﬀective conjugation length and would not undergo
+a change in color if they were longer. Polymerization yields and
+GPC-estimated molecular weights are collated in Table 2, and
+all GPC traces are shown in Figure S5. As one can see by the
+elemental analysis results, the polymers tend to have high
+sulfur percentages and low carbon and hydrogen percentages.
+Figure 4. Corresponding HOMO, LUMO, and ﬁrst excited state gaps are provided for the calculated oligomers. They are arranged in order of
+decreasing ﬁrst excited state gap. The RGB color is provided as for each data set, and the corresponding (a* and b*) values are given below the
+corresponding energy level diagram.
+Scheme 1. Synthetic Approach to Random Copolymerization through Direct Arylation
+Table 2. GPC-Estimated Polymer Molecular Weights and
+Polymerization Yields
+polymer
+yield (%)
+Mn (kDa)
+Đ
+xyz211
+77
+13
+1.4
+xyz221
+72
+33
+2.0
+xyz212
+69
+15
+1.8
+xyz111
+75
+22
+2.4
+xyz121
+81
+26
+3.4
+xyz131
+69
+17
+2.3
+xyz122
+67
+15
+1.7
+xyz112
+70
+10
+1.5
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.9b01293
+Chem. Mater. 2019, 31, 6841−6849
+6844
+
+This is indicative of incorporation of more biEDOT into the
+structure compared to what the monomer feed ratio would
+suggest. This is can be explained by the relative reactivity and
+solubility of the monomers. DAT is less reactive and is
+incorporated into the copolymer at a rate slower than that of
+biEDOT, so there is signiﬁcant copolymer drift early in the
+polymerization. As more biEDOT is added to the polymer, the
+polymer becomes less soluble due to the lack of side chains
+present in the monomer. This leads to polymers with the most
+biEDOT to precipitate from the polymerization and thus
+incorporate less DAT and ProDOT into the structure.
+Synthetic procedures, nuclear magnetic resonance spectra,
+and elemental analyses are also given in the Supporting
+Information. All polymers are soluble in CHCl3 upward of 5
+mg/mL allowing for airbrush spray processing and drop
+casting for ﬁlm formation.
+Electrochemical and Optical Properties. For electro-
+chemical characterization, polymer ﬁlms are drop cast onto Pt
+button electrodes from 2 mg/mL solutions (3 μL) in CHCl3 to
+cover the electrode. Cyclic voltammetry (CV) and diﬀerential
+pulse voltammetry (DPV) were performed on ﬁlms of the
+polymers to gain insight into how the diﬀerent comonomers
+aﬀected the electrochemical properties of the resulting
+polymers. Representative CV and DPV data are provided in
+Figure 5 for xyz211 and xyz112. Upon examination of the
+electrochemical oxidation of the materials via DPV, the onset
+of oxidation follows the expected trend of polymers containing
+more DAT having higher oxidation potentials (CV and DPV
+data for polymers can be found in Figure S6). As monomer
+ratios are tuned, the resultant onsets of oxidation (Eox), as
+determined by DPV, range from −81 to 476 mV relative to
+Ag/AgCl giving a large window for tuning the desired
+electrochemical switching potential (Eox values are listed in
+Table 3).
+The Eox for xyz111 was found at 141 mV, and as more DAT
+is added to the polymer structure, the Eox increases. xyz221 has
+an Eox of 444 mV, and the highest Eox was found for xyz211
+(476 mV). This observation is due to DAT being the least
+electron rich of the monomers and also providing the most
+interring strain. More interring strain causes a higher energy
+barrier to planarize the conjugated backbone upon oxidation.
+Conversely, biEDOT provides more planarity and electron
+richness to the polymer compared to DAT; thus, increasing the
+ratio of biEDOT in the structure lowers the oxidation
+potential. This is seen in xyz122 having an Eox of −46 mV
+and xyz112 being the polymer with the lowest Eox (−81 mV).
+For optical characterization, polymer ﬁlms were airbrush
+sprayed onto glass/ITO electrodes from 3 mg/mL solutions in
+1:1 toluene/chloroform mixtures. All of the polymers form
+smooth ﬁlms with little scattering. Films are sprayed to an
+absorbance of 1.00 ± 0.05 in the as-cast state. UV−vis spectra
+are measured in a 0.5 M TBAPF6/PC electrolyte solution after
+10 CV cycles, as the polymers swell with electrolyte upon
+oxidation and their absorbance intensities and λmax may
+change. Upon electrochemical conditioning of electrochromic
+polymers in general, the UV−vis absorption typically exhibits a
+characteristic red-shift of the absorbance as the polymer’s
+conjugation in the charge neutral state is extended compared
+to that of the as-cast ﬁlm. Absorbance values are normalized
+due to the increase or decrease in absorbance upon redox
+cycling. Figure 6 shows the UV−vis spectra of the ﬁlms of the
+polymers after break-in. These polymers’ absorptions show a
+range of λmax from 458 to 586 nm and optical gaps (Eg) from
+1.70 to 2.04 eV, which covers a large portion of the visible
+spectrum.
+Using xyz111 as a reference point for each case, the λmax is
+539 nm and the Eg is 1.82 eV. It is evident that the amount of
+DAT in the polymer has a profound eﬀect on both the λmax and
+the Eg, as evidenced in Figure 6a. This monomer causes the
+most interring strain, so for every DAT inserted into the
+backbone there is a point of torsion that decreases π−π overlap
+between rings, decreasing the eﬀective conjugation length and
+Figure 5. Comparison of (a) CV and (b) DPV of xyz211 and xyz112 on a Pt button electrode in 0.5 M TBAPF6/PC. Reference: 450 mV vs Fc/
+Fc+.
+Table 3. Optical and Electrochemical Properties of Studied
+ECPs
+polymer
+Eoxa (mV) vs Ag/AgCl
+λmax (nm)b
+Egb,c (eV)
+xyz211
+476
+458
+2.04
+xyz221
+444
+495
+1.88
+xyz212
+163
+512
+1.83
+xyz111
+141
+539
+1.82
+xyz121
+101
+550
+1.81
+xyz131
+105
+553
+1.77
+xyz122
+−46
+568
+1.75
+xyz112
+−81
+586
+1.70
+aAs determined by DPV as the onset of the current for oxidation.
+bFor ﬁlms cast onto ITO-coated glass measured after 10 CV cycles.
+cBandgap determined by the onset of light absorption.
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.9b01293
+Chem. Mater. 2019, 31, 6841−6849
+6845
+
+widening the optical gap. With xyz211 having the highest ratio
+of DAT, it has the highest energy and broadest absorption with
+the λmax at 458 nm and an Eg of 2.04 eV. As the DAT content is
+reduced compared to that of xyz111, there is a red-shifting in
+the λmax to 568 nm and a narrowing of the peak to give an Eg of
+1.75 eV for xyz122.
+The ratio of biEDOT has an analogous, but opposite, trend
+compared to that observed for DAT (Figure 6c). As the
+biEDOT ratio is increased, there is a red-shifting of the λmax to
+495, 539, and 586 nm for xyz221, xyz111, and xyz112,
+respectively. The Eg as a function of biEDOT content also
+shows an analogous and opposite trend compared to that of
+DAT, where there is a decrease in Eg as the biEDOT ratio is
+increased from 1.88 eV for xyz221 to 1.70 eV for xyz112.
+The ProDOT content has the smallest eﬀect on controlling
+the absorption (Figure 6b), which is expected because its
+contribution to visible light absorption lies between those of
+the other monomers in terms of electron richness and interring
+planarity. As the ProDOT ratio is increased, there is a red-
+shifting of the λmax to 512, 539, 550, and 553 nm for xyz212,
+xyz111, xyz121, and xyz131, respectively. The high-energy
+absorption of xyz212 is likely due to the high content of DAT,
+and as the ProDOT content is further increased, there is a
+smaller red-shifting eﬀect, such as the small 3 nm shift between
+xyz121 and xyz131. A similar trend is also seen when
+examining the Eg as a function of ProDOT content. As the
+amount of ProDOT is increased, there is a small range in the
+Eg from 1.83 eV for xyz212 to 1.77 eV for xyz131. By this
+point, the optical properties of the polymer are dominated by
+the ProDOT repeat units.
+Color and Switching Properties. Spectroelectrochemical
+measurements were performed on polymer ﬁlms sprayed on
+ITO glass in 0.5 M TBAPF6/PC with a platinum counter
+electrode and a Ag/AgCl reference electrode. Representative
+results for xyz211 and xyz112 are detailed in Figure 7 along
+with photographs of the ﬁlms held at potential extremes
+dictated by the CV results (spectroelectrochemistry results for
+all polymers are shown in Figures S7 and S8). In these
+experiments, a three-electrode cell is set up in a cuvette where
+the polymer ﬁlm cast on ITO acts as the working electrode.
+The UV−vis spectrum is then monitored as a function of the
+potential applied to the ﬁlm. As one can see in the ﬁgure, the
+neutral state absorption in the visible region is depleted upon
+oxidation, and there is an increase in the charged state
+absorption in the near infrared. After complete oxidation, all of
+the polymers show high transmissivity across the visible range.
+This transition between colored and transmissive can also be
+observed in the photography. A chronoabsorptometry experi-
+ment was carried out to show the contrast of the polymers as a
+function of switching speed and repeated switching (Figures S9
+and S10). In this experiment, the transmittance at λmax is
+monitored as the ﬁlms are oxidized and reduced at varying
+Figure 6. Neutral state spectra on ITO-coated glass comparing the eﬀects of varying the amount of (a) DAT, (b) ProDOT, and (c) biEDOT while
+holding the ratios of the other monomer constant.
+Figure 7. Spectroelectrochemistry and photographs of (a) xyz211 and (b) xyz112. The applied potential was increased in 100 mV steps between
+the fully colored and bleached states in 0.5 M TBAPF6/PC.
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.9b01293
+Chem. Mater. 2019, 31, 6841−6849
+6846
+
+frequencies. This experiment demonstrates that these polymers
+can undergo repeated switching while maintaining their optical
+contrast.
+In this work, the color is quantiﬁed using the L*a*b* color
+space. Colorimetry is used to demonstrate the control over
+color with this material design approach. The a*b* color space
+results for the polymer ﬁlms are presented graphically in Figure
+8 with the L*a*b* values listed in Table 4. In this ﬁgure, the
+polymer neutral states are circled and lines are used to guide
+the eye between the 100 mV spaced measurement points.
+Neutral state colorimetry values are provided as stars for the
+homopolymer PProDOT and two alternating polymers PDAT-
+ProDOT and PProDOT-biEDOT in Figure 8 for comparison.
+It is apparent that all of these new random copolymers are less
+saturated than the polymers with the more regular repeat units,
+as they are broader in absorbance. In the neutral state, after a
+redox switching equilibration, the polymers had L* values
+ranging from 32 to 66, a* values ranging from 22 to 35, and b*
+values ranging from −44 to 45, thus traversing the wide-gap,
+midgap, and low-gap color spaces mentioned in Figure 1a. In
+the oxidized states, the polymers exhibited high L* values
+ranging from 86 to 91 coupled with low a* values ranging from
+−3 to −1 and b* values ranging from −7 to −4, thus giving
+forms that are both highly transmissive and color neutral.
+Taking a closer look at the “hurricane-like” tracking analysis
+for all of the polymer ﬁlms, we ﬁnd an observed initial increase
+in b* as the ﬁlm begins to be oxidized. As the polymers are
+random in repeat pattern, the individual chromophores along
+the chain will have varying oxidation potentials, where those
+with the lowest oxidation potential contain the most DOT and
+least DAT and would, therefore, have the most red-shifted
+(blue light transmitting) absorptions. As the polymer is
+oxidized, these chromophores are oxidized ﬁrst, leaving the
+highest oxidation potential and widest-gap chromophores,
+consisting of the portions with the most DAT incorporated
+into the chain, in their neutral form. The polymers with the
+most DOT in their structure have more gradual increases in b*
+as they begin to oxidize, while the polymers with the least
+DOT have small sharp jumps in b* at the beginning of
+oxidation.
+Upon examination of the breadth of the color space that can
+be obtained through this approach, the most logical reference
+point is the polymer containing equal parts of each monomer.
+The neutral state for xyz111 has a* and b* values of 33 and
+−16, respectively, which is observed as a purple-pink color in
+the photography. As more ProDOT is added to the structure,
+there is a decrease in the a* and b* values for xyz121 (30 and
+−24, respectively), which continues to xyz131 (25 and 26,
+respectively). This shift in values is indicative of a stronger blue
+hue, and a decrease in the red hue of the ﬁlm, which is
+observed in the photography as the ﬁlms appearing less pink
+and more purple relative to xyz111. As more biEDOT is added
+to the polymer structures, there is less interring strain, further
+red-shifting absorbance, and more blue light is transmitted. For
+xyz122 (23 and −33, respectively) and xyz112 (22 and −44,
+respectively), there is a large decrease in b* values leading to
+very blue-colored ﬁlms seen in the photography. Similar to the
+electrochemistry, the incorporation of DAT has the largest
+eﬀect on the colorimetry. As more DAT is added to the
+structure, there is more interring strain, further blue-shifting
+absorbance, and more red light is transmitted. This causes an
+increase in the b* value, indicating that the color is becoming
+less blue. The colorimetry values for xyz212 (35 and 2,
+respectively) are near the positive a* axis, observed as a red
+color in the photography. Replacing the biEDOT with the
+slightly more strained ProDOT in xyz221 (34 and 16,
+respectively) leads to an increase in a* values leading to
+light red ﬁlm. For xyz211 (23 and 45, respectively), there is a
+large increase in a* values, as the polymer structure is
+dominated by the high-strain monomer, leading to an orange
+ﬁlm. With this, it is evident that a broad portion of color space,
+from the low-gap region through the midgap region and into
+the high-gap region, can be accessed with three simple repeat
+units randomly distributed along the chain.
+Color Mixing. To demonstrate how we can expand the
+spectral and color range accessible by these ECPs, two of these
+polymers were combined in diﬀerent ratios to create broadly
+absorbing blends (Figure 9). In this experiment, solution
+mixtures of xyz211 and xyz112 at 3 mg/mL were mixed in
+ratios of 1:1 and 2:1 and ﬁlms were cast via airbrush spraying.
+Figure 8. Colorimetric analysis and neutral state photographs of all of
+the polymers. Plots of a*b* color coordinates at increasing applied
+potentials in 0.1 V steps from neutral (−0.5 V vs Ag/AgCl) to fully
+oxidized states (1.2 V vs Ag/AgCl). Measurements were performed in
+0.5 M TBAPF6/PC of ﬁlms spray-cast onto ITO/glass electrodes.
+Table 4. Color and Switching Properties of All Donor
+Random Electrochromic Polymers
+polymer
+Δ%Ta,b
+(at λmax)
+neutral state L*, a*, b*
+color coordinatesb
+oxidized state L*, a*,
+b* color coordinatesb
+xyz211
+62
+66, 23, 45
+84, −2, −6
+xyz221
+70
+62, 34, 16
+91, −2, −7
+xyz212
+67
+44, 35, 2
+86, −2, −6
+xyz111
+64
+40, 33, −16
+87, −2, −5
+xyz121
+66
+47, 30, −24
+90, −1, −4
+xyz131
+62
+46, 25, −26
+89, −3, −5
+xyz122
+60
+42, 23, −33
+88, −2, −5
+xyz112
+58
+32, 22, −44
+88, −2, −6
+PDAT-
+ProDOTc
+65
+87, 23, 59
+90, −2, −4
+PProDOTc
+71
+42, 58, −38
+89, −3, −3
+PProDOT-
+biEDOTc
+71
+34, 10, −56
+83, −3, −5
+aDiﬀerence between transmittance measured in fully oxidized and
+fully neutral states (all ﬁlms sprayed to 10%T at λmax). bFor a ﬁlm cast
+onto ITO-coated glass. cValues from refs 15 and 17.
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.9b01293
+Chem. Mater. 2019, 31, 6841−6849
+6847
+
+The spectroelectrochemical and photographic results show the
+potential for solution phase color mixing of these polymers,
+similar to inks, to create ﬁlms of low color saturation, which are
+of interest for eyewear and tinting applications.25,26 The
+limitations of this all donor approach to creating black-to-clear
+switching electrochromics are evident in Figure 9a. This 1:1
+mixture of polymers gives a conformal absorption between
+∼450 and ∼650 nm, but some red and blue light transmit at
+the peripheries of the visible range causing the material to
+appear purple. Without the donor−acceptor interaction that is
+commonly used to synthesize low-gap conjugated polymers
+that can absorb well into the near-infrared region, a full
+absorption across the visible spectrum is not feasible. In
+general, randomly distributed chromophore black and brown
+ECPs containing donor−acceptor moieties also provide a
+challenge where the portion of the chain with the largest donor
+content bleaches well before the other portions, leaving a green
+intermediate state that is not desirable for eyewear and tinting
+applications.
+As shown in Figure 9b, the 2:1 ratio of xyz211 and xyz112
+aﬀords an aesthetically pleasing orange/brown-to-transmissive
+switching blend, albeit with a golden intermediate color, prior
+to the transition to the light blue transmissive form.
+Considering eyewear and tinting applications of electro-
+chromism, complex colors that include browns and various
+shades of red that can be attained through the mixing process
+are desirable.
+■CONCLUSION
+Electrochromism is a ﬁeld where small changes in color can
+have large ramiﬁcations on the applicability of the material into
+devices. In this work, a tight feedback loop of calculations and
+experiments guided the design of randomly structured
+electrochromic polymers with internal chromophores that
+cover most of the visible spectrum with only three monomer
+repeat units. TDDFT was used to predict the spectral breadth
+that could be attained with these systems and guided the
+synthesis. The synthesized materials allowed for a large portion
+of the low-, mid-, and high-gap color space to be covered while
+maintaining low oxidation potentials, high contrast, and long-
+lasting optical memory. These properties allow the materials to
+function with a low level of power consumption as desired for
+systems with portable (e.g., battery) power supplies. Their
+mixture and subsequent processing into broadly absorbing
+blends have potential in applications where muted and
+secondary colors are beneﬁcial.
+■ASSOCIATED CONTENT
+*
+S
+Supporting Information
+The Supporting Information is available free of charge on the
+ACS Publications website at DOI: 10.1021/acs.chemma-
+ter.9b01293.
+Supplementary ﬁgures, including details about the
+calculations and characterization for all polymers using
+gel permeation chromatography, cyclic voltammetry,
+diﬀerential pulse voltammetry, spectroelectrochemistry,
+and kinetic switching; experimental details; synthetic
+procedures; and primary characterizations (PDF)
+■AUTHOR INFORMATION
+Corresponding Author
+*E-mail: reynolds@chemistry.gatech.edu.
+ORCID
+Dylan T. Christiansen: 0000-0002-8673-5870
+Shunsuke Ohtani: 0000-0002-8669-1089
+John R. Reynolds: 0000-0002-7417-4869
+Notes
+The authors declare the following competing ﬁnancial
+interest(s): Electrochromic polymer technology developed at
+the Georgia Institute of Technology has been licensed to NXN
+Licensing. J.R.R. serves as a consultant to NXN Licensing.
+Figure 9. Spectroelectrochemistry and photography of mixtures of xyz211 and xyz122 at ratios of (a) 1:1 and (b) 2:1. The applied potential was
+increased in 100 mV steps between the fully colored and bleached states in 0.5 M TBAPF6/PC. The photographs were taken from −600 to 1000
+mV in 200 mV steps to show the progression of the color change as a function of applied potential.
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.9b01293
+Chem. Mater. 2019, 31, 6841−6849
+6848
+
+■ACKNOWLEDGMENTS
+Funding from the Air Force Oﬃce of Scientiﬁc Research
+(FA9550-18-1-0184 and FA9550-18-1-0034) and NXN
+Licensing is greatly appreciated.
+■REFERENCES
+(1) Dyer, A. L.; Thompson, E. J.; Reynolds, J. R. Completing the
+Color Palette with Spray-Processable Polymer Electrochromics. ACS
+Appl. Mater. Interfaces 2011, 3 (6), 1787−1795.
+(2) Yen, H. J.; Chen, C. J.; Liou, G. S. Flexible Multi-Colored
+Electrochromic and Volatile Polymer Memory Devices Derived from
+Starburst Triarylamine-Based Electroactive Polyimide. Adv. Funct.
+Mater. 2013, 23 (42), 5307−5316.
+(3) Sönmez, G.; Schwendeman, I.; Schottland, P.; Zong, K.;
+Reynolds, J. R. N-Substituted Poly(3,4-Propylenedioxypyrrole)s:
+High Gap and Low Redox Potential Switching Electroactive and
+Electrochromic Polymers. Macromolecules 2003, 36 (3), 639−647.
+(4) Özkut, M. I.; Algi, M. P.; Öztaş, Z.; Algi, F.; Önal, A. M.;
+Cihaner, A. Members of CMY Color Space: Cyan and Magenta
+Colored Polymers Based on Oxadiazole Acceptor Unit. Macro-
+molecules 2012, 45 (2), 729−734.
+(5) Sonmez, G.; Sonmez, H. B.; Shen, C. K. F.; Jost, R. W.; Rubin,
+Y.; Wudl, F. A Processable Green Polymeric Electrochromic.
+Macromolecules 2005, 38 (3), 669−675.
+(6) Yen, H.-J.; Liou, G.-S. Solution-Processable Triarylamine-Based
+Electroactive High Performance Polymers for Anodically Electro-
+chromic Applications. Polym. Chem. 2012, 3 (2), 255−264.
+(7) İçli, M.; Pamuk, M.; Algi, F.; Önal, A. M.; Cihaner, A. Donor−
+Acceptor Polymer Electrochromes with Tunable Colors and Perform-
+ance. Chem. Mater. 2010, 22 (13), 4034−4044.
+(8) Shi, P.; Amb, C. M.; Knott, E. P.; Thompson, E. J.; Liu, D. Y.;
+Mei, J.; Dyer, A. L.; Reynolds, J. R. Broadly Absorbing Black to
+Transmissive Switching Electrochromic Polymers. Adv. Mater. 2010,
+22 (44), 4949−4953.
+(9) Yen, H.-J.; Lin, K.-Y.; Liou, G.-S. Transmissive to Black
+Electrochromic Aramids with High Near-Infrared and Multicolor
+Electrochromism Based on Electroactive Tetraphenylbenzidine Units.
+J. Mater. Chem. 2011, 21 (17), 6230−6237.
+(10) Xu, L.; Zhao, J.; Cui, C.; Liu, R.; Liu, J.; Wang, H.
+Electrosynthesis and Characterization of an Electrochromic Material
+from Poly (1, 4-Bis (2-Thienyl)-Benzene) and Its Application in
+Electrochromic Devices. Electrochim. Acta 2011, 56 (7), 2815−2822.
+(11) Xu, Z.; Chen, X.; Mi, S.; Zheng, J.; Xu, C. Solution-Processable
+Electrochromic Red-to-Transmissive Polymers with Tunable Neutral
+State Colors, High Contrast and Enhanced Stability. Org. Electron.
+2015, 26, 129−136.
+(12) Lee, J. Y.; Han, S.-Y.; Lim, B.; Nah, Y.-C. A Novel Quinoxaline-
+Based Donor-Acceptor Type Electrochromic Polymer. J. Ind. Eng.
+Chem. 2019, 70, 380−384.
+(13) Kerszulis, J. A.; Amb, C. M.; Dyer, A. L.; Reynolds, J. R. Follow
+the Yellow Brick Road: Structural Optimization of Vibrant Yellow-to-
+Transmissive Electrochromic Conjugated Polymers. Macromolecules
+2014, 47 (16), 5462−5469.
+(14) Cao, K.; Shen, D. E.; Österholm, A. M.; Kerszulis, J. A.;
+Reynolds, J. R. Tuning Color, Contrast, and Redox Stability in High
+Gap Cathodically Coloring Electrochromic Polymers. Macromolecules
+2016, 49 (22), 8498−8507.
+(15) Christiansen, D. T.; Reynolds, J. R. A Fruitful Usage of a
+Dialkylthiophene Comonomer for Redox Stable Wide-Gap Cathodi-
+cally Coloring Electrochromic Polymers. Macromolecules 2018, 51
+(22), 9250−9258.
+(16) Reeves, B. D.; Grenier, C. R. G.; Argun, A. A.; Cirpan, A.;
+McCarley, T. D.; Reynolds, J. R. Spray Coatable Electrochromic
+Dioxythiophene Polymers with High Coloration Efficiencies. Macro-
+molecules 2004, 37 (20), 7559−7569.
+(17) Ponder, J. F., Jr; Österholm, A. M.; Reynolds, J. R. Designing a
+Soluble PEDOT Analogue without Surfactants or Dispersants.
+Macromolecules 2016, 49 (6), 2106−2111.
+(18) Barone, V.; Cossi, M. Quantum Calculation of Molecular
+Energies and Energy Gradients in Solution by a Conductor Solvent
+Model. J. Phys. Chem. A 1998, 102 (11), 1995−2001.
+(19) Cossi, M.; Rega, N.; Scalmani, G.; Barone, V. Energies,
+Structures, and Electronic Properties of Molecules in Solution with
+the C-PCM Solvation Model. J. Comput. Chem. 2003, 24 (6), 669−
+681.
+(20) Wheeler, D. L.; Rainwater, L. E.; Green, A. R.; Tomlinson, A. L.
+Modeling Electrochromic Poly-Dioxythiophene-Containing Materials
+through TDDFT. Phys. Chem. Chem. Phys. 2017, 19 (30), 20251−
+20258.
+(21) Christiansen, D. T.; Wheeler, D. L.; Tomlinson, A. L.;
+Reynolds, J. R. Electrochromism of Alkylene-Linked Discrete
+Chromophore Polymers with Broad Radical Cation Light Absorption.
+Polym. Chem. 2018, 9, 3055−3066.
+(22) Mortimer, R. J.; Varley, T. S. Quantification of Colour Stimuli
+through the Calculation of CIE Chromaticity Coordinates and
+Luminance Data for Application to Insitu Colorimetry Studies of
+Electrochromic Materials. Displays 2011, 32 (1), 35−44.
+(23) McLaren, K. XIIIThe Development of the CIE 1976 (L* A*
+B*) Uniform Colour Space and Colour-difference Formula. J. Soc.
+Dyers Colour. 1976, 92 (9), 338−341.
+(24) Robertson, A. R. The CIE 1976 Color-difference Formulae.
+Color Res. Appl. 1977, 2 (1), 7−11.
+(25) Bulloch, R. H.; Kerszulis, J. A.; Dyer, A. L.; Reynolds, J. R. An
+Electrochromic Painter’s Palette: Color Mixing via Solution Co-
+Processing. ACS Appl. Mater. Interfaces 2015, 7, 1406−1412.
+(26) Österholm, A. M.; Shen, D. E.; Kerszulis, J. A.; Bulloch, R. H.;
+Kuepfert, M.; Dyer, A. L.; Reynolds, J. R. Four Shades of Brown:
+Tuning of Electrochromic Polymer Blends toward High-Contrast
+Eyewear. ACS Appl. Mater. Interfaces 2015, 7 (3), 1413−1421.
+Chemistry of Materials
+Article
+DOI: 10.1021/acs.chemmater.9b01293
+Chem. Mater. 2019, 31, 6841−6849
+6849
+

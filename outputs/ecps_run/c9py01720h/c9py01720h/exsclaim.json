@@ -1,0 +1,711 @@
+{
+   "page_1_img_1.png": {
+      "title": "c9py01720h 2173..2181 ++",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_c9py01720h\\c9py01720h",
+      "image_url": [],
+      "figure_name": "page_1_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_1_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.13774222135543823,
+            "height": 77,
+            "width": 405,
+            "geometry": [
+               {
+                  "x": 1,
+                  "y": 0
+               },
+               {
+                  "x": 406,
+                  "y": 0
+               },
+               {
+                  "x": 1,
+                  "y": 77
+               },
+               {
+                  "x": 406,
+                  "y": 77
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 0
+                  },
+                  {
+                     "x": 406,
+                     "y": 0
+                  },
+                  {
+                     "x": 1,
+                     "y": 77
+                  },
+                  {
+                     "x": 406,
+                     "y": 77
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_2_img_1.png": {
+      "title": "c9py01720h 2173..2181 ++",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_c9py01720h\\c9py01720h",
+      "image_url": [],
+      "figure_name": "page_2_img_1.png",
+      "full_caption": "Scheme 1. Chemical structures of the XDOT polymers synthesized via either direct (hetero)arylation polymerization or oxidative polymerization, with varying steric interactions between adjacent units.",
+      "figure_path": "output\\figures\\page_2_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 630,
+            "width": 1696,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1696,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 630
+               },
+               {
+                  "x": 1696,
+                  "y": 630
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1696,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 630
+                  },
+                  {
+                     "x": 1696,
+                     "y": 630
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_4_img_1.png": {
+      "title": "c9py01720h 2173..2181 ++",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_c9py01720h\\c9py01720h",
+      "image_url": [],
+      "figure_name": "page_4_img_1.png",
+      "full_caption": "Fig. 1 (a) Photographs of the polymer films in their pristine, post break-in (\u22120.5 V), and oxidized states (+0.8 V), all on ITO-coated glass in a three-electrode cell setup. (b) Normalized absorption spectra comparing all five polymers in their charge neutral form on ITO-coated glass in 0.5 M TBAPF6/PC electrolyte solution normalized to an optical density of 1.0. (c) Transmittance spectra (without normalization) of the polymers in the both the charge neutral state and oxidized states.",
+      "figure_path": "output\\figures\\page_4_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9600945115089417,
+            "height": 604,
+            "width": 749,
+            "geometry": [
+               {
+                  "x": 1153,
+                  "y": 2
+               },
+               {
+                  "x": 1902,
+                  "y": 2
+               },
+               {
+                  "x": 1153,
+                  "y": 606
+               },
+               {
+                  "x": 1902,
+                  "y": 606
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1153,
+                     "y": 2
+                  },
+                  {
+                     "x": 1902,
+                     "y": 2
+                  },
+                  {
+                     "x": 1153,
+                     "y": 606
+                  },
+                  {
+                     "x": 1902,
+                     "y": 606
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Transmittance spectra (without normalization) of the polymers in the both the charge neutral state and oxidized states.",
+            "keywords": [
+               "Transmittance",
+               "Polymers",
+               "Oxidation"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9572276473045349,
+            "height": 593,
+            "width": 794,
+            "geometry": [
+               {
+                  "x": 358,
+                  "y": 2
+               },
+               {
+                  "x": 1152,
+                  "y": 2
+               },
+               {
+                  "x": 358,
+                  "y": 595
+               },
+               {
+                  "x": 1152,
+                  "y": 595
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 358,
+                     "y": 2
+                  },
+                  {
+                     "x": 1152,
+                     "y": 2
+                  },
+                  {
+                     "x": 358,
+                     "y": 595
+                  },
+                  {
+                     "x": 1152,
+                     "y": 595
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Normalized absorption spectra comparing all five polymers in their charge neutral form on ITO-coated glass in 0.5 M TBAPF6/PC electrolyte solution normalized to an optical density of 1.0.",
+            "keywords": [
+               "Absorption spectra",
+               "polymers",
+               "electrolyte."
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9259989857673645,
+            "height": 585,
+            "width": 259,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 259,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 585
+               },
+               {
+                  "x": 259,
+                  "y": 585
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 259,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 585
+                  },
+                  {
+                     "x": 259,
+                     "y": 585
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Photographs of the polymer films in their pristine, post break-in (\u22120.5 V), and oxidized states (+0.8 V), all on ITO-coated glass in a three-electrode cell setup.",
+            "keywords": [
+               "Polymer films",
+               "Electrochemical states",
+               "ITO glass"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_5_img_1.png": {
+      "title": "c9py01720h 2173..2181 ++",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_c9py01720h\\c9py01720h",
+      "image_url": [],
+      "figure_name": "page_5_img_1.png",
+      "full_caption": "Fig. 2  Spectroelectrochemistry of (a) P(LAcDOT), (b) P(LAcDOT-BaCDOT), and (c) P(BaCDOT). The applied potential was increased by 100 mV steps between the fully colored (black lines) and bleached states (red lines), with intermediate potentials shown in grey, in 0.5 M TBAPF6/PC. (d) Colorimetry (a*b*) diagram of the polymers, showing the color changes occurring during electrochemical oxidation, with the separate point indicating the pristine state.",
+      "figure_path": "output\\figures\\page_5_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9654373526573181,
+            "height": 630,
+            "width": 815,
+            "geometry": [
+               {
+                  "x": 940,
+                  "y": 3
+               },
+               {
+                  "x": 1755,
+                  "y": 3
+               },
+               {
+                  "x": 940,
+                  "y": 633
+               },
+               {
+                  "x": 1755,
+                  "y": 633
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 940,
+                     "y": 3
+                  },
+                  {
+                     "x": 1755,
+                     "y": 3
+                  },
+                  {
+                     "x": 940,
+                     "y": 633
+                  },
+                  {
+                     "x": 1755,
+                     "y": 633
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9613171219825745,
+            "height": 619,
+            "width": 810,
+            "geometry": [
+               {
+                  "x": 7,
+                  "y": 708
+               },
+               {
+                  "x": 817,
+                  "y": 708
+               },
+               {
+                  "x": 7,
+                  "y": 1327
+               },
+               {
+                  "x": 817,
+                  "y": 1327
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 7,
+                     "y": 708
+                  },
+                  {
+                     "x": 817,
+                     "y": 708
+                  },
+                  {
+                     "x": 7,
+                     "y": 1327
+                  },
+                  {
+                     "x": 817,
+                     "y": 1327
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9607456922531128,
+            "height": 635,
+            "width": 815,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 3
+               },
+               {
+                  "x": 815,
+                  "y": 3
+               },
+               {
+                  "x": 0,
+                  "y": 638
+               },
+               {
+                  "x": 815,
+                  "y": 638
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 3
+                  },
+                  {
+                     "x": 815,
+                     "y": 3
+                  },
+                  {
+                     "x": 0,
+                     "y": 638
+                  },
+                  {
+                     "x": 815,
+                     "y": 638
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9514554738998413,
+            "height": 539,
+            "width": 719,
+            "geometry": [
+               {
+                  "x": 916,
+                  "y": 710
+               },
+               {
+                  "x": 1635,
+                  "y": 710
+               },
+               {
+                  "x": 916,
+                  "y": 1249
+               },
+               {
+                  "x": 1635,
+                  "y": 1249
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 916,
+                     "y": 710
+                  },
+                  {
+                     "x": 1635,
+                     "y": 710
+                  },
+                  {
+                     "x": 916,
+                     "y": 1249
+                  },
+                  {
+                     "x": 1635,
+                     "y": 1249
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_6_img_1.png": {
+      "title": "c9py01720h 2173..2181 ++",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_c9py01720h\\c9py01720h",
+      "image_url": [],
+      "figure_name": "page_6_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_6_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.1887395977973938,
+            "height": 717,
+            "width": 979,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 979,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 717
+               },
+               {
+                  "x": 979,
+                  "y": 717
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 979,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 717
+                  },
+                  {
+                     "x": 979,
+                     "y": 717
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": null,
+                  "geometry": [
+                     {
+                        "x": 587,
+                        "y": 217
+                     },
+                     {
+                        "x": 587,
+                        "y": 224
+                     },
+                     {
+                        "x": 659,
+                        "y": 224
+                     },
+                     {
+                        "x": 659,
+                        "y": 217
+                     }
+                  ],
+                  "confidence": 0.6338604688644409,
+                  "length": 72,
+                  "label_line_distance": -1
+               }
+            ],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_7_img_1.png": {
+      "title": "c9py01720h 2173..2181 ++",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\ecps_run\\__temp_c9py01720h\\c9py01720h",
+      "image_url": [],
+      "figure_name": "page_7_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_7_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.13525131344795227,
+            "height": 793,
+            "width": 977,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 2
+               },
+               {
+                  "x": 977,
+                  "y": 2
+               },
+               {
+                  "x": 0,
+                  "y": 795
+               },
+               {
+                  "x": 977,
+                  "y": 795
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 2
+                  },
+                  {
+                     "x": 977,
+                     "y": 2
+                  },
+                  {
+                     "x": 0,
+                     "y": 795
+                  },
+                  {
+                     "x": 977,
+                     "y": 795
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   }
+}

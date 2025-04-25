@@ -1,0 +1,1639 @@
+{
+   "page_1_img_1.png": {
+      "title": "In\u00a0Liquido Computation with Electrochemical Transistors and Mixed Conductors for Intelligent Bioelectronics",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Liquido_Computatio\\Liquido_Computatio",
+      "image_url": [],
+      "figure_name": "page_1_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_1_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.12251568585634232,
+            "height": 44,
+            "width": 223,
+            "geometry": [
+               {
+                  "x": 2,
+                  "y": 0
+               },
+               {
+                  "x": 225,
+                  "y": 0
+               },
+               {
+                  "x": 2,
+                  "y": 44
+               },
+               {
+                  "x": 225,
+                  "y": 44
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 2,
+                     "y": 0
+                  },
+                  {
+                     "x": 225,
+                     "y": 0
+                  },
+                  {
+                     "x": 2,
+                     "y": 44
+                  },
+                  {
+                     "x": 225,
+                     "y": 44
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_2_img_1.png": {
+      "title": "In\u00a0Liquido Computation with Electrochemical Transistors and Mixed Conductors for Intelligent Bioelectronics",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Liquido_Computatio\\Liquido_Computatio",
+      "image_url": [],
+      "figure_name": "page_2_img_1.png",
+      "full_caption": "Figure 1. a) Sketch of the traditional working mechanisms of today\u2019s medical implants compared to the ideal smart implants. b) Overview of the applications that OECTs have been demonstrated for, organized by the level of biological implementation and adaptive complexity. c) Comparison between gating MOSFETs in traditional electronics, where each channel is only influenced by its \u201cparent\u201d gate and OECTs, where each gate will affect every channel immersed in the same medium (square and circles indicate positive and negative charges, while pink and white denote the charges coming from one transistor or the other).",
+      "figure_path": "output\\figures\\page_2_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9599288702011108,
+            "height": 823,
+            "width": 773,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 5
+               },
+               {
+                  "x": 773,
+                  "y": 5
+               },
+               {
+                  "x": 0,
+                  "y": 828
+               },
+               {
+                  "x": 773,
+                  "y": 828
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 5
+                  },
+                  {
+                     "x": 773,
+                     "y": 5
+                  },
+                  {
+                     "x": 0,
+                     "y": 828
+                  },
+                  {
+                     "x": 773,
+                     "y": 828
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Sketch of the traditional working mechanisms of today\u2019s medical implants compared to the ideal smart implants.",
+            "keywords": [
+               "Medical Implants",
+               "Smart Technology",
+               "Mechanisms"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9550520777702332,
+            "height": 835,
+            "width": 790,
+            "geometry": [
+               {
+                  "x": 781,
+                  "y": 6
+               },
+               {
+                  "x": 1571,
+                  "y": 6
+               },
+               {
+                  "x": 781,
+                  "y": 841
+               },
+               {
+                  "x": 1571,
+                  "y": 841
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 781,
+                     "y": 6
+                  },
+                  {
+                     "x": 1571,
+                     "y": 6
+                  },
+                  {
+                     "x": 781,
+                     "y": 841
+                  },
+                  {
+                     "x": 1571,
+                     "y": 841
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Overview of the applications that OECTs have been demonstrated for, organized by the level of biological implementation and adaptive complexity.",
+            "keywords": [
+               "OECTs",
+               "applications",
+               "biology"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9224314093589783,
+            "height": 830,
+            "width": 470,
+            "geometry": [
+               {
+                  "x": 1581,
+                  "y": 7
+               },
+               {
+                  "x": 2051,
+                  "y": 7
+               },
+               {
+                  "x": 1581,
+                  "y": 837
+               },
+               {
+                  "x": 2051,
+                  "y": 837
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1581,
+                     "y": 7
+                  },
+                  {
+                     "x": 2051,
+                     "y": 7
+                  },
+                  {
+                     "x": 1581,
+                     "y": 837
+                  },
+                  {
+                     "x": 2051,
+                     "y": 837
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Comparison between gating MOSFETs in traditional electronics, where each channel is only influenced by its \u201cparent\u201d gate and OECTs, where each gate will affect every channel immersed in the same medium (square and circles indicate positive and negative charges, while pink and white denote the charges coming from one transistor or the other).",
+            "keywords": [
+               "MOSFETs",
+               "OECTs",
+               "gating"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_4_img_1.png": {
+      "title": "In\u00a0Liquido Computation with Electrochemical Transistors and Mixed Conductors for Intelligent Bioelectronics",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Liquido_Computatio\\Liquido_Computatio",
+      "image_url": [],
+      "figure_name": "page_4_img_1.png",
+      "full_caption": "Figure 2. Sketch of the basic OMIECs-based device architectures used throughout this work to describe the electrical properties of single and multi-device systems and consist: a) a single OMIEC channel in the dry state behaves as a resistor, b) a single OMIEC channel in electrolyte behaves as a resistor, c) an OMIEC/electrolyte interface dominated by a Randles circuit, d) an OECT, e) an OECT with gate, f) two channels without \u201cproper\u201d gate, and g) two neighboring OECTs.",
+      "figure_path": "output\\figures\\page_4_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9631636142730713,
+            "height": 728,
+            "width": 863,
+            "geometry": [
+               {
+                  "x": 1175,
+                  "y": 537
+               },
+               {
+                  "x": 2038,
+                  "y": 537
+               },
+               {
+                  "x": 1175,
+                  "y": 1265
+               },
+               {
+                  "x": 2038,
+                  "y": 1265
+               }
+            ],
+            "subfigure_label": {
+               "text": "g",
+               "geometry": [
+                  {
+                     "x": 1175,
+                     "y": 537
+                  },
+                  {
+                     "x": 2038,
+                     "y": 537
+                  },
+                  {
+                     "x": 1175,
+                     "y": 1265
+                  },
+                  {
+                     "x": 2038,
+                     "y": 1265
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "two neighboring OECTs",
+            "keywords": [
+               "OECTs",
+               "neighboring",
+               "devices"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9546810984611511,
+            "height": 459,
+            "width": 537,
+            "geometry": [
+               {
+                  "x": 540,
+                  "y": 3
+               },
+               {
+                  "x": 1077,
+                  "y": 3
+               },
+               {
+                  "x": 540,
+                  "y": 462
+               },
+               {
+                  "x": 1077,
+                  "y": 462
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 540,
+                     "y": 3
+                  },
+                  {
+                     "x": 1077,
+                     "y": 3
+                  },
+                  {
+                     "x": 540,
+                     "y": 462
+                  },
+                  {
+                     "x": 1077,
+                     "y": 462
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "a single OMIEC channel in electrolyte behaves as a resistor",
+            "keywords": [
+               "OMIEC",
+               "electrolyte",
+               "resistor"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9407132267951965,
+            "height": 495,
+            "width": 495,
+            "geometry": [
+               {
+                  "x": 1008,
+                  "y": 5
+               },
+               {
+                  "x": 1503,
+                  "y": 5
+               },
+               {
+                  "x": 1008,
+                  "y": 500
+               },
+               {
+                  "x": 1503,
+                  "y": 500
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1008,
+                     "y": 5
+                  },
+                  {
+                     "x": 1503,
+                     "y": 5
+                  },
+                  {
+                     "x": 1008,
+                     "y": 500
+                  },
+                  {
+                     "x": 1503,
+                     "y": 500
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "an OMIEC/electrolyte interface dominated by a Randles circuit",
+            "keywords": [
+               "Randles circuit",
+               "OMIEC",
+               "electrolyte"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9341413378715515,
+            "height": 515,
+            "width": 426,
+            "geometry": [
+               {
+                  "x": 1623,
+                  "y": 3
+               },
+               {
+                  "x": 2049,
+                  "y": 3
+               },
+               {
+                  "x": 1623,
+                  "y": 518
+               },
+               {
+                  "x": 2049,
+                  "y": 518
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 1623,
+                     "y": 3
+                  },
+                  {
+                     "x": 2049,
+                     "y": 3
+                  },
+                  {
+                     "x": 1623,
+                     "y": 518
+                  },
+                  {
+                     "x": 2049,
+                     "y": 518
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "an OECT",
+            "keywords": [
+               "OECT",
+               "materials",
+               "characterization"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9321892857551575,
+            "height": 646,
+            "width": 511,
+            "geometry": [
+               {
+                  "x": 6,
+                  "y": 528
+               },
+               {
+                  "x": 517,
+                  "y": 528
+               },
+               {
+                  "x": 6,
+                  "y": 1174
+               },
+               {
+                  "x": 517,
+                  "y": 1174
+               }
+            ],
+            "subfigure_label": {
+               "text": "e",
+               "geometry": [
+                  {
+                     "x": 6,
+                     "y": 528
+                  },
+                  {
+                     "x": 517,
+                     "y": 528
+                  },
+                  {
+                     "x": 6,
+                     "y": 1174
+                  },
+                  {
+                     "x": 517,
+                     "y": 1174
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "an OECT with gate",
+            "keywords": [
+               "OECT",
+               "gate electrode",
+               "characterization"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9272927045822144,
+            "height": 467,
+            "width": 449,
+            "geometry": [
+               {
+                  "x": 1,
+                  "y": 4
+               },
+               {
+                  "x": 450,
+                  "y": 4
+               },
+               {
+                  "x": 1,
+                  "y": 471
+               },
+               {
+                  "x": 450,
+                  "y": 471
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 4
+                  },
+                  {
+                     "x": 450,
+                     "y": 4
+                  },
+                  {
+                     "x": 1,
+                     "y": 471
+                  },
+                  {
+                     "x": 450,
+                     "y": 471
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "a single OMIEC channel in the dry state behaves as a resistor",
+            "keywords": [
+               "OMIEC",
+               "resistor",
+               "dry state"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9242365956306458,
+            "height": 710,
+            "width": 529,
+            "geometry": [
+               {
+                  "x": 581,
+                  "y": 527
+               },
+               {
+                  "x": 1110,
+                  "y": 527
+               },
+               {
+                  "x": 581,
+                  "y": 1237
+               },
+               {
+                  "x": 1110,
+                  "y": 1237
+               }
+            ],
+            "subfigure_label": {
+               "text": "f",
+               "geometry": [
+                  {
+                     "x": 581,
+                     "y": 527
+                  },
+                  {
+                     "x": 1110,
+                     "y": 527
+                  },
+                  {
+                     "x": 581,
+                     "y": 1237
+                  },
+                  {
+                     "x": 1110,
+                     "y": 1237
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "two channels without \u201cproper\u201d gate",
+            "keywords": [
+               "Transistors",
+               "Gate",
+               "Channels"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_6_img_1.png": {
+      "title": "In\u00a0Liquido Computation with Electrochemical Transistors and Mixed Conductors for Intelligent Bioelectronics",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Liquido_Computatio\\Liquido_Computatio",
+      "image_url": [],
+      "figure_name": "page_6_img_1.png",
+      "full_caption": "Figure 3. Example of a two-gate-three-channel configuration. a) Sketch of the physical circuit with PEDOT:PSS channels of 100 \u00d7 200 \u03bcm biased at Vg = 500 mV and gates of 500 \u00d7 500 \u03bcm in water:NaCl 100 mM. The color code of each component is maintained in the plots below for data visualization. b\u2013d) Drain currents of the three channels under the effect of one gate pulsing (b,c) and with both gates pulsing simultaneously (d).",
+      "figure_path": "output\\figures\\page_6_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9773396849632263,
+            "height": 525,
+            "width": 661,
+            "geometry": [
+               {
+                  "x": 706,
+                  "y": 227
+               },
+               {
+                  "x": 1367,
+                  "y": 227
+               },
+               {
+                  "x": 706,
+                  "y": 752
+               },
+               {
+                  "x": 1367,
+                  "y": 752
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 706,
+                     "y": 227
+                  },
+                  {
+                     "x": 1367,
+                     "y": 227
+                  },
+                  {
+                     "x": 706,
+                     "y": 752
+                  },
+                  {
+                     "x": 1367,
+                     "y": 752
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Drain currents of the three channels under the effect of one gate pulsing.",
+            "keywords": [
+               "Drain currents",
+               "gate pulsing",
+               "channels"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9704186916351318,
+            "height": 530,
+            "width": 644,
+            "geometry": [
+               {
+                  "x": 1407,
+                  "y": 222
+               },
+               {
+                  "x": 2051,
+                  "y": 222
+               },
+               {
+                  "x": 1407,
+                  "y": 752
+               },
+               {
+                  "x": 2051,
+                  "y": 752
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 1407,
+                     "y": 222
+                  },
+                  {
+                     "x": 2051,
+                     "y": 222
+                  },
+                  {
+                     "x": 1407,
+                     "y": 752
+                  },
+                  {
+                     "x": 2051,
+                     "y": 752
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Drain currents of the three channels with both gates pulsing simultaneously.",
+            "keywords": [
+               "Transistor",
+               "Drain Current",
+               "Dual-Gate"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9702714681625366,
+            "height": 532,
+            "width": 662,
+            "geometry": [
+               {
+                  "x": 1,
+                  "y": 220
+               },
+               {
+                  "x": 663,
+                  "y": 220
+               },
+               {
+                  "x": 1,
+                  "y": 752
+               },
+               {
+                  "x": 663,
+                  "y": 752
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 220
+                  },
+                  {
+                     "x": 663,
+                     "y": 220
+                  },
+                  {
+                     "x": 1,
+                     "y": 752
+                  },
+                  {
+                     "x": 663,
+                     "y": 752
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Drain currents of the three channels under the effect of one gate pulsing.",
+            "keywords": [
+               "Drain currents",
+               "gate pulsing",
+               "channels"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.7735575437545776,
+            "height": 171,
+            "width": 1584,
+            "geometry": [
+               {
+                  "x": 164,
+                  "y": 0
+               },
+               {
+                  "x": 1748,
+                  "y": 0
+               },
+               {
+                  "x": 164,
+                  "y": 171
+               },
+               {
+                  "x": 1748,
+                  "y": 171
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 164,
+                     "y": 0
+                  },
+                  {
+                     "x": 1748,
+                     "y": 0
+                  },
+                  {
+                     "x": 164,
+                     "y": 171
+                  },
+                  {
+                     "x": 1748,
+                     "y": 171
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Sketch of the physical circuit with PEDOT:PSS channels of 100 \u00d7 200 \u03bcm biased at Vg = 500 mV and gates of 500 \u00d7 500 \u03bcm in water:NaCl 100 mM. The color code of each component is maintained in the plots below for data visualization.",
+            "keywords": [
+               "PEDOT:PSS",
+               "circuit",
+               "NaCl"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_7_img_1.png": {
+      "title": "In\u00a0Liquido Computation with Electrochemical Transistors and Mixed Conductors for Intelligent Bioelectronics",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Liquido_Computatio\\Liquido_Computatio",
+      "image_url": [],
+      "figure_name": "page_7_img_1.png",
+      "full_caption": "Figure 4. a) Top-view on an example circuit made of OMIEC-based channels and gates with highlighted hard connections (the physical organic film bridging metal tracks) and soft connections (all the voltage-mediated interactions between each component). b) A single gate exerts a global input on a multitude of channels that, however, interact with each other. In the inset, a pair of neurons interact with global and local inputs. b) Adapted under the terms of the CC-BY Creative Commons Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0).[38] Copyright 2017, The Authors, published by Springer Nature.",
+      "figure_path": "output\\figures\\page_7_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.8397309184074402,
+            "height": 1030,
+            "width": 832,
+            "geometry": [
+               {
+                  "x": 1,
+                  "y": 0
+               },
+               {
+                  "x": 833,
+                  "y": 0
+               },
+               {
+                  "x": 1,
+                  "y": 1030
+               },
+               {
+                  "x": 833,
+                  "y": 1030
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 0
+                  },
+                  {
+                     "x": 833,
+                     "y": 0
+                  },
+                  {
+                     "x": 1,
+                     "y": 1030
+                  },
+                  {
+                     "x": 833,
+                     "y": 1030
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_9_img_1.png": {
+      "title": "In\u00a0Liquido Computation with Electrochemical Transistors and Mixed Conductors for Intelligent Bioelectronics",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Liquido_Computatio\\Liquido_Computatio",
+      "image_url": [],
+      "figure_name": "page_9_img_1.png",
+      "full_caption": "Figure 5. a) ETE-S polymerizes in-vivo due to endogenous peroxidase enzymes and hydrogen peroxide. b) Formation of OMIEC in the basal disc area of hydra polyps treated with ETE-S after 24 and 168 h of incubation. Scale bars: 500 \u03bcm (upper panel), 50 \u03bcm (lower panel). c) Bean plants roots functionalized with ETE-S resulting in a OMIEC coating on the roots epidermis; upper: plane view (scale bar: 500 \u03bcm), middle: longitudinal cross sections (scale bar: 100 \u03bcm), and lower: transversal cross sections (scale bar: 100 \u03bcm). a) Reproduced with permission.[57] Copyright 2020, Royal Society of Chemistry. b) Reproduced with permission.[59] Copyright 2022, published by Elsevier on behalf of KeAi Communications Co. Ltd. c) Reproduced with permission.[58] Copyright 2021, Royal Society of Chemistry.",
+      "figure_path": "output\\figures\\page_9_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9459781646728516,
+            "height": 819,
+            "width": 765,
+            "geometry": [
+               {
+                  "x": 481,
+                  "y": 0
+               },
+               {
+                  "x": 1246,
+                  "y": 0
+               },
+               {
+                  "x": 481,
+                  "y": 819
+               },
+               {
+                  "x": 1246,
+                  "y": 819
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 481,
+                     "y": 0
+                  },
+                  {
+                     "x": 1246,
+                     "y": 0
+                  },
+                  {
+                     "x": 481,
+                     "y": 819
+                  },
+                  {
+                     "x": 1246,
+                     "y": 819
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": null,
+                  "geometry": [
+                     {
+                        "x": 795,
+                        "y": 723
+                     },
+                     {
+                        "x": 795,
+                        "y": 734
+                     },
+                     {
+                        "x": 866,
+                        "y": 734
+                     },
+                     {
+                        "x": 866,
+                        "y": 723
+                     }
+                  ],
+                  "confidence": 0.9786990880966187,
+                  "length": 70,
+                  "label_line_distance": -1
+               },
+               {
+                  "label": null,
+                  "geometry": [
+                     {
+                        "x": 1150,
+                        "y": 352
+                     },
+                     {
+                        "x": 1150,
+                        "y": 362
+                     },
+                     {
+                        "x": 1240,
+                        "y": 362
+                     },
+                     {
+                        "x": 1240,
+                        "y": 352
+                     }
+                  ],
+                  "confidence": 0.9715670347213745,
+                  "length": 89,
+                  "label_line_distance": -1
+               },
+               {
+                  "label": null,
+                  "geometry": [
+                     {
+                        "x": 1159,
+                        "y": 719
+                     },
+                     {
+                        "x": 1159,
+                        "y": 731
+                     },
+                     {
+                        "x": 1232,
+                        "y": 731
+                     },
+                     {
+                        "x": 1232,
+                        "y": 719
+                     }
+                  ],
+                  "confidence": 0.9707540273666382,
+                  "length": 72,
+                  "label_line_distance": -1
+               },
+               {
+                  "label": null,
+                  "geometry": [
+                     {
+                        "x": 773,
+                        "y": 352
+                     },
+                     {
+                        "x": 773,
+                        "y": 362
+                     },
+                     {
+                        "x": 868,
+                        "y": 362
+                     },
+                     {
+                        "x": 868,
+                        "y": 352
+                     }
+                  ],
+                  "confidence": 0.968966007232666,
+                  "length": 95,
+                  "label_line_distance": -1
+               }
+            ],
+            "caption": "Formation of OMIEC in the basal disc area of hydra polyps treated with ETE-S after 24 and 168 h of incubation. Scale bars: 500 \u03bcm (upper panel), 50 \u03bcm (lower panel).",
+            "keywords": [
+               "OMIEC",
+               "hydra",
+               "incubation"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9324904680252075,
+            "height": 812,
+            "width": 746,
+            "geometry": [
+               {
+                  "x": 1304,
+                  "y": 0
+               },
+               {
+                  "x": 2050,
+                  "y": 0
+               },
+               {
+                  "x": 1304,
+                  "y": 812
+               },
+               {
+                  "x": 2050,
+                  "y": 812
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1304,
+                     "y": 0
+                  },
+                  {
+                     "x": 2050,
+                     "y": 0
+                  },
+                  {
+                     "x": 1304,
+                     "y": 812
+                  },
+                  {
+                     "x": 2050,
+                     "y": 812
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": null,
+                  "geometry": [
+                     {
+                        "x": 1642,
+                        "y": 214
+                     },
+                     {
+                        "x": 1642,
+                        "y": 222
+                     },
+                     {
+                        "x": 1708,
+                        "y": 222
+                     },
+                     {
+                        "x": 1708,
+                        "y": 214
+                     }
+                  ],
+                  "confidence": 0.7603516578674316,
+                  "length": 65,
+                  "label_line_distance": -1
+               },
+               {
+                  "label": null,
+                  "geometry": [
+                     {
+                        "x": 1664,
+                        "y": 469
+                     },
+                     {
+                        "x": 1664,
+                        "y": 477
+                     },
+                     {
+                        "x": 1701,
+                        "y": 477
+                     },
+                     {
+                        "x": 1701,
+                        "y": 469
+                     }
+                  ],
+                  "confidence": 0.6335962414741516,
+                  "length": 36,
+                  "label_line_distance": -1
+               },
+               {
+                  "label": null,
+                  "geometry": [
+                     {
+                        "x": 1985,
+                        "y": 213
+                     },
+                     {
+                        "x": 1985,
+                        "y": 220
+                     },
+                     {
+                        "x": 2046,
+                        "y": 220
+                     },
+                     {
+                        "x": 2046,
+                        "y": 213
+                     }
+                  ],
+                  "confidence": 0.5876861810684204,
+                  "length": 61,
+                  "label_line_distance": -1
+               }
+            ],
+            "caption": "Bean plants roots functionalized with ETE-S resulting in a OMIEC coating on the roots epidermis; upper: plane view (scale bar: 500 \u03bcm), middle: longitudinal cross sections (scale bar: 100 \u03bcm), and lower: transversal cross sections (scale bar: 100 \u03bcm).",
+            "keywords": [
+               "OMIEC coating",
+               "root functionalization",
+               "microscopy"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.8735629916191101,
+            "height": 767,
+            "width": 488,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 9
+               },
+               {
+                  "x": 488,
+                  "y": 9
+               },
+               {
+                  "x": 0,
+                  "y": 776
+               },
+               {
+                  "x": 488,
+                  "y": 776
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 9
+                  },
+                  {
+                     "x": 488,
+                     "y": 9
+                  },
+                  {
+                     "x": 0,
+                     "y": 776
+                  },
+                  {
+                     "x": 488,
+                     "y": 776
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "ETE-S polymerizes in-vivo due to endogenous peroxidase enzymes and hydrogen peroxide.",
+            "keywords": [
+               "In-vivo polymerization",
+               "peroxidase enzymes",
+               "hydrogen peroxide"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_11_img_1.png": {
+      "title": "In\u00a0Liquido Computation with Electrochemical Transistors and Mixed Conductors for Intelligent Bioelectronics",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_Liquido_Computatio\\Liquido_Computatio",
+      "image_url": [],
+      "figure_name": "page_11_img_1.png",
+      "full_caption": "Figure 6. Behavior of electrochemical networks. a) Input signals injected in a PEDOT-based electrochemical network and its Fourier transform. b) A network based on ionic currents i.e. no hard connections between input and output layers results in poor nonlinearity as shown by the output curves in time and frequency domains. c) A balance between soft and hard connections is ideal for information processing and d) a fully connected network behaves mostly linearly. \u2013 d) Adapted with permission.[34] Copyright 2021, The Authors, published by American Association for the Advancement of Science. From ref. [34]. \u00a9 The Authors, some rights reserved; exclusive licensee AAAS. Distributed under a CC BY-NC 4.0 license http://creativecommons.org/licenses/ by-nc/4.0/. Reprinted with permission from AAAS. e) Employing a delayed-feedback loop in an electrochemical network can transform a nonlinear network into a chaotic one, hence lending higher complexity to the physical system (where \u03bb is an amplification factor). f) The input voltage is plotted vs the output voltage for OECTs with different transconductance (gm), and g) its relative bifurcation plot. e\u2013g) Adapted under the terms of the CC-BY Creative Commons Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/).[71] Copyright 2021, The Authors, published by Wiley-VCH.",
+      "figure_path": "output\\figures\\page_11_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9610779285430908,
+            "height": 559,
+            "width": 618,
+            "geometry": [
+               {
+                  "x": 722,
+                  "y": 1604
+               },
+               {
+                  "x": 1340,
+                  "y": 1604
+               },
+               {
+                  "x": 722,
+                  "y": 2163
+               },
+               {
+                  "x": 1340,
+                  "y": 2163
+               }
+            ],
+            "subfigure_label": {
+               "text": "f",
+               "geometry": [
+                  {
+                     "x": 722,
+                     "y": 1604
+                  },
+                  {
+                     "x": 1340,
+                     "y": 1604
+                  },
+                  {
+                     "x": 722,
+                     "y": 2163
+                  },
+                  {
+                     "x": 1340,
+                     "y": 2163
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "The input voltage is plotted vs the output voltage for OECTs with different transconductance (gm).",
+            "keywords": [
+               "OECTs",
+               "transconductance",
+               "voltage"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9433757066726685,
+            "height": 558,
+            "width": 693,
+            "geometry": [
+               {
+                  "x": 1354,
+                  "y": 1595
+               },
+               {
+                  "x": 2047,
+                  "y": 1595
+               },
+               {
+                  "x": 1354,
+                  "y": 2153
+               },
+               {
+                  "x": 2047,
+                  "y": 2153
+               }
+            ],
+            "subfigure_label": {
+               "text": "g",
+               "geometry": [
+                  {
+                     "x": 1354,
+                     "y": 1595
+                  },
+                  {
+                     "x": 2047,
+                     "y": 1595
+                  },
+                  {
+                     "x": 1354,
+                     "y": 2153
+                  },
+                  {
+                     "x": 2047,
+                     "y": 2153
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Its relative bifurcation plot.",
+            "keywords": [
+               "Bifurcation",
+               "Plot",
+               "Analysis"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9159286022186279,
+            "height": 1564,
+            "width": 485,
+            "geometry": [
+               {
+                  "x": 1040,
+                  "y": 2
+               },
+               {
+                  "x": 1525,
+                  "y": 2
+               },
+               {
+                  "x": 1040,
+                  "y": 1566
+               },
+               {
+                  "x": 1525,
+                  "y": 1566
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1040,
+                     "y": 2
+                  },
+                  {
+                     "x": 1525,
+                     "y": 2
+                  },
+                  {
+                     "x": 1040,
+                     "y": 1566
+                  },
+                  {
+                     "x": 1525,
+                     "y": 1566
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "A balance between soft and hard connections is ideal for information processing.",
+            "keywords": [
+               "Soft-hard balance"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9088781476020813,
+            "height": 1561,
+            "width": 485,
+            "geometry": [
+               {
+                  "x": 1549,
+                  "y": 1
+               },
+               {
+                  "x": 2034,
+                  "y": 1
+               },
+               {
+                  "x": 1549,
+                  "y": 1562
+               },
+               {
+                  "x": 2034,
+                  "y": 1562
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 1549,
+                     "y": 1
+                  },
+                  {
+                     "x": 2034,
+                     "y": 1
+                  },
+                  {
+                     "x": 1549,
+                     "y": 1562
+                  },
+                  {
+                     "x": 2034,
+                     "y": 1562
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "A fully connected network behaves mostly linearly.",
+            "keywords": [
+               "Neural networks",
+               "Linear behavior"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.46032968163490295,
+            "height": 1568,
+            "width": 497,
+            "geometry": [
+               {
+                  "x": 516,
+                  "y": 3
+               },
+               {
+                  "x": 1013,
+                  "y": 3
+               },
+               {
+                  "x": 516,
+                  "y": 1571
+               },
+               {
+                  "x": 1013,
+                  "y": 1571
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 516,
+                     "y": 3
+                  },
+                  {
+                     "x": 1013,
+                     "y": 3
+                  },
+                  {
+                     "x": 516,
+                     "y": 1571
+                  },
+                  {
+                     "x": 1013,
+                     "y": 1571
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "A network based on ionic currents i.e. no hard connections between input and output layers results in poor nonlinearity as shown by the output curves in time and frequency domains.",
+            "keywords": [
+               "Ionic currents",
+               "Nonlinearity",
+               "Output curves"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.4396434426307678,
+            "height": 431,
+            "width": 724,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 1597
+               },
+               {
+                  "x": 724,
+                  "y": 1597
+               },
+               {
+                  "x": 0,
+                  "y": 2028
+               },
+               {
+                  "x": 724,
+                  "y": 2028
+               }
+            ],
+            "subfigure_label": {
+               "text": "e",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 1597
+                  },
+                  {
+                     "x": 724,
+                     "y": 1597
+                  },
+                  {
+                     "x": 0,
+                     "y": 2028
+                  },
+                  {
+                     "x": 724,
+                     "y": 2028
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Employing a delayed-feedback loop in an electrochemical network can transform a nonlinear network into a chaotic one, hence lending higher complexity to the physical system (where \u03bb is an amplification factor).",
+            "keywords": [
+               "Electrochemical",
+               "Nonlinear",
+               "Chaos"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "a",
+               "description": "Input signals injected in a PEDOT-based electrochemical network and its Fourier transform.",
+               "keywords": [
+                  "PEDOT",
+                  "electrochemical",
+                  "Fourier transform"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   }
+}

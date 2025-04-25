@@ -1,0 +1,1123 @@
+RESEARCH ARTICLE
+www.advmat.de
+Mixing Insulating Commodity Polymers with
+Semiconducting n-type Polymers Enables
+High-Performance Electrochemical Transistors
+Erica Zeglio,* Yazhou Wang, Saumey Jain, Yunfan Lin, Alan Eduardo Avila Ramirez,
+Kui Feng, Xugang Guo, Helena Ose, Gatis Mozolevskis, Damia Mawad, Wan Yue,
+Mahiar Max Hamedi, and Anna Herland*
+Diluting organic semiconductors with a host insulating polymer is used to
+increase the electronic mobility in organic electronic devices, such as thin ﬁlm
+transistors, while considerably reducing material costs. In contrast to organic
+electronics, bioelectronic devices such as the organic electrochemical
+transistor (OECT) rely on both electronic and ionic mobility for eﬃcient
+operation, making it challenging to integrate hydrophobic polymers as the
+predominant blend component. This work shows that diluting the n-type
+conjugated polymer p(N-T) with high molecular weight polystyrene (10 KDa)
+leads to OECTs with over three times better mobility-volumetric capacitance
+product (μC*) with respect to the pristine p(N-T) (from 4.3 to 13.4 F V−1
+cm−1 s−1) while drastically decreasing the amount of conjugated polymer (six
+times less). This improvement in μC* is due to a dramatic increase in
+electronic mobility by two orders of magnitude, from 0.059 to 1.3 cm2 V−1 s−1
+for p(N-T):Polystyrene 10 KDa 1:6. Moreover, devices made with this polymer
+blend show better stability, retaining 77% of the initial drain current after
+60 minutes operation in contrast to 12% for pristine p(N-T). These results
+open a new generation of low-cost organic mixed ionic-electronic conductors
+where the bulk of the ﬁlm is made by a commodity polymer.
+E. Zeglio, A. Herland
+AIMES-Center for the Advancement of Integrated Medical and
+Engineering Sciences
+Department of Neuroscience
+Karolinska Institute
+Solna 171 77, Sweden
+E-mail: erica.zeglio@mmk.su.se;aherland@kth.se
+E.Zeglio,S.Jain,Y.Lin,A.E.Avila Ramirez,A.Herland
+Division of Nanobiotechnology
+Department of Protein Science
+ScienceforLifeLaboratory
+School of Engineering Sciences in Chemistry
+Biotechnology andHealth
+KTH Royal Instituteof Technology
+Solna 171 65,Sweden
+The ORCID identiﬁcation number(s) for the author(s) of this article
+can be found under https://doi.org/10.1002/adma.202302624
+© 2024 The Authors. Advanced Materials published by Wiley-VCH
+GmbH. This is an open access article under the terms of the Creative
+Commons Attribution License, which permits use, distribution and
+reproduction in any medium, provided the original work is properly cited.
+DOI: 10.1002/adma.202302624
+1. Introduction
+Organic mixed ionic-electronic conduc-
+tors are materials that exhibit mixed elec-
+tronic and ionic conductivity, allowing a
+wide range of applications, from actua-
+tion and sensing to energy conversion and
+storage.[1,2] Their low operating voltages,
+tunable properties, and ease of process-
+ing enabled their use in bioelectronic de-
+vices such as stimulating electrodes, ion
+pumps, neuromorphic circuits, and organic
+electrochemical transistors (OECTs).[3] The
+OECT is a transducing ampliﬁer that uses
+a mixed ionic-electronic conductor in the
+form of a thin ﬁlm between source and
+drain contacts, through which electronic
+charge carriers are transported.[4,5] The con-
+centration of such charge carriers is mod-
+ulated by the penetration or extraction
+of electrolyte ions upon application of a
+gate bias. For most applications, the elec-
+trolyte is water-based, meaning that the
+E. Zeglio, W. Yue
+Wallenberg Initiative Materials Science for Sustainability
+Department of Materials and Environmental Chemistry
+Stockholm University
+Stockholm 114 18, Sweden
+E. Zeglio, M. M. Hamedi
+Digital Futures
+Stockholm SE-100 44, Sweden
+Y. Wang
+State Key Laboratory of Optoelectronic Materials and Technologies
+Key Laboratory for Polymeric Composite and Functional Materials of
+Ministry of Education
+Guangzhou Key Laboratory of Flexible Electronic Materials and Wearable
+Devices
+School of Materials Science and Engineering
+Sun Yat-sen University
+Guangzhou 510275, P. R. China
+Adv. Mater. 2024, 2302624
+2302624 (1 of 11)
+© 2024 The Authors. Advanced Materials published by Wiley-VCH GmbH
+
+www.advancedsciencenews.com
+www.advmat.de
+thin ﬁlm must adjust to the inclusion of hydrated electrolyte ions
+throughout the bulk of the material upon device switching.
+𝜋-conjugated polymers are the most common type of mixed
+ionic-electronic conductors used as core OECT components.[4,6]
+They can be classiﬁed as p- or n-type depending on their abil-
+ity to stabilize holes or electrons as charge carriers, respectively.
+While both types of materials are important for several bioelec-
+tronic applications, such as biosensors and complementary cir-
+cuits, n-type conjugated polymers had a relatively slower develop-
+ment with respect to their p-type counterpart.[7] Molecular design
+strategies have thereby been adopted to ensure that also n-type
+conjugated polymers provide a good balance of ionic and elec-
+tronic mobility and stability in OECT device operation. Examples
+include introducing new building blocks,[8] functional groups,[9]
+and balancing the number, position, and extent of side groups,
+such as glycol and alkyl side chains.[10,11] Other strategies, besides
+chemical structure modiﬁcations, include solvent engineering,
+incorporating additives, or blending with other materials to en-
+hance the overall performance of the OECT device.[12–14]
+Most eﬀorts on polymer blends for OECTs are restricted to
+charged or hydrophilic polymers used as dopants or to pro-
+vide new functionalities. Blending with charged polymer dopants
+led to some of the most remarkable examples of conducting
+polymer blends. Poly(3,4-ethylene-dioxythiophene) doped with
+poly(styrene sulfonate) PEDOT:PSS is one of the most inves-
+tigated p-type organic conductor, providing hole conductivity
+over 1000 S cm−1 and excellent ambient stability.[15] Similarly,
+a recent example of an n-type mixed ionic-electronic conductor
+S. Jain
+Division of Micro and Nanosystems
+Department of Intelligent Systems
+School of Electrical Engineering and Computer Science
+KTH Royal Institute of Technology
+Stockholm 100 44, Sweden
+K. Feng
+Academy for Advanced Interdisciplinary Studies
+Southern University of Science and Technology (SUSTech)
+Shenzhen, Guangdong 518055, China
+K. Feng, X. Guo
+Department of Materials Science and Engineering
+Southern University of Science and Technology (SUSTech)
+Shenzhen, Guangdong 518055, China
+X. Guo
+Guangdong Provincial Key Laboratory of Functional Oxide Materials and
+Devices
+Southern University of Science and Technology (SUSTech)
+Shenzhen, Guangdong 518055, China
+H. Ose, G. Mozolevskis
+Micro and nanodevices laboratory
+Institute of Solid-State Physics
+University of Latvia
+8 Kengaraga Str., Riga LV-1063, Latvia
+D. Mawad
+School of Materials Science and Engineering
+UNSW Sydney
+Sydney, New South Wales 2052, Australia
+M. M. Hamedi
+Department of Fiber and Polymer Technology
+School of Engineering Sciences in Chemistry, Biotechnology and Health
+KTH Royal Institute of Technology
+Teknikringen 56, Stockholm 100 44, Sweden
+is poly(benzimidazobenzophenanthroline):poly(ethyleneimine)
+(BBL:PEI), leading to conductivity up to 7.7 ± 0.5 S cm−1 for
+50 wt% PEI content.[12] Blending with polar insulating polymers
+introduced new functionalities, such as hydroxyl groups for bio-
+functionalization or radical groups for doping.[16,17] An exam-
+ple is the ternary blend of PEDOT:PSS with polyvinylalcohol
+(PVA).[17] However, for this blend, incorporation of the PVA com-
+ponent led to a decrease in ﬁlm conductivity and a subsequent
+degradation in OECT performance.
+Polymer blends formed by “diluting” organic semiconduc-
+tors with a “host” insulating polymer have been introduced to
+improve electronic performance, stability, and processability in
+optoelectronic devices, including organic light-emitting diodes
+(OLEDs), solar cells, and ﬁeld-eﬀect transistors (FETs).[18–22] The
+most remarkable result of integrating high concentrations of in-
+sulators into organic semiconducting ﬁlms, leading to the so-
+called “diluted organic semiconductors,” is the dramatic decrease
+in charge trapping, leading to an enhancement in charge carrier
+mobility by several orders of magnitude.[18] For example, blend-
+ing poly(3-hexylthiophene) P3HT with polystyrene (PS) resulted
+in FETs where the concentration of the semiconductor was re-
+duced to values as low as 3 wt%.[23] Such a strategy provides the
+double advantage of improving device performance while abat-
+ing material costs, considering that insulating polymers such
+as PS and polyvinyl carbazole (PVK) are commodity materials
+synthesized at a fraction of the cost compared to most organic
+semiconductors.[18]
+Despite these beneﬁts, to date, there has been no attempt
+to blend organic mixed ionic-electronic conductors with large
+amounts of insulating polymers to increase the performance
+of OECTs. The main challenge is that the high-bandgap poly-
+mers that have been tested so far as host materials, such as PS,
+PVK, and poly(9,9-di-n-octylﬂuorenyl-2,7-diyl) (PFO), are very hy-
+drophobic. While hydrophobicity is not an issue for organic elec-
+tronic devices that rely only on electronic transport, such as FETs,
+the impact of the host polymer on the mixed ionic-electronic con-
+ductivity of the ﬁlms and OECT operation is not straightforward.
+In this work, we show that dilution of the n-type semi-
+conductor p(N-T), a copolymer based on aza-substituted bis(2-
+oxoindolin-3-ylidene)-benzodifuran-dione acceptor units and
+thiophene donor units (see Figure 1a for chemical structure),
+with PS drastically increases the electronic mobility and provides
+iontronic conductivity in water. We demonstrate that this new
+generation of OECT materials, made using the diluted semi-
+conductor strategy, show better device performance and stability
+with respect to pristine conjugated polymer-only OECTs. In addi-
+tion, we elucidate the impact of the hydrophilicity and molecular
+weight of the insulator component on the mixed ionic/electronic
+conductivity of the ﬁlms.
+2. Results and Discussion
+We chose p(N-T) polymer because of its good processability, al-
+lowing the preparation of bicomponent blends from organic sol-
+vents such as chloroform and o-dichlorobenzene. OECTs made
+using p(N-T) exhibit a low threshold voltage of 0.25 V and nor-
+malized transconductance of 0.72 S cm−1 deriving from p(N-T)
+mixed ionic/electronic conductivity, with an average product of
+mobility and volumetric capacitance μC* of 4.3 F cm−1 V−1 s−1.[24]
+Adv. Mater. 2024, 2302624
+2302624 (2 of 11)
+© 2024 The Authors. Advanced Materials published by Wiley-VCH GmbH
+ 15214095, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202302624 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+www.advmat.de
+Figure 1. a) Chemical structure of p(N-T). b) Illustration of the process of blending and preparation of thin ﬁlms of the blend. c) Chemical structure of
+the insulating polymers used in this study. Transfer curves and related transconductance gm for the n-type conjugated polymer p(N-T) at increasing con-
+centrations of d) polystyrene 10 KDa (PS10K) e) polystyrene 1 KDa (PS1K), and f) poly(methyl methacrylate) 10 KDa (PMM10K). All the measurements
+were acquired for drain voltage VDS = 0.4 V with 0.1 m NaCl in water as the electrolyte. The gate was a silver pellet. The transfer curves are the average
+of a minimum of ﬁve devices. The measurements were acquired with a scan rate of 5.36 mV s−1.
+A signiﬁcant drawback of p(N-T) is the rapid decline in de-
+vice performance to 63% of the initial ON current after just 30
+min of continuous ON/OFF cycling (at drain voltage (VDS) of
+0.4 V and gate voltage (VG) ON/OFF cycles from 0 to 0.35 V),
+making it unsuitable for most applications such as sensors,
+where stable device operation is of essence to ensure reliable
+measurements.
+To fabricate diluted OECTs, we blended p(N-T) with increasing
+amounts of insulating polymers, prepared by mixing stock solu-
+tions of 10 g L−1 p(N-T) with 50 g L−1 insulating polymer at diﬀer-
+ent ratio in chloroform:o-dichlorobenzene (10:1 v/v, see Figure 1b
+and Table S1, Supporting Information). To study the impact of
+the “host” material on device performance, we chose three types
+of insulating polymer: polystyrene 10 kDa, polystyrene 1 kDa,
+and poly(methyl methacrylate) 10 KDa, hereafter referred to as
+PS10K, PS1K, and PMM10K, respectively. The two diﬀerent types
+of PS are chosen to elucidate the impact of the molecular weight
+on the transport properties of the blend and device performance.
+Moreover, PMM allows the investigation of the inﬂuence of a
+more hydrophilic backbone – provided by the ester groups of
+PMM – on material and device properties.
+We evaluated OECT performance using a silver pellet as the
+gate and 0.1 m NaCl in water as the electrolyte. As for devices
+made using the pristine p(N-T), all the diluted OECTs work in
+accumulation mode upon application of positive drain voltages
+VDS and positive gate voltages VG, consistent with the n-type
+character of p(N-T) and doping upon injection of Na+ ions from
+the electrolyte solution (output characteristics can be found in
+Figure S1, Supporting Information and transfer characteristics
+in Figure 1d–f).
+First, we investigated the impact of increasing amounts of
+insulator on the performance of diluted OECTs. OECT trans-
+fer characteristics of p(N-T):PS10K 1:3, with three styrene
+monomers for each monomer of p(N-T), does not lead to dras-
+tic changes in device current and transconductance (Figure 1d).
+Increasing the amount of PS10K to 6 styrene monomers for each
+monomer of p(N-T) leads to a drastic increase of maximum drain
+current and transconductance (gm,max) from 0.16 mS for p(N-T)
+to 0.34 mS for p(N-T):PS10K 1:6. Increasing further the amount
+of PS10K to p(N-T):PS10K 1:17 leads to a decrease in gm,max to
+0.12 mS, likely due to a disruption of the percolation network
+by high amounts of the insulator in the blend. Similar results
+were obtained for PS1K and PMM10K, where the monomer ra-
+tio p(N-T):insulator 1:6 exhibited the highest values of maximum
+transconductance. Thus, we focused on the p(N-T):insulator ratio
+1:6 for further investigation.
+Since the volume of the polymer in the channel is essential to
+compare diﬀerent materials, we normalized maximum transcon-
+ductance values to the area and thickness of the polymer ﬁlms
+according to Equation 1. All the tested insulators showed that di-
+luted OECTs with monomer ratio p(N-T):insulator 1:6 lead to an
+increase in OECT channel current and normalized transconduc-
+tance gm,norm with respect to devices made with pristine p(N-T).
+If we compare the transfer characteristics for 1:6 p(N-T):insulator
+ratio across the three diﬀerent insulators, we realize that PS10K
+leads to the highest gm,norm value of 2.0 mS cm−1, followed by
+1.0 mS cm−1 for PMM10K, and 0.9 mS cm−1 for PS1K
+(Figure 2a,b and Table 1). All the blends have a comparable
+threshold voltage of VTH = 0.25 V with respect to pristine p(N-
+T), except for p(N-T):PS10K, exhibiting a VTH of 0.27 V.
+Adv. Mater. 2024, 2302624
+2302624 (3 of 11)
+© 2024 The Authors. Advanced Materials published by Wiley-VCH GmbH
+ 15214095, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202302624 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+www.advmat.de
+Figure 2. Averaged a) transfer characteristics and b) transconductance for p(N-T) (green), p(N-T): PS 10K (wine), p(N-T): PS 1K (red), and p(N-T):PMM
+10K (blue) expressed in monomers of p(N:T) versus monomers of insulating polymer ratio. For all the measurements, VDS = 0.4 V. The transfer curves
+are the average of a minimum of ﬁve devices. The measurements were acquired with an estimated scan rate of 5.36 mV s−1. c) Mobility versus volumetric
+capacitance plot comparing the performance of p(N-T) and diluted p(N-T) (highlighted in a circle) with other channel materials for n-type OECTs reported
+in the literature (Table S2, Supporting Information). d) Representative stability for p(N-T) (green), p(N-T):PS10K 1:6 (wine), p(N-T):PS1K 1:6 (red), and
+p(N-T):PMM10K 1:6 (blue). For all the measurements, VDS = 0.4 V and ON/OFF cycles were acquired at VG ON/OFF steps from 0.4 to 0 V.
+To evaluate blends performance, we calculated the product
+of electronic charge carrier mobility and volumetric capaci-
+tance μC* using the equation.
+gm = 𝜇C∗⋅Wd
+L
+|||
+(VTH −VG
+)|||
+(1)
+where W, d and L are the channel width, depth, and
+length, respectively, μ is the mobility, C* is the volumet-
+ric capacitance, VTH is the threshold voltage, and VG
+is
+the
+gate
+voltage.
+The
+μC*
+value
+for
+p(N-T):PS10K
+is
+13.4 F V−1 cm−1 s−1: an over threefold increase with re-
+spect to pristine p(N-T) with μC* = 4.3 F V−1 cm−1 s−1.
+In contrast, PS1K and PMM10K show a modest increase in μC*
+of 5.3 and 4.9 F V−1 cm−1 s−1, respectively.
+We further used electrochemical impedance spectroscopy
+to extract the volumetric capacitances C* of the blends
+(see Figures S2–S5, Supporting Information and experimental
+section for details) and to understand the impact of the insulators
+on volumetric capacitance and electron mobility. As expected,
+the introduction of the insulators has a negative impact on the
+volumetric capacitance of the ﬁlms, with a decrease of C* from
+73 F cm−3 for p(N-T) to 10.1 F cm−3 for p(N-T):PS10K, 9.0 F
+cm−3 for p(N-T):PS1K, and 7.9 F cm−3 for p(N-T):PMM10K. We
+found however that the increase in transconductance and μC*
+for the blends is caused by a dramatic increase in the mobility
+of electron charge carriers from 0.059 cm2 V−1 s−1 for p(N-T) to
+0.6 cm2 V−1 s−1 for p(N-T):PS1K, 0.6 cm2 V−1 s−1 for p(N-
+T):PMM10K, and the record 1.3 cm2 V−1 s−1 for p(N-T):PS10K.
+Comparison with other n-type OECT channel materials reported
+in the literature (Figure 2c and Table S2, Supporting Information)
+show that the blend p(N-T):PS10K 1:6 exhibits μe,OECT one order
+of magnitude higher than the best reported to date (0.27 cm2 V−1
+s−1 for P(gTDPP2FT)).
+Our data agree well with previous reports showing increased
+charge carrier mobility upon diluting organic semiconductors
+Table 1. Summary of OECT Parameters.
+Polymer
+gm,norm
+a) [mS cm−1]
+VTH
+b) [v]
+C*d) [Fcm−3]
+μC*e) [F V−1 cm−1 s−1]
+μOECT
+c) [cm2 V−1 s−1]
+p(N-T)
+0.72 ± 0.23f)
+0.25
+73 ± 9f)
+4.3f)
+0.059 f)
+p(N-T):PS 10K 1:6
+2.0 (1.6 ± 0.3)
+0.27
+10.1 ± 0.9
+13.4 ± 2.8
+1.3 ± 0.3
+p(N-T):PMM 10K 1:6
+1.0 (0.7 ± 0.2)
+0.25
+9.0 ± 0.5
+5.3 ± 1.2
+0.6 ± 0.1
+p(N-T):PS 1K 1:6
+0.9 (0.6 ± 0.2)
+0.25
+7.9 ± 1.0
+4.9 ± 1.9
+0.6 ± 0.2
+a)Maximum and average values calculated from diﬀerent devices, transconductance normalized by the volume of the channel (W/Ld);
+b)Values extrapolated by ﬁtting the
+linear regime of the IDS-VGS plot;
+c)Mobility values calculated from the μC* and the volumetric capacitance C*;
+d)Volumetric capacitance values obtained by ﬁtting the
+capacitance versus volume plot. Capacitance values are extracted from ﬁtting the EIS curves;
+e)values are extracted using Equation (1);
+f )values previously reported.[24]
+Adv. Mater. 2024, 2302624
+2302624 (4 of 11)
+© 2024 The Authors. Advanced Materials published by Wiley-VCH GmbH
+ 15214095, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202302624 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+www.advmat.de
+Figure 3. a) Normalized UV–vis-NIR absorption spectra of p(N-T) and p(N-T):insulators 1:6. b) UV–vis-NIR spectroelectrochemistry for p(N-T):PS10K
+1:6. Data were acquired from 0 to −0.8 V with steps of 0.1 V. c) AFM data for p(N-T) and p(N-T):insulators. The scalebar is 1 μm.
+with insulating polymers.[18,20,21] Similarly, as in ﬁeld eﬀect
+transistors, light-emitting diodes, and photovoltaics, we observe
+that this “dilution eﬀect” is concentration dependent. For all the
+blends, device performance declines when the p(N-T):insulator
+ratio is increased to 1:17, likely due to an interruption in the in-
+terpenetrating network of semiconductor-rich phases.[21]
+Stability is one of the most important criteria for OECT appli-
+cations, particularly for sensors. Stability measurements at gate
+voltage steps from 0 to 0.4 V for p(N-T) show that devices re-
+tain only 12% of the original maximum drain current after over
+60 min of ON/OFF switching (Figure 2d and Figure S6, Sup-
+porting Information). Blending with PS10K leads to a remark-
+able increase in device stability with respect to the pristine poly-
+mer, with p(N-T):PS10K 1:6 OECT retaining 77% of the initial
+maximum drain current ID,max after 1 hour of operation. A de-
+cline in current is visible in the ﬁrst 10–15 minutes of opera-
+tion, after which the maximum current settles at a constant value.
+Blending with PS1K didn’t show the same eﬀect, leading to a re-
+tention of just 15% of ID,max after 1 hour of operation. Blending
+with PMM 10K led to 44% of ID,max after over 1 hours of switch-
+ing; an intermediate value between PS10K and PS1K. Overall,
+the data indicate that the molecular weight of the insulator and
+its hydrophobic/hydrophilic character impact not only the initial
+steady-state performance but also the operational stability upon
+ON/OFF switching.
+To elucidate the impact of the insulators on the ion penetra-
+tion within the polymer ﬁlms, we acquired ON/OFF switching
+times. All devices show shorter OFF time constants with respect
+to the ON constants, in line with hydrated electrolyte ions pen-
+etration and release during the ON and OFF switches, respec-
+tively (Figure S7 and Table S3, Supporting Information). The ON
+time constant decreases in the order PS10K>PS1K>PMM10K,
+consistent with a slower penetration of hydrated electrolyte ions
+within the blends made using of the most hydrophobic polymers.
+In contrast, OFF processes were faster upon blending with PS1K
+with respect to the other two blends, which could be attributed
+to a larger extent of ion entrapment within the polymer network
+formed by the longer polymer chains.
+To elucidate the eﬀect of the insulators on the packing of
+the conjugated polymers in ﬁlm form, we performed UV–vis-
+NIR absorption spectroscopy. All ﬁlms show a high-energy band
+with a maximum at 433 nm, attributed to the 𝜋-𝜋* transition,
+and another band with maximum absorption at 756 nm with a
+shoulder at ≈870 nm, ascribed to intermolecular charge transfer
+(ICT) (Figure 3a). In contrast to the other blends, p(N-T):PS10K
+exhibits a more pronounced vibrational shoulder, indicating a
+slightly stronger intrachain ordering in p(N-T) aggregates.[20]
+Moreover, another band appears at 1000–1200 nm, which might
+originate from strong intermolecular aggregation.[25]
+UV–vis-NIR spectroelectrochemistry further shows that nega-
+tive potentials from 0 to −0.8 V lead to a decrease in the 𝜋─𝜋*
+and ICT bands, accompanied by the formation of a new absorp-
+tion band in the NIR region (Figure 3b and Figure S8, Supporting
+Information) for p(N-T) and all the blends. The isosbestic point at
+Adv. Mater. 2024, 2302624
+2302624 (5 of 11)
+© 2024 The Authors. Advanced Materials published by Wiley-VCH GmbH
+ 15214095, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202302624 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+www.advmat.de
+Table 2. Summary of GIWAXS Measurements.
+Polymer
+q(100) [Å−1]
+d(100) [Å]
+Lc(100) [Å]
+q(010) [Å−1]
+d(010) [Å]
+Lc(010) [Å]
+Dominant texture
+p(N-T)
+In-plane
+0.27
+23.26
+40.26
+1.80
+3.49
+46.40
+Face-on
+Out-of-plane
+1.80
+3.49
+31.71
+p(N-T):PS 10K 1:6
+In-plane
+1.82
+3.45
+53.63
+Face-on
+Out-of-plane
+1.82
+3.45
+42.64
+p(N-T):PS 1K 1:6
+In-plane
+1.81
+3.47
+47.80
+Face-on
+Out-of-plane
+1.81
+3.47
+36.42
+p(N-T):PMM 10K 1:6
+In-plane
+1.83
+3.43
+36.57
+Face-on
+Out-of-plane
+1.83
+3.43
+32.19
+≈880 nm marks the interconversion of p(N-T) to its reduced state.
+The absorption maximum of the new band, however, presents a
+red-shift from 956 nm for the pristine p(N-T) polymer, to 959 nm
+for p(N-T):PS1K, 965 nm for p(N-T):PMM10K, and 998 nm for
+p(N-T):PS10K. Such a shift could originate from changes in p(N-
+T) organization upon blending with diﬀerent insulators.
+We used atomic force microscopy (AFM) and Grazing-
+Incidence Wide-Angle X-ray Scattering (GIWAXS) to elucidate
+the impact of dilution on the microstructure of the ﬁlms. AFM
+topography of p(N-T) shows a ﬂat surface with root mean square
+(RMS) roughness of 2.99 nm (Figure 3c and Figure S9, Sup-
+porting Information). Blending of p(N-T) with insulating poly-
+mers (1:6 p(N-T):insulating polymer monomer ratio) results in
+the formation of aggregated domains, demonstrated by an in-
+crease in RMS roughness to 6.24 nm for p(N-T):PS1K, 7.56 nm
+for p(N-T):PS10K, and 10.83 nm for p(N-T):PMM10K. The data
+indicate that the domain size depends on the molecular weight
+and nature of the insulator, with a more extensive aggregation ob-
+served for PS1K, followed by PS10K, and PMM10K (Figure 3c).
+These features could originate from macro-phase separation
+in the polymer ﬁlm, with the formation of insulator-rich and
+semiconductor-rich domains.[18,21] To conﬁrm this hypothesis,
+we acquired AFM micrographs of the pristine insulating poly-
+mers (Figure S10, Supporting Information). The images show
+smooth features with RMS roughness of 4.59 nm PS1K, 1.35 nm
+for PS10K, and 1.17 nm for PMM10K, indicating that indeed the
+increase in the roughness and formation of aggregates results
+from the blending rather than aggregates already present in the
+pristine insulating polymers.
+GIWAXS data show that both the pristine polymer and the
+blends have a face-on orientation (Table 2 and Figures S11–S12,
+Supporting Information). The 𝜋─𝜋stacking distance of p(N-T)
+is 3.49 Å in the in-plane and out-of-plane directions. Blending
+with insulating polymers leads to a slight decrease in (010) 𝜋─𝜋
+diﬀraction peak both in the in-plane and out-of-plane directions
+to 3.47 Å for PS1K, 3.45 Å for PS10K, and 3.43 Å for PMM10K, in-
+dicating an undisturbed short-range intermolecular order upon
+p(N-T) dilution.
+Among the insulators, we found that the insulator’s type and
+molecular weight strongly impact the crystallite coherence length
+LC. High molecular weight polystyrene (PS10K) leads to an in-
+crease in coherence length of the (010) peak both in-plane and
+out-of-plane, indicating larger crystalline domains in the p(N-
+T):PS10K ﬁlms. Low molecular weight polystyrene (PS1K) leads
+to a similar trend to PS10K, with a modest increase in the coher-
+ence length of the (010) peak in-plane and out-of-plane. In con-
+trast to PS10K and PS1K, blending with PMM10K leads to a de-
+crease in the coherence length of (010) peak in-plane and a slight
+increase in the coherence length in the out-of-plane direction.
+Previous studies of polymer blends have shown that the struc-
+ture of both the conjugated and insulating polymer in terms of
+blend stoichiometry, choice of solvent, and molecular weight of
+the polymers have an impact on crystallization, phase separation,
+microstructure, thin ﬁlm morphology, and charge carrier mobil-
+ity of the ﬁlms.[26]
+Although PS and PMM are both amorphous polymers, there
+are main diﬀerences in their chemical structure that could cause
+a diﬀerent interaction with p(N-T), leading to changes in the mi-
+crostructure and morphology of polymer ﬁlms. PS has phenyl
+groups in its chemical structure, while PMM has ester groups
+with electronegative (thus partially negatively charged) oxygen
+atoms. While PS can interact with p(N-T) via van-deer-Waals and
+𝜋–𝜋interactions (through its phenyl groups),[27] PMM can in-
+teract through a combination of electrostatic (both attractive and
+repulsive) and van-der-Waals forces. This can have a dramatic im-
+pact on the microstructure of a conjugated polymer with ethylene
+glycol side chains, like p(N-T), where polymer chains also interact
+via a combination of electrostatic (both attractive and repulsive)
+and van-der-Waals forces.[28]
+The diﬀerences in the microstructure of the polymer ﬁlms are
+also supported by AFM data, indicating that blending with PS
+(both 1 KDa and 10 KDa) results in a more extensive aggregation
+than blending with PMM 10 KDa.
+Overall, AFM and GIWAXS data suggest that the observed in-
+crease in electronic mobility for the blends is linked to aggrega-
+tion and modiﬁcations in the microstructure of the polymer ﬁlms
+upon blending with the insulating polymers. The decrease in 𝜋-𝜋
+stacking distance and the formation of large crystalline domains
+observed for p(N-T):PS10K 1:6 ﬁlms correlate well with its supe-
+rior charge transport among the blends.[29] In contrast, blending
+with the low molecular weight polystyrene PS1K leads to a mi-
+nor decrease in 𝜋–stacking distance and increase in crystallite di-
+mensions, which can be related to the smaller increases in charge
+carrier mobility with respect to PS10K. Blending with PMM10K
+leads to the shortest 𝜋-𝜋stacking distance, but also a decrease in
+crystallite dimensions in the (010) peak in in-plane with respect
+to p(N-T), which could account for the comparable mobility with
+respect to p(N-T):PS1K 1:6.
+As OECTs work in contact with aqueous solutions, we used
+contact angle measurements to elucidate the impact of the
+Adv. Mater. 2024, 2302624
+2302624 (6 of 11)
+© 2024 The Authors. Advanced Materials published by Wiley-VCH GmbH
+ 15214095, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202302624 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+www.advmat.de
+Figure 4. a) Stitched QCM-D data showing estimated changes in thickness after spin coating the polymer blends on top of the sensor and after ﬂushing
+with 0.1 m NaCl(aq) at a constant rate of 0.1 mL min−1. The black curve shows estimated changes in the recorded thickness of the bare Au sensor
+after changing the media from air to 0.1 m NaCl(aq). b) Swelling percentage of the ﬁlms after exposure to 0.1 m NaCl(aq) with no applied bias and after
+application of −0.5 V versus Ag/AgCl. c) Cyclic voltammetry for the polymer ﬁlms spin-coated on the sensors, acquired at a scan rate 0.1 V s−1. d)
+Changes in thickness during chronoamperometry from open circuit voltage (VOC = 0.2 V) to an applied bias of −0.5 V and vice versa.
+insulating polymers on the wettability of the ﬁlms. The data show
+an increase in contact angle from 102° for p(N-T) to 115° upon
+blending with both types of polystyrene (Figure S13 and Table S4,
+Supporting Information). In contrast, blending with PMM leads
+to a decrease in contact angle to 81°, due to the hydrophilic na-
+ture of ester groups. These data agree well with the ON switching
+times, showing slower penetration within the most hydrophobic
+ﬁlms.
+Electrochemical quartz crystal microbalance with dissipation
+monitoring (EQCM-D) data were then acquired to record in situ
+swelling of the ﬁlms upon exposure to an aqueous electrolyte and
+injection of hydrated electrolyte ion from solution during electro-
+chemical doping.[30]
+First, we measured the QCM-D signals from the bare crystals
+in air (Figures 4a and S15, Supporting Information). Then, we
+removed the crystals and measured the signals for the polymer
+ﬁlms in air. The ﬁlms were then exposed to 0.1 m NaCl(aq) to mon-
+itor swelling upon exposure to the electrolyte.[31,32] Among the
+blends, p(N-T):PS1K shows the largest increase in ﬁlm thickness
+from 104 to 180 nm, leading to 75% of passive swelling (Figure 4b
+and Table S5, Supporting Information). p(N-T):PMM10K ﬁlms
+show a modest increase in the thickness from 83 to 98 nm (18%
+swelling), while p(N-T):PS10K undergoes the least changes from
+87 to 98 nm (13% passive swelling). These data indicate that the
+molecular weight of the polymer has a strong impact on pas-
+sive water and ion uptake from the electrolyte, with the largest
+changes observed for the short polystyrene.
+Before EQCM-D measurements, we performed ﬁve break-in
+cycles using cycling voltammetry (CV) at potentials between 0.2
+and −0.5 V versus Ag/AgCl. CV data show that all the ﬁlms
+share a reduction peak at ≈−0.4 V, and an oxidation band at
+≈−0.3 V (Figure 4c). Then, we acquired EQCM-D measurements
+using chronoamperometry by applying the oxidative potential
+of 0.2 V for 250 s, followed by reduction at −0.5 V for 250 s
+(Figure 4d and Figure S16, Supporting Information). Also in this
+case, p(N-T):PS10K undergoes the least changes, with 14% addi-
+tional swelling. Blending with PS1K and PMM10K leads to a fur-
+ther 24% and 41% swelling, respectively. The additional swelling
+for p(N-T):PMM10K can be attributed to the higher polarity of
+PMM monomers that, in contrast to polystyrene, could help ac-
+commodate hydrated electrolyte ions through the formation of
+hydrogen bonds.[33] We note that the trend observed in swelling
+Adv. Mater. 2024, 2302624
+2302624 (7 of 11)
+© 2024 The Authors. Advanced Materials published by Wiley-VCH GmbH
+ 15214095, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202302624 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+www.advmat.de
+percentage upon doping (PMM10K>PS1K> PS10K) does not
+correlate with the trend in C* PS10K≥PMM10K≥PS1K. A simi-
+lar phenomenon was observed for polymers having a large extent
+of glycol side chains. In this case, the additional swelling was at-
+tributed to stabilizing water uptake, rather than increasing ion
+uptake, in the doped state.[32]
+Overall, the data suggest that the hydrophobic nature of
+PS10K, combined with its high molecular weight, provides
+the lowest amounts of swelling upon electrochemical measure-
+ments, accounting for the higher stability of p(N-T) OECTs di-
+luted with this insulating polymer. We note that, when the open
+circuit voltage of 0.2 V is applied again, the thickness of the p(N-
+T):PS10K does not fully return to the original value, indicating a
+non-reversible swelling of the polymer ﬁlm upon application of
+reductive potentials and corroborating the initial decrease of IDS
+current upon ON/OFF switching observed in stability measure-
+ments (Figure 2d).
+The shorter chains of PS1K provide lower protection upon
+mass intake at the early stages of polymer contact with the elec-
+trolyte, which could account for the relatively poorer improve-
+ment in device stability upon p(N-T) dilution with PS1K. The hy-
+drophilic nature of PMM10K causes the largest extent of swelling
+upon electrochemical measurements, which is likely to disrupt
+the polymer network during cycling, causing the observed irre-
+versible changes in device performance.
+To address whether this approach could be used with other
+n-type conjugated polymers, we blended p(C-T), p(C-2T), and
+f-BTI2g-TVTCN with polystyrene 10 KDa at a 1:6 monomer
+ratio.[24,9] p(C-T) is structurally similar to p(N-T), with the diﬀer-
+ence that isatins replace azaisatins groups within the acceptor
+unit. p(C-2T) has a similar chemical structure to p(C-T), with the
+diﬀerence that bis-thiophenes replace the thiophene donor units.
+In contrast, f-BTI2g-TVTCN has a completely diﬀerent chem-
+ical structure, with fused bithiophene imide dimer (f-BTI2) as
+the acceptor unit and cyano-functionalized thienylene–vinylene–
+thienylene (TVT) as the donor unit. Our data show that, for
+all these polymers, blending with the hydrophobic PS10 KDa
+leads to an increase in the threshold voltage (Figures S17–S19,
+and Table S6, Supporting Information). The extent of the shift
+depends on the nature of the conjugated polymer, with the
+largest increase observed for f-BTI2g-TVTCN (from VTH = 0.79
+to 0.85 V). These data agree well with previous reports on the
+relation between the hydrophobicity of the polymer ﬁlm and
+the threshold voltage. For OECTs operating in an aqueous elec-
+trolyte (e.g., 0.1 m NaCl(aq)), increasing the hydrophobicity of
+the polymer ﬁlm, for example, by replacing ethylene glycol side
+chains with alkyl side chains, results in an increase in threshold
+voltage.[34]
+p(C-T) shows the largest increase in μC* from 3.4 to 8.9 F V−1
+cm−1 s−1. In contrast, no signiﬁcant changes have been observed
+for p(C-2T), indicating that small changes in the chemical struc-
+ture of the conjugated polymer have a large impact on blend-
+ing dynamics and eﬀective mixed ionic/electronic conductivity
+of the blend. f-BTI2g-TVTCN:PS 10K leads to a modest decrease
+in normalized transconductance (gm,norm) from 23.68 to 19.72 S
+cm−1, however, the sharper increase in transconductance (i.e., the
+steeper the slope of the curve) with respect to the pristine poly-
+mer determines an overall increase in μC* from 112.8 to 131.0 F
+V−1 cm−1 s−1.
+All the blends show an increase in operational stability with re-
+spect of the pristine polymers. Blending p(C-T) with PS10K leads
+to an increase of stability from 1.1% to 10.4% retain of the initial
+drain-source current after over 1 hour operation. P(C-2T) stability
+increases from 39.7% to 63.0% upon blending. f-BTI2g-TVTCN,
+the most stable polymer in the series (97.5% retain in initial drain
+current for the pristine polymer) leads to a further increase in
+drain current, reaching 129.5% of the original drain current after
+over 1 hour operation, which could be due to rearrangements in
+the polymer ﬁlm upon switching.
+Overall, the results indicate that several factors impact the
+mixed ionic/electronic conductivity and stability of n-type con-
+jugated polymer:insulating polymer blends, such as the chemi-
+cal structure of the conjugated and insulating polymers, the hy-
+drophilic or hydrophobic character of the polymers, and the con-
+jugated polymer:insulating polymer ratio.
+3. Conclusions
+The development of organic polymer blends such as PEDOT:PSS
+and BBL:PEI enabled conducting materials with major impli-
+cations for various technologies, including the organic electro-
+chemical transistor. The realization of n-type OECTs, having
+comparable performance with respect to p-type transistors, how-
+ever, remains challenging.
+Here, we demonstrated that blending n-type organic semi-
+conductors with insulating commodity polymers can drastically
+improve the performance of organic electrochemical transistors
+while decreasing considerably the amount of conjugated poly-
+mer needed (six times less). We speciﬁcally showed that long
+polystyrene chains with 10 KDa molecular weight are the most
+eﬀective in boosting OECT performance for the semiconducting
+polymer p(N-T), leading to enhanced polymer mobility by two or-
+ders of magnitude. This drastic increase compensates for the loss
+in volumetric capacitance caused by the addition of the insulating
+polymer, leading to an overall increase in μC* by over three times
+with respect to the pristine conjugated polymer. Data on the mi-
+crostructure of the ﬁlms show that these changes are due to an
+increase in the packing of the conjugated polymer chains, leading
+to better charge transport. In addition, the diluted polymer blend
+displays a considerable increase in device stability from 12% re-
+tain of the initial maximum drain current for p(N-T) to 77% for
+p(N-T):PS10K 1:6. EQCM-D measurements showed that such an
+increase in stability is related to a decrease in swelling of the ﬁlms
+both upon hydration and electrochemical doping.
+We showed that this method can be applied also to improve the
+OECT performance of other types of n-type conjugated polymer.
+However, the mixed ionic/electronic transport of the blend and
+device stability is inﬂuenced by several parameters, such as the
+chemical structure and hydrophilic character of the polymers and
+their blending ratio. Future work will focus on providing a deeper
+understanding on the physical parameters underlying blend dy-
+namics and to determine if this approach could be extended fur-
+ther to other materials including p-type conjugated polymers.
+Our work shows that blending an n-type conjugated poly-
+mer with insulating polymers enables to develop organic mixed
+ionic/electronic conductors with the highest electronic mobility
+reported so far for n-type OECTs (1.3 cm2 V−1 s−1). For diluted
+organic semiconductors, it has been demonstrated that such an
+Adv. Mater. 2024, 2302624
+2302624 (8 of 11)
+© 2024 The Authors. Advanced Materials published by Wiley-VCH GmbH
+ 15214095, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202302624 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+www.advmat.de
+increase in mobility originates from the suppression of charge
+carrier trapping sites upon dilution.[18] Better methods to quan-
+tify charge carrier traps in organic mixed ionic/electronic con-
+ductors (OMIECs) in OECT conﬁguration would be needed to
+verify if this is the case also for diluted OMIECs. Overall, dilu-
+tion of OMIECs with cheap insulating polymers paves the way
+for aﬀordable high-performance n-type organic iontronics.
+4. Experimental Section
+Materials:
+All
+the
+chemicals
+were
+ordered
+from
+Sigma-
+Aldrich
+and
+stored
+according
+to
+the
+vendor’s
+instructions
+un-
+less
+otherwise
+stated.
+The
+polymer
+p(N-T),
+(3E,7E)−3-(6-methyl-
+1-(2,5,8,11,14,17-hexaoxanonadecan-19-yl)−2-oxo-1,2-dihydro-3H-
+pyrrolo[2,3-b]pyridin-3-ylidene)−7-(6-(5-methylthiophen-2-yl)−1-
+(2,5,8,11,14,17-hexaoxanonadecan-19-yl)−2-oxo-1,2-dihydro-3H-
+pyrrolo[2,3-b]pyridin-3-ylidene)−3,7-dihydrobenzo[1,2-b:4,5-b −′]difuran-
+2,6-dione, was synthesized as previously described.[24] The chosen
+insulating polymers were polystyrene Mw ≈10 000 g mol−1, polystyrene
+Mw ≈1110 g mol−1, and poly(methyl methacrylate) Mw ≈10 900 g mol−1.
+Stock solutions were prepared with concentration of 10 mg mL−1 for
+p(N-T) and 50 mg mL−1 for the insulating polymers in chloroform:o-
+dichlorobenzene 10:1 v/v with 5 vol% bromoanisole. Blends were
+prepared having a ﬁnal concentration of 6 mg mL−1 for p(N-T) and a
+p(N-T):insulating polymers ratio of 1:0, 1:6, and 1:17 in monomer weight.
+For more details, see Table S1, Supporting Information.
+UV–vis-NIR Absorption Spectroscopy:
+UV–vis-NIR absorption spectra
+were acquired with a PerkinElmer Lambda 950 UV–vis-NIR spectropho-
+tometer. Thin ﬁlms of the polymer blends were prepared by spin-coating
+their solutions onto Indium Tin Oxide (ITO)-coated glass substrates. Prior
+to spin-coating, the ITO glasses were cleaned by ultrasonication in soapy
+water for 15 min, followed by basic piranha cleaning in a solution of
+H2O:H2O2:NH3 at ≈70 °C for 5–10 min, and then dried using an air gun.
+Cyclic Voltammetry:
+CV measurements were performed using a
+Metrohm Autolab/PGSTAT101 potentiostat. The three-electrode setup
+consisted of an Ag/AgCl (3 m KCl aqueous solution) as the reference elec-
+trode, a Pt wire as the counter electrode, and thin ﬁlms of the polymer spin-
+coated on ITO-coated glass substrates as the working electrode. Films of
+the polymers were prepared as described for UV–vis-NIR absorption mea-
+surements. 0.1 m NaCl in water was used as the electrolyte.
+UV–vis-NIR
+Spectroelectrochemistry:
+Spectroelectrochemical
+mea-
+surements were performed with a similar setup as for CV measurements,
+with the three-electrode setup ﬁtted inside a quartz cuvette. Amperomet-
+ric measurements were carried out by applying subsequent potentials
+with steps of 0.1 V. The potentials were applied for 15 s prior to recording
+each absorption spectrum to ensure complete ﬁlm stabilization at that
+potential. An aqueous 0.1 m NaCl solution was used as the supporting
+electrolyte.
+Atomic Force Microscopy:
+AFM measurements were carried out using
+the tapping mode of Bruker Dimension Icon AFM with a XSC11/PT sil-
+icon tip from MikroMasch (cantilever T = 270 nm, L = 210 μm, W =
+30 μm, f0 = 80 kHz, k = 2.7 N m−1). All polymer ﬁlms were prepared by
+spin-coating at 1000 rpm for 60 s and annealing in the oven at 120 °C for
+10 min. A 5 × 5 μm area was imaged at 5 diﬀerent locations on the spin-
+coated polymer on the glass substrate with a resolution of 512 × 512 pixels.
+All the AFM images were processed using the Gwyddion 2.56 software, and
+the statistical parameters, including the roughness, were calculated using
+the “Statistical Parameter” tool on Gwyddion.
+Grazing-incidence Wide-angle X-ray Scattering:
+Samples for GIWAX
+were prepared as described for Uv–vis-NIR absorption measurements,
+with the only diﬀerence that p+ doped silicon wafers were used as the
+substrates. The wafers were cleaned by subsequential sonication steps in
+soapy water, ethanol, and isopropanol for 15 min each. An incidence angle
+of 0.18° and a photon energy of 8 keV were used to record the scattering
+patterns.
+Fabrication of Organic Electrochemical Transistors:
+Electrode contacts
+were prepared by lift-oﬀprocess. Thermal evaporation was used to deposit
+10 nm of chromium or titanium as an adhesion layer and 50 nm of gold
+on soda-lime glass. Each channel had length L = 20 μm and width W =
+500 μm. Solutions of the polymer blends were spin-coated at 1000 rpm for
+60 s and annealed in the oven at 120 °C for 10 min. Film thicknesses were
+measured with by a Tencor proﬁlometer. The obtained ﬁlm thicknesses
+were 85.5 ± 3.7 nm for p(N-T):PS10K, 150.2 ± 3.1 nm for p(N-T):PS1K,
+and 164.9 ± 30.8 nm for p(N-T):PMM10K. 0.1 m NaCl in water was used
+as the electrolyte and a silver pellet as the gate. Device characterization
+was performed in air at room temperature using a Keithley 4200A-SCS pa-
+rameter analyzer (Tektronix, USA) equipped with two source measurement
+units (SMU) and one pulse measurement unit (PMU). The PMU was used
+to measure the ON and OFF OECT switching times, which were calculated
+as the time it took to reach 90% or 10% of the maximum drain current, re-
+spectively. The switching times were acquired for OECTs having channels
+with dimensions 10 × 100 μm (LxW).
+Electrochemical Impedance Spectroscopy:
+EIS measurements were per-
+formed using a BioLogic VSP potentiostat. The polymers were spin-coated
+on top of square gold electrodes with an active area 4 or 8 mm2 at spin
+speed of either 1000 rpm or 4000 rpm for 60 sec followed by annealing
+in the oven at 120 °C. The polymer ﬁlms on gold were used as the work-
+ing electrode, an Ag/AgCl (3 m KCl aqueous solution) as the reference
+electrode, and a platinum coil as a counter electrode. The electrolyte was
+an aqueous 0.1 m NaCl solution. EIS measurements were performed at
+−0.4 V. The frequency was scanned from 100 kHz to 10 Hz at a sinus am-
+plitude of 10 mV. The capacitance was extracted by ﬁtting the data to a
+modiﬁed Randle’s circuit model Rs(Rp||Q),[25] where Rs is the electrolyte
+resistance, Q is a constant phase element, and Rp is the charge transfer
+resistance, using ZFit (EC-Lab V11.41 software). The thickness of the ﬁlms
+was determined in a dry state with a Tencor proﬁlometer.
+Contact Angle Measurements:
+Contact angle measurements were per-
+formed using a ThetaLite optical tensiometer (TL100, Biolin Scientiﬁc).
+The contact angle was measured on at least three diﬀerent areas on
+each sample by dropping a 20 μL drop of deionized water and record-
+ing a video (not shown). The video frames were then analyzed using the
+OneAttension software to calculate the average contact angle for each
+sample.
+Electrochemical Quartz Crystal Microbalance with Dissipation Monitoring:
+QCM-D measurements were performed using a Q-sense analyzer (QE
+401, Biolin Scientiﬁc, Gothenburg, Sweden). First, gold-coated QSense
+sensors (QSX 301) were measured in air and after introducing 0.1 m NaCl
+in milli-Q water at a constant rate of 0.1 mL min−1. This allowed us to
+assess the shifts in the QCM-D signals due to changes in media den-
+sity from air to the aqueous electrolyte. For polymer ﬁlm analysis, the
+crystals were unloaded from the measuring chambers and used as sub-
+strates for spin-coating of the polymer ﬁlms. The polymers were spin-
+coated at 2500 rpm for 60 s and annealed in the oven at 120 °C for 10
+min. The crystals were placed back in the chamber and QCM-D signals
+were acquired again in air. After frequency f and dissipation d signals sta-
+bilized (i.e., Δf < 1 Hz/2 min), we ﬂushed in a solution of 0.1 m NaCl
+in milli-Q water at a constant rate of 0.1 mL min−1. After the measure-
+ments, we used the QSoft software function “stitch data” to combine the
+measurements of the bare crystals with those of the spin-coated polymer
+ﬁlms. The data were then modeled using the Sauerbrey equation within
+the QSense Dﬁnd software (Biolin Scientiﬁc). The model assumed the
+use of a gold crystal in air as the initial reference, followed by the addi-
+tion of a polymer layer of density comparable to polystyrene (1.0 g cm−3)
+in air, and ﬂushing with an aqueous electrolyte solution with density of
+1.04 g cm−3.
+EQCM-D measurements were performed with a QSense electrochem-
+istry module (QEM 401) connected to a Metrohm Autolab/PGSTAT101
+potentiostat. The module was equipped with a Pt counter electrode, an
+Ag/AgCl reference electrode, and the polymer-coated gold sensor as the
+working electrode. 0.1 m NaCl in milli-Q water was the electrolyte. After
+ﬁlm hydration, we waited again for the signal to be ﬂat before starting with
+the electrochemical measurements. First, a cyclic voltammetry was per-
+formed at potentials between 0.2 and −0.5 V at a scan rate of 0.1 V s−1.
+Adv. Mater. 2024, 2302624
+2302624 (9 of 11)
+© 2024 The Authors. Advanced Materials published by Wiley-VCH GmbH
+ 15214095, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202302624 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+www.advmat.de
+Then, we performed a chronoamperometric measurement by stepping the
+potential from 0.2 V (fully undoped) to −0.5 V (fully doped) and 0.2 V again
+for 150 s each.
+Swelling was calculated as the percentage change in thickness relative
+to the dry thickness (Tdry), assuming that all the ﬁlms had the same surface
+area determined by the area of the gold sensor (0.7854 cm2)
+Swelling % =
+Ttotal −Tdry
+Tdry
+∗100
+(2)
+Supporting Information
+Supporting Information is available from the Wiley Online Library or from
+the author.
+Acknowledgements
+E.Z. and A.H. gratefully acknowledge the Knut and Alice Wallenberg
+Foundation (Grant No. KAW2015.0178, 2020.0206, 2021.0312), and the
+Swedish Research Council (Grant No. 2018–03483, 2022-04060, and In-
+ternational Postdoc Grant No. 2017–06381). E.Z. gratefully acknowledges
+the Göran Gustafsson Foundation, the Swedish Research Council (Grant
+No. 2022-02855), and Formas – a Swedish Research Council for Sus-
+tainable Development (Grant No. 2022-00374) for support. This project
+has received funding from the European Union’s Horizon 2020 research
+and innovation program under the Marie Sklodowska-Curie grant agree-
+ment No 101025599. W.Y. and Y.W. thank the National Natural Science
+Foundation of China (Grant No. 22275212 and 21875291),National Key
+R&D Program (Grant No. 2022YFA1206600) and Fundamental Research
+Funds for the Central Universities-Sun Yat-sen University (Grant No.
+23yxqntd002). This work was supported by AIMES – The center for inte-
+grated medical and engineering sciences (www.aimes.se), Karolinska In-
+stitutet (1-249/2019), KTH Royal Institute of Technology (VF-2019-0110),
+and Getinge AB (4.1599/2018). This work was partially supported by Dig-
+ital Futures and by the Wallenberg Initiative Materials Science for Sus-
+tainability (WISE) funded by the Knut and Alice Wallenberg Foundation.
+X.G. is grateful to the ﬁnancial support by the Guangdong Provincial
+Key Laboratory Program (Grant No. 2021B1212040001). This work was
+partially supported by European Union’s Horizon 2020 Framework Pro-
+gramme H2020-WIDESPREAD-01-2016-2017-TeamingPhase2 under grant
+agreement No.739508, project CAMART2.
+Conﬂict of Interest
+The authors declare no conﬂict of interest.
+Data Availability Statement
+The data that support the ﬁndings of this study are available from the cor-
+responding author upon reasonable request.
+Keywords
+conjugated polymer, diluted organic semiconductors, organic bioelectron-
+ics, organic electrochemical transistor, organic mixed ionic-electronic con-
+ductor
+Received: March 21, 2023
+Revised: February 8, 2024
+Published online:
+[1] S. Ting, M. Tan, A. Gumyusenge, T. J. Quill, G. Swain Lecroy, G. E.
+Bonacchini, I. Denti, A. Salleo, Adv. Mater. 2022, 34, 2110406.
+[2] B. D. Paulsen, K. Tybrandt, E. Stavrinidou, J. Rivnay, Nat. Mater. 2019,
+19, 13.
+[3] G. Malliaras, I. McCulloch, Chem. Rev. 2022, 122, 4323.
+[4] E. Zeglio, O. Inganäs, Adv. Mater. 2018, 30, 1800941.
+[5] J. Rivnay, S. Inal, A. Salleo, R. M. Owens, M. Berggren, G. G. Malliaras,
+Nat. Rev. Mater. 2018, 3, 17086.
+[6] M. Moser, J. F. Ponder, A. Wadsworth, A. Giovannitti, I. McCulloch,
+Adv. Funct. Mater. 2019, 29, 1807033.
+[7] S. Yu, C. J. Kousseﬀ, C. B. Nielsen, Synth. Met. 2023, 293, 117295.
+[8] K. Feng, W. Shan, S. Ma, Z. Wu, J. Chen, H. Guo, B. Liu, J. Wang, B.
+Li, H. Y. Woo, S. Fabiano, W. Huang, X. Guo, Angew. Chem., Int. Ed.
+2021, 60, 24198.
+[9] K. Feng, W. Shan, J. Wang, J.-W. Lee, W. Yang, W. Wu, Y. Wang, B. J.
+Kim, X. Guo, H. Guo, Adv. Mater. 2022, 34, 2201340.
+[10] A. Giovannitti, I. P. Maria, D. Haniﬁ, M. J. Donahue, D. Bryant, K. J.
+Barth, B. E. Makdah, A. Savva, D. Moia, M. Zetek, P. R. F. Barnes, O.
+G. Reid, S. Inal, G. Rumbles, G. G. Malliaras, J. Nelson, J. Rivnay, I.
+McCulloch, Chem. Mater. 2018, 30, 2945.
+[11] D. Ohayon, A. Savva, W. Du, B. D. Paulsen, I. Uguz, R. S. Ashraf, J.
+Rivnay, I. McCulloch, S. Inal, ACS Appl. Mater. Interfaces 2021, 13,
+4253.
+[12] C. Y. Yang, M. A. Stoeckel, T. P. Ruoko, H. Y. Wu, X. Liu, N. B. Kolhe,
+Z. Wu, Y. Puttisong, C. Musumeci, M. Massetti, H. Sun, K. Xu, D. Tu,
+W. M. Chen, H. Y. Woo, M. Fahlman, S. A. Jenekhe, M. Berggren, S.
+Fabiano, Nat. Commun. 2021, 12, 2354.
+[13] A. F. Paterson, A. Savva, S. Wustoni, L. Tsetseris, B. D. Paulsen, H.
+Faber, A. H. Emwas, X. Chen, G. Nikiforidis, T. C. Hidalgo, M. Moser,
+I. P. Maria, J. Rivnay, I. McCulloch, T. D. Anthopoulos, S. Inal, Nat.
+Commun. 2020, 11, 3004.
+[14] A. Savva, D. Ohayon, J. Surgailis, A. F. Paterson, T. C. Hidalgo, X.
+Chen, I. P. Maria, B. D. Paulsen, A. J. Petty II, J. Rivnay, I. McCulloch,
+S. Inal, Adv. Electron. Mater. 2019, 5, 1900249.
+[15] A. Elschner, S. Kirchmeyer, W. Lövenich, U. Merker, K. Reuter, PE-
+DOT: Principles and Applications of an Intrinsically Conductive Polymer,
+CRC Press, Boca Raton 2010.
+[16] H. J. Kim, K. Perera, Z. Liang, B. Bowen, J. Mei, B. W. Boudouris, ACS
+Macro Lett. 2022, 11, 243.
+[17] X. Strakosas, M. Sessolo, A. Hama, J. Rivnay, E. Stavrinidou, G. G.
+Malliaras, R. M. Owens, J. Mater. Chem. B 2014, 2, 2537.
+[18] D. Abbaszadeh, A. Kunz, G. A. H. Wetzelaer, J. J. Michels, N. I.
+Cr˘aciun, K. Koynov, I. Lieberwirth, P. W. M. Blom, Nat. Mater. 2016,
+15, 628.
+[19] A. Kunz, P. W. M. Blom, J. J. Michels, J. Mater. Chem. C 2017, 5, 3042.
+[20] B. Tan, H. Pan, H. Li, M. L. Minus, B. M. Budhlall, M. J. Sobkowicz, J.
+Phys. Chem. C 2018, 122, 2918.
+[21] C. Wang, X. Liu, Y. Xiao, J. Bergqvist, X. Lu, F. Gao, M. Fahlman, Sol.
+RRL 2020, 4, 2000261.
+[22] J. Rivnay, Nat. Mater. 2016, 15, 594.
+[23] S. Goﬀri, C. Müller, N. Stingelin-Stutzmann, D. W. Breiby, C. P.
+Radano, J. W. Andreasen, R. Thompson, R. A. J. Janssen, M. M.
+Nielsen, P. Smith, H. Sirringhaus, Nat. Mater. 2006, 5, 950.
+[24] Y. Wang, E. Zeglio, L. Wang, S. Cong, G. Zhu, H. Liao, J. Duan, Y.
+Zhou, Z. Li, D. Mawad, A. Herland, W. Yue, I. McCulloch, Adv. Funct.
+Mater. 2022, 32, 2111439.
+[25] W. Zhang, Z. Mao, Z. Chen, J. Huang, C. Wei, D. Gao, Z. Lin, H. Li, L.
+Wang, G. Yu, Polym. Chem. 2017, 8, 879.
+[26] Z. He, Z. Zhang, S. Bi, Mater. Adv. 2022, 3, 1953.
+[27] W. Cai, D. Xu, L. Qian, J. Wei, C. Xiao, L. Qian, Z. Y. Lu, S. Cui, J. Am.
+Chem. Soc. 2019, 141, 9500.
+[28] S. Moro, N. Siemons, O. Drury, D. A. Warr, T. A. Moriarty, L. M. A.
+Perdigão, D. Pearce, M. Moser, R. K. Hallani, J. Parker, I. McCulloch,
+J. M. Frost, J. Nelson, G. Costantini, ACS Nano 2022, 16, 21303.
+Adv. Mater. 2024, 2302624
+2302624 (10 of 11)
+© 2024 The Authors. Advanced Materials published by Wiley-VCH GmbH
+ 15214095, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202302624 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+www.advmat.de
+[29] B. Meng, H. Song, X. Chen, Z. Xie, J. Liu, L. Wang, Macromolecules.
+2015, 48, 4357.
+[30] A. Savva, R. Hallani, C. Cendra, J. Surgailis, T. C. Hidalgo, S. Wustoni,
+R. Sheelamanthula, X. Chen, M. Kirkus, A. Giovannitti, A. Salleo, I.
+McCulloch, S. Inal, Adv. Funct. Mater. 2020, 30, 1907657.
+[31] L. Q. Flagg, C. G. Bischak, J. W. Onorato, R. B. Rashid, C. K.
+Luscombe, D. S. Ginger, J. Am. Chem. Soc. 2019, 141, 4345.
+[32] M. Moser, T. C. Hidalgo, J. Surgailis, J. Gladisch, S. Ghosh, R.
+Sheelamanthula, Q. Thiburce, A. Giovannitti, A. Salleo, N. Gasparini,
+A. Wadsworth, I. Zozoulenko, M. Berggren, E. Stavrinidou, S. Inal, I.
+McCulloch, Adv. Mater. 2020, 32, 2002748.
+[33] D. Li, J. Brisson, Polymer 1998, 39, 793.
+[34] A. Giovannitti, D.-T. Sbircea, S. Inal, C. B. Nielsen, E. Bandiello, D.
+A. Haniﬁ, M. Sessolo, G. G. Malliaras, I. McCulloch, J. Rivnay, Proc.
+Natl. Acad. Sci. U. S. A. 2016, 113, 12017.
+[35] C. G. Bischak, L. Q. Flagg, K. Yan, C. Z. Li, D. S. Ginger, ACS Appl.
+Mater. Int. 2019, 11, 28138.
+[36] A. F. Paterson, H. Faber, A. Savva, G. Nikiforidis, M. Gedda, T. C.
+Hidalgo, X. Chen, I. McCulloch, T. D. Anthopoulos, S. Inal, Adv. Mater.
+2019, 31, 1902291.
+[37] J. Surgailis, A. Savva, V. Druet, B. D. Paulsen, R. Wu, A. Hamidi-Sakr,
+D. Ohayon, G. Nikiforidis, X. Chen, I. McCulloch, J. Rivnay, S. Inal,
+Adv. Funct. Mater. 2021, 31, 2010165.
+[38] X. Chen, A. Marks, B. D. Paulsen, R. Wu, R. B. Rashid, H. Chen,
+M. Alsufyani, J. Rivnay, I. McCulloch, Angew. Chem. 2021, 133,
+9454.
+[39] I. P. Maria, B. D. Paulsen, A. Savva, D. Ohayon, R. Wu, R. Hallani, A.
+Basu, W. Du, T. D. Anthopoulos, S. Inal, J. Rivnay, I. McCulloch, A.
+Giovannitti, Adv. Funct. Mater. 2021, 31, 2008718.
+[40] J. J. Samuel, A. Garudapalli, A. A. Mohapatra, C. Gangadharappa, S.
+Patil, N. Phani, B. Aetukuri, Adv. Funct. Mater. 2021, 31, 2102903.
+[41] H. Y. Wu, C. Y. Yang, Q. Li, N. B. Kolhe, X. Strakosas, M. A. Stoeckel,
+Z. Wu, W. Jin, M. Savvakis, R. Kroon, D. Tu, H. Y. Woo, M. Berggren,
+S. A. Jenekhe, S. Fabiano, Adv. Mater. 2022, 34, 2106235.
+[42] D. Jeong, I.-Y. Jo, S. Lee, J. H. Kim, Y. Kim, D. Kim, J. R. Reynolds,
+M.-H. Yoon, B. J. Kim, Adv. Funct. Mater. 2022, 32, 2111950.
+[43] J. Shi, P. Li, X. Y. Deng, J. Xu, Z. Huang, Y. Lei, Y. Wang, J. Y. Wang, X.
+Gu, T. Lei, Chem. Mater. 2022, 34, 864.
+[44] Z. S. Parr, J. Borges-González, R. B. Rashid, K. J. Thorley, D. Meli, B.
+D. Paulsen, J. Strzalka, J. Rivnay, C. B. Nielsen, Adv. Mater. 2022, 34,
+2107829.
+[45] P. Li, J. Shi, Y. Lei, Z. Huang, T. Lei, Nat. Commun. 2022, 13, 5970.
+[46] Y. Wang, E. Zeglio, H. Liao, J. Xu, F. Liu, Z. Li, I. P. Maria, D. Mawad,
+A. Herland, I. Mcculloch, W. Yue, Chem. Mater. 2019, 31, 9797.
+[47] J. Chen, S. Cong, L. Wang, Y. Wang, L. Lan, C. Chen, Y. Zhou, Z. Li, I.
+McCulloch, W. Yue, Mater Horiz. 2023, 10, 607.
+Adv. Mater. 2024, 2302624
+2302624 (11 of 11)
+© 2024 The Authors. Advanced Materials published by Wiley-VCH GmbH
+ 15214095, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adma.202302624 by University Of Chicago, Wiley Online Library on [09/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+

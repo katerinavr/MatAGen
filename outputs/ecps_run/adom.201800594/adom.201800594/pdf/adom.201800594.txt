@@ -1,0 +1,991 @@
+FULL PAPER
+1800594  (1 of 9)
+© 2018 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+www.advopticalmat.de
+Conjugated Polymer Blends for High Contrast Black-to-
+Transmissive Electrochromism
+Lisa R. Savagian, Anna M. Österholm, Dwanleen Eric Shen, Dylan T. Christiansen, 
+Michael Kuepfert, and John R. Reynolds*
+DOI: 10.1002/adom.201800594
+are useful for communicating text and 
+complex images via reflective displays in 
+electronic paper devices, wearable “smart 
+glasses,” and transmissive panel monitors. 
+Essential to the utility of such materials is 
+the ability to repeatedly transition between 
+two optical states in a rapid, on-demand 
+fashion.
+π-Conjugated electrochromic polymers 
+(ECPs) are a class of electrochromic mate-
+rials that offer an appealing platform for 
+the realization of true black-to-transmis-
+sive electrochromism. ECPs can undergo 
+full colored-to-colorless transitions on 
+rapid time scales (often in second to sub-
+second regimes,[1] with high coloration 
+efficiencies, contrasts (Δ%T at λmax) up to 
+70%, switching stability over thousands 
+to hundreds of thousands of cycles, and 
+in many cases, colorless states that can 
+be refreshed by a small current or voltage 
+pulse.[1,2] Moreover, ECPs can be readily 
+tuned for color through straightforward 
+chemical modification of the polymer back-
+bone. The addition of solubilizing aliphatic or polar side chains 
+allows for these materials to be processed as electronic inks in 
+low-cost and large-scale processing techniques, such as inkjet-
+printing, along with blade-, spray-, and slot die coating.[3–10] In 
+recent years, a deeper understanding of the structure–property 
+relationships that control the color and switching properties 
+of ECPs has enabled the development of extensive libraries of 
+cathodically coloring polymers. These materials have been suc-
+cessfully integrated into plastic[5,11,12] and paper-based[7,13,14] 
+electrochromic devices, making them promising candidates for 
+flexible or transient electronic displays.
+While most colored-to-transmissive ECPs have π-electronic 
+structures that have been carefully modified to absorb spe-
+cific wavelengths of visible light for achieving highly saturated 
+colors, a black ECP must absorb across the entire visible spec-
+trum in its colored state. Meanwhile, the transmissive state of 
+the material must absorb as little visible light as possible in 
+the same wavelength range for optimal contrast and optical 
+clarity. Developing a material that undergoes such drastic spec-
+tral changes upon application of an electrical bias presents a 
+unique materials design challenge. An additional complexity 
+arises when seeking to develop black-to-transmissive electro-
+chromic materials that are able to transition through interme-
+diate shades of gray, as well.
+Next-generation electrochromic technologies, such as dimmable fenestration, 
+eyewear integrated displays, and optical shutters require materials that 
+reversibly transition between highly transmissive and broadly absorbing 
+achromatic states, often with minimal intermediate coloration. In this work, 
+it is shown how the properties of dioxythiophene-based electrochromic 
+polymers (ECPs) can be leveraged through straightforward color mixing to 
+yield high-contrast, black-to-transmissive materials with low driving voltages 
+(<1 V), extended functional lifetimes, and minimal transient chromaticity. 
+Drawing from a family of five soluble colored-to-colorless switching polymers 
+(including ECP-cyan, -green, -magenta, -yellow, and a newly reported ECP-
+orange), three unique cathodically coloring polymer blends are reported, with 
+achromatic neutral states (C*ab < 5) and integrated optical contrast exceeding 
+40% across the entire visible spectrum (380–780 nm). By incorporating 
+different high-gap and dual-band absorbing ECPs, subtle control is demon-
+strated over both the extreme and intermediate coloration of the blends. This 
+work showcases how solution coprocessing of ECPs can be used to access 
+highly targeted achromatic hues while also enabling fine-tuned neutral optical 
+transition between black and transmissive states.
+L. R. Savagian, Dr. A. M. Österholm, Dr. D. E. Shen, D. T. Christiansen, 
+Prof. J. R. Reynolds
+School of Chemistry and Biochemistry
+School of Materials Science and Engineering
+Center for Organic Photonics and Electronics
+Georgia Tech Polymer Network
+Georgia Institute of Technology
+Atlanta, GA 30332-0400, USA
+E-mail: reynolds@chemistry.gatech.edu
+M. Kuepfert
+Re-synthesis Laboratory
+NC/IS
+BASF Corporation
+Tarrytown, NY 10591, USA
+The ORCID identification number(s) for the author(s) of this article 
+can be found under https://doi.org/10.1002/adom.201800594.
+Electrochromism
+1. Introduction
+Electrochromic materials that reversibly switch between black 
+and transmissive states are highly sought-after in a number 
+of commercial and military applications, including energy-
+saving dimmable windows, user-controlled protective eyewear, 
+and optical privacy shutters. In addition, black electrochromes 
+Adv. Optical Mater. 2018, 6, 1800594
+
+www.advancedsciencenews.com
+© 2018 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+1800594  (2 of 9)
+www.advopticalmat.de
+A number of strategies have been invoked in pursuit of black-
+to-transmissive ECPs. Synthetic approaches have targeted poly-
+mers with backbones designed for broad absorption of visible 
+light. Beaujuge et al. reported the first black-to-transmissive ECP 
+using a cathodically coloring random copolymer of 3,4-propyl-
+enedioxythiophene (ProDOT) donor and 2,1,3-benzothiadiazole 
+(BTD) acceptor moieties.[15] Two properties of this polymer led 
+to broad absorption across the visible region. First, BTD-based 
+donor–acceptor polymers are characterized by a dual absorb-
+ance at long and short wavelengths, which inherently absorb 
+more visible light than most traditional all-donor polymers that 
+exhibit single absorbance bands. Second, the random nature of 
+the copolymerization leads to varying combinations of donor 
+and acceptor along the polymer backbone, each of which absorb 
+in different regions of the visible spectrum. Further optimiza-
+tion of the donor-to-acceptor feed ratio yielded a black-to-trans-
+missive ECP (herein referred to as “ECP-black”) that absorbed 
+most broadly across the visible range.[16] This so-called “donor-
+acceptor approach,” which involves copolymerizing electron-poor 
+and electron-rich monomers, has since been employed to yield 
+other black ECPs.[17–19] Broad absorption across the visible range 
+has also been achieved in alternating donor–acceptor polymers 
+by incorporating multiple acceptors along the backbone, such 
+as benzoquinoxaline, benzoselenadiazole, and benzotriazole.[20] 
+Beyond donor–acceptor systems, cobalt-based supramolecular 
+metallopolymers have been pursued as black electrochromes. A 
+salient example involves a Co(II)–bisterpyridine metallosupra-
+molecular polymer that switches between a highly transmissive, 
+pale yellow neutral state and a broadly absorbing darkened state 
+upon electrochemical reduction.[21] Another interesting approach 
+was demonstrated by Sassi et al. in 2016, where a small mole-
+cule Weitz-type chromophore that absorbs at short wavelengths, 
+was tethered onto an ethylenedioxythiophene (EDOT)-ProDOT 
+copoly­mer that absorbs at longer wavelengths. When used in 
+conjunction with a Prussian Blue counter electrode, this material 
+yielded a black-to-clear electrochromic device.[22] A final family of 
+materials that has demonstrated broadly absorbing colored states 
+are triphenylamine (TPA)-based polymers. Both the ProDOT-
+based polymers described above and TPA electrochromes are 
+p-type materials that switch between a neutral and oxidized 
+state. However, when compared to ProDOT-based polymers, 
+the spectra of TPA polymers are significantly blueshifted due to 
+their shorter effective conjugation lengths. As a result, neutral 
+TPA polymers often absorb in the UV and appear highly color-
+less, and upon oxidation, they absorb broadly in the visible range 
+upon and appear black. On the other hand, cathodically-coloring 
+ProDOT-based materials appear colored in the neutral state and, 
+upon oxidation, absorb broadly in the NIR and appear trans-
+missive. Through structural tuning, a TPA-based polymer with 
+a black oxidized state and a colorless neutral state was recently 
+developed.[23] Despite this progress, many of these systems do not 
+offer sufficiently broad spectral coverage, especially in the high- 
+and low-energy ranges of the visible region. In particular, cathodi-
+cally coloring systems like poly(ProDOT)s often suffer from the 
+infrared absorption of the oxidized chromophore tailing into the 
+visible region, leaving a blue tint in the transmissive state.
+Given the challenges associated with developing a color-neutral 
+and high optical contrast material, an alternative approach toward 
+black-to-transmissive electrochromism is to blend vibrantly 
+colored chromophores whose collective absorption entirely covers 
+the visible spectrum. This can, in theory, be accomplished using 
+the three traditional subtractive primaries, cyan, magenta, and 
+yellow (CMY), whose respective absorbance bands span the low-, 
+mid-, and high-energy regions of the visible spectrum, or by two-
+component combinations of dual-band and midgap absorbers, 
+such as green and magenta. Previous work has demonstrated 
+such color mixing principles in dual or stacked black-to-trans-
+missive electrochromic devices[24–27] as well as by solution co-
+processing of individual cathodically coloring chromophores into 
+a single optically active layer.[26,28] To demonstrate the ability to 
+finely control hue through color mixing, our group has previously 
+utilized solution co-processing of multicomponent ECP blends to 
+tune the dynamic brown coloration in electrochromic eyewear.[29] 
+This blending approach is also advantageous when targeting 
+black-to-transmissive switching, as it allows for facile tuning of 
+optical properties without requiring new material synthesis or 
+complex electrode architectures. In particular, solution coproc-
+essing offers a great deal of versatility and predictability and can 
+readily be adapted to yield different hues of black (e.g., charcoal 
+or noir) by simply tuning the mass ratios of the constituent ECPs.
+Blending electrochromes for black-to-transmissive switching, 
+however, demands special consideration of how the optical 
+evolution proceeds with applied electrochemical potential. For 
+applications such as dimmable fenestration and eyewear, where 
+it is desirable to dial in intermediate shades, bleaching and col-
+oration should proceed through color-neutral gray tones, rather 
+than vibrantly colored intermediates. Developing an ECP blend 
+with such properties requires that the consitutent chromophore 
+bleach within a similar voltage window and in a concerted 
+fashion. However, because the color of an ECP is determined 
+by the effective conjugation length and the extent of π orbital 
+overlap in response to various steric and electronic effects, 
+any attempt to manipulate the color will often also result in a 
+change in the electrochemical properties of the material. Conse-
+quently, while it may be relatively straightforward to find a com-
+bination of ECPs whose collective absorption profiles cover the 
+visible range, it is much more challenging to also ensure that 
+the redox properties of the components coordinate to bleach 
+and color at identical potentials and similar rates. To date, no 
+study has demonstrated how to control both the extreme and 
+intermediate coloration of black-to-transmissive ECP blends.
+In this work, solution coprocessing is presented as a means 
+for overcoming the many challenges associated with high-
+contrast black-to-transmissive electrochromism. We demon-
+strate how the composition of ECP blends can be strategically 
+tailored to access a range of black hues with complete coverage 
+of the visible spectrum, enhanced redox stability, and achro-
+matic optical transitions to highly transmissive states. Utilizing 
+a collection of five soluble ProDOT-based copolymers, we pre-
+sent an expanded subtractive color mixing approach beyond the 
+traditional CMY model and report a series of three-component 
+black ECP blends. By including a green and a new orange 
+colored-to-colorless polymer in our mixing scheme, we can 
+control the colored states, intermediate hues, and long-term col-
+oration of black-to-transmissive ECP films. With integrated con-
+trast across the visible spectrum exceeding 40%, these materials 
+are significantly more color-neutral than our previously reported 
+ECP-black and can be tuned for achromatic optical transitions.
+Adv. Optical Mater. 2018, 6, 1800594
+ 21951071, 2018, 19, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adom.201800594 by Argonne National Laboratory, Wiley Online Library on [26/09/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+© 2018 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+1800594  (3 of 9)
+www.advopticalmat.de
+2. Results and Discussion
+2.1. Electrochromic Properties of ECP Blends
+Because the perception of color is highly subjective, it is impor-
+tant to be able to quantify the exact hue of various colors for 
+valid comparisons. The human eye has three types of cone cells 
+that are sensitive to unique wavelength ranges of light; if the 
+total spectral power distribution of light is weighted to account 
+for this relative sensitivity, three effective stimulus values are 
+generated. These three values can objectively quantify a color.[30] 
+Quantification of chromaticity can be accomplished in the 
+CIELAB coordinate system, where a 3D vector space defines the 
+chromaticity and luminosity of a color. Here, L* represents the 
+lightness of a color, where 0 is black and 100 is diffuse white. 
+The a* and b* axes (+/-128) represent the relative saturation 
+of four quaternary colors: red (+a*), green (-a*), blue (-b*), 
+and yellow (+b*). A vibrant color with high degree of saturation 
+will have large a* and/or b* values, such as Coke Red (L* = 53, 
+a* = 80, b* = 59).[31] A truly achromatic color (e.g., black, gray) 
+can be accessed when a material’s absorbance, combined with 
+the nonlinear spectral sensitivity of the human eye, completely 
+and uniformly attenuates the intensity of all visible light. Ach-
+romatic shades have relatively equal contributions from each 
+of the four chromatic components and therefore map to low 
+(a*, b*) coordinates (i.e., a* and b* values close to 0). A black-
+to-clear electrochromic material with intermediate gray shades 
+would ideally only exhibit a variation of L* upon switching. The 
+color chromaticity (C*ab) represents the overall hue of the color 
+and is defined as the magnitude of the vector in the (a*, b*) 
+plane, as indicated by Equation (1). Color-neutral shades (e.g., 
+black and gray) have equal contributions from each of the qua-
+ternary chromatic components and therefore are associated 
+with low C*ab values.
+(
+)
+(
+)
+*
+* 2
+* 2
+C
+a
+b
+ab =
++
+	
+(1)
+When blending polymers to achieve a color neutral black, five 
+dioxythiophene-based polymers were selected from our group’s 
+collection of colored-to-colorless ECPs. These ECPs readily dis-
+solve in toluene and can be co-processed from solution into 
+homogeneous electrochromic films. Each blend was formu-
+lated to include a high-gap absorber (ECP-yellow or -orange), a 
+midgap absorber (ECP-magenta), and dual-band chromophore 
+with strong absorption bands in both the low- and high-energy 
+ends of the visible spectrum (ECP-cyan or -green). Not only 
+does this color mixing scheme offer a means toward materials 
+with broad spectral coverage in the colored state, but it also 
+allows for the high-, mid-, and low-energy absorption intensity 
+of the blend to be independently manipulated, which is impor-
+tant when fine-tuning the blend composition to a desired ach-
+romatic state. In addition, we show that by varying the blend 
+components we are able to manipulate the intermediate colored 
+states and the switching performance. Following this model, 
+three different black blends were formulated: a conventional 
+CMY blend (comprising ECP-cyan, -magenta, and -yellow), a 
+CMO blend (ECP-cyan, -magenta, and -orange), and a GMO 
+blend (ECP-green, -magenta, and -orange), as shown schemati-
+cally in Figure 1.
+The redox and optical properties of the individual blend com-
+ponents are summarized in Table 1, with the corresponding 
+spectra and redox characterizations shown in Figure  2 as 
+well as Figures S1 and S2 in the Supporting Information. 
+Figure 2A–C shows the neutral state spectra of the individual 
+ECPs as well as their composite blend spectra, and Figure 2D 
+compares the cyclic voltammograms of the blend compo-
+nents. The noteworthy differences between the two high-gap 
+absorbers (ECP-yellow and ECP-orange) and the two low-gap 
+absorbers (ECP-green and ECP-cyan) are the onset of oxidation 
+(Eonset, determined by differential pulse voltammetry (DPV) as 
+shown in Figure  S1 of the Supporting Information) and the 
+potential required to reach the transmissive state (Eclear). These 
+differences, as we will demonstrate, have a substantial impact 
+Adv. Optical Mater. 2018, 6, 1800594
+Figure 1.  Repeat unit structures of ProDOT-based conjugated electrochromic copolymers used for blending and schematic of subtractive mixing 
+strategies for accessing black. R = 2-ethylhexyl.
+ 21951071, 2018, 19, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adom.201800594 by Argonne National Laboratory, Wiley Online Library on [26/09/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+© 2018 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+1800594  (4 of 9)
+www.advopticalmat.de
+on the electrochromic switching properties and intermediate 
+coloration of blended ECPs. Eclear is determined spectroscopi-
+cally and corresponds to the potential above which we observe 
+no further change in the level of transmittance in the visible 
+range upon further oxidation. The potential-dependent absorp-
+tion spectra for the various blend components used in this 
+study are shown in Figure S2 of the Supporting Information.
+ECP-yellow and ECP-orange have similar λmax values, but 
+ECP-orange is slightly more broadly absorbing, as shown in 
+Figure 2 (a direct comparison can be found in Figure S3a of the 
+Supporting Information). This spectral difference, though minor, 
+results in a significant difference in perceived color. This can 
+be explained by the photopic response of the human eye. The 
+increased spectral coverage of ECP-orange encompasses a region 
+of the visible spectrum where the human eye is most sensitive to 
+changes in the wavelength (≈480–520 nm). Therefore, subtle dif-
+ferences on the low-energy side of the absorbance spectra of ECP-
+orange and ECP-yellow are exaggerated when these materials are 
+viewed by the human eye, resulting in noticeably different colors. 
+This is reflected by the large difference in the a* values associ-
+ated with the reduced states of the two ECPs (Table 1).
+When comparing the redox properties of ECP-orange and 
+ECP-yellow, the difference in oxidation potential arises from a 
+combination of both steric and electronic effects. In ECP-yellow, 
+the high degree of aromaticity of the benzene ring and the bulki-
+ness of the ethylhexyloxy groups obstruct planarization to a qui-
+noidal geometry in the oxidized state, giving rise to the high 
+Eonset (Figure 2D) and Eclear (Figure S2, Supporting Information). 
+The 3,4-dioctylthiophene comonomer used in ECP-orange, on 
+the other hand, is inherently easier to oxidize than the phenylene 
+unit in ECP-yellow due to the decreased aromatic stabiliza-
+tion associated with the thiophene heterocycle. This results in a 
+higher HOMO (highest occupied molecular orbital) energy and, 
+consequently, a lower Eonset. By replacing the 3,4-alkoxy function-
+alized thiophene units in ECP-yellow with 3,4-propylenedioxy-
+functionalized analogs in ECP-orange, the functional groups 
+are further away from the conjugated backbone, which also 
+decreases the steric hindrance obstructing planarization. The 
+backbone of ECP-orange, being exclusively composed of thio-
+phene-based repeat units, also allows for an anti configuration  
+Adv. Optical Mater. 2018, 6, 1800594
+Figure 2.  Superimposed absorbance spectra of individual electrochromic polymer components and blends (black lines) of A) cyan–magenta–yellow, 
+B) cyan–magenta–orange, and C) green–magenta–orange. D) Superimposed cyclic voltammograms of ECPs blended in this study, performed on drop-
+casted films on glassy carbon electrodes in 0.5 M TBAPF6/PC.
+Table 1.  Redox and optical properties of ECPs used in blends.
+ECP
+λmax [nm]
+Eonset [V] vs 
+Fc/Fc+
+Eclear [V] vs 
+Fc/Fc+
+a*, b*
+Contrast at λmax 
+(%)a)
+ECP-yellow
+465
+0.47
+0.7
+9, 76
+60
+ECP-orange
+468
+0.18
+0.5
+29, 68
+65
+ECP-magenta
+544
+0.12
+0.3
+59, -16
+70
+ECP-cyan
+406, 687
+0.22
+0.6
+-30, -15
+50b)
+ECP-green
+458, 672
+0.13
+0.5
+-36, 2
+50b)
+a)Contrast is measured for films coated to a transmittance of 10% +/-2% at λmax; 
+b)For ECP-cyan and ECP-green, contrast was measured at the low-energy absorb-
+ance band.
+ 21951071, 2018, 19, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adom.201800594 by Argonne National Laboratory, Wiley Online Library on [26/09/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+© 2018 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+1800594  (5 of 9)
+www.advopticalmat.de
+between rings, i.e. the 3,4 positions between neighboring rings 
+are antiperiplanar, which in turn reduces inter-ring strain and 
+allows for greater backbone planarization in the neutral state 
+when compared to ECP-yellow. Additionally, this allows the oxi-
+dized state of ECP-orange to more easily assume a quinoidal-type 
+bonding structure and therefore exhibit a lower Eclear relative to 
+ECP-yellow.
+When evaluating the two low-gap components, ECP-green 
+and ECP-cyan, the difference in Eonset is the result of the higher 
+relative ratio of the electron-rich (ProDOT) to the electron-
+poor (BTD) moieties in ECP-green. This increase in electron-
+richness destabilizes the HOMO level of ECP-green relative to 
+ECP-cyan, resulting in a decreased Eonset, as well as cathodically 
+shifted redox peaks in the cyclic voltammograms, as shown 
+in Figure 2D. The higher ProDOT content in ECP-green also 
+facilitates planarization and charge carrier delocalization, 
+leading to a 0.1 V lower Eclear (Table 1). The optical properties 
+of ECP-cyan and ECP-green are fairly similar, as both exhibits 
+a dual-band absorbance profile characteristic of many donor–
+acceptor polymers. The band at longer wavelengths arises from 
+a transition between a delocalized HOMO and a LUMO (lowest 
+occupied molecular orbital) localized on the acceptor, while the 
+short wavelength absorption band originates from a transition 
+between the HOMO and the LUMO+n orbital localized on the 
+donor unit.[32] By increasing or decreasing the donor content in 
+the ECP backbone, the position of the high-energy band can be 
+readily red- or blueshifted, whereas the low energy band is less 
+sensitive to the donor–acceptor ratio. The higher ProDOT con-
+tent in ECP-green results in a redshifting of the high-energy 
+band of this ECP by about 50 nm relative to ECP-cyan, whereas 
+the low energy band is blueshifted only by 15 nm. This sig-
+nificant shifting of the high-energy band results in ECP-green 
+absorbing more in the middle of the visible spectrum (450–
+500 nm) and less at the extremes when compared to ECP-cyan.
+To make color-neutral blends, the relative amount of each 
+ECP was adjusted such that resulting films exhibited relatively 
+uniform spectral coverage and low chromaticity (C*ab  < 5) in 
+the colored state (Figure 2 and Table 2). As shown in Table 2, 
+each of the three-component ECP blends are significantly more 
+color neutral than the random copolymer ECP-black (C*ab = 16) 
+which has a slight purple hue and a higher negative b* (see 
+comparison in Figures 3A and 4).
+The enhanced color neutrality of the CMY, CMO, and GMO 
+blends can be attributed to their broadened and more uni-
+form absorbance across the visible spectrum, especially below 
+450  nm and above 750 nm, where these blends absorb more 
+effectively than ECP-black (Figure  3A). The different ratio of 
+blend components is due to subtle differences in the absorb-
+ance spectra of each of the ECPs. For instance, when com-
+paring CMY with CMO, the absorption band of ECP-orange is 
+broader with respect to that of ECP-yellow, so the CMO blend 
+requires less of the mid-gap chromophore ECP-magenta to 
+achieve color neutrality. Similarly, the high-energy absorption 
+band of ECP-cyan is blueshifted relative to that of ECP-green. 
+As a result, in the GMO blend the absorbance of ECP-orange 
+and the high-energy band of ECP-green overlap more closely 
+than ECP-orange and ECP-cyan in the CMO blend. To com-
+pensate, the amount of ECP-orange was reduced fourfold in 
+the GMO blend, compared to the CMO blend. Finally, ECP-
+cyan absorbs more low- and high-energy light than ECP-green, 
+which impacts the blend in two ways. First, because the high- 
+and low-energy absorption bands are brought closer together in 
+ECP-green, slightly less of the midgap absorber (ECP-magenta) 
+relative to the dual-band absorber is required to formulate the 
+GMO blend than the CMO blend. Second, CMO and CMY 
+blends have broader spectral coverage than the GMO blend; 
+however, GMO is still very color-neutral (C*ab  = 3.3), as the 
+human eye is least sensitive the light transmitted at the extreme 
+ends of the visible spectrum.
+Adv. Optical Mater. 2018, 6, 1800594
+Table 2.  Color coordinates and color saturation of evaluated ECP blends 
+and ECP-black.
+Material
+Mass ratios
+Colored state
+Transmissive state
+L*
+a*
+b*
+C*ab
+L*
+a*
+b*
+C*ab
+Blends
+CMY
+10-4-2
+45.1
+2.5
+-1.0
+2.7
+82.1
+-7.1
+-1.5
+7.3
+CMO
+10-4-4
+40.1
+4.4
+-1.3
+4.6
+81.5
+-4.7
+-4.8
+6.7
+GMO
+10-3.4-1
+37.7
+-1.7
+-2.8
+3.3
+81.7
+-4.6
+-6.1
+7.6
+ECP-Black
+–
+40.0
+-3.1
+-15.7
+16.0
+84.2
+-5.4
+-4.7
+7.1
+Figure  3.  Superimposed A) absorbance and B) transmittance spectra for ECP-black (black lines), CMY black (yellow lines), CMO black (orange 
+lines), and GMO black (green lines) in the oxidized state (+0.8 V) and reduced state (0.0 V). Dashed lines denote the limits of the visible spectrum 
+(380–780 nm).
+ 21951071, 2018, 19, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adom.201800594 by Argonne National Laboratory, Wiley Online Library on [26/09/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+© 2018 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+1800594  (6 of 9)
+www.advopticalmat.de
+When oxidized to their colorless states, the transmittance 
+spectra of the blends all follow a similar trend across the visible, 
+with each material transmitting the greatest amount of green–
+yellow light (500–600 nm) as shown in Figure  3B. For electro-
+chromic materials, contrast is often evaluated as the change in 
+transmittance between the reduced and oxidized states at a single 
+wavelength. For broadly absorbing hues like black, it is more 
+descriptive to define contrast as the change in integrated transmit-
+tance across the entire visible spectrum, which spans from 380 
+to 780 nm according to Commission internationale de l’éclairage 
+(CIE) standards.[33] Among the blends, the CMY film has the 
+lowest integrated transmittance in the colorless state, presumably 
+due to the reduced electrochromic contrast of ECP-yellow when 
+compared to ECP-orange, especially above 650 nm (Figure S3a, 
+Supporting Information), as well as the larger relative amount of 
+ECP-cyan. While both the CMO and the GMO can reach a similar 
+level of transmittance in the oxidized state, the higher integrated 
+contrast of the CMO blends is a result of the broader spectral 
+coverage achieved by the colored state of this blend. While ECP-
+black has the highest integrated transmittance in the oxidized 
+state, it does not have the highest integrated contrast. This can 
+be explained by ECP-black’s colored state, which has a relatively 
+narrower absorption profile in the visible range than the blends 
+in the visible region, leading to a higher integrated transmittance 
+at +0.0 V. Each of the blends exhibits an integrated contrast across 
+the entire visible spectrum greater than or equal to that of ECP-
+black (40%) with the CMO blend having the highest integrated 
+contrast (45%) among all black materials evaluated (see Table 3).
+While each blend studied has a unique composition, their 
+electrochemical properties do not differ much. As demon-
+strated in Figure S4 in the Supporting Information, the CMO, 
+GMO, and CMY blends and ECP-black all pass similar amount 
+of current and require a comparable charge to switch between 
+the colored and colorless states (Table 3). Each black formula-
+tion undergoes a broad oxidation within a potential window 
+ranging from +0.1 V to 0.8 V. The Eonset for each blend occurs 
+around +0.08 V (Table 3), while ECP-black begins oxidizing at 
+0.02 V versus Fc/Fc+. Interestingly, the CMY, CMO, and GMO 
+blends all oxidize at slightly lower potentials than the Eonset of 
+their constituent ECPs, suggesting that there are intermolecular 
+interactions in these blends that may result in the formation 
+of polymer domains that are more susceptible to electrochem-
+ical oxidation. However, a more important property for these 
+cathodically coloring blends is the Eclear. As expected, the CMY 
+blend has the highest Eclear as a result the ECP-yellow compo-
+nent, which bleaches at the highest electrochemical potential. 
+The GMO blend exhibits the lowest Eclear of the blends, which 
+is not surprising, as it comprises the three ECPs with the 
+lowest Eclear values. When evaluating the kinetics of the black-
+to-transmissive transition, the CMO and GMO exhibit similar 
+switching times when stepped between -0.5 and +0.8 V and 
+can complete a full transition in 2 s, as shown in Figure S5 in 
+the Supporting Information. The CMY blend exhibits slightly 
+slower switching kinetics using this same potential step, most 
+likely due to high oxidation potential of ECP-yellow, which has 
+been previously observed for brown ECP blends.[29]
+To evaluate the functional lifetimes of the CMY, CMO, and 
+GMO blends, each film was repeatedly stepped between the 
+colored (-0.5 V) and colorless (+0.8 V) state 1000 times. After 
+≈100 switches, the CMY blend lost almost 10% of its overall inte-
+grated contrast (Figure S6, Supporting Information). This loss 
+in contrast is attributed to the electrochemical instability of the 
+ECP-yellow component, which has been demonstrated in pre-
+vious work.[34] As shown in Figure S7 in the Supporting Infor-
+mation, the b* value of the CMY blend decreased from about 
+-1.5 to -17 over 1000 switches, corresponding to a loss in yellow 
+chromaticity and increased blue coloration. By substituting 
+Adv. Optical Mater. 2018, 6, 1800594
+Figure 4.  Photographs of A) ECP-black, B) the CMY blend, C) the CMO blend, and the D) GMO blend taken under potentiostatic control. Each  
+photograph is taken at 0.1 V increments, increasing from 0 V to +0.8 V versus Ag/Ag+ in 0.5 M TBAPF6-PC. E) The corresponding color coordinates 
+for ECP-black and the various blends at 0.1 V increments.
+Table 3.  Electrochromic and electrochemical properties of black blends 
+and ECP-black. All potentials are reported versus Fc/Fc+ couple.
+ECP-black
+CMY blend CMO blend GMO blend
+%T (+0.8 V)
+61
+51
+56
+57
+%T (0.0 V)
+21
+11
+12
+17
+Integrated contrast (%)
+40
+40
+45
+40
+Eonset (V)
++0.02
++0.08
++0.08
++0.09 V
+Eclear (V)
++0.5
++0.7
++0.6
++0.5
+Charge to switch (mC cm−2)
+3.3
+4.1
+3.6
+3.7
+ 21951071, 2018, 19, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adom.201800594 by Argonne National Laboratory, Wiley Online Library on [26/09/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+© 2018 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+1800594  (7 of 9)
+www.advopticalmat.de
+ECP-yellow for ECP-orange in the CMO and GMO blends, the 
+switching stability can be greatly improved, as ECP-orange is 
+able to maintain its full optical contrast over 1000 redox cycles 
+(Figure  S8, Supporting Information). Over the course of 1000 
+switches, the CMO and GMO blends exhibit minimal change 
+in overall chromaticity and remain relatively color neutral 
+(Figure  S9, Supporting Information), demonstrating that both 
+the CMO and the GMO are robust electrochromic systems.
+2.2. Transitional Coloration
+By incorporating ECPs with a diverse set of redox properties 
+and coloration kinetics, solution coprocessing offers the unique 
+possibility of directly controlling the chromaticity of the optical 
+evolution. In certain applications, such as for windows or eye-
+wear, it is desirable to be able to access color-neutral interme-
+diate shades. For other uses, such as on–off displays or optical 
+shutters, it is more important that the switch between the 
+extreme states occurs rapidly and with little detectable transient 
+chromaticity. Following this motivation, both the intermediate 
+and transient optical properties of the ECP films were studied.
+To study their intermediate chromaticity, the ECP films were 
+incrementally oxidized in 0.1 V steps ranging from 0.0 V (black 
+state) to +0.8 V (transmissive state). At each potential, the visual 
+appearance (Figure  4A), CIELAB coloration (Figure  4B), and 
+spectral composition (Figure  S10, Supporting Information) 
+were evaluated. In doing this, we evaluate which colors between 
+the extreme states can be “dialed in” under intermediate poten-
+tiostatic conditions. As shown in Figure 4A, ECP-black transi-
+tions from a blue–purple color to a transmissive state through 
+light blue intermediates. The color coordinates associated with 
+this process maintain low a* and b* values throughout the tran-
+sition as shown in Figure  4E. In the case of the CMY blend 
+(Figure 4B), the Eclear mismatch between ECP-cyan, -magenta, 
+and -yellow results in vibrantly colored intermediate states. At 
++0.2 V, ECP-magenta has reached a fairly colorless state, while 
+ECP-cyan and ECP-yellow remain fully colored, as evidenced by 
+the strong absorptions bands below 500 nm and above 600 nm 
+in the potential-dependent spectra (Figure S9, Supporting Infor-
+mation). This residual absorption results in the film exhibiting 
+intermediate shades of green with (a*, b*) values that deviate 
+greatly from the achromatic origin of the CIELAB color space 
+(Figure 4E). Above +0.6 V, ECP-cyan is oxidized to its transmis-
+sive state, leaving ECP-yellow as the only colored component 
+remaining in the film until it finally bleaches at +0.8 V. Simi-
+larly, the CMO blend undergoes a strongly colored optical evolu-
+tion from the black to the transmissive state. In the CMO blend 
+(Figure  4C), ECP-magenta and ECP-orange are oxidized to a 
+transmissive state within a narrow potential window whereas 
+ECP-cyan remains colored until +0.6 V, giving rise to a vibrant 
+cyan intermediate state with L*  = 66, a*  = -16, and b*  = 7 
+(C*ab = 17.5) between +0.4 and +0.5 V. ECP-green, on the other 
+hand, having a lower Eonset and Eclear than ECP-cyan, reaches 
+its colorless state at a potential that more closely aligns with 
+the Eclear of ECP-magenta and ECP-orange. Matching the Eclear 
+of each ECP component in the GMO blend results in a more 
+concerted bleaching process and a more color-neutral optical 
+evolution. While the color of the GMO film appears slightly  
+green at +0.3 V (L* = 55 a* = -16, b* = 7, C*ab = 17.5), the overall 
+transition is not nearly as vibrant as the CMY or CMO blends 
+because of the lower L*. The reason for the residual green hue 
+at +0.3 V is that ECP-magenta (Figure S2, Supporting Informa-
+tion), unlike ECP-green, switches from a vibrantly colored state 
+to a fairly clear state within a narrow potential window, rather 
+than gradually bleaching out as the oxidation process pro-
+gresses. This result demonstrates that measuring and reporting 
+Eclear is perhaps even more important than the Eonset especially 
+when developing ECP blends. Because each component in the 
+GMO blend has a relatively low Eclear, this formulation reaches 
+a fully transmissive state at +0.5 V, which is much lower than 
+the potentials required to reach similar optical states in the 
+CMY and CMO blends (Table 3).
+When switching the blend films rapidly between the 
+reduced and oxidized states (on/off switching), there may 
+also be detectable transitional colors as the film evolves from 
+its extreme black and transmissive states. This transient col-
+oration is determined by not only the redox potentials of each 
+component, but also by the kinetic factors associated with the 
+bleaching of each chromophore. To evaluate the nature of the 
+transitional colors when switching between black and trans-
+missive states, a square wave bias of -0.5 V to +0.8 V was 
+applied to the CMO and GMO films and spectra were recorded 
+every 0.1 s to capture the nature of the direct optical evolution 
+from the black to the transmissive state. For both the CMO 
+and GMO blends, the first 0.4 s after oxidation is associated 
+with a drastic decrease in the absorbance in the mid-range of 
+the visible spectrum (500–550 nm), as shown in Figure 5A, as 
+a result of the rapid bleaching of ECP-magenta. In the later 
+stages of bleaching, contributions from ECP-cyan and ECP-
+orange dominate the spectra of the CMO blend. Because the 
+high-energy band of ECP-cyan does not overlap much with 
+the absorbance of ECP-orange, the combined absorbance of 
+these components results in rather even coverage of the visible 
+spectrum in the later stages (0.5–1.0 s) of the optical evolution. 
+This is illustrated by the colored rectangles in Figure 5, which 
+show the spacing of the ECP-cyan and ECP-orange absorb-
+ance bands during the transitional coloration. Because the 
+high-energy absorbance band of ECP-green is redshifted with 
+respect to that of ECP-cyan, the absorption band of ECP-green 
+has a greater overlap with ECP-orange. This can be seen sche-
+matically in Figure 5B from 420 to 490 nm, highlighted by the 
+green and orange bars. As a result of this overlap, the spectral 
+evolution assumes a distinct, uneven curvature with reduced 
+absorbance around 500 nm, which indicates that the GMO 
+blend bleaches through slightly green-tinted shades when tran-
+sitioning directly from the black state. The reduced overlap of 
+these bands in the CMO blend results in a more color-neutral 
+optical evolution from the black to the transmissive state. Once 
+ECP-magenta has reached a colorless state in the GMO blend, 
+the remaining transition is characterized by the bleaching of 
+ECP-green and ECP-orange.
+While the intermediate coloration of the GMO blend appears 
+the most color-neutral when applying intermediate electro-
+chemical potentials (Figure 4), here we can see that the GMO 
+black-to-transmissive evolution is slightly more colored than 
+that of the CMO blend when switching in an on/off fashion 
+between extreme potentials. Therefore, a blend similar to 
+Adv. Optical Mater. 2018, 6, 1800594
+ 21951071, 2018, 19, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adom.201800594 by Argonne National Laboratory, Wiley Online Library on [26/09/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+© 2018 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+1800594  (8 of 9)
+www.advopticalmat.de
+GMO, where the oxidation potentials are more closely aligned, 
+would be superior for applications in which intermediate ach-
+romatic shades need to be accessed or dialed in, or when a 
+lower driving voltage is required. On the other hand, in applica-
+tions where direct black-to-transmissive transition must exhibit 
+minimal transient coloration, a blend with components whose 
+absorbance bands are spaced further apart, such as the CMO 
+blend, would be more advantageous. The broadened absorb-
+ance spectrum can compensate for disparities in the bleaching 
+and coloration of each component.
+For truly color-neutral black-to-transmissive switching, the 
+coloration and bleaching kinetics of each chromophore should 
+be similar so that the transition between extreme occurs 
+through achromatic, evenly absorbing intermediate shades. 
+However, factors that govern kinetic characteristics are com-
+plex, as they involve migration of both charge carriers and 
+solvated ions that must occur simultaneously and, as a result, 
+may depend on electrolyte properties and the microstructure of 
+the polymer film. Therefore, it is difficult to predictably tune 
+the switching kinetics through structural modifications of the 
+polymer. In ECP blend formulations where one component 
+bleaches at a faster rate than the others (namely, the ECP-
+magenta component in the CMO and GMO blends), it appears 
+to be advantageous if the chromophores exhibit little spectral 
+overlap, thereby allowing for more even coverage across the vis-
+ible spectrum throughout the optical transition.
+3. Conclusion
+Using five vibrant colored-to-colorless dioxythiophene-based 
+polymers and following straightforward color-mixing principles, 
+we have developed new electrochromic polymer blends that 
+reversibly switch between highly desirable black and transmis-
+sive states and can be tuned for achromatic optical transitions. 
+These blends include a conventional CMY subtractive combina-
+tion (ECP-cyan, -magenta, and -yellow), as well as CMO (ECP-
+cyan, -magenta, and -orange), and GMO (ECP-green, -magenta, 
+and -orange) formulations. Combining the constituent ECPs 
+through scalable solution co-processing techniques allows us 
+to control the precise ratio of the chromophores, predictably 
+balance the chromatic contributions of each component, and 
+access achromatic states (C*ab  < 5) that absorb more broadly 
+across the visible spectrum than previously reported single- 
+component donor-acceptor black-to-clear ECPs. By substituting 
+the new ECP-orange for ECP-yellow in the CMO and GMO 
+blends, we can overcome the stability issues associated with 
+the high gap component and produce blends that maintain col-
+oration over hundreds of redox cycles without compromising 
+electrochromic contrast. Owing to the low oxidation potential  
+of ProDOT-rich ECP-green, the GMO blend reaches a transmis-
+sive state at a lower potential than the CMO blend (+0.5 com-
+pared to +0.6 V vs Fc/Fc+), exhibits more coordinated bleaching 
+of the constituent chromophores, and transitions through low 
+(a*, b*) achromatic intermediates. Utilizing ECP-cyan, which 
+has an inherently broadened absorption spectrum when com-
+pared to ECP-green, allows the CMO blend to exhibit more color 
+neutral on/off switching between its extreme black and trans-
+missive states. To achieve truly achromatic and synchronized  
+switching of blended electrochromic materials, such as those 
+described in this study, additional work is needed to understand 
+the kinetic factors associate with ECP coloration and bleaching.
+4. Experimental Section
+Materials: ECP-black was synthesized with Stille coupling according to 
+a previously published procedure[16] (Mn: 10 kDa; ÐM: 1.6). ECP-magenta 
+(direct (hetero)arylation polymerization, Mn: 11.5 kDa, ÐM: 2.3), ECP-
+cyan (direct (hetero)arylation polymerization, Mn: 19.8 kDa, ÐM: 4.3), 
+ECP-yellow (direct (hetero)arylation polymerization, Mn: 88 kDa, ÐM: 
+3.9) were synthesized using previously reported procedures.[29,35] ECP-
+green and ECP-orange were also synthesized using direct (hetero)
+arylation polymerization. Synthetic conditions and characterization for 
+these polymers can be found in the Supporting Information.
+To fabricate ECP films, all polymers were dissolved at 2 mg mL−1 in 
+toluene and spray cast at 20 PSI onto indium tin oxide (ITO)-coated 
+glass slides (Delta Technologies, 8–12 Ω sq−1) to an optical density of 
+1 ± 0.1 a.u. using an Iwata Eclipse spray gun. To formulate ECP blends, 
+solutions of each ECP (2 mg mL−1 in toluene) were combined in the 
+reported ratios (based on solution volume and therefore mass) and 
+spray cast using the same tools. Optical and redox properties were 
+evaluated in 0.5 M tetrabutylammonium hexafluorophophate (TBAPF6, 
+Acros Organics, 98%, purified by recrystallization from hot ethanol) in 
+propylene carbonate (PC, Acros organics, 99.5%).
+Adv. Optical Mater. 2018, 6, 1800594
+Figure 5.  Spectral evolution of A) CMO blend and B) GMO blend when applying a square wave potential from -0.5 V to +0.8 V (vs Ag/Ag+) in 0.5 M 
+TBAPF6/PC. The black line represents the absorption spectra of the films in the reduced state at the time of the pulse, while the lightest gray line 
+represents the spectra 1.5 s after applying the square wave. Spectra was recorded every 100 ms. Superimposed on the spectra are colored bands 
+corresponding to the absorption maxima and full width at 75% peak maximum of the individual ECP components: ECP-cyan (cyan rectangles), ECP-
+magenta-2 (pink rectangles), ECP-orange (orange rectangles), and ECP-green (green rectangles).
+ 21951071, 2018, 19, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adom.201800594 by Argonne National Laboratory, Wiley Online Library on [26/09/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+© 2018 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+1800594  (9 of 9)
+www.advopticalmat.de
+Adv. Optical Mater. 2018, 6, 1800594
+Electrochemical and Optical Characterization: Spectroscopic, kinetic, 
+and spectroelectrochemical measurements (integrated contrast, Eclear, 
+charge to switch) were performed in a three-electrode cell with a 
+platinum flag as the counter electrode, an Ag/Ag+ reference electrode 
+(10 × 10−3  M AgNO3 in 0.5 M TBAPF6 (acetonitrile), E½ for Fc/Fc+ 
+couple: +0.065 V), and ECP-coated ITO as the working electrode. The 
+current and voltage were controlled and measured using an EG&G PAR 
+273A potentiostat/galvanostat under CorrWare control.
+For electrochemical characterization, all films were evaluated by cyclic 
+voltammetry (CV, -0.5 V and +0.8 V at 0.050 V s−1) and DPV using a 
+three-electrode cell with a Pt flag as the counter electrode, an Ag/Ag+ 
+reference electrode (10 × 10−3  M AgNO3 in 0.5 M TBAPF6-ACN, E½ 
+for Fc/Fc+ couple: +0.065 V), and ECP-coated glass carbon working 
+electrode. For these electrochemical measurements, 2 µL of ECP stock 
+solution (2  mg  mL−1) were dropcasted on the glassy carbon working 
+electrode (area = 0.07 cm2) and allowed to dry at room temperature to 
+form a thin film.
+The in situ spectroscopic analyses were performed with an Ocean 
+Optics USB2000+ fiber-optic spectrophotometer. The colors of the ECP 
+films were quantified by converting the absorbance spectra to CIELAB 
+(L*, a*, b*) color coordinates where the L* represents the white–black 
+balance, a* the green-red balance, and b* the blue–yellow balance of 
+the color. The photography was performed in a light booth with D50 
+illumination using a Nikon D90 SLR camera with a Nikon 18–105 mm 
+VR lens. The photographs were reported without any manipulation apart 
+from photograph cropping. For stability studies, ITO was pretreated 
+with hexylphosphonic acid (10 × 10−3  M in ethanol) to prevent film 
+delamination, and film characterization was performed in degassed 
+electrolyte solution under an argon blanket.
+Supporting Information
+Supporting Information is available from the Wiley Online Library or 
+from the author.
+Acknowledgements
+This material was based upon work supported by the National Science 
+Foundation Graduate Research Fellowship under Grant No. DGE-
+1650044 (L.R.S.). The authors gratefully acknowledge funding from 
+NXN Licensing and the Air Force Office of Scientific Research (Grant 
+FA9550−18−1−0184).
+Conflict of Interest
+The authors declare the following competing financial interest(s): 
+Electrochromic polymer technology developed at the Georgia Institute 
+of Technology has been licensed to NXN Licensing. J.R.R., A.M.O., and 
+D.E.S. served as consultants to NXN Licensing.
+Keywords
+black electrochromism, color mixing, electrochromic polymers
+Received: May 5, 2018
+Revised: June 6, 2018
+Published online: July 1, 2018
+[1]	 D. E.  Shen, A. M.  Österholm, J. R.  Reynolds, J. Mater. Chem. C 
+2015, 3, 9715.
+[2]	 P.-H. Aubert, A. A. Argun, A. Cirpan, D. B. Tanner, J. R. Reynolds, 
+Chem. Mater. 2004, 16, 2386.
+[3]	 J. Jensen, H. F. Dam, J. R. Reynolds, A. L. Dyer, F. C. Krebs, J. Polym. 
+Sci. 2012, 50, 536.
+[4]	 A. M. Österholm, D. E. Shen, D. S. Gottfried, J. R. Reynolds, Adv. 
+Mater. Technol. 2016, 1, 1600063.
+[5]	 J. Jensen, F. C. Krebs, Adv. Mater. 2014, 26, 7231.
+[6]	 A. L.  Dyer, E. J.  Thompson, J. R.  Reynolds, ACS Appl. Mater. 
+Interfaces 2011, 3, 1787.
+[7]	 P. Andersson, D. Nilsson, P. O. Svensson, M. Chen, A. Malmström, 
+T. Remonen, T. Kugler, M. Berggren, Adv. Mater. 2002, 14, 1460.
+[8]	 P. Andersson, R. Forchheimer, P. Tehrani, M. Berggren, Adv. Funct. 
+Mater. 2007, 17, 3074.
+[9]	 L. Gomes, A. Branco, T. Moreira, F. Feliciano, C. Pinheiro, C. Costa, 
+Sol. Energy Mater Sol. Cells 2016, 144, 631.
+[10]	 J. Padilla, A. M. Österholm, A. L. Dyer, J. R. Reynolds, Sol. Energy 
+Mater Sol. Cells 2015, 140, 54.
+[11]	 C.  Pozo-Gonzalo, D.  Mecerreyes, J. A.  Pomposo, M.  Salsamendi, 
+R. Marcilla, H. Grande, R. Vergaz, D. Barrios, J. M. Sánchez-Pena, 
+Sol. Energy Mater Sol. Cells 2008, 92, 101.
+[12]	 A. A. Argun, A. Cirpan, J. R. Reynolds, Adv. Mater. 2003, 15, 1338.
+[13]	 A.  Malti, R.  Brooke, X.  Liu, D.  Zhao, P. A.  Ersman, M.  Fahlman, 
+M. P. Jonsson, M. Berggren, X. Crispin, J. Mater. Chem. C 2016, 4, 
+9680.
+[14]	 P. Tehrani, L.-O. Hennerdal, A. L. Dyer, J. R. Reynolds, M. Berggren, 
+J. Mater. Chem. 2009, 19, 1799.
+[15]	 P. M. Beaujuge, S. Ellinger, J. R. Reynolds, Nat. Mater. 2008, 7, 795.
+[16]	 P. Shi, C. M. Amb, E. P. Knott, E. J. Thompson, D. Y. Liu, J. Mei, 
+A. L. Dyer, J. R. Reynolds, Adv. Mater. 2010, 22, 4949.
+[17]	 W. T. Neo, C. M. Cho, Z. Shi, S.-J. Chua, J. Xu, J. Mater. Chem. C 
+2016, 4, 28.
+[18]	 M.  Içli, M.  Pamuk, F.  Algı, A. M.  Önal, A.  Cihaner, Org. Electron. 
+2010, 11, 1255.
+[19]	 K.-R. Lee, G. A. Sotzing, ChemComm 2013, 49, 5192.
+[20]	 G.  Öktem, A.  Balan, D.  Baran, L.  Toppare, ChemComm 2011, 47, 
+3933.
+[21]	 C.-Y. Hsu, J. Zhang, T. Sato, S. Moriyama, M. Higuchi, ACS Appl. 
+Mater. Interfaces 2015, 7, 18266.
+[22]	 M.  Sassi, M. M.  Salamone, R.  Ruffo, G. E.  Patriarca, C. M.  Mari, 
+G. A. Pagani, U. Posset, L. Beverina, Adv. Funct. Mater. 2016, 26, 5240.
+[23]	 H.-S. Liu, B.-C. Pan, D.-C. Huang, Y.-R. Kung, C.-M. Leu, G.-S. Liou, 
+NPG Asia Mater. 2017, 1.
+[24]	 G. Sonmez, H. B. Sonmez, C. K. F. Shen, F. Wudl, Adv. Mater. 2004, 
+16, 1905.
+[25]	 E.  Unur, P. M.  Beaujuge, S.  Ellinger, J.-H.  Jung, J. R.  Reynolds, 
+Chem. Mater. 2009, 21, 5145.
+[26]	 S. V. Vasilyeva, J. R. Reynolds, P. M. Beaujuge, S. Wang, J. E. Babiarz, 
+V. W. Ballarotto, ACS Appl. Mater. Interfaces 2011, 3, 1022.
+[27]	 H. Shin, X. Yang, Y. Kim, T. Bhuvana, J. Lee, C. Park, E. Kim, ACS 
+Appl. Mater. Interfaces 2012, 4, 185.
+[28]	 Z. Xu, W. Wang, J. Wu, S. Mi, J. Zheng, C. Xu, New J. Chem. 2016, 
+40, 5231.
+[29]	 A. M.  Österholm, D. E.  Shen, J. A.  Kerszulis, R. H.  Bulloch, 
+M. Kuepfert, A. L. Dyer, J. R. Reynolds, ACS Appl. Mater. Interfaces 
+2015, 7, 1413.
+[30]	 G. Wyszecki, W. S. Stiles, Color Science: Concepts and Methods, Quan-
+titative Data and Formulae, John Wiley & Sons, New York, NY,  1982.
+[31]	 Fea Hex Color Information Coca-Cola Red 2011, can be found under 
+http://www.Spycolor.com/fe001a.
+[32]	 P. M. Beaujuge, S. V. Vasilyeva, D. Y. Liu, S. Ellinger, T. D. McCarley, 
+J. R. Reynolds, Chem. Mater. 2012, 24, 255.
+[33]	 J.  Schanda, in Colorimetry Understanding the CIE System (Ed.: 
+J. Schanda), John Wiley & Sons, Hoboken, NJ 2007, pp. 25–78.
+[34]	 K. Cao, D. E. Shen, A. M. Österholm, J. A. Kerszulis, J. R. Reynolds, 
+Macromolecules 2016, 49, 8498.
+[35]	 J. A. Kerszulis, K. E. Johnson, M. Kuepfert, D. Khoshabo, A. L. Dyer, 
+J. R. Reynolds, J. Mater. Chem. C 2015, 3, 3211.
+ 21951071, 2018, 19, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/adom.201800594 by Argonne National Laboratory, Wiley Online Library on [26/09/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+

@@ -1,0 +1,2072 @@
+{
+   "page_2_img_1.png": {
+      "title": "Self\u2010Assembly Behavior of an Oligothiophene\u2010Based Conjugated Liquid Crystal and Its Implication for Ionic Conductivity Characteristics",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_4T-PEO4\\4T-PEO4",
+      "image_url": [],
+      "figure_name": "page_2_img_1.png",
+      "full_caption": "Scheme 1. Synthetic procedure of 4T/PEO4.",
+      "figure_path": "output\\figures\\page_2_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 782,
+            "width": 2333,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 2333,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 782
+               },
+               {
+                  "x": 2333,
+                  "y": 782
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 2333,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 782
+                  },
+                  {
+                     "x": 2333,
+                     "y": 782
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_3_img_1.png": {
+      "title": "Self\u2010Assembly Behavior of an Oligothiophene\u2010Based Conjugated Liquid Crystal and Its Implication for Ionic Conductivity Characteristics",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_4T-PEO4\\4T-PEO4",
+      "image_url": [],
+      "figure_name": "page_3_img_1.png",
+      "full_caption": "Figure 1. DSC traces (10 \u00b0C min\u22121) and POM images of 4T/PEO4-LiTFSI complexes: a) first cooling scans (indicated by black arrows) and second subsequent heating scans (indicated by red arrows) of 4T/PEO-LiTFSI complexes (r = 0, r = 0.01, r = 0.05). b,c) POM image of pristine 4T/PEO4 (r = 0) on cooling from isotropic melt at 95 and 60 \u00b0C. d,e) POM image of 4T/PEO4-LiTFSI complex (r = 0.01) on cooling from isotropic melt at 75 and 40 \u00b0C, and f,g) POM image of 4T/PEO4-LiTFSI complex (r = 0.05) on cooling from isotropic melt at 97 and 50 \u00b0C (scale bar: 100 \u03bcm).",
+      "figure_path": "output\\figures\\page_3_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9741530418395996,
+            "height": 405,
+            "width": 537,
+            "geometry": [
+               {
+                  "x": 880,
+                  "y": 895
+               },
+               {
+                  "x": 1417,
+                  "y": 895
+               },
+               {
+                  "x": 880,
+                  "y": 1300
+               },
+               {
+                  "x": 1417,
+                  "y": 1300
+               }
+            ],
+            "subfigure_label": {
+               "text": "f",
+               "geometry": [
+                  {
+                     "x": 880,
+                     "y": 895
+                  },
+                  {
+                     "x": 1417,
+                     "y": 895
+                  },
+                  {
+                     "x": 880,
+                     "y": 1300
+                  },
+                  {
+                     "x": 1417,
+                     "y": 1300
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 915,
+                           "y": 1202
+                        },
+                        {
+                           "x": 915,
+                           "y": 1242
+                        },
+                        {
+                           "x": 1048,
+                           "y": 1242
+                        },
+                        {
+                           "x": 1048,
+                           "y": 1202
+                        }
+                     ],
+                     "text": "100.0 um",
+                     "label_confidence": 0.9230072498321533,
+                     "box_confidence": 0.9917816519737244,
+                     "nm": 100000.0
+                  },
+                  "geometry": [
+                     {
+                        "x": 924,
+                        "y": 1249
+                     },
+                     {
+                        "x": 924,
+                        "y": 1275
+                     },
+                     {
+                        "x": 1008,
+                        "y": 1275
+                     },
+                     {
+                        "x": 1008,
+                        "y": 1249
+                     }
+                  ],
+                  "confidence": 0.9913936257362366,
+                  "length": 83,
+                  "label_line_distance": 1840.25
+               }
+            ],
+            "nm_height": 487951.8,
+            "nm_width": 646987.9,
+            "scale_label": "100.0 um",
+            "caption": "POM image of 4T/PEO4-LiTFSI complex (r = 0.05) on cooling from isotropic melt at 97 and 50 \u00b0C (scale bar: 100 \u03bcm).",
+            "keywords": [
+               "POM",
+               "4T/PEO4-LiTFSI",
+               "cooling"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9661971926689148,
+            "height": 405,
+            "width": 536,
+            "geometry": [
+               {
+                  "x": 880,
+                  "y": 8
+               },
+               {
+                  "x": 1416,
+                  "y": 8
+               },
+               {
+                  "x": 880,
+                  "y": 413
+               },
+               {
+                  "x": 1416,
+                  "y": 413
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 880,
+                     "y": 8
+                  },
+                  {
+                     "x": 1416,
+                     "y": 8
+                  },
+                  {
+                     "x": 880,
+                     "y": 413
+                  },
+                  {
+                     "x": 1416,
+                     "y": 413
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 916,
+                           "y": 325
+                        },
+                        {
+                           "x": 916,
+                           "y": 363
+                        },
+                        {
+                           "x": 1046,
+                           "y": 363
+                        },
+                        {
+                           "x": 1046,
+                           "y": 325
+                        }
+                     ],
+                     "text": "100.0 um",
+                     "label_confidence": 0.3166963458061218,
+                     "box_confidence": 0.9861764311790466,
+                     "nm": 100000.0
+                  },
+                  "geometry": [
+                     {
+                        "x": 926,
+                        "y": 371
+                     },
+                     {
+                        "x": 926,
+                        "y": 396
+                     },
+                     {
+                        "x": 1006,
+                        "y": 396
+                     },
+                     {
+                        "x": 1006,
+                        "y": 371
+                     }
+                  ],
+                  "confidence": 0.9890015125274658,
+                  "length": 80,
+                  "label_line_distance": 1785.25
+               }
+            ],
+            "nm_height": 506250.0,
+            "nm_width": 670000.0,
+            "scale_label": "100.0 um",
+            "caption": "POM image of pristine 4T/PEO4 (r = 0) on cooling from isotropic melt at 95 and 60 \u00b0C.",
+            "keywords": [
+               "POM",
+               "4T/PEO4",
+               "cooling"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9596432447433472,
+            "height": 407,
+            "width": 542,
+            "geometry": [
+               {
+                  "x": 878,
+                  "y": 445
+               },
+               {
+                  "x": 1420,
+                  "y": 445
+               },
+               {
+                  "x": 878,
+                  "y": 852
+               },
+               {
+                  "x": 1420,
+                  "y": 852
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 878,
+                     "y": 445
+                  },
+                  {
+                     "x": 1420,
+                     "y": 445
+                  },
+                  {
+                     "x": 878,
+                     "y": 852
+                  },
+                  {
+                     "x": 1420,
+                     "y": 852
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 917,
+                           "y": 760
+                        },
+                        {
+                           "x": 917,
+                           "y": 803
+                        },
+                        {
+                           "x": 1051,
+                           "y": 803
+                        },
+                        {
+                           "x": 1051,
+                           "y": 760
+                        }
+                     ],
+                     "text": "100.0 um",
+                     "label_confidence": 0.9162153005599976,
+                     "box_confidence": 0.9913613200187683,
+                     "nm": 100000.0
+                  },
+                  "geometry": [
+                     {
+                        "x": 927,
+                        "y": 809
+                     },
+                     {
+                        "x": 927,
+                        "y": 834
+                     },
+                     {
+                        "x": 1008,
+                        "y": 834
+                     },
+                     {
+                        "x": 1008,
+                        "y": 809
+                     }
+                  ],
+                  "confidence": 0.9938862919807434,
+                  "length": 81,
+                  "label_line_distance": 1872.25
+               }
+            ],
+            "nm_height": 502469.1,
+            "nm_width": 669135.8,
+            "scale_label": "100.0 um",
+            "caption": "POM image of 4T/PEO4-LiTFSI complex (r = 0.01) on cooling from isotropic melt at 75 and 40 \u00b0C.",
+            "keywords": [
+               "POM",
+               "4T/PEO4-LiTFSI",
+               "cooling"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.954537570476532,
+            "height": 1433,
+            "width": 840,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 7
+               },
+               {
+                  "x": 840,
+                  "y": 7
+               },
+               {
+                  "x": 0,
+                  "y": 1440
+               },
+               {
+                  "x": 840,
+                  "y": 1440
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 7
+                  },
+                  {
+                     "x": 840,
+                     "y": 7
+                  },
+                  {
+                     "x": 0,
+                     "y": 1440
+                  },
+                  {
+                     "x": 840,
+                     "y": 1440
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "first cooling scans (indicated by black arrows) and second subsequent heating scans (indicated by red arrows) of 4T/PEO-LiTFSI complexes (r = 0, r = 0.01, r = 0.05).",
+            "keywords": [
+               "Differential Scanning Calorimetry"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9531381726264954,
+            "height": 408,
+            "width": 545,
+            "geometry": [
+               {
+                  "x": 1453,
+                  "y": 894
+               },
+               {
+                  "x": 1998,
+                  "y": 894
+               },
+               {
+                  "x": 1453,
+                  "y": 1302
+               },
+               {
+                  "x": 1998,
+                  "y": 1302
+               }
+            ],
+            "subfigure_label": {
+               "text": "g",
+               "geometry": [
+                  {
+                     "x": 1453,
+                     "y": 894
+                  },
+                  {
+                     "x": 1998,
+                     "y": 894
+                  },
+                  {
+                     "x": 1453,
+                     "y": 1302
+                  },
+                  {
+                     "x": 1998,
+                     "y": 1302
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 1490,
+                           "y": 1198
+                        },
+                        {
+                           "x": 1490,
+                           "y": 1243
+                        },
+                        {
+                           "x": 1627,
+                           "y": 1243
+                        },
+                        {
+                           "x": 1627,
+                           "y": 1198
+                        }
+                     ],
+                     "text": "100.0 um",
+                     "label_confidence": 0.9235877394676208,
+                     "box_confidence": 0.9889853000640869,
+                     "nm": 100000.0
+                  },
+                  "geometry": [
+                     {
+                        "x": 1499,
+                        "y": 1249
+                     },
+                     {
+                        "x": 1499,
+                        "y": 1275
+                     },
+                     {
+                        "x": 1583,
+                        "y": 1275
+                     },
+                     {
+                        "x": 1583,
+                        "y": 1249
+                     }
+                  ],
+                  "confidence": 0.9902399778366089,
+                  "length": 83,
+                  "label_line_distance": 2028.5
+               }
+            ],
+            "nm_height": 491566.2,
+            "nm_width": 656626.5,
+            "scale_label": "100.0 um",
+            "caption": "POM image of 4T/PEO4-LiTFSI complex (r = 0.05) on cooling from isotropic melt at 97 and 50 \u00b0C (scale bar: 100 \u03bcm).",
+            "keywords": [
+               "POM",
+               "cooling",
+               "isotropic melt"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9459673762321472,
+            "height": 404,
+            "width": 541,
+            "geometry": [
+               {
+                  "x": 1454,
+                  "y": 7
+               },
+               {
+                  "x": 1995,
+                  "y": 7
+               },
+               {
+                  "x": 1454,
+                  "y": 411
+               },
+               {
+                  "x": 1995,
+                  "y": 411
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1454,
+                     "y": 7
+                  },
+                  {
+                     "x": 1995,
+                     "y": 7
+                  },
+                  {
+                     "x": 1454,
+                     "y": 411
+                  },
+                  {
+                     "x": 1995,
+                     "y": 411
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 1486,
+                           "y": 324
+                        },
+                        {
+                           "x": 1486,
+                           "y": 366
+                        },
+                        {
+                           "x": 1620,
+                           "y": 366
+                        },
+                        {
+                           "x": 1620,
+                           "y": 324
+                        }
+                     ],
+                     "text": "100.0 um",
+                     "label_confidence": 0.8785106539726257,
+                     "box_confidence": 0.9893465638160706,
+                     "nm": 100000.0
+                  },
+                  "geometry": [
+                     {
+                        "x": 1500,
+                        "y": 371
+                     },
+                     {
+                        "x": 1500,
+                        "y": 395
+                     },
+                     {
+                        "x": 1580,
+                        "y": 395
+                     },
+                     {
+                        "x": 1580,
+                        "y": 371
+                     }
+                  ],
+                  "confidence": 0.995745837688446,
+                  "length": 79,
+                  "label_line_distance": 1613.0
+               }
+            ],
+            "nm_height": 511392.4,
+            "nm_width": 684810.1,
+            "scale_label": "100.0 um",
+            "caption": "POM image of pristine 4T/PEO4 (r = 0) on cooling from isotropic melt at 95 and 60 \u00b0C.",
+            "keywords": [
+               "POM",
+               "4T/PEO4",
+               "cooling"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9028701186180115,
+            "height": 406,
+            "width": 547,
+            "geometry": [
+               {
+                  "x": 1450,
+                  "y": 445
+               },
+               {
+                  "x": 1997,
+                  "y": 445
+               },
+               {
+                  "x": 1450,
+                  "y": 851
+               },
+               {
+                  "x": 1997,
+                  "y": 851
+               }
+            ],
+            "subfigure_label": {
+               "text": "e",
+               "geometry": [
+                  {
+                     "x": 1450,
+                     "y": 445
+                  },
+                  {
+                     "x": 1997,
+                     "y": 445
+                  },
+                  {
+                     "x": 1450,
+                     "y": 851
+                  },
+                  {
+                     "x": 1997,
+                     "y": 851
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 1490,
+                           "y": 761
+                        },
+                        {
+                           "x": 1490,
+                           "y": 803
+                        },
+                        {
+                           "x": 1628,
+                           "y": 803
+                        },
+                        {
+                           "x": 1628,
+                           "y": 761
+                        }
+                     ],
+                     "text": "100.0 um",
+                     "label_confidence": 0.9428224563598633,
+                     "box_confidence": 0.9896818995475769,
+                     "nm": 100000.0
+                  },
+                  "geometry": [
+                     {
+                        "x": 1501,
+                        "y": 809
+                     },
+                     {
+                        "x": 1501,
+                        "y": 834
+                     },
+                     {
+                        "x": 1580,
+                        "y": 834
+                     },
+                     {
+                        "x": 1580,
+                        "y": 809
+                     }
+                  ],
+                  "confidence": 0.9920331835746765,
+                  "length": 78,
+                  "label_line_distance": 1902.5
+               }
+            ],
+            "nm_height": 520512.8,
+            "nm_width": 701282.0,
+            "scale_label": "100.0 um",
+            "caption": "POM image of 4T/PEO4-LiTFSI complex (r = 0.01) on cooling from isotropic melt at 75 and 40 \u00b0C.",
+            "keywords": [
+               "POM",
+               "4T/PEO4-LiTFSI",
+               "cooling"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_4_img_1.png": {
+      "title": "Self\u2010Assembly Behavior of an Oligothiophene\u2010Based Conjugated Liquid Crystal and Its Implication for Ionic Conductivity Characteristics",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_4T-PEO4\\4T-PEO4",
+      "image_url": [],
+      "figure_name": "page_4_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_4_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.6675689816474915,
+            "height": 469,
+            "width": 587,
+            "geometry": [
+               {
+                  "x": 638,
+                  "y": 2
+               },
+               {
+                  "x": 1225,
+                  "y": 2
+               },
+               {
+                  "x": 638,
+                  "y": 471
+               },
+               {
+                  "x": 1225,
+                  "y": 471
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 638,
+                     "y": 2
+                  },
+                  {
+                     "x": 1225,
+                     "y": 2
+                  },
+                  {
+                     "x": 638,
+                     "y": 471
+                  },
+                  {
+                     "x": 1225,
+                     "y": 471
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_5_img_1.png": {
+      "title": "Self\u2010Assembly Behavior of an Oligothiophene\u2010Based Conjugated Liquid Crystal and Its Implication for Ionic Conductivity Characteristics",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_4T-PEO4\\4T-PEO4",
+      "image_url": [],
+      "figure_name": "page_5_img_1.png",
+      "full_caption": "Figure 3. Representative geometrically corrected GIWAXS patterns of 4T/PEO4-LiTFSI complex thin film at selected temperatures during heating and cooling processes: a) r = 0, and g) r = 0.05. Thin film of 4T/PEO4 compound (r = 0) at (a) 25 \u00b0C (as-cast), (b) 123 \u00b0C (during heating), and (c) 25 \u00b0C (after annealed). Thin film of 4T/PEO4-LiTFSI complex (r = 0.01) at (d) 25 \u00b0C (as-cast), (e) 123 \u00b0C (during heating), and (f) 25 \u00b0C (after annealed). Thin film of 4T/PEO4-LiTFSI complex (r = 0.05) at (g) 25 \u00b0C (as-cast), (h) 123 \u00b0C (during heating), and (i) 25 \u00b0C (after annealed). All samples were annealed at each temperature for 20 min to reach equilibrium. The arrows in (c), (f), and (i) indicate the peak broadening along the azimuthal direction.",
+      "figure_path": "output\\figures\\page_5_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9771105051040649,
+            "height": 606,
+            "width": 631,
+            "geometry": [
+               {
+                  "x": 1367,
+                  "y": 621
+               },
+               {
+                  "x": 1998,
+                  "y": 621
+               },
+               {
+                  "x": 1367,
+                  "y": 1227
+               },
+               {
+                  "x": 1998,
+                  "y": 1227
+               }
+            ],
+            "subfigure_label": {
+               "text": "f",
+               "geometry": [
+                  {
+                     "x": 1367,
+                     "y": 621
+                  },
+                  {
+                     "x": 1998,
+                     "y": 621
+                  },
+                  {
+                     "x": 1367,
+                     "y": 1227
+                  },
+                  {
+                     "x": 1998,
+                     "y": 1227
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Thin film of 4T/PEO4-LiTFSI complex (r = 0.01) at 25 \u00b0C (after annealed)",
+            "keywords": [
+               "Thin film",
+               "Annealing",
+               "Complex"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9766619205474854,
+            "height": 595,
+            "width": 599,
+            "geometry": [
+               {
+                  "x": 699,
+                  "y": 0
+               },
+               {
+                  "x": 1298,
+                  "y": 0
+               },
+               {
+                  "x": 699,
+                  "y": 595
+               },
+               {
+                  "x": 1298,
+                  "y": 595
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 699,
+                     "y": 0
+                  },
+                  {
+                     "x": 1298,
+                     "y": 0
+                  },
+                  {
+                     "x": 699,
+                     "y": 595
+                  },
+                  {
+                     "x": 1298,
+                     "y": 595
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Thin film of 4T/PEO4 compound (r = 0) at 123 \u00b0C (during heating)",
+            "keywords": [
+               "Thin film",
+               "4T/PEO4",
+               "Heating"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9747697114944458,
+            "height": 596,
+            "width": 611,
+            "geometry": [
+               {
+                  "x": 715,
+                  "y": 1267
+               },
+               {
+                  "x": 1326,
+                  "y": 1267
+               },
+               {
+                  "x": 715,
+                  "y": 1863
+               },
+               {
+                  "x": 1326,
+                  "y": 1863
+               }
+            ],
+            "subfigure_label": {
+               "text": "h",
+               "geometry": [
+                  {
+                     "x": 715,
+                     "y": 1267
+                  },
+                  {
+                     "x": 1326,
+                     "y": 1267
+                  },
+                  {
+                     "x": 715,
+                     "y": 1863
+                  },
+                  {
+                     "x": 1326,
+                     "y": 1863
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Thin film of 4T/PEO4-LiTFSI complex (r = 0.05) at 123 \u00b0C (during heating)",
+            "keywords": [
+               "Thin film",
+               "Complex",
+               "Heating"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9746846556663513,
+            "height": 596,
+            "width": 629,
+            "geometry": [
+               {
+                  "x": 1368,
+                  "y": 0
+               },
+               {
+                  "x": 1997,
+                  "y": 0
+               },
+               {
+                  "x": 1368,
+                  "y": 596
+               },
+               {
+                  "x": 1997,
+                  "y": 596
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1368,
+                     "y": 0
+                  },
+                  {
+                     "x": 1997,
+                     "y": 0
+                  },
+                  {
+                     "x": 1368,
+                     "y": 596
+                  },
+                  {
+                     "x": 1997,
+                     "y": 596
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Thin film of 4T/PEO4 compound (r = 0) at 25 \u00b0C (after annealed)",
+            "keywords": [
+               "Thin film",
+               "Annealing",
+               "Compound"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9732213020324707,
+            "height": 601,
+            "width": 651,
+            "geometry": [
+               {
+                  "x": 4,
+                  "y": 621
+               },
+               {
+                  "x": 655,
+                  "y": 621
+               },
+               {
+                  "x": 4,
+                  "y": 1222
+               },
+               {
+                  "x": 655,
+                  "y": 1222
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 4,
+                     "y": 621
+                  },
+                  {
+                     "x": 655,
+                     "y": 621
+                  },
+                  {
+                     "x": 4,
+                     "y": 1222
+                  },
+                  {
+                     "x": 655,
+                     "y": 1222
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Thin film of 4T/PEO4-LiTFSI complex (r = 0.01) at 25 \u00b0C (as-cast)",
+            "keywords": [
+               "Thin film",
+               "Complex",
+               "As-cast"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.971651017665863,
+            "height": 594,
+            "width": 654,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 654,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 594
+               },
+               {
+                  "x": 654,
+                  "y": 594
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 654,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 594
+                  },
+                  {
+                     "x": 654,
+                     "y": 594
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Thin film of 4T/PEO4 compound (r = 0) at 25 \u00b0C (as-cast)",
+            "keywords": [
+               "Thin film",
+               "4T/PEO4",
+               "as-cast"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9635551571846008,
+            "height": 600,
+            "width": 651,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 1266
+               },
+               {
+                  "x": 651,
+                  "y": 1266
+               },
+               {
+                  "x": 0,
+                  "y": 1866
+               },
+               {
+                  "x": 651,
+                  "y": 1866
+               }
+            ],
+            "subfigure_label": {
+               "text": "g",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 1266
+                  },
+                  {
+                     "x": 651,
+                     "y": 1266
+                  },
+                  {
+                     "x": 0,
+                     "y": 1866
+                  },
+                  {
+                     "x": 651,
+                     "y": 1866
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Thin film of 4T/PEO4-LiTFSI complex (r = 0.05) at 25 \u00b0C (as-cast)",
+            "keywords": [
+               "Thin film",
+               "Complex",
+               "As-cast"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9611097574234009,
+            "height": 606,
+            "width": 626,
+            "geometry": [
+               {
+                  "x": 698,
+                  "y": 619
+               },
+               {
+                  "x": 1324,
+                  "y": 619
+               },
+               {
+                  "x": 698,
+                  "y": 1225
+               },
+               {
+                  "x": 1324,
+                  "y": 1225
+               }
+            ],
+            "subfigure_label": {
+               "text": "e",
+               "geometry": [
+                  {
+                     "x": 698,
+                     "y": 619
+                  },
+                  {
+                     "x": 1324,
+                     "y": 619
+                  },
+                  {
+                     "x": 698,
+                     "y": 1225
+                  },
+                  {
+                     "x": 1324,
+                     "y": 1225
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Thin film of 4T/PEO4-LiTFSI complex (r = 0.01) at 123 \u00b0C (during heating)",
+            "keywords": [
+               "Thin film",
+               "complex",
+               "heating"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "i",
+               "description": "Thin film of 4T/PEO4-LiTFSI complex (r = 0.05) at 25 \u00b0C (after annealed)",
+               "keywords": [
+                  "Thin film",
+                  "Annealing",
+                  "Complex"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_6_img_1.png": {
+      "title": "Self\u2010Assembly Behavior of an Oligothiophene\u2010Based Conjugated Liquid Crystal and Its Implication for Ionic Conductivity Characteristics",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_4T-PEO4\\4T-PEO4",
+      "image_url": [],
+      "figure_name": "page_6_img_1.png",
+      "full_caption": "Figure 4. Vertical linecuts of (00h) spot sequence for 4T/PEO4-LiTFSI complexes at different temperatures for a,d) r = 0, b,e) r = 0.01, and c,f) r = 0.05 during each heating and cooling processes. The curves are vertically translated for better comparison.",
+      "figure_path": "output\\figures\\page_6_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9765615463256836,
+            "height": 583,
+            "width": 640,
+            "geometry": [
+               {
+                  "x": 1355,
+                  "y": 0
+               },
+               {
+                  "x": 1995,
+                  "y": 0
+               },
+               {
+                  "x": 1355,
+                  "y": 583
+               },
+               {
+                  "x": 1995,
+                  "y": 583
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1355,
+                     "y": 0
+                  },
+                  {
+                     "x": 1995,
+                     "y": 0
+                  },
+                  {
+                     "x": 1355,
+                     "y": 583
+                  },
+                  {
+                     "x": 1995,
+                     "y": 583
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9757173657417297,
+            "height": 582,
+            "width": 641,
+            "geometry": [
+               {
+                  "x": 662,
+                  "y": 0
+               },
+               {
+                  "x": 1303,
+                  "y": 0
+               },
+               {
+                  "x": 662,
+                  "y": 582
+               },
+               {
+                  "x": 1303,
+                  "y": 582
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 662,
+                     "y": 0
+                  },
+                  {
+                     "x": 1303,
+                     "y": 0
+                  },
+                  {
+                     "x": 662,
+                     "y": 582
+                  },
+                  {
+                     "x": 1303,
+                     "y": 582
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9662460684776306,
+            "height": 579,
+            "width": 618,
+            "geometry": [
+               {
+                  "x": 1,
+                  "y": 1
+               },
+               {
+                  "x": 619,
+                  "y": 1
+               },
+               {
+                  "x": 1,
+                  "y": 580
+               },
+               {
+                  "x": 619,
+                  "y": 580
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 1
+                  },
+                  {
+                     "x": 619,
+                     "y": 1
+                  },
+                  {
+                     "x": 1,
+                     "y": 580
+                  },
+                  {
+                     "x": 619,
+                     "y": 580
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9551488161087036,
+            "height": 597,
+            "width": 644,
+            "geometry": [
+               {
+                  "x": 663,
+                  "y": 620
+               },
+               {
+                  "x": 1307,
+                  "y": 620
+               },
+               {
+                  "x": 663,
+                  "y": 1217
+               },
+               {
+                  "x": 1307,
+                  "y": 1217
+               }
+            ],
+            "subfigure_label": {
+               "text": "e",
+               "geometry": [
+                  {
+                     "x": 663,
+                     "y": 620
+                  },
+                  {
+                     "x": 1307,
+                     "y": 620
+                  },
+                  {
+                     "x": 663,
+                     "y": 1217
+                  },
+                  {
+                     "x": 1307,
+                     "y": 1217
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9493223428726196,
+            "height": 597,
+            "width": 638,
+            "geometry": [
+               {
+                  "x": 1360,
+                  "y": 627
+               },
+               {
+                  "x": 1998,
+                  "y": 627
+               },
+               {
+                  "x": 1360,
+                  "y": 1224
+               },
+               {
+                  "x": 1998,
+                  "y": 1224
+               }
+            ],
+            "subfigure_label": {
+               "text": "f",
+               "geometry": [
+                  {
+                     "x": 1360,
+                     "y": 627
+                  },
+                  {
+                     "x": 1998,
+                     "y": 627
+                  },
+                  {
+                     "x": 1360,
+                     "y": 1224
+                  },
+                  {
+                     "x": 1998,
+                     "y": 1224
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9460487961769104,
+            "height": 589,
+            "width": 624,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 624
+               },
+               {
+                  "x": 624,
+                  "y": 624
+               },
+               {
+                  "x": 0,
+                  "y": 1213
+               },
+               {
+                  "x": 624,
+                  "y": 1213
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 624
+                  },
+                  {
+                     "x": 624,
+                     "y": 624
+                  },
+                  {
+                     "x": 0,
+                     "y": 1213
+                  },
+                  {
+                     "x": 624,
+                     "y": 1213
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_7_img_1.png": {
+      "title": "Self\u2010Assembly Behavior of an Oligothiophene\u2010Based Conjugated Liquid Crystal and Its Implication for Ionic Conductivity Characteristics",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_4T-PEO4\\4T-PEO4",
+      "image_url": [],
+      "figure_name": "page_7_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_7_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.3489149510860443,
+            "height": 661,
+            "width": 1957,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1957,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 661
+               },
+               {
+                  "x": 1957,
+                  "y": 661
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1957,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 661
+                  },
+                  {
+                     "x": 1957,
+                     "y": 661
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.2688179612159729,
+            "height": 639,
+            "width": 718,
+            "geometry": [
+               {
+                  "x": 1171,
+                  "y": 1281
+               },
+               {
+                  "x": 1889,
+                  "y": 1281
+               },
+               {
+                  "x": 1171,
+                  "y": 1920
+               },
+               {
+                  "x": 1889,
+                  "y": 1920
+               }
+            ],
+            "subfigure_label": {
+               "text": "e",
+               "geometry": [
+                  {
+                     "x": 1171,
+                     "y": 1281
+                  },
+                  {
+                     "x": 1889,
+                     "y": 1281
+                  },
+                  {
+                     "x": 1171,
+                     "y": 1920
+                  },
+                  {
+                     "x": 1889,
+                     "y": 1920
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.12573832273483276,
+            "height": 1235,
+            "width": 1045,
+            "geometry": [
+               {
+                  "x": 20,
+                  "y": 669
+               },
+               {
+                  "x": 1065,
+                  "y": 669
+               },
+               {
+                  "x": 20,
+                  "y": 1904
+               },
+               {
+                  "x": 1065,
+                  "y": 1904
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 20,
+                     "y": 669
+                  },
+                  {
+                     "x": 1065,
+                     "y": 669
+                  },
+                  {
+                     "x": 20,
+                     "y": 1904
+                  },
+                  {
+                     "x": 1065,
+                     "y": 1904
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.11369238793849945,
+            "height": 625,
+            "width": 725,
+            "geometry": [
+               {
+                  "x": 1164,
+                  "y": 649
+               },
+               {
+                  "x": 1889,
+                  "y": 649
+               },
+               {
+                  "x": 1164,
+                  "y": 1274
+               },
+               {
+                  "x": 1889,
+                  "y": 1274
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1164,
+                     "y": 649
+                  },
+                  {
+                     "x": 1889,
+                     "y": 649
+                  },
+                  {
+                     "x": 1164,
+                     "y": 1274
+                  },
+                  {
+                     "x": 1889,
+                     "y": 1274
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_8_img_1.png": {
+      "title": "Self\u2010Assembly Behavior of an Oligothiophene\u2010Based Conjugated Liquid Crystal and Its Implication for Ionic Conductivity Characteristics",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_4T-PEO4\\4T-PEO4",
+      "image_url": [],
+      "figure_name": "page_8_img_1.png",
+      "full_caption": "Figure 6. a) Temperature dependence of lamella stacking distance, b) sphericity of PEO4 chains from simulation, c) \u03c0\u2013\u03c0 stacking distance, and d) FWHM of the (002) peaks extracted from experimental GIWAXS data of 4T/PEO4-LiTFSI complexes of r = 0, 0.01, and 0.05. The corresponding simulation results for r = 0 sample are also shown in (a) and (c). The simulated sphericity of PEO4 chains as a function of temperature is shown in (b). The gray-shaded areas represent order\u2013disorder transition regions.",
+      "figure_path": "output\\figures\\page_8_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.23804092407226562,
+            "height": 769,
+            "width": 928,
+            "geometry": [
+               {
+                  "x": 1063,
+                  "y": 2
+               },
+               {
+                  "x": 1991,
+                  "y": 2
+               },
+               {
+                  "x": 1063,
+                  "y": 771
+               },
+               {
+                  "x": 1991,
+                  "y": 771
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 1063,
+                     "y": 2
+                  },
+                  {
+                     "x": 1991,
+                     "y": 2
+                  },
+                  {
+                     "x": 1063,
+                     "y": 771
+                  },
+                  {
+                     "x": 1991,
+                     "y": 771
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Sphericity of PEO4 chains from simulation",
+            "keywords": [
+               "Sphericity",
+               "PEO4",
+               "Simulation"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "a",
+               "description": "Temperature dependence of lamella stacking distance",
+               "keywords": [
+                  "Temperature",
+                  "Lamella",
+                  "Stacking"
+               ]
+            },
+            {
+               "label": "c",
+               "description": "\u03c0\u2013\u03c0 stacking distance",
+               "keywords": [
+                  "\u03c0\u2013\u03c0 stacking",
+                  "distance"
+               ]
+            },
+            {
+               "label": "d",
+               "description": "FWHM of the (002) peaks extracted from experimental GIWAXS data of 4T/PEO4-LiTFSI complexes of r = 0, 0.01, and 0.05",
+               "keywords": [
+                  "GIWAXS",
+                  "4T/PEO4-LiTFSI",
+                  "FWHM"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_9_img_1.png": {
+      "title": "Self\u2010Assembly Behavior of an Oligothiophene\u2010Based Conjugated Liquid Crystal and Its Implication for Ionic Conductivity Characteristics",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_4T-PEO4\\4T-PEO4",
+      "image_url": [],
+      "figure_name": "page_9_img_1.png",
+      "full_caption": "Figure 7. a) Optical microscope image of an interdigitated gold electrode device (IDE) used for ionic conductivity measurement, and b) ionic conductivities of LiTFSI-blended 4T/PEO4 thin film at r = 0.01 and r = 0.05 as a function of temperature during heating and cooling processes. The gray-shaded area indicates the order\u2013disorder transition regime.",
+      "figure_path": "output\\figures\\page_9_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9223664402961731,
+            "height": 889,
+            "width": 1064,
+            "geometry": [
+               {
+                  "x": 935,
+                  "y": 3
+               },
+               {
+                  "x": 1999,
+                  "y": 3
+               },
+               {
+                  "x": 935,
+                  "y": 892
+               },
+               {
+                  "x": 1999,
+                  "y": 892
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 935,
+                     "y": 3
+                  },
+                  {
+                     "x": 1999,
+                     "y": 3
+                  },
+                  {
+                     "x": 935,
+                     "y": 892
+                  },
+                  {
+                     "x": 1999,
+                     "y": 892
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Ionic conductivities of LiTFSI-blended 4T/PEO4 thin film at r = 0.01 and r = 0.05 as a function of temperature during heating and cooling processes. The gray-shaded area indicates the order\u2013disorder transition regime.",
+            "keywords": [
+               "Ionic conductivity",
+               "Temperature",
+               "Transition"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.8428756594657898,
+            "height": 885,
+            "width": 863,
+            "geometry": [
+               {
+                  "x": 19,
+                  "y": 2
+               },
+               {
+                  "x": 882,
+                  "y": 2
+               },
+               {
+                  "x": 19,
+                  "y": 887
+               },
+               {
+                  "x": 882,
+                  "y": 887
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 19,
+                     "y": 2
+                  },
+                  {
+                     "x": 882,
+                     "y": 2
+                  },
+                  {
+                     "x": 19,
+                     "y": 887
+                  },
+                  {
+                     "x": 882,
+                     "y": 887
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": null,
+                  "geometry": [
+                     {
+                        "x": 537,
+                        "y": 822
+                     },
+                     {
+                        "x": 537,
+                        "y": 840
+                     },
+                     {
+                        "x": 713,
+                        "y": 840
+                     },
+                     {
+                        "x": 713,
+                        "y": 822
+                     }
+                  ],
+                  "confidence": 0.9228631258010864,
+                  "length": 175,
+                  "label_line_distance": -1
+               }
+            ],
+            "caption": "Optical microscope image of an interdigitated gold electrode device (IDE) used for ionic conductivity measurement",
+            "keywords": [
+               "Gold electrodes",
+               "Ionic conductivity",
+               "Optical microscopy"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   }
+}

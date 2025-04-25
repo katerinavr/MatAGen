@@ -1,0 +1,1035 @@
+{
+   "page_1_img_1.png": {
+      "title": "Polymer Crystallinity Controls Water Uptake in Glycol Side-Chain Polymer Organic Electrochemical Transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3MEEMT\\P3MEEMT",
+      "image_url": [],
+      "figure_name": "page_1_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_1_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 549,
+            "width": 1000,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1000,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 549
+               },
+               {
+                  "x": 1000,
+                  "y": 549
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1000,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 549
+                  },
+                  {
+                     "x": 1000,
+                     "y": 549
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_3_img_1.png": {
+      "title": "Polymer Crystallinity Controls Water Uptake in Glycol Side-Chain Polymer Organic Electrochemical Transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3MEEMT\\P3MEEMT",
+      "image_url": [],
+      "figure_name": "page_3_img_1.png",
+      "full_caption": "Figure 1. (A) Molecular structures of poly(3-[(2-(2-methoxyethoxy)ethoxy)methyl]thiophene-2,5-diyl) (P3MEEMT) and poly(3-hexylthiophene-2,5-diyl) (P3HT). (B) OECT device structure and testing schematic. (C) Transfer curves at VD = 600 mV averaged over six transistors (W = 200 \u03bcm, L = 20 \u03bcm, and 80 nm thickness) in 100 mM KCl (red) and 100 mM KPF6 (blue). Dotted lines show the transconductance in each electrolyte on the right axis. (D) Determination of \u03bcC* by plotting the maximum transconductance against the geometric parameters. Solid lines indicate fits.",
+      "figure_path": "output\\figures\\page_3_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 863,
+            "width": 1250,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1250,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 863
+               },
+               {
+                  "x": 1250,
+                  "y": 863
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1250,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 863
+                  },
+                  {
+                     "x": 1250,
+                     "y": 863
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "A",
+               "description": "Molecular structures of poly(3-[(2-(2-methoxyethoxy)ethoxy)methyl]thiophene-2,5-diyl) (P3MEEMT) and poly(3-hexylthiophene-2,5-diyl) (P3HT).",
+               "keywords": [
+                  "Molecular structures",
+                  "Polythiophenes",
+                  "P3MEEMT/P3HT"
+               ]
+            },
+            {
+               "label": "B",
+               "description": "OECT device structure and testing schematic.",
+               "keywords": [
+                  "OECT",
+                  "device structure",
+                  "testing schematic"
+               ]
+            },
+            {
+               "label": "C",
+               "description": "Transfer curves at VD = 600 mV averaged over six transistors (W = 200 \u03bcm, L = 20 \u03bcm, and 80 nm thickness) in 100 mM KCl (red) and 100 mM KPF6 (blue). Dotted lines show the transconductance in each electrolyte on the right axis.",
+               "keywords": [
+                  "Transfer curves",
+                  "transconductance",
+                  "electrolytes"
+               ]
+            },
+            {
+               "label": "D",
+               "description": "Determination of \u03bcC* by plotting the maximum transconductance against the geometric parameters. Solid lines indicate fits.",
+               "keywords": [
+                  "Transconductance",
+                  "Geometric Parameters",
+                  "Fitting"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_4_img_1.png": {
+      "title": "Polymer Crystallinity Controls Water Uptake in Glycol Side-Chain Polymer Organic Electrochemical Transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3MEEMT\\P3MEEMT",
+      "image_url": [],
+      "figure_name": "page_4_img_1.png",
+      "full_caption": "Figure 2. (A) UV\u2212vis spectra of P3HT and P3MEEMT upon electrochemical doping at 0.7 V in 100 mM solutions of KCl and KPF6. The main absorption decreases with increased doping levels, and the polaron peak grows in. (B) Comparison of the doping kinetics of P3MEEMT and P3HT in 100 mM solutions of KCl and KPF6 at 0.5 V for doping with PF6\u2212 and 0.7 V for Cl\u2212. The kinetics traces of P3MEEMT with Cl\u2212 and PF6\u2212 overlap significantly, as shown in the inset with the corresponding fits.",
+      "figure_path": "output\\figures\\page_4_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 616,
+            "width": 1418,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1418,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 616
+               },
+               {
+                  "x": 1418,
+                  "y": 616
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1418,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 616
+                  },
+                  {
+                     "x": 1418,
+                     "y": 616
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "A",
+               "description": "UV\u2212vis spectra of P3HT and P3MEEMT upon electrochemical doping at 0.7 V in 100 mM solutions of KCl and KPF6. The main absorption decreases with increased doping levels, and the polaron peak grows in.",
+               "keywords": [
+                  "UV\u2212vis spectroscopy",
+                  "electrochemical doping",
+                  "polaron formation"
+               ]
+            },
+            {
+               "label": "B",
+               "description": "Comparison of the doping kinetics of P3MEEMT and P3HT in 100 mM solutions of KCl and KPF6 at 0.5 V for doping with PF6\u2212 and 0.7 V for Cl\u2212. The kinetics traces of P3MEEMT with Cl\u2212 and PF6\u2212 overlap significantly, as shown in the inset with the corresponding fits.",
+               "keywords": [
+                  "Doping kinetics",
+                  "P3MEEMT",
+                  "P3HT"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_4_img_2.png": {
+      "title": "Polymer Crystallinity Controls Water Uptake in Glycol Side-Chain Polymer Organic Electrochemical Transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3MEEMT\\P3MEEMT",
+      "image_url": [],
+      "figure_name": "page_4_img_2.png",
+      "full_caption": "Figure 3. Grazing incidence X-ray diffraction (GIXRD) of P3MEEMT and P3HT. (A) GIXRD of P3MEEMT dry and in water (top) and dry after doping at 0.5 V in 100 mM KPF6 (bottom). (B) GIXRD of P3HT dry and in deionized water (top) and dry and doped at 0.5 V in 100 mM KPF6 (bottom). (C) Schematic depicting structural changes in P3HT and P3MEEMT in solution and upon electrochemical doping. P3MEEMT exhibits a lattice expansion in solution, whereas the P3HT lattice expands only upon electrochemical doping. The green circles with minus signs are the anions. Water molecules and cations are not shown for clarity.",
+      "figure_path": "output\\figures\\page_4_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 540,
+            "width": 1395,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1395,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 540
+               },
+               {
+                  "x": 1395,
+                  "y": 540
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1395,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 540
+                  },
+                  {
+                     "x": 1395,
+                     "y": 540
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "A",
+               "description": "GIXRD of P3MEEMT dry and in water (top) and dry after doping at 0.5 V in 100 mM KPF6 (bottom).",
+               "keywords": [
+                  "GIXRD",
+                  "P3MEEMT",
+                  "Doping"
+               ]
+            },
+            {
+               "label": "B",
+               "description": "GIXRD of P3HT dry and in deionized water (top) and dry and doped at 0.5 V in 100 mM KPF6 (bottom).",
+               "keywords": [
+                  "GIXRD",
+                  "P3HT",
+                  "Doping"
+               ]
+            },
+            {
+               "label": "C",
+               "description": "Schematic depicting structural changes in P3HT and P3MEEMT in solution and upon electrochemical doping. P3MEEMT exhibits a lattice expansion in solution, whereas the P3HT lattice expands only upon electrochemical doping. The green circles with minus signs are the anions. Water molecules and cations are not shown for clarity.",
+               "keywords": [
+                  "Polymer",
+                  "Electrochemical",
+                  "Doping"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_5_img_1.png": {
+      "title": "Polymer Crystallinity Controls Water Uptake in Glycol Side-Chain Polymer Organic Electrochemical Transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3MEEMT\\P3MEEMT",
+      "image_url": [],
+      "figure_name": "page_5_img_1.png",
+      "full_caption": "Figure 4. (A) GIXRD of polymer annealed at four temperatures showing increased crystallinity at higher temperature annealing, offset by 50 counts per second. (B) \u03bcC* as a function of annealing temperature showing a decreased value at increasing annealing temperature and crystallinity. (C) Volumetric capacitance as a function of annealing temperature showing that crystallinity has a limited effect on capacitance in this polymer. (D) Electronic carrier mobility calculated by dividing \u03bcC* by the measured C*, showing decreasing OECT mobility in more crystalline films.",
+      "figure_path": "output\\figures\\page_5_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.11207444220781326,
+            "height": 319,
+            "width": 350,
+            "geometry": [
+               {
+                  "x": 351,
+                  "y": 0
+               },
+               {
+                  "x": 701,
+                  "y": 0
+               },
+               {
+                  "x": 351,
+                  "y": 319
+               },
+               {
+                  "x": 701,
+                  "y": 319
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 351,
+                     "y": 0
+                  },
+                  {
+                     "x": 701,
+                     "y": 0
+                  },
+                  {
+                     "x": 351,
+                     "y": 319
+                  },
+                  {
+                     "x": 701,
+                     "y": 319
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_6_img_1.png": {
+      "title": "Polymer Crystallinity Controls Water Uptake in Glycol Side-Chain Polymer Organic Electrochemical Transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3MEEMT\\P3MEEMT",
+      "image_url": [],
+      "figure_name": "page_6_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_6_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.7761234641075134,
+            "height": 435,
+            "width": 446,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 156
+               },
+               {
+                  "x": 446,
+                  "y": 156
+               },
+               {
+                  "x": 0,
+                  "y": 591
+               },
+               {
+                  "x": 446,
+                  "y": 591
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 156
+                  },
+                  {
+                     "x": 446,
+                     "y": 156
+                  },
+                  {
+                     "x": 0,
+                     "y": 591
+                  },
+                  {
+                     "x": 446,
+                     "y": 591
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.6021966934204102,
+            "height": 432,
+            "width": 441,
+            "geometry": [
+               {
+                  "x": 452,
+                  "y": 158
+               },
+               {
+                  "x": 893,
+                  "y": 158
+               },
+               {
+                  "x": 452,
+                  "y": 590
+               },
+               {
+                  "x": 893,
+                  "y": 590
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 452,
+                     "y": 158
+                  },
+                  {
+                     "x": 893,
+                     "y": 158
+                  },
+                  {
+                     "x": 452,
+                     "y": 590
+                  },
+                  {
+                     "x": 893,
+                     "y": 590
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.18067270517349243,
+            "height": 152,
+            "width": 445,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 445,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 152
+               },
+               {
+                  "x": 445,
+                  "y": 152
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 445,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 152
+                  },
+                  {
+                     "x": 445,
+                     "y": 152
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_7_img_1.png": {
+      "title": "Polymer Crystallinity Controls Water Uptake in Glycol Side-Chain Polymer Organic Electrochemical Transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3MEEMT\\P3MEEMT",
+      "image_url": [],
+      "figure_name": "page_7_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_7_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 1327,
+            "width": 1000,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1000,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 1327
+               },
+               {
+                  "x": 1000,
+                  "y": 1327
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1000,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 1327
+                  },
+                  {
+                     "x": 1000,
+                     "y": 1327
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 491,
+                           "y": 858
+                        },
+                        {
+                           "x": 491,
+                           "y": 901
+                        },
+                        {
+                           "x": 654,
+                           "y": 901
+                        },
+                        {
+                           "x": 654,
+                           "y": 858
+                        }
+                     ],
+                     "text": "500.0 nm",
+                     "label_confidence": 0.9192898273468018,
+                     "box_confidence": 0.9883639812469482,
+                     "nm": 500.0
+                  },
+                  "geometry": [
+                     {
+                        "x": 515,
+                        "y": 838
+                     },
+                     {
+                        "x": 515,
+                        "y": 855
+                     },
+                     {
+                        "x": 629,
+                        "y": 855
+                     },
+                     {
+                        "x": 629,
+                        "y": 838
+                     }
+                  ],
+                  "confidence": 0.9884280562400818,
+                  "length": 114,
+                  "label_line_distance": 1089.25
+               },
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 5,
+                           "y": 860
+                        },
+                        {
+                           "x": 5,
+                           "y": 900
+                        },
+                        {
+                           "x": 167,
+                           "y": 900
+                        },
+                        {
+                           "x": 167,
+                           "y": 860
+                        }
+                     ],
+                     "text": "500.0 nm",
+                     "label_confidence": 0.9290516376495361,
+                     "box_confidence": 0.9931158423423767,
+                     "nm": 500.0
+                  },
+                  "geometry": [
+                     {
+                        "x": 28,
+                        "y": 838
+                     },
+                     {
+                        "x": 28,
+                        "y": 854
+                     },
+                     {
+                        "x": 138,
+                        "y": 854
+                     },
+                     {
+                        "x": 138,
+                        "y": 838
+                     }
+                  ],
+                  "confidence": 0.986713707447052,
+                  "length": 110,
+                  "label_line_distance": 1165.0
+               },
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 4,
+                           "y": 1254
+                        },
+                        {
+                           "x": 4,
+                           "y": 1297
+                        },
+                        {
+                           "x": 170,
+                           "y": 1297
+                        },
+                        {
+                           "x": 170,
+                           "y": 1254
+                        }
+                     ],
+                     "text": "500.0 nm",
+                     "label_confidence": 0.9228740334510803,
+                     "box_confidence": 0.9909369349479675,
+                     "nm": 500.0
+                  },
+                  "geometry": [
+                     {
+                        "x": 32,
+                        "y": 1235
+                     },
+                     {
+                        "x": 32,
+                        "y": 1249
+                     },
+                     {
+                        "x": 144,
+                        "y": 1249
+                     },
+                     {
+                        "x": 144,
+                        "y": 1235
+                     }
+                  ],
+                  "confidence": 0.9856593012809753,
+                  "length": 111,
+                  "label_line_distance": 1123.25
+               },
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 494,
+                           "y": 1253
+                        },
+                        {
+                           "x": 494,
+                           "y": 1299
+                        },
+                        {
+                           "x": 654,
+                           "y": 1299
+                        },
+                        {
+                           "x": 654,
+                           "y": 1253
+                        }
+                     ],
+                     "text": "500.0 nm",
+                     "label_confidence": 0.9168292880058289,
+                     "box_confidence": 0.9814853668212891,
+                     "nm": 500.0
+                  },
+                  "geometry": [
+                     {
+                        "x": 518,
+                        "y": 1234
+                     },
+                     {
+                        "x": 518,
+                        "y": 1249
+                     },
+                     {
+                        "x": 632,
+                        "y": 1249
+                     },
+                     {
+                        "x": 632,
+                        "y": 1234
+                     }
+                  ],
+                  "confidence": 0.9827457666397095,
+                  "length": 113,
+                  "label_line_distance": 1191.25
+               }
+            ],
+            "nm_height": 5871.6,
+            "nm_width": 4424.7,
+            "scale_label": "500.0 nm",
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_8_img_1.png": {
+      "title": "Polymer Crystallinity Controls Water Uptake in Glycol Side-Chain Polymer Organic Electrochemical Transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_P3MEEMT\\P3MEEMT",
+      "image_url": [],
+      "figure_name": "page_8_img_1.png",
+      "full_caption": "Figure 7. Schematic unifying the results from GIXRD, E-QCM, AFM, EIS, OFET, OECT, and mobility measurements on annealed and unannealed P3MEEMT. The red arrows indicate charge carrier migration through the film. In the dry state, the annealed film is more crystalline and has a higher mobility compared to the unannealed sample. When hydrated, the unannealed film swells more and takes up more electrolyte solution. The annealed sample swells in both crystalline and amorphous regions. Upon electrochemical doping, a similar number of charges per volume dope both samples. The unannealed sample loses more waters/cations and has a higher mobility than the annealed sample. We attribute this lower mobility in the annealed P3MEEMT to a heterogeneity in film swelling. Amorphous regions between the crystalline regions swell more, decreasing crystalline regions of the film. When the film is hydrated, the swelling in these regions prevents charges carriers from moving as easily between the crystalline regions of the film.",
+      "figure_path": "output\\figures\\page_8_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.11093377321958542,
+            "height": 728,
+            "width": 986,
+            "geometry": [
+               {
+                  "x": 1,
+                  "y": 2
+               },
+               {
+                  "x": 987,
+                  "y": 2
+               },
+               {
+                  "x": 1,
+                  "y": 730
+               },
+               {
+                  "x": 987,
+                  "y": 730
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 2
+                  },
+                  {
+                     "x": 987,
+                     "y": 2
+                  },
+                  {
+                     "x": 1,
+                     "y": 730
+                  },
+                  {
+                     "x": 987,
+                     "y": 730
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Schematic unifying the results from GIXRD, E-QCM, AFM, EIS, OFET, OECT, and mobility measurements on annealed and unannealed P3MEEMT.",
+            "keywords": [
+               "P3MEEMT",
+               "characterization",
+               "annealing"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "B",
+               "description": "The red arrows indicate charge carrier migration through the film.",
+               "keywords": [
+                  "Charge carriers",
+                  "Migration",
+                  "Film"
+               ]
+            },
+            {
+               "label": "C",
+               "description": "In the dry state, the annealed film is more crystalline and has a higher mobility compared to the unannealed sample.",
+               "keywords": [
+                  "Crystallinity",
+                  "Mobility",
+                  "Annealing"
+               ]
+            },
+            {
+               "label": "D",
+               "description": "When hydrated, the unannealed film swells more and takes up more electrolyte solution.",
+               "keywords": [
+                  "Swelling",
+                  "Hydration",
+                  "Electrolyte"
+               ]
+            },
+            {
+               "label": "E",
+               "description": "The annealed sample swells in both crystalline and amorphous regions.",
+               "keywords": [
+                  "Annealing",
+                  "Swelling",
+                  "Crystalline-Amorphous"
+               ]
+            },
+            {
+               "label": "F",
+               "description": "Upon electrochemical doping, a similar number of charges per volume dope both samples.",
+               "keywords": [
+                  "Electrochemical doping",
+                  "charge density"
+               ]
+            },
+            {
+               "label": "G",
+               "description": "The unannealed sample loses more waters/cations and has a higher mobility than the annealed sample.",
+               "keywords": [
+                  "Water loss",
+                  "Cation mobility",
+                  "Annealing"
+               ]
+            },
+            {
+               "label": "H",
+               "description": "We attribute this lower mobility in the annealed P3MEEMT to a heterogeneity in film swelling.",
+               "keywords": [
+                  "Film swelling",
+                  "Heterogeneity",
+                  "Mobility"
+               ]
+            },
+            {
+               "label": "I",
+               "description": "Amorphous regions between the crystalline regions swell more, decreasing crystalline regions of the film.",
+               "keywords": [
+                  "Amorphous",
+                  "Crystalline",
+                  "Swelling"
+               ]
+            },
+            {
+               "label": "J",
+               "description": "When the film is hydrated, the swelling in these regions prevents charges carriers from moving as easily between the crystalline regions of the film.",
+               "keywords": [
+                  "Hydration",
+                  "Swelling",
+                  "Charge carriers"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   }
+}

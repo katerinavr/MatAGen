@@ -1,0 +1,18 @@
+{
+  "records": [
+    {
+      "full_caption": "N/A",
+      "caption": "[]",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\OECT\\OECT\\images_folder\\page_7_img_1_a.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT\\OECT"
+    },
+    {
+      "full_caption": "Figure 4 | Applications of organic electrochemical transistors. Organic electrochemical transistors (OECTs) are used in electrophysiology to record the electrical activity of cells, such as neurons, in the electrolyte between the channel and the gate (part a). They are also used as impedance sensors that record changes in ion permeability of cell layers placed between the channel and gate (part b) and for the detection of analytes (red circles) that interact with receptors placed at the gate or channel (part c). In all these cases, the detection of an event is signalled by a change in the drain current, ΔId. A variety of circuits, including inverters and Wheatstone bridges (part d), have been developed to process an input voltage signal Vin to an output voltage signal Vout. OECTs can also be used as devices that mimic features of biological neural networks, such as the ability to control an entire network through a global signal (part e). D, drain; G, gate; S, source; VDD, supply voltage; Vref, reference voltage.",
+      "caption": "Figure 4 | Applications of organic electrochemical transistors. Organic electrochemical transistors (OECTs) are used in electrophysiology to record the electrical activity of cells, such as neurons, in the electrolyte between the channel and the gate (part a). They are also used as impedance sensors that record changes in ion permeability of cell layers placed between the channel and gate (part b) and for the detection of analytes (red circles) that interact with receptors placed at the gate or channel (part c). In all these cases, the detection of an event is signalled by a change in the drain current, ΔId. A variety of circuits, including inverters and Wheatstone bridges (part d), have been developed to process an input voltage signal Vin to an output voltage signal Vout. OECTs can also be used as devices that mimic features of biological neural networks, such as the ability to control an entire network through a global signal (part e). D, drain; G, gate; S, source; VDD, supply voltage; Vref, reference voltage.",
+      "caption_summary": [],
+      "image": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\OECT\\OECT\\images_folder\\page_8_img_1_0.jpg",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_OECT\\OECT"
+    }
+  ]
+}

@@ -1,0 +1,1592 @@
+{
+   "page_1_img_1.png": {
+      "title": "n\u2010Type Organic Mixed Ionic\u2010Electronic Conductors for Organic Electrochemical Transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_n\u2010Type-OMIECS\\n\u2010Type-OMIECS",
+      "image_url": [],
+      "figure_name": "page_1_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_1_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.12251568585634232,
+            "height": 44,
+            "width": 223,
+            "geometry": [
+               {
+                  "x": 2,
+                  "y": 0
+               },
+               {
+                  "x": 225,
+                  "y": 0
+               },
+               {
+                  "x": 2,
+                  "y": 44
+               },
+               {
+                  "x": 225,
+                  "y": 44
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 2,
+                     "y": 0
+                  },
+                  {
+                     "x": 225,
+                     "y": 0
+                  },
+                  {
+                     "x": 2,
+                     "y": 44
+                  },
+                  {
+                     "x": 225,
+                     "y": 44
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_2_img_1.png": {
+      "title": "n\u2010Type Organic Mixed Ionic\u2010Electronic Conductors for Organic Electrochemical Transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_n\u2010Type-OMIECS\\n\u2010Type-OMIECS",
+      "image_url": [],
+      "figure_name": "page_2_img_1.png",
+      "full_caption": "Figure 1. Device cross-section schematics of n-type OFETs (left) and n-type OECTs (middle); the transfer curve of an enhancement mode n-type OECT (right).",
+      "figure_path": "output\\figures\\page_2_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 619,
+            "width": 1671,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1671,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 619
+               },
+               {
+                  "x": 1671,
+                  "y": 619
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1671,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 619
+                  },
+                  {
+                     "x": 1671,
+                     "y": 619
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_7_img_2.png": {
+      "title": "n\u2010Type Organic Mixed Ionic\u2010Electronic Conductors for Organic Electrochemical Transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_n\u2010Type-OMIECS\\n\u2010Type-OMIECS",
+      "image_url": [],
+      "figure_name": "page_7_img_2.png",
+      "full_caption": "Figure 3. Chemical structures of a) P4gNDI and P4gNDTI; b) gNDI-BT series; c) gNDI-T and gNDI-V; d) PNDI2OD-2Tz PNDIOTEG-2Tz and PNDI2TEGTz; and e) p(NDI-T2-L2).",
+      "figure_path": "output\\figures\\page_7_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.8907071948051453,
+            "height": 380,
+            "width": 1366,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 1366,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 380
+               },
+               {
+                  "x": 1366,
+                  "y": 380
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 1366,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 380
+                  },
+                  {
+                     "x": 1366,
+                     "y": 380
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "P4gNDI and P4gNDTI",
+            "keywords": [
+               "Materials",
+               "Characterization",
+               "Techniques"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.8549047708511353,
+            "height": 505,
+            "width": 1417,
+            "geometry": [
+               {
+                  "x": 1,
+                  "y": 385
+               },
+               {
+                  "x": 1418,
+                  "y": 385
+               },
+               {
+                  "x": 1,
+                  "y": 890
+               },
+               {
+                  "x": 1418,
+                  "y": 890
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 385
+                  },
+                  {
+                     "x": 1418,
+                     "y": 385
+                  },
+                  {
+                     "x": 1,
+                     "y": 890
+                  },
+                  {
+                     "x": 1418,
+                     "y": 890
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "gNDI-BT series",
+            "keywords": [
+               "Organic semiconductors",
+               "naphthalene diimide",
+               "synthesis"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.14787325263023376,
+            "height": 416,
+            "width": 1445,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 872
+               },
+               {
+                  "x": 1445,
+                  "y": 872
+               },
+               {
+                  "x": 0,
+                  "y": 1288
+               },
+               {
+                  "x": 1445,
+                  "y": 1288
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 872
+                  },
+                  {
+                     "x": 1445,
+                     "y": 872
+                  },
+                  {
+                     "x": 0,
+                     "y": 1288
+                  },
+                  {
+                     "x": 1445,
+                     "y": 1288
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "gNDI-T and gNDI-V",
+            "keywords": [
+               "Materials",
+               "Characterization",
+               "NDI"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [
+            {
+               "label": "d",
+               "description": "PNDI2OD-2Tz PNDIOTEG-2Tz and PNDI2TEGTz",
+               "keywords": [
+                  "Polymer",
+                  "Characterization",
+                  "Conductivity"
+               ]
+            },
+            {
+               "label": "e",
+               "description": "p(NDI-T2-L2)",
+               "keywords": [
+                  "Polymer",
+                  "Semiconductors",
+                  "Electronics"
+               ]
+            }
+         ],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_19_img_2.png": {
+      "title": "n\u2010Type Organic Mixed Ionic\u2010Electronic Conductors for Organic Electrochemical Transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_n\u2010Type-OMIECS\\n\u2010Type-OMIECS",
+      "image_url": [],
+      "figure_name": "page_19_img_2.png",
+      "full_caption": "Figure 8. (a) Chemical structures of P(g2T-T) and BBL, and the relevant electrolyte PQ-10 and poly(sodium-4-styrene sulfonate) (PSSNa). (b) The cross-section view and top view of the complementary OECTs. c) Schematic representation of each layer in the fabrication process of the complementary OECTs. d) The real images of as-manufactured complementary OECTs on polyethylene terephthalate substrates. Reproduced (Adapted) under the terms of the CC-BY 4.0 DEED Attribution 4.0 international license.[64] Copyright 2021, The Authors. Published by John Wiley and Sons, Inc.",
+      "figure_path": "output\\figures\\page_19_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9657149910926819,
+            "height": 702,
+            "width": 945,
+            "geometry": [
+               {
+                  "x": 924,
+                  "y": 0
+               },
+               {
+                  "x": 1869,
+                  "y": 0
+               },
+               {
+                  "x": 924,
+                  "y": 702
+               },
+               {
+                  "x": 1869,
+                  "y": 702
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 924,
+                     "y": 0
+                  },
+                  {
+                     "x": 1869,
+                     "y": 0
+                  },
+                  {
+                     "x": 924,
+                     "y": 702
+                  },
+                  {
+                     "x": 1869,
+                     "y": 702
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "The cross-section view and top view of the complementary OECTs.",
+            "keywords": [
+               "OECTs",
+               "cross-section",
+               "top view"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9649386405944824,
+            "height": 721,
+            "width": 929,
+            "geometry": [
+               {
+                  "x": 6,
+                  "y": 726
+               },
+               {
+                  "x": 935,
+                  "y": 726
+               },
+               {
+                  "x": 6,
+                  "y": 1447
+               },
+               {
+                  "x": 935,
+                  "y": 1447
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 6,
+                     "y": 726
+                  },
+                  {
+                     "x": 935,
+                     "y": 726
+                  },
+                  {
+                     "x": 6,
+                     "y": 1447
+                  },
+                  {
+                     "x": 935,
+                     "y": 1447
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Schematic representation of each layer in the fabrication process of the complementary OECTs.",
+            "keywords": [
+               "Fabrication",
+               "OECTs",
+               "Schematic"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9357600808143616,
+            "height": 701,
+            "width": 911,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 911,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 701
+               },
+               {
+                  "x": 911,
+                  "y": 701
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 911,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 701
+                  },
+                  {
+                     "x": 911,
+                     "y": 701
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Chemical structures of P(g2T-T) and BBL, and the relevant electrolyte PQ-10 and poly(sodium-4-styrene sulfonate) (PSSNa).",
+            "keywords": [
+               "Polymer structures",
+               "Electrolytes",
+               "Chemical structures"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.8377328515052795,
+            "height": 699,
+            "width": 888,
+            "geometry": [
+               {
+                  "x": 939,
+                  "y": 729
+               },
+               {
+                  "x": 1827,
+                  "y": 729
+               },
+               {
+                  "x": 939,
+                  "y": 1428
+               },
+               {
+                  "x": 1827,
+                  "y": 1428
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 939,
+                     "y": 729
+                  },
+                  {
+                     "x": 1827,
+                     "y": 729
+                  },
+                  {
+                     "x": 939,
+                     "y": 1428
+                  },
+                  {
+                     "x": 1827,
+                     "y": 1428
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 1697,
+                           "y": 973
+                        },
+                        {
+                           "x": 1697,
+                           "y": 1000
+                        },
+                        {
+                           "x": 1768,
+                           "y": 1000
+                        },
+                        {
+                           "x": 1768,
+                           "y": 973
+                        }
+                     ],
+                     "text": "1.0 mm",
+                     "label_confidence": 0.6018490195274353,
+                     "box_confidence": 0.931769073009491,
+                     "nm": 1000000.0
+                  },
+                  "geometry": [
+                     {
+                        "x": 1689,
+                        "y": 955
+                     },
+                     {
+                        "x": 1689,
+                        "y": 963
+                     },
+                     {
+                        "x": 1770,
+                        "y": 963
+                     },
+                     {
+                        "x": 1770,
+                        "y": 955
+                     }
+                  ],
+                  "confidence": 0.9624860882759094,
+                  "length": 80,
+                  "label_line_distance": 765.25
+               },
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 1305,
+                           "y": 972
+                        },
+                        {
+                           "x": 1305,
+                           "y": 1000
+                        },
+                        {
+                           "x": 1377,
+                           "y": 1000
+                        },
+                        {
+                           "x": 1377,
+                           "y": 972
+                        }
+                     ],
+                     "text": "1.0 mm",
+                     "label_confidence": 0.8022128343582153,
+                     "box_confidence": 0.959701657295227,
+                     "nm": 1000000.0
+                  },
+                  "geometry": [
+                     {
+                        "x": 1300,
+                        "y": 955
+                     },
+                     {
+                        "x": 1300,
+                        "y": 964
+                     },
+                     {
+                        "x": 1381,
+                        "y": 964
+                     },
+                     {
+                        "x": 1381,
+                        "y": 955
+                     }
+                  ],
+                  "confidence": 0.9515960216522217,
+                  "length": 80,
+                  "label_line_distance": 702.5
+               },
+               {
+                  "label": {
+                     "geometry": [
+                        {
+                           "x": 1739,
+                           "y": 1399
+                        },
+                        {
+                           "x": 1739,
+                           "y": 1430
+                        },
+                        {
+                           "x": 1817,
+                           "y": 1430
+                        },
+                        {
+                           "x": 1817,
+                           "y": 1399
+                        }
+                     ],
+                     "text": "5.0 mm",
+                     "label_confidence": 0.9354170560836792,
+                     "box_confidence": 0.9699944257736206,
+                     "nm": 5000000.0
+                  },
+                  "geometry": [
+                     {
+                        "x": 1740,
+                        "y": 1383
+                     },
+                     {
+                        "x": 1740,
+                        "y": 1395
+                     },
+                     {
+                        "x": 1813,
+                        "y": 1395
+                     },
+                     {
+                        "x": 1813,
+                        "y": 1383
+                     }
+                  ],
+                  "confidence": 0.7340726256370544,
+                  "length": 73,
+                  "label_line_distance": 652.5
+               }
+            ],
+            "caption": "The real images of as-manufactured complementary OECTs on polyethylene terephthalate substrates. Reproduced (Adapted) under the terms of the CC-BY 4.0 DEED Attribution 4.0 international license.[64] Copyright 2021, The Authors. Published by John Wiley and Sons, Inc.",
+            "keywords": [
+               "OECTs",
+               "polyethylene terephthalate",
+               "substrates"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_20_img_1.png": {
+      "title": "n\u2010Type Organic Mixed Ionic\u2010Electronic Conductors for Organic Electrochemical Transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_n\u2010Type-OMIECS\\n\u2010Type-OMIECS",
+      "image_url": [],
+      "figure_name": "page_20_img_1.png",
+      "full_caption": "Figure 10. a) The ion-gel side-gated EC-RAMs with the chemical structures of the ionic liquid EMIM\u00b7TFSI and PVDF-HFP. Reproduced (Adapted) under the terms of the CC-BY 4.0 DEED Attribution 4.0 International license.[44] Copyright 2022, The Authors. Published by John Wiley & Sons, Inc. b) Organic electrochemical neurons featuring PBBT-Me and BBL. Reproduced (Adapted) under the terms of the CC-BY 3.0 DEED Attribution 3.0 Unported license.[87] Copyright 2023, The Authors. Published by Royal Society of Chemistry.",
+      "figure_path": "output\\figures\\page_20_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9341829419136047,
+            "height": 554,
+            "width": 844,
+            "geometry": [
+               {
+                  "x": 782,
+                  "y": 0
+               },
+               {
+                  "x": 1626,
+                  "y": 0
+               },
+               {
+                  "x": 782,
+                  "y": 554
+               },
+               {
+                  "x": 1626,
+                  "y": 554
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 782,
+                     "y": 0
+                  },
+                  {
+                     "x": 1626,
+                     "y": 0
+                  },
+                  {
+                     "x": 782,
+                     "y": 554
+                  },
+                  {
+                     "x": 1626,
+                     "y": 554
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "Organic electrochemical neurons featuring PBBT-Me and BBL. Reproduced (Adapted) under the terms of the CC-BY 3.0 DEED Attribution 3.0 Unported license.[87] Copyright 2023, The Authors. Published by Royal Society of Chemistry.",
+            "keywords": [
+               "Organic electrochemistry",
+               "Neurons",
+               "Polymers"
+            ]
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9237198829650879,
+            "height": 564,
+            "width": 744,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 744,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 564
+               },
+               {
+                  "x": 744,
+                  "y": 564
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 744,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 564
+                  },
+                  {
+                     "x": 744,
+                     "y": 564
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": "The ion-gel side-gated EC-RAMs with the chemical structures of the ionic liquid EMIM\u00b7TFSI and PVDF-HFP. Reproduced (Adapted) under the terms of the CC-BY 4.0 DEED Attribution 4.0 International license.[44] Copyright 2022, The Authors. Published by John Wiley & Sons, Inc.",
+            "keywords": [
+               "Ion-gel",
+               "EC-RAMs",
+               "Ionic liquid"
+            ]
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_20_img_2.png": {
+      "title": "n\u2010Type Organic Mixed Ionic\u2010Electronic Conductors for Organic Electrochemical Transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_n\u2010Type-OMIECS\\n\u2010Type-OMIECS",
+      "image_url": [],
+      "figure_name": "page_20_img_2.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_20_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.9563635587692261,
+            "height": 414,
+            "width": 420,
+            "geometry": [
+               {
+                  "x": 599,
+                  "y": 0
+               },
+               {
+                  "x": 1019,
+                  "y": 0
+               },
+               {
+                  "x": 599,
+                  "y": 414
+               },
+               {
+                  "x": 1019,
+                  "y": 414
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 599,
+                     "y": 0
+                  },
+                  {
+                     "x": 1019,
+                     "y": 0
+                  },
+                  {
+                     "x": 599,
+                     "y": 414
+                  },
+                  {
+                     "x": 1019,
+                     "y": 414
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.9325308203697205,
+            "height": 409,
+            "width": 623,
+            "geometry": [
+               {
+                  "x": 1044,
+                  "y": 3
+               },
+               {
+                  "x": 1667,
+                  "y": 3
+               },
+               {
+                  "x": 1044,
+                  "y": 412
+               },
+               {
+                  "x": 1667,
+                  "y": 412
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1044,
+                     "y": 3
+                  },
+                  {
+                     "x": 1667,
+                     "y": 3
+                  },
+                  {
+                     "x": 1044,
+                     "y": 412
+                  },
+                  {
+                     "x": 1667,
+                     "y": 412
+                  }
+               ]
+            },
+            "scale_bars": [
+               {
+                  "label": null,
+                  "geometry": [
+                     {
+                        "x": 1125,
+                        "y": 377
+                     },
+                     {
+                        "x": 1125,
+                        "y": 391
+                     },
+                     {
+                        "x": 1256,
+                        "y": 391
+                     },
+                     {
+                        "x": 1256,
+                        "y": 377
+                     }
+                  ],
+                  "confidence": 0.9814614653587341,
+                  "length": 131,
+                  "label_line_distance": -1
+               }
+            ],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.8571726679801941,
+            "height": 401,
+            "width": 592,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 1
+               },
+               {
+                  "x": 592,
+                  "y": 1
+               },
+               {
+                  "x": 0,
+                  "y": 402
+               },
+               {
+                  "x": 592,
+                  "y": 402
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 1
+                  },
+                  {
+                     "x": 592,
+                     "y": 1
+                  },
+                  {
+                     "x": 0,
+                     "y": 402
+                  },
+                  {
+                     "x": 592,
+                     "y": 402
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.8343735337257385,
+            "height": 903,
+            "width": 1622,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 420
+               },
+               {
+                  "x": 1622,
+                  "y": 420
+               },
+               {
+                  "x": 0,
+                  "y": 1323
+               },
+               {
+                  "x": 1622,
+                  "y": 1323
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 420
+                  },
+                  {
+                     "x": 1622,
+                     "y": 420
+                  },
+                  {
+                     "x": 0,
+                     "y": 1323
+                  },
+                  {
+                     "x": 1622,
+                     "y": 1323
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_21_img_2.png": {
+      "title": "n\u2010Type Organic Mixed Ionic\u2010Electronic Conductors for Organic Electrochemical Transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_n\u2010Type-OMIECS\\n\u2010Type-OMIECS",
+      "image_url": [],
+      "figure_name": "page_21_img_2.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_21_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.8682506680488586,
+            "height": 576,
+            "width": 613,
+            "geometry": [
+               {
+                  "x": 1,
+                  "y": 1
+               },
+               {
+                  "x": 614,
+                  "y": 1
+               },
+               {
+                  "x": 1,
+                  "y": 577
+               },
+               {
+                  "x": 614,
+                  "y": 577
+               }
+            ],
+            "subfigure_label": {
+               "text": "c",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 1
+                  },
+                  {
+                     "x": 614,
+                     "y": 1
+                  },
+                  {
+                     "x": 1,
+                     "y": 577
+                  },
+                  {
+                     "x": 614,
+                     "y": 577
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.8645948767662048,
+            "height": 261,
+            "width": 533,
+            "geometry": [
+               {
+                  "x": 1,
+                  "y": 1334
+               },
+               {
+                  "x": 534,
+                  "y": 1334
+               },
+               {
+                  "x": 1,
+                  "y": 1595
+               },
+               {
+                  "x": 534,
+                  "y": 1595
+               }
+            ],
+            "subfigure_label": {
+               "text": "h",
+               "geometry": [
+                  {
+                     "x": 1,
+                     "y": 1334
+                  },
+                  {
+                     "x": 534,
+                     "y": 1334
+                  },
+                  {
+                     "x": 1,
+                     "y": 1595
+                  },
+                  {
+                     "x": 534,
+                     "y": 1595
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.849299967288971,
+            "height": 469,
+            "width": 437,
+            "geometry": [
+               {
+                  "x": 523,
+                  "y": 1126
+               },
+               {
+                  "x": 960,
+                  "y": 1126
+               },
+               {
+                  "x": 523,
+                  "y": 1595
+               },
+               {
+                  "x": 960,
+                  "y": 1595
+               }
+            ],
+            "subfigure_label": {
+               "text": "g",
+               "geometry": [
+                  {
+                     "x": 523,
+                     "y": 1126
+                  },
+                  {
+                     "x": 960,
+                     "y": 1126
+                  },
+                  {
+                     "x": 523,
+                     "y": 1595
+                  },
+                  {
+                     "x": 960,
+                     "y": 1595
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.7495614290237427,
+            "height": 474,
+            "width": 981,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 579
+               },
+               {
+                  "x": 981,
+                  "y": 579
+               },
+               {
+                  "x": 0,
+                  "y": 1053
+               },
+               {
+                  "x": 981,
+                  "y": 1053
+               }
+            ],
+            "subfigure_label": {
+               "text": "e",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 579
+                  },
+                  {
+                     "x": 981,
+                     "y": 579
+                  },
+                  {
+                     "x": 0,
+                     "y": 1053
+                  },
+                  {
+                     "x": 981,
+                     "y": 1053
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.5781194567680359,
+            "height": 454,
+            "width": 970,
+            "geometry": [
+               {
+                  "x": 985,
+                  "y": 874
+               },
+               {
+                  "x": 1955,
+                  "y": 874
+               },
+               {
+                  "x": 985,
+                  "y": 1328
+               },
+               {
+                  "x": 1955,
+                  "y": 1328
+               }
+            ],
+            "subfigure_label": {
+               "text": "d",
+               "geometry": [
+                  {
+                     "x": 985,
+                     "y": 874
+                  },
+                  {
+                     "x": 1955,
+                     "y": 874
+                  },
+                  {
+                     "x": 985,
+                     "y": 1328
+                  },
+                  {
+                     "x": 1955,
+                     "y": 1328
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.22820664942264557,
+            "height": 206,
+            "width": 527,
+            "geometry": [
+               {
+                  "x": 3,
+                  "y": 1123
+               },
+               {
+                  "x": 530,
+                  "y": 1123
+               },
+               {
+                  "x": 3,
+                  "y": 1329
+               },
+               {
+                  "x": 530,
+                  "y": 1329
+               }
+            ],
+            "subfigure_label": {
+               "text": "f",
+               "geometry": [
+                  {
+                     "x": 3,
+                     "y": 1123
+                  },
+                  {
+                     "x": 530,
+                     "y": 1123
+                  },
+                  {
+                     "x": 3,
+                     "y": 1329
+                  },
+                  {
+                     "x": 530,
+                     "y": 1329
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         },
+         {
+            "classification": "subfigure",
+            "confidence": 0.18709653615951538,
+            "height": 912,
+            "width": 1011,
+            "geometry": [
+               {
+                  "x": 983,
+                  "y": 1
+               },
+               {
+                  "x": 1994,
+                  "y": 1
+               },
+               {
+                  "x": 983,
+                  "y": 913
+               },
+               {
+                  "x": 1994,
+                  "y": 913
+               }
+            ],
+            "subfigure_label": {
+               "text": "b",
+               "geometry": [
+                  {
+                     "x": 983,
+                     "y": 1
+                  },
+                  {
+                     "x": 1994,
+                     "y": 1
+                  },
+                  {
+                     "x": 983,
+                     "y": 913
+                  },
+                  {
+                     "x": 1994,
+                     "y": 913
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_25_img_1.png": {
+      "title": "n\u2010Type Organic Mixed Ionic\u2010Electronic Conductors for Organic Electrochemical Transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_n\u2010Type-OMIECS\\n\u2010Type-OMIECS",
+      "image_url": [],
+      "figure_name": "page_25_img_1.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_25_img_1.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 0.1559889316558838,
+            "height": 400,
+            "width": 298,
+            "geometry": [
+               {
+                  "x": 2,
+                  "y": 0
+               },
+               {
+                  "x": 300,
+                  "y": 0
+               },
+               {
+                  "x": 2,
+                  "y": 400
+               },
+               {
+                  "x": 300,
+                  "y": 400
+               }
+            ],
+            "subfigure_label": {
+               "text": "a",
+               "geometry": [
+                  {
+                     "x": 2,
+                     "y": 0
+                  },
+                  {
+                     "x": 300,
+                     "y": 0
+                  },
+                  {
+                     "x": 2,
+                     "y": 400
+                  },
+                  {
+                     "x": 300,
+                     "y": 400
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   },
+   "page_25_img_2.png": {
+      "title": "n\u2010Type Organic Mixed Ionic\u2010Electronic Conductors for Organic Electrochemical Transistors",
+      "article_name": "C:\\Users\\kvriz\\Desktop\\DataMiningAgents\\outputs\\omiecs_run\\__temp_n\u2010Type-OMIECS\\n\u2010Type-OMIECS",
+      "image_url": [],
+      "figure_name": "page_25_img_2.png",
+      "full_caption": "N/A",
+      "figure_path": "output\\figures\\page_25_img_2.png",
+      "master_images": [
+         {
+            "classification": "subfigure",
+            "confidence": 1.0,
+            "height": 400,
+            "width": 300,
+            "geometry": [
+               {
+                  "x": 0,
+                  "y": 0
+               },
+               {
+                  "x": 300,
+                  "y": 0
+               },
+               {
+                  "x": 0,
+                  "y": 400
+               },
+               {
+                  "x": 300,
+                  "y": 400
+               }
+            ],
+            "subfigure_label": {
+               "text": "0",
+               "geometry": [
+                  {
+                     "x": 0,
+                     "y": 0
+                  },
+                  {
+                     "x": 300,
+                     "y": 0
+                  },
+                  {
+                     "x": 0,
+                     "y": 400
+                  },
+                  {
+                     "x": 300,
+                     "y": 400
+                  }
+               ]
+            },
+            "scale_bars": [],
+            "caption": [],
+            "keywords": []
+         }
+      ],
+      "article_url": [],
+      "license": [],
+      "open": [],
+      "unassigned": {
+         "master_images": [],
+         "dependent_images": [],
+         "inset_images": [],
+         "subfigure_labels": [],
+         "scale_bar_labels": [],
+         "scale_bar_lines": [],
+         "captions": [],
+         "scale_bar_objects": []
+      },
+      "caption_delimiter": 0
+   }
+}
