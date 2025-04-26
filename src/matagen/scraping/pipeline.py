@@ -1,3 +1,4 @@
+# Code adapted and modified from MaterialEyes
 import json
 import logging
 import os
@@ -6,7 +7,6 @@ from pathlib import Path
 import numpy as np
 from PIL import Image #, ImageDraw, ImageFont
 from typing import List
-# from .utilities.logging import Printer
 from .figure import FigureSeparator
 from .tool import CaptionDistributor, JournalScraper, HTMLScraper, PDFScraper
 import sys
@@ -14,11 +14,8 @@ import sys
 def blockPrint():
     sys.stdout = open(os.devnull, "w")
 
-
-# Restore
 def enablePrint():
     sys.stdout = sys.__stdout__
-
 
 class Printer:
     """Print things to stdout on one line dynamically"""
@@ -37,7 +34,6 @@ class Pipeline:
             query_path (dict or path to json): An EXSCLAIM user query JSON
         """
         self.logger = logging.getLogger(__name__)
-        # Load Query on which Pipeline will run
         self.current_path = pathlib.Path(__file__).resolve().parent
         if "test" == query_path:
             query_path = self.current_path / "tests" / "data" / "nature_test.json"
@@ -52,10 +48,9 @@ class Pipeline:
             )
             self.query_path = query_path
             with open(self.query_path) as f:
-                # Load query file to dict
                 self.query_dict = json.load(f)
 
-        current_dir = Path(self.query_dict.get("output_dir")) # Path.cwd()
+        current_dir = Path(self.query_dict.get("output_dir")) 
         self.results_directory = current_dir / self.query_dict["name"]
         os.makedirs(self.results_directory, exist_ok=True)
 

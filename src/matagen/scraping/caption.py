@@ -7,16 +7,6 @@ import time
 
 def get_context(query, documents, embeddings):
     pass
-    # text_splitter = RecursiveCharacterTextSplitter(chunk_size=2048, chunk_overlap=100)
-    # texts = text_splitter.split_documents(documents)
-
-    # db = Chroma.from_documents(texts, embeddings)
-
-    # docs = db.similarity_search_with_score(query, k=1)
-    # #Get context strings
-    # context=""
-    # for i in range(1):
-    #     context += docs[i][0].page_content +"\n"
     return None
 
 def remove_control_characters(s):
@@ -32,7 +22,6 @@ class CustomEncoder(json.JSONEncoder):
         return super().default(obj)
 
 def replace_unicode_spaces(input_str):
-    # Replace thin spaces with regular spaces
     return input_str.replace('\u2009', ' ')
     
 
@@ -130,18 +119,16 @@ def safe_summarize_caption(*args, **kwargs):
 def safe_separate_captions(*args, **kwargs):
     """Safely call the get_keywords function with exponential backoff."""
     max_retries = 5
-    base_wait_time = 2  # starting with 2 seconds
+    base_wait_time = 2 
 
     for attempt in range(max_retries):
         try:
-            # Attempt to call the get_keywords function
             return separate_captions(*args, **kwargs)
         except Exception as e:
-            if attempt < max_retries - 1:  # if it's not the last attempt
-                wait_time = base_wait_time * (2 ** attempt)  # double the wait time with every retry
+            if attempt < max_retries - 1:  
+                wait_time = base_wait_time * (2 ** attempt) 
                 print(f"Error: {e}. Retrying in {wait_time} seconds...")
                 time.sleep(wait_time)
             else:
-                # If we've reached the maximum retries, raise the exception
                 print("Max retries reached. Skipping this caption.")
-                return None  # or return a default value, or raise the exception
+                return None  

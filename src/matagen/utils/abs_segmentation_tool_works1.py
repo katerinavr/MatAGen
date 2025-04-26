@@ -17,19 +17,13 @@ from matagen.utils.plot_data_extraction.plot_digitizer import PlotDigitizer
 from matagen.utils.axis_alignment.utils import AxisAlignment
 from matagen.utils.plot_data_extraction.SpatialEmbeddings.src.utils import transforms as my_transforms
 
-# --- Path Setup ---
+# Path Setup
 script_dir = os.path.dirname(os.path.abspath(__file__))
-# Adjust the number of '..' based on script location relative to project root!
-project_root = os.path.abspath(os.path.join(script_dir, '..', '..', '..')) # Example: 3 levels down
+project_root = os.path.abspath(os.path.join(script_dir, '..', '..', '..'))
 checkpoints_base = os.path.join(project_root, 'checkpoints', 'axis_alignment')
 checkpoints_plot_extract_base = os.path.join(project_root, 'checkpoints', 'plot_data_extraction')
 
-print(f"Project Root (estimated): {project_root}")
-print(f"Axis Checkpoints Base: {checkpoints_base}")
-print(f"Plot Checkpoints Base: {checkpoints_plot_extract_base}")
-print("-" * 20)
-
-# --- Configuration ---
+# Configurations
 # Axis Alignment Configuration
 axis_align_opt = {
     # region detection
@@ -119,31 +113,31 @@ def filter_legend_text(ocr_result):
     # Patterns to explicitly INCLUDE in legend labels
     import re
     include_patterns = [
-        r'^p\d+',                # Matches "P1", "P2", etc. (with or without wavelength info)
-        r'^pentamer\s+[a-z]',    # Matches "Pentamer A", "Pentamer B", etc.
-        r'^polymer\s+[a-z]',     # Matches "Polymer A", "Polymer B", etc.
-        r'^oligomer\s+[a-z0-9]', # Matches "Oligomer 1", "Oligomer A", etc.
-        r'^p[a-z]',              # Matches "PDot", "PPDot", etc.
-        r'^prodot',              # Matches "ProDOT" variations
-        r'^pedot',               # Matches "PEDOT" variations
-        r'^compound\s+\d+',      # Matches "Compound 1", "Compound 2", etc.
-        r'^p\(.*\)',             # Matches "P(LAcDOT)", "P(BAcDOT-DMP)", etc.
-        r'^p\([^)]+\-[^)]+\)',   # Specifically match polymer names with hyphens inside parentheses
+        r'^p\d+',               
+        r'^pentamer\s+[a-z]',    
+        r'^polymer\s+[a-z]',    
+        r'^oligomer\s+[a-z0-9]',
+        r'^p[a-z]',             
+        r'^prodot',          
+        r'^pedot',               
+        r'^compound\s+\d+',    
+        r'^p\(.*\)',           
+        r'^p\([^)]+\-[^)]+\)',  
     ]
     
-    # Patterns to EXCLUDE - but only if they don't match the include patterns
+    # Patterns to EXCLUDE
     exclude_patterns = [
-        r'^[0-9]+$',             # Just numbers like "600", "800"
-        r'^[0-9\.]+$',           # Decimal numbers like "0.2", "1.0"
-        r'^[0-9]+\s*nm$',        # Just wavelengths like "121nm"
-        r'^nm$',                 # Just "nm"
-        r'^[a-z][\)\]}]$',       # Subplot labels like "a)", "b)"
-        r'wavelength',           # possible axis labels
-        r'intensity',            # possible axis labels
-        r'absorbance',           # possible axis labels
-        r'transmittance',        # possible axis labels
-        r'^[0-9]',               # NEVER start with a number
-        r'00'                    # NEVER include '00' as this was a common issue
+        r'^[0-9]+$',            
+        r'^[0-9\.]+$',           
+        r'^[0-9]+\s*nm$',       
+        r'^nm$',                
+        r'^[a-z][\)\]}]$',      
+        r'wavelength',         
+        r'intensity',          
+        r'absorbance',          
+        r'transmittance',      
+        r'^[0-9]',              
+        r'00'                    
     ]
     
     # Process each OCR result
@@ -162,13 +156,11 @@ def filter_legend_text(ocr_result):
                 print(f"  Including based on pattern: '{text}'")
                 break
                 
-        # If already marked for inclusion, add it and continue to next item
         if should_include:
             labels.append(text)
             bboxes.append(bbox)
             continue
         
-        # Next, check if it should be excluded
         should_exclude = False
         for pattern in exclude_patterns:
             if re.search(pattern, text.lower()):
@@ -193,7 +185,6 @@ def filter_legend_text(ocr_result):
                 should_include = True
                 print(f"  Including as possible chemical name: '{text}'")
         
-        # Add to results if we should include this text
         if should_include:
             labels.append(text)
             bboxes.append(bbox)
@@ -203,7 +194,6 @@ def filter_legend_text(ocr_result):
 
 def get_label_colors(image_path, label_bbox):
     """Extract the color associated with a detected label bounding box."""
-    # Sample color from a region LEFT of the text bbox
     sample_width = 20
     sample_height_factor = 0.5
 

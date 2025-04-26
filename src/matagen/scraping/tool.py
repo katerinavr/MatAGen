@@ -1,5 +1,5 @@
 # Copyright 2019 MaterialEyes
-# (see accompanying license files for details).
+# Code adapted and modified from MaterialEyes
 
 """Definition of the ExsclaimTool classes.
 This module defines the central objects in the EXSCLAIM!
@@ -13,8 +13,6 @@ import os
 import time
 from abc import ABC, abstractmethod
 from . import caption, journal
-# from .utilities import paths_drop
-# from .utilities.logging import Printer
 import glob
 import requests
 from bs4 import BeautifulSoup
@@ -26,7 +24,6 @@ import numpy as np
 from PIL import Image
 import numpy as np
 from bs4 import BeautifulSoup
-# from langchain.embeddings import OpenAIEmbeddings
 import fitz  # PyMuPDF
 import base64 
 import io

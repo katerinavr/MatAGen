@@ -5,31 +5,11 @@ import os
 import pathlib
 import time
 import warnings
-
-# import cv2
 import numpy as np
 import torch
-# import torch.nn.functional as F
-# import torchvision.models.detection
-# import torchvision.transforms as T
 import yaml
 from PIL import Image
-# from scipy.special import softmax
-# from skimage import io
-# from torch.autograd import Variable
-# from torchvision.models.detection.faster_rcnn import FastRCNNPredictor
-
-# from .figures.models.crnn import CRNN
-# from .figures.models.network import resnet152
-# from .figures.models.yolov3 import YOLOv3, YOLOv3img
-# from .figures.scale import ctc
-# from .figures.scale.process import non_max_suppression_malisiewicz
-# from .figures.separator import process
 from .tool import ExsclaimTool
-# from .utilities import boxes
-# from .utilities.logging import Printer
-# from .utilities.models import load_model_from_checkpoint
-
 from ultralytics import YOLO
 
 def convert_to_rgb(image):
@@ -93,20 +73,6 @@ class FigureSeparator(ExsclaimTool):
             self.logger.error(f"Error loading model: {str(e)}", exc_info=True)
             raise
 
-        # Set configuration variables
-        # model_path = os.path.dirname(__file__) + "/figures/"
-        # configuration_file = model_path + "config/yolov3_default_subfig.cfg"
-        # with open(configuration_file, "r") as f:
-        #     configuration = yaml.load(f, Loader=yaml.FullLoader)
-
-        # self.image_size = configuration["TEST"]["IMGSIZE"]
-        # self.nms_threshold = configuration["TEST"]["NMSTHRE"]
-        # self.confidence_threshold = 0.0001
-        # self.gpu_id = 1
-        # This suppresses warning if user has no CUDA device initialized,
-        # which is unneccessary as we are explicitly checking. This may not
-        # be necessary in the future, described in:
-        # https://github.com/pytorch/pytorch/issues/47038
         with warnings.catch_warnings():
             warnings.simplefilter("ignore")
             self.cuda = torch.cuda.is_available()
@@ -117,55 +83,7 @@ class FigureSeparator(ExsclaimTool):
         self.device = (
             torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
         )
-        # # Load object detection model
-        # object_detection_model = YOLOv3(configuration["MODEL"])
-        # self.object_detection_model = load_model_from_checkpoint(
-        #     object_detection_model, "object_detection_model.pt", self.cuda, self.device
-        # )
-        # # Load text recognition model
-        # text_recognition_model = resnet152()
-        # self.text_recognition_model = load_model_from_checkpoint(
-        #     text_recognition_model, "text_recognition_model.pt", self.cuda, self.device
-        # )
-        # # Load classification model
-        # master_config_file = model_path + "config/yolov3_default_master.cfg"
-        # with open(master_config_file, "r") as f:
-        #     master_config = yaml.load(f, Loader=yaml.FullLoader)
-        # classifier_model = YOLOv3img(master_config["MODEL"])
-        # self.classifier_model = load_model_from_checkpoint(
-        #     classifier_model, "classifier_model.pt", self.cuda, self.device
-        # )
-        # # Load scale bar detection model
-        # # load an object detection model pre-trained on COCO
-        # scale_bar_detection_model = (
-        #     torchvision.models.detection.fasterrcnn_resnet50_fpn(pretrained=True)
-        # )
-        # input_features = (
-        #     scale_bar_detection_model.roi_heads.box_predictor.cls_score.in_features
-        # )
-        # number_classes = 3  # background, scale bar, scale bar label
-        # scale_bar_detection_model.roi_heads.box_predictor = FastRCNNPredictor(
-        #     input_features, number_classes
-        # )
-        # self.scale_bar_detection_model = load_model_from_checkpoint(
-        #     scale_bar_detection_model,
-        #     "scale_bar_detection_model.pt",
-        #     self.cuda,
-        #     self.device,
-        # )
-        # # Load scale label recognition model
-        # parent_dir = pathlib.Path(__file__).resolve(strict=True).parent
-        # config_path = parent_dir / "figures" / "config" / "scale_label_reader.json"
-        # with open(config_path, "r") as f:
-        #     configuration_file = json.load(f)
-        # configuration = configuration_file["theta"]
-        # scale_label_recognition_model = CRNN(configuration=configuration)
-        # self.scale_label_recognition_model = load_model_from_checkpoint(
-        #     scale_label_recognition_model,
-        #     "scale_label_recognition_model.pt",
-        #     self.cuda,
-        #     self.device,
-        # )
+
 
     def _update_exsclaim(self, exsclaim_dict, figure_name, figure_dict):
         figure_name = figure_name.split("/")[-1]
@@ -390,9 +308,6 @@ class FigureSeparator(ExsclaimTool):
         # Update the JSON
         self.exsclaim_json[figure_name] = figure_json
 
-        # # Detect scale bar lines and labels if needed
-        # if hasattr(self, 'determine_scale'):
-        #     figure_json = self.determine_scale(full_figure_path, figure_json)
 
         return figure_json
     
