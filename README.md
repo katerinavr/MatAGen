@@ -6,76 +6,23 @@ conda activate mmatagen
 pip install -r requirements.txt
 pip install -e .
 
-
-You can your project and its dependencies using commands like:
+## Add your LLM credentials
+Create a file: src/matagen/config/settings.py
+and add your keys:
 ```
-pip install . (Install core package)
-pip install .[ui] (Install core + UI dependencies)
-pip install -e .[dev,ui] (Install in editable mode with dev and UI dependencies - recommended for development)
-```
-
-## Run the app
-```
-panel serve app.py --autoreload --show
+OPENAI_API_KEY = ""
+anthropic_api_key = ""
 ```
 
-## Project Structure
-```text
-.
-├── .env.example
-├── .gitignore
-├── LICENSE
-├── README.md
-├── data              # Example input data
-│   ├── absorption_spectra_plots
-│   ├── html_folder
-│   ├── pdf_examples
-│   ├── test_files
-│   └── xml_examples
-├── notebooks         # Demo notebooks
-│   └── ...
-├── pyproject.toml
-├── requirements.txt
-├── src
-│   └── matagen       # Core library package
-│       ├── __init__.py
-│       ├── agents        # AutoGen agent definitions
-│       │   └── ...
-│       ├── analysis      # Data analysis/extraction tools
-│       │   └── ...
-│       ├── config        # Configuration loading
-│       │   └── ...
-│       ├── custom_tools_drop # Contains modified external tools? Review placement.
-│       │   ├── __init__.py
-│       │   └── external_tools
-│       ├── scraping      # Data scraping tools
-│       │   ├── __init__.py
-│       │   └── html_scraper.py # ...
-│       └── utils         # Generic utility functions
-│           └── __init__.py
-├── tests             # Tests for matagen
-│   └── ...
-└── ui                # Panel web application
-    ├── __init__.py
-    └── app.py
+## Load pretrained weights for the Computer Vision models
+By running the following scripts a checkpoints folder will be created in the main directory with the pretrained weights for the vision model.
 ```
-
-**Key Directories:**
-
-* `src/matagen/`: Core Python library code for scraping, analysis, and agent logic.
-* `ui/`: Contains the Panel web application code (`app.py`).
-* `data/`: Example input data files (HTML, PDF).
-* `notebooks/`: Jupyter notebooks for demonstrations and experiments.
-* `outputs/`: Default location for generated files (logs, JSON results, images). (Ignored in the tree above by default).
-* `tests/`: Unit and integration tests for the `matagen` library.
-* `requirements.txt`: Project dependencies.
-* `.env.example`: Template for required environment variables (API keys).
-* `matagen/agents`: for defining the agents
-* `matagen/analysis`: for data analysis tools
-* `matagen/scraping`: for scraping tools
- matagen/utils: for generic helper functions
-
-
+python src/matagen/utils/load_pretrained_yolo.py
+```
+If you want to perform absorption spectra digitalization you also need to also download the following weights.
+```
+python src/matagen/utils/load_pretrained_plot2spectra.py
+```
 
 ## Notebooks
 

@@ -269,16 +269,7 @@ def create_multimodal_chromadb(outputs_folder:str, json_file_name:str,
     print(f"Total execution time: {end_time - start_time:.2f} seconds")
     print(f"ChromaDB data is stored in: {chroma_db_dir}")
 
-    # # --- Note on Querying ---
-    # print("\n--- Querying Note ---")
-    # print("To query this data:")
-    # print("1. Use collection.query(query_texts=['Your question...'], n_results=N, include=['metadatas', 'documents'])")
-    # print("2. The results will contain text chunks and/or image captions.")
-    # print("3. To display an image related to a result, check if result metadata['type'] == 'image_caption'.")
-    # print("4. If it is, retrieve the image path from result metadata['original_uri'].")
-    # print("5. Optionally, pass the retrieved documents to an LLM for generating a final answer.")
-
-
+ 
 if __name__ == "__main__":
     outputs_folder = "pdf_papers"
     json_file_name = "retrieved_image_caption_pairs.json"  # Name of the JSON file inside OUTPUTS_FOLDER

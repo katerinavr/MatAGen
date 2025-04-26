@@ -8,7 +8,9 @@ src/matagen/exsclaim
 src/matagen/custom_tools_drop
 outputs
 data
-notebooks
+notebooks_example
+src/matagen/analysis/my_multimodal_chroma_db
+src/matagen/config/settings.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
