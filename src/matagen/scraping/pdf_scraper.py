@@ -26,7 +26,15 @@ def pdf_scraper_tool(pdf_file_path: str, output_dir:str, paper_name:str, api_key
         figure_separator=True,
         caption_distributor=True,
         journal_scraper=False,
-        pdf_scraper=True,
+        pdf_scraper=False,
         driver=None
     )
     return results
+
+
+if __name__ == "__main__":
+    api_key = ""
+    pdf_file_path = r"C:\Users\kvriz\Desktop\DataMiningAgents\outputs\ecps_run\temp"
+    output_dir = r"C:\Users\kvriz\Desktop\DataMiningAgents\outputs\ecps_run\acs.chemmater.9b01293"
+    paper_name = "acs.chemmater.9b01293"
+    pdf_scraper_tool(pdf_file_path, output_dir, paper_name, api_key)

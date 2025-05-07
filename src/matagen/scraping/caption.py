@@ -46,7 +46,30 @@ def separate_captions(caption, api, llm):
     client = OpenAI(
     api_key=api,
     )
-    caption_prompt = f"Please separate the given full caption into the exact subcaptionsand format as a dictionary with keys the letter of each subcaption. If there is no full caption then return an empty dictionary. Do not hallucinate \n{caption}"
+    caption_prompt = f"""Given the following full figure caption, split it into its individual subcaptions and return the result as a dictionary.
+
+    Instructions:
+    1. Strictly return only the dictionary, without any additional text or explanation or JSON formatting.
+    1. Each dictionary key should be the subfigure label (e.g., "a", "b", "c", etc.).
+    2. If the input caption is empty or contains no subcaptions, return an empty dictionary.
+    3. Correct any encoding issues, especially with Greek letters, and ensure all characters are properly displayed using UTF-8.
+    4. Each subcaption should be grammatically correct and preserve the full meaning of the original caption.
+
+    Example:
+    Input:
+    "Figure 9. Spectroelectrochemistry and photography of mixtures of xyz211 and xyz122 at ratios of 
+    (a) 1:1 and (b) 2:1. The applied potential was increased in 100 mV steps between the fully colored and 
+    bleached states in 0.5 M TBAPF6/PC. The photographs were taken from −600 to 1000 mV in 200 mV steps to 
+    show the progression of the color change as a function of applied potential."
+
+    Output:
+    {{
+        "a": "Spectroelectrochemistry and photography of mixtures of xyz211 and xyz122 at ratios of 1:1. The applied potential was increased in 100 mV steps between the fully colored and bleached states in 0.5 M TBAPF6/PC. The photographs were taken from −600 to 1000 mV in 200 mV steps to show the progression of the color change as a function of applied potential.",
+        "b": "Spectroelectrochemistry and photography of mixtures of xyz211 and xyz122 at ratios of 2:1. The applied potential was increased in 100 mV steps between the fully colored and bleached states in 0.5 M TBAPF6/PC. The photographs were taken from −600 to 1000 mV in 200 mV steps to show the progression of the color change as a function of applied potential."
+    }}
+    Caption:
+    {caption}
+    """
 
     completion = client.chat.completions.create(
       model = 'gpt-4o',
@@ -57,23 +80,23 @@ def separate_captions(caption, api, llm):
     )
     output_string = completion.choices[0].message.content
     print('output_string', output_string)
-    pattern = r'```python\s*(.*?)\s*```'
-    match = re.search(pattern, output_string, re.DOTALL)
+    # pattern = r'```(?:json|python)?\s*(.*?)\s*```'
+    # match = re.search(pattern, output_string, re.DOTALL)
 
-    if match:
-        json_str = match.group(1).strip()  # Extract the text inside the code block
-        try:
-            # Load the string as JSON
-            output_dict = json.loads(json_str)
-            print("Successfully parsed dictionary:", output_dict)
-        except json.JSONDecodeError as e:
-            print("JSON decoding failed:", e)
-            output_dict = None
-    else:
-        print("No JSON dictionary found in the string.")
+    # if match:
+    #     json_str = match.group(1).strip()  # Extract the text inside the code block
+    try:
+        # Load the string as JSON
+        output_dict = json.loads(output_string)
+        print("Successfully parsed dictionary:", output_dict)
+    except json.JSONDecodeError as e:
+        print("JSON decoding failed:", e)
         output_dict = None
+    # else:
+    #     print("No JSON dictionary found in the string.")
+    #     output_dict = None
 
-  return output_dict
+  return output_dict #output_string #output_dict
 
 
 def get_keywords(caption, api, llm):

@@ -2351,7 +2351,27 @@ def plot_extracted_data(data_dictionary, y_in_data_units=True):
 
 if __name__ == "__main__":
 
-    image_path = r"outputs\ecps_run\adma200800280\adma200800280\images_folder\page_3_img_3_a.jpg" 
+    # image_path = r"C:\Users\kvriz\Desktop\DataMiningAgents\outputs\ecps_run\acs.macromol.6b01114\acs.macromol.6b01114\images_folder\page_4_img_1_a.jpg"
+    # image_path = r"C:\Users\kvriz\Desktop\DataMiningAgents\outputs\ecps_run\acs.macromol.6b01114\acs.macromol.6b01114\images_folder\page_4_img_1_b.jpg"
+
+    # image_path = r"C:\Users\kvriz\Desktop\DataMiningAgents\outputs\ecps_run\acs.macromol.6b01763\acs.macromol.6b01763\images_folder\page_5_img_1_a.jpg"
+    
+    # image_path = r"C:\Users\kvriz\Desktop\DataMiningAgents\outputs\ecps_run\acs.macromol.8b01789\acs.macromol.8b01789\images_folder\page_3_img_1_b.jpg" 
+    # image_path = r"C:\Users\kvriz\Desktop\DataMiningAgents\outputs\ecps_run\acsmacrolett.6b00250\acsmacrolett.6b00250\images_folder\page_2_img_1_a.jpg"
+    # image_path = r"C:\Users\kvriz\Desktop\DataMiningAgents\outputs\ecps_run\adma.201002234\adma.201002234\images_folder\page_2_img_4_0.jpg"#
+    # image_path = r"C:\Users\kvriz\Desktop\DataMiningAgents\outputs\ecps_run\adma200800280\adma200800280\images_folder\page_3_img_3_a.jpg" 
+    # image_path = r"C:\Users\kvriz\Desktop\DataMiningAgents\outputs\ecps_run\adma200902917\adma200902917\images_folder\page_2_img_1_b.jpg"
+
+    image_path = r"C:\Users\kvriz\Desktop\DataMiningAgents\outputs\ecps_run\adom.201800594\adom.201800594\images_folder\page_4_img_1_a.jpg"
+    #C:\Users\kvriz\Desktop\DataMiningAgents\outputs\ecps_run\adom.201800594\adom.201800594\images_folder\page_4_img_1_b.jpg"
+    # image_path = r"C:\Users\kvriz\Desktop\DataMiningAgents\outputs\ecps_run\adom.201800594\adom.201800594\images_folder\page_4_img_1_c.jpg"
+
+    # image_path = r"outputs\ecps_run\adma200800280\adma200800280\images_folder\page_3_img_3_a.jpg" 
+    #C:\Users\kvriz\Desktop\DataMiningAgents\outputs\ecps_run\acs.chemmater.9b01293\acs.chemmater.9b01293\images_folder\page_6_img_2_a.jpg"
+    #C:\Users\kvriz\Desktop\DataMiningAgents\outputs\ecps_run\acs.chemmater.9b01293\acs.chemmater.9b01293\images_folder\page_6_img_2_b.jpg"
+    # image_path = r"C:\Users\kvriz\Desktop\DataMiningAgents\outputs\ecps_run\acs.chemmater.9b01293\acs.chemmater.9b01293\images_folder\page_6_img_1_b.jpg"
+    #r"C:\Users\kvriz\Desktop\DataMiningAgents\outputs\ecps_run\acs.chemmater.9b01293\acs.chemmater.9b01293\images_folder\page_6_img_2_c.jpg"
+    
 
     final_dict = get_plot_data_dict_hybrid(image_path, axis_align_opt, plot_extract_opt)
        

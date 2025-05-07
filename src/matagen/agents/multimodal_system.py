@@ -16,7 +16,7 @@ from pathlib import Path
 import pandas as pd
 import types
 from openai.resources.chat.completions import Completions
-
+from matagen.config.settings import OPENAI_API_KEY, anthropic_api_key
 """
 Multi-agent system for scientific literature analysis and data extraction.
 This module implements a system of agents that work together to analyze scientific papers,
@@ -157,6 +157,7 @@ class MultimodalAnalysisSystem:
 
     def __init__(self, config: ModelConfig):
         self.config = config
+        # self._register_tools()
         self.setup_agents()
         self._setup_group_chat()
         # self.process_dataset()
@@ -165,12 +166,12 @@ class MultimodalAnalysisSystem:
         """Initializes and configures all agents in the system."""
 
         # Initialize the journal scraping assistant agent
-        self.journal_scraping_assistant = ConversableAgent(
-            name="multimodal_data_assistant",
-            system_message="""Multimodal data retrieval assistant for scientific papers.
-            Ensures sequential task completion. Returns 'TERMINATE' when tasks are complete.""",
-            llm_config=self.config.get_gpt4_config(),
-        )
+        # self.journal_scraping_assistant = ConversableAgent(
+        #     name="multimodal_data_assistant",
+        #     system_message="""Multimodal data retrieval assistant for scientific papers.
+        #     Ensures sequential task completion. Returns 'TERMINATE' when tasks are complete.""",
+        #     llm_config=self.config.get_gpt4_config(),
+        # )
 
         # Initialize multimodal agent
         self.multimodal_agent = MultimodalConversableAgent(
@@ -193,12 +194,12 @@ class MultimodalAnalysisSystem:
         )
 
         # Register functions to agents
-        register_function(html_scraper_tool, 
-            caller=self.journal_scraping_assistant,
-            executor=self.admin,
-            name="Paper_Scraper",
-            description="Scrape HTML files for multimodal (image and text) data extraction. The final results will be saved in a JSON file named retrieved_image_caption_pairs.json and is located inside the html-scraping folder."
-        )
+        # register_function(html_scraper_tool, 
+        #     caller=self.journal_scraping_assistant,
+        #     executor=self.admin,
+        #     name="Paper_Scraper",
+        #     description="Scrape HTML files for multimodal (image and text) data extraction. The final results will be saved in a JSON file named retrieved_image_caption_pairs.json and is located inside the html-scraping folder."
+        # )
 
         def process_dataset_wrapper(json_file_name: str = None) -> Dict:
             """Wrapper function to call the class method process_dataset"""
@@ -226,7 +227,7 @@ class MultimodalAnalysisSystem:
         Args:
             json_file: Path to the JSON file containing the dataset
         """
-        json_file = Path(f"html_scraping/{json_file_name}") #
+        json_file = json_file_name #
         try:
             with open(json_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
@@ -259,7 +260,7 @@ class MultimodalAnalysisSystem:
     def _setup_group_chat(self):
         """Set up group chat and manager."""
         self.groupchat = autogen.GroupChat(
-            agents=[self.admin, self.journal_scraping_assistant, self.multimodal_agent],
+            agents=[self.admin,  self.multimodal_agent], #self.journal_scraping_assistant,
             messages=[],
             max_round=20,
             select_speaker_auto_llm_config=self.config.get_gpt4_config(),
@@ -304,15 +305,17 @@ def main():
         )
         
         system = MultimodalAnalysisSystem(config_models)      
+        # classifier = ImageClassifier()
+        # classifier.classify_image
+        system.process_dataset(json_file_name=r"C:\Users\kvriz\Desktop\DataMiningAgents\outputs\ecps_run\acs.chemmater.9b01293\acs.chemmater.9b01293\retrieved_image_caption_pairs.json")
 
-        task = """
-        "Extract the images and text from the files in the html_folder." \
-        "Use the appropriate functions to classify the scientific images based on both the image and caption and extract the metadata."\
-        """
+        # task = """
+        # "Use the appropriate functions to classify the scientific images based on both the image and caption and extract the metadata."\
+        # """
         
-        # Start the chat with the task
-        chat_result = system.initiate_chat(task)
-        logger.info(f"Chat completed. Result: {chat_result}")
+        # # Start the chat with the task
+        # chat_result = system.initiate_chat(task)
+        # logger.info(f"Chat completed. Result: {chat_result}")
         
     except Exception as e:
         logger.critical(f"Application failed: {e}", exc_info=True)
