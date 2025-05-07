@@ -26,7 +26,7 @@ def pdf_scraper_tool(pdf_file_path: str, output_dir:str, paper_name:str, api_key
         figure_separator=True,
         caption_distributor=True,
         journal_scraper=False,
-        pdf_scraper=False,
+        pdf_scraper=True,
         driver=None
     )
     return results
